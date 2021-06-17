@@ -1,0 +1,3 @@
+/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build/CommNavigationObjectsConfigVersion.cmake
+/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build/CommNavigationObjectsConfig.cmake
+/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build/CommNavigationObjectsTargets.cmake

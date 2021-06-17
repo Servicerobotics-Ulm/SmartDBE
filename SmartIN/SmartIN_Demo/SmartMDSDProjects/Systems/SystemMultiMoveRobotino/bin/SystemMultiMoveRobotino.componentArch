@@ -1,0 +1,40 @@
+SystemComponentArchitecture SystemMultiMoveRobotino
+{
+ComponentInstance SafetyOfficer instantiates SmartJoystickServer
+	{
+		ProvidedService JoystickServcieOut
+	}
+	ComponentInstance RobotOperator instantiates SmartJoystickServer
+	{
+		ProvidedService JoystickServcieOut
+	}
+	ComponentInstance SJMan instantiates SmartJoystickManager
+	{
+		RequiredService JoystickServiceIn_1
+		RequiredService JoystickServiceIn_2
+		RequiredService JoystickServiceIn_3
+		RequiredService JoystickServiceIn_4
+		RequiredService JoystickServiceIn_5
+		ProvidedService JoystickServiceOut
+	}
+	ComponentInstance SJNav instantiates SmartJoystickNavigation
+	{
+		RequiredService JoystickServiceIn
+		RequiredService NavVelServiceOut
+	}
+	ComponentInstance WebotsLink instantiates ComponentWebots
+	{
+	}
+	ComponentInstance Robotino instantiates ComponentWebotsMobileRobot
+	{
+		RequiredService LocalizationEventServiceIn
+		ProvidedService BaseStateServiceOut
+		ProvidedService NavigationVelocityServiceIn
+		ProvidedService LocalizationUpdateServiceIn
+		ProvidedService BaseStateQueryServiceAnsw
+	}
+	Connection SJMan.JoystickServiceIn_1 -> SafetyOfficer.JoystickServcieOut
+	Connection SJNav.JoystickServiceIn -> SJMan.JoystickServiceOut
+	Connection SJNav.NavVelServiceOut -> Robotino.NavigationVelocityServiceIn
+	Connection SJMan.JoystickServiceIn_2 -> RobotOperator.JoystickServcieOut
+}

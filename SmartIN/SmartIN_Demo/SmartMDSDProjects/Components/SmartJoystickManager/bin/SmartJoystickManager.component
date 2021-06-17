@@ -1,0 +1,22 @@
+ComponentDefinition SmartJoystickManager {
+	Activity JoystickManTask
+	{
+	InputPortLink JoystickServiceIn_1 { oversamplingOk undersamplingOk }
+		InputPortLink JoystickServiceIn_2 { oversamplingOk undersamplingOk }
+		InputPortLink JoystickServiceIn_3 { oversamplingOk undersamplingOk }
+		InputPortLink JoystickServiceIn_4 { oversamplingOk undersamplingOk }
+		InputPortLink JoystickServiceIn_5 { oversamplingOk undersamplingOk }
+	}
+	OutputPort JoystickServiceOut implements CommBasicObjects.JoystickService realizedBy JoystickManTask {
+	}
+	InputPort JoystickServiceIn_1 implements CommBasicObjects.JoystickService {
+	}
+	InputPort JoystickServiceIn_2 implements CommBasicObjects.JoystickService {
+	}
+	InputPort JoystickServiceIn_3 implements CommBasicObjects.JoystickService {
+	}
+	InputPort JoystickServiceIn_4 implements CommBasicObjects.JoystickService {
+	}
+	InputPort JoystickServiceIn_5 implements CommBasicObjects.JoystickService {
+	}
+}

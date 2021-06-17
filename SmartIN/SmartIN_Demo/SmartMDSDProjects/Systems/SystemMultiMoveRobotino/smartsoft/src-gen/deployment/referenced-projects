@@ -1,0 +1,9 @@
+# This file is generated using the SmartMDSD Toolchain.
+# Any changes will be overwritten next time the deployment project
+# is deployed/run from within the SmartMDSD toolchain.
+
+REFERENCED_PROJECT_ComponentWebots="/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Components/ComponentWebots"
+REFERENCED_PROJECT_ComponentWebotsMobileRobot="/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Components/ComponentWebotsMobileRobot"
+REFERENCED_PROJECT_SmartJoystickManager="/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Components/SmartJoystickManager"
+REFERENCED_PROJECT_SmartJoystickNavigation="/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Components/SmartJoystickNavigation"
+REFERENCED_PROJECT_SmartJoystickServer="/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Components/SmartJoystickServer"

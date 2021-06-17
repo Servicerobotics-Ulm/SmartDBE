@@ -1,0 +1,6 @@
+components//latest/SmartJoystickServer/SafetyOfficer
+components//latest/SmartJoystickServer/RobotOperator
+components/ed8ae02e-072c-47d0-9a31-b8e0408f7205/latest/SmartJoystickManager/SJMan
+components/6ccf8904-6dbc-4bbb-a63c-eefa98d55315/latest/SmartJoystickNavigation/SJNav
+components/ce94c4fc-8506-46c8-9411-f8b5050d52bc/latest/ComponentWebots/WebotsLink
+components//latest/ComponentWebotsMobileRobot/Robotino

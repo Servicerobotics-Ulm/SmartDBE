@@ -1,0 +1,220 @@
+SkillDefinitionRepository CommNavigationObjects {
+	
+	CoordinationModuleDefinition MobileBaseModule {
+		
+		SkillDefinition getBasePose {
+			out {
+				x : Double
+				y : Double
+				yaw : Double
+			}
+			results {
+				SUCCESS value = "OK"
+			}
+		}
+		
+		SkillDefinition getBaseCharging {
+			out {
+				charging : Boolean
+			}
+			results {
+				SUCCESS value = "OK"
+			}
+		}
+		
+		SkillDefinition resetBase {
+			results {
+				SUCCESS value = "OK"
+			}
+		}
+	}
+
+
+
+	CoordinationModuleDefinition NavigationModule {
+		
+		SkillDefinition setNavigationNeutral {
+			results {
+				SUCCESS value = ""
+			}
+		}
+
+		/*
+		 * approach location (id, resolved using knowledge-base)
+		 */
+		SkillDefinition approachLocation {
+			in {
+				locationId : Int32
+			}
+			
+			results	 {
+				ERROR value = "UNKNOWN LOCATION";
+				ERROR value = "ROBOT BLOCKED";
+				SUCCESS value = "OK";
+				SUCCESS value = "";
+			}
+		}
+		
+		// ///////////////////////////////////////////
+		// MAP HANDLING
+		
+		SkillDefinition loadNavigationMap {
+			in {
+				map : String
+			}
+			results {
+				SUCCESS value = "OK"
+				ERROR value = "MAP NOT FOUND"	
+			}
+		}
+		
+		SkillDefinition initNavigation { 
+			results {
+				SUCCESS value = "OK"
+			}
+		}
+			
+		// ///////////////////////////////////////////
+		// MOVE ROBOT 
+		
+		SkillDefinition moveRobotPosition{
+			//(tcb-move-robot 'plain ?x ?y ?radius)
+			in {
+				x : Double
+				y : Double
+				approachRadius : Double	
+			} 
+			results {
+				ERROR value = "UNKNOWN LOCATION";
+				ERROR value = "ROBOT BLOCKED";
+				SUCCESS value = "OK";
+				SUCCESS value = "";
+			}
+		}
+	
+		SkillDefinition moveRobotOrientateRobotAbs{
+			//(tcb-move-robot 'orientate-angle-absolute ?angle-deg)
+			in {
+				angleDeg : Double	
+			} 
+			results {
+				ERROR value = "UNKNOWN LOCATION";
+				ERROR value = "ROBOT BLOCKED";
+				SUCCESS value = "OK";
+				SUCCESS value = "";
+			}
+		}
+		
+		SkillDefinition moveRobotOrientateRobotRel{
+			//(tcb-move-robot 'orientate-angle-relative ?angle-deg)
+			in {
+				angleDeg : Double	
+			} 
+			results {
+				ERROR value = "UNKNOWN LOCATION";
+				ERROR value = "ROBOT BLOCKED";
+				SUCCESS value = "OK";
+				SUCCESS value = "";
+			}
+		}
+		
+		
+		SkillDefinition moveRobotBackwardsRelative {
+			in {
+				dist : Double	
+			} 
+			results {
+				ERROR value = "UNKNOWN LOCATION";
+				ERROR value = "ROBOT BLOCKED";
+				SUCCESS value = "OK";
+				SUCCESS value = "";
+			}
+		}
+		
+		SkillDefinition moveRobotBackwardsLocation {
+			//(tcb-move-robot 'backward-abs ?dist)
+			in {
+				locationID : Int32	
+			} 
+			results {
+				ERROR value = "UNKNOWN LOCATION";
+				ERROR value = "ROBOT BLOCKED";
+				SUCCESS value = "OK";
+				SUCCESS value = "";
+			}
+		}
+		
+		// MOVE ROBOT 
+		// ///////////////////////////////////////////
+		
+		
+		
+		SkillDefinition startReactiveNavigation {
+			//(tcb-reactive-navigation)
+			results	 {
+				SUCCESS value = "OK";
+			}
+		}
+		
+		SkillDefinition stopReactiveNavigation {
+			//(tcb-reactive-navigation)
+			results	 {
+				SUCCESS value = "OK";
+			}
+		}
+		
+		SkillDefinition startJoystickNavigation {
+			//(tcb-joystick-navigation)
+			results	 {
+				SUCCESS value = "OK";
+			}
+		}
+		
+		SkillDefinition stopJoystickNavigation {
+			//(tcb-joystick-navigation)
+			results	 {
+				SUCCESS value = "OK";
+			}
+		}
+		
+		SkillDefinition approachWall {
+			//(tcb-approach-wall)
+			results {
+				ERROR value = "WALL NOT FOUND"
+				SUCCESS value = ""				
+			}
+		}
+
+	}
+	
+	
+	CoordinationModuleDefinition CorridorFleetNavigationModule {
+		
+		SkillDefinition setNavigationNeutral {
+			results {
+				SUCCESS value = ""
+			}
+		}
+
+		/*
+		 * approach location (id, resolved using knowledge-base)
+		 */
+		SkillDefinition approachLocation {
+			in {
+				locationId : Int32
+			}
+			
+			results	 {
+				ERROR value = "UNKNOWN LOCATION";
+				ERROR value = "ROBOT BLOCKED";
+				SUCCESS value = "OK";
+				SUCCESS value = "";
+			}
+		}
+	}
+	
+	
+	CoordinationModuleDefinition RobotDockingModule {
+		
+	}
+}

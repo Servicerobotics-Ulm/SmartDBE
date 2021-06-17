@@ -1,0 +1,13 @@
+{
+	"name": "SystemMultiMoveRobotino",
+	"shortDescription": "A short description for the SystemMultiMoveRobotino datasheet",
+	"type": "Toolify",
+	"description": "",
+	"purposes": ["Example"],
+	"supplier": "No supplier specified",
+	"homepage": "http://www.example.com",
+	"variationPoints": [
+	],
+	"systemVariants": [
+	]
+}

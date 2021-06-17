@@ -1,0 +1,26 @@
+ComponentDocumentation ComponentWebotsMobileRobot {
+
+	Description : "A generic driver for robots in the webots simulator with differential or omnidirectional drive."
+	License : "LGPL"
+	HardwareRequirements : "-"
+	Purpose : "Software-driver"
+	
+	
+	ComponentPort  LocalizationUpdateServiceIn {
+		Description : "Port for corrections of base pose to overcome the odometry failure. Accepts a pair of an old uncorrected pose and a new corrected pose. The deviation between these two poses is applied to correct the current pose of the robot."
+	}
+	ComponentPort NavigationVelocityServiceIn {
+		Description : "Sets a target front/back speed in m/s and turning speed in radians/s (and left/right speed for an omnidirectional drive). The actual speed is changed regarding the robots max speed and acceleration."
+	}
+	ComponentPort BaseStateServiceOut {
+		Description : "Push the base state containing current information about the robot's velocity, pose, raw pose. Should be used when a continuous base pose is required. For example, the SmartLaserLMS200Server uses the latest base pose (received continuously) to stamp the laser scan with the robot's pose at the time the scan was recorded."
+	}
+	CoordinationSlavePort CoordinationPort {
+		ParameterPort : "Accept parameters at runtime. See section Parameters."
+	}
+	ComponentPort BaseStateQueryServiceAnsw {
+		Description : "Query port to request the base state. Analogous to basePositionPushTimedServer, but a query service. Should be used when the base pose is needed sporadically, for example by a behavior component which explicitly needs to query the base pose from time to time."
+	}
+	
+
+}
