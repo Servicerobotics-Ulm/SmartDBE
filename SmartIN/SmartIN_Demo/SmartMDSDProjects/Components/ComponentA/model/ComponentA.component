@@ -1,0 +1,41 @@
+ComponentDefinition ComponentA logo "/ComponentA/model/logo.png"
+{
+Activity EventManager
+	{
+		InputPortLink Event_Listener { oversamplingOk undersamplingOk }
+	}
+	InputPort Event_Listener implements SmartInstitutions_ServiceRepository.SmartIN_Event {
+	}
+	OutputPort Event_Creator implements SmartInstitutions_ServiceRepository.SmartIN_Event realizedBy EventManager {
+	}
+	AnswerPort Report_QueryReply implements SmartInstitutions_ServiceRepository.SmartIN_Enforcement_Report_Query {
+	}
+	RequestHandler Report_Query_Handler triggeredFrom Report_QueryReply {
+	}
+	Activity ComplianceManager
+	{
+		InputPortLink EnforcementInstruction_Push { oversamplingOk undersamplingOk }
+		InputPortLink EnforcementInstruction_Send { oversamplingOk undersamplingOk }
+	}
+	AnswerPort Enforcement_QueryReply implements SmartInstitutions_ServiceRepository.SmartIN_Enforcement_Query {
+	}
+	RequestHandler Enforcement_Query_Handler triggeredFrom Enforcement_QueryReply {
+	}
+	OutputPort EnforcementReport_Push implements SmartInstitutions_ServiceRepository.SmartIN_EnforcementReportPackage_Push realizedBy ComplianceManager {
+	}
+	OutputPort EnforcementReply_Push implements SmartInstitutions_ServiceRepository.SmartIN_EnforcementReplyPackage_Push realizedBy ComplianceManager {
+	}
+	InputPort EnforcementInstruction_Push implements SmartInstitutions_ServiceRepository.SmartIN_EnforcementInstructionPackage_Push {
+	}
+	InputPort EnforcementInstruction_Send implements SmartInstitutions_ServiceRepository.SmartIN_EnforcementInstructionPackage_Send {
+	}
+	OutputPort EnforcementReport_Send implements SmartInstitutions_ServiceRepository.SmartIN_EnforcementReportPackage_Send realizedBy ComplianceManager {
+	}
+	OutputPort EnforcementReply_Send implements SmartInstitutions_ServiceRepository.SmartIN_EnforcementReplyPackage_Send realizedBy ComplianceManager {
+	}
+	Activity ComponentActivity
+	{
+	}
+	OutputPort TrafficLightsServiceOut implements CommBasicObjects.TrafficLightsService realizedBy ComponentActivity {
+	}
+}

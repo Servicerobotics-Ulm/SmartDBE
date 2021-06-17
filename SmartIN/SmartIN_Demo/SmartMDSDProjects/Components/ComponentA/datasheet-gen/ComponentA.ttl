@@ -1,0 +1,195 @@
+# baseURI: http://www.servicerobotik-ulm.de/ComponentsAndSystems#ComponentA
+# imports: http://robmosys.eu/rdf/composition-structures
+# imports: http://seronet-projekt.de/models/t2#Navigation
+
+# imports: http://www.servicerobotik-ulm.de/DomainModels/CommBasicObjects
+# imports: http://www.servicerobotik-ulm.de/DomainModels/SmartInstitutions_ServiceRepository
+
+#######################################
+# Technical Data Sheet
+# for a SeRoNet Software Component as 
+# exported by the SmartMDSD Toolchain
+#
+# erste Zeile des .ttl muss enthalten: "# ComponentID: <id uri>"
+# This file will be placed in:
+# <componentName>/datasheet-gen/<componentName>.ttl
+#######################################
+
+# all generated files use these prefixes
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix t1: <http://seronet-projekt.de/models/t1#> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix spdx-lic: <http://spdx.org/licenses/> .
+
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# TODO past “Durchstich”: exactly identify which elements belong to SeRoNet and which belong to RobMoSys
+@prefix robmosys: <http://robmosys.eu/rdf/composition-structures#> .
+
+# these namespaces can be different in generated files
+@prefix t3: <http://www.servicerobotik-ulm.de/ComponentsAndSystems#> .
+
+@prefix CommBasicObjects: <http://www.servicerobotik-ulm.de/DomainModels/CommBasicObjects#> .
+@prefix SmartInstitutions_ServiceRepository: <http://www.servicerobotik-ulm.de/DomainModels/SmartInstitutions_ServiceRepository#> .
+
+##### Software Component ComponentA
+# see https://robmosys.eu/wiki/modeling:metamodels:component
+t3:ComponentA a robmosys:ComponentDefinition;
+	a owl:Ontology ;
+	owl:imports <http://robmosys.eu/rdf/composition-structures> ;
+	owl:imports <http://www.servicerobotik-ulm.de/DomainModels/CommBasicObjects> ;
+	owl:imports <http://www.servicerobotik-ulm.de/DomainModels/SmartInstitutions_ServiceRepository> ;
+	
+	# Human readable name of this component
+	# Equals with the project name
+	rdfs:label "ComponentA";
+
+	# Abstract. 1-sentence, very brief, description about this component.
+	t1:shortDescription "A short description for the ComponentA datasheet";
+
+	
+	# DatasheetProperty Supplier
+	t1:supplierDescription "No supplier specified";
+	# The webpage with additional information about this component
+	t1:homepage "http://www.example.com"^^xsd:anyURI;
+	# DatasheetProperty Purpose
+	t1:purposeDescription "Example";
+
+	# Services this component provides or requires
+	# ComponentPort Event_Listener
+	t1:requiredService t3:ComponentA_Event_Listener;
+	# ComponentPort Event_Creator
+	t1:providedService t3:ComponentA_Event_Creator;
+	# ComponentPort Report_QueryReply
+	t1:providedService t3:ComponentA_Report_QueryReply;
+	# ComponentPort Enforcement_QueryReply
+	t1:providedService t3:ComponentA_Enforcement_QueryReply;
+	# ComponentPort EnforcementReport_Push
+	t1:providedService t3:ComponentA_EnforcementReport_Push;
+	# ComponentPort EnforcementReply_Push
+	t1:providedService t3:ComponentA_EnforcementReply_Push;
+	# ComponentPort EnforcementInstruction_Push
+	t1:requiredService t3:ComponentA_EnforcementInstruction_Push;
+	# ComponentPort EnforcementInstruction_Send
+	t1:providedService t3:ComponentA_EnforcementInstruction_Send;
+	# ComponentPort EnforcementReport_Send
+	t1:requiredService t3:ComponentA_EnforcementReport_Send;
+	# ComponentPort EnforcementReply_Send
+	t1:requiredService t3:ComponentA_EnforcementReply_Send;
+	# ComponentPort TrafficLightsServiceOut
+	t1:providedService t3:ComponentA_TrafficLightsServiceOut;
+.
+
+# a service definition usage. Here: provided service
+# see https://robmosys.eu/wiki/modeling:metamodels:component
+t3:ComponentA_Event_Listener 
+	rdf:type SmartInstitutions_ServiceRepository:SmartIN_Event ;
+	# name of this service definition as from the model
+	rdfs:label "Event_Listener";
+
+
+.
+
+# a service definition usage. Here: provided service
+# see https://robmosys.eu/wiki/modeling:metamodels:component
+t3:ComponentA_Event_Creator 
+	rdf:type SmartInstitutions_ServiceRepository:SmartIN_Event ;
+	# name of this service definition as from the model
+	rdfs:label "Event_Creator";
+
+
+.
+
+# a service definition usage. Here: provided service
+# see https://robmosys.eu/wiki/modeling:metamodels:component
+t3:ComponentA_Report_QueryReply 
+	rdf:type SmartInstitutions_ServiceRepository:SmartIN_Enforcement_Report_Query ;
+	# name of this service definition as from the model
+	rdfs:label "Report_QueryReply";
+
+
+.
+
+# a service definition usage. Here: provided service
+# see https://robmosys.eu/wiki/modeling:metamodels:component
+t3:ComponentA_Enforcement_QueryReply 
+	rdf:type SmartInstitutions_ServiceRepository:SmartIN_Enforcement_Query ;
+	# name of this service definition as from the model
+	rdfs:label "Enforcement_QueryReply";
+
+
+.
+
+# a service definition usage. Here: provided service
+# see https://robmosys.eu/wiki/modeling:metamodels:component
+t3:ComponentA_EnforcementReport_Push 
+	rdf:type SmartInstitutions_ServiceRepository:SmartIN_EnforcementReportPackage_Push ;
+	# name of this service definition as from the model
+	rdfs:label "EnforcementReport_Push";
+
+
+.
+
+# a service definition usage. Here: provided service
+# see https://robmosys.eu/wiki/modeling:metamodels:component
+t3:ComponentA_EnforcementReply_Push 
+	rdf:type SmartInstitutions_ServiceRepository:SmartIN_EnforcementReplyPackage_Push ;
+	# name of this service definition as from the model
+	rdfs:label "EnforcementReply_Push";
+
+
+.
+
+# a service definition usage. Here: provided service
+# see https://robmosys.eu/wiki/modeling:metamodels:component
+t3:ComponentA_EnforcementInstruction_Push 
+	rdf:type SmartInstitutions_ServiceRepository:SmartIN_EnforcementInstructionPackage_Push ;
+	# name of this service definition as from the model
+	rdfs:label "EnforcementInstruction_Push";
+
+
+.
+
+# a service definition usage. Here: provided service
+# see https://robmosys.eu/wiki/modeling:metamodels:component
+t3:ComponentA_EnforcementInstruction_Send 
+	rdf:type SmartInstitutions_ServiceRepository:SmartIN_EnforcementInstructionPackage_Send ;
+	# name of this service definition as from the model
+	rdfs:label "EnforcementInstruction_Send";
+
+
+.
+
+# a service definition usage. Here: provided service
+# see https://robmosys.eu/wiki/modeling:metamodels:component
+t3:ComponentA_EnforcementReport_Send 
+	rdf:type SmartInstitutions_ServiceRepository:SmartIN_EnforcementReportPackage_Send ;
+	# name of this service definition as from the model
+	rdfs:label "EnforcementReport_Send";
+
+
+.
+
+# a service definition usage. Here: provided service
+# see https://robmosys.eu/wiki/modeling:metamodels:component
+t3:ComponentA_EnforcementReply_Send 
+	rdf:type SmartInstitutions_ServiceRepository:SmartIN_EnforcementReplyPackage_Send ;
+	# name of this service definition as from the model
+	rdfs:label "EnforcementReply_Send";
+
+
+.
+
+# a service definition usage. Here: provided service
+# see https://robmosys.eu/wiki/modeling:metamodels:component
+t3:ComponentA_TrafficLightsServiceOut 
+	rdf:type CommBasicObjects:TrafficLightsService ;
+	# name of this service definition as from the model
+	rdfs:label "TrafficLightsServiceOut";
+
+
+.
+

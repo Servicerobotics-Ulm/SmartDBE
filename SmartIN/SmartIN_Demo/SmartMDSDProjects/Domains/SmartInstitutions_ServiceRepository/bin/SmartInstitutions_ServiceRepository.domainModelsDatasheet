@@ -1,0 +1,14 @@
+DomainModelsDatasheet SmartInstitutions_ServiceRepository
+{
+	BaseURI "http://www.servicerobotik-ulm.de"
+	ShortDescription "The SmartInstitutions_ServiceRepository Data Sheet"
+	DatasheetProperty Supplier {
+		value "SmartMDSD::SmartIN"
+	}
+	DatasheetProperty Homepage {
+		value "http://www.servicerobotik-ulm.de"
+	}
+	DatasheetProperty Purpose {
+		value "Encapsulates Domain Institution Types and Services"
+	}
+}

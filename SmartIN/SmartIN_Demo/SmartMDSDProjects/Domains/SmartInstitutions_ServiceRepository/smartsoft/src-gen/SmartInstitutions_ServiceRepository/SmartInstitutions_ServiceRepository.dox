@@ -1,0 +1,280 @@
+/** 
+\class SmartInstitutions_ServiceRepository::MemberIdentifierCore
+
+Structure of Communication Object:
+- id: UInt64 
+- name: String 
+- type: String 
+
+\class SmartInstitutions_ServiceRepository::InstitutionIdentifierCore
+
+Structure of Communication Object:
+- id: UInt64 
+- name: String 
+
+\class SmartInstitutions_ServiceRepository::InstitutionStatusCore
+
+Structure of Communication Object:
+- institute: SmartInstitutions_ServiceRepository::InstitutionIdentifier 
+- category: SmartInstitutions_ServiceRepository::InstitutionCategory 
+- type: SmartInstitutions_ServiceRepository::InstitutionType 
+- institutionMembers: SmartInstitutions_ServiceRepository::MemberIdentifier[*] 
+- institutionEnforcers: SmartInstitutions_ServiceRepository::MemberIdentifier[*] 
+- phase: SmartInstitutions_ServiceRepository::InstitutionPhase 
+- signed_at: CommBasicObjects::CommTimeStamp 
+- signed_by: SmartInstitutions_ServiceRepository::MemberIdentifier 
+
+\class SmartInstitutions_ServiceRepository::PackageIdentifierCore
+
+Structure of Communication Object:
+- id: UInt64 
+- timestampe: CommBasicObjects::CommTimeStamp 
+
+\class SmartInstitutions_ServiceRepository::EnforcementInstructionPackageCore
+
+Structure of Communication Object:
+- id: SmartInstitutions_ServiceRepository::PackageIdentifier 
+- to: SmartInstitutions_ServiceRepository::MemberIdentifier[*] 
+- from: SmartInstitutions_ServiceRepository::MemberIdentifier 
+- context: SmartInstitutions_ServiceRepository::InstitutionStatus 
+- instruction: SmartInstitutions_ServiceRepository::EnforcementInstruction 
+- ifCustom: String 
+
+\class SmartInstitutions_ServiceRepository::EnforcementReplyPackageCore
+
+Structure of Communication Object:
+- id: SmartInstitutions_ServiceRepository::PackageIdentifier 
+- replyingto: SmartInstitutions_ServiceRepository::PackageIdentifier 
+- to: SmartInstitutions_ServiceRepository::MemberIdentifier 
+- from: SmartInstitutions_ServiceRepository::MemberIdentifier 
+- context: SmartInstitutions_ServiceRepository::InstitutionStatus 
+- reply: String 
+
+\class SmartInstitutions_ServiceRepository::EnforcementReportPackageCore
+
+Structure of Communication Object:
+- id: SmartInstitutions_ServiceRepository::PackageIdentifier 
+- to: SmartInstitutions_ServiceRepository::MemberIdentifier[*] 
+- from: SmartInstitutions_ServiceRepository::MemberIdentifier 
+- report: SmartInstitutions_ServiceRepository::InstitutionStatus 
+- text: String 
+
+\class SmartInstitutions_ServiceRepository::SmartIN_CommandCore
+
+Structure of Communication Object:
+- msg: CommBasicObjects::CommTaskMessage 
+- commandID: UInt64 
+- command: String 
+
+\class SmartInstitutions_ServiceRepository::SmartIN_EventTypeCore
+
+Structure of Communication Object:
+- type: SmartInstitutions_ServiceRepository::SmartINPackageTypeEnums 
+
+\class SmartInstitutions_ServiceRepository::SmartIN_EventMessageCore
+
+Structure of Communication Object:
+- usetype: SmartInstitutions_ServiceRepository::SmartINPackageTypeEnums 
+- ifEnforcementInstructionPackage: SmartInstitutions_ServiceRepository::EnforcementInstructionPackage 
+- ifEnforcementReplyPackage: SmartInstitutions_ServiceRepository::EnforcementReplyPackage 
+- ifEnforcementReportPackage: SmartInstitutions_ServiceRepository::EnforcementReportPackage 
+
+\class SmartInstitutions_ServiceRepository::SmartIN_EventStateTypeCore
+
+Structure of Communication Object:
+- targets: SmartInstitutions_ServiceRepository::MemberIdentifier[*] 
+- message: SmartInstitutions_ServiceRepository::SmartIN_EventMessage 
+
+\class SmartInstitutions_ServiceRepository::InstitutionCategory
+
+Structure of Enumeration:
+- SINGLE_MEMBER_INSTITUTE 
+- PAIR_INSTITUTE 
+- STATIC_MULTI_INSTITUTE 
+- DYNAMIC_MULTI_INSTITUTE 
+
+\class SmartInstitutions_ServiceRepository::InstitutionType
+
+Structure of Enumeration:
+- TYPE0_USER_DEFINED 
+- TYPE1 
+- TYPE2 
+- TYPE3 
+- TYPE4 
+
+\class SmartInstitutions_ServiceRepository::InstitutionPhase
+
+Structure of Enumeration:
+- FORMATION 
+- FOUNDATION 
+- FULFILMENT 
+
+\class SmartInstitutions_ServiceRepository::EnforcementInstruction
+
+Structure of Enumeration:
+- START 
+- PAUSE 
+- STOP 
+- FORMED 
+- FOUNDED 
+- FULFILLED 
+- INFORM 
+- WARNING 
+- NOTICE 
+- EJECTED 
+- CUSTOM 
+
+\class SmartInstitutions_ServiceRepository::SmartINPackageTypeEnums
+
+Structure of Enumeration:
+- EnforcementInstructionPackage 
+- EnforcementReplyPackage 
+- EnforcementReportPackage 
+
+
+
+
+@defgroup SmartInstitutions_ServiceRepository
+@ingroup commObjGroup
+@{
+\page SmartInstitutions_ServiceRepositoryPage SmartInstitutions_ServiceRepository
+Class Reference: SmartInstitutions_ServiceRepository
+<hr>
+
+@section MemberIdentifier MemberIdentifier
+- id: UInt64  
+- name: String  
+- type: String  
+
+Class Reference: SmartInstitutions_ServiceRepository::MemberIdentifierCore
+<hr>
+@section InstitutionIdentifier InstitutionIdentifier
+- id: UInt64  
+- name: String  
+
+Class Reference: SmartInstitutions_ServiceRepository::InstitutionIdentifierCore
+<hr>
+@section InstitutionStatus InstitutionStatus
+- institute: @ref InstitutionIdentifier (CommObj) 
+- category: @ref InstitutionCategory (Enum) 
+- type: @ref InstitutionType (Enum) 
+- institutionMembers: @ref MemberIdentifier[*] (CommObj) 
+- institutionEnforcers: @ref MemberIdentifier[*] (CommObj) 
+- phase: @ref InstitutionPhase (Enum) 
+- signed_at: @ref CommTimeStamp (CommObj) 
+- signed_by: @ref MemberIdentifier (CommObj) 
+
+Class Reference: SmartInstitutions_ServiceRepository::InstitutionStatusCore
+<hr>
+@section PackageIdentifier PackageIdentifier
+- id: UInt64  
+- timestampe: @ref CommTimeStamp (CommObj) 
+
+Class Reference: SmartInstitutions_ServiceRepository::PackageIdentifierCore
+<hr>
+@section EnforcementInstructionPackage EnforcementInstructionPackage
+- id: @ref PackageIdentifier (CommObj) 
+- to: @ref MemberIdentifier[*] (CommObj) 
+- from: @ref MemberIdentifier (CommObj) 
+- context: @ref InstitutionStatus (CommObj) 
+- instruction: @ref EnforcementInstruction (Enum) 
+- ifCustom: String  
+
+Class Reference: SmartInstitutions_ServiceRepository::EnforcementInstructionPackageCore
+<hr>
+@section EnforcementReplyPackage EnforcementReplyPackage
+- id: @ref PackageIdentifier (CommObj) 
+- replyingto: @ref PackageIdentifier (CommObj) 
+- to: @ref MemberIdentifier (CommObj) 
+- from: @ref MemberIdentifier (CommObj) 
+- context: @ref InstitutionStatus (CommObj) 
+- reply: String  
+
+Class Reference: SmartInstitutions_ServiceRepository::EnforcementReplyPackageCore
+<hr>
+@section EnforcementReportPackage EnforcementReportPackage
+- id: @ref PackageIdentifier (CommObj) 
+- to: @ref MemberIdentifier[*] (CommObj) 
+- from: @ref MemberIdentifier (CommObj) 
+- report: @ref InstitutionStatus (CommObj) 
+- text: String  
+
+Class Reference: SmartInstitutions_ServiceRepository::EnforcementReportPackageCore
+<hr>
+@section SmartIN_Command SmartIN_Command
+- msg: @ref CommTaskMessage (CommObj) 
+- commandID: UInt64  
+- command: String  
+
+Class Reference: SmartInstitutions_ServiceRepository::SmartIN_CommandCore
+<hr>
+@section SmartIN_EventType SmartIN_EventType
+- type: @ref SmartINPackageTypeEnums (Enum) 
+
+Class Reference: SmartInstitutions_ServiceRepository::SmartIN_EventTypeCore
+<hr>
+@section SmartIN_EventMessage SmartIN_EventMessage
+- usetype: @ref SmartINPackageTypeEnums (Enum) 
+- ifEnforcementInstructionPackage: @ref EnforcementInstructionPackage (CommObj) 
+- ifEnforcementReplyPackage: @ref EnforcementReplyPackage (CommObj) 
+- ifEnforcementReportPackage: @ref EnforcementReportPackage (CommObj) 
+
+Class Reference: SmartInstitutions_ServiceRepository::SmartIN_EventMessageCore
+<hr>
+@section SmartIN_EventStateType SmartIN_EventStateType
+- targets: @ref MemberIdentifier[*] (CommObj) 
+- message: @ref SmartIN_EventMessage (CommObj) 
+
+Class Reference: SmartInstitutions_ServiceRepository::SmartIN_EventStateTypeCore
+<hr>
+@section InstitutionCategory InstitutionCategory
+- SINGLE_MEMBER_INSTITUTE 
+- PAIR_INSTITUTE 
+- STATIC_MULTI_INSTITUTE 
+- DYNAMIC_MULTI_INSTITUTE 
+
+Class Reference: SmartInstitutions_ServiceRepository::InstitutionCategory
+<hr>
+@section InstitutionType InstitutionType
+- TYPE0_USER_DEFINED 
+- TYPE1 
+- TYPE2 
+- TYPE3 
+- TYPE4 
+
+Class Reference: SmartInstitutions_ServiceRepository::InstitutionType
+<hr>
+@section InstitutionPhase InstitutionPhase
+- FORMATION 
+- FOUNDATION 
+- FULFILMENT 
+
+Class Reference: SmartInstitutions_ServiceRepository::InstitutionPhase
+<hr>
+@section EnforcementInstruction EnforcementInstruction
+- START 
+- PAUSE 
+- STOP 
+- FORMED 
+- FOUNDED 
+- FULFILLED 
+- INFORM 
+- WARNING 
+- NOTICE 
+- EJECTED 
+- CUSTOM 
+
+Class Reference: SmartInstitutions_ServiceRepository::EnforcementInstruction
+<hr>
+@section SmartINPackageTypeEnums SmartINPackageTypeEnums
+- EnforcementInstructionPackage 
+- EnforcementReplyPackage 
+- EnforcementReportPackage 
+
+Class Reference: SmartInstitutions_ServiceRepository::SmartINPackageTypeEnums
+<hr>
+
+
+@}
+*/
+
