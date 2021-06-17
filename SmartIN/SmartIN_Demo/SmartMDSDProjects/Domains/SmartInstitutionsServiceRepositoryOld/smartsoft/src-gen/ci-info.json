@@ -1,5 +1,0 @@
-{
-	"id" : "SmartInstitutionsServiceRepository",
-	"type" : "DomainModel",
-	"dependprojects" : [ "CommBasicObjects" ]
-}

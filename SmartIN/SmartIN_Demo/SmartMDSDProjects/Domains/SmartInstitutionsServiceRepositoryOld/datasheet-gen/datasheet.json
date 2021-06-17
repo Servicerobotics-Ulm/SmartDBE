@@ -1,9 +1,0 @@
-{
-	"name": "SmartInstitutionsServiceRepository",
-	"shortDescription": "The SmartInstitutionsServiceRepository Data Sheet",
-	"type": "Toolify",
-	"description": "",
-	"purposes": ["Encapsulates Domain Institution Types and Services"],
-	"supplier": "SmartMDSD::SmartIN",
-	"homepage": "http://www.servicerobotik-ulm.de"
-}
