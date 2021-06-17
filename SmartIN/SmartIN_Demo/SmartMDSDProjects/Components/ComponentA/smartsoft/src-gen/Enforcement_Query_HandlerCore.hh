@@ -18,8 +18,9 @@
 		
 #include "aceSmartSoft.hh"
 
-#include <SmartInstitutions_ServiceRepository/EnforcementInstructionPackage.hh>
-#include <SmartInstitutions_ServiceRepository/EnforcementReplyPackage.hh>
+
+#include <SmartInstitutionsServiceRepository/EnforcementInstructionPackage.hh>
+#include <SmartInstitutionsServiceRepository/EnforcementReplyPackage.hh>
 
 // include the input interfaces (if any)
 
@@ -27,13 +28,14 @@
 #include <Enforcement_Query_HandlerObserverInterface.hh>
 
 class Enforcement_Query_HandlerCore 
-:	public Smart::IInputHandler<std::pair<Smart::QueryIdPtr,SmartInstitutions_ServiceRepository::EnforcementInstructionPackage>>
+:	public Smart::IInputHandler<std::pair<Smart::QueryIdPtr,SmartInstitutionsServiceRepository::EnforcementInstructionPackage>>
 ,	public Smart::TaskTriggerSubject
 {
 private:
-virtual void handle_input(const std::pair<Smart::QueryIdPtr,SmartInstitutions_ServiceRepository::EnforcementInstructionPackage> &input) override {
-	this->handleQuery(input.first, input.second);
-}
+	// inputs are directly propagated to the implementation (passive handler)
+	virtual void handle_input(const std::pair<Smart::QueryIdPtr,SmartInstitutionsServiceRepository::EnforcementInstructionPackage> &input) override {
+		this->handleQuery(input.first, input.second);
+	}
 
 
 	virtual void updateAllCommObjects();
@@ -53,14 +55,14 @@ public:
 protected:
 	
 public:
-	using IQueryServer = Smart::IQueryServerPattern<SmartInstitutions_ServiceRepository::EnforcementInstructionPackage, SmartInstitutions_ServiceRepository::EnforcementReplyPackage>;
+	using IQueryServer = Smart::IQueryServerPattern<SmartInstitutionsServiceRepository::EnforcementInstructionPackage, SmartInstitutionsServiceRepository::EnforcementReplyPackage>;
 	using QueryId = Smart::QueryIdPtr;
 	Enforcement_Query_HandlerCore(IQueryServer *server);
-	virtual ~Enforcement_Query_HandlerCore() = default;
+	virtual ~Enforcement_Query_HandlerCore();
 	
 protected:
 	IQueryServer *server;
 	//this user-method has to be implemented in derived classes
-	virtual void handleQuery(const QueryId &id, const SmartInstitutions_ServiceRepository::EnforcementInstructionPackage& request) = 0;
+	virtual void handleQuery(const QueryId &id, const SmartInstitutionsServiceRepository::EnforcementInstructionPackage& request) = 0;
 };
 #endif

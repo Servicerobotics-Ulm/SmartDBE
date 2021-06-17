@@ -25,6 +25,6 @@ protected:
 public:
 	Report_Query_Handler(IQueryServer *server);
 	virtual ~Report_Query_Handler() = default;
-	virtual void handleQuery(const QueryId &id, const SmartInstitutions_ServiceRepository::MemberIdentifier& request);
+	virtual void handleQuery(const QueryId &id, const SmartInstitutionsServiceRepository::MemberIdentifier& request);
 };
 #endif

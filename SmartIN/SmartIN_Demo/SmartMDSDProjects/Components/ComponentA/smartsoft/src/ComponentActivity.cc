@@ -30,6 +30,7 @@ ComponentActivity::~ComponentActivity()
 }
 
 
+
 int ComponentActivity::on_entry()
 {
 	// do initialization procedures here, which are called once, each time the task is started

@@ -1,0 +1,25 @@
+{
+	"name": "ComponentA",
+	"shortDescription": "A short description for the ComponentA datasheet",
+	"type": "Toolify",
+	"description": "",
+	"purposes": ["Example"],
+	"supplier": "No supplier specified",
+	"homepage": "http://www.example.com",
+	"services": [
+	],
+	"mainstates": [
+		"Neutral"
+	],
+	"parameters": [
+		{
+			"name": "COMMIT",
+			"nameFQN": "COMMIT",
+			"type": "parameter",
+			"description": "Commit the current parameter configuration.",
+			"attributes": []
+		}
+	],
+	"triggers": [
+	]
+}

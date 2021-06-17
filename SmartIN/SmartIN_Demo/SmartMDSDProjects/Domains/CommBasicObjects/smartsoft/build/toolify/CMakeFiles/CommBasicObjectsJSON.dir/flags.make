@@ -6,5 +6,5 @@ CXX_FLAGS = -g -fPIC   -std=gnu++14
 
 CXX_DEFINES = -DACE_HAS_VALGRIND -DCommBasicObjectsJSON_EXPORTS -D__ACE_INLINE__
 
-CXX_INCLUDES = -I/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/toolify/src-gen -I/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build -I/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/src -I/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/src-gen -isystem /usr/include/SmartXml -isystem /usr/include/Armadillo -isystem /usr/include/SmartProperty -isystem /usr/include/TransformationMatrices 
+CXX_INCLUDES = -I/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/toolify/src-gen -I/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build -I/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/src -I/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/src-gen -isystem /usr/include/SmartXml -isystem /usr/include/Armadillo -isystem /usr/include/SmartProperty -isystem /usr/include/TransformationMatrices 
 

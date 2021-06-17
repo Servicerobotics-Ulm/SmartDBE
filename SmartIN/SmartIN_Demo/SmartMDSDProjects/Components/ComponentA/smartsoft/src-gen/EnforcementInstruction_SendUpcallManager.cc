@@ -16,14 +16,14 @@
 #include "EnforcementInstruction_SendUpcallManager.hh"
 
 EnforcementInstruction_SendUpcallManager::EnforcementInstruction_SendUpcallManager(
-	Smart::InputSubject<SmartInstitutions_ServiceRepository::EnforcementInstructionPackage> *subject,
+	Smart::InputSubject<SmartInstitutionsServiceRepository::EnforcementInstructionPackage> *subject,
 	const int &prescaleFactor)
-	:	Smart::IInputHandler<SmartInstitutions_ServiceRepository::EnforcementInstructionPackage>(subject, prescaleFactor)
+	:	Smart::IInputHandler<SmartInstitutionsServiceRepository::EnforcementInstructionPackage>(subject, prescaleFactor)
 {  }
 EnforcementInstruction_SendUpcallManager::~EnforcementInstruction_SendUpcallManager()
 {  }
 
-void EnforcementInstruction_SendUpcallManager::notify_upcalls(const SmartInstitutions_ServiceRepository::EnforcementInstructionPackage &input)
+void EnforcementInstruction_SendUpcallManager::notify_upcalls(const SmartInstitutionsServiceRepository::EnforcementInstructionPackage &input)
 {
 	for(auto it=upcalls.begin(); it!=upcalls.end(); it++) {
 		(*it)->on_EnforcementInstruction_Send(input);

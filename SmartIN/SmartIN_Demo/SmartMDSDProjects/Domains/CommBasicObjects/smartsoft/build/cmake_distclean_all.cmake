@@ -31,54 +31,54 @@
 # --------------------------------------------------------------------------
 
 # Execute uninstall command if available and remove the corresponding files
-IF(EXISTS "/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/cmake_uninstall.cmake")
+IF(EXISTS "/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/cmake_uninstall.cmake")
 	MESSAGE(STATUS "Execute uninstall command")
-	EXECUTE_PROCESS(COMMAND /usr/bin/cmake -P "/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/cmake_uninstall.cmake")
+	EXECUTE_PROCESS(COMMAND /usr/bin/cmake -P "/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/cmake_uninstall.cmake")
 	MESSAGE(STATUS "Remove cmake uninstall files")
-	EXECUTE_PROCESS(COMMAND /usr/bin/cmake -E remove "/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/cmake_uninstall.cmake")
-	IF(EXISTS "/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/install_manifest.txt")
+	EXECUTE_PROCESS(COMMAND /usr/bin/cmake -E remove "/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/cmake_uninstall.cmake")
+	IF(EXISTS "/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/install_manifest.txt")
 		EXECUTE_PROCESS(
-			COMMAND /usr/bin/cmake -E remove "/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/install_manifest.txt"
+			COMMAND /usr/bin/cmake -E remove "/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/install_manifest.txt"
 		)
-	ENDIF(EXISTS "/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/install_manifest.txt")
-ENDIF(EXISTS "/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/cmake_uninstall.cmake")
+	ENDIF(EXISTS "/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/install_manifest.txt")
+ENDIF(EXISTS "/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/cmake_uninstall.cmake")
 
 # remove the default CMakeCache.txt file
-IF(EXISTS "/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeCache.txt")
+IF(EXISTS "/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeCache.txt")
 	MESSAGE(STATUS "Remove CMakeCache.txt")
-	EXECUTE_PROCESS(COMMAND /usr/bin/cmake -E remove "/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeCache.txt")
-ENDIF(EXISTS "/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeCache.txt")
+	EXECUTE_PROCESS(COMMAND /usr/bin/cmake -E remove "/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeCache.txt")
+ENDIF(EXISTS "/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeCache.txt")
 
 # remove the CMakeFiles directory
-IF(EXISTS "/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles")
+IF(EXISTS "/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles")
 	MESSAGE(STATUS "Remove directory /CMakeFiles")
-	EXECUTE_PROCESS(COMMAND /usr/bin/cmake -E remove_directory "/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles")
-ENDIF(EXISTS "/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles")
+	EXECUTE_PROCESS(COMMAND /usr/bin/cmake -E remove_directory "/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles")
+ENDIF(EXISTS "/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles")
 
 # remove the default Makefile (only available when using make)
-IF(EXISTS "/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/Makefile")
+IF(EXISTS "/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/Makefile")
 	MESSAGE(STATUS "Remove Makefile")
-	EXECUTE_PROCESS(COMMAND /usr/bin/cmake -E remove "/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/Makefile")
-ENDIF(EXISTS "/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/Makefile")
+	EXECUTE_PROCESS(COMMAND /usr/bin/cmake -E remove "/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/Makefile")
+ENDIF(EXISTS "/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/Makefile")
 
 # remove the default cmake_install.cmake
-IF(EXISTS "/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/cmake_install.cmake")
+IF(EXISTS "/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/cmake_install.cmake")
 	MESSAGE(STATUS "Remove cmake_install.cmake")
-	EXECUTE_PROCESS(COMMAND /usr/bin/cmake -E remove "/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/cmake_install.cmake")
-ENDIF(EXISTS "/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/cmake_install.cmake")
+	EXECUTE_PROCESS(COMMAND /usr/bin/cmake -E remove "/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/cmake_install.cmake")
+ENDIF(EXISTS "/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/cmake_install.cmake")
 
 # remove the default Makefile (only available when using make)
-IF(EXISTS "/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/install_manifest.txt")
+IF(EXISTS "/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/install_manifest.txt")
 	MESSAGE(STATUS "Remove install_manifest.txt")
-	EXECUTE_PROCESS(COMMAND /usr/bin/cmake -E remove "/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/install_manifest.txt")
-ENDIF(EXISTS "/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/install_manifest.txt")
+	EXECUTE_PROCESS(COMMAND /usr/bin/cmake -E remove "/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/install_manifest.txt")
+ENDIF(EXISTS "/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/install_manifest.txt")
 
 # now check for the cmake_generated_files.txt which contains all other cmake generated (custom) files
 # remove each file separatelly
-IF(NOT EXISTS "/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/cmake_generated_files.txt")
-  MESSAGE("Cannot find file that traces cmake generated files: \"/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/cmake_generated_files.txt\"")
-ELSE(NOT EXISTS "/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/cmake_generated_files.txt")
-  FILE(READ "/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/cmake_generated_files.txt" files)
+IF(NOT EXISTS "/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/cmake_generated_files.txt")
+  MESSAGE("Cannot find file that traces cmake generated files: \"/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/cmake_generated_files.txt\"")
+ELSE(NOT EXISTS "/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/cmake_generated_files.txt")
+  FILE(READ "/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/cmake_generated_files.txt" files)
   STRING(REGEX REPLACE "\n" ";" files "${files}")
   # LIST(REVERSE files)
   FOREACH (file ${files})
@@ -98,13 +98,13 @@ ELSE(NOT EXISTS "/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositori
   ENDFOREACH(file)
 
   EXECUTE_PROCESS(
-    COMMAND /usr/bin/cmake -E remove "/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/cmake_generated_files.txt"
+    COMMAND /usr/bin/cmake -E remove "/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/cmake_generated_files.txt"
     OUTPUT_VARIABLE rm_out
     RESULT_VARIABLE rm_retval
   )
 
   IF (NOT ${rm_retval} EQUAL 0)
-    MESSAGE(FATAL_ERROR "Problem when removing \"/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/cmake_generated_files.txt\"")
+    MESSAGE(FATAL_ERROR "Problem when removing \"/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/cmake_generated_files.txt\"")
   ENDIF (NOT ${rm_retval} EQUAL 0)
 
-ENDIF(NOT EXISTS "/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/cmake_generated_files.txt")
+ENDIF(NOT EXISTS "/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/cmake_generated_files.txt")

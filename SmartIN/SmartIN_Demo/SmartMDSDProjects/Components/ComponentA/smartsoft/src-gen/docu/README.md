@@ -46,12 +46,12 @@
 *Documentation:*
 
 
-### Report_QueryReply
+### Report_QueryResponder
 
 *Documentation:*
 
 
-### Enforcement_QueryReply
+### Enforcement_QueryResponder
 
 *Documentation:*
 

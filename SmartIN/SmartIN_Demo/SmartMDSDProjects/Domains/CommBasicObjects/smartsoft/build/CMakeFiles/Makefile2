@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft
+CMAKE_SOURCE_DIR = /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build
+CMAKE_BINARY_DIR = /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -353,14 +353,14 @@ toolify/clean: toolify/CMakeFiles/CommBasicObjectsJSON.dir/clean
 CMakeFiles/CommBasicObjects.dir/all: CMakeFiles/CommBasicObjectsHash.dir/all
 	$(MAKE) -f CMakeFiles/CommBasicObjects.dir/build.make CMakeFiles/CommBasicObjects.dir/depend
 	$(MAKE) -f CMakeFiles/CommBasicObjects.dir/build.make CMakeFiles/CommBasicObjects.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60 "Built target CommBasicObjects"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60 "Built target CommBasicObjects"
 .PHONY : CMakeFiles/CommBasicObjects.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CommBasicObjects.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles 60
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles 60
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CommBasicObjects.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles 0
 .PHONY : CMakeFiles/CommBasicObjects.dir/rule
 
 # Convenience name for target.
@@ -380,14 +380,14 @@ CMakeFiles/CommBasicObjects.dir/clean:
 CMakeFiles/nodep.dir/all: CMakeFiles/CommBasicObjectsHash.dir/all
 	$(MAKE) -f CMakeFiles/nodep.dir/build.make CMakeFiles/nodep.dir/depend
 	$(MAKE) -f CMakeFiles/nodep.dir/build.make CMakeFiles/nodep.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles --progress-num= "Built target nodep"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles --progress-num= "Built target nodep"
 .PHONY : CMakeFiles/nodep.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/nodep.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/nodep.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles 0
 .PHONY : CMakeFiles/nodep.dir/rule
 
 # Convenience name for target.
@@ -407,14 +407,14 @@ CMakeFiles/nodep.dir/clean:
 CMakeFiles/CommBasicObjectsHash.dir/all:
 	$(MAKE) -f CMakeFiles/CommBasicObjectsHash.dir/build.make CMakeFiles/CommBasicObjectsHash.dir/depend
 	$(MAKE) -f CMakeFiles/CommBasicObjectsHash.dir/build.make CMakeFiles/CommBasicObjectsHash.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles --progress-num= "Built target CommBasicObjectsHash"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles --progress-num= "Built target CommBasicObjectsHash"
 .PHONY : CMakeFiles/CommBasicObjectsHash.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CommBasicObjectsHash.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CommBasicObjectsHash.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles 0
 .PHONY : CMakeFiles/CommBasicObjectsHash.dir/rule
 
 # Convenience name for target.
@@ -446,14 +446,14 @@ CMakeFiles/autoinstall.dir/all: IOQueryCoordinationService/CMakeFiles/IOQueryCoo
 CMakeFiles/autoinstall.dir/all: LaserSafetyCoordinationService/CMakeFiles/LaserSafetyCoordinationService.dir/all
 	$(MAKE) -f CMakeFiles/autoinstall.dir/build.make CMakeFiles/autoinstall.dir/depend
 	$(MAKE) -f CMakeFiles/autoinstall.dir/build.make CMakeFiles/autoinstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles --progress-num= "Built target autoinstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles --progress-num= "Built target autoinstall"
 .PHONY : CMakeFiles/autoinstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/autoinstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles 98
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles 98
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/autoinstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles 0
 .PHONY : CMakeFiles/autoinstall.dir/rule
 
 # Convenience name for target.
@@ -473,14 +473,14 @@ CMakeFiles/autoinstall.dir/clean:
 CMakeFiles/uninstall.dir/all:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles --progress-num=100 "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles --progress-num=100 "Built target uninstall"
 .PHONY : CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles 0
 .PHONY : CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -500,14 +500,14 @@ CMakeFiles/uninstall.dir/clean:
 CMakeFiles/distclean-all.dir/all: CMakeFiles/CommBasicObjects_distclean.dir/all
 	$(MAKE) -f CMakeFiles/distclean-all.dir/build.make CMakeFiles/distclean-all.dir/depend
 	$(MAKE) -f CMakeFiles/distclean-all.dir/build.make CMakeFiles/distclean-all.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles --progress-num= "Built target distclean-all"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles --progress-num= "Built target distclean-all"
 .PHONY : CMakeFiles/distclean-all.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/distclean-all.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/distclean-all.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles 0
 .PHONY : CMakeFiles/distclean-all.dir/rule
 
 # Convenience name for target.
@@ -527,14 +527,14 @@ CMakeFiles/distclean-all.dir/clean:
 CMakeFiles/CommBasicObjects_distclean.dir/all:
 	$(MAKE) -f CMakeFiles/CommBasicObjects_distclean.dir/build.make CMakeFiles/CommBasicObjects_distclean.dir/depend
 	$(MAKE) -f CMakeFiles/CommBasicObjects_distclean.dir/build.make CMakeFiles/CommBasicObjects_distclean.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles --progress-num=81 "Built target CommBasicObjects_distclean"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles --progress-num=81 "Built target CommBasicObjects_distclean"
 .PHONY : CMakeFiles/CommBasicObjects_distclean.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CommBasicObjects_distclean.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CommBasicObjects_distclean.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles 0
 .PHONY : CMakeFiles/CommBasicObjects_distclean.dir/rule
 
 # Convenience name for target.
@@ -554,14 +554,14 @@ CMakeFiles/CommBasicObjects_distclean.dir/clean:
 toolify/CMakeFiles/CommBasicObjectsJSON.dir/all: CMakeFiles/CommBasicObjects.dir/all
 	$(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/depend
 	$(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles --progress-num=61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80 "Built target CommBasicObjectsJSON"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles --progress-num=61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80 "Built target CommBasicObjectsJSON"
 .PHONY : toolify/CMakeFiles/CommBasicObjectsJSON.dir/all
 
 # Build rule for subdir invocation for target.
 toolify/CMakeFiles/CommBasicObjectsJSON.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles 80
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles 80
 	$(MAKE) -f CMakeFiles/Makefile2 toolify/CMakeFiles/CommBasicObjectsJSON.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles 0
 .PHONY : toolify/CMakeFiles/CommBasicObjectsJSON.dir/rule
 
 # Convenience name for target.
@@ -578,17 +578,17 @@ toolify/CMakeFiles/CommBasicObjectsJSON.dir/clean:
 # Target rules for target DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir
 
 # All Build rule for target.
-DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/all: CMakeFiles/CommBasicObjects.dir/all
+DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/all:
 	$(MAKE) -f DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/build.make DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/depend
 	$(MAKE) -f DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/build.make DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles --progress-num=82 "Built target DefaultCoordinationService"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles --progress-num=82 "Built target DefaultCoordinationService"
 .PHONY : DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/all
 
 # Build rule for subdir invocation for target.
 DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles 61
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles 0
 .PHONY : DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/rule
 
 # Convenience name for target.
@@ -605,17 +605,17 @@ DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/clean:
 # Target rules for target WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir
 
 # All Build rule for target.
-WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/all: CMakeFiles/CommBasicObjects.dir/all
+WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/all:
 	$(MAKE) -f WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/build.make WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/depend
 	$(MAKE) -f WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/build.make WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles --progress-num=98,99 "Built target WebInterfaceCoordinationService"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles --progress-num=98,99 "Built target WebInterfaceCoordinationService"
 .PHONY : WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/all
 
 # Build rule for subdir invocation for target.
 WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles 62
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles 0
 .PHONY : WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/rule
 
 # Convenience name for target.
@@ -635,14 +635,14 @@ WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/c
 KBCoordinationService/CMakeFiles/KBCoordinationService.dir/all: CMakeFiles/CommBasicObjects.dir/all
 	$(MAKE) -f KBCoordinationService/CMakeFiles/KBCoordinationService.dir/build.make KBCoordinationService/CMakeFiles/KBCoordinationService.dir/depend
 	$(MAKE) -f KBCoordinationService/CMakeFiles/KBCoordinationService.dir/build.make KBCoordinationService/CMakeFiles/KBCoordinationService.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles --progress-num=88,89 "Built target KBCoordinationService"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles --progress-num=88,89 "Built target KBCoordinationService"
 .PHONY : KBCoordinationService/CMakeFiles/KBCoordinationService.dir/all
 
 # Build rule for subdir invocation for target.
 KBCoordinationService/CMakeFiles/KBCoordinationService.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles 62
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles 62
 	$(MAKE) -f CMakeFiles/Makefile2 KBCoordinationService/CMakeFiles/KBCoordinationService.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles 0
 .PHONY : KBCoordinationService/CMakeFiles/KBCoordinationService.dir/rule
 
 # Convenience name for target.
@@ -659,17 +659,17 @@ KBCoordinationService/CMakeFiles/KBCoordinationService.dir/clean:
 # Target rules for target LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir
 
 # All Build rule for target.
-LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/all: CMakeFiles/CommBasicObjects.dir/all
+LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/all:
 	$(MAKE) -f LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/build.make LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/depend
 	$(MAKE) -f LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/build.make LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles --progress-num=90 "Built target LaserFromRGBDCoordinationService"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles --progress-num=90 "Built target LaserFromRGBDCoordinationService"
 .PHONY : LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/all
 
 # Build rule for subdir invocation for target.
 LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles 61
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles 0
 .PHONY : LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/rule
 
 # Convenience name for target.
@@ -686,17 +686,17 @@ LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir
 # Target rules for target VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir
 
 # All Build rule for target.
-VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/all: CMakeFiles/CommBasicObjects.dir/all
+VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/all:
 	$(MAKE) -f VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/build.make VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/depend
 	$(MAKE) -f VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/build.make VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles --progress-num=97 "Built target VisualizationCoordinationService"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles --progress-num=97 "Built target VisualizationCoordinationService"
 .PHONY : VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/all
 
 # Build rule for subdir invocation for target.
 VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles 61
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles 0
 .PHONY : VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/rule
 
 # Convenience name for target.
@@ -716,14 +716,14 @@ VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir
 SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/all: CMakeFiles/CommBasicObjects.dir/all
 	$(MAKE) -f SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/build.make SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/depend
 	$(MAKE) -f SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/build.make SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles --progress-num=95,96 "Built target SequencerHLCoordinationServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles --progress-num=95,96 "Built target SequencerHLCoordinationServer"
 .PHONY : SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/all
 
 # Build rule for subdir invocation for target.
 SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles 62
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles 62
 	$(MAKE) -f CMakeFiles/Makefile2 SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles 0
 .PHONY : SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/rule
 
 # Convenience name for target.
@@ -740,17 +740,17 @@ SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/clean
 # Target rules for target IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir
 
 # All Build rule for target.
-IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/all: CMakeFiles/CommBasicObjects.dir/all
+IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/all:
 	$(MAKE) -f IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/build.make IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/depend
 	$(MAKE) -f IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/build.make IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles --progress-num=86,87 "Built target IRComponentCoordinationService"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles --progress-num=86,87 "Built target IRComponentCoordinationService"
 .PHONY : IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/all
 
 # Build rule for subdir invocation for target.
 IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles 62
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles 0
 .PHONY : IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/rule
 
 # Convenience name for target.
@@ -770,14 +770,14 @@ IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/cle
 Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/all: CMakeFiles/CommBasicObjects.dir/all
 	$(MAKE) -f Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/build.make Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/depend
 	$(MAKE) -f Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/build.make Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles --progress-num=93,94 "Built target Seq2SeqComCoordinationService"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles --progress-num=93,94 "Built target Seq2SeqComCoordinationService"
 .PHONY : Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/all
 
 # Build rule for subdir invocation for target.
 Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles 62
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles 62
 	$(MAKE) -f CMakeFiles/Makefile2 Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles 0
 .PHONY : Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/rule
 
 # Convenience name for target.
@@ -797,14 +797,14 @@ Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/clean
 FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/all: CMakeFiles/CommBasicObjects.dir/all
 	$(MAKE) -f FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/build.make FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/depend
 	$(MAKE) -f FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/build.make FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles --progress-num=83,84 "Built target FileOperationsCoordinationService"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles --progress-num=83,84 "Built target FileOperationsCoordinationService"
 .PHONY : FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/all
 
 # Build rule for subdir invocation for target.
 FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles 62
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles 62
 	$(MAKE) -f CMakeFiles/Makefile2 FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles 0
 .PHONY : FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/rule
 
 # Convenience name for target.
@@ -824,14 +824,14 @@ FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.d
 IOQueryCoordinationService/CMakeFiles/IOQueryCoordinationService.dir/all: CMakeFiles/CommBasicObjects.dir/all
 	$(MAKE) -f IOQueryCoordinationService/CMakeFiles/IOQueryCoordinationService.dir/build.make IOQueryCoordinationService/CMakeFiles/IOQueryCoordinationService.dir/depend
 	$(MAKE) -f IOQueryCoordinationService/CMakeFiles/IOQueryCoordinationService.dir/build.make IOQueryCoordinationService/CMakeFiles/IOQueryCoordinationService.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles --progress-num=85 "Built target IOQueryCoordinationService"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles --progress-num=85 "Built target IOQueryCoordinationService"
 .PHONY : IOQueryCoordinationService/CMakeFiles/IOQueryCoordinationService.dir/all
 
 # Build rule for subdir invocation for target.
 IOQueryCoordinationService/CMakeFiles/IOQueryCoordinationService.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles 61
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles 61
 	$(MAKE) -f CMakeFiles/Makefile2 IOQueryCoordinationService/CMakeFiles/IOQueryCoordinationService.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles 0
 .PHONY : IOQueryCoordinationService/CMakeFiles/IOQueryCoordinationService.dir/rule
 
 # Convenience name for target.
@@ -851,14 +851,14 @@ IOQueryCoordinationService/CMakeFiles/IOQueryCoordinationService.dir/clean:
 LaserSafetyCoordinationService/CMakeFiles/LaserSafetyCoordinationService.dir/all: CMakeFiles/CommBasicObjects.dir/all
 	$(MAKE) -f LaserSafetyCoordinationService/CMakeFiles/LaserSafetyCoordinationService.dir/build.make LaserSafetyCoordinationService/CMakeFiles/LaserSafetyCoordinationService.dir/depend
 	$(MAKE) -f LaserSafetyCoordinationService/CMakeFiles/LaserSafetyCoordinationService.dir/build.make LaserSafetyCoordinationService/CMakeFiles/LaserSafetyCoordinationService.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles --progress-num=91,92 "Built target LaserSafetyCoordinationService"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles --progress-num=91,92 "Built target LaserSafetyCoordinationService"
 .PHONY : LaserSafetyCoordinationService/CMakeFiles/LaserSafetyCoordinationService.dir/all
 
 # Build rule for subdir invocation for target.
 LaserSafetyCoordinationService/CMakeFiles/LaserSafetyCoordinationService.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles 62
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles 62
 	$(MAKE) -f CMakeFiles/Makefile2 LaserSafetyCoordinationService/CMakeFiles/LaserSafetyCoordinationService.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles 0
 .PHONY : LaserSafetyCoordinationService/CMakeFiles/LaserSafetyCoordinationService.dir/rule
 
 # Convenience name for target.

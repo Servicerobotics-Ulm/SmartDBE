@@ -30,10 +30,10 @@
 #
 # --------------------------------------------------------------------------
 
-IF(NOT EXISTS "/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build/install_manifest.txt")
-    MESSAGE("Cannot find install manifest: \"/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build/install_manifest.txt\"")
-ELSE(NOT EXISTS "/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build/install_manifest.txt")
-FILE(READ "/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build/install_manifest.txt" files)
+IF(NOT EXISTS "/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build/install_manifest.txt")
+    MESSAGE("Cannot find install manifest: \"/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build/install_manifest.txt\"")
+ELSE(NOT EXISTS "/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build/install_manifest.txt")
+FILE(READ "/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build/install_manifest.txt" files)
 STRING(REGEX REPLACE "\n" ";" files "${files}")
 # LIST(REVERSE files)
 FOREACH (file ${files})
@@ -52,4 +52,4 @@ FOREACH (file ${files})
     ENDIF (EXISTS "$ENV{DESTDIR}${file}")
 ENDFOREACH(file)
 
-ENDIF(NOT EXISTS "/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build/install_manifest.txt")
+ENDIF(NOT EXISTS "/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build/install_manifest.txt")

@@ -20,8 +20,8 @@
 
 
 COMP_INTERFACE_FILES="
-$SMART_ROOT_ACE/lib/libDefaultCoordinationService.so
 $SMART_ROOT_ACE/lib/libBaseCoordinationService.so
+$SMART_ROOT_ACE/lib/libDefaultCoordinationService.so
 "
 
 COORDINATION_LIB_DEPENDENCIES="

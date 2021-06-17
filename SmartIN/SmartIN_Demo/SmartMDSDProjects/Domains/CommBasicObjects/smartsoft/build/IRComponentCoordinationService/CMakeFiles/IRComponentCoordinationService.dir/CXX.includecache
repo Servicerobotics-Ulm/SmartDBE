@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src-gen/IRComponentCoordinationService/IRComponentCoordinationService.cc
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src-gen/IRComponentCoordinationService/IRComponentCoordinationService.cc
 IRComponentCoordinationService.hh
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src-gen/IRComponentCoordinationService/IRComponentCoordinationService.hh
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src-gen/IRComponentCoordinationService/IRComponentCoordinationService.hh
 
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src-gen/IRComponentCoordinationService/IRComponentCoordinationService.hh
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src-gen/IRComponentCoordinationService/IRComponentCoordinationService.hh
 aceSmartSoft.hh
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src-gen/IRComponentCoordinationService/aceSmartSoft.hh
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src-gen/IRComponentCoordinationService/aceSmartSoft.hh
 
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src-gen/IRComponentCoordinationService/IRComponentCoordinationServiceCore.cc
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src-gen/IRComponentCoordinationService/IRComponentCoordinationServiceCore.cc
 IRComponentCoordinationServiceCore.hh
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src-gen/IRComponentCoordinationService/IRComponentCoordinationServiceCore.hh
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src-gen/IRComponentCoordinationService/IRComponentCoordinationServiceCore.hh
 cstdio
 -
 string
@@ -28,11 +28,11 @@ cstdlib
 smartNumericCorrelationId.h
 -
 
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src-gen/IRComponentCoordinationService/IRComponentCoordinationServiceCore.hh
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src-gen/IRComponentCoordinationService/IRComponentCoordinationServiceCore.hh
 aceSmartSoft.hh
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src-gen/IRComponentCoordinationService/aceSmartSoft.hh
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src-gen/IRComponentCoordinationService/aceSmartSoft.hh
 runTimeInterface.hh
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src-gen/IRComponentCoordinationService/runTimeInterface.hh
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src-gen/IRComponentCoordinationService/runTimeInterface.hh
 string
 -
 map
@@ -40,15 +40,15 @@ map
 iostream
 -
 IRComponentCoordinationService.hh
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src-gen/IRComponentCoordinationService/IRComponentCoordinationService.hh
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src-gen/IRComponentCoordinationService/IRComponentCoordinationService.hh
 
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src-gen/IRComponentCoordinationService/IRComponentCoordinationServiceRunTimeInterface.cc
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src-gen/IRComponentCoordinationService/IRComponentCoordinationServiceRunTimeInterface.cc
 IRComponentCoordinationServiceCore.hh
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src-gen/IRComponentCoordinationService/IRComponentCoordinationServiceCore.hh
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src-gen/IRComponentCoordinationService/IRComponentCoordinationServiceCore.hh
 runTimeInterface.hh
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src-gen/IRComponentCoordinationService/runTimeInterface.hh
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src-gen/IRComponentCoordinationService/runTimeInterface.hh
 
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src-gen/runTimeInterface.hh
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src-gen/runTimeInterface.hh
 map
 -
 string

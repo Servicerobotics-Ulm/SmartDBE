@@ -1,3 +1,3 @@
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build/CommNavigationObjectsConfigVersion.cmake
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build/CommNavigationObjectsConfig.cmake
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build/CommNavigationObjectsTargets.cmake
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build/CommNavigationObjectsConfigVersion.cmake
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build/CommNavigationObjectsConfig.cmake
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build/CommNavigationObjectsTargets.cmake

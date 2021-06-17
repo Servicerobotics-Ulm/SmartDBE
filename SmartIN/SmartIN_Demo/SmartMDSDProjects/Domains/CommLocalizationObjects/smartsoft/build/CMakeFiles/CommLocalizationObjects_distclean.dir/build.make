@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft
+CMAKE_SOURCE_DIR = /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build
+CMAKE_BINARY_DIR = /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build
 
 # Utility rule file for CommLocalizationObjects_distclean.
 
@@ -54,10 +54,10 @@ CMAKE_BINARY_DIR = /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsReposito
 include CMakeFiles/CommLocalizationObjects_distclean.dir/progress.make
 
 CMakeFiles/CommLocalizationObjects_distclean: cmake_distclean_all.cmake
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Remove ALL generated files from make AND CMake"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Remove ALL generated files from make AND CMake"
 	/usr/bin/make clean
-	/usr/bin/cmake -P /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/cmake_distclean_all.cmake
-	/usr/bin/cmake -E remove /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/cmake_distclean_all.cmake
+	/usr/bin/cmake -P /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/cmake_distclean_all.cmake
+	/usr/bin/cmake -E remove /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/cmake_distclean_all.cmake
 
 CommLocalizationObjects_distclean: CMakeFiles/CommLocalizationObjects_distclean
 CommLocalizationObjects_distclean: CMakeFiles/CommLocalizationObjects_distclean.dir/build.make
@@ -74,6 +74,6 @@ CMakeFiles/CommLocalizationObjects_distclean.dir/clean:
 .PHONY : CMakeFiles/CommLocalizationObjects_distclean.dir/clean
 
 CMakeFiles/CommLocalizationObjects_distclean.dir/depend:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/CMakeFiles/CommLocalizationObjects_distclean.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/CMakeFiles/CommLocalizationObjects_distclean.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/CommLocalizationObjects_distclean.dir/depend
 

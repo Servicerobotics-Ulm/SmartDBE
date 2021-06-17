@@ -39,32 +39,42 @@ class ComponentAExtension;
 #include <CommBasicObjects/CommTaskEventStateACE.hh>
 #include <CommBasicObjects/CommTrafficLights.hh>
 #include <CommBasicObjects/CommTrafficLightsACE.hh>
-#include <SmartInstitutions_ServiceRepository/EnforcementInstructionPackage.hh>
-#include <SmartInstitutions_ServiceRepository/EnforcementInstructionPackageACE.hh>
-#include <SmartInstitutions_ServiceRepository/EnforcementReplyPackage.hh>
-#include <SmartInstitutions_ServiceRepository/EnforcementReplyPackageACE.hh>
-#include <SmartInstitutions_ServiceRepository/EnforcementReportPackage.hh>
-#include <SmartInstitutions_ServiceRepository/EnforcementReportPackageACE.hh>
-#include <SmartInstitutions_ServiceRepository/MemberIdentifier.hh>
-#include <SmartInstitutions_ServiceRepository/MemberIdentifierACE.hh>
-#include <SmartInstitutions_ServiceRepository/SmartIN_Command.hh>
-#include <SmartInstitutions_ServiceRepository/SmartIN_CommandACE.hh>
-#include <SmartInstitutions_ServiceRepository/SmartIN_EventType.hh>
-#include <SmartInstitutions_ServiceRepository/SmartIN_EventTypeACE.hh>
+#include <SmartInstitutionsServiceRepository/EnforcementInstructionPackage.hh>
+#include <SmartInstitutionsServiceRepository/EnforcementInstructionPackageACE.hh>
+#include <SmartInstitutionsServiceRepository/EnforcementReplyPackage.hh>
+#include <SmartInstitutionsServiceRepository/EnforcementReplyPackageACE.hh>
+#include <SmartInstitutionsServiceRepository/EnforcementReportPackage.hh>
+#include <SmartInstitutionsServiceRepository/EnforcementReportPackageACE.hh>
+#include <SmartInstitutionsServiceRepository/MemberIdentifier.hh>
+#include <SmartInstitutionsServiceRepository/MemberIdentifierACE.hh>
+#include <SmartInstitutionsServiceRepository/SmartIN_Command.hh>
+#include <SmartInstitutionsServiceRepository/SmartIN_CommandACE.hh>
+#include <SmartInstitutionsServiceRepository/SmartIN_EventType.hh>
+#include <SmartInstitutionsServiceRepository/SmartIN_EventTypeACE.hh>
 
 // include tasks
 #include "ComplianceManager.hh"
 #include "ComponentActivity.hh"
 #include "EventManager.hh"
-// include UpcallManagers
+// include UpcallManagers and InputCollectors
 #include "EnforcementInstruction_PushUpcallManager.hh"
+#include "EnforcementInstruction_PushInputCollector.hh"
 #include "EnforcementInstruction_SendUpcallManager.hh"
+#include "EnforcementInstruction_SendInputCollector.hh"
 #include "Event_ListenerUpcallManager.hh"
+#include "Event_ListenerInputCollector.hh"
 
 // include input-handler(s)
 // include request-handler(s)
 #include "Enforcement_Query_Handler.hh"
 #include "Report_Query_Handler.hh"
+// output port wrappers
+#include "Event_CreatorWrapper.hh"
+#include "EnforcementReport_PushWrapper.hh"
+#include "EnforcementReply_PushWrapper.hh"
+#include "EnforcementReport_SendWrapper.hh"
+#include "EnforcementReply_SendWrapper.hh"
+#include "TrafficLightsServiceOutWrapper.hh"
 
 // include handler
 #include "CompHandler.hh"
@@ -114,42 +124,49 @@ public:
 	
 	// define input-ports
 	// InputPort EnforcementInstruction_Push
-	Smart::IPushClientPattern<SmartInstitutions_ServiceRepository::EnforcementInstructionPackage> *enforcementInstruction_Push;
-	Smart::InputTaskTrigger<SmartInstitutions_ServiceRepository::EnforcementInstructionPackage> *enforcementInstruction_PushInputTaskTrigger;
+	Smart::IPushClientPattern<SmartInstitutionsServiceRepository::EnforcementInstructionPackage> *enforcementInstruction_Push;
+	Smart::InputTaskTrigger<SmartInstitutionsServiceRepository::EnforcementInstructionPackage> *enforcementInstruction_PushInputTaskTrigger;
 	EnforcementInstruction_PushUpcallManager *enforcementInstruction_PushUpcallManager;
+	EnforcementInstruction_PushInputCollector *enforcementInstruction_PushInputCollector;
 	// InputPort EnforcementInstruction_Send
-	Smart::ISendServerPattern<SmartInstitutions_ServiceRepository::EnforcementInstructionPackage> *enforcementInstruction_Send;
-	Smart::InputTaskTrigger<SmartInstitutions_ServiceRepository::EnforcementInstructionPackage> *enforcementInstruction_SendInputTaskTrigger;
+	Smart::ISendServerPattern<SmartInstitutionsServiceRepository::EnforcementInstructionPackage> *enforcementInstruction_Send;
+	Smart::InputTaskTrigger<SmartInstitutionsServiceRepository::EnforcementInstructionPackage> *enforcementInstruction_SendInputTaskTrigger;
 	EnforcementInstruction_SendUpcallManager *enforcementInstruction_SendUpcallManager;
+	EnforcementInstruction_SendInputCollector *enforcementInstruction_SendInputCollector;
 	// InputPort Event_Listener
-	Smart::IEventClientPattern<SmartInstitutions_ServiceRepository::SmartIN_Command, SmartInstitutions_ServiceRepository::SmartIN_EventType> *event_Listener;
-	Smart::InputTaskTrigger<Smart::EventInputType<SmartInstitutions_ServiceRepository::SmartIN_EventType>> *event_ListenerInputTaskTrigger;
+	Smart::IEventClientPattern<SmartInstitutionsServiceRepository::SmartIN_Command, SmartInstitutionsServiceRepository::SmartIN_EventType> *event_Listener;
+	Smart::InputTaskTrigger<Smart::EventInputType<SmartInstitutionsServiceRepository::SmartIN_EventType>> *event_ListenerInputTaskTrigger;
 	Event_ListenerUpcallManager *event_ListenerUpcallManager;
+	Event_ListenerInputCollector *event_ListenerInputCollector;
 	
 	// define request-ports
 	
 	// define input-handler
 	
 	// define output-ports
-	Smart::IPushServerPattern<SmartInstitutions_ServiceRepository::EnforcementReplyPackage> *enforcementReply_Push;
-	Smart::ISendClientPattern<SmartInstitutions_ServiceRepository::EnforcementReplyPackage> *enforcementReply_Send;
-	Smart::IPushServerPattern<SmartInstitutions_ServiceRepository::EnforcementReportPackage> *enforcementReport_Push;
-	Smart::ISendClientPattern<SmartInstitutions_ServiceRepository::EnforcementReportPackage> *enforcementReport_Send;
-	Smart::IEventServerPattern<SmartInstitutions_ServiceRepository::SmartIN_Command, SmartInstitutions_ServiceRepository::SmartIN_EventType, CommBasicObjects::CommTaskEventState> *event_Creator;
-	std::shared_ptr<Smart::IEventTestHandler<SmartInstitutions_ServiceRepository::SmartIN_Command, SmartInstitutions_ServiceRepository::SmartIN_EventType, CommBasicObjects::CommTaskEventState>> event_CreatorEventTestHandler;
+	Smart::IPushServerPattern<SmartInstitutionsServiceRepository::EnforcementReplyPackage> *enforcementReply_Push;
+	EnforcementReply_PushWrapper *enforcementReply_PushWrapper;
+	Smart::ISendClientPattern<SmartInstitutionsServiceRepository::EnforcementReplyPackage> *enforcementReply_Send;
+	EnforcementReply_SendWrapper *enforcementReply_SendWrapper;
+	Smart::IPushServerPattern<SmartInstitutionsServiceRepository::EnforcementReportPackage> *enforcementReport_Push;
+	EnforcementReport_PushWrapper *enforcementReport_PushWrapper;
+	Smart::ISendClientPattern<SmartInstitutionsServiceRepository::EnforcementReportPackage> *enforcementReport_Send;
+	EnforcementReport_SendWrapper *enforcementReport_SendWrapper;
+	Smart::IEventServerPattern<SmartInstitutionsServiceRepository::SmartIN_Command, SmartInstitutionsServiceRepository::SmartIN_EventType, CommBasicObjects::CommTaskEventState> *event_Creator;
+	Event_CreatorWrapper *event_CreatorWrapper;
+	std::shared_ptr<Smart::IEventTestHandler<SmartInstitutionsServiceRepository::SmartIN_Command, SmartInstitutionsServiceRepository::SmartIN_EventType, CommBasicObjects::CommTaskEventState>> event_CreatorEventTestHandler;
 	Smart::IPushServerPattern<CommBasicObjects::CommTrafficLights> *trafficLightsServiceOut;
+	TrafficLightsServiceOutWrapper *trafficLightsServiceOutWrapper;
 	
 	// define answer-ports
-	Smart::IQueryServerPattern<SmartInstitutions_ServiceRepository::EnforcementInstructionPackage, SmartInstitutions_ServiceRepository::EnforcementReplyPackage> *enforcement_QueryReply;
-	Smart::QueryServerTaskTrigger<SmartInstitutions_ServiceRepository::EnforcementInstructionPackage, SmartInstitutions_ServiceRepository::EnforcementReplyPackage> *enforcement_QueryReplyInputTaskTrigger;
-	Smart::IQueryServerPattern<SmartInstitutions_ServiceRepository::MemberIdentifier, SmartInstitutions_ServiceRepository::EnforcementReportPackage> *report_QueryReply;
-	Smart::QueryServerTaskTrigger<SmartInstitutions_ServiceRepository::MemberIdentifier, SmartInstitutions_ServiceRepository::EnforcementReportPackage> *report_QueryReplyInputTaskTrigger;
+	Smart::IQueryServerPattern<SmartInstitutionsServiceRepository::EnforcementInstructionPackage, SmartInstitutionsServiceRepository::EnforcementReplyPackage> *enforcement_QueryResponder;
+	Smart::QueryServerTaskTrigger<SmartInstitutionsServiceRepository::EnforcementInstructionPackage, SmartInstitutionsServiceRepository::EnforcementReplyPackage> *enforcement_QueryResponderInputTaskTrigger;
+	Smart::IQueryServerPattern<SmartInstitutionsServiceRepository::MemberIdentifier, SmartInstitutionsServiceRepository::EnforcementReportPackage> *report_QueryResponder;
+	Smart::QueryServerTaskTrigger<SmartInstitutionsServiceRepository::MemberIdentifier, SmartInstitutionsServiceRepository::EnforcementReportPackage> *report_QueryResponderInputTaskTrigger;
 	
 	// define request-handlers
 	Enforcement_Query_Handler *enforcement_Query_Handler;
 	Report_Query_Handler *report_Query_Handler;
-	
-	// definitions of PlainOpcUaComponentAExtension
 	
 	
 	// define default slave ports
@@ -295,18 +312,18 @@ public:
 				std::string serviceName;
 				std::string roboticMiddleware;
 		} enforcementReport_Push;
-		struct Enforcement_QueryReply_struct {
+		struct Enforcement_QueryResponder_struct {
 				std::string serviceName;
 				std::string roboticMiddleware;
-		} enforcement_QueryReply;
+		} enforcement_QueryResponder;
 		struct Event_Creator_struct {
 				std::string serviceName;
 				std::string roboticMiddleware;
 		} event_Creator;
-		struct Report_QueryReply_struct {
+		struct Report_QueryResponder_struct {
 				std::string serviceName;
 				std::string roboticMiddleware;
-		} report_QueryReply;
+		} report_QueryResponder;
 		struct TrafficLightsServiceOut_struct {
 				std::string serviceName;
 				std::string roboticMiddleware;
@@ -314,6 +331,7 @@ public:
 	
 		//--- client port parameter ---
 		struct EnforcementInstruction_Push_struct {
+			bool initialConnect;
 			std::string serverName;
 			std::string serviceName;
 			std::string wiringName;
@@ -337,14 +355,13 @@ public:
 			std::string roboticMiddleware;
 		} enforcementReport_Send;
 		struct Event_Listener_struct {
+			bool initialConnect;
 			std::string serverName;
 			std::string serviceName;
 			std::string wiringName;
 			long interval;
 			std::string roboticMiddleware;
 		} event_Listener;
-		
-		// -- parameters for PlainOpcUaComponentAExtension
 		
 	} connections;
 };

@@ -15,8 +15,8 @@
 #--------------------------------------------------------------------------
 CMAKE_MINIMUM_REQUIRED(VERSION 3.0)
 
-SET(SRC_DIR /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft)
-SET(BIN_DIR /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build)
+SET(SRC_DIR /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft)
+SET(BIN_DIR /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build)
 
 FILE(GLOB_RECURSE HASH_SRCS ${SRC_DIR}/src/*.hh ${SRC_DIR}/src/*.cc ${SRC_DIR}/src-gen/*.hh ${SRC_DIR}/src-gen/*.cc)
 LIST(REMOVE_ITEM HASH_SRCS ${SRC_DIR}/src-gen/CommBasicObjects/hash.hh)

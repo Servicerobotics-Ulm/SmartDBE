@@ -6,23 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src-gen/IOQueryCoordinationService/IOQueryCoordinationService.cc
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src-gen/IOQueryCoordinationService/IOQueryCoordinationService.cc
 IOQueryCoordinationService.hh
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src-gen/IOQueryCoordinationService/IOQueryCoordinationService.hh
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src-gen/IOQueryCoordinationService/IOQueryCoordinationService.hh
 
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src-gen/IOQueryCoordinationService/IOQueryCoordinationService.hh
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src-gen/IOQueryCoordinationService/IOQueryCoordinationService.hh
 aceSmartSoft.hh
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src-gen/IOQueryCoordinationService/aceSmartSoft.hh
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src-gen/IOQueryCoordinationService/aceSmartSoft.hh
 CommBasicObjects/CommIOValues.hh
 -
 CommBasicObjects/CommIOValuesACE.hh
 -
 IOQueryCoordinationServiceIoQueryQueryHandler.hh
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src-gen/IOQueryCoordinationService/IOQueryCoordinationServiceIoQueryQueryHandler.hh
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src-gen/IOQueryCoordinationService/IOQueryCoordinationServiceIoQueryQueryHandler.hh
 
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src-gen/IOQueryCoordinationService/IOQueryCoordinationServiceCore.cc
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src-gen/IOQueryCoordinationService/IOQueryCoordinationServiceCore.cc
 IOQueryCoordinationServiceCore.hh
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src-gen/IOQueryCoordinationService/IOQueryCoordinationServiceCore.hh
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src-gen/IOQueryCoordinationService/IOQueryCoordinationServiceCore.hh
 cstdio
 -
 string
@@ -34,11 +34,11 @@ cstdlib
 smartNumericCorrelationId.h
 -
 
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src-gen/IOQueryCoordinationService/IOQueryCoordinationServiceCore.hh
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src-gen/IOQueryCoordinationService/IOQueryCoordinationServiceCore.hh
 aceSmartSoft.hh
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src-gen/IOQueryCoordinationService/aceSmartSoft.hh
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src-gen/IOQueryCoordinationService/aceSmartSoft.hh
 runTimeInterface.hh
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src-gen/IOQueryCoordinationService/runTimeInterface.hh
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src-gen/IOQueryCoordinationService/runTimeInterface.hh
 string
 -
 map
@@ -46,15 +46,15 @@ map
 iostream
 -
 IOQueryCoordinationService.hh
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src-gen/IOQueryCoordinationService/IOQueryCoordinationService.hh
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src-gen/IOQueryCoordinationService/IOQueryCoordinationService.hh
 
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src-gen/IOQueryCoordinationService/IOQueryCoordinationServiceRunTimeInterface.cc
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src-gen/IOQueryCoordinationService/IOQueryCoordinationServiceRunTimeInterface.cc
 IOQueryCoordinationServiceCore.hh
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src-gen/IOQueryCoordinationService/IOQueryCoordinationServiceCore.hh
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src-gen/IOQueryCoordinationService/IOQueryCoordinationServiceCore.hh
 runTimeInterface.hh
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src-gen/IOQueryCoordinationService/runTimeInterface.hh
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src-gen/IOQueryCoordinationService/runTimeInterface.hh
 
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src-gen/runTimeInterface.hh
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src-gen/runTimeInterface.hh
 map
 -
 string
@@ -62,25 +62,25 @@ string
 string.h
 -
 
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/IOQueryCoordinationService/IOQueryCoordinationServiceIoQueryQueryHandler.cc
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/IOQueryCoordinationService/IOQueryCoordinationServiceIoQueryQueryHandler.cc
 IOQueryCoordinationServiceIoQueryQueryHandler.hh
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/IOQueryCoordinationService/IOQueryCoordinationServiceIoQueryQueryHandler.hh
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/IOQueryCoordinationService/IOQueryCoordinationServiceIoQueryQueryHandler.hh
 sstream
 -
 string.h
 -
 
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/IOQueryCoordinationService/IOQueryCoordinationServiceIoQueryQueryHandler.hh
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/IOQueryCoordinationService/IOQueryCoordinationServiceIoQueryQueryHandler.hh
 CommBasicObjects/CommIOValues.hh
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/IOQueryCoordinationService/CommBasicObjects/CommIOValues.hh
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/IOQueryCoordinationService/CommBasicObjects/CommIOValues.hh
 CommBasicObjects/CommIOValues.hh
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/IOQueryCoordinationService/CommBasicObjects/CommIOValues.hh
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/IOQueryCoordinationService/CommBasicObjects/CommIOValues.hh
 string
 -
 
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/src-gen/CommBasicObjects/CommAnalogOutputRequestCore.hh
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/src-gen/CommBasicObjects/CommAnalogOutputRequestCore.hh
 CommBasicObjects/CommAnalogOutputRequestData.hh
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/src-gen/CommBasicObjects/CommBasicObjects/CommAnalogOutputRequestData.hh
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/src-gen/CommBasicObjects/CommBasicObjects/CommAnalogOutputRequestData.hh
 iostream
 -
 string
@@ -88,11 +88,11 @@ string
 list
 -
 
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/src-gen/CommBasicObjects/CommAnalogOutputRequestData.hh
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/src-gen/CommBasicObjects/CommAnalogOutputRequestData.hh
 
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/src-gen/CommBasicObjects/CommDigitalOutputRequestCore.hh
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/src-gen/CommBasicObjects/CommDigitalOutputRequestCore.hh
 CommBasicObjects/CommDigitalOutputRequestData.hh
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/src-gen/CommBasicObjects/CommBasicObjects/CommDigitalOutputRequestData.hh
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/src-gen/CommBasicObjects/CommBasicObjects/CommDigitalOutputRequestData.hh
 iostream
 -
 string
@@ -100,21 +100,21 @@ string
 list
 -
 
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/src-gen/CommBasicObjects/CommDigitalOutputRequestData.hh
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/src-gen/CommBasicObjects/CommDigitalOutputRequestData.hh
 
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/src-gen/CommBasicObjects/CommIOValuesACE.hh
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/src-gen/CommBasicObjects/CommIOValuesACE.hh
 CommBasicObjects/CommIOValues.hh
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/src-gen/CommBasicObjects/CommBasicObjects/CommIOValues.hh
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/src-gen/CommBasicObjects/CommBasicObjects/CommIOValues.hh
 ace/CDR_Stream.h
 -
 
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/src-gen/CommBasicObjects/CommIOValuesCore.hh
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/src-gen/CommBasicObjects/CommIOValuesCore.hh
 CommBasicObjects/CommIOValuesData.hh
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/src-gen/CommBasicObjects/CommBasicObjects/CommIOValuesData.hh
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/src-gen/CommBasicObjects/CommBasicObjects/CommIOValuesData.hh
 CommBasicObjects/CommAnalogOutputRequest.hh
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/src-gen/CommBasicObjects/CommBasicObjects/CommAnalogOutputRequest.hh
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/src-gen/CommBasicObjects/CommBasicObjects/CommAnalogOutputRequest.hh
 CommBasicObjects/CommDigitalOutputRequest.hh
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/src-gen/CommBasicObjects/CommBasicObjects/CommDigitalOutputRequest.hh
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/src-gen/CommBasicObjects/CommBasicObjects/CommDigitalOutputRequest.hh
 iostream
 -
 string
@@ -122,25 +122,25 @@ string
 list
 -
 
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/src-gen/CommBasicObjects/CommIOValuesData.hh
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/src-gen/CommBasicObjects/CommIOValuesData.hh
 CommBasicObjects/CommDigitalOutputRequestData.hh
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/src-gen/CommBasicObjects/CommBasicObjects/CommDigitalOutputRequestData.hh
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/src-gen/CommBasicObjects/CommBasicObjects/CommDigitalOutputRequestData.hh
 CommBasicObjects/CommAnalogOutputRequestData.hh
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/src-gen/CommBasicObjects/CommBasicObjects/CommAnalogOutputRequestData.hh
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/src-gen/CommBasicObjects/CommBasicObjects/CommAnalogOutputRequestData.hh
 vector
 -
 
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/src/CommBasicObjects/CommAnalogOutputRequest.hh
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/src/CommBasicObjects/CommAnalogOutputRequest.hh
 CommBasicObjects/CommAnalogOutputRequestCore.hh
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/src/CommBasicObjects/CommBasicObjects/CommAnalogOutputRequestCore.hh
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/src/CommBasicObjects/CommBasicObjects/CommAnalogOutputRequestCore.hh
 
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/src/CommBasicObjects/CommDigitalOutputRequest.hh
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/src/CommBasicObjects/CommDigitalOutputRequest.hh
 CommBasicObjects/CommDigitalOutputRequestCore.hh
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/src/CommBasicObjects/CommBasicObjects/CommDigitalOutputRequestCore.hh
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/src/CommBasicObjects/CommBasicObjects/CommDigitalOutputRequestCore.hh
 
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/src/CommBasicObjects/CommIOValues.hh
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/src/CommBasicObjects/CommIOValues.hh
 CommBasicObjects/CommIOValuesCore.hh
-/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/src/CommBasicObjects/CommBasicObjects/CommIOValuesCore.hh
+/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/src/CommBasicObjects/CommBasicObjects/CommIOValuesCore.hh
 
 /usr/include/AceSmartSoftKernel/aceSmartSoft.hh
 smartOSMapping.hh

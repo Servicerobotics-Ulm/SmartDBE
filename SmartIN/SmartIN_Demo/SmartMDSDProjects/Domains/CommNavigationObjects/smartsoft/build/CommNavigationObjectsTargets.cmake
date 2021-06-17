@@ -45,14 +45,14 @@ unset(_expectedTargets)
 add_library(CommNavigationObjects SHARED IMPORTED)
 
 set_target_properties(CommNavigationObjects PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build;/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/src;/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/src-gen"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build;/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/src;/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/src-gen"
   INTERFACE_LINK_LIBRARIES "SmartXml;CommBasicObjects;ACE"
 )
 
 # Import target "CommNavigationObjects" for configuration "Debug"
 set_property(TARGET CommNavigationObjects APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(CommNavigationObjects PROPERTIES
-  IMPORTED_LOCATION_DEBUG "/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build/libCommNavigationObjects.so.1.0.0"
+  IMPORTED_LOCATION_DEBUG "/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build/libCommNavigationObjects.so.1.0.0"
   IMPORTED_SONAME_DEBUG "libCommNavigationObjects.so.1"
   )
 

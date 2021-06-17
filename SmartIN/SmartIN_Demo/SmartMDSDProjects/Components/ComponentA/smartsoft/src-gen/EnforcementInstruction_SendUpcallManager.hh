@@ -26,23 +26,23 @@
  * of incoming data to all associated (i.e. attached) Upcalls.
  */
 class EnforcementInstruction_SendUpcallManager
-:	public Smart::IInputHandler<SmartInstitutions_ServiceRepository::EnforcementInstructionPackage>
+:	public Smart::IInputHandler<SmartInstitutionsServiceRepository::EnforcementInstructionPackage>
 {
 private:
 	// list of associated updalls
 	std::list<EnforcementInstruction_SendUpcallInterface*> upcalls;
 
 	// call the on_EnforcementInstruction_Send of all the attached EnforcementInstruction_SendUpcallInterfaces
-	void notify_upcalls(const SmartInstitutions_ServiceRepository::EnforcementInstructionPackage &input);
+	void notify_upcalls(const SmartInstitutionsServiceRepository::EnforcementInstructionPackage &input);
 	
 protected:
-	virtual void handle_input(const SmartInstitutions_ServiceRepository::EnforcementInstructionPackage &input) {
+	virtual void handle_input(const SmartInstitutionsServiceRepository::EnforcementInstructionPackage &input) {
 		// relay input-handling to all attached EnforcementInstruction_SendUpcallInterfaces
 		this->notify_upcalls(input);
 	}
 public:
 	EnforcementInstruction_SendUpcallManager(
-		Smart::InputSubject<SmartInstitutions_ServiceRepository::EnforcementInstructionPackage> *subject,
+		Smart::InputSubject<SmartInstitutionsServiceRepository::EnforcementInstructionPackage> *subject,
 		const int &prescaleFactor=1
 	);
 	virtual ~EnforcementInstruction_SendUpcallManager();

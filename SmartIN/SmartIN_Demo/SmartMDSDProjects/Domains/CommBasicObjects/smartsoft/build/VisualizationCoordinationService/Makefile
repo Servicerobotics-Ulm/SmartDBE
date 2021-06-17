@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft
+CMAKE_SOURCE_DIR = /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build
+CMAKE_BINARY_DIR = /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/VisualizationCoordinationService/CMakeFiles/progress.marks
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 VisualizationCoordinationService/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles 0
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/VisualizationCoordinationService/CMakeFiles/progress.marks
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 VisualizationCoordinationService/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 VisualizationCoordinationService/clean
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 VisualizationCoordinationService/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 VisualizationCoordinationService/preinstall
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 VisualizationCoordinationService/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 VisualizationCoordinationService/preinstall
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 VisualizationCoordinationService/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/rule:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/rule
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/rule
 .PHONY : VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ VisualizationCoordinationService: VisualizationCoordinationService/CMakeFiles/Vi
 
 # fast build rule for target.
 VisualizationCoordinationService/fast:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/build.make VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/build
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/build.make VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/build
 .PHONY : VisualizationCoordinationService/fast
 
 VisualizationCoordinationService.o: VisualizationCoordinationService.cc.o
@@ -177,7 +177,7 @@ VisualizationCoordinationService.o: VisualizationCoordinationService.cc.o
 
 # target to build an object file
 VisualizationCoordinationService.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/build.make VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/VisualizationCoordinationService.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/build.make VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/VisualizationCoordinationService.cc.o
 .PHONY : VisualizationCoordinationService.cc.o
 
 VisualizationCoordinationService.i: VisualizationCoordinationService.cc.i
@@ -186,7 +186,7 @@ VisualizationCoordinationService.i: VisualizationCoordinationService.cc.i
 
 # target to preprocess a source file
 VisualizationCoordinationService.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/build.make VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/VisualizationCoordinationService.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/build.make VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/VisualizationCoordinationService.cc.i
 .PHONY : VisualizationCoordinationService.cc.i
 
 VisualizationCoordinationService.s: VisualizationCoordinationService.cc.s
@@ -195,7 +195,7 @@ VisualizationCoordinationService.s: VisualizationCoordinationService.cc.s
 
 # target to generate assembly for a file
 VisualizationCoordinationService.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/build.make VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/VisualizationCoordinationService.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/build.make VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/VisualizationCoordinationService.cc.s
 .PHONY : VisualizationCoordinationService.cc.s
 
 VisualizationCoordinationServiceCore.o: VisualizationCoordinationServiceCore.cc.o
@@ -204,7 +204,7 @@ VisualizationCoordinationServiceCore.o: VisualizationCoordinationServiceCore.cc.
 
 # target to build an object file
 VisualizationCoordinationServiceCore.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/build.make VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/VisualizationCoordinationServiceCore.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/build.make VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/VisualizationCoordinationServiceCore.cc.o
 .PHONY : VisualizationCoordinationServiceCore.cc.o
 
 VisualizationCoordinationServiceCore.i: VisualizationCoordinationServiceCore.cc.i
@@ -213,7 +213,7 @@ VisualizationCoordinationServiceCore.i: VisualizationCoordinationServiceCore.cc.
 
 # target to preprocess a source file
 VisualizationCoordinationServiceCore.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/build.make VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/VisualizationCoordinationServiceCore.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/build.make VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/VisualizationCoordinationServiceCore.cc.i
 .PHONY : VisualizationCoordinationServiceCore.cc.i
 
 VisualizationCoordinationServiceCore.s: VisualizationCoordinationServiceCore.cc.s
@@ -222,7 +222,7 @@ VisualizationCoordinationServiceCore.s: VisualizationCoordinationServiceCore.cc.
 
 # target to generate assembly for a file
 VisualizationCoordinationServiceCore.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/build.make VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/VisualizationCoordinationServiceCore.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/build.make VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/VisualizationCoordinationServiceCore.cc.s
 .PHONY : VisualizationCoordinationServiceCore.cc.s
 
 VisualizationCoordinationServiceRunTimeInterface.o: VisualizationCoordinationServiceRunTimeInterface.cc.o
@@ -231,7 +231,7 @@ VisualizationCoordinationServiceRunTimeInterface.o: VisualizationCoordinationSer
 
 # target to build an object file
 VisualizationCoordinationServiceRunTimeInterface.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/build.make VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/VisualizationCoordinationServiceRunTimeInterface.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/build.make VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/VisualizationCoordinationServiceRunTimeInterface.cc.o
 .PHONY : VisualizationCoordinationServiceRunTimeInterface.cc.o
 
 VisualizationCoordinationServiceRunTimeInterface.i: VisualizationCoordinationServiceRunTimeInterface.cc.i
@@ -240,7 +240,7 @@ VisualizationCoordinationServiceRunTimeInterface.i: VisualizationCoordinationSer
 
 # target to preprocess a source file
 VisualizationCoordinationServiceRunTimeInterface.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/build.make VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/VisualizationCoordinationServiceRunTimeInterface.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/build.make VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/VisualizationCoordinationServiceRunTimeInterface.cc.i
 .PHONY : VisualizationCoordinationServiceRunTimeInterface.cc.i
 
 VisualizationCoordinationServiceRunTimeInterface.s: VisualizationCoordinationServiceRunTimeInterface.cc.s
@@ -249,7 +249,7 @@ VisualizationCoordinationServiceRunTimeInterface.s: VisualizationCoordinationSer
 
 # target to generate assembly for a file
 VisualizationCoordinationServiceRunTimeInterface.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/build.make VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/VisualizationCoordinationServiceRunTimeInterface.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/build.make VisualizationCoordinationService/CMakeFiles/VisualizationCoordinationService.dir/VisualizationCoordinationServiceRunTimeInterface.cc.s
 .PHONY : VisualizationCoordinationServiceRunTimeInterface.cc.s
 
 # Help Target
@@ -285,6 +285,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

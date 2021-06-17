@@ -24,9 +24,9 @@ Enforcement_Query_Handler::Enforcement_Query_Handler(IQueryServer *server)
 }
 
 
-void Enforcement_Query_Handler::handleQuery(const Smart::QueryIdPtr &id, const SmartInstitutions_ServiceRepository::EnforcementInstructionPackage& request) 
+void Enforcement_Query_Handler::handleQuery(const Smart::QueryIdPtr &id, const SmartInstitutionsServiceRepository::EnforcementInstructionPackage& request) 
 {
-	SmartInstitutions_ServiceRepository::EnforcementReplyPackage answer;
+	SmartInstitutionsServiceRepository::EnforcementReplyPackage answer;
 	
 	// implement your query handling logic here and fill in the answer object
 	

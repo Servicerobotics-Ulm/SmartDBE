@@ -1,0 +1,5 @@
+{
+	"id" : "EnforcerTemplate",
+	"type" : "Component",
+	"dependprojects" : [  "CommBasicObjects" , "SmartInstitutionsServiceRepository"  ]
+}

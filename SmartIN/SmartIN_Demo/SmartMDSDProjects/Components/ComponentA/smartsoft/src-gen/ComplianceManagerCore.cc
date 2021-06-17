@@ -98,9 +98,9 @@ void ComplianceManagerCore::updateAllCommObjects()
 
 
 // this method is meant to be used in derived classes
-Smart::StatusCode ComplianceManagerCore::enforcementReply_PushPut(SmartInstitutions_ServiceRepository::EnforcementReplyPackage &enforcementReply_PushDataObject)
+Smart::StatusCode ComplianceManagerCore::enforcementReply_PushPut(SmartInstitutionsServiceRepository::EnforcementReplyPackage &enforcementReply_PushDataObject)
 {
-	Smart::StatusCode result = COMP->enforcementReply_Push->put(enforcementReply_PushDataObject);
+	Smart::StatusCode result = COMP->enforcementReply_PushWrapper->put(enforcementReply_PushDataObject);
 	if(useLogging == true) {
 		//FIXME: use logging
 		//Smart::LOGGER->log(pushLoggingId+1, getCurrentUpdateCount(), getPreviousCommObjId());
@@ -108,9 +108,9 @@ Smart::StatusCode ComplianceManagerCore::enforcementReply_PushPut(SmartInstituti
 	return result;
 }
 // this method is meant to be used in derived classes
-Smart::StatusCode ComplianceManagerCore::enforcementReply_SendPut(SmartInstitutions_ServiceRepository::EnforcementReplyPackage &enforcementReply_SendDataObject)
+Smart::StatusCode ComplianceManagerCore::enforcementReply_SendPut(SmartInstitutionsServiceRepository::EnforcementReplyPackage &enforcementReply_SendDataObject)
 {
-	Smart::StatusCode result = COMP->enforcementReply_Send->send(enforcementReply_SendDataObject);
+	Smart::StatusCode result = COMP->enforcementReply_SendWrapper->send(enforcementReply_SendDataObject);
 	if(useLogging == true) {
 		//FIXME: use logging
 		//Smart::LOGGER->log(pushLoggingId+1, getCurrentUpdateCount(), getPreviousCommObjId());
@@ -118,9 +118,9 @@ Smart::StatusCode ComplianceManagerCore::enforcementReply_SendPut(SmartInstituti
 	return result;
 }
 // this method is meant to be used in derived classes
-Smart::StatusCode ComplianceManagerCore::enforcementReport_PushPut(SmartInstitutions_ServiceRepository::EnforcementReportPackage &enforcementReport_PushDataObject)
+Smart::StatusCode ComplianceManagerCore::enforcementReport_PushPut(SmartInstitutionsServiceRepository::EnforcementReportPackage &enforcementReport_PushDataObject)
 {
-	Smart::StatusCode result = COMP->enforcementReport_Push->put(enforcementReport_PushDataObject);
+	Smart::StatusCode result = COMP->enforcementReport_PushWrapper->put(enforcementReport_PushDataObject);
 	if(useLogging == true) {
 		//FIXME: use logging
 		//Smart::LOGGER->log(pushLoggingId+1, getCurrentUpdateCount(), getPreviousCommObjId());
@@ -128,9 +128,9 @@ Smart::StatusCode ComplianceManagerCore::enforcementReport_PushPut(SmartInstitut
 	return result;
 }
 // this method is meant to be used in derived classes
-Smart::StatusCode ComplianceManagerCore::enforcementReport_SendPut(SmartInstitutions_ServiceRepository::EnforcementReportPackage &enforcementReport_SendDataObject)
+Smart::StatusCode ComplianceManagerCore::enforcementReport_SendPut(SmartInstitutionsServiceRepository::EnforcementReportPackage &enforcementReport_SendDataObject)
 {
-	Smart::StatusCode result = COMP->enforcementReport_Send->send(enforcementReport_SendDataObject);
+	Smart::StatusCode result = COMP->enforcementReport_SendWrapper->send(enforcementReport_SendDataObject);
 	if(useLogging == true) {
 		//FIXME: use logging
 		//Smart::LOGGER->log(pushLoggingId+1, getCurrentUpdateCount(), getPreviousCommObjId());

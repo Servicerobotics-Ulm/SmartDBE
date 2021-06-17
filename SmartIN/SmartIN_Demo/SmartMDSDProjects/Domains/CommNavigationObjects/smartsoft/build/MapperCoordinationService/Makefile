@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft
+CMAKE_SOURCE_DIR = /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build
+CMAKE_BINARY_DIR = /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build/CMakeFiles /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build/MapperCoordinationService/CMakeFiles/progress.marks
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 MapperCoordinationService/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build/CMakeFiles 0
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build/CMakeFiles /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build/MapperCoordinationService/CMakeFiles/progress.marks
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 MapperCoordinationService/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 MapperCoordinationService/clean
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 MapperCoordinationService/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 MapperCoordinationService/preinstall
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 MapperCoordinationService/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 MapperCoordinationService/preinstall
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 MapperCoordinationService/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 MapperCoordinationService/CMakeFiles/MapperCoordinationService.dir/rule:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 MapperCoordinationService/CMakeFiles/MapperCoordinationService.dir/rule
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 MapperCoordinationService/CMakeFiles/MapperCoordinationService.dir/rule
 .PHONY : MapperCoordinationService/CMakeFiles/MapperCoordinationService.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ MapperCoordinationService: MapperCoordinationService/CMakeFiles/MapperCoordinati
 
 # fast build rule for target.
 MapperCoordinationService/fast:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f MapperCoordinationService/CMakeFiles/MapperCoordinationService.dir/build.make MapperCoordinationService/CMakeFiles/MapperCoordinationService.dir/build
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f MapperCoordinationService/CMakeFiles/MapperCoordinationService.dir/build.make MapperCoordinationService/CMakeFiles/MapperCoordinationService.dir/build
 .PHONY : MapperCoordinationService/fast
 
 MapperCoordinationService.o: MapperCoordinationService.cc.o
@@ -177,7 +177,7 @@ MapperCoordinationService.o: MapperCoordinationService.cc.o
 
 # target to build an object file
 MapperCoordinationService.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f MapperCoordinationService/CMakeFiles/MapperCoordinationService.dir/build.make MapperCoordinationService/CMakeFiles/MapperCoordinationService.dir/MapperCoordinationService.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f MapperCoordinationService/CMakeFiles/MapperCoordinationService.dir/build.make MapperCoordinationService/CMakeFiles/MapperCoordinationService.dir/MapperCoordinationService.cc.o
 .PHONY : MapperCoordinationService.cc.o
 
 MapperCoordinationService.i: MapperCoordinationService.cc.i
@@ -186,7 +186,7 @@ MapperCoordinationService.i: MapperCoordinationService.cc.i
 
 # target to preprocess a source file
 MapperCoordinationService.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f MapperCoordinationService/CMakeFiles/MapperCoordinationService.dir/build.make MapperCoordinationService/CMakeFiles/MapperCoordinationService.dir/MapperCoordinationService.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f MapperCoordinationService/CMakeFiles/MapperCoordinationService.dir/build.make MapperCoordinationService/CMakeFiles/MapperCoordinationService.dir/MapperCoordinationService.cc.i
 .PHONY : MapperCoordinationService.cc.i
 
 MapperCoordinationService.s: MapperCoordinationService.cc.s
@@ -195,7 +195,7 @@ MapperCoordinationService.s: MapperCoordinationService.cc.s
 
 # target to generate assembly for a file
 MapperCoordinationService.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f MapperCoordinationService/CMakeFiles/MapperCoordinationService.dir/build.make MapperCoordinationService/CMakeFiles/MapperCoordinationService.dir/MapperCoordinationService.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f MapperCoordinationService/CMakeFiles/MapperCoordinationService.dir/build.make MapperCoordinationService/CMakeFiles/MapperCoordinationService.dir/MapperCoordinationService.cc.s
 .PHONY : MapperCoordinationService.cc.s
 
 MapperCoordinationServiceCore.o: MapperCoordinationServiceCore.cc.o
@@ -204,7 +204,7 @@ MapperCoordinationServiceCore.o: MapperCoordinationServiceCore.cc.o
 
 # target to build an object file
 MapperCoordinationServiceCore.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f MapperCoordinationService/CMakeFiles/MapperCoordinationService.dir/build.make MapperCoordinationService/CMakeFiles/MapperCoordinationService.dir/MapperCoordinationServiceCore.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f MapperCoordinationService/CMakeFiles/MapperCoordinationService.dir/build.make MapperCoordinationService/CMakeFiles/MapperCoordinationService.dir/MapperCoordinationServiceCore.cc.o
 .PHONY : MapperCoordinationServiceCore.cc.o
 
 MapperCoordinationServiceCore.i: MapperCoordinationServiceCore.cc.i
@@ -213,7 +213,7 @@ MapperCoordinationServiceCore.i: MapperCoordinationServiceCore.cc.i
 
 # target to preprocess a source file
 MapperCoordinationServiceCore.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f MapperCoordinationService/CMakeFiles/MapperCoordinationService.dir/build.make MapperCoordinationService/CMakeFiles/MapperCoordinationService.dir/MapperCoordinationServiceCore.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f MapperCoordinationService/CMakeFiles/MapperCoordinationService.dir/build.make MapperCoordinationService/CMakeFiles/MapperCoordinationService.dir/MapperCoordinationServiceCore.cc.i
 .PHONY : MapperCoordinationServiceCore.cc.i
 
 MapperCoordinationServiceCore.s: MapperCoordinationServiceCore.cc.s
@@ -222,7 +222,7 @@ MapperCoordinationServiceCore.s: MapperCoordinationServiceCore.cc.s
 
 # target to generate assembly for a file
 MapperCoordinationServiceCore.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f MapperCoordinationService/CMakeFiles/MapperCoordinationService.dir/build.make MapperCoordinationService/CMakeFiles/MapperCoordinationService.dir/MapperCoordinationServiceCore.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f MapperCoordinationService/CMakeFiles/MapperCoordinationService.dir/build.make MapperCoordinationService/CMakeFiles/MapperCoordinationService.dir/MapperCoordinationServiceCore.cc.s
 .PHONY : MapperCoordinationServiceCore.cc.s
 
 MapperCoordinationServiceRunTimeInterface.o: MapperCoordinationServiceRunTimeInterface.cc.o
@@ -231,7 +231,7 @@ MapperCoordinationServiceRunTimeInterface.o: MapperCoordinationServiceRunTimeInt
 
 # target to build an object file
 MapperCoordinationServiceRunTimeInterface.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f MapperCoordinationService/CMakeFiles/MapperCoordinationService.dir/build.make MapperCoordinationService/CMakeFiles/MapperCoordinationService.dir/MapperCoordinationServiceRunTimeInterface.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f MapperCoordinationService/CMakeFiles/MapperCoordinationService.dir/build.make MapperCoordinationService/CMakeFiles/MapperCoordinationService.dir/MapperCoordinationServiceRunTimeInterface.cc.o
 .PHONY : MapperCoordinationServiceRunTimeInterface.cc.o
 
 MapperCoordinationServiceRunTimeInterface.i: MapperCoordinationServiceRunTimeInterface.cc.i
@@ -240,7 +240,7 @@ MapperCoordinationServiceRunTimeInterface.i: MapperCoordinationServiceRunTimeInt
 
 # target to preprocess a source file
 MapperCoordinationServiceRunTimeInterface.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f MapperCoordinationService/CMakeFiles/MapperCoordinationService.dir/build.make MapperCoordinationService/CMakeFiles/MapperCoordinationService.dir/MapperCoordinationServiceRunTimeInterface.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f MapperCoordinationService/CMakeFiles/MapperCoordinationService.dir/build.make MapperCoordinationService/CMakeFiles/MapperCoordinationService.dir/MapperCoordinationServiceRunTimeInterface.cc.i
 .PHONY : MapperCoordinationServiceRunTimeInterface.cc.i
 
 MapperCoordinationServiceRunTimeInterface.s: MapperCoordinationServiceRunTimeInterface.cc.s
@@ -249,7 +249,7 @@ MapperCoordinationServiceRunTimeInterface.s: MapperCoordinationServiceRunTimeInt
 
 # target to generate assembly for a file
 MapperCoordinationServiceRunTimeInterface.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f MapperCoordinationService/CMakeFiles/MapperCoordinationService.dir/build.make MapperCoordinationService/CMakeFiles/MapperCoordinationService.dir/MapperCoordinationServiceRunTimeInterface.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f MapperCoordinationService/CMakeFiles/MapperCoordinationService.dir/build.make MapperCoordinationService/CMakeFiles/MapperCoordinationService.dir/MapperCoordinationServiceRunTimeInterface.cc.s
 .PHONY : MapperCoordinationServiceRunTimeInterface.cc.s
 
 # Help Target
@@ -285,6 +285,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

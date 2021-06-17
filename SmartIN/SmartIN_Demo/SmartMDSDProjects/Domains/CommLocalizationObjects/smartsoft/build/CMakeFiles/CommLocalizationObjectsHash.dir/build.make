@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft
+CMAKE_SOURCE_DIR = /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build
+CMAKE_BINARY_DIR = /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build
 
 # Utility rule file for CommLocalizationObjectsHash.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsReposito
 include CMakeFiles/CommLocalizationObjectsHash.dir/progress.make
 
 CMakeFiles/CommLocalizationObjectsHash: GenerateHashHeader.cmake
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "generate hash.hh for CommLocalizationObjects"
-	/usr/bin/cmake -P /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/GenerateHashHeader.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "generate hash.hh for CommLocalizationObjects"
+	/usr/bin/cmake -P /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/GenerateHashHeader.cmake
 
 CommLocalizationObjectsHash: CMakeFiles/CommLocalizationObjectsHash
 CommLocalizationObjectsHash: CMakeFiles/CommLocalizationObjectsHash.dir/build.make
@@ -72,6 +72,6 @@ CMakeFiles/CommLocalizationObjectsHash.dir/clean:
 .PHONY : CMakeFiles/CommLocalizationObjectsHash.dir/clean
 
 CMakeFiles/CommLocalizationObjectsHash.dir/depend:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/CMakeFiles/CommLocalizationObjectsHash.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/CMakeFiles/CommLocalizationObjectsHash.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/CommLocalizationObjectsHash.dir/depend
 

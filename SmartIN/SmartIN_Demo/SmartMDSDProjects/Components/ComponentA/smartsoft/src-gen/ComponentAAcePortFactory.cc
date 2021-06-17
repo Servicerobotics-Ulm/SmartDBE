@@ -52,55 +52,55 @@ int ComponentAAcePortFactory::onStartup()
 	return componentImpl->startComponentInfrastructure();
 }
 
-Smart::IPushClientPattern<SmartInstitutions_ServiceRepository::EnforcementInstructionPackage> * ComponentAAcePortFactory::createEnforcementInstruction_Push()
+Smart::IPushClientPattern<SmartInstitutionsServiceRepository::EnforcementInstructionPackage> * ComponentAAcePortFactory::createEnforcementInstruction_Push()
 {
-	return new SmartACE::PushClient<SmartInstitutions_ServiceRepository::EnforcementInstructionPackage>(componentImpl);
+	return new SmartACE::PushClient<SmartInstitutionsServiceRepository::EnforcementInstructionPackage>(componentImpl);
 }
 
-Smart::ISendClientPattern<SmartInstitutions_ServiceRepository::EnforcementReplyPackage> * ComponentAAcePortFactory::createEnforcementReply_Send()
+Smart::ISendClientPattern<SmartInstitutionsServiceRepository::EnforcementReplyPackage> * ComponentAAcePortFactory::createEnforcementReply_Send()
 {
-	return new SmartACE::SendClient<SmartInstitutions_ServiceRepository::EnforcementReplyPackage>(componentImpl);
+	return new SmartACE::SendClient<SmartInstitutionsServiceRepository::EnforcementReplyPackage>(componentImpl);
 }
 
-Smart::ISendClientPattern<SmartInstitutions_ServiceRepository::EnforcementReportPackage> * ComponentAAcePortFactory::createEnforcementReport_Send()
+Smart::ISendClientPattern<SmartInstitutionsServiceRepository::EnforcementReportPackage> * ComponentAAcePortFactory::createEnforcementReport_Send()
 {
-	return new SmartACE::SendClient<SmartInstitutions_ServiceRepository::EnforcementReportPackage>(componentImpl);
+	return new SmartACE::SendClient<SmartInstitutionsServiceRepository::EnforcementReportPackage>(componentImpl);
 }
 
-Smart::IEventClientPattern<SmartInstitutions_ServiceRepository::SmartIN_Command, SmartInstitutions_ServiceRepository::SmartIN_EventType> * ComponentAAcePortFactory::createEvent_Listener()
+Smart::IEventClientPattern<SmartInstitutionsServiceRepository::SmartIN_Command, SmartInstitutionsServiceRepository::SmartIN_EventType> * ComponentAAcePortFactory::createEvent_Listener()
 {
-	return new SmartACE::EventClient<SmartInstitutions_ServiceRepository::SmartIN_Command, SmartInstitutions_ServiceRepository::SmartIN_EventType>(componentImpl);
+	return new SmartACE::EventClient<SmartInstitutionsServiceRepository::SmartIN_Command, SmartInstitutionsServiceRepository::SmartIN_EventType>(componentImpl);
 }
 
 
-Smart::ISendServerPattern<SmartInstitutions_ServiceRepository::EnforcementInstructionPackage> * ComponentAAcePortFactory::createEnforcementInstruction_Send(const std::string &serviceName)
+Smart::ISendServerPattern<SmartInstitutionsServiceRepository::EnforcementInstructionPackage> * ComponentAAcePortFactory::createEnforcementInstruction_Send(const std::string &serviceName)
 {
-	return new SmartACE::SendServer<SmartInstitutions_ServiceRepository::EnforcementInstructionPackage>(componentImpl, serviceName);
+	return new SmartACE::SendServer<SmartInstitutionsServiceRepository::EnforcementInstructionPackage>(componentImpl, serviceName);
 }
 
-Smart::IPushServerPattern<SmartInstitutions_ServiceRepository::EnforcementReplyPackage> * ComponentAAcePortFactory::createEnforcementReply_Push(const std::string &serviceName)
+Smart::IPushServerPattern<SmartInstitutionsServiceRepository::EnforcementReplyPackage> * ComponentAAcePortFactory::createEnforcementReply_Push(const std::string &serviceName)
 {
-	return new SmartACE::PushServer<SmartInstitutions_ServiceRepository::EnforcementReplyPackage>(componentImpl, serviceName);
+	return new SmartACE::PushServer<SmartInstitutionsServiceRepository::EnforcementReplyPackage>(componentImpl, serviceName);
 }
 
-Smart::IPushServerPattern<SmartInstitutions_ServiceRepository::EnforcementReportPackage> * ComponentAAcePortFactory::createEnforcementReport_Push(const std::string &serviceName)
+Smart::IPushServerPattern<SmartInstitutionsServiceRepository::EnforcementReportPackage> * ComponentAAcePortFactory::createEnforcementReport_Push(const std::string &serviceName)
 {
-	return new SmartACE::PushServer<SmartInstitutions_ServiceRepository::EnforcementReportPackage>(componentImpl, serviceName);
+	return new SmartACE::PushServer<SmartInstitutionsServiceRepository::EnforcementReportPackage>(componentImpl, serviceName);
 }
 
-Smart::IQueryServerPattern<SmartInstitutions_ServiceRepository::EnforcementInstructionPackage, SmartInstitutions_ServiceRepository::EnforcementReplyPackage> * ComponentAAcePortFactory::createEnforcement_QueryReply(const std::string &serviceName)
+Smart::IQueryServerPattern<SmartInstitutionsServiceRepository::EnforcementInstructionPackage, SmartInstitutionsServiceRepository::EnforcementReplyPackage> * ComponentAAcePortFactory::createEnforcement_QueryResponder(const std::string &serviceName)
 {
-	return new SmartACE::QueryServer<SmartInstitutions_ServiceRepository::EnforcementInstructionPackage, SmartInstitutions_ServiceRepository::EnforcementReplyPackage>(componentImpl, serviceName);
+	return new SmartACE::QueryServer<SmartInstitutionsServiceRepository::EnforcementInstructionPackage, SmartInstitutionsServiceRepository::EnforcementReplyPackage>(componentImpl, serviceName);
 }
 
-Smart::IEventServerPattern<SmartInstitutions_ServiceRepository::SmartIN_Command, SmartInstitutions_ServiceRepository::SmartIN_EventType, CommBasicObjects::CommTaskEventState> * ComponentAAcePortFactory::createEvent_Creator(const std::string &serviceName, std::shared_ptr<Smart::IEventTestHandler<SmartInstitutions_ServiceRepository::SmartIN_Command, SmartInstitutions_ServiceRepository::SmartIN_EventType, CommBasicObjects::CommTaskEventState>> event_CreatorEventTestHandler)
+Smart::IEventServerPattern<SmartInstitutionsServiceRepository::SmartIN_Command, SmartInstitutionsServiceRepository::SmartIN_EventType, CommBasicObjects::CommTaskEventState> * ComponentAAcePortFactory::createEvent_Creator(const std::string &serviceName, std::shared_ptr<Smart::IEventTestHandler<SmartInstitutionsServiceRepository::SmartIN_Command, SmartInstitutionsServiceRepository::SmartIN_EventType, CommBasicObjects::CommTaskEventState>> event_CreatorEventTestHandler)
 {
-	return new SmartACE::EventServer<SmartInstitutions_ServiceRepository::SmartIN_Command, SmartInstitutions_ServiceRepository::SmartIN_EventType, CommBasicObjects::CommTaskEventState>(componentImpl, serviceName, event_CreatorEventTestHandler);
+	return new SmartACE::EventServer<SmartInstitutionsServiceRepository::SmartIN_Command, SmartInstitutionsServiceRepository::SmartIN_EventType, CommBasicObjects::CommTaskEventState>(componentImpl, serviceName, event_CreatorEventTestHandler);
 }
 
-Smart::IQueryServerPattern<SmartInstitutions_ServiceRepository::MemberIdentifier, SmartInstitutions_ServiceRepository::EnforcementReportPackage> * ComponentAAcePortFactory::createReport_QueryReply(const std::string &serviceName)
+Smart::IQueryServerPattern<SmartInstitutionsServiceRepository::MemberIdentifier, SmartInstitutionsServiceRepository::EnforcementReportPackage> * ComponentAAcePortFactory::createReport_QueryResponder(const std::string &serviceName)
 {
-	return new SmartACE::QueryServer<SmartInstitutions_ServiceRepository::MemberIdentifier, SmartInstitutions_ServiceRepository::EnforcementReportPackage>(componentImpl, serviceName);
+	return new SmartACE::QueryServer<SmartInstitutionsServiceRepository::MemberIdentifier, SmartInstitutionsServiceRepository::EnforcementReportPackage>(componentImpl, serviceName);
 }
 
 Smart::IPushServerPattern<CommBasicObjects::CommTrafficLights> * ComponentAAcePortFactory::createTrafficLightsServiceOut(const std::string &serviceName)

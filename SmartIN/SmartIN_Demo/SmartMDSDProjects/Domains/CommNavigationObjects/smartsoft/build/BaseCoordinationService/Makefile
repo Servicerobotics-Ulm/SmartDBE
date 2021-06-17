@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft
+CMAKE_SOURCE_DIR = /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build
+CMAKE_BINARY_DIR = /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build/CMakeFiles /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build/BaseCoordinationService/CMakeFiles/progress.marks
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 BaseCoordinationService/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build/CMakeFiles 0
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build/CMakeFiles /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build/BaseCoordinationService/CMakeFiles/progress.marks
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 BaseCoordinationService/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 BaseCoordinationService/clean
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 BaseCoordinationService/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 BaseCoordinationService/preinstall
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 BaseCoordinationService/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 BaseCoordinationService/preinstall
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 BaseCoordinationService/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/rule:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/rule
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/rule
 .PHONY : BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ BaseCoordinationService: BaseCoordinationService/CMakeFiles/BaseCoordinationServ
 
 # fast build rule for target.
 BaseCoordinationService/fast:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build
 .PHONY : BaseCoordinationService/fast
 
 BaseCoordinationService.o: BaseCoordinationService.cc.o
@@ -177,7 +177,7 @@ BaseCoordinationService.o: BaseCoordinationService.cc.o
 
 # target to build an object file
 BaseCoordinationService.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/BaseCoordinationService.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/BaseCoordinationService.cc.o
 .PHONY : BaseCoordinationService.cc.o
 
 BaseCoordinationService.i: BaseCoordinationService.cc.i
@@ -186,7 +186,7 @@ BaseCoordinationService.i: BaseCoordinationService.cc.i
 
 # target to preprocess a source file
 BaseCoordinationService.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/BaseCoordinationService.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/BaseCoordinationService.cc.i
 .PHONY : BaseCoordinationService.cc.i
 
 BaseCoordinationService.s: BaseCoordinationService.cc.s
@@ -195,7 +195,7 @@ BaseCoordinationService.s: BaseCoordinationService.cc.s
 
 # target to generate assembly for a file
 BaseCoordinationService.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/BaseCoordinationService.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/BaseCoordinationService.cc.s
 .PHONY : BaseCoordinationService.cc.s
 
 BaseCoordinationServiceBatteryEventEventHandlerCore.o: BaseCoordinationServiceBatteryEventEventHandlerCore.cc.o
@@ -204,7 +204,7 @@ BaseCoordinationServiceBatteryEventEventHandlerCore.o: BaseCoordinationServiceBa
 
 # target to build an object file
 BaseCoordinationServiceBatteryEventEventHandlerCore.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/BaseCoordinationServiceBatteryEventEventHandlerCore.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/BaseCoordinationServiceBatteryEventEventHandlerCore.cc.o
 .PHONY : BaseCoordinationServiceBatteryEventEventHandlerCore.cc.o
 
 BaseCoordinationServiceBatteryEventEventHandlerCore.i: BaseCoordinationServiceBatteryEventEventHandlerCore.cc.i
@@ -213,7 +213,7 @@ BaseCoordinationServiceBatteryEventEventHandlerCore.i: BaseCoordinationServiceBa
 
 # target to preprocess a source file
 BaseCoordinationServiceBatteryEventEventHandlerCore.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/BaseCoordinationServiceBatteryEventEventHandlerCore.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/BaseCoordinationServiceBatteryEventEventHandlerCore.cc.i
 .PHONY : BaseCoordinationServiceBatteryEventEventHandlerCore.cc.i
 
 BaseCoordinationServiceBatteryEventEventHandlerCore.s: BaseCoordinationServiceBatteryEventEventHandlerCore.cc.s
@@ -222,7 +222,7 @@ BaseCoordinationServiceBatteryEventEventHandlerCore.s: BaseCoordinationServiceBa
 
 # target to generate assembly for a file
 BaseCoordinationServiceBatteryEventEventHandlerCore.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/BaseCoordinationServiceBatteryEventEventHandlerCore.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/BaseCoordinationServiceBatteryEventEventHandlerCore.cc.s
 .PHONY : BaseCoordinationServiceBatteryEventEventHandlerCore.cc.s
 
 BaseCoordinationServiceBumperEventEventHandlerCore.o: BaseCoordinationServiceBumperEventEventHandlerCore.cc.o
@@ -231,7 +231,7 @@ BaseCoordinationServiceBumperEventEventHandlerCore.o: BaseCoordinationServiceBum
 
 # target to build an object file
 BaseCoordinationServiceBumperEventEventHandlerCore.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/BaseCoordinationServiceBumperEventEventHandlerCore.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/BaseCoordinationServiceBumperEventEventHandlerCore.cc.o
 .PHONY : BaseCoordinationServiceBumperEventEventHandlerCore.cc.o
 
 BaseCoordinationServiceBumperEventEventHandlerCore.i: BaseCoordinationServiceBumperEventEventHandlerCore.cc.i
@@ -240,7 +240,7 @@ BaseCoordinationServiceBumperEventEventHandlerCore.i: BaseCoordinationServiceBum
 
 # target to preprocess a source file
 BaseCoordinationServiceBumperEventEventHandlerCore.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/BaseCoordinationServiceBumperEventEventHandlerCore.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/BaseCoordinationServiceBumperEventEventHandlerCore.cc.i
 .PHONY : BaseCoordinationServiceBumperEventEventHandlerCore.cc.i
 
 BaseCoordinationServiceBumperEventEventHandlerCore.s: BaseCoordinationServiceBumperEventEventHandlerCore.cc.s
@@ -249,7 +249,7 @@ BaseCoordinationServiceBumperEventEventHandlerCore.s: BaseCoordinationServiceBum
 
 # target to generate assembly for a file
 BaseCoordinationServiceBumperEventEventHandlerCore.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/BaseCoordinationServiceBumperEventEventHandlerCore.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/BaseCoordinationServiceBumperEventEventHandlerCore.cc.s
 .PHONY : BaseCoordinationServiceBumperEventEventHandlerCore.cc.s
 
 BaseCoordinationServiceCore.o: BaseCoordinationServiceCore.cc.o
@@ -258,7 +258,7 @@ BaseCoordinationServiceCore.o: BaseCoordinationServiceCore.cc.o
 
 # target to build an object file
 BaseCoordinationServiceCore.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/BaseCoordinationServiceCore.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/BaseCoordinationServiceCore.cc.o
 .PHONY : BaseCoordinationServiceCore.cc.o
 
 BaseCoordinationServiceCore.i: BaseCoordinationServiceCore.cc.i
@@ -267,7 +267,7 @@ BaseCoordinationServiceCore.i: BaseCoordinationServiceCore.cc.i
 
 # target to preprocess a source file
 BaseCoordinationServiceCore.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/BaseCoordinationServiceCore.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/BaseCoordinationServiceCore.cc.i
 .PHONY : BaseCoordinationServiceCore.cc.i
 
 BaseCoordinationServiceCore.s: BaseCoordinationServiceCore.cc.s
@@ -276,7 +276,7 @@ BaseCoordinationServiceCore.s: BaseCoordinationServiceCore.cc.s
 
 # target to generate assembly for a file
 BaseCoordinationServiceCore.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/BaseCoordinationServiceCore.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/BaseCoordinationServiceCore.cc.s
 .PHONY : BaseCoordinationServiceCore.cc.s
 
 BaseCoordinationServiceRunTimeInterface.o: BaseCoordinationServiceRunTimeInterface.cc.o
@@ -285,7 +285,7 @@ BaseCoordinationServiceRunTimeInterface.o: BaseCoordinationServiceRunTimeInterfa
 
 # target to build an object file
 BaseCoordinationServiceRunTimeInterface.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/BaseCoordinationServiceRunTimeInterface.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/BaseCoordinationServiceRunTimeInterface.cc.o
 .PHONY : BaseCoordinationServiceRunTimeInterface.cc.o
 
 BaseCoordinationServiceRunTimeInterface.i: BaseCoordinationServiceRunTimeInterface.cc.i
@@ -294,7 +294,7 @@ BaseCoordinationServiceRunTimeInterface.i: BaseCoordinationServiceRunTimeInterfa
 
 # target to preprocess a source file
 BaseCoordinationServiceRunTimeInterface.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/BaseCoordinationServiceRunTimeInterface.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/BaseCoordinationServiceRunTimeInterface.cc.i
 .PHONY : BaseCoordinationServiceRunTimeInterface.cc.i
 
 BaseCoordinationServiceRunTimeInterface.s: BaseCoordinationServiceRunTimeInterface.cc.s
@@ -303,89 +303,89 @@ BaseCoordinationServiceRunTimeInterface.s: BaseCoordinationServiceRunTimeInterfa
 
 # target to generate assembly for a file
 BaseCoordinationServiceRunTimeInterface.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/BaseCoordinationServiceRunTimeInterface.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/BaseCoordinationServiceRunTimeInterface.cc.s
 .PHONY : BaseCoordinationServiceRunTimeInterface.cc.s
 
-home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBaseStateQueryHandler.o: home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBaseStateQueryHandler.cc.o
+home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBaseStateQueryHandler.o: home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBaseStateQueryHandler.cc.o
 
-.PHONY : home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBaseStateQueryHandler.o
-
-# target to build an object file
-home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBaseStateQueryHandler.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBaseStateQueryHandler.cc.o
-.PHONY : home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBaseStateQueryHandler.cc.o
-
-home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBaseStateQueryHandler.i: home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBaseStateQueryHandler.cc.i
-
-.PHONY : home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBaseStateQueryHandler.i
-
-# target to preprocess a source file
-home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBaseStateQueryHandler.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBaseStateQueryHandler.cc.i
-.PHONY : home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBaseStateQueryHandler.cc.i
-
-home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBaseStateQueryHandler.s: home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBaseStateQueryHandler.cc.s
-
-.PHONY : home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBaseStateQueryHandler.s
-
-# target to generate assembly for a file
-home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBaseStateQueryHandler.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBaseStateQueryHandler.cc.s
-.PHONY : home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBaseStateQueryHandler.cc.s
-
-home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBatteryEventEventHandler.o: home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBatteryEventEventHandler.cc.o
-
-.PHONY : home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBatteryEventEventHandler.o
+.PHONY : home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBaseStateQueryHandler.o
 
 # target to build an object file
-home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBatteryEventEventHandler.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBatteryEventEventHandler.cc.o
-.PHONY : home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBatteryEventEventHandler.cc.o
+home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBaseStateQueryHandler.cc.o:
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBaseStateQueryHandler.cc.o
+.PHONY : home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBaseStateQueryHandler.cc.o
 
-home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBatteryEventEventHandler.i: home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBatteryEventEventHandler.cc.i
+home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBaseStateQueryHandler.i: home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBaseStateQueryHandler.cc.i
 
-.PHONY : home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBatteryEventEventHandler.i
+.PHONY : home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBaseStateQueryHandler.i
 
 # target to preprocess a source file
-home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBatteryEventEventHandler.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBatteryEventEventHandler.cc.i
-.PHONY : home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBatteryEventEventHandler.cc.i
+home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBaseStateQueryHandler.cc.i:
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBaseStateQueryHandler.cc.i
+.PHONY : home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBaseStateQueryHandler.cc.i
 
-home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBatteryEventEventHandler.s: home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBatteryEventEventHandler.cc.s
+home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBaseStateQueryHandler.s: home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBaseStateQueryHandler.cc.s
 
-.PHONY : home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBatteryEventEventHandler.s
+.PHONY : home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBaseStateQueryHandler.s
 
 # target to generate assembly for a file
-home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBatteryEventEventHandler.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBatteryEventEventHandler.cc.s
-.PHONY : home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBatteryEventEventHandler.cc.s
+home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBaseStateQueryHandler.cc.s:
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBaseStateQueryHandler.cc.s
+.PHONY : home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBaseStateQueryHandler.cc.s
 
-home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBumperEventEventHandler.o: home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBumperEventEventHandler.cc.o
+home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBatteryEventEventHandler.o: home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBatteryEventEventHandler.cc.o
 
-.PHONY : home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBumperEventEventHandler.o
+.PHONY : home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBatteryEventEventHandler.o
 
 # target to build an object file
-home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBumperEventEventHandler.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBumperEventEventHandler.cc.o
-.PHONY : home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBumperEventEventHandler.cc.o
+home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBatteryEventEventHandler.cc.o:
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBatteryEventEventHandler.cc.o
+.PHONY : home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBatteryEventEventHandler.cc.o
 
-home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBumperEventEventHandler.i: home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBumperEventEventHandler.cc.i
+home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBatteryEventEventHandler.i: home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBatteryEventEventHandler.cc.i
 
-.PHONY : home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBumperEventEventHandler.i
+.PHONY : home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBatteryEventEventHandler.i
 
 # target to preprocess a source file
-home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBumperEventEventHandler.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBumperEventEventHandler.cc.i
-.PHONY : home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBumperEventEventHandler.cc.i
+home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBatteryEventEventHandler.cc.i:
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBatteryEventEventHandler.cc.i
+.PHONY : home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBatteryEventEventHandler.cc.i
 
-home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBumperEventEventHandler.s: home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBumperEventEventHandler.cc.s
+home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBatteryEventEventHandler.s: home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBatteryEventEventHandler.cc.s
 
-.PHONY : home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBumperEventEventHandler.s
+.PHONY : home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBatteryEventEventHandler.s
 
 # target to generate assembly for a file
-home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBumperEventEventHandler.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBumperEventEventHandler.cc.s
-.PHONY : home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBumperEventEventHandler.cc.s
+home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBatteryEventEventHandler.cc.s:
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBatteryEventEventHandler.cc.s
+.PHONY : home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBatteryEventEventHandler.cc.s
+
+home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBumperEventEventHandler.o: home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBumperEventEventHandler.cc.o
+
+.PHONY : home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBumperEventEventHandler.o
+
+# target to build an object file
+home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBumperEventEventHandler.cc.o:
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBumperEventEventHandler.cc.o
+.PHONY : home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBumperEventEventHandler.cc.o
+
+home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBumperEventEventHandler.i: home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBumperEventEventHandler.cc.i
+
+.PHONY : home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBumperEventEventHandler.i
+
+# target to preprocess a source file
+home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBumperEventEventHandler.cc.i:
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBumperEventEventHandler.cc.i
+.PHONY : home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBumperEventEventHandler.cc.i
+
+home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBumperEventEventHandler.s: home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBumperEventEventHandler.cc.s
+
+.PHONY : home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBumperEventEventHandler.s
+
+# target to generate assembly for a file
+home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBumperEventEventHandler.cc.s:
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/build.make BaseCoordinationService/CMakeFiles/BaseCoordinationService.dir/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBumperEventEventHandler.cc.s
+.PHONY : home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBumperEventEventHandler.cc.s
 
 # Help Target
 help:
@@ -415,15 +415,15 @@ help:
 	@echo "... BaseCoordinationServiceRunTimeInterface.o"
 	@echo "... BaseCoordinationServiceRunTimeInterface.i"
 	@echo "... BaseCoordinationServiceRunTimeInterface.s"
-	@echo "... home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBaseStateQueryHandler.o"
-	@echo "... home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBaseStateQueryHandler.i"
-	@echo "... home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBaseStateQueryHandler.s"
-	@echo "... home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBatteryEventEventHandler.o"
-	@echo "... home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBatteryEventEventHandler.i"
-	@echo "... home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBatteryEventEventHandler.s"
-	@echo "... home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBumperEventEventHandler.o"
-	@echo "... home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBumperEventEventHandler.i"
-	@echo "... home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBumperEventEventHandler.s"
+	@echo "... home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBaseStateQueryHandler.o"
+	@echo "... home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBaseStateQueryHandler.i"
+	@echo "... home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBaseStateQueryHandler.s"
+	@echo "... home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBatteryEventEventHandler.o"
+	@echo "... home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBatteryEventEventHandler.i"
+	@echo "... home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBatteryEventEventHandler.s"
+	@echo "... home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBumperEventEventHandler.o"
+	@echo "... home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBumperEventEventHandler.i"
+	@echo "... home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/coordination/src/BaseCoordinationService/BaseCoordinationServiceBumperEventEventHandler.s"
 .PHONY : help
 
 
@@ -435,6 +435,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

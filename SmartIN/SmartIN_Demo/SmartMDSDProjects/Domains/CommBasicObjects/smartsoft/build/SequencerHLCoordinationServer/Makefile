@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft
+CMAKE_SOURCE_DIR = /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build
+CMAKE_BINARY_DIR = /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/SequencerHLCoordinationServer/CMakeFiles/progress.marks
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 SequencerHLCoordinationServer/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles 0
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/SequencerHLCoordinationServer/CMakeFiles/progress.marks
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 SequencerHLCoordinationServer/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 SequencerHLCoordinationServer/clean
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 SequencerHLCoordinationServer/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 SequencerHLCoordinationServer/preinstall
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 SequencerHLCoordinationServer/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 SequencerHLCoordinationServer/preinstall
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 SequencerHLCoordinationServer/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/rule:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/rule
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/rule
 .PHONY : SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ SequencerHLCoordinationServer: SequencerHLCoordinationServer/CMakeFiles/Sequence
 
 # fast build rule for target.
 SequencerHLCoordinationServer/fast:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/build.make SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/build
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/build.make SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/build
 .PHONY : SequencerHLCoordinationServer/fast
 
 SequencerHLCoordinationServer.o: SequencerHLCoordinationServer.cc.o
@@ -177,7 +177,7 @@ SequencerHLCoordinationServer.o: SequencerHLCoordinationServer.cc.o
 
 # target to build an object file
 SequencerHLCoordinationServer.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/build.make SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/SequencerHLCoordinationServer.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/build.make SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/SequencerHLCoordinationServer.cc.o
 .PHONY : SequencerHLCoordinationServer.cc.o
 
 SequencerHLCoordinationServer.i: SequencerHLCoordinationServer.cc.i
@@ -186,7 +186,7 @@ SequencerHLCoordinationServer.i: SequencerHLCoordinationServer.cc.i
 
 # target to preprocess a source file
 SequencerHLCoordinationServer.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/build.make SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/SequencerHLCoordinationServer.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/build.make SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/SequencerHLCoordinationServer.cc.i
 .PHONY : SequencerHLCoordinationServer.cc.i
 
 SequencerHLCoordinationServer.s: SequencerHLCoordinationServer.cc.s
@@ -195,7 +195,7 @@ SequencerHLCoordinationServer.s: SequencerHLCoordinationServer.cc.s
 
 # target to generate assembly for a file
 SequencerHLCoordinationServer.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/build.make SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/SequencerHLCoordinationServer.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/build.make SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/SequencerHLCoordinationServer.cc.s
 .PHONY : SequencerHLCoordinationServer.cc.s
 
 SequencerHLCoordinationServerCore.o: SequencerHLCoordinationServerCore.cc.o
@@ -204,7 +204,7 @@ SequencerHLCoordinationServerCore.o: SequencerHLCoordinationServerCore.cc.o
 
 # target to build an object file
 SequencerHLCoordinationServerCore.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/build.make SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/SequencerHLCoordinationServerCore.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/build.make SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/SequencerHLCoordinationServerCore.cc.o
 .PHONY : SequencerHLCoordinationServerCore.cc.o
 
 SequencerHLCoordinationServerCore.i: SequencerHLCoordinationServerCore.cc.i
@@ -213,7 +213,7 @@ SequencerHLCoordinationServerCore.i: SequencerHLCoordinationServerCore.cc.i
 
 # target to preprocess a source file
 SequencerHLCoordinationServerCore.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/build.make SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/SequencerHLCoordinationServerCore.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/build.make SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/SequencerHLCoordinationServerCore.cc.i
 .PHONY : SequencerHLCoordinationServerCore.cc.i
 
 SequencerHLCoordinationServerCore.s: SequencerHLCoordinationServerCore.cc.s
@@ -222,7 +222,7 @@ SequencerHLCoordinationServerCore.s: SequencerHLCoordinationServerCore.cc.s
 
 # target to generate assembly for a file
 SequencerHLCoordinationServerCore.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/build.make SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/SequencerHLCoordinationServerCore.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/build.make SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/SequencerHLCoordinationServerCore.cc.s
 .PHONY : SequencerHLCoordinationServerCore.cc.s
 
 SequencerHLCoordinationServerHLCommandServerEventHandlerCore.o: SequencerHLCoordinationServerHLCommandServerEventHandlerCore.cc.o
@@ -231,7 +231,7 @@ SequencerHLCoordinationServerHLCommandServerEventHandlerCore.o: SequencerHLCoord
 
 # target to build an object file
 SequencerHLCoordinationServerHLCommandServerEventHandlerCore.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/build.make SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/SequencerHLCoordinationServerHLCommandServerEventHandlerCore.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/build.make SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/SequencerHLCoordinationServerHLCommandServerEventHandlerCore.cc.o
 .PHONY : SequencerHLCoordinationServerHLCommandServerEventHandlerCore.cc.o
 
 SequencerHLCoordinationServerHLCommandServerEventHandlerCore.i: SequencerHLCoordinationServerHLCommandServerEventHandlerCore.cc.i
@@ -240,7 +240,7 @@ SequencerHLCoordinationServerHLCommandServerEventHandlerCore.i: SequencerHLCoord
 
 # target to preprocess a source file
 SequencerHLCoordinationServerHLCommandServerEventHandlerCore.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/build.make SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/SequencerHLCoordinationServerHLCommandServerEventHandlerCore.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/build.make SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/SequencerHLCoordinationServerHLCommandServerEventHandlerCore.cc.i
 .PHONY : SequencerHLCoordinationServerHLCommandServerEventHandlerCore.cc.i
 
 SequencerHLCoordinationServerHLCommandServerEventHandlerCore.s: SequencerHLCoordinationServerHLCommandServerEventHandlerCore.cc.s
@@ -249,7 +249,7 @@ SequencerHLCoordinationServerHLCommandServerEventHandlerCore.s: SequencerHLCoord
 
 # target to generate assembly for a file
 SequencerHLCoordinationServerHLCommandServerEventHandlerCore.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/build.make SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/SequencerHLCoordinationServerHLCommandServerEventHandlerCore.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/build.make SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/SequencerHLCoordinationServerHLCommandServerEventHandlerCore.cc.s
 .PHONY : SequencerHLCoordinationServerHLCommandServerEventHandlerCore.cc.s
 
 SequencerHLCoordinationServerRunTimeInterface.o: SequencerHLCoordinationServerRunTimeInterface.cc.o
@@ -258,7 +258,7 @@ SequencerHLCoordinationServerRunTimeInterface.o: SequencerHLCoordinationServerRu
 
 # target to build an object file
 SequencerHLCoordinationServerRunTimeInterface.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/build.make SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/SequencerHLCoordinationServerRunTimeInterface.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/build.make SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/SequencerHLCoordinationServerRunTimeInterface.cc.o
 .PHONY : SequencerHLCoordinationServerRunTimeInterface.cc.o
 
 SequencerHLCoordinationServerRunTimeInterface.i: SequencerHLCoordinationServerRunTimeInterface.cc.i
@@ -267,7 +267,7 @@ SequencerHLCoordinationServerRunTimeInterface.i: SequencerHLCoordinationServerRu
 
 # target to preprocess a source file
 SequencerHLCoordinationServerRunTimeInterface.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/build.make SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/SequencerHLCoordinationServerRunTimeInterface.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/build.make SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/SequencerHLCoordinationServerRunTimeInterface.cc.i
 .PHONY : SequencerHLCoordinationServerRunTimeInterface.cc.i
 
 SequencerHLCoordinationServerRunTimeInterface.s: SequencerHLCoordinationServerRunTimeInterface.cc.s
@@ -276,62 +276,62 @@ SequencerHLCoordinationServerRunTimeInterface.s: SequencerHLCoordinationServerRu
 
 # target to generate assembly for a file
 SequencerHLCoordinationServerRunTimeInterface.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/build.make SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/SequencerHLCoordinationServerRunTimeInterface.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/build.make SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/SequencerHLCoordinationServerRunTimeInterface.cc.s
 .PHONY : SequencerHLCoordinationServerRunTimeInterface.cc.s
 
-home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandResponseClientSendHandler.o: home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandResponseClientSendHandler.cc.o
+home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandResponseClientSendHandler.o: home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandResponseClientSendHandler.cc.o
 
-.PHONY : home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandResponseClientSendHandler.o
-
-# target to build an object file
-home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandResponseClientSendHandler.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/build.make SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandResponseClientSendHandler.cc.o
-.PHONY : home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandResponseClientSendHandler.cc.o
-
-home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandResponseClientSendHandler.i: home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandResponseClientSendHandler.cc.i
-
-.PHONY : home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandResponseClientSendHandler.i
-
-# target to preprocess a source file
-home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandResponseClientSendHandler.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/build.make SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandResponseClientSendHandler.cc.i
-.PHONY : home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandResponseClientSendHandler.cc.i
-
-home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandResponseClientSendHandler.s: home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandResponseClientSendHandler.cc.s
-
-.PHONY : home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandResponseClientSendHandler.s
-
-# target to generate assembly for a file
-home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandResponseClientSendHandler.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/build.make SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandResponseClientSendHandler.cc.s
-.PHONY : home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandResponseClientSendHandler.cc.s
-
-home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandServerEventHandler.o: home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandServerEventHandler.cc.o
-
-.PHONY : home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandServerEventHandler.o
+.PHONY : home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandResponseClientSendHandler.o
 
 # target to build an object file
-home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandServerEventHandler.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/build.make SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandServerEventHandler.cc.o
-.PHONY : home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandServerEventHandler.cc.o
+home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandResponseClientSendHandler.cc.o:
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/build.make SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandResponseClientSendHandler.cc.o
+.PHONY : home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandResponseClientSendHandler.cc.o
 
-home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandServerEventHandler.i: home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandServerEventHandler.cc.i
+home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandResponseClientSendHandler.i: home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandResponseClientSendHandler.cc.i
 
-.PHONY : home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandServerEventHandler.i
+.PHONY : home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandResponseClientSendHandler.i
 
 # target to preprocess a source file
-home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandServerEventHandler.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/build.make SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandServerEventHandler.cc.i
-.PHONY : home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandServerEventHandler.cc.i
+home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandResponseClientSendHandler.cc.i:
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/build.make SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandResponseClientSendHandler.cc.i
+.PHONY : home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandResponseClientSendHandler.cc.i
 
-home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandServerEventHandler.s: home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandServerEventHandler.cc.s
+home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandResponseClientSendHandler.s: home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandResponseClientSendHandler.cc.s
 
-.PHONY : home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandServerEventHandler.s
+.PHONY : home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandResponseClientSendHandler.s
 
 # target to generate assembly for a file
-home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandServerEventHandler.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/build.make SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandServerEventHandler.cc.s
-.PHONY : home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandServerEventHandler.cc.s
+home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandResponseClientSendHandler.cc.s:
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/build.make SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandResponseClientSendHandler.cc.s
+.PHONY : home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandResponseClientSendHandler.cc.s
+
+home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandServerEventHandler.o: home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandServerEventHandler.cc.o
+
+.PHONY : home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandServerEventHandler.o
+
+# target to build an object file
+home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandServerEventHandler.cc.o:
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/build.make SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandServerEventHandler.cc.o
+.PHONY : home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandServerEventHandler.cc.o
+
+home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandServerEventHandler.i: home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandServerEventHandler.cc.i
+
+.PHONY : home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandServerEventHandler.i
+
+# target to preprocess a source file
+home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandServerEventHandler.cc.i:
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/build.make SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandServerEventHandler.cc.i
+.PHONY : home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandServerEventHandler.cc.i
+
+home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandServerEventHandler.s: home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandServerEventHandler.cc.s
+
+.PHONY : home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandServerEventHandler.s
+
+# target to generate assembly for a file
+home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandServerEventHandler.cc.s:
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/build.make SequencerHLCoordinationServer/CMakeFiles/SequencerHLCoordinationServer.dir/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandServerEventHandler.cc.s
+.PHONY : home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandServerEventHandler.cc.s
 
 # Help Target
 help:
@@ -358,12 +358,12 @@ help:
 	@echo "... SequencerHLCoordinationServerRunTimeInterface.o"
 	@echo "... SequencerHLCoordinationServerRunTimeInterface.i"
 	@echo "... SequencerHLCoordinationServerRunTimeInterface.s"
-	@echo "... home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandResponseClientSendHandler.o"
-	@echo "... home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandResponseClientSendHandler.i"
-	@echo "... home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandResponseClientSendHandler.s"
-	@echo "... home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandServerEventHandler.o"
-	@echo "... home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandServerEventHandler.i"
-	@echo "... home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandServerEventHandler.s"
+	@echo "... home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandResponseClientSendHandler.o"
+	@echo "... home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandResponseClientSendHandler.i"
+	@echo "... home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandResponseClientSendHandler.s"
+	@echo "... home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandServerEventHandler.o"
+	@echo "... home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandServerEventHandler.i"
+	@echo "... home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/SequencerHLCoordinationServer/SequencerHLCoordinationServerHLCommandServerEventHandler.s"
 .PHONY : help
 
 
@@ -375,6 +375,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

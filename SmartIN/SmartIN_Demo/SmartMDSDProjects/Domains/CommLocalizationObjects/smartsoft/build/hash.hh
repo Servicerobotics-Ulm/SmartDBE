@@ -21,7 +21,7 @@
 
 namespace CommLocalizationObjectsIDL
 {
-	const char * const REPO_HASH = "cca1ec9919b4209ca83aef2a7c5600f6";
+	const char * const REPO_HASH = "599fa2d5abb047dd23aeaed405a05110";
 	typedef std::list<std::string> HashList;
 };
 

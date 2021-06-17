@@ -45,14 +45,14 @@ unset(_expectedTargets)
 add_library(CommNavigationObjectsJSON SHARED IMPORTED)
 
 set_target_properties(CommNavigationObjectsJSON PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/toolify/src-gen"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/toolify/src-gen"
   INTERFACE_LINK_LIBRARIES "CommNavigationObjects;nlohmann_json::nlohmann_json;CommBasicObjectsJSON"
 )
 
 # Import target "CommNavigationObjectsJSON" for configuration "Debug"
 set_property(TARGET CommNavigationObjectsJSON APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(CommNavigationObjectsJSON PROPERTIES
-  IMPORTED_LOCATION_DEBUG "/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build/toolify/libCommNavigationObjectsJSON.so.1.0"
+  IMPORTED_LOCATION_DEBUG "/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build/toolify/libCommNavigationObjectsJSON.so.1.0"
   IMPORTED_SONAME_DEBUG "libCommNavigationObjectsJSON.so.1"
   )
 

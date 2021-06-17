@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft
+CMAKE_SOURCE_DIR = /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build
+CMAKE_BINARY_DIR = /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/WebInterfaceCoordinationService/CMakeFiles/progress.marks
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 WebInterfaceCoordinationService/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles 0
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/WebInterfaceCoordinationService/CMakeFiles/progress.marks
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 WebInterfaceCoordinationService/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 WebInterfaceCoordinationService/clean
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 WebInterfaceCoordinationService/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 WebInterfaceCoordinationService/preinstall
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 WebInterfaceCoordinationService/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 WebInterfaceCoordinationService/preinstall
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 WebInterfaceCoordinationService/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/rule:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/rule
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/rule
 .PHONY : WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ WebInterfaceCoordinationService: WebInterfaceCoordinationService/CMakeFiles/WebI
 
 # fast build rule for target.
 WebInterfaceCoordinationService/fast:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/build.make WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/build
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/build.make WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/build
 .PHONY : WebInterfaceCoordinationService/fast
 
 WebInterfaceCoordinationService.o: WebInterfaceCoordinationService.cc.o
@@ -177,7 +177,7 @@ WebInterfaceCoordinationService.o: WebInterfaceCoordinationService.cc.o
 
 # target to build an object file
 WebInterfaceCoordinationService.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/build.make WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/WebInterfaceCoordinationService.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/build.make WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/WebInterfaceCoordinationService.cc.o
 .PHONY : WebInterfaceCoordinationService.cc.o
 
 WebInterfaceCoordinationService.i: WebInterfaceCoordinationService.cc.i
@@ -186,7 +186,7 @@ WebInterfaceCoordinationService.i: WebInterfaceCoordinationService.cc.i
 
 # target to preprocess a source file
 WebInterfaceCoordinationService.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/build.make WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/WebInterfaceCoordinationService.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/build.make WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/WebInterfaceCoordinationService.cc.i
 .PHONY : WebInterfaceCoordinationService.cc.i
 
 WebInterfaceCoordinationService.s: WebInterfaceCoordinationService.cc.s
@@ -195,7 +195,7 @@ WebInterfaceCoordinationService.s: WebInterfaceCoordinationService.cc.s
 
 # target to generate assembly for a file
 WebInterfaceCoordinationService.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/build.make WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/WebInterfaceCoordinationService.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/build.make WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/WebInterfaceCoordinationService.cc.s
 .PHONY : WebInterfaceCoordinationService.cc.s
 
 WebInterfaceCoordinationServiceCore.o: WebInterfaceCoordinationServiceCore.cc.o
@@ -204,7 +204,7 @@ WebInterfaceCoordinationServiceCore.o: WebInterfaceCoordinationServiceCore.cc.o
 
 # target to build an object file
 WebInterfaceCoordinationServiceCore.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/build.make WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/WebInterfaceCoordinationServiceCore.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/build.make WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/WebInterfaceCoordinationServiceCore.cc.o
 .PHONY : WebInterfaceCoordinationServiceCore.cc.o
 
 WebInterfaceCoordinationServiceCore.i: WebInterfaceCoordinationServiceCore.cc.i
@@ -213,7 +213,7 @@ WebInterfaceCoordinationServiceCore.i: WebInterfaceCoordinationServiceCore.cc.i
 
 # target to preprocess a source file
 WebInterfaceCoordinationServiceCore.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/build.make WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/WebInterfaceCoordinationServiceCore.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/build.make WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/WebInterfaceCoordinationServiceCore.cc.i
 .PHONY : WebInterfaceCoordinationServiceCore.cc.i
 
 WebInterfaceCoordinationServiceCore.s: WebInterfaceCoordinationServiceCore.cc.s
@@ -222,7 +222,7 @@ WebInterfaceCoordinationServiceCore.s: WebInterfaceCoordinationServiceCore.cc.s
 
 # target to generate assembly for a file
 WebInterfaceCoordinationServiceCore.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/build.make WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/WebInterfaceCoordinationServiceCore.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/build.make WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/WebInterfaceCoordinationServiceCore.cc.s
 .PHONY : WebInterfaceCoordinationServiceCore.cc.s
 
 WebInterfaceCoordinationServiceRunTimeInterface.o: WebInterfaceCoordinationServiceRunTimeInterface.cc.o
@@ -231,7 +231,7 @@ WebInterfaceCoordinationServiceRunTimeInterface.o: WebInterfaceCoordinationServi
 
 # target to build an object file
 WebInterfaceCoordinationServiceRunTimeInterface.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/build.make WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/WebInterfaceCoordinationServiceRunTimeInterface.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/build.make WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/WebInterfaceCoordinationServiceRunTimeInterface.cc.o
 .PHONY : WebInterfaceCoordinationServiceRunTimeInterface.cc.o
 
 WebInterfaceCoordinationServiceRunTimeInterface.i: WebInterfaceCoordinationServiceRunTimeInterface.cc.i
@@ -240,7 +240,7 @@ WebInterfaceCoordinationServiceRunTimeInterface.i: WebInterfaceCoordinationServi
 
 # target to preprocess a source file
 WebInterfaceCoordinationServiceRunTimeInterface.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/build.make WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/WebInterfaceCoordinationServiceRunTimeInterface.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/build.make WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/WebInterfaceCoordinationServiceRunTimeInterface.cc.i
 .PHONY : WebInterfaceCoordinationServiceRunTimeInterface.cc.i
 
 WebInterfaceCoordinationServiceRunTimeInterface.s: WebInterfaceCoordinationServiceRunTimeInterface.cc.s
@@ -249,7 +249,7 @@ WebInterfaceCoordinationServiceRunTimeInterface.s: WebInterfaceCoordinationServi
 
 # target to generate assembly for a file
 WebInterfaceCoordinationServiceRunTimeInterface.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/build.make WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/WebInterfaceCoordinationServiceRunTimeInterface.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/build.make WebInterfaceCoordinationService/CMakeFiles/WebInterfaceCoordinationService.dir/WebInterfaceCoordinationServiceRunTimeInterface.cc.s
 .PHONY : WebInterfaceCoordinationServiceRunTimeInterface.cc.s
 
 # Help Target
@@ -285,6 +285,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

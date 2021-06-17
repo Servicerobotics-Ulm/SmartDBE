@@ -24,9 +24,9 @@ Report_Query_Handler::Report_Query_Handler(IQueryServer *server)
 }
 
 
-void Report_Query_Handler::handleQuery(const Smart::QueryIdPtr &id, const SmartInstitutions_ServiceRepository::MemberIdentifier& request) 
+void Report_Query_Handler::handleQuery(const Smart::QueryIdPtr &id, const SmartInstitutionsServiceRepository::MemberIdentifier& request) 
 {
-	SmartInstitutions_ServiceRepository::EnforcementReportPackage answer;
+	SmartInstitutionsServiceRepository::EnforcementReportPackage answer;
 	
 	// implement your query handling logic here and fill in the answer object
 	

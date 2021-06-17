@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft
+CMAKE_SOURCE_DIR = /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build
+CMAKE_BINARY_DIR = /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/LaserFromRGBDCoordinationService/CMakeFiles/progress.marks
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 LaserFromRGBDCoordinationService/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles 0
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/LaserFromRGBDCoordinationService/CMakeFiles/progress.marks
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 LaserFromRGBDCoordinationService/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 LaserFromRGBDCoordinationService/clean
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 LaserFromRGBDCoordinationService/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 LaserFromRGBDCoordinationService/preinstall
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 LaserFromRGBDCoordinationService/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 LaserFromRGBDCoordinationService/preinstall
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 LaserFromRGBDCoordinationService/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/rule:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/rule
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/rule
 .PHONY : LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ LaserFromRGBDCoordinationService: LaserFromRGBDCoordinationService/CMakeFiles/La
 
 # fast build rule for target.
 LaserFromRGBDCoordinationService/fast:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/build.make LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/build
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/build.make LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/build
 .PHONY : LaserFromRGBDCoordinationService/fast
 
 LaserFromRGBDCoordinationService.o: LaserFromRGBDCoordinationService.cc.o
@@ -177,7 +177,7 @@ LaserFromRGBDCoordinationService.o: LaserFromRGBDCoordinationService.cc.o
 
 # target to build an object file
 LaserFromRGBDCoordinationService.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/build.make LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/LaserFromRGBDCoordinationService.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/build.make LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/LaserFromRGBDCoordinationService.cc.o
 .PHONY : LaserFromRGBDCoordinationService.cc.o
 
 LaserFromRGBDCoordinationService.i: LaserFromRGBDCoordinationService.cc.i
@@ -186,7 +186,7 @@ LaserFromRGBDCoordinationService.i: LaserFromRGBDCoordinationService.cc.i
 
 # target to preprocess a source file
 LaserFromRGBDCoordinationService.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/build.make LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/LaserFromRGBDCoordinationService.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/build.make LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/LaserFromRGBDCoordinationService.cc.i
 .PHONY : LaserFromRGBDCoordinationService.cc.i
 
 LaserFromRGBDCoordinationService.s: LaserFromRGBDCoordinationService.cc.s
@@ -195,7 +195,7 @@ LaserFromRGBDCoordinationService.s: LaserFromRGBDCoordinationService.cc.s
 
 # target to generate assembly for a file
 LaserFromRGBDCoordinationService.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/build.make LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/LaserFromRGBDCoordinationService.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/build.make LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/LaserFromRGBDCoordinationService.cc.s
 .PHONY : LaserFromRGBDCoordinationService.cc.s
 
 LaserFromRGBDCoordinationServiceCore.o: LaserFromRGBDCoordinationServiceCore.cc.o
@@ -204,7 +204,7 @@ LaserFromRGBDCoordinationServiceCore.o: LaserFromRGBDCoordinationServiceCore.cc.
 
 # target to build an object file
 LaserFromRGBDCoordinationServiceCore.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/build.make LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/LaserFromRGBDCoordinationServiceCore.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/build.make LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/LaserFromRGBDCoordinationServiceCore.cc.o
 .PHONY : LaserFromRGBDCoordinationServiceCore.cc.o
 
 LaserFromRGBDCoordinationServiceCore.i: LaserFromRGBDCoordinationServiceCore.cc.i
@@ -213,7 +213,7 @@ LaserFromRGBDCoordinationServiceCore.i: LaserFromRGBDCoordinationServiceCore.cc.
 
 # target to preprocess a source file
 LaserFromRGBDCoordinationServiceCore.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/build.make LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/LaserFromRGBDCoordinationServiceCore.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/build.make LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/LaserFromRGBDCoordinationServiceCore.cc.i
 .PHONY : LaserFromRGBDCoordinationServiceCore.cc.i
 
 LaserFromRGBDCoordinationServiceCore.s: LaserFromRGBDCoordinationServiceCore.cc.s
@@ -222,7 +222,7 @@ LaserFromRGBDCoordinationServiceCore.s: LaserFromRGBDCoordinationServiceCore.cc.
 
 # target to generate assembly for a file
 LaserFromRGBDCoordinationServiceCore.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/build.make LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/LaserFromRGBDCoordinationServiceCore.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/build.make LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/LaserFromRGBDCoordinationServiceCore.cc.s
 .PHONY : LaserFromRGBDCoordinationServiceCore.cc.s
 
 LaserFromRGBDCoordinationServiceRunTimeInterface.o: LaserFromRGBDCoordinationServiceRunTimeInterface.cc.o
@@ -231,7 +231,7 @@ LaserFromRGBDCoordinationServiceRunTimeInterface.o: LaserFromRGBDCoordinationSer
 
 # target to build an object file
 LaserFromRGBDCoordinationServiceRunTimeInterface.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/build.make LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/LaserFromRGBDCoordinationServiceRunTimeInterface.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/build.make LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/LaserFromRGBDCoordinationServiceRunTimeInterface.cc.o
 .PHONY : LaserFromRGBDCoordinationServiceRunTimeInterface.cc.o
 
 LaserFromRGBDCoordinationServiceRunTimeInterface.i: LaserFromRGBDCoordinationServiceRunTimeInterface.cc.i
@@ -240,7 +240,7 @@ LaserFromRGBDCoordinationServiceRunTimeInterface.i: LaserFromRGBDCoordinationSer
 
 # target to preprocess a source file
 LaserFromRGBDCoordinationServiceRunTimeInterface.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/build.make LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/LaserFromRGBDCoordinationServiceRunTimeInterface.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/build.make LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/LaserFromRGBDCoordinationServiceRunTimeInterface.cc.i
 .PHONY : LaserFromRGBDCoordinationServiceRunTimeInterface.cc.i
 
 LaserFromRGBDCoordinationServiceRunTimeInterface.s: LaserFromRGBDCoordinationServiceRunTimeInterface.cc.s
@@ -249,7 +249,7 @@ LaserFromRGBDCoordinationServiceRunTimeInterface.s: LaserFromRGBDCoordinationSer
 
 # target to generate assembly for a file
 LaserFromRGBDCoordinationServiceRunTimeInterface.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/build.make LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/LaserFromRGBDCoordinationServiceRunTimeInterface.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/build.make LaserFromRGBDCoordinationService/CMakeFiles/LaserFromRGBDCoordinationService.dir/LaserFromRGBDCoordinationServiceRunTimeInterface.cc.s
 .PHONY : LaserFromRGBDCoordinationServiceRunTimeInterface.cc.s
 
 # Help Target
@@ -285,6 +285,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

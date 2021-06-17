@@ -3,7 +3,7 @@
 # imports: http://seronet-projekt.de/models/t2#Navigation
 
 # imports: http://www.servicerobotik-ulm.de/DomainModels/CommBasicObjects
-# imports: http://www.servicerobotik-ulm.de/DomainModels/SmartInstitutions_ServiceRepository
+# imports: http://www.servicerobotik-ulm.de/DomainModels/SmartInstitutionsServiceRepository
 
 #######################################
 # Technical Data Sheet
@@ -33,7 +33,7 @@
 @prefix t3: <http://www.servicerobotik-ulm.de/ComponentsAndSystems#> .
 
 @prefix CommBasicObjects: <http://www.servicerobotik-ulm.de/DomainModels/CommBasicObjects#> .
-@prefix SmartInstitutions_ServiceRepository: <http://www.servicerobotik-ulm.de/DomainModels/SmartInstitutions_ServiceRepository#> .
+@prefix SmartInstitutionsServiceRepository: <http://www.servicerobotik-ulm.de/DomainModels/SmartInstitutionsServiceRepository#> .
 
 ##### Software Component ComponentA
 # see https://robmosys.eu/wiki/modeling:metamodels:component
@@ -41,7 +41,7 @@ t3:ComponentA a robmosys:ComponentDefinition;
 	a owl:Ontology ;
 	owl:imports <http://robmosys.eu/rdf/composition-structures> ;
 	owl:imports <http://www.servicerobotik-ulm.de/DomainModels/CommBasicObjects> ;
-	owl:imports <http://www.servicerobotik-ulm.de/DomainModels/SmartInstitutions_ServiceRepository> ;
+	owl:imports <http://www.servicerobotik-ulm.de/DomainModels/SmartInstitutionsServiceRepository> ;
 	
 	# Human readable name of this component
 	# Equals with the project name
@@ -63,10 +63,10 @@ t3:ComponentA a robmosys:ComponentDefinition;
 	t1:requiredService t3:ComponentA_Event_Listener;
 	# ComponentPort Event_Creator
 	t1:providedService t3:ComponentA_Event_Creator;
-	# ComponentPort Report_QueryReply
-	t1:providedService t3:ComponentA_Report_QueryReply;
-	# ComponentPort Enforcement_QueryReply
-	t1:providedService t3:ComponentA_Enforcement_QueryReply;
+	# ComponentPort Report_QueryResponder
+	t1:providedService t3:ComponentA_Report_QueryResponder;
+	# ComponentPort Enforcement_QueryResponder
+	t1:providedService t3:ComponentA_Enforcement_QueryResponder;
 	# ComponentPort EnforcementReport_Push
 	t1:providedService t3:ComponentA_EnforcementReport_Push;
 	# ComponentPort EnforcementReply_Push
@@ -86,7 +86,7 @@ t3:ComponentA a robmosys:ComponentDefinition;
 # a service definition usage. Here: provided service
 # see https://robmosys.eu/wiki/modeling:metamodels:component
 t3:ComponentA_Event_Listener 
-	rdf:type SmartInstitutions_ServiceRepository:SmartIN_Event ;
+	rdf:type SmartInstitutionsServiceRepository:SmartIN_Event ;
 	# name of this service definition as from the model
 	rdfs:label "Event_Listener";
 
@@ -96,7 +96,7 @@ t3:ComponentA_Event_Listener
 # a service definition usage. Here: provided service
 # see https://robmosys.eu/wiki/modeling:metamodels:component
 t3:ComponentA_Event_Creator 
-	rdf:type SmartInstitutions_ServiceRepository:SmartIN_Event ;
+	rdf:type SmartInstitutionsServiceRepository:SmartIN_Event ;
 	# name of this service definition as from the model
 	rdfs:label "Event_Creator";
 
@@ -105,20 +105,20 @@ t3:ComponentA_Event_Creator
 
 # a service definition usage. Here: provided service
 # see https://robmosys.eu/wiki/modeling:metamodels:component
-t3:ComponentA_Report_QueryReply 
-	rdf:type SmartInstitutions_ServiceRepository:SmartIN_Enforcement_Report_Query ;
+t3:ComponentA_Report_QueryResponder 
+	rdf:type SmartInstitutionsServiceRepository:SmartIN_Enforcement_Report_Query ;
 	# name of this service definition as from the model
-	rdfs:label "Report_QueryReply";
+	rdfs:label "Report_QueryResponder";
 
 
 .
 
 # a service definition usage. Here: provided service
 # see https://robmosys.eu/wiki/modeling:metamodels:component
-t3:ComponentA_Enforcement_QueryReply 
-	rdf:type SmartInstitutions_ServiceRepository:SmartIN_Enforcement_Query ;
+t3:ComponentA_Enforcement_QueryResponder 
+	rdf:type SmartInstitutionsServiceRepository:SmartIN_Enforcement_Query ;
 	# name of this service definition as from the model
-	rdfs:label "Enforcement_QueryReply";
+	rdfs:label "Enforcement_QueryResponder";
 
 
 .
@@ -126,7 +126,7 @@ t3:ComponentA_Enforcement_QueryReply
 # a service definition usage. Here: provided service
 # see https://robmosys.eu/wiki/modeling:metamodels:component
 t3:ComponentA_EnforcementReport_Push 
-	rdf:type SmartInstitutions_ServiceRepository:SmartIN_EnforcementReportPackage_Push ;
+	rdf:type SmartInstitutionsServiceRepository:SmartIN_EnforcementReportPackage_Push ;
 	# name of this service definition as from the model
 	rdfs:label "EnforcementReport_Push";
 
@@ -136,7 +136,7 @@ t3:ComponentA_EnforcementReport_Push
 # a service definition usage. Here: provided service
 # see https://robmosys.eu/wiki/modeling:metamodels:component
 t3:ComponentA_EnforcementReply_Push 
-	rdf:type SmartInstitutions_ServiceRepository:SmartIN_EnforcementReplyPackage_Push ;
+	rdf:type SmartInstitutionsServiceRepository:SmartIN_EnforcementReplyPackage_Push ;
 	# name of this service definition as from the model
 	rdfs:label "EnforcementReply_Push";
 
@@ -146,7 +146,7 @@ t3:ComponentA_EnforcementReply_Push
 # a service definition usage. Here: provided service
 # see https://robmosys.eu/wiki/modeling:metamodels:component
 t3:ComponentA_EnforcementInstruction_Push 
-	rdf:type SmartInstitutions_ServiceRepository:SmartIN_EnforcementInstructionPackage_Push ;
+	rdf:type SmartInstitutionsServiceRepository:SmartIN_EnforcementInstructionPackage_Push ;
 	# name of this service definition as from the model
 	rdfs:label "EnforcementInstruction_Push";
 
@@ -156,7 +156,7 @@ t3:ComponentA_EnforcementInstruction_Push
 # a service definition usage. Here: provided service
 # see https://robmosys.eu/wiki/modeling:metamodels:component
 t3:ComponentA_EnforcementInstruction_Send 
-	rdf:type SmartInstitutions_ServiceRepository:SmartIN_EnforcementInstructionPackage_Send ;
+	rdf:type SmartInstitutionsServiceRepository:SmartIN_EnforcementInstructionPackage_Send ;
 	# name of this service definition as from the model
 	rdfs:label "EnforcementInstruction_Send";
 
@@ -166,7 +166,7 @@ t3:ComponentA_EnforcementInstruction_Send
 # a service definition usage. Here: provided service
 # see https://robmosys.eu/wiki/modeling:metamodels:component
 t3:ComponentA_EnforcementReport_Send 
-	rdf:type SmartInstitutions_ServiceRepository:SmartIN_EnforcementReportPackage_Send ;
+	rdf:type SmartInstitutionsServiceRepository:SmartIN_EnforcementReportPackage_Send ;
 	# name of this service definition as from the model
 	rdfs:label "EnforcementReport_Send";
 
@@ -176,7 +176,7 @@ t3:ComponentA_EnforcementReport_Send
 # a service definition usage. Here: provided service
 # see https://robmosys.eu/wiki/modeling:metamodels:component
 t3:ComponentA_EnforcementReply_Send 
-	rdf:type SmartInstitutions_ServiceRepository:SmartIN_EnforcementReplyPackage_Send ;
+	rdf:type SmartInstitutionsServiceRepository:SmartIN_EnforcementReplyPackage_Send ;
 	# name of this service definition as from the model
 	rdfs:label "EnforcementReply_Send";
 

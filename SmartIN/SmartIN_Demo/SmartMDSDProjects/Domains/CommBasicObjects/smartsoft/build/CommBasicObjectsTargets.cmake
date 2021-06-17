@@ -45,14 +45,14 @@ unset(_expectedTargets)
 add_library(CommBasicObjects SHARED IMPORTED)
 
 set_target_properties(CommBasicObjects PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build;/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/src;/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/src-gen"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build;/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/src;/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/src-gen"
   INTERFACE_LINK_LIBRARIES "SmartXml;Armadillo;SmartProperty;TransformationMatrices;ACE"
 )
 
 # Import target "CommBasicObjects" for configuration "Debug"
 set_property(TARGET CommBasicObjects APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(CommBasicObjects PROPERTIES
-  IMPORTED_LOCATION_DEBUG "/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/libCommBasicObjects.so.1.0.0"
+  IMPORTED_LOCATION_DEBUG "/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/libCommBasicObjects.so.1.0.0"
   IMPORTED_SONAME_DEBUG "libCommBasicObjects.so.1"
   )
 

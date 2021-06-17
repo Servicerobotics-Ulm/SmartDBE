@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft
+CMAKE_SOURCE_DIR = /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build
+CMAKE_BINARY_DIR = /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/Seq2SeqComCoordinationService/CMakeFiles/progress.marks
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 Seq2SeqComCoordinationService/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles 0
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/Seq2SeqComCoordinationService/CMakeFiles/progress.marks
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 Seq2SeqComCoordinationService/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 Seq2SeqComCoordinationService/clean
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 Seq2SeqComCoordinationService/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 Seq2SeqComCoordinationService/preinstall
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 Seq2SeqComCoordinationService/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 Seq2SeqComCoordinationService/preinstall
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 Seq2SeqComCoordinationService/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/rule:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/rule
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/rule
 .PHONY : Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ Seq2SeqComCoordinationService: Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqC
 
 # fast build rule for target.
 Seq2SeqComCoordinationService/fast:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/build.make Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/build
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/build.make Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/build
 .PHONY : Seq2SeqComCoordinationService/fast
 
 Seq2SeqComCoordinationService.o: Seq2SeqComCoordinationService.cc.o
@@ -177,7 +177,7 @@ Seq2SeqComCoordinationService.o: Seq2SeqComCoordinationService.cc.o
 
 # target to build an object file
 Seq2SeqComCoordinationService.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/build.make Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/Seq2SeqComCoordinationService.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/build.make Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/Seq2SeqComCoordinationService.cc.o
 .PHONY : Seq2SeqComCoordinationService.cc.o
 
 Seq2SeqComCoordinationService.i: Seq2SeqComCoordinationService.cc.i
@@ -186,7 +186,7 @@ Seq2SeqComCoordinationService.i: Seq2SeqComCoordinationService.cc.i
 
 # target to preprocess a source file
 Seq2SeqComCoordinationService.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/build.make Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/Seq2SeqComCoordinationService.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/build.make Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/Seq2SeqComCoordinationService.cc.i
 .PHONY : Seq2SeqComCoordinationService.cc.i
 
 Seq2SeqComCoordinationService.s: Seq2SeqComCoordinationService.cc.s
@@ -195,7 +195,7 @@ Seq2SeqComCoordinationService.s: Seq2SeqComCoordinationService.cc.s
 
 # target to generate assembly for a file
 Seq2SeqComCoordinationService.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/build.make Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/Seq2SeqComCoordinationService.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/build.make Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/Seq2SeqComCoordinationService.cc.s
 .PHONY : Seq2SeqComCoordinationService.cc.s
 
 Seq2SeqComCoordinationServiceCore.o: Seq2SeqComCoordinationServiceCore.cc.o
@@ -204,7 +204,7 @@ Seq2SeqComCoordinationServiceCore.o: Seq2SeqComCoordinationServiceCore.cc.o
 
 # target to build an object file
 Seq2SeqComCoordinationServiceCore.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/build.make Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/Seq2SeqComCoordinationServiceCore.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/build.make Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/Seq2SeqComCoordinationServiceCore.cc.o
 .PHONY : Seq2SeqComCoordinationServiceCore.cc.o
 
 Seq2SeqComCoordinationServiceCore.i: Seq2SeqComCoordinationServiceCore.cc.i
@@ -213,7 +213,7 @@ Seq2SeqComCoordinationServiceCore.i: Seq2SeqComCoordinationServiceCore.cc.i
 
 # target to preprocess a source file
 Seq2SeqComCoordinationServiceCore.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/build.make Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/Seq2SeqComCoordinationServiceCore.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/build.make Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/Seq2SeqComCoordinationServiceCore.cc.i
 .PHONY : Seq2SeqComCoordinationServiceCore.cc.i
 
 Seq2SeqComCoordinationServiceCore.s: Seq2SeqComCoordinationServiceCore.cc.s
@@ -222,7 +222,7 @@ Seq2SeqComCoordinationServiceCore.s: Seq2SeqComCoordinationServiceCore.cc.s
 
 # target to generate assembly for a file
 Seq2SeqComCoordinationServiceCore.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/build.make Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/Seq2SeqComCoordinationServiceCore.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/build.make Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/Seq2SeqComCoordinationServiceCore.cc.s
 .PHONY : Seq2SeqComCoordinationServiceCore.cc.s
 
 Seq2SeqComCoordinationServiceRunTimeInterface.o: Seq2SeqComCoordinationServiceRunTimeInterface.cc.o
@@ -231,7 +231,7 @@ Seq2SeqComCoordinationServiceRunTimeInterface.o: Seq2SeqComCoordinationServiceRu
 
 # target to build an object file
 Seq2SeqComCoordinationServiceRunTimeInterface.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/build.make Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/Seq2SeqComCoordinationServiceRunTimeInterface.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/build.make Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/Seq2SeqComCoordinationServiceRunTimeInterface.cc.o
 .PHONY : Seq2SeqComCoordinationServiceRunTimeInterface.cc.o
 
 Seq2SeqComCoordinationServiceRunTimeInterface.i: Seq2SeqComCoordinationServiceRunTimeInterface.cc.i
@@ -240,7 +240,7 @@ Seq2SeqComCoordinationServiceRunTimeInterface.i: Seq2SeqComCoordinationServiceRu
 
 # target to preprocess a source file
 Seq2SeqComCoordinationServiceRunTimeInterface.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/build.make Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/Seq2SeqComCoordinationServiceRunTimeInterface.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/build.make Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/Seq2SeqComCoordinationServiceRunTimeInterface.cc.i
 .PHONY : Seq2SeqComCoordinationServiceRunTimeInterface.cc.i
 
 Seq2SeqComCoordinationServiceRunTimeInterface.s: Seq2SeqComCoordinationServiceRunTimeInterface.cc.s
@@ -249,7 +249,7 @@ Seq2SeqComCoordinationServiceRunTimeInterface.s: Seq2SeqComCoordinationServiceRu
 
 # target to generate assembly for a file
 Seq2SeqComCoordinationServiceRunTimeInterface.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/build.make Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/Seq2SeqComCoordinationServiceRunTimeInterface.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/build.make Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/Seq2SeqComCoordinationServiceRunTimeInterface.cc.s
 .PHONY : Seq2SeqComCoordinationServiceRunTimeInterface.cc.s
 
 Seq2SeqComCoordinationServiceTaskEventEventHandlerCore.o: Seq2SeqComCoordinationServiceTaskEventEventHandlerCore.cc.o
@@ -258,7 +258,7 @@ Seq2SeqComCoordinationServiceTaskEventEventHandlerCore.o: Seq2SeqComCoordination
 
 # target to build an object file
 Seq2SeqComCoordinationServiceTaskEventEventHandlerCore.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/build.make Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/Seq2SeqComCoordinationServiceTaskEventEventHandlerCore.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/build.make Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/Seq2SeqComCoordinationServiceTaskEventEventHandlerCore.cc.o
 .PHONY : Seq2SeqComCoordinationServiceTaskEventEventHandlerCore.cc.o
 
 Seq2SeqComCoordinationServiceTaskEventEventHandlerCore.i: Seq2SeqComCoordinationServiceTaskEventEventHandlerCore.cc.i
@@ -267,7 +267,7 @@ Seq2SeqComCoordinationServiceTaskEventEventHandlerCore.i: Seq2SeqComCoordination
 
 # target to preprocess a source file
 Seq2SeqComCoordinationServiceTaskEventEventHandlerCore.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/build.make Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/Seq2SeqComCoordinationServiceTaskEventEventHandlerCore.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/build.make Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/Seq2SeqComCoordinationServiceTaskEventEventHandlerCore.cc.i
 .PHONY : Seq2SeqComCoordinationServiceTaskEventEventHandlerCore.cc.i
 
 Seq2SeqComCoordinationServiceTaskEventEventHandlerCore.s: Seq2SeqComCoordinationServiceTaskEventEventHandlerCore.cc.s
@@ -276,35 +276,35 @@ Seq2SeqComCoordinationServiceTaskEventEventHandlerCore.s: Seq2SeqComCoordination
 
 # target to generate assembly for a file
 Seq2SeqComCoordinationServiceTaskEventEventHandlerCore.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/build.make Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/Seq2SeqComCoordinationServiceTaskEventEventHandlerCore.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/build.make Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/Seq2SeqComCoordinationServiceTaskEventEventHandlerCore.cc.s
 .PHONY : Seq2SeqComCoordinationServiceTaskEventEventHandlerCore.cc.s
 
-home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/Seq2SeqComCoordinationService/Seq2SeqComCoordinationServiceTaskEventEventHandler.o: home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/Seq2SeqComCoordinationService/Seq2SeqComCoordinationServiceTaskEventEventHandler.cc.o
+home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/Seq2SeqComCoordinationService/Seq2SeqComCoordinationServiceTaskEventEventHandler.o: home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/Seq2SeqComCoordinationService/Seq2SeqComCoordinationServiceTaskEventEventHandler.cc.o
 
-.PHONY : home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/Seq2SeqComCoordinationService/Seq2SeqComCoordinationServiceTaskEventEventHandler.o
+.PHONY : home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/Seq2SeqComCoordinationService/Seq2SeqComCoordinationServiceTaskEventEventHandler.o
 
 # target to build an object file
-home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/Seq2SeqComCoordinationService/Seq2SeqComCoordinationServiceTaskEventEventHandler.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/build.make Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/Seq2SeqComCoordinationService/Seq2SeqComCoordinationServiceTaskEventEventHandler.cc.o
-.PHONY : home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/Seq2SeqComCoordinationService/Seq2SeqComCoordinationServiceTaskEventEventHandler.cc.o
+home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/Seq2SeqComCoordinationService/Seq2SeqComCoordinationServiceTaskEventEventHandler.cc.o:
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/build.make Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/Seq2SeqComCoordinationService/Seq2SeqComCoordinationServiceTaskEventEventHandler.cc.o
+.PHONY : home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/Seq2SeqComCoordinationService/Seq2SeqComCoordinationServiceTaskEventEventHandler.cc.o
 
-home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/Seq2SeqComCoordinationService/Seq2SeqComCoordinationServiceTaskEventEventHandler.i: home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/Seq2SeqComCoordinationService/Seq2SeqComCoordinationServiceTaskEventEventHandler.cc.i
+home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/Seq2SeqComCoordinationService/Seq2SeqComCoordinationServiceTaskEventEventHandler.i: home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/Seq2SeqComCoordinationService/Seq2SeqComCoordinationServiceTaskEventEventHandler.cc.i
 
-.PHONY : home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/Seq2SeqComCoordinationService/Seq2SeqComCoordinationServiceTaskEventEventHandler.i
+.PHONY : home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/Seq2SeqComCoordinationService/Seq2SeqComCoordinationServiceTaskEventEventHandler.i
 
 # target to preprocess a source file
-home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/Seq2SeqComCoordinationService/Seq2SeqComCoordinationServiceTaskEventEventHandler.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/build.make Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/Seq2SeqComCoordinationService/Seq2SeqComCoordinationServiceTaskEventEventHandler.cc.i
-.PHONY : home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/Seq2SeqComCoordinationService/Seq2SeqComCoordinationServiceTaskEventEventHandler.cc.i
+home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/Seq2SeqComCoordinationService/Seq2SeqComCoordinationServiceTaskEventEventHandler.cc.i:
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/build.make Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/Seq2SeqComCoordinationService/Seq2SeqComCoordinationServiceTaskEventEventHandler.cc.i
+.PHONY : home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/Seq2SeqComCoordinationService/Seq2SeqComCoordinationServiceTaskEventEventHandler.cc.i
 
-home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/Seq2SeqComCoordinationService/Seq2SeqComCoordinationServiceTaskEventEventHandler.s: home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/Seq2SeqComCoordinationService/Seq2SeqComCoordinationServiceTaskEventEventHandler.cc.s
+home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/Seq2SeqComCoordinationService/Seq2SeqComCoordinationServiceTaskEventEventHandler.s: home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/Seq2SeqComCoordinationService/Seq2SeqComCoordinationServiceTaskEventEventHandler.cc.s
 
-.PHONY : home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/Seq2SeqComCoordinationService/Seq2SeqComCoordinationServiceTaskEventEventHandler.s
+.PHONY : home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/Seq2SeqComCoordinationService/Seq2SeqComCoordinationServiceTaskEventEventHandler.s
 
 # target to generate assembly for a file
-home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/Seq2SeqComCoordinationService/Seq2SeqComCoordinationServiceTaskEventEventHandler.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/build.make Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/Seq2SeqComCoordinationService/Seq2SeqComCoordinationServiceTaskEventEventHandler.cc.s
-.PHONY : home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/Seq2SeqComCoordinationService/Seq2SeqComCoordinationServiceTaskEventEventHandler.cc.s
+home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/Seq2SeqComCoordinationService/Seq2SeqComCoordinationServiceTaskEventEventHandler.cc.s:
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/build.make Seq2SeqComCoordinationService/CMakeFiles/Seq2SeqComCoordinationService.dir/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/Seq2SeqComCoordinationService/Seq2SeqComCoordinationServiceTaskEventEventHandler.cc.s
+.PHONY : home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/Seq2SeqComCoordinationService/Seq2SeqComCoordinationServiceTaskEventEventHandler.cc.s
 
 # Help Target
 help:
@@ -331,9 +331,9 @@ help:
 	@echo "... Seq2SeqComCoordinationServiceTaskEventEventHandlerCore.o"
 	@echo "... Seq2SeqComCoordinationServiceTaskEventEventHandlerCore.i"
 	@echo "... Seq2SeqComCoordinationServiceTaskEventEventHandlerCore.s"
-	@echo "... home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/Seq2SeqComCoordinationService/Seq2SeqComCoordinationServiceTaskEventEventHandler.o"
-	@echo "... home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/Seq2SeqComCoordinationService/Seq2SeqComCoordinationServiceTaskEventEventHandler.i"
-	@echo "... home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/Seq2SeqComCoordinationService/Seq2SeqComCoordinationServiceTaskEventEventHandler.s"
+	@echo "... home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/Seq2SeqComCoordinationService/Seq2SeqComCoordinationServiceTaskEventEventHandler.o"
+	@echo "... home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/Seq2SeqComCoordinationService/Seq2SeqComCoordinationServiceTaskEventEventHandler.i"
+	@echo "... home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/Seq2SeqComCoordinationService/Seq2SeqComCoordinationServiceTaskEventEventHandler.s"
 .PHONY : help
 
 
@@ -345,6 +345,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

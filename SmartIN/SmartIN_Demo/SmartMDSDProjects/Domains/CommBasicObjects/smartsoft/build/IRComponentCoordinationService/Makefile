@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft
+CMAKE_SOURCE_DIR = /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build
+CMAKE_BINARY_DIR = /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/IRComponentCoordinationService/CMakeFiles/progress.marks
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 IRComponentCoordinationService/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles 0
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/IRComponentCoordinationService/CMakeFiles/progress.marks
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 IRComponentCoordinationService/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 IRComponentCoordinationService/clean
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 IRComponentCoordinationService/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 IRComponentCoordinationService/preinstall
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 IRComponentCoordinationService/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 IRComponentCoordinationService/preinstall
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 IRComponentCoordinationService/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/rule:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/rule
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/rule
 .PHONY : IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ IRComponentCoordinationService: IRComponentCoordinationService/CMakeFiles/IRComp
 
 # fast build rule for target.
 IRComponentCoordinationService/fast:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/build.make IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/build
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/build.make IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/build
 .PHONY : IRComponentCoordinationService/fast
 
 IRComponentCoordinationService.o: IRComponentCoordinationService.cc.o
@@ -177,7 +177,7 @@ IRComponentCoordinationService.o: IRComponentCoordinationService.cc.o
 
 # target to build an object file
 IRComponentCoordinationService.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/build.make IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/IRComponentCoordinationService.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/build.make IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/IRComponentCoordinationService.cc.o
 .PHONY : IRComponentCoordinationService.cc.o
 
 IRComponentCoordinationService.i: IRComponentCoordinationService.cc.i
@@ -186,7 +186,7 @@ IRComponentCoordinationService.i: IRComponentCoordinationService.cc.i
 
 # target to preprocess a source file
 IRComponentCoordinationService.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/build.make IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/IRComponentCoordinationService.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/build.make IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/IRComponentCoordinationService.cc.i
 .PHONY : IRComponentCoordinationService.cc.i
 
 IRComponentCoordinationService.s: IRComponentCoordinationService.cc.s
@@ -195,7 +195,7 @@ IRComponentCoordinationService.s: IRComponentCoordinationService.cc.s
 
 # target to generate assembly for a file
 IRComponentCoordinationService.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/build.make IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/IRComponentCoordinationService.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/build.make IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/IRComponentCoordinationService.cc.s
 .PHONY : IRComponentCoordinationService.cc.s
 
 IRComponentCoordinationServiceCore.o: IRComponentCoordinationServiceCore.cc.o
@@ -204,7 +204,7 @@ IRComponentCoordinationServiceCore.o: IRComponentCoordinationServiceCore.cc.o
 
 # target to build an object file
 IRComponentCoordinationServiceCore.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/build.make IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/IRComponentCoordinationServiceCore.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/build.make IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/IRComponentCoordinationServiceCore.cc.o
 .PHONY : IRComponentCoordinationServiceCore.cc.o
 
 IRComponentCoordinationServiceCore.i: IRComponentCoordinationServiceCore.cc.i
@@ -213,7 +213,7 @@ IRComponentCoordinationServiceCore.i: IRComponentCoordinationServiceCore.cc.i
 
 # target to preprocess a source file
 IRComponentCoordinationServiceCore.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/build.make IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/IRComponentCoordinationServiceCore.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/build.make IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/IRComponentCoordinationServiceCore.cc.i
 .PHONY : IRComponentCoordinationServiceCore.cc.i
 
 IRComponentCoordinationServiceCore.s: IRComponentCoordinationServiceCore.cc.s
@@ -222,7 +222,7 @@ IRComponentCoordinationServiceCore.s: IRComponentCoordinationServiceCore.cc.s
 
 # target to generate assembly for a file
 IRComponentCoordinationServiceCore.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/build.make IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/IRComponentCoordinationServiceCore.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/build.make IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/IRComponentCoordinationServiceCore.cc.s
 .PHONY : IRComponentCoordinationServiceCore.cc.s
 
 IRComponentCoordinationServiceRunTimeInterface.o: IRComponentCoordinationServiceRunTimeInterface.cc.o
@@ -231,7 +231,7 @@ IRComponentCoordinationServiceRunTimeInterface.o: IRComponentCoordinationService
 
 # target to build an object file
 IRComponentCoordinationServiceRunTimeInterface.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/build.make IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/IRComponentCoordinationServiceRunTimeInterface.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/build.make IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/IRComponentCoordinationServiceRunTimeInterface.cc.o
 .PHONY : IRComponentCoordinationServiceRunTimeInterface.cc.o
 
 IRComponentCoordinationServiceRunTimeInterface.i: IRComponentCoordinationServiceRunTimeInterface.cc.i
@@ -240,7 +240,7 @@ IRComponentCoordinationServiceRunTimeInterface.i: IRComponentCoordinationService
 
 # target to preprocess a source file
 IRComponentCoordinationServiceRunTimeInterface.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/build.make IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/IRComponentCoordinationServiceRunTimeInterface.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/build.make IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/IRComponentCoordinationServiceRunTimeInterface.cc.i
 .PHONY : IRComponentCoordinationServiceRunTimeInterface.cc.i
 
 IRComponentCoordinationServiceRunTimeInterface.s: IRComponentCoordinationServiceRunTimeInterface.cc.s
@@ -249,7 +249,7 @@ IRComponentCoordinationServiceRunTimeInterface.s: IRComponentCoordinationService
 
 # target to generate assembly for a file
 IRComponentCoordinationServiceRunTimeInterface.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/build.make IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/IRComponentCoordinationServiceRunTimeInterface.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/build.make IRComponentCoordinationService/CMakeFiles/IRComponentCoordinationService.dir/IRComponentCoordinationServiceRunTimeInterface.cc.s
 .PHONY : IRComponentCoordinationServiceRunTimeInterface.cc.s
 
 # Help Target
@@ -285,6 +285,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

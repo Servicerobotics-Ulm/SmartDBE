@@ -30,7 +30,7 @@ EventManager::~EventManager()
 }
 
 
-void EventManager::on_Event_Listener(const Smart::EventInputType<SmartInstitutions_ServiceRepository::SmartIN_EventType> &input)
+void EventManager::on_Event_Listener(const Smart::EventInputType<SmartInstitutionsServiceRepository::SmartIN_EventType> &input)
 {
 	// upcall triggered from InputPort Event_Listener
 	// - use a local mutex here, because this upcal is called asynchroneously from outside of this task
@@ -38,6 +38,7 @@ void EventManager::on_Event_Listener(const Smart::EventInputType<SmartInstitutio
 	// - if you need to implement a long-running procedure, do so within the on_execute() method and in
 	//   there, use the method event_ListenerGetUpdate(input) to get a copy of the input object
 }
+
 int EventManager::on_entry()
 {
 	// do initialization procedures here, which are called once, each time the task is started
@@ -52,13 +53,13 @@ int EventManager::on_execute()
 	
 	// to get the incoming data, use this methods:
 	Smart::StatusCode status;
-	Smart::EventInputType<SmartInstitutions_ServiceRepository::SmartIN_EventType> event_ListenerObject;
+	Smart::EventInputType<SmartInstitutionsServiceRepository::SmartIN_EventType> event_ListenerObject;
 	status = this->event_ListenerGetUpdate(event_ListenerObject);
 	if(status != Smart::SMART_OK) {
 		std::cerr << status << std::endl;
 		// return 0;
 	} else {
-		std::cout << "received: " << event_ListenerObject << std::endl;
+		//std::cout << "received: " << event_ListenerObject << std::endl;
 	}
 
 	std::cout << "Hello from EventManager " << std::endl;

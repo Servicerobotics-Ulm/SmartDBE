@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft
+CMAKE_SOURCE_DIR = /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build
+CMAKE_BINARY_DIR = /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build/CMakeFiles /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build/toolify/CMakeFiles/progress.marks
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 toolify/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build/CMakeFiles 0
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build/CMakeFiles /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build/toolify/CMakeFiles/progress.marks
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 toolify/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 toolify/clean
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 toolify/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 toolify/preinstall
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 toolify/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 toolify/preinstall
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 toolify/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 toolify/CMakeFiles/CommNavigationObjectsJSON.dir/rule:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 toolify/CMakeFiles/CommNavigationObjectsJSON.dir/rule
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 toolify/CMakeFiles/CommNavigationObjectsJSON.dir/rule
 .PHONY : toolify/CMakeFiles/CommNavigationObjectsJSON.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ CommNavigationObjectsJSON: toolify/CMakeFiles/CommNavigationObjectsJSON.dir/rule
 
 # fast build rule for target.
 CommNavigationObjectsJSON/fast:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build
 .PHONY : CommNavigationObjectsJSON/fast
 
 CommNavigationObjectsJSON/CdlGoalEventStateJSON.o: CommNavigationObjectsJSON/CdlGoalEventStateJSON.cc.o
@@ -177,7 +177,7 @@ CommNavigationObjectsJSON/CdlGoalEventStateJSON.o: CommNavigationObjectsJSON/Cdl
 
 # target to build an object file
 CommNavigationObjectsJSON/CdlGoalEventStateJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CdlGoalEventStateJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CdlGoalEventStateJSON.cc.o
 .PHONY : CommNavigationObjectsJSON/CdlGoalEventStateJSON.cc.o
 
 CommNavigationObjectsJSON/CdlGoalEventStateJSON.i: CommNavigationObjectsJSON/CdlGoalEventStateJSON.cc.i
@@ -186,7 +186,7 @@ CommNavigationObjectsJSON/CdlGoalEventStateJSON.i: CommNavigationObjectsJSON/Cdl
 
 # target to preprocess a source file
 CommNavigationObjectsJSON/CdlGoalEventStateJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CdlGoalEventStateJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CdlGoalEventStateJSON.cc.i
 .PHONY : CommNavigationObjectsJSON/CdlGoalEventStateJSON.cc.i
 
 CommNavigationObjectsJSON/CdlGoalEventStateJSON.s: CommNavigationObjectsJSON/CdlGoalEventStateJSON.cc.s
@@ -195,7 +195,7 @@ CommNavigationObjectsJSON/CdlGoalEventStateJSON.s: CommNavigationObjectsJSON/Cdl
 
 # target to generate assembly for a file
 CommNavigationObjectsJSON/CdlGoalEventStateJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CdlGoalEventStateJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CdlGoalEventStateJSON.cc.s
 .PHONY : CommNavigationObjectsJSON/CdlGoalEventStateJSON.cc.s
 
 CommNavigationObjectsJSON/CommCdlGoalEventParameterJSON.o: CommNavigationObjectsJSON/CommCdlGoalEventParameterJSON.cc.o
@@ -204,7 +204,7 @@ CommNavigationObjectsJSON/CommCdlGoalEventParameterJSON.o: CommNavigationObjects
 
 # target to build an object file
 CommNavigationObjectsJSON/CommCdlGoalEventParameterJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCdlGoalEventParameterJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCdlGoalEventParameterJSON.cc.o
 .PHONY : CommNavigationObjectsJSON/CommCdlGoalEventParameterJSON.cc.o
 
 CommNavigationObjectsJSON/CommCdlGoalEventParameterJSON.i: CommNavigationObjectsJSON/CommCdlGoalEventParameterJSON.cc.i
@@ -213,7 +213,7 @@ CommNavigationObjectsJSON/CommCdlGoalEventParameterJSON.i: CommNavigationObjects
 
 # target to preprocess a source file
 CommNavigationObjectsJSON/CommCdlGoalEventParameterJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCdlGoalEventParameterJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCdlGoalEventParameterJSON.cc.i
 .PHONY : CommNavigationObjectsJSON/CommCdlGoalEventParameterJSON.cc.i
 
 CommNavigationObjectsJSON/CommCdlGoalEventParameterJSON.s: CommNavigationObjectsJSON/CommCdlGoalEventParameterJSON.cc.s
@@ -222,7 +222,7 @@ CommNavigationObjectsJSON/CommCdlGoalEventParameterJSON.s: CommNavigationObjects
 
 # target to generate assembly for a file
 CommNavigationObjectsJSON/CommCdlGoalEventParameterJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCdlGoalEventParameterJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCdlGoalEventParameterJSON.cc.s
 .PHONY : CommNavigationObjectsJSON/CommCdlGoalEventParameterJSON.cc.s
 
 CommNavigationObjectsJSON/CommCdlGoalEventResultJSON.o: CommNavigationObjectsJSON/CommCdlGoalEventResultJSON.cc.o
@@ -231,7 +231,7 @@ CommNavigationObjectsJSON/CommCdlGoalEventResultJSON.o: CommNavigationObjectsJSO
 
 # target to build an object file
 CommNavigationObjectsJSON/CommCdlGoalEventResultJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCdlGoalEventResultJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCdlGoalEventResultJSON.cc.o
 .PHONY : CommNavigationObjectsJSON/CommCdlGoalEventResultJSON.cc.o
 
 CommNavigationObjectsJSON/CommCdlGoalEventResultJSON.i: CommNavigationObjectsJSON/CommCdlGoalEventResultJSON.cc.i
@@ -240,7 +240,7 @@ CommNavigationObjectsJSON/CommCdlGoalEventResultJSON.i: CommNavigationObjectsJSO
 
 # target to preprocess a source file
 CommNavigationObjectsJSON/CommCdlGoalEventResultJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCdlGoalEventResultJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCdlGoalEventResultJSON.cc.i
 .PHONY : CommNavigationObjectsJSON/CommCdlGoalEventResultJSON.cc.i
 
 CommNavigationObjectsJSON/CommCdlGoalEventResultJSON.s: CommNavigationObjectsJSON/CommCdlGoalEventResultJSON.cc.s
@@ -249,7 +249,7 @@ CommNavigationObjectsJSON/CommCdlGoalEventResultJSON.s: CommNavigationObjectsJSO
 
 # target to generate assembly for a file
 CommNavigationObjectsJSON/CommCdlGoalEventResultJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCdlGoalEventResultJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCdlGoalEventResultJSON.cc.s
 .PHONY : CommNavigationObjectsJSON/CommCdlGoalEventResultJSON.cc.s
 
 CommNavigationObjectsJSON/CommCdlRobotBlockedEventParameterJSON.o: CommNavigationObjectsJSON/CommCdlRobotBlockedEventParameterJSON.cc.o
@@ -258,7 +258,7 @@ CommNavigationObjectsJSON/CommCdlRobotBlockedEventParameterJSON.o: CommNavigatio
 
 # target to build an object file
 CommNavigationObjectsJSON/CommCdlRobotBlockedEventParameterJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCdlRobotBlockedEventParameterJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCdlRobotBlockedEventParameterJSON.cc.o
 .PHONY : CommNavigationObjectsJSON/CommCdlRobotBlockedEventParameterJSON.cc.o
 
 CommNavigationObjectsJSON/CommCdlRobotBlockedEventParameterJSON.i: CommNavigationObjectsJSON/CommCdlRobotBlockedEventParameterJSON.cc.i
@@ -267,7 +267,7 @@ CommNavigationObjectsJSON/CommCdlRobotBlockedEventParameterJSON.i: CommNavigatio
 
 # target to preprocess a source file
 CommNavigationObjectsJSON/CommCdlRobotBlockedEventParameterJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCdlRobotBlockedEventParameterJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCdlRobotBlockedEventParameterJSON.cc.i
 .PHONY : CommNavigationObjectsJSON/CommCdlRobotBlockedEventParameterJSON.cc.i
 
 CommNavigationObjectsJSON/CommCdlRobotBlockedEventParameterJSON.s: CommNavigationObjectsJSON/CommCdlRobotBlockedEventParameterJSON.cc.s
@@ -276,7 +276,7 @@ CommNavigationObjectsJSON/CommCdlRobotBlockedEventParameterJSON.s: CommNavigatio
 
 # target to generate assembly for a file
 CommNavigationObjectsJSON/CommCdlRobotBlockedEventParameterJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCdlRobotBlockedEventParameterJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCdlRobotBlockedEventParameterJSON.cc.s
 .PHONY : CommNavigationObjectsJSON/CommCdlRobotBlockedEventParameterJSON.cc.s
 
 CommNavigationObjectsJSON/CommCdlRobotBlockedEventResultJSON.o: CommNavigationObjectsJSON/CommCdlRobotBlockedEventResultJSON.cc.o
@@ -285,7 +285,7 @@ CommNavigationObjectsJSON/CommCdlRobotBlockedEventResultJSON.o: CommNavigationOb
 
 # target to build an object file
 CommNavigationObjectsJSON/CommCdlRobotBlockedEventResultJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCdlRobotBlockedEventResultJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCdlRobotBlockedEventResultJSON.cc.o
 .PHONY : CommNavigationObjectsJSON/CommCdlRobotBlockedEventResultJSON.cc.o
 
 CommNavigationObjectsJSON/CommCdlRobotBlockedEventResultJSON.i: CommNavigationObjectsJSON/CommCdlRobotBlockedEventResultJSON.cc.i
@@ -294,7 +294,7 @@ CommNavigationObjectsJSON/CommCdlRobotBlockedEventResultJSON.i: CommNavigationOb
 
 # target to preprocess a source file
 CommNavigationObjectsJSON/CommCdlRobotBlockedEventResultJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCdlRobotBlockedEventResultJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCdlRobotBlockedEventResultJSON.cc.i
 .PHONY : CommNavigationObjectsJSON/CommCdlRobotBlockedEventResultJSON.cc.i
 
 CommNavigationObjectsJSON/CommCdlRobotBlockedEventResultJSON.s: CommNavigationObjectsJSON/CommCdlRobotBlockedEventResultJSON.cc.s
@@ -303,7 +303,7 @@ CommNavigationObjectsJSON/CommCdlRobotBlockedEventResultJSON.s: CommNavigationOb
 
 # target to generate assembly for a file
 CommNavigationObjectsJSON/CommCdlRobotBlockedEventResultJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCdlRobotBlockedEventResultJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCdlRobotBlockedEventResultJSON.cc.s
 .PHONY : CommNavigationObjectsJSON/CommCdlRobotBlockedEventResultJSON.cc.s
 
 CommNavigationObjectsJSON/CommCdlRobotBlockedStateJSON.o: CommNavigationObjectsJSON/CommCdlRobotBlockedStateJSON.cc.o
@@ -312,7 +312,7 @@ CommNavigationObjectsJSON/CommCdlRobotBlockedStateJSON.o: CommNavigationObjectsJ
 
 # target to build an object file
 CommNavigationObjectsJSON/CommCdlRobotBlockedStateJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCdlRobotBlockedStateJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCdlRobotBlockedStateJSON.cc.o
 .PHONY : CommNavigationObjectsJSON/CommCdlRobotBlockedStateJSON.cc.o
 
 CommNavigationObjectsJSON/CommCdlRobotBlockedStateJSON.i: CommNavigationObjectsJSON/CommCdlRobotBlockedStateJSON.cc.i
@@ -321,7 +321,7 @@ CommNavigationObjectsJSON/CommCdlRobotBlockedStateJSON.i: CommNavigationObjectsJ
 
 # target to preprocess a source file
 CommNavigationObjectsJSON/CommCdlRobotBlockedStateJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCdlRobotBlockedStateJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCdlRobotBlockedStateJSON.cc.i
 .PHONY : CommNavigationObjectsJSON/CommCdlRobotBlockedStateJSON.cc.i
 
 CommNavigationObjectsJSON/CommCdlRobotBlockedStateJSON.s: CommNavigationObjectsJSON/CommCdlRobotBlockedStateJSON.cc.s
@@ -330,7 +330,7 @@ CommNavigationObjectsJSON/CommCdlRobotBlockedStateJSON.s: CommNavigationObjectsJ
 
 # target to generate assembly for a file
 CommNavigationObjectsJSON/CommCdlRobotBlockedStateJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCdlRobotBlockedStateJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCdlRobotBlockedStateJSON.cc.s
 .PHONY : CommNavigationObjectsJSON/CommCdlRobotBlockedStateJSON.cc.s
 
 CommNavigationObjectsJSON/CommClosestNodeAnswerJSON.o: CommNavigationObjectsJSON/CommClosestNodeAnswerJSON.cc.o
@@ -339,7 +339,7 @@ CommNavigationObjectsJSON/CommClosestNodeAnswerJSON.o: CommNavigationObjectsJSON
 
 # target to build an object file
 CommNavigationObjectsJSON/CommClosestNodeAnswerJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommClosestNodeAnswerJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommClosestNodeAnswerJSON.cc.o
 .PHONY : CommNavigationObjectsJSON/CommClosestNodeAnswerJSON.cc.o
 
 CommNavigationObjectsJSON/CommClosestNodeAnswerJSON.i: CommNavigationObjectsJSON/CommClosestNodeAnswerJSON.cc.i
@@ -348,7 +348,7 @@ CommNavigationObjectsJSON/CommClosestNodeAnswerJSON.i: CommNavigationObjectsJSON
 
 # target to preprocess a source file
 CommNavigationObjectsJSON/CommClosestNodeAnswerJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommClosestNodeAnswerJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommClosestNodeAnswerJSON.cc.i
 .PHONY : CommNavigationObjectsJSON/CommClosestNodeAnswerJSON.cc.i
 
 CommNavigationObjectsJSON/CommClosestNodeAnswerJSON.s: CommNavigationObjectsJSON/CommClosestNodeAnswerJSON.cc.s
@@ -357,7 +357,7 @@ CommNavigationObjectsJSON/CommClosestNodeAnswerJSON.s: CommNavigationObjectsJSON
 
 # target to generate assembly for a file
 CommNavigationObjectsJSON/CommClosestNodeAnswerJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommClosestNodeAnswerJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommClosestNodeAnswerJSON.cc.s
 .PHONY : CommNavigationObjectsJSON/CommClosestNodeAnswerJSON.cc.s
 
 CommNavigationObjectsJSON/CommClosestNodeRequestJSON.o: CommNavigationObjectsJSON/CommClosestNodeRequestJSON.cc.o
@@ -366,7 +366,7 @@ CommNavigationObjectsJSON/CommClosestNodeRequestJSON.o: CommNavigationObjectsJSO
 
 # target to build an object file
 CommNavigationObjectsJSON/CommClosestNodeRequestJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommClosestNodeRequestJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommClosestNodeRequestJSON.cc.o
 .PHONY : CommNavigationObjectsJSON/CommClosestNodeRequestJSON.cc.o
 
 CommNavigationObjectsJSON/CommClosestNodeRequestJSON.i: CommNavigationObjectsJSON/CommClosestNodeRequestJSON.cc.i
@@ -375,7 +375,7 @@ CommNavigationObjectsJSON/CommClosestNodeRequestJSON.i: CommNavigationObjectsJSO
 
 # target to preprocess a source file
 CommNavigationObjectsJSON/CommClosestNodeRequestJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommClosestNodeRequestJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommClosestNodeRequestJSON.cc.i
 .PHONY : CommNavigationObjectsJSON/CommClosestNodeRequestJSON.cc.i
 
 CommNavigationObjectsJSON/CommClosestNodeRequestJSON.s: CommNavigationObjectsJSON/CommClosestNodeRequestJSON.cc.s
@@ -384,7 +384,7 @@ CommNavigationObjectsJSON/CommClosestNodeRequestJSON.s: CommNavigationObjectsJSO
 
 # target to generate assembly for a file
 CommNavigationObjectsJSON/CommClosestNodeRequestJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommClosestNodeRequestJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommClosestNodeRequestJSON.cc.s
 .PHONY : CommNavigationObjectsJSON/CommClosestNodeRequestJSON.cc.s
 
 CommNavigationObjectsJSON/CommCorridorNavigationGoalEventParameterJSON.o: CommNavigationObjectsJSON/CommCorridorNavigationGoalEventParameterJSON.cc.o
@@ -393,7 +393,7 @@ CommNavigationObjectsJSON/CommCorridorNavigationGoalEventParameterJSON.o: CommNa
 
 # target to build an object file
 CommNavigationObjectsJSON/CommCorridorNavigationGoalEventParameterJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationGoalEventParameterJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationGoalEventParameterJSON.cc.o
 .PHONY : CommNavigationObjectsJSON/CommCorridorNavigationGoalEventParameterJSON.cc.o
 
 CommNavigationObjectsJSON/CommCorridorNavigationGoalEventParameterJSON.i: CommNavigationObjectsJSON/CommCorridorNavigationGoalEventParameterJSON.cc.i
@@ -402,7 +402,7 @@ CommNavigationObjectsJSON/CommCorridorNavigationGoalEventParameterJSON.i: CommNa
 
 # target to preprocess a source file
 CommNavigationObjectsJSON/CommCorridorNavigationGoalEventParameterJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationGoalEventParameterJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationGoalEventParameterJSON.cc.i
 .PHONY : CommNavigationObjectsJSON/CommCorridorNavigationGoalEventParameterJSON.cc.i
 
 CommNavigationObjectsJSON/CommCorridorNavigationGoalEventParameterJSON.s: CommNavigationObjectsJSON/CommCorridorNavigationGoalEventParameterJSON.cc.s
@@ -411,7 +411,7 @@ CommNavigationObjectsJSON/CommCorridorNavigationGoalEventParameterJSON.s: CommNa
 
 # target to generate assembly for a file
 CommNavigationObjectsJSON/CommCorridorNavigationGoalEventParameterJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationGoalEventParameterJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationGoalEventParameterJSON.cc.s
 .PHONY : CommNavigationObjectsJSON/CommCorridorNavigationGoalEventParameterJSON.cc.s
 
 CommNavigationObjectsJSON/CommCorridorNavigationGoalEventResultJSON.o: CommNavigationObjectsJSON/CommCorridorNavigationGoalEventResultJSON.cc.o
@@ -420,7 +420,7 @@ CommNavigationObjectsJSON/CommCorridorNavigationGoalEventResultJSON.o: CommNavig
 
 # target to build an object file
 CommNavigationObjectsJSON/CommCorridorNavigationGoalEventResultJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationGoalEventResultJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationGoalEventResultJSON.cc.o
 .PHONY : CommNavigationObjectsJSON/CommCorridorNavigationGoalEventResultJSON.cc.o
 
 CommNavigationObjectsJSON/CommCorridorNavigationGoalEventResultJSON.i: CommNavigationObjectsJSON/CommCorridorNavigationGoalEventResultJSON.cc.i
@@ -429,7 +429,7 @@ CommNavigationObjectsJSON/CommCorridorNavigationGoalEventResultJSON.i: CommNavig
 
 # target to preprocess a source file
 CommNavigationObjectsJSON/CommCorridorNavigationGoalEventResultJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationGoalEventResultJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationGoalEventResultJSON.cc.i
 .PHONY : CommNavigationObjectsJSON/CommCorridorNavigationGoalEventResultJSON.cc.i
 
 CommNavigationObjectsJSON/CommCorridorNavigationGoalEventResultJSON.s: CommNavigationObjectsJSON/CommCorridorNavigationGoalEventResultJSON.cc.s
@@ -438,7 +438,7 @@ CommNavigationObjectsJSON/CommCorridorNavigationGoalEventResultJSON.s: CommNavig
 
 # target to generate assembly for a file
 CommNavigationObjectsJSON/CommCorridorNavigationGoalEventResultJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationGoalEventResultJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationGoalEventResultJSON.cc.s
 .PHONY : CommNavigationObjectsJSON/CommCorridorNavigationGoalEventResultJSON.cc.s
 
 CommNavigationObjectsJSON/CommCorridorNavigationGoalEventStateJSON.o: CommNavigationObjectsJSON/CommCorridorNavigationGoalEventStateJSON.cc.o
@@ -447,7 +447,7 @@ CommNavigationObjectsJSON/CommCorridorNavigationGoalEventStateJSON.o: CommNaviga
 
 # target to build an object file
 CommNavigationObjectsJSON/CommCorridorNavigationGoalEventStateJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationGoalEventStateJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationGoalEventStateJSON.cc.o
 .PHONY : CommNavigationObjectsJSON/CommCorridorNavigationGoalEventStateJSON.cc.o
 
 CommNavigationObjectsJSON/CommCorridorNavigationGoalEventStateJSON.i: CommNavigationObjectsJSON/CommCorridorNavigationGoalEventStateJSON.cc.i
@@ -456,7 +456,7 @@ CommNavigationObjectsJSON/CommCorridorNavigationGoalEventStateJSON.i: CommNaviga
 
 # target to preprocess a source file
 CommNavigationObjectsJSON/CommCorridorNavigationGoalEventStateJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationGoalEventStateJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationGoalEventStateJSON.cc.i
 .PHONY : CommNavigationObjectsJSON/CommCorridorNavigationGoalEventStateJSON.cc.i
 
 CommNavigationObjectsJSON/CommCorridorNavigationGoalEventStateJSON.s: CommNavigationObjectsJSON/CommCorridorNavigationGoalEventStateJSON.cc.s
@@ -465,7 +465,7 @@ CommNavigationObjectsJSON/CommCorridorNavigationGoalEventStateJSON.s: CommNaviga
 
 # target to generate assembly for a file
 CommNavigationObjectsJSON/CommCorridorNavigationGoalEventStateJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationGoalEventStateJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationGoalEventStateJSON.cc.s
 .PHONY : CommNavigationObjectsJSON/CommCorridorNavigationGoalEventStateJSON.cc.s
 
 CommNavigationObjectsJSON/CommCorridorNavigationGoalJSON.o: CommNavigationObjectsJSON/CommCorridorNavigationGoalJSON.cc.o
@@ -474,7 +474,7 @@ CommNavigationObjectsJSON/CommCorridorNavigationGoalJSON.o: CommNavigationObject
 
 # target to build an object file
 CommNavigationObjectsJSON/CommCorridorNavigationGoalJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationGoalJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationGoalJSON.cc.o
 .PHONY : CommNavigationObjectsJSON/CommCorridorNavigationGoalJSON.cc.o
 
 CommNavigationObjectsJSON/CommCorridorNavigationGoalJSON.i: CommNavigationObjectsJSON/CommCorridorNavigationGoalJSON.cc.i
@@ -483,7 +483,7 @@ CommNavigationObjectsJSON/CommCorridorNavigationGoalJSON.i: CommNavigationObject
 
 # target to preprocess a source file
 CommNavigationObjectsJSON/CommCorridorNavigationGoalJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationGoalJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationGoalJSON.cc.i
 .PHONY : CommNavigationObjectsJSON/CommCorridorNavigationGoalJSON.cc.i
 
 CommNavigationObjectsJSON/CommCorridorNavigationGoalJSON.s: CommNavigationObjectsJSON/CommCorridorNavigationGoalJSON.cc.s
@@ -492,7 +492,7 @@ CommNavigationObjectsJSON/CommCorridorNavigationGoalJSON.s: CommNavigationObject
 
 # target to generate assembly for a file
 CommNavigationObjectsJSON/CommCorridorNavigationGoalJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationGoalJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationGoalJSON.cc.s
 .PHONY : CommNavigationObjectsJSON/CommCorridorNavigationGoalJSON.cc.s
 
 CommNavigationObjectsJSON/CommCorridorNavigationNodeAnswerJSON.o: CommNavigationObjectsJSON/CommCorridorNavigationNodeAnswerJSON.cc.o
@@ -501,7 +501,7 @@ CommNavigationObjectsJSON/CommCorridorNavigationNodeAnswerJSON.o: CommNavigation
 
 # target to build an object file
 CommNavigationObjectsJSON/CommCorridorNavigationNodeAnswerJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationNodeAnswerJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationNodeAnswerJSON.cc.o
 .PHONY : CommNavigationObjectsJSON/CommCorridorNavigationNodeAnswerJSON.cc.o
 
 CommNavigationObjectsJSON/CommCorridorNavigationNodeAnswerJSON.i: CommNavigationObjectsJSON/CommCorridorNavigationNodeAnswerJSON.cc.i
@@ -510,7 +510,7 @@ CommNavigationObjectsJSON/CommCorridorNavigationNodeAnswerJSON.i: CommNavigation
 
 # target to preprocess a source file
 CommNavigationObjectsJSON/CommCorridorNavigationNodeAnswerJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationNodeAnswerJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationNodeAnswerJSON.cc.i
 .PHONY : CommNavigationObjectsJSON/CommCorridorNavigationNodeAnswerJSON.cc.i
 
 CommNavigationObjectsJSON/CommCorridorNavigationNodeAnswerJSON.s: CommNavigationObjectsJSON/CommCorridorNavigationNodeAnswerJSON.cc.s
@@ -519,7 +519,7 @@ CommNavigationObjectsJSON/CommCorridorNavigationNodeAnswerJSON.s: CommNavigation
 
 # target to generate assembly for a file
 CommNavigationObjectsJSON/CommCorridorNavigationNodeAnswerJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationNodeAnswerJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationNodeAnswerJSON.cc.s
 .PHONY : CommNavigationObjectsJSON/CommCorridorNavigationNodeAnswerJSON.cc.s
 
 CommNavigationObjectsJSON/CommCorridorNavigationNodeRequestJSON.o: CommNavigationObjectsJSON/CommCorridorNavigationNodeRequestJSON.cc.o
@@ -528,7 +528,7 @@ CommNavigationObjectsJSON/CommCorridorNavigationNodeRequestJSON.o: CommNavigatio
 
 # target to build an object file
 CommNavigationObjectsJSON/CommCorridorNavigationNodeRequestJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationNodeRequestJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationNodeRequestJSON.cc.o
 .PHONY : CommNavigationObjectsJSON/CommCorridorNavigationNodeRequestJSON.cc.o
 
 CommNavigationObjectsJSON/CommCorridorNavigationNodeRequestJSON.i: CommNavigationObjectsJSON/CommCorridorNavigationNodeRequestJSON.cc.i
@@ -537,7 +537,7 @@ CommNavigationObjectsJSON/CommCorridorNavigationNodeRequestJSON.i: CommNavigatio
 
 # target to preprocess a source file
 CommNavigationObjectsJSON/CommCorridorNavigationNodeRequestJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationNodeRequestJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationNodeRequestJSON.cc.i
 .PHONY : CommNavigationObjectsJSON/CommCorridorNavigationNodeRequestJSON.cc.i
 
 CommNavigationObjectsJSON/CommCorridorNavigationNodeRequestJSON.s: CommNavigationObjectsJSON/CommCorridorNavigationNodeRequestJSON.cc.s
@@ -546,7 +546,7 @@ CommNavigationObjectsJSON/CommCorridorNavigationNodeRequestJSON.s: CommNavigatio
 
 # target to generate assembly for a file
 CommNavigationObjectsJSON/CommCorridorNavigationNodeRequestJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationNodeRequestJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationNodeRequestJSON.cc.s
 .PHONY : CommNavigationObjectsJSON/CommCorridorNavigationNodeRequestJSON.cc.s
 
 CommNavigationObjectsJSON/CommCorridorNavigationPathAnswerJSON.o: CommNavigationObjectsJSON/CommCorridorNavigationPathAnswerJSON.cc.o
@@ -555,7 +555,7 @@ CommNavigationObjectsJSON/CommCorridorNavigationPathAnswerJSON.o: CommNavigation
 
 # target to build an object file
 CommNavigationObjectsJSON/CommCorridorNavigationPathAnswerJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationPathAnswerJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationPathAnswerJSON.cc.o
 .PHONY : CommNavigationObjectsJSON/CommCorridorNavigationPathAnswerJSON.cc.o
 
 CommNavigationObjectsJSON/CommCorridorNavigationPathAnswerJSON.i: CommNavigationObjectsJSON/CommCorridorNavigationPathAnswerJSON.cc.i
@@ -564,7 +564,7 @@ CommNavigationObjectsJSON/CommCorridorNavigationPathAnswerJSON.i: CommNavigation
 
 # target to preprocess a source file
 CommNavigationObjectsJSON/CommCorridorNavigationPathAnswerJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationPathAnswerJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationPathAnswerJSON.cc.i
 .PHONY : CommNavigationObjectsJSON/CommCorridorNavigationPathAnswerJSON.cc.i
 
 CommNavigationObjectsJSON/CommCorridorNavigationPathAnswerJSON.s: CommNavigationObjectsJSON/CommCorridorNavigationPathAnswerJSON.cc.s
@@ -573,7 +573,7 @@ CommNavigationObjectsJSON/CommCorridorNavigationPathAnswerJSON.s: CommNavigation
 
 # target to generate assembly for a file
 CommNavigationObjectsJSON/CommCorridorNavigationPathAnswerJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationPathAnswerJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationPathAnswerJSON.cc.s
 .PHONY : CommNavigationObjectsJSON/CommCorridorNavigationPathAnswerJSON.cc.s
 
 CommNavigationObjectsJSON/CommCorridorNavigationPathRequestJSON.o: CommNavigationObjectsJSON/CommCorridorNavigationPathRequestJSON.cc.o
@@ -582,7 +582,7 @@ CommNavigationObjectsJSON/CommCorridorNavigationPathRequestJSON.o: CommNavigatio
 
 # target to build an object file
 CommNavigationObjectsJSON/CommCorridorNavigationPathRequestJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationPathRequestJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationPathRequestJSON.cc.o
 .PHONY : CommNavigationObjectsJSON/CommCorridorNavigationPathRequestJSON.cc.o
 
 CommNavigationObjectsJSON/CommCorridorNavigationPathRequestJSON.i: CommNavigationObjectsJSON/CommCorridorNavigationPathRequestJSON.cc.i
@@ -591,7 +591,7 @@ CommNavigationObjectsJSON/CommCorridorNavigationPathRequestJSON.i: CommNavigatio
 
 # target to preprocess a source file
 CommNavigationObjectsJSON/CommCorridorNavigationPathRequestJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationPathRequestJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationPathRequestJSON.cc.i
 .PHONY : CommNavigationObjectsJSON/CommCorridorNavigationPathRequestJSON.cc.i
 
 CommNavigationObjectsJSON/CommCorridorNavigationPathRequestJSON.s: CommNavigationObjectsJSON/CommCorridorNavigationPathRequestJSON.cc.s
@@ -600,7 +600,7 @@ CommNavigationObjectsJSON/CommCorridorNavigationPathRequestJSON.s: CommNavigatio
 
 # target to generate assembly for a file
 CommNavigationObjectsJSON/CommCorridorNavigationPathRequestJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationPathRequestJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationPathRequestJSON.cc.s
 .PHONY : CommNavigationObjectsJSON/CommCorridorNavigationPathRequestJSON.cc.s
 
 CommNavigationObjectsJSON/CommCorridorNavigationPoseAnswerJSON.o: CommNavigationObjectsJSON/CommCorridorNavigationPoseAnswerJSON.cc.o
@@ -609,7 +609,7 @@ CommNavigationObjectsJSON/CommCorridorNavigationPoseAnswerJSON.o: CommNavigation
 
 # target to build an object file
 CommNavigationObjectsJSON/CommCorridorNavigationPoseAnswerJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationPoseAnswerJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationPoseAnswerJSON.cc.o
 .PHONY : CommNavigationObjectsJSON/CommCorridorNavigationPoseAnswerJSON.cc.o
 
 CommNavigationObjectsJSON/CommCorridorNavigationPoseAnswerJSON.i: CommNavigationObjectsJSON/CommCorridorNavigationPoseAnswerJSON.cc.i
@@ -618,7 +618,7 @@ CommNavigationObjectsJSON/CommCorridorNavigationPoseAnswerJSON.i: CommNavigation
 
 # target to preprocess a source file
 CommNavigationObjectsJSON/CommCorridorNavigationPoseAnswerJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationPoseAnswerJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationPoseAnswerJSON.cc.i
 .PHONY : CommNavigationObjectsJSON/CommCorridorNavigationPoseAnswerJSON.cc.i
 
 CommNavigationObjectsJSON/CommCorridorNavigationPoseAnswerJSON.s: CommNavigationObjectsJSON/CommCorridorNavigationPoseAnswerJSON.cc.s
@@ -627,7 +627,7 @@ CommNavigationObjectsJSON/CommCorridorNavigationPoseAnswerJSON.s: CommNavigation
 
 # target to generate assembly for a file
 CommNavigationObjectsJSON/CommCorridorNavigationPoseAnswerJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationPoseAnswerJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationPoseAnswerJSON.cc.s
 .PHONY : CommNavigationObjectsJSON/CommCorridorNavigationPoseAnswerJSON.cc.s
 
 CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventParameterJSON.o: CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventParameterJSON.cc.o
@@ -636,7 +636,7 @@ CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventParameterJSON.o:
 
 # target to build an object file
 CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventParameterJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventParameterJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventParameterJSON.cc.o
 .PHONY : CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventParameterJSON.cc.o
 
 CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventParameterJSON.i: CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventParameterJSON.cc.i
@@ -645,7 +645,7 @@ CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventParameterJSON.i:
 
 # target to preprocess a source file
 CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventParameterJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventParameterJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventParameterJSON.cc.i
 .PHONY : CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventParameterJSON.cc.i
 
 CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventParameterJSON.s: CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventParameterJSON.cc.s
@@ -654,7 +654,7 @@ CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventParameterJSON.s:
 
 # target to generate assembly for a file
 CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventParameterJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventParameterJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventParameterJSON.cc.s
 .PHONY : CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventParameterJSON.cc.s
 
 CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventResultJSON.o: CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventResultJSON.cc.o
@@ -663,7 +663,7 @@ CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventResultJSON.o: Co
 
 # target to build an object file
 CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventResultJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventResultJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventResultJSON.cc.o
 .PHONY : CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventResultJSON.cc.o
 
 CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventResultJSON.i: CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventResultJSON.cc.i
@@ -672,7 +672,7 @@ CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventResultJSON.i: Co
 
 # target to preprocess a source file
 CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventResultJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventResultJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventResultJSON.cc.i
 .PHONY : CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventResultJSON.cc.i
 
 CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventResultJSON.s: CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventResultJSON.cc.s
@@ -681,7 +681,7 @@ CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventResultJSON.s: Co
 
 # target to generate assembly for a file
 CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventResultJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventResultJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventResultJSON.cc.s
 .PHONY : CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventResultJSON.cc.s
 
 CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventStateJSON.o: CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventStateJSON.cc.o
@@ -690,7 +690,7 @@ CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventStateJSON.o: Com
 
 # target to build an object file
 CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventStateJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventStateJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventStateJSON.cc.o
 .PHONY : CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventStateJSON.cc.o
 
 CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventStateJSON.i: CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventStateJSON.cc.i
@@ -699,7 +699,7 @@ CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventStateJSON.i: Com
 
 # target to preprocess a source file
 CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventStateJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventStateJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventStateJSON.cc.i
 .PHONY : CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventStateJSON.cc.i
 
 CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventStateJSON.s: CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventStateJSON.cc.s
@@ -708,7 +708,7 @@ CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventStateJSON.s: Com
 
 # target to generate assembly for a file
 CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventStateJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventStateJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventStateJSON.cc.s
 .PHONY : CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestEventStateJSON.cc.s
 
 CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestJSON.o: CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestJSON.cc.o
@@ -717,7 +717,7 @@ CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestJSON.o: CommNavigatio
 
 # target to build an object file
 CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestJSON.cc.o
 .PHONY : CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestJSON.cc.o
 
 CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestJSON.i: CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestJSON.cc.i
@@ -726,7 +726,7 @@ CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestJSON.i: CommNavigatio
 
 # target to preprocess a source file
 CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestJSON.cc.i
 .PHONY : CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestJSON.cc.i
 
 CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestJSON.s: CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestJSON.cc.s
@@ -735,7 +735,7 @@ CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestJSON.s: CommNavigatio
 
 # target to generate assembly for a file
 CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestJSON.cc.s
 .PHONY : CommNavigationObjectsJSON/CommCorridorNavigationPoseRequestJSON.cc.s
 
 CommNavigationObjectsJSON/CommCorridorNetworkLayoutJSON.o: CommNavigationObjectsJSON/CommCorridorNetworkLayoutJSON.cc.o
@@ -744,7 +744,7 @@ CommNavigationObjectsJSON/CommCorridorNetworkLayoutJSON.o: CommNavigationObjects
 
 # target to build an object file
 CommNavigationObjectsJSON/CommCorridorNetworkLayoutJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNetworkLayoutJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNetworkLayoutJSON.cc.o
 .PHONY : CommNavigationObjectsJSON/CommCorridorNetworkLayoutJSON.cc.o
 
 CommNavigationObjectsJSON/CommCorridorNetworkLayoutJSON.i: CommNavigationObjectsJSON/CommCorridorNetworkLayoutJSON.cc.i
@@ -753,7 +753,7 @@ CommNavigationObjectsJSON/CommCorridorNetworkLayoutJSON.i: CommNavigationObjects
 
 # target to preprocess a source file
 CommNavigationObjectsJSON/CommCorridorNetworkLayoutJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNetworkLayoutJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNetworkLayoutJSON.cc.i
 .PHONY : CommNavigationObjectsJSON/CommCorridorNetworkLayoutJSON.cc.i
 
 CommNavigationObjectsJSON/CommCorridorNetworkLayoutJSON.s: CommNavigationObjectsJSON/CommCorridorNetworkLayoutJSON.cc.s
@@ -762,7 +762,7 @@ CommNavigationObjectsJSON/CommCorridorNetworkLayoutJSON.s: CommNavigationObjects
 
 # target to generate assembly for a file
 CommNavigationObjectsJSON/CommCorridorNetworkLayoutJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNetworkLayoutJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNetworkLayoutJSON.cc.s
 .PHONY : CommNavigationObjectsJSON/CommCorridorNetworkLayoutJSON.cc.s
 
 CommNavigationObjectsJSON/CommCorridorNetworkStatusJSON.o: CommNavigationObjectsJSON/CommCorridorNetworkStatusJSON.cc.o
@@ -771,7 +771,7 @@ CommNavigationObjectsJSON/CommCorridorNetworkStatusJSON.o: CommNavigationObjects
 
 # target to build an object file
 CommNavigationObjectsJSON/CommCorridorNetworkStatusJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNetworkStatusJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNetworkStatusJSON.cc.o
 .PHONY : CommNavigationObjectsJSON/CommCorridorNetworkStatusJSON.cc.o
 
 CommNavigationObjectsJSON/CommCorridorNetworkStatusJSON.i: CommNavigationObjectsJSON/CommCorridorNetworkStatusJSON.cc.i
@@ -780,7 +780,7 @@ CommNavigationObjectsJSON/CommCorridorNetworkStatusJSON.i: CommNavigationObjects
 
 # target to preprocess a source file
 CommNavigationObjectsJSON/CommCorridorNetworkStatusJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNetworkStatusJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNetworkStatusJSON.cc.i
 .PHONY : CommNavigationObjectsJSON/CommCorridorNetworkStatusJSON.cc.i
 
 CommNavigationObjectsJSON/CommCorridorNetworkStatusJSON.s: CommNavigationObjectsJSON/CommCorridorNetworkStatusJSON.cc.s
@@ -789,7 +789,7 @@ CommNavigationObjectsJSON/CommCorridorNetworkStatusJSON.s: CommNavigationObjects
 
 # target to generate assembly for a file
 CommNavigationObjectsJSON/CommCorridorNetworkStatusJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNetworkStatusJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNetworkStatusJSON.cc.s
 .PHONY : CommNavigationObjectsJSON/CommCorridorNetworkStatusJSON.cc.s
 
 CommNavigationObjectsJSON/CommCorridorNodeJSON.o: CommNavigationObjectsJSON/CommCorridorNodeJSON.cc.o
@@ -798,7 +798,7 @@ CommNavigationObjectsJSON/CommCorridorNodeJSON.o: CommNavigationObjectsJSON/Comm
 
 # target to build an object file
 CommNavigationObjectsJSON/CommCorridorNodeJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNodeJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNodeJSON.cc.o
 .PHONY : CommNavigationObjectsJSON/CommCorridorNodeJSON.cc.o
 
 CommNavigationObjectsJSON/CommCorridorNodeJSON.i: CommNavigationObjectsJSON/CommCorridorNodeJSON.cc.i
@@ -807,7 +807,7 @@ CommNavigationObjectsJSON/CommCorridorNodeJSON.i: CommNavigationObjectsJSON/Comm
 
 # target to preprocess a source file
 CommNavigationObjectsJSON/CommCorridorNodeJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNodeJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNodeJSON.cc.i
 .PHONY : CommNavigationObjectsJSON/CommCorridorNodeJSON.cc.i
 
 CommNavigationObjectsJSON/CommCorridorNodeJSON.s: CommNavigationObjectsJSON/CommCorridorNodeJSON.cc.s
@@ -816,7 +816,7 @@ CommNavigationObjectsJSON/CommCorridorNodeJSON.s: CommNavigationObjectsJSON/Comm
 
 # target to generate assembly for a file
 CommNavigationObjectsJSON/CommCorridorNodeJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNodeJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommCorridorNodeJSON.cc.s
 .PHONY : CommNavigationObjectsJSON/CommCorridorNodeJSON.cc.s
 
 CommNavigationObjectsJSON/CommDockingEventParameterJSON.o: CommNavigationObjectsJSON/CommDockingEventParameterJSON.cc.o
@@ -825,7 +825,7 @@ CommNavigationObjectsJSON/CommDockingEventParameterJSON.o: CommNavigationObjects
 
 # target to build an object file
 CommNavigationObjectsJSON/CommDockingEventParameterJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommDockingEventParameterJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommDockingEventParameterJSON.cc.o
 .PHONY : CommNavigationObjectsJSON/CommDockingEventParameterJSON.cc.o
 
 CommNavigationObjectsJSON/CommDockingEventParameterJSON.i: CommNavigationObjectsJSON/CommDockingEventParameterJSON.cc.i
@@ -834,7 +834,7 @@ CommNavigationObjectsJSON/CommDockingEventParameterJSON.i: CommNavigationObjects
 
 # target to preprocess a source file
 CommNavigationObjectsJSON/CommDockingEventParameterJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommDockingEventParameterJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommDockingEventParameterJSON.cc.i
 .PHONY : CommNavigationObjectsJSON/CommDockingEventParameterJSON.cc.i
 
 CommNavigationObjectsJSON/CommDockingEventParameterJSON.s: CommNavigationObjectsJSON/CommDockingEventParameterJSON.cc.s
@@ -843,7 +843,7 @@ CommNavigationObjectsJSON/CommDockingEventParameterJSON.s: CommNavigationObjects
 
 # target to generate assembly for a file
 CommNavigationObjectsJSON/CommDockingEventParameterJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommDockingEventParameterJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommDockingEventParameterJSON.cc.s
 .PHONY : CommNavigationObjectsJSON/CommDockingEventParameterJSON.cc.s
 
 CommNavigationObjectsJSON/CommDockingEventResultJSON.o: CommNavigationObjectsJSON/CommDockingEventResultJSON.cc.o
@@ -852,7 +852,7 @@ CommNavigationObjectsJSON/CommDockingEventResultJSON.o: CommNavigationObjectsJSO
 
 # target to build an object file
 CommNavigationObjectsJSON/CommDockingEventResultJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommDockingEventResultJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommDockingEventResultJSON.cc.o
 .PHONY : CommNavigationObjectsJSON/CommDockingEventResultJSON.cc.o
 
 CommNavigationObjectsJSON/CommDockingEventResultJSON.i: CommNavigationObjectsJSON/CommDockingEventResultJSON.cc.i
@@ -861,7 +861,7 @@ CommNavigationObjectsJSON/CommDockingEventResultJSON.i: CommNavigationObjectsJSO
 
 # target to preprocess a source file
 CommNavigationObjectsJSON/CommDockingEventResultJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommDockingEventResultJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommDockingEventResultJSON.cc.i
 .PHONY : CommNavigationObjectsJSON/CommDockingEventResultJSON.cc.i
 
 CommNavigationObjectsJSON/CommDockingEventResultJSON.s: CommNavigationObjectsJSON/CommDockingEventResultJSON.cc.s
@@ -870,7 +870,7 @@ CommNavigationObjectsJSON/CommDockingEventResultJSON.s: CommNavigationObjectsJSO
 
 # target to generate assembly for a file
 CommNavigationObjectsJSON/CommDockingEventResultJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommDockingEventResultJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommDockingEventResultJSON.cc.s
 .PHONY : CommNavigationObjectsJSON/CommDockingEventResultJSON.cc.s
 
 CommNavigationObjectsJSON/CommDockingEventStateJSON.o: CommNavigationObjectsJSON/CommDockingEventStateJSON.cc.o
@@ -879,7 +879,7 @@ CommNavigationObjectsJSON/CommDockingEventStateJSON.o: CommNavigationObjectsJSON
 
 # target to build an object file
 CommNavigationObjectsJSON/CommDockingEventStateJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommDockingEventStateJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommDockingEventStateJSON.cc.o
 .PHONY : CommNavigationObjectsJSON/CommDockingEventStateJSON.cc.o
 
 CommNavigationObjectsJSON/CommDockingEventStateJSON.i: CommNavigationObjectsJSON/CommDockingEventStateJSON.cc.i
@@ -888,7 +888,7 @@ CommNavigationObjectsJSON/CommDockingEventStateJSON.i: CommNavigationObjectsJSON
 
 # target to preprocess a source file
 CommNavigationObjectsJSON/CommDockingEventStateJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommDockingEventStateJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommDockingEventStateJSON.cc.i
 .PHONY : CommNavigationObjectsJSON/CommDockingEventStateJSON.cc.i
 
 CommNavigationObjectsJSON/CommDockingEventStateJSON.s: CommNavigationObjectsJSON/CommDockingEventStateJSON.cc.s
@@ -897,7 +897,7 @@ CommNavigationObjectsJSON/CommDockingEventStateJSON.s: CommNavigationObjectsJSON
 
 # target to generate assembly for a file
 CommNavigationObjectsJSON/CommDockingEventStateJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommDockingEventStateJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommDockingEventStateJSON.cc.s
 .PHONY : CommNavigationObjectsJSON/CommDockingEventStateJSON.cc.s
 
 CommNavigationObjectsJSON/CommGridMapJSON.o: CommNavigationObjectsJSON/CommGridMapJSON.cc.o
@@ -906,7 +906,7 @@ CommNavigationObjectsJSON/CommGridMapJSON.o: CommNavigationObjectsJSON/CommGridM
 
 # target to build an object file
 CommNavigationObjectsJSON/CommGridMapJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommGridMapJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommGridMapJSON.cc.o
 .PHONY : CommNavigationObjectsJSON/CommGridMapJSON.cc.o
 
 CommNavigationObjectsJSON/CommGridMapJSON.i: CommNavigationObjectsJSON/CommGridMapJSON.cc.i
@@ -915,7 +915,7 @@ CommNavigationObjectsJSON/CommGridMapJSON.i: CommNavigationObjectsJSON/CommGridM
 
 # target to preprocess a source file
 CommNavigationObjectsJSON/CommGridMapJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommGridMapJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommGridMapJSON.cc.i
 .PHONY : CommNavigationObjectsJSON/CommGridMapJSON.cc.i
 
 CommNavigationObjectsJSON/CommGridMapJSON.s: CommNavigationObjectsJSON/CommGridMapJSON.cc.s
@@ -924,7 +924,7 @@ CommNavigationObjectsJSON/CommGridMapJSON.s: CommNavigationObjectsJSON/CommGridM
 
 # target to generate assembly for a file
 CommNavigationObjectsJSON/CommGridMapJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommGridMapJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommGridMapJSON.cc.s
 .PHONY : CommNavigationObjectsJSON/CommGridMapJSON.cc.s
 
 CommNavigationObjectsJSON/CommGridMapRequestJSON.o: CommNavigationObjectsJSON/CommGridMapRequestJSON.cc.o
@@ -933,7 +933,7 @@ CommNavigationObjectsJSON/CommGridMapRequestJSON.o: CommNavigationObjectsJSON/Co
 
 # target to build an object file
 CommNavigationObjectsJSON/CommGridMapRequestJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommGridMapRequestJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommGridMapRequestJSON.cc.o
 .PHONY : CommNavigationObjectsJSON/CommGridMapRequestJSON.cc.o
 
 CommNavigationObjectsJSON/CommGridMapRequestJSON.i: CommNavigationObjectsJSON/CommGridMapRequestJSON.cc.i
@@ -942,7 +942,7 @@ CommNavigationObjectsJSON/CommGridMapRequestJSON.i: CommNavigationObjectsJSON/Co
 
 # target to preprocess a source file
 CommNavigationObjectsJSON/CommGridMapRequestJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommGridMapRequestJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommGridMapRequestJSON.cc.i
 .PHONY : CommNavigationObjectsJSON/CommGridMapRequestJSON.cc.i
 
 CommNavigationObjectsJSON/CommGridMapRequestJSON.s: CommNavigationObjectsJSON/CommGridMapRequestJSON.cc.s
@@ -951,7 +951,7 @@ CommNavigationObjectsJSON/CommGridMapRequestJSON.s: CommNavigationObjectsJSON/Co
 
 # target to generate assembly for a file
 CommNavigationObjectsJSON/CommGridMapRequestJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommGridMapRequestJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommGridMapRequestJSON.cc.s
 .PHONY : CommNavigationObjectsJSON/CommGridMapRequestJSON.cc.s
 
 CommNavigationObjectsJSON/CommNavigationGraphEdgeJSON.o: CommNavigationObjectsJSON/CommNavigationGraphEdgeJSON.cc.o
@@ -960,7 +960,7 @@ CommNavigationObjectsJSON/CommNavigationGraphEdgeJSON.o: CommNavigationObjectsJS
 
 # target to build an object file
 CommNavigationObjectsJSON/CommNavigationGraphEdgeJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationGraphEdgeJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationGraphEdgeJSON.cc.o
 .PHONY : CommNavigationObjectsJSON/CommNavigationGraphEdgeJSON.cc.o
 
 CommNavigationObjectsJSON/CommNavigationGraphEdgeJSON.i: CommNavigationObjectsJSON/CommNavigationGraphEdgeJSON.cc.i
@@ -969,7 +969,7 @@ CommNavigationObjectsJSON/CommNavigationGraphEdgeJSON.i: CommNavigationObjectsJS
 
 # target to preprocess a source file
 CommNavigationObjectsJSON/CommNavigationGraphEdgeJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationGraphEdgeJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationGraphEdgeJSON.cc.i
 .PHONY : CommNavigationObjectsJSON/CommNavigationGraphEdgeJSON.cc.i
 
 CommNavigationObjectsJSON/CommNavigationGraphEdgeJSON.s: CommNavigationObjectsJSON/CommNavigationGraphEdgeJSON.cc.s
@@ -978,7 +978,7 @@ CommNavigationObjectsJSON/CommNavigationGraphEdgeJSON.s: CommNavigationObjectsJS
 
 # target to generate assembly for a file
 CommNavigationObjectsJSON/CommNavigationGraphEdgeJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationGraphEdgeJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationGraphEdgeJSON.cc.s
 .PHONY : CommNavigationObjectsJSON/CommNavigationGraphEdgeJSON.cc.s
 
 CommNavigationObjectsJSON/CommNavigationGraphJSON.o: CommNavigationObjectsJSON/CommNavigationGraphJSON.cc.o
@@ -987,7 +987,7 @@ CommNavigationObjectsJSON/CommNavigationGraphJSON.o: CommNavigationObjectsJSON/C
 
 # target to build an object file
 CommNavigationObjectsJSON/CommNavigationGraphJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationGraphJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationGraphJSON.cc.o
 .PHONY : CommNavigationObjectsJSON/CommNavigationGraphJSON.cc.o
 
 CommNavigationObjectsJSON/CommNavigationGraphJSON.i: CommNavigationObjectsJSON/CommNavigationGraphJSON.cc.i
@@ -996,7 +996,7 @@ CommNavigationObjectsJSON/CommNavigationGraphJSON.i: CommNavigationObjectsJSON/C
 
 # target to preprocess a source file
 CommNavigationObjectsJSON/CommNavigationGraphJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationGraphJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationGraphJSON.cc.i
 .PHONY : CommNavigationObjectsJSON/CommNavigationGraphJSON.cc.i
 
 CommNavigationObjectsJSON/CommNavigationGraphJSON.s: CommNavigationObjectsJSON/CommNavigationGraphJSON.cc.s
@@ -1005,7 +1005,7 @@ CommNavigationObjectsJSON/CommNavigationGraphJSON.s: CommNavigationObjectsJSON/C
 
 # target to generate assembly for a file
 CommNavigationObjectsJSON/CommNavigationGraphJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationGraphJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationGraphJSON.cc.s
 .PHONY : CommNavigationObjectsJSON/CommNavigationGraphJSON.cc.s
 
 CommNavigationObjectsJSON/CommNavigationGraphVertexJSON.o: CommNavigationObjectsJSON/CommNavigationGraphVertexJSON.cc.o
@@ -1014,7 +1014,7 @@ CommNavigationObjectsJSON/CommNavigationGraphVertexJSON.o: CommNavigationObjects
 
 # target to build an object file
 CommNavigationObjectsJSON/CommNavigationGraphVertexJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationGraphVertexJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationGraphVertexJSON.cc.o
 .PHONY : CommNavigationObjectsJSON/CommNavigationGraphVertexJSON.cc.o
 
 CommNavigationObjectsJSON/CommNavigationGraphVertexJSON.i: CommNavigationObjectsJSON/CommNavigationGraphVertexJSON.cc.i
@@ -1023,7 +1023,7 @@ CommNavigationObjectsJSON/CommNavigationGraphVertexJSON.i: CommNavigationObjects
 
 # target to preprocess a source file
 CommNavigationObjectsJSON/CommNavigationGraphVertexJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationGraphVertexJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationGraphVertexJSON.cc.i
 .PHONY : CommNavigationObjectsJSON/CommNavigationGraphVertexJSON.cc.i
 
 CommNavigationObjectsJSON/CommNavigationGraphVertexJSON.s: CommNavigationObjectsJSON/CommNavigationGraphVertexJSON.cc.s
@@ -1032,7 +1032,7 @@ CommNavigationObjectsJSON/CommNavigationGraphVertexJSON.s: CommNavigationObjects
 
 # target to generate assembly for a file
 CommNavigationObjectsJSON/CommNavigationGraphVertexJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationGraphVertexJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationGraphVertexJSON.cc.s
 .PHONY : CommNavigationObjectsJSON/CommNavigationGraphVertexJSON.cc.s
 
 CommNavigationObjectsJSON/CommNavigationPathsJSON.o: CommNavigationObjectsJSON/CommNavigationPathsJSON.cc.o
@@ -1041,7 +1041,7 @@ CommNavigationObjectsJSON/CommNavigationPathsJSON.o: CommNavigationObjectsJSON/C
 
 # target to build an object file
 CommNavigationObjectsJSON/CommNavigationPathsJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationPathsJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationPathsJSON.cc.o
 .PHONY : CommNavigationObjectsJSON/CommNavigationPathsJSON.cc.o
 
 CommNavigationObjectsJSON/CommNavigationPathsJSON.i: CommNavigationObjectsJSON/CommNavigationPathsJSON.cc.i
@@ -1050,7 +1050,7 @@ CommNavigationObjectsJSON/CommNavigationPathsJSON.i: CommNavigationObjectsJSON/C
 
 # target to preprocess a source file
 CommNavigationObjectsJSON/CommNavigationPathsJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationPathsJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationPathsJSON.cc.i
 .PHONY : CommNavigationObjectsJSON/CommNavigationPathsJSON.cc.i
 
 CommNavigationObjectsJSON/CommNavigationPathsJSON.s: CommNavigationObjectsJSON/CommNavigationPathsJSON.cc.s
@@ -1059,7 +1059,7 @@ CommNavigationObjectsJSON/CommNavigationPathsJSON.s: CommNavigationObjectsJSON/C
 
 # target to generate assembly for a file
 CommNavigationObjectsJSON/CommNavigationPathsJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationPathsJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationPathsJSON.cc.s
 .PHONY : CommNavigationObjectsJSON/CommNavigationPathsJSON.cc.s
 
 CommNavigationObjectsJSON/CommNavigationTimeRequestJSON.o: CommNavigationObjectsJSON/CommNavigationTimeRequestJSON.cc.o
@@ -1068,7 +1068,7 @@ CommNavigationObjectsJSON/CommNavigationTimeRequestJSON.o: CommNavigationObjects
 
 # target to build an object file
 CommNavigationObjectsJSON/CommNavigationTimeRequestJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationTimeRequestJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationTimeRequestJSON.cc.o
 .PHONY : CommNavigationObjectsJSON/CommNavigationTimeRequestJSON.cc.o
 
 CommNavigationObjectsJSON/CommNavigationTimeRequestJSON.i: CommNavigationObjectsJSON/CommNavigationTimeRequestJSON.cc.i
@@ -1077,7 +1077,7 @@ CommNavigationObjectsJSON/CommNavigationTimeRequestJSON.i: CommNavigationObjects
 
 # target to preprocess a source file
 CommNavigationObjectsJSON/CommNavigationTimeRequestJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationTimeRequestJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationTimeRequestJSON.cc.i
 .PHONY : CommNavigationObjectsJSON/CommNavigationTimeRequestJSON.cc.i
 
 CommNavigationObjectsJSON/CommNavigationTimeRequestJSON.s: CommNavigationObjectsJSON/CommNavigationTimeRequestJSON.cc.s
@@ -1086,7 +1086,7 @@ CommNavigationObjectsJSON/CommNavigationTimeRequestJSON.s: CommNavigationObjects
 
 # target to generate assembly for a file
 CommNavigationObjectsJSON/CommNavigationTimeRequestJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationTimeRequestJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationTimeRequestJSON.cc.s
 .PHONY : CommNavigationObjectsJSON/CommNavigationTimeRequestJSON.cc.s
 
 CommNavigationObjectsJSON/CommNavigationTimeResponseJSON.o: CommNavigationObjectsJSON/CommNavigationTimeResponseJSON.cc.o
@@ -1095,7 +1095,7 @@ CommNavigationObjectsJSON/CommNavigationTimeResponseJSON.o: CommNavigationObject
 
 # target to build an object file
 CommNavigationObjectsJSON/CommNavigationTimeResponseJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationTimeResponseJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationTimeResponseJSON.cc.o
 .PHONY : CommNavigationObjectsJSON/CommNavigationTimeResponseJSON.cc.o
 
 CommNavigationObjectsJSON/CommNavigationTimeResponseJSON.i: CommNavigationObjectsJSON/CommNavigationTimeResponseJSON.cc.i
@@ -1104,7 +1104,7 @@ CommNavigationObjectsJSON/CommNavigationTimeResponseJSON.i: CommNavigationObject
 
 # target to preprocess a source file
 CommNavigationObjectsJSON/CommNavigationTimeResponseJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationTimeResponseJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationTimeResponseJSON.cc.i
 .PHONY : CommNavigationObjectsJSON/CommNavigationTimeResponseJSON.cc.i
 
 CommNavigationObjectsJSON/CommNavigationTimeResponseJSON.s: CommNavigationObjectsJSON/CommNavigationTimeResponseJSON.cc.s
@@ -1113,7 +1113,7 @@ CommNavigationObjectsJSON/CommNavigationTimeResponseJSON.s: CommNavigationObject
 
 # target to generate assembly for a file
 CommNavigationObjectsJSON/CommNavigationTimeResponseJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationTimeResponseJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationTimeResponseJSON.cc.s
 .PHONY : CommNavigationObjectsJSON/CommNavigationTimeResponseJSON.cc.s
 
 CommNavigationObjectsJSON/CommNavigationTopologyConnectionJSON.o: CommNavigationObjectsJSON/CommNavigationTopologyConnectionJSON.cc.o
@@ -1122,7 +1122,7 @@ CommNavigationObjectsJSON/CommNavigationTopologyConnectionJSON.o: CommNavigation
 
 # target to build an object file
 CommNavigationObjectsJSON/CommNavigationTopologyConnectionJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationTopologyConnectionJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationTopologyConnectionJSON.cc.o
 .PHONY : CommNavigationObjectsJSON/CommNavigationTopologyConnectionJSON.cc.o
 
 CommNavigationObjectsJSON/CommNavigationTopologyConnectionJSON.i: CommNavigationObjectsJSON/CommNavigationTopologyConnectionJSON.cc.i
@@ -1131,7 +1131,7 @@ CommNavigationObjectsJSON/CommNavigationTopologyConnectionJSON.i: CommNavigation
 
 # target to preprocess a source file
 CommNavigationObjectsJSON/CommNavigationTopologyConnectionJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationTopologyConnectionJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationTopologyConnectionJSON.cc.i
 .PHONY : CommNavigationObjectsJSON/CommNavigationTopologyConnectionJSON.cc.i
 
 CommNavigationObjectsJSON/CommNavigationTopologyConnectionJSON.s: CommNavigationObjectsJSON/CommNavigationTopologyConnectionJSON.cc.s
@@ -1140,7 +1140,7 @@ CommNavigationObjectsJSON/CommNavigationTopologyConnectionJSON.s: CommNavigation
 
 # target to generate assembly for a file
 CommNavigationObjectsJSON/CommNavigationTopologyConnectionJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationTopologyConnectionJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationTopologyConnectionJSON.cc.s
 .PHONY : CommNavigationObjectsJSON/CommNavigationTopologyConnectionJSON.cc.s
 
 CommNavigationObjectsJSON/CommNavigationTopologyMapJSON.o: CommNavigationObjectsJSON/CommNavigationTopologyMapJSON.cc.o
@@ -1149,7 +1149,7 @@ CommNavigationObjectsJSON/CommNavigationTopologyMapJSON.o: CommNavigationObjects
 
 # target to build an object file
 CommNavigationObjectsJSON/CommNavigationTopologyMapJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationTopologyMapJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationTopologyMapJSON.cc.o
 .PHONY : CommNavigationObjectsJSON/CommNavigationTopologyMapJSON.cc.o
 
 CommNavigationObjectsJSON/CommNavigationTopologyMapJSON.i: CommNavigationObjectsJSON/CommNavigationTopologyMapJSON.cc.i
@@ -1158,7 +1158,7 @@ CommNavigationObjectsJSON/CommNavigationTopologyMapJSON.i: CommNavigationObjects
 
 # target to preprocess a source file
 CommNavigationObjectsJSON/CommNavigationTopologyMapJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationTopologyMapJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationTopologyMapJSON.cc.i
 .PHONY : CommNavigationObjectsJSON/CommNavigationTopologyMapJSON.cc.i
 
 CommNavigationObjectsJSON/CommNavigationTopologyMapJSON.s: CommNavigationObjectsJSON/CommNavigationTopologyMapJSON.cc.s
@@ -1167,7 +1167,7 @@ CommNavigationObjectsJSON/CommNavigationTopologyMapJSON.s: CommNavigationObjects
 
 # target to generate assembly for a file
 CommNavigationObjectsJSON/CommNavigationTopologyMapJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationTopologyMapJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationTopologyMapJSON.cc.s
 .PHONY : CommNavigationObjectsJSON/CommNavigationTopologyMapJSON.cc.s
 
 CommNavigationObjectsJSON/CommNavigationTopologyPartJSON.o: CommNavigationObjectsJSON/CommNavigationTopologyPartJSON.cc.o
@@ -1176,7 +1176,7 @@ CommNavigationObjectsJSON/CommNavigationTopologyPartJSON.o: CommNavigationObject
 
 # target to build an object file
 CommNavigationObjectsJSON/CommNavigationTopologyPartJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationTopologyPartJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationTopologyPartJSON.cc.o
 .PHONY : CommNavigationObjectsJSON/CommNavigationTopologyPartJSON.cc.o
 
 CommNavigationObjectsJSON/CommNavigationTopologyPartJSON.i: CommNavigationObjectsJSON/CommNavigationTopologyPartJSON.cc.i
@@ -1185,7 +1185,7 @@ CommNavigationObjectsJSON/CommNavigationTopologyPartJSON.i: CommNavigationObject
 
 # target to preprocess a source file
 CommNavigationObjectsJSON/CommNavigationTopologyPartJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationTopologyPartJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationTopologyPartJSON.cc.i
 .PHONY : CommNavigationObjectsJSON/CommNavigationTopologyPartJSON.cc.i
 
 CommNavigationObjectsJSON/CommNavigationTopologyPartJSON.s: CommNavigationObjectsJSON/CommNavigationTopologyPartJSON.cc.s
@@ -1194,7 +1194,7 @@ CommNavigationObjectsJSON/CommNavigationTopologyPartJSON.s: CommNavigationObject
 
 # target to generate assembly for a file
 CommNavigationObjectsJSON/CommNavigationTopologyPartJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationTopologyPartJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommNavigationTopologyPartJSON.cc.s
 .PHONY : CommNavigationObjectsJSON/CommNavigationTopologyPartJSON.cc.s
 
 CommNavigationObjectsJSON/CommPlannerEventParameterJSON.o: CommNavigationObjectsJSON/CommPlannerEventParameterJSON.cc.o
@@ -1203,7 +1203,7 @@ CommNavigationObjectsJSON/CommPlannerEventParameterJSON.o: CommNavigationObjects
 
 # target to build an object file
 CommNavigationObjectsJSON/CommPlannerEventParameterJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommPlannerEventParameterJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommPlannerEventParameterJSON.cc.o
 .PHONY : CommNavigationObjectsJSON/CommPlannerEventParameterJSON.cc.o
 
 CommNavigationObjectsJSON/CommPlannerEventParameterJSON.i: CommNavigationObjectsJSON/CommPlannerEventParameterJSON.cc.i
@@ -1212,7 +1212,7 @@ CommNavigationObjectsJSON/CommPlannerEventParameterJSON.i: CommNavigationObjects
 
 # target to preprocess a source file
 CommNavigationObjectsJSON/CommPlannerEventParameterJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommPlannerEventParameterJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommPlannerEventParameterJSON.cc.i
 .PHONY : CommNavigationObjectsJSON/CommPlannerEventParameterJSON.cc.i
 
 CommNavigationObjectsJSON/CommPlannerEventParameterJSON.s: CommNavigationObjectsJSON/CommPlannerEventParameterJSON.cc.s
@@ -1221,7 +1221,7 @@ CommNavigationObjectsJSON/CommPlannerEventParameterJSON.s: CommNavigationObjects
 
 # target to generate assembly for a file
 CommNavigationObjectsJSON/CommPlannerEventParameterJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommPlannerEventParameterJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommPlannerEventParameterJSON.cc.s
 .PHONY : CommNavigationObjectsJSON/CommPlannerEventParameterJSON.cc.s
 
 CommNavigationObjectsJSON/CommPlannerEventResultJSON.o: CommNavigationObjectsJSON/CommPlannerEventResultJSON.cc.o
@@ -1230,7 +1230,7 @@ CommNavigationObjectsJSON/CommPlannerEventResultJSON.o: CommNavigationObjectsJSO
 
 # target to build an object file
 CommNavigationObjectsJSON/CommPlannerEventResultJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommPlannerEventResultJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommPlannerEventResultJSON.cc.o
 .PHONY : CommNavigationObjectsJSON/CommPlannerEventResultJSON.cc.o
 
 CommNavigationObjectsJSON/CommPlannerEventResultJSON.i: CommNavigationObjectsJSON/CommPlannerEventResultJSON.cc.i
@@ -1239,7 +1239,7 @@ CommNavigationObjectsJSON/CommPlannerEventResultJSON.i: CommNavigationObjectsJSO
 
 # target to preprocess a source file
 CommNavigationObjectsJSON/CommPlannerEventResultJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommPlannerEventResultJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommPlannerEventResultJSON.cc.i
 .PHONY : CommNavigationObjectsJSON/CommPlannerEventResultJSON.cc.i
 
 CommNavigationObjectsJSON/CommPlannerEventResultJSON.s: CommNavigationObjectsJSON/CommPlannerEventResultJSON.cc.s
@@ -1248,7 +1248,7 @@ CommNavigationObjectsJSON/CommPlannerEventResultJSON.s: CommNavigationObjectsJSO
 
 # target to generate assembly for a file
 CommNavigationObjectsJSON/CommPlannerEventResultJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommPlannerEventResultJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommPlannerEventResultJSON.cc.s
 .PHONY : CommNavigationObjectsJSON/CommPlannerEventResultJSON.cc.s
 
 CommNavigationObjectsJSON/CommPlannerGoalJSON.o: CommNavigationObjectsJSON/CommPlannerGoalJSON.cc.o
@@ -1257,7 +1257,7 @@ CommNavigationObjectsJSON/CommPlannerGoalJSON.o: CommNavigationObjectsJSON/CommP
 
 # target to build an object file
 CommNavigationObjectsJSON/CommPlannerGoalJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommPlannerGoalJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommPlannerGoalJSON.cc.o
 .PHONY : CommNavigationObjectsJSON/CommPlannerGoalJSON.cc.o
 
 CommNavigationObjectsJSON/CommPlannerGoalJSON.i: CommNavigationObjectsJSON/CommPlannerGoalJSON.cc.i
@@ -1266,7 +1266,7 @@ CommNavigationObjectsJSON/CommPlannerGoalJSON.i: CommNavigationObjectsJSON/CommP
 
 # target to preprocess a source file
 CommNavigationObjectsJSON/CommPlannerGoalJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommPlannerGoalJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommPlannerGoalJSON.cc.i
 .PHONY : CommNavigationObjectsJSON/CommPlannerGoalJSON.cc.i
 
 CommNavigationObjectsJSON/CommPlannerGoalJSON.s: CommNavigationObjectsJSON/CommPlannerGoalJSON.cc.s
@@ -1275,7 +1275,7 @@ CommNavigationObjectsJSON/CommPlannerGoalJSON.s: CommNavigationObjectsJSON/CommP
 
 # target to generate assembly for a file
 CommNavigationObjectsJSON/CommPlannerGoalJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommPlannerGoalJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommPlannerGoalJSON.cc.s
 .PHONY : CommNavigationObjectsJSON/CommPlannerGoalJSON.cc.s
 
 CommNavigationObjectsJSON/CommPlannerGoalListJSON.o: CommNavigationObjectsJSON/CommPlannerGoalListJSON.cc.o
@@ -1284,7 +1284,7 @@ CommNavigationObjectsJSON/CommPlannerGoalListJSON.o: CommNavigationObjectsJSON/C
 
 # target to build an object file
 CommNavigationObjectsJSON/CommPlannerGoalListJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommPlannerGoalListJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommPlannerGoalListJSON.cc.o
 .PHONY : CommNavigationObjectsJSON/CommPlannerGoalListJSON.cc.o
 
 CommNavigationObjectsJSON/CommPlannerGoalListJSON.i: CommNavigationObjectsJSON/CommPlannerGoalListJSON.cc.i
@@ -1293,7 +1293,7 @@ CommNavigationObjectsJSON/CommPlannerGoalListJSON.i: CommNavigationObjectsJSON/C
 
 # target to preprocess a source file
 CommNavigationObjectsJSON/CommPlannerGoalListJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommPlannerGoalListJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommPlannerGoalListJSON.cc.i
 .PHONY : CommNavigationObjectsJSON/CommPlannerGoalListJSON.cc.i
 
 CommNavigationObjectsJSON/CommPlannerGoalListJSON.s: CommNavigationObjectsJSON/CommPlannerGoalListJSON.cc.s
@@ -1302,7 +1302,7 @@ CommNavigationObjectsJSON/CommPlannerGoalListJSON.s: CommNavigationObjectsJSON/C
 
 # target to generate assembly for a file
 CommNavigationObjectsJSON/CommPlannerGoalListJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommPlannerGoalListJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/CommPlannerGoalListJSON.cc.s
 .PHONY : CommNavigationObjectsJSON/CommPlannerGoalListJSON.cc.s
 
 CommNavigationObjectsJSON/PlannerEventStateJSON.o: CommNavigationObjectsJSON/PlannerEventStateJSON.cc.o
@@ -1311,7 +1311,7 @@ CommNavigationObjectsJSON/PlannerEventStateJSON.o: CommNavigationObjectsJSON/Pla
 
 # target to build an object file
 CommNavigationObjectsJSON/PlannerEventStateJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/PlannerEventStateJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/PlannerEventStateJSON.cc.o
 .PHONY : CommNavigationObjectsJSON/PlannerEventStateJSON.cc.o
 
 CommNavigationObjectsJSON/PlannerEventStateJSON.i: CommNavigationObjectsJSON/PlannerEventStateJSON.cc.i
@@ -1320,7 +1320,7 @@ CommNavigationObjectsJSON/PlannerEventStateJSON.i: CommNavigationObjectsJSON/Pla
 
 # target to preprocess a source file
 CommNavigationObjectsJSON/PlannerEventStateJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/PlannerEventStateJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/PlannerEventStateJSON.cc.i
 .PHONY : CommNavigationObjectsJSON/PlannerEventStateJSON.cc.i
 
 CommNavigationObjectsJSON/PlannerEventStateJSON.s: CommNavigationObjectsJSON/PlannerEventStateJSON.cc.s
@@ -1329,7 +1329,7 @@ CommNavigationObjectsJSON/PlannerEventStateJSON.s: CommNavigationObjectsJSON/Pla
 
 # target to generate assembly for a file
 CommNavigationObjectsJSON/PlannerEventStateJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/PlannerEventStateJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommNavigationObjectsJSON.dir/build.make toolify/CMakeFiles/CommNavigationObjectsJSON.dir/CommNavigationObjectsJSON/PlannerEventStateJSON.cc.s
 .PHONY : CommNavigationObjectsJSON/PlannerEventStateJSON.cc.s
 
 # Help Target
@@ -1485,6 +1485,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,0 +1,5 @@
+{
+	"id" : "ComponentA",
+	"type" : "Component",
+	"dependprojects" : [  "CommBasicObjects" , "SmartInstitutionsServiceRepository"  ]
+}

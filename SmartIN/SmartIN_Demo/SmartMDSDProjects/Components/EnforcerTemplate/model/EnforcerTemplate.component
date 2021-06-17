@@ -1,0 +1,36 @@
+ComponentDefinition EnforcerTemplate logo "/EnforcerTemplate/model/logo.png"
+{
+InputPort Event_Listener implements SmartInstitutionsServiceRepository.SmartIN_Event {
+	}
+	Activity EventManager
+	{
+		InputPortLink Event_Listener { oversamplingOk undersamplingOk }
+	}
+	OutputPort Event_Creator implements SmartInstitutionsServiceRepository.SmartIN_Event realizedBy EventManager {
+	}
+	RequestPort Report_QueryRequester implements SmartInstitutionsServiceRepository.SmartIN_Enforcement_Report_Query {
+	}
+	RequestPort Enforcement_QueryRequester implements SmartInstitutionsServiceRepository.SmartIN_Enforcement_Report_Query {
+	}
+	InputPort EnforcementReply_Push implements SmartInstitutionsServiceRepository.SmartIN_EnforcementReplyPackage_Push {
+	}
+	InputPort EnforcementReport_Push implements SmartInstitutionsServiceRepository.SmartIN_EnforcementReportPackage_Push {
+	}
+	InputPort EnforcementReply_Send implements SmartInstitutionsServiceRepository.SmartIN_EnforcementReplyPackage_Send {
+	}
+	InputPort EnforcementReport_Send implements SmartInstitutionsServiceRepository.SmartIN_EnforcementReportPackage_Send {
+	} 
+	Activity EnforcementManager
+	{ 
+		RequestPortLink Report_QueryRequester
+		RequestPortLink Enforcement_QueryRequester
+		InputPortLink EnforcementReport_Push { oversamplingOk undersamplingOk }
+		InputPortLink EnforcementReply_Push { oversamplingOk undersamplingOk }
+		InputPortLink EnforcementReport_Send { oversamplingOk undersamplingOk }
+		InputPortLink EnforcementReply_Send { oversamplingOk undersamplingOk }
+	}
+	OutputPort EnforcementInstruction_Push implements SmartInstitutionsServiceRepository.SmartIN_EnforcementInstructionPackage_Push realizedBy EnforcementManager {
+	}
+	OutputPort EnforcementInstruction_Send implements SmartInstitutionsServiceRepository.SmartIN_EnforcementInstructionPackage_Send realizedBy EnforcementManager {
+	}
+}

@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft
+CMAKE_SOURCE_DIR = /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build
+CMAKE_BINARY_DIR = /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -185,14 +185,14 @@ toolify/clean: toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/clean
 CMakeFiles/CommLocalizationObjects.dir/all: CMakeFiles/CommLocalizationObjectsHash.dir/all
 	$(MAKE) -f CMakeFiles/CommLocalizationObjects.dir/build.make CMakeFiles/CommLocalizationObjects.dir/depend
 	$(MAKE) -f CMakeFiles/CommLocalizationObjects.dir/build.make CMakeFiles/CommLocalizationObjects.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52 "Built target CommLocalizationObjects"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52 "Built target CommLocalizationObjects"
 .PHONY : CMakeFiles/CommLocalizationObjects.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CommLocalizationObjects.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/CMakeFiles 53
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/CMakeFiles 53
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CommLocalizationObjects.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/CMakeFiles 0
 .PHONY : CMakeFiles/CommLocalizationObjects.dir/rule
 
 # Convenience name for target.
@@ -212,14 +212,14 @@ CMakeFiles/CommLocalizationObjects.dir/clean:
 CMakeFiles/nodep.dir/all: CMakeFiles/CommLocalizationObjectsHash.dir/all
 	$(MAKE) -f CMakeFiles/nodep.dir/build.make CMakeFiles/nodep.dir/depend
 	$(MAKE) -f CMakeFiles/nodep.dir/build.make CMakeFiles/nodep.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/CMakeFiles --progress-num=88 "Built target nodep"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/CMakeFiles --progress-num=88 "Built target nodep"
 .PHONY : CMakeFiles/nodep.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/nodep.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/nodep.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/CMakeFiles 0
 .PHONY : CMakeFiles/nodep.dir/rule
 
 # Convenience name for target.
@@ -239,14 +239,14 @@ CMakeFiles/nodep.dir/clean:
 CMakeFiles/CommLocalizationObjectsHash.dir/all:
 	$(MAKE) -f CMakeFiles/CommLocalizationObjectsHash.dir/build.make CMakeFiles/CommLocalizationObjectsHash.dir/depend
 	$(MAKE) -f CMakeFiles/CommLocalizationObjectsHash.dir/build.make CMakeFiles/CommLocalizationObjectsHash.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/CMakeFiles --progress-num=53 "Built target CommLocalizationObjectsHash"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/CMakeFiles --progress-num=53 "Built target CommLocalizationObjectsHash"
 .PHONY : CMakeFiles/CommLocalizationObjectsHash.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CommLocalizationObjectsHash.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CommLocalizationObjectsHash.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/CMakeFiles 0
 .PHONY : CMakeFiles/CommLocalizationObjectsHash.dir/rule
 
 # Convenience name for target.
@@ -263,21 +263,21 @@ CMakeFiles/CommLocalizationObjectsHash.dir/clean:
 # Target rules for target CMakeFiles/autoinstall.dir
 
 # All Build rule for target.
-CMakeFiles/autoinstall.dir/all: toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/all
 CMakeFiles/autoinstall.dir/all: SLAMAndLocalizationCoordinationService/CMakeFiles/SLAMAndLocalizationCoordinationService.dir/all
+CMakeFiles/autoinstall.dir/all: toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/all
 CMakeFiles/autoinstall.dir/all: SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/all
 CMakeFiles/autoinstall.dir/all: LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/all
 CMakeFiles/autoinstall.dir/all: CMakeFiles/CommLocalizationObjects.dir/all
 	$(MAKE) -f CMakeFiles/autoinstall.dir/build.make CMakeFiles/autoinstall.dir/depend
 	$(MAKE) -f CMakeFiles/autoinstall.dir/build.make CMakeFiles/autoinstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/CMakeFiles --progress-num=87 "Built target autoinstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/CMakeFiles --progress-num=87 "Built target autoinstall"
 .PHONY : CMakeFiles/autoinstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/autoinstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/CMakeFiles 86
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/CMakeFiles 86
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/autoinstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/CMakeFiles 0
 .PHONY : CMakeFiles/autoinstall.dir/rule
 
 # Convenience name for target.
@@ -297,14 +297,14 @@ CMakeFiles/autoinstall.dir/clean:
 CMakeFiles/uninstall.dir/all:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/CMakeFiles --progress-num=89 "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/CMakeFiles --progress-num=89 "Built target uninstall"
 .PHONY : CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/CMakeFiles 0
 .PHONY : CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -324,14 +324,14 @@ CMakeFiles/uninstall.dir/clean:
 CMakeFiles/distclean-all.dir/all: CMakeFiles/CommLocalizationObjects_distclean.dir/all
 	$(MAKE) -f CMakeFiles/distclean-all.dir/build.make CMakeFiles/distclean-all.dir/depend
 	$(MAKE) -f CMakeFiles/distclean-all.dir/build.make CMakeFiles/distclean-all.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/CMakeFiles --progress-num= "Built target distclean-all"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/CMakeFiles --progress-num= "Built target distclean-all"
 .PHONY : CMakeFiles/distclean-all.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/distclean-all.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/distclean-all.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/CMakeFiles 0
 .PHONY : CMakeFiles/distclean-all.dir/rule
 
 # Convenience name for target.
@@ -351,14 +351,14 @@ CMakeFiles/distclean-all.dir/clean:
 CMakeFiles/CommLocalizationObjects_distclean.dir/all:
 	$(MAKE) -f CMakeFiles/CommLocalizationObjects_distclean.dir/build.make CMakeFiles/CommLocalizationObjects_distclean.dir/depend
 	$(MAKE) -f CMakeFiles/CommLocalizationObjects_distclean.dir/build.make CMakeFiles/CommLocalizationObjects_distclean.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/CMakeFiles --progress-num=72 "Built target CommLocalizationObjects_distclean"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/CMakeFiles --progress-num=72 "Built target CommLocalizationObjects_distclean"
 .PHONY : CMakeFiles/CommLocalizationObjects_distclean.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CommLocalizationObjects_distclean.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CommLocalizationObjects_distclean.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/CMakeFiles 0
 .PHONY : CMakeFiles/CommLocalizationObjects_distclean.dir/rule
 
 # Convenience name for target.
@@ -378,14 +378,14 @@ CMakeFiles/CommLocalizationObjects_distclean.dir/clean:
 toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/all: CMakeFiles/CommLocalizationObjects.dir/all
 	$(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/depend
 	$(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/CMakeFiles --progress-num=54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71 "Built target CommLocalizationObjectsJSON"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/CMakeFiles --progress-num=54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71 "Built target CommLocalizationObjectsJSON"
 .PHONY : toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/all
 
 # Build rule for subdir invocation for target.
 toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/CMakeFiles 71
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/CMakeFiles 71
 	$(MAKE) -f CMakeFiles/Makefile2 toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/CMakeFiles 0
 .PHONY : toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/rule
 
 # Convenience name for target.
@@ -405,14 +405,14 @@ toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/clean:
 LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/all: CMakeFiles/CommLocalizationObjects.dir/all
 	$(MAKE) -f LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/build.make LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/depend
 	$(MAKE) -f LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/build.make LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/CMakeFiles --progress-num=73,74,75,76,77,78 "Built target LocalizationCoordinationService"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/CMakeFiles --progress-num=73,74,75,76,77,78 "Built target LocalizationCoordinationService"
 .PHONY : LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/all
 
 # Build rule for subdir invocation for target.
 LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/CMakeFiles 59
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/CMakeFiles 59
 	$(MAKE) -f CMakeFiles/Makefile2 LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/CMakeFiles 0
 .PHONY : LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/rule
 
 # Convenience name for target.
@@ -429,17 +429,17 @@ LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/c
 # Target rules for target SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir
 
 # All Build rule for target.
-SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/all: CMakeFiles/CommLocalizationObjects.dir/all
+SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/all:
 	$(MAKE) -f SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/build.make SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/depend
 	$(MAKE) -f SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/build.make SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/CMakeFiles --progress-num=83,84,85,86 "Built target SLAMCoordinationService"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/CMakeFiles --progress-num=83,84,85,86 "Built target SLAMCoordinationService"
 .PHONY : SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/all
 
 # Build rule for subdir invocation for target.
 SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/CMakeFiles 57
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/CMakeFiles 0
 .PHONY : SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/rule
 
 # Convenience name for target.
@@ -456,17 +456,17 @@ SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/clean:
 # Target rules for target SLAMAndLocalizationCoordinationService/CMakeFiles/SLAMAndLocalizationCoordinationService.dir
 
 # All Build rule for target.
-SLAMAndLocalizationCoordinationService/CMakeFiles/SLAMAndLocalizationCoordinationService.dir/all: CMakeFiles/CommLocalizationObjects.dir/all
+SLAMAndLocalizationCoordinationService/CMakeFiles/SLAMAndLocalizationCoordinationService.dir/all:
 	$(MAKE) -f SLAMAndLocalizationCoordinationService/CMakeFiles/SLAMAndLocalizationCoordinationService.dir/build.make SLAMAndLocalizationCoordinationService/CMakeFiles/SLAMAndLocalizationCoordinationService.dir/depend
 	$(MAKE) -f SLAMAndLocalizationCoordinationService/CMakeFiles/SLAMAndLocalizationCoordinationService.dir/build.make SLAMAndLocalizationCoordinationService/CMakeFiles/SLAMAndLocalizationCoordinationService.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/CMakeFiles --progress-num=79,80,81,82 "Built target SLAMAndLocalizationCoordinationService"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/CMakeFiles --progress-num=79,80,81,82 "Built target SLAMAndLocalizationCoordinationService"
 .PHONY : SLAMAndLocalizationCoordinationService/CMakeFiles/SLAMAndLocalizationCoordinationService.dir/all
 
 # Build rule for subdir invocation for target.
 SLAMAndLocalizationCoordinationService/CMakeFiles/SLAMAndLocalizationCoordinationService.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/CMakeFiles 57
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 SLAMAndLocalizationCoordinationService/CMakeFiles/SLAMAndLocalizationCoordinationService.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/CMakeFiles 0
 .PHONY : SLAMAndLocalizationCoordinationService/CMakeFiles/SLAMAndLocalizationCoordinationService.dir/rule
 
 # Convenience name for target.

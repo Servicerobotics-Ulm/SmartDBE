@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft
+CMAKE_SOURCE_DIR = /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build
+CMAKE_BINARY_DIR = /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/toolify/CMakeFiles/progress.marks
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 toolify/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles 0
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/toolify/CMakeFiles/progress.marks
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 toolify/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 toolify/clean
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 toolify/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 toolify/preinstall
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 toolify/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 toolify/preinstall
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 toolify/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 toolify/CMakeFiles/CommBasicObjectsJSON.dir/rule:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 toolify/CMakeFiles/CommBasicObjectsJSON.dir/rule
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 toolify/CMakeFiles/CommBasicObjectsJSON.dir/rule
 .PHONY : toolify/CMakeFiles/CommBasicObjectsJSON.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ CommBasicObjectsJSON: toolify/CMakeFiles/CommBasicObjectsJSON.dir/rule
 
 # fast build rule for target.
 CommBasicObjectsJSON/fast:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/build
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/build
 .PHONY : CommBasicObjectsJSON/fast
 
 CommBasicObjectsJSON/CommAnalogOutputRequestJSON.o: CommBasicObjectsJSON/CommAnalogOutputRequestJSON.cc.o
@@ -177,7 +177,7 @@ CommBasicObjectsJSON/CommAnalogOutputRequestJSON.o: CommBasicObjectsJSON/CommAna
 
 # target to build an object file
 CommBasicObjectsJSON/CommAnalogOutputRequestJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommAnalogOutputRequestJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommAnalogOutputRequestJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommAnalogOutputRequestJSON.cc.o
 
 CommBasicObjectsJSON/CommAnalogOutputRequestJSON.i: CommBasicObjectsJSON/CommAnalogOutputRequestJSON.cc.i
@@ -186,7 +186,7 @@ CommBasicObjectsJSON/CommAnalogOutputRequestJSON.i: CommBasicObjectsJSON/CommAna
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommAnalogOutputRequestJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommAnalogOutputRequestJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommAnalogOutputRequestJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommAnalogOutputRequestJSON.cc.i
 
 CommBasicObjectsJSON/CommAnalogOutputRequestJSON.s: CommBasicObjectsJSON/CommAnalogOutputRequestJSON.cc.s
@@ -195,7 +195,7 @@ CommBasicObjectsJSON/CommAnalogOutputRequestJSON.s: CommBasicObjectsJSON/CommAna
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommAnalogOutputRequestJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommAnalogOutputRequestJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommAnalogOutputRequestJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommAnalogOutputRequestJSON.cc.s
 
 CommBasicObjectsJSON/CommBasePoseJSON.o: CommBasicObjectsJSON/CommBasePoseJSON.cc.o
@@ -204,7 +204,7 @@ CommBasicObjectsJSON/CommBasePoseJSON.o: CommBasicObjectsJSON/CommBasePoseJSON.c
 
 # target to build an object file
 CommBasicObjectsJSON/CommBasePoseJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBasePoseJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBasePoseJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommBasePoseJSON.cc.o
 
 CommBasicObjectsJSON/CommBasePoseJSON.i: CommBasicObjectsJSON/CommBasePoseJSON.cc.i
@@ -213,7 +213,7 @@ CommBasicObjectsJSON/CommBasePoseJSON.i: CommBasicObjectsJSON/CommBasePoseJSON.c
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommBasePoseJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBasePoseJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBasePoseJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommBasePoseJSON.cc.i
 
 CommBasicObjectsJSON/CommBasePoseJSON.s: CommBasicObjectsJSON/CommBasePoseJSON.cc.s
@@ -222,7 +222,7 @@ CommBasicObjectsJSON/CommBasePoseJSON.s: CommBasicObjectsJSON/CommBasePoseJSON.c
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommBasePoseJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBasePoseJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBasePoseJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommBasePoseJSON.cc.s
 
 CommBasicObjectsJSON/CommBasePositionUpdateJSON.o: CommBasicObjectsJSON/CommBasePositionUpdateJSON.cc.o
@@ -231,7 +231,7 @@ CommBasicObjectsJSON/CommBasePositionUpdateJSON.o: CommBasicObjectsJSON/CommBase
 
 # target to build an object file
 CommBasicObjectsJSON/CommBasePositionUpdateJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBasePositionUpdateJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBasePositionUpdateJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommBasePositionUpdateJSON.cc.o
 
 CommBasicObjectsJSON/CommBasePositionUpdateJSON.i: CommBasicObjectsJSON/CommBasePositionUpdateJSON.cc.i
@@ -240,7 +240,7 @@ CommBasicObjectsJSON/CommBasePositionUpdateJSON.i: CommBasicObjectsJSON/CommBase
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommBasePositionUpdateJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBasePositionUpdateJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBasePositionUpdateJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommBasePositionUpdateJSON.cc.i
 
 CommBasicObjectsJSON/CommBasePositionUpdateJSON.s: CommBasicObjectsJSON/CommBasePositionUpdateJSON.cc.s
@@ -249,7 +249,7 @@ CommBasicObjectsJSON/CommBasePositionUpdateJSON.s: CommBasicObjectsJSON/CommBase
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommBasePositionUpdateJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBasePositionUpdateJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBasePositionUpdateJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommBasePositionUpdateJSON.cc.s
 
 CommBasicObjectsJSON/CommBaseStateJSON.o: CommBasicObjectsJSON/CommBaseStateJSON.cc.o
@@ -258,7 +258,7 @@ CommBasicObjectsJSON/CommBaseStateJSON.o: CommBasicObjectsJSON/CommBaseStateJSON
 
 # target to build an object file
 CommBasicObjectsJSON/CommBaseStateJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBaseStateJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBaseStateJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommBaseStateJSON.cc.o
 
 CommBasicObjectsJSON/CommBaseStateJSON.i: CommBasicObjectsJSON/CommBaseStateJSON.cc.i
@@ -267,7 +267,7 @@ CommBasicObjectsJSON/CommBaseStateJSON.i: CommBasicObjectsJSON/CommBaseStateJSON
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommBaseStateJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBaseStateJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBaseStateJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommBaseStateJSON.cc.i
 
 CommBasicObjectsJSON/CommBaseStateJSON.s: CommBasicObjectsJSON/CommBaseStateJSON.cc.s
@@ -276,7 +276,7 @@ CommBasicObjectsJSON/CommBaseStateJSON.s: CommBasicObjectsJSON/CommBaseStateJSON
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommBaseStateJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBaseStateJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBaseStateJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommBaseStateJSON.cc.s
 
 CommBasicObjectsJSON/CommBaseVelocityJSON.o: CommBasicObjectsJSON/CommBaseVelocityJSON.cc.o
@@ -285,7 +285,7 @@ CommBasicObjectsJSON/CommBaseVelocityJSON.o: CommBasicObjectsJSON/CommBaseVeloci
 
 # target to build an object file
 CommBasicObjectsJSON/CommBaseVelocityJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBaseVelocityJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBaseVelocityJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommBaseVelocityJSON.cc.o
 
 CommBasicObjectsJSON/CommBaseVelocityJSON.i: CommBasicObjectsJSON/CommBaseVelocityJSON.cc.i
@@ -294,7 +294,7 @@ CommBasicObjectsJSON/CommBaseVelocityJSON.i: CommBasicObjectsJSON/CommBaseVeloci
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommBaseVelocityJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBaseVelocityJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBaseVelocityJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommBaseVelocityJSON.cc.i
 
 CommBasicObjectsJSON/CommBaseVelocityJSON.s: CommBasicObjectsJSON/CommBaseVelocityJSON.cc.s
@@ -303,7 +303,7 @@ CommBasicObjectsJSON/CommBaseVelocityJSON.s: CommBasicObjectsJSON/CommBaseVeloci
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommBaseVelocityJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBaseVelocityJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBaseVelocityJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommBaseVelocityJSON.cc.s
 
 CommBasicObjectsJSON/CommBatteryEventJSON.o: CommBasicObjectsJSON/CommBatteryEventJSON.cc.o
@@ -312,7 +312,7 @@ CommBasicObjectsJSON/CommBatteryEventJSON.o: CommBasicObjectsJSON/CommBatteryEve
 
 # target to build an object file
 CommBasicObjectsJSON/CommBatteryEventJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBatteryEventJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBatteryEventJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommBatteryEventJSON.cc.o
 
 CommBasicObjectsJSON/CommBatteryEventJSON.i: CommBasicObjectsJSON/CommBatteryEventJSON.cc.i
@@ -321,7 +321,7 @@ CommBasicObjectsJSON/CommBatteryEventJSON.i: CommBasicObjectsJSON/CommBatteryEve
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommBatteryEventJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBatteryEventJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBatteryEventJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommBatteryEventJSON.cc.i
 
 CommBasicObjectsJSON/CommBatteryEventJSON.s: CommBasicObjectsJSON/CommBatteryEventJSON.cc.s
@@ -330,7 +330,7 @@ CommBasicObjectsJSON/CommBatteryEventJSON.s: CommBasicObjectsJSON/CommBatteryEve
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommBatteryEventJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBatteryEventJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBatteryEventJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommBatteryEventJSON.cc.s
 
 CommBasicObjectsJSON/CommBatteryLevelJSON.o: CommBasicObjectsJSON/CommBatteryLevelJSON.cc.o
@@ -339,7 +339,7 @@ CommBasicObjectsJSON/CommBatteryLevelJSON.o: CommBasicObjectsJSON/CommBatteryLev
 
 # target to build an object file
 CommBasicObjectsJSON/CommBatteryLevelJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBatteryLevelJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBatteryLevelJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommBatteryLevelJSON.cc.o
 
 CommBasicObjectsJSON/CommBatteryLevelJSON.i: CommBasicObjectsJSON/CommBatteryLevelJSON.cc.i
@@ -348,7 +348,7 @@ CommBasicObjectsJSON/CommBatteryLevelJSON.i: CommBasicObjectsJSON/CommBatteryLev
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommBatteryLevelJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBatteryLevelJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBatteryLevelJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommBatteryLevelJSON.cc.i
 
 CommBasicObjectsJSON/CommBatteryLevelJSON.s: CommBasicObjectsJSON/CommBatteryLevelJSON.cc.s
@@ -357,7 +357,7 @@ CommBasicObjectsJSON/CommBatteryLevelJSON.s: CommBasicObjectsJSON/CommBatteryLev
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommBatteryLevelJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBatteryLevelJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBatteryLevelJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommBatteryLevelJSON.cc.s
 
 CommBasicObjectsJSON/CommBatteryParameterJSON.o: CommBasicObjectsJSON/CommBatteryParameterJSON.cc.o
@@ -366,7 +366,7 @@ CommBasicObjectsJSON/CommBatteryParameterJSON.o: CommBasicObjectsJSON/CommBatter
 
 # target to build an object file
 CommBasicObjectsJSON/CommBatteryParameterJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBatteryParameterJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBatteryParameterJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommBatteryParameterJSON.cc.o
 
 CommBasicObjectsJSON/CommBatteryParameterJSON.i: CommBasicObjectsJSON/CommBatteryParameterJSON.cc.i
@@ -375,7 +375,7 @@ CommBasicObjectsJSON/CommBatteryParameterJSON.i: CommBasicObjectsJSON/CommBatter
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommBatteryParameterJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBatteryParameterJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBatteryParameterJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommBatteryParameterJSON.cc.i
 
 CommBasicObjectsJSON/CommBatteryParameterJSON.s: CommBasicObjectsJSON/CommBatteryParameterJSON.cc.s
@@ -384,7 +384,7 @@ CommBasicObjectsJSON/CommBatteryParameterJSON.s: CommBasicObjectsJSON/CommBatter
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommBatteryParameterJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBatteryParameterJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBatteryParameterJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommBatteryParameterJSON.cc.s
 
 CommBasicObjectsJSON/CommBatteryStateJSON.o: CommBasicObjectsJSON/CommBatteryStateJSON.cc.o
@@ -393,7 +393,7 @@ CommBasicObjectsJSON/CommBatteryStateJSON.o: CommBasicObjectsJSON/CommBatterySta
 
 # target to build an object file
 CommBasicObjectsJSON/CommBatteryStateJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBatteryStateJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBatteryStateJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommBatteryStateJSON.cc.o
 
 CommBasicObjectsJSON/CommBatteryStateJSON.i: CommBasicObjectsJSON/CommBatteryStateJSON.cc.i
@@ -402,7 +402,7 @@ CommBasicObjectsJSON/CommBatteryStateJSON.i: CommBasicObjectsJSON/CommBatterySta
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommBatteryStateJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBatteryStateJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBatteryStateJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommBatteryStateJSON.cc.i
 
 CommBasicObjectsJSON/CommBatteryStateJSON.s: CommBasicObjectsJSON/CommBatteryStateJSON.cc.s
@@ -411,7 +411,7 @@ CommBasicObjectsJSON/CommBatteryStateJSON.s: CommBasicObjectsJSON/CommBatterySta
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommBatteryStateJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBatteryStateJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBatteryStateJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommBatteryStateJSON.cc.s
 
 CommBasicObjectsJSON/CommBoolJSON.o: CommBasicObjectsJSON/CommBoolJSON.cc.o
@@ -420,7 +420,7 @@ CommBasicObjectsJSON/CommBoolJSON.o: CommBasicObjectsJSON/CommBoolJSON.cc.o
 
 # target to build an object file
 CommBasicObjectsJSON/CommBoolJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBoolJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBoolJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommBoolJSON.cc.o
 
 CommBasicObjectsJSON/CommBoolJSON.i: CommBasicObjectsJSON/CommBoolJSON.cc.i
@@ -429,7 +429,7 @@ CommBasicObjectsJSON/CommBoolJSON.i: CommBasicObjectsJSON/CommBoolJSON.cc.i
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommBoolJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBoolJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBoolJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommBoolJSON.cc.i
 
 CommBasicObjectsJSON/CommBoolJSON.s: CommBasicObjectsJSON/CommBoolJSON.cc.s
@@ -438,7 +438,7 @@ CommBasicObjectsJSON/CommBoolJSON.s: CommBasicObjectsJSON/CommBoolJSON.cc.s
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommBoolJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBoolJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBoolJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommBoolJSON.cc.s
 
 CommBasicObjectsJSON/CommBumperEventParameterJSON.o: CommBasicObjectsJSON/CommBumperEventParameterJSON.cc.o
@@ -447,7 +447,7 @@ CommBasicObjectsJSON/CommBumperEventParameterJSON.o: CommBasicObjectsJSON/CommBu
 
 # target to build an object file
 CommBasicObjectsJSON/CommBumperEventParameterJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBumperEventParameterJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBumperEventParameterJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommBumperEventParameterJSON.cc.o
 
 CommBasicObjectsJSON/CommBumperEventParameterJSON.i: CommBasicObjectsJSON/CommBumperEventParameterJSON.cc.i
@@ -456,7 +456,7 @@ CommBasicObjectsJSON/CommBumperEventParameterJSON.i: CommBasicObjectsJSON/CommBu
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommBumperEventParameterJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBumperEventParameterJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBumperEventParameterJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommBumperEventParameterJSON.cc.i
 
 CommBasicObjectsJSON/CommBumperEventParameterJSON.s: CommBasicObjectsJSON/CommBumperEventParameterJSON.cc.s
@@ -465,7 +465,7 @@ CommBasicObjectsJSON/CommBumperEventParameterJSON.s: CommBasicObjectsJSON/CommBu
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommBumperEventParameterJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBumperEventParameterJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBumperEventParameterJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommBumperEventParameterJSON.cc.s
 
 CommBasicObjectsJSON/CommBumperEventResultJSON.o: CommBasicObjectsJSON/CommBumperEventResultJSON.cc.o
@@ -474,7 +474,7 @@ CommBasicObjectsJSON/CommBumperEventResultJSON.o: CommBasicObjectsJSON/CommBumpe
 
 # target to build an object file
 CommBasicObjectsJSON/CommBumperEventResultJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBumperEventResultJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBumperEventResultJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommBumperEventResultJSON.cc.o
 
 CommBasicObjectsJSON/CommBumperEventResultJSON.i: CommBasicObjectsJSON/CommBumperEventResultJSON.cc.i
@@ -483,7 +483,7 @@ CommBasicObjectsJSON/CommBumperEventResultJSON.i: CommBasicObjectsJSON/CommBumpe
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommBumperEventResultJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBumperEventResultJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBumperEventResultJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommBumperEventResultJSON.cc.i
 
 CommBasicObjectsJSON/CommBumperEventResultJSON.s: CommBasicObjectsJSON/CommBumperEventResultJSON.cc.s
@@ -492,7 +492,7 @@ CommBasicObjectsJSON/CommBumperEventResultJSON.s: CommBasicObjectsJSON/CommBumpe
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommBumperEventResultJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBumperEventResultJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBumperEventResultJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommBumperEventResultJSON.cc.s
 
 CommBasicObjectsJSON/CommBumperEventStateJSON.o: CommBasicObjectsJSON/CommBumperEventStateJSON.cc.o
@@ -501,7 +501,7 @@ CommBasicObjectsJSON/CommBumperEventStateJSON.o: CommBasicObjectsJSON/CommBumper
 
 # target to build an object file
 CommBasicObjectsJSON/CommBumperEventStateJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBumperEventStateJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBumperEventStateJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommBumperEventStateJSON.cc.o
 
 CommBasicObjectsJSON/CommBumperEventStateJSON.i: CommBasicObjectsJSON/CommBumperEventStateJSON.cc.i
@@ -510,7 +510,7 @@ CommBasicObjectsJSON/CommBumperEventStateJSON.i: CommBasicObjectsJSON/CommBumper
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommBumperEventStateJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBumperEventStateJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBumperEventStateJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommBumperEventStateJSON.cc.i
 
 CommBasicObjectsJSON/CommBumperEventStateJSON.s: CommBasicObjectsJSON/CommBumperEventStateJSON.cc.s
@@ -519,7 +519,7 @@ CommBasicObjectsJSON/CommBumperEventStateJSON.s: CommBasicObjectsJSON/CommBumper
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommBumperEventStateJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBumperEventStateJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBumperEventStateJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommBumperEventStateJSON.cc.s
 
 CommBasicObjectsJSON/CommBumperStateJSON.o: CommBasicObjectsJSON/CommBumperStateJSON.cc.o
@@ -528,7 +528,7 @@ CommBasicObjectsJSON/CommBumperStateJSON.o: CommBasicObjectsJSON/CommBumperState
 
 # target to build an object file
 CommBasicObjectsJSON/CommBumperStateJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBumperStateJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBumperStateJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommBumperStateJSON.cc.o
 
 CommBasicObjectsJSON/CommBumperStateJSON.i: CommBasicObjectsJSON/CommBumperStateJSON.cc.i
@@ -537,7 +537,7 @@ CommBasicObjectsJSON/CommBumperStateJSON.i: CommBasicObjectsJSON/CommBumperState
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommBumperStateJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBumperStateJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBumperStateJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommBumperStateJSON.cc.i
 
 CommBasicObjectsJSON/CommBumperStateJSON.s: CommBasicObjectsJSON/CommBumperStateJSON.cc.s
@@ -546,7 +546,7 @@ CommBasicObjectsJSON/CommBumperStateJSON.s: CommBasicObjectsJSON/CommBumperState
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommBumperStateJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBumperStateJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommBumperStateJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommBumperStateJSON.cc.s
 
 CommBasicObjectsJSON/CommDataFileJSON.o: CommBasicObjectsJSON/CommDataFileJSON.cc.o
@@ -555,7 +555,7 @@ CommBasicObjectsJSON/CommDataFileJSON.o: CommBasicObjectsJSON/CommDataFileJSON.c
 
 # target to build an object file
 CommBasicObjectsJSON/CommDataFileJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommDataFileJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommDataFileJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommDataFileJSON.cc.o
 
 CommBasicObjectsJSON/CommDataFileJSON.i: CommBasicObjectsJSON/CommDataFileJSON.cc.i
@@ -564,7 +564,7 @@ CommBasicObjectsJSON/CommDataFileJSON.i: CommBasicObjectsJSON/CommDataFileJSON.c
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommDataFileJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommDataFileJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommDataFileJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommDataFileJSON.cc.i
 
 CommBasicObjectsJSON/CommDataFileJSON.s: CommBasicObjectsJSON/CommDataFileJSON.cc.s
@@ -573,7 +573,7 @@ CommBasicObjectsJSON/CommDataFileJSON.s: CommBasicObjectsJSON/CommDataFileJSON.c
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommDataFileJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommDataFileJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommDataFileJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommDataFileJSON.cc.s
 
 CommBasicObjectsJSON/CommDataFilesJSON.o: CommBasicObjectsJSON/CommDataFilesJSON.cc.o
@@ -582,7 +582,7 @@ CommBasicObjectsJSON/CommDataFilesJSON.o: CommBasicObjectsJSON/CommDataFilesJSON
 
 # target to build an object file
 CommBasicObjectsJSON/CommDataFilesJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommDataFilesJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommDataFilesJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommDataFilesJSON.cc.o
 
 CommBasicObjectsJSON/CommDataFilesJSON.i: CommBasicObjectsJSON/CommDataFilesJSON.cc.i
@@ -591,7 +591,7 @@ CommBasicObjectsJSON/CommDataFilesJSON.i: CommBasicObjectsJSON/CommDataFilesJSON
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommDataFilesJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommDataFilesJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommDataFilesJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommDataFilesJSON.cc.i
 
 CommBasicObjectsJSON/CommDataFilesJSON.s: CommBasicObjectsJSON/CommDataFilesJSON.cc.s
@@ -600,7 +600,7 @@ CommBasicObjectsJSON/CommDataFilesJSON.s: CommBasicObjectsJSON/CommDataFilesJSON
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommDataFilesJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommDataFilesJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommDataFilesJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommDataFilesJSON.cc.s
 
 CommBasicObjectsJSON/CommDevicePoseStateJSON.o: CommBasicObjectsJSON/CommDevicePoseStateJSON.cc.o
@@ -609,7 +609,7 @@ CommBasicObjectsJSON/CommDevicePoseStateJSON.o: CommBasicObjectsJSON/CommDeviceP
 
 # target to build an object file
 CommBasicObjectsJSON/CommDevicePoseStateJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommDevicePoseStateJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommDevicePoseStateJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommDevicePoseStateJSON.cc.o
 
 CommBasicObjectsJSON/CommDevicePoseStateJSON.i: CommBasicObjectsJSON/CommDevicePoseStateJSON.cc.i
@@ -618,7 +618,7 @@ CommBasicObjectsJSON/CommDevicePoseStateJSON.i: CommBasicObjectsJSON/CommDeviceP
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommDevicePoseStateJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommDevicePoseStateJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommDevicePoseStateJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommDevicePoseStateJSON.cc.i
 
 CommBasicObjectsJSON/CommDevicePoseStateJSON.s: CommBasicObjectsJSON/CommDevicePoseStateJSON.cc.s
@@ -627,7 +627,7 @@ CommBasicObjectsJSON/CommDevicePoseStateJSON.s: CommBasicObjectsJSON/CommDeviceP
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommDevicePoseStateJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommDevicePoseStateJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommDevicePoseStateJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommDevicePoseStateJSON.cc.s
 
 CommBasicObjectsJSON/CommDigitalInputEventParameterJSON.o: CommBasicObjectsJSON/CommDigitalInputEventParameterJSON.cc.o
@@ -636,7 +636,7 @@ CommBasicObjectsJSON/CommDigitalInputEventParameterJSON.o: CommBasicObjectsJSON/
 
 # target to build an object file
 CommBasicObjectsJSON/CommDigitalInputEventParameterJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommDigitalInputEventParameterJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommDigitalInputEventParameterJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommDigitalInputEventParameterJSON.cc.o
 
 CommBasicObjectsJSON/CommDigitalInputEventParameterJSON.i: CommBasicObjectsJSON/CommDigitalInputEventParameterJSON.cc.i
@@ -645,7 +645,7 @@ CommBasicObjectsJSON/CommDigitalInputEventParameterJSON.i: CommBasicObjectsJSON/
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommDigitalInputEventParameterJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommDigitalInputEventParameterJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommDigitalInputEventParameterJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommDigitalInputEventParameterJSON.cc.i
 
 CommBasicObjectsJSON/CommDigitalInputEventParameterJSON.s: CommBasicObjectsJSON/CommDigitalInputEventParameterJSON.cc.s
@@ -654,7 +654,7 @@ CommBasicObjectsJSON/CommDigitalInputEventParameterJSON.s: CommBasicObjectsJSON/
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommDigitalInputEventParameterJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommDigitalInputEventParameterJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommDigitalInputEventParameterJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommDigitalInputEventParameterJSON.cc.s
 
 CommBasicObjectsJSON/CommDigitalInputEventResultJSON.o: CommBasicObjectsJSON/CommDigitalInputEventResultJSON.cc.o
@@ -663,7 +663,7 @@ CommBasicObjectsJSON/CommDigitalInputEventResultJSON.o: CommBasicObjectsJSON/Com
 
 # target to build an object file
 CommBasicObjectsJSON/CommDigitalInputEventResultJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommDigitalInputEventResultJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommDigitalInputEventResultJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommDigitalInputEventResultJSON.cc.o
 
 CommBasicObjectsJSON/CommDigitalInputEventResultJSON.i: CommBasicObjectsJSON/CommDigitalInputEventResultJSON.cc.i
@@ -672,7 +672,7 @@ CommBasicObjectsJSON/CommDigitalInputEventResultJSON.i: CommBasicObjectsJSON/Com
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommDigitalInputEventResultJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommDigitalInputEventResultJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommDigitalInputEventResultJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommDigitalInputEventResultJSON.cc.i
 
 CommBasicObjectsJSON/CommDigitalInputEventResultJSON.s: CommBasicObjectsJSON/CommDigitalInputEventResultJSON.cc.s
@@ -681,7 +681,7 @@ CommBasicObjectsJSON/CommDigitalInputEventResultJSON.s: CommBasicObjectsJSON/Com
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommDigitalInputEventResultJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommDigitalInputEventResultJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommDigitalInputEventResultJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommDigitalInputEventResultJSON.cc.s
 
 CommBasicObjectsJSON/CommDigitalInputEventStateJSON.o: CommBasicObjectsJSON/CommDigitalInputEventStateJSON.cc.o
@@ -690,7 +690,7 @@ CommBasicObjectsJSON/CommDigitalInputEventStateJSON.o: CommBasicObjectsJSON/Comm
 
 # target to build an object file
 CommBasicObjectsJSON/CommDigitalInputEventStateJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommDigitalInputEventStateJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommDigitalInputEventStateJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommDigitalInputEventStateJSON.cc.o
 
 CommBasicObjectsJSON/CommDigitalInputEventStateJSON.i: CommBasicObjectsJSON/CommDigitalInputEventStateJSON.cc.i
@@ -699,7 +699,7 @@ CommBasicObjectsJSON/CommDigitalInputEventStateJSON.i: CommBasicObjectsJSON/Comm
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommDigitalInputEventStateJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommDigitalInputEventStateJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommDigitalInputEventStateJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommDigitalInputEventStateJSON.cc.i
 
 CommBasicObjectsJSON/CommDigitalInputEventStateJSON.s: CommBasicObjectsJSON/CommDigitalInputEventStateJSON.cc.s
@@ -708,7 +708,7 @@ CommBasicObjectsJSON/CommDigitalInputEventStateJSON.s: CommBasicObjectsJSON/Comm
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommDigitalInputEventStateJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommDigitalInputEventStateJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommDigitalInputEventStateJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommDigitalInputEventStateJSON.cc.s
 
 CommBasicObjectsJSON/CommDigitalOutputRequestJSON.o: CommBasicObjectsJSON/CommDigitalOutputRequestJSON.cc.o
@@ -717,7 +717,7 @@ CommBasicObjectsJSON/CommDigitalOutputRequestJSON.o: CommBasicObjectsJSON/CommDi
 
 # target to build an object file
 CommBasicObjectsJSON/CommDigitalOutputRequestJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommDigitalOutputRequestJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommDigitalOutputRequestJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommDigitalOutputRequestJSON.cc.o
 
 CommBasicObjectsJSON/CommDigitalOutputRequestJSON.i: CommBasicObjectsJSON/CommDigitalOutputRequestJSON.cc.i
@@ -726,7 +726,7 @@ CommBasicObjectsJSON/CommDigitalOutputRequestJSON.i: CommBasicObjectsJSON/CommDi
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommDigitalOutputRequestJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommDigitalOutputRequestJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommDigitalOutputRequestJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommDigitalOutputRequestJSON.cc.i
 
 CommBasicObjectsJSON/CommDigitalOutputRequestJSON.s: CommBasicObjectsJSON/CommDigitalOutputRequestJSON.cc.s
@@ -735,7 +735,7 @@ CommBasicObjectsJSON/CommDigitalOutputRequestJSON.s: CommBasicObjectsJSON/CommDi
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommDigitalOutputRequestJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommDigitalOutputRequestJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommDigitalOutputRequestJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommDigitalOutputRequestJSON.cc.s
 
 CommBasicObjectsJSON/CommDirection3dJSON.o: CommBasicObjectsJSON/CommDirection3dJSON.cc.o
@@ -744,7 +744,7 @@ CommBasicObjectsJSON/CommDirection3dJSON.o: CommBasicObjectsJSON/CommDirection3d
 
 # target to build an object file
 CommBasicObjectsJSON/CommDirection3dJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommDirection3dJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommDirection3dJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommDirection3dJSON.cc.o
 
 CommBasicObjectsJSON/CommDirection3dJSON.i: CommBasicObjectsJSON/CommDirection3dJSON.cc.i
@@ -753,7 +753,7 @@ CommBasicObjectsJSON/CommDirection3dJSON.i: CommBasicObjectsJSON/CommDirection3d
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommDirection3dJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommDirection3dJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommDirection3dJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommDirection3dJSON.cc.i
 
 CommBasicObjectsJSON/CommDirection3dJSON.s: CommBasicObjectsJSON/CommDirection3dJSON.cc.s
@@ -762,7 +762,7 @@ CommBasicObjectsJSON/CommDirection3dJSON.s: CommBasicObjectsJSON/CommDirection3d
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommDirection3dJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommDirection3dJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommDirection3dJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommDirection3dJSON.cc.s
 
 CommBasicObjectsJSON/CommFileMetaDataJSON.o: CommBasicObjectsJSON/CommFileMetaDataJSON.cc.o
@@ -771,7 +771,7 @@ CommBasicObjectsJSON/CommFileMetaDataJSON.o: CommBasicObjectsJSON/CommFileMetaDa
 
 # target to build an object file
 CommBasicObjectsJSON/CommFileMetaDataJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommFileMetaDataJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommFileMetaDataJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommFileMetaDataJSON.cc.o
 
 CommBasicObjectsJSON/CommFileMetaDataJSON.i: CommBasicObjectsJSON/CommFileMetaDataJSON.cc.i
@@ -780,7 +780,7 @@ CommBasicObjectsJSON/CommFileMetaDataJSON.i: CommBasicObjectsJSON/CommFileMetaDa
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommFileMetaDataJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommFileMetaDataJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommFileMetaDataJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommFileMetaDataJSON.cc.i
 
 CommBasicObjectsJSON/CommFileMetaDataJSON.s: CommBasicObjectsJSON/CommFileMetaDataJSON.cc.s
@@ -789,7 +789,7 @@ CommBasicObjectsJSON/CommFileMetaDataJSON.s: CommBasicObjectsJSON/CommFileMetaDa
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommFileMetaDataJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommFileMetaDataJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommFileMetaDataJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommFileMetaDataJSON.cc.s
 
 CommBasicObjectsJSON/CommFileMoverEventParameterJSON.o: CommBasicObjectsJSON/CommFileMoverEventParameterJSON.cc.o
@@ -798,7 +798,7 @@ CommBasicObjectsJSON/CommFileMoverEventParameterJSON.o: CommBasicObjectsJSON/Com
 
 # target to build an object file
 CommBasicObjectsJSON/CommFileMoverEventParameterJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommFileMoverEventParameterJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommFileMoverEventParameterJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommFileMoverEventParameterJSON.cc.o
 
 CommBasicObjectsJSON/CommFileMoverEventParameterJSON.i: CommBasicObjectsJSON/CommFileMoverEventParameterJSON.cc.i
@@ -807,7 +807,7 @@ CommBasicObjectsJSON/CommFileMoverEventParameterJSON.i: CommBasicObjectsJSON/Com
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommFileMoverEventParameterJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommFileMoverEventParameterJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommFileMoverEventParameterJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommFileMoverEventParameterJSON.cc.i
 
 CommBasicObjectsJSON/CommFileMoverEventParameterJSON.s: CommBasicObjectsJSON/CommFileMoverEventParameterJSON.cc.s
@@ -816,7 +816,7 @@ CommBasicObjectsJSON/CommFileMoverEventParameterJSON.s: CommBasicObjectsJSON/Com
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommFileMoverEventParameterJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommFileMoverEventParameterJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommFileMoverEventParameterJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommFileMoverEventParameterJSON.cc.s
 
 CommBasicObjectsJSON/CommFileMoverEventResultJSON.o: CommBasicObjectsJSON/CommFileMoverEventResultJSON.cc.o
@@ -825,7 +825,7 @@ CommBasicObjectsJSON/CommFileMoverEventResultJSON.o: CommBasicObjectsJSON/CommFi
 
 # target to build an object file
 CommBasicObjectsJSON/CommFileMoverEventResultJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommFileMoverEventResultJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommFileMoverEventResultJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommFileMoverEventResultJSON.cc.o
 
 CommBasicObjectsJSON/CommFileMoverEventResultJSON.i: CommBasicObjectsJSON/CommFileMoverEventResultJSON.cc.i
@@ -834,7 +834,7 @@ CommBasicObjectsJSON/CommFileMoverEventResultJSON.i: CommBasicObjectsJSON/CommFi
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommFileMoverEventResultJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommFileMoverEventResultJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommFileMoverEventResultJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommFileMoverEventResultJSON.cc.i
 
 CommBasicObjectsJSON/CommFileMoverEventResultJSON.s: CommBasicObjectsJSON/CommFileMoverEventResultJSON.cc.s
@@ -843,7 +843,7 @@ CommBasicObjectsJSON/CommFileMoverEventResultJSON.s: CommBasicObjectsJSON/CommFi
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommFileMoverEventResultJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommFileMoverEventResultJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommFileMoverEventResultJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommFileMoverEventResultJSON.cc.s
 
 CommBasicObjectsJSON/CommFileMoverEventStateJSON.o: CommBasicObjectsJSON/CommFileMoverEventStateJSON.cc.o
@@ -852,7 +852,7 @@ CommBasicObjectsJSON/CommFileMoverEventStateJSON.o: CommBasicObjectsJSON/CommFil
 
 # target to build an object file
 CommBasicObjectsJSON/CommFileMoverEventStateJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommFileMoverEventStateJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommFileMoverEventStateJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommFileMoverEventStateJSON.cc.o
 
 CommBasicObjectsJSON/CommFileMoverEventStateJSON.i: CommBasicObjectsJSON/CommFileMoverEventStateJSON.cc.i
@@ -861,7 +861,7 @@ CommBasicObjectsJSON/CommFileMoverEventStateJSON.i: CommBasicObjectsJSON/CommFil
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommFileMoverEventStateJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommFileMoverEventStateJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommFileMoverEventStateJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommFileMoverEventStateJSON.cc.i
 
 CommBasicObjectsJSON/CommFileMoverEventStateJSON.s: CommBasicObjectsJSON/CommFileMoverEventStateJSON.cc.s
@@ -870,7 +870,7 @@ CommBasicObjectsJSON/CommFileMoverEventStateJSON.s: CommBasicObjectsJSON/CommFil
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommFileMoverEventStateJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommFileMoverEventStateJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommFileMoverEventStateJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommFileMoverEventStateJSON.cc.s
 
 CommBasicObjectsJSON/CommFileReadAnswerJSON.o: CommBasicObjectsJSON/CommFileReadAnswerJSON.cc.o
@@ -879,7 +879,7 @@ CommBasicObjectsJSON/CommFileReadAnswerJSON.o: CommBasicObjectsJSON/CommFileRead
 
 # target to build an object file
 CommBasicObjectsJSON/CommFileReadAnswerJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommFileReadAnswerJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommFileReadAnswerJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommFileReadAnswerJSON.cc.o
 
 CommBasicObjectsJSON/CommFileReadAnswerJSON.i: CommBasicObjectsJSON/CommFileReadAnswerJSON.cc.i
@@ -888,7 +888,7 @@ CommBasicObjectsJSON/CommFileReadAnswerJSON.i: CommBasicObjectsJSON/CommFileRead
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommFileReadAnswerJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommFileReadAnswerJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommFileReadAnswerJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommFileReadAnswerJSON.cc.i
 
 CommBasicObjectsJSON/CommFileReadAnswerJSON.s: CommBasicObjectsJSON/CommFileReadAnswerJSON.cc.s
@@ -897,7 +897,7 @@ CommBasicObjectsJSON/CommFileReadAnswerJSON.s: CommBasicObjectsJSON/CommFileRead
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommFileReadAnswerJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommFileReadAnswerJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommFileReadAnswerJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommFileReadAnswerJSON.cc.s
 
 CommBasicObjectsJSON/CommFileReadRequestJSON.o: CommBasicObjectsJSON/CommFileReadRequestJSON.cc.o
@@ -906,7 +906,7 @@ CommBasicObjectsJSON/CommFileReadRequestJSON.o: CommBasicObjectsJSON/CommFileRea
 
 # target to build an object file
 CommBasicObjectsJSON/CommFileReadRequestJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommFileReadRequestJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommFileReadRequestJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommFileReadRequestJSON.cc.o
 
 CommBasicObjectsJSON/CommFileReadRequestJSON.i: CommBasicObjectsJSON/CommFileReadRequestJSON.cc.i
@@ -915,7 +915,7 @@ CommBasicObjectsJSON/CommFileReadRequestJSON.i: CommBasicObjectsJSON/CommFileRea
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommFileReadRequestJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommFileReadRequestJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommFileReadRequestJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommFileReadRequestJSON.cc.i
 
 CommBasicObjectsJSON/CommFileReadRequestJSON.s: CommBasicObjectsJSON/CommFileReadRequestJSON.cc.s
@@ -924,7 +924,7 @@ CommBasicObjectsJSON/CommFileReadRequestJSON.s: CommBasicObjectsJSON/CommFileRea
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommFileReadRequestJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommFileReadRequestJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommFileReadRequestJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommFileReadRequestJSON.cc.s
 
 CommBasicObjectsJSON/CommFileWriteAnswerJSON.o: CommBasicObjectsJSON/CommFileWriteAnswerJSON.cc.o
@@ -933,7 +933,7 @@ CommBasicObjectsJSON/CommFileWriteAnswerJSON.o: CommBasicObjectsJSON/CommFileWri
 
 # target to build an object file
 CommBasicObjectsJSON/CommFileWriteAnswerJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommFileWriteAnswerJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommFileWriteAnswerJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommFileWriteAnswerJSON.cc.o
 
 CommBasicObjectsJSON/CommFileWriteAnswerJSON.i: CommBasicObjectsJSON/CommFileWriteAnswerJSON.cc.i
@@ -942,7 +942,7 @@ CommBasicObjectsJSON/CommFileWriteAnswerJSON.i: CommBasicObjectsJSON/CommFileWri
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommFileWriteAnswerJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommFileWriteAnswerJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommFileWriteAnswerJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommFileWriteAnswerJSON.cc.i
 
 CommBasicObjectsJSON/CommFileWriteAnswerJSON.s: CommBasicObjectsJSON/CommFileWriteAnswerJSON.cc.s
@@ -951,7 +951,7 @@ CommBasicObjectsJSON/CommFileWriteAnswerJSON.s: CommBasicObjectsJSON/CommFileWri
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommFileWriteAnswerJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommFileWriteAnswerJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommFileWriteAnswerJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommFileWriteAnswerJSON.cc.s
 
 CommBasicObjectsJSON/CommFileWriteRequestJSON.o: CommBasicObjectsJSON/CommFileWriteRequestJSON.cc.o
@@ -960,7 +960,7 @@ CommBasicObjectsJSON/CommFileWriteRequestJSON.o: CommBasicObjectsJSON/CommFileWr
 
 # target to build an object file
 CommBasicObjectsJSON/CommFileWriteRequestJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommFileWriteRequestJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommFileWriteRequestJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommFileWriteRequestJSON.cc.o
 
 CommBasicObjectsJSON/CommFileWriteRequestJSON.i: CommBasicObjectsJSON/CommFileWriteRequestJSON.cc.i
@@ -969,7 +969,7 @@ CommBasicObjectsJSON/CommFileWriteRequestJSON.i: CommBasicObjectsJSON/CommFileWr
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommFileWriteRequestJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommFileWriteRequestJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommFileWriteRequestJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommFileWriteRequestJSON.cc.i
 
 CommBasicObjectsJSON/CommFileWriteRequestJSON.s: CommBasicObjectsJSON/CommFileWriteRequestJSON.cc.s
@@ -978,7 +978,7 @@ CommBasicObjectsJSON/CommFileWriteRequestJSON.s: CommBasicObjectsJSON/CommFileWr
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommFileWriteRequestJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommFileWriteRequestJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommFileWriteRequestJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommFileWriteRequestJSON.cc.s
 
 CommBasicObjectsJSON/CommIMUDataJSON.o: CommBasicObjectsJSON/CommIMUDataJSON.cc.o
@@ -987,7 +987,7 @@ CommBasicObjectsJSON/CommIMUDataJSON.o: CommBasicObjectsJSON/CommIMUDataJSON.cc.
 
 # target to build an object file
 CommBasicObjectsJSON/CommIMUDataJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommIMUDataJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommIMUDataJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommIMUDataJSON.cc.o
 
 CommBasicObjectsJSON/CommIMUDataJSON.i: CommBasicObjectsJSON/CommIMUDataJSON.cc.i
@@ -996,7 +996,7 @@ CommBasicObjectsJSON/CommIMUDataJSON.i: CommBasicObjectsJSON/CommIMUDataJSON.cc.
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommIMUDataJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommIMUDataJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommIMUDataJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommIMUDataJSON.cc.i
 
 CommBasicObjectsJSON/CommIMUDataJSON.s: CommBasicObjectsJSON/CommIMUDataJSON.cc.s
@@ -1005,7 +1005,7 @@ CommBasicObjectsJSON/CommIMUDataJSON.s: CommBasicObjectsJSON/CommIMUDataJSON.cc.
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommIMUDataJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommIMUDataJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommIMUDataJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommIMUDataJSON.cc.s
 
 CommBasicObjectsJSON/CommIOValuesJSON.o: CommBasicObjectsJSON/CommIOValuesJSON.cc.o
@@ -1014,7 +1014,7 @@ CommBasicObjectsJSON/CommIOValuesJSON.o: CommBasicObjectsJSON/CommIOValuesJSON.c
 
 # target to build an object file
 CommBasicObjectsJSON/CommIOValuesJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommIOValuesJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommIOValuesJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommIOValuesJSON.cc.o
 
 CommBasicObjectsJSON/CommIOValuesJSON.i: CommBasicObjectsJSON/CommIOValuesJSON.cc.i
@@ -1023,7 +1023,7 @@ CommBasicObjectsJSON/CommIOValuesJSON.i: CommBasicObjectsJSON/CommIOValuesJSON.c
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommIOValuesJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommIOValuesJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommIOValuesJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommIOValuesJSON.cc.i
 
 CommBasicObjectsJSON/CommIOValuesJSON.s: CommBasicObjectsJSON/CommIOValuesJSON.cc.s
@@ -1032,7 +1032,7 @@ CommBasicObjectsJSON/CommIOValuesJSON.s: CommBasicObjectsJSON/CommIOValuesJSON.c
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommIOValuesJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommIOValuesJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommIOValuesJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommIOValuesJSON.cc.s
 
 CommBasicObjectsJSON/CommIRScanJSON.o: CommBasicObjectsJSON/CommIRScanJSON.cc.o
@@ -1041,7 +1041,7 @@ CommBasicObjectsJSON/CommIRScanJSON.o: CommBasicObjectsJSON/CommIRScanJSON.cc.o
 
 # target to build an object file
 CommBasicObjectsJSON/CommIRScanJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommIRScanJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommIRScanJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommIRScanJSON.cc.o
 
 CommBasicObjectsJSON/CommIRScanJSON.i: CommBasicObjectsJSON/CommIRScanJSON.cc.i
@@ -1050,7 +1050,7 @@ CommBasicObjectsJSON/CommIRScanJSON.i: CommBasicObjectsJSON/CommIRScanJSON.cc.i
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommIRScanJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommIRScanJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommIRScanJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommIRScanJSON.cc.i
 
 CommBasicObjectsJSON/CommIRScanJSON.s: CommBasicObjectsJSON/CommIRScanJSON.cc.s
@@ -1059,7 +1059,7 @@ CommBasicObjectsJSON/CommIRScanJSON.s: CommBasicObjectsJSON/CommIRScanJSON.cc.s
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommIRScanJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommIRScanJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommIRScanJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommIRScanJSON.cc.s
 
 CommBasicObjectsJSON/CommJoystickJSON.o: CommBasicObjectsJSON/CommJoystickJSON.cc.o
@@ -1068,7 +1068,7 @@ CommBasicObjectsJSON/CommJoystickJSON.o: CommBasicObjectsJSON/CommJoystickJSON.c
 
 # target to build an object file
 CommBasicObjectsJSON/CommJoystickJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommJoystickJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommJoystickJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommJoystickJSON.cc.o
 
 CommBasicObjectsJSON/CommJoystickJSON.i: CommBasicObjectsJSON/CommJoystickJSON.cc.i
@@ -1077,7 +1077,7 @@ CommBasicObjectsJSON/CommJoystickJSON.i: CommBasicObjectsJSON/CommJoystickJSON.c
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommJoystickJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommJoystickJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommJoystickJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommJoystickJSON.cc.i
 
 CommBasicObjectsJSON/CommJoystickJSON.s: CommBasicObjectsJSON/CommJoystickJSON.cc.s
@@ -1086,7 +1086,7 @@ CommBasicObjectsJSON/CommJoystickJSON.s: CommBasicObjectsJSON/CommJoystickJSON.c
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommJoystickJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommJoystickJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommJoystickJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommJoystickJSON.cc.s
 
 CommBasicObjectsJSON/CommKBEventParamJSON.o: CommBasicObjectsJSON/CommKBEventParamJSON.cc.o
@@ -1095,7 +1095,7 @@ CommBasicObjectsJSON/CommKBEventParamJSON.o: CommBasicObjectsJSON/CommKBEventPar
 
 # target to build an object file
 CommBasicObjectsJSON/CommKBEventParamJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommKBEventParamJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommKBEventParamJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommKBEventParamJSON.cc.o
 
 CommBasicObjectsJSON/CommKBEventParamJSON.i: CommBasicObjectsJSON/CommKBEventParamJSON.cc.i
@@ -1104,7 +1104,7 @@ CommBasicObjectsJSON/CommKBEventParamJSON.i: CommBasicObjectsJSON/CommKBEventPar
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommKBEventParamJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommKBEventParamJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommKBEventParamJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommKBEventParamJSON.cc.i
 
 CommBasicObjectsJSON/CommKBEventParamJSON.s: CommBasicObjectsJSON/CommKBEventParamJSON.cc.s
@@ -1113,7 +1113,7 @@ CommBasicObjectsJSON/CommKBEventParamJSON.s: CommBasicObjectsJSON/CommKBEventPar
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommKBEventParamJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommKBEventParamJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommKBEventParamJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommKBEventParamJSON.cc.s
 
 CommBasicObjectsJSON/CommKBEventResultJSON.o: CommBasicObjectsJSON/CommKBEventResultJSON.cc.o
@@ -1122,7 +1122,7 @@ CommBasicObjectsJSON/CommKBEventResultJSON.o: CommBasicObjectsJSON/CommKBEventRe
 
 # target to build an object file
 CommBasicObjectsJSON/CommKBEventResultJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommKBEventResultJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommKBEventResultJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommKBEventResultJSON.cc.o
 
 CommBasicObjectsJSON/CommKBEventResultJSON.i: CommBasicObjectsJSON/CommKBEventResultJSON.cc.i
@@ -1131,7 +1131,7 @@ CommBasicObjectsJSON/CommKBEventResultJSON.i: CommBasicObjectsJSON/CommKBEventRe
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommKBEventResultJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommKBEventResultJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommKBEventResultJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommKBEventResultJSON.cc.i
 
 CommBasicObjectsJSON/CommKBEventResultJSON.s: CommBasicObjectsJSON/CommKBEventResultJSON.cc.s
@@ -1140,7 +1140,7 @@ CommBasicObjectsJSON/CommKBEventResultJSON.s: CommBasicObjectsJSON/CommKBEventRe
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommKBEventResultJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommKBEventResultJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommKBEventResultJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommKBEventResultJSON.cc.s
 
 CommBasicObjectsJSON/CommKBRequestJSON.o: CommBasicObjectsJSON/CommKBRequestJSON.cc.o
@@ -1149,7 +1149,7 @@ CommBasicObjectsJSON/CommKBRequestJSON.o: CommBasicObjectsJSON/CommKBRequestJSON
 
 # target to build an object file
 CommBasicObjectsJSON/CommKBRequestJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommKBRequestJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommKBRequestJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommKBRequestJSON.cc.o
 
 CommBasicObjectsJSON/CommKBRequestJSON.i: CommBasicObjectsJSON/CommKBRequestJSON.cc.i
@@ -1158,7 +1158,7 @@ CommBasicObjectsJSON/CommKBRequestJSON.i: CommBasicObjectsJSON/CommKBRequestJSON
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommKBRequestJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommKBRequestJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommKBRequestJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommKBRequestJSON.cc.i
 
 CommBasicObjectsJSON/CommKBRequestJSON.s: CommBasicObjectsJSON/CommKBRequestJSON.cc.s
@@ -1167,7 +1167,7 @@ CommBasicObjectsJSON/CommKBRequestJSON.s: CommBasicObjectsJSON/CommKBRequestJSON
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommKBRequestJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommKBRequestJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommKBRequestJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommKBRequestJSON.cc.s
 
 CommBasicObjectsJSON/CommKBResponseJSON.o: CommBasicObjectsJSON/CommKBResponseJSON.cc.o
@@ -1176,7 +1176,7 @@ CommBasicObjectsJSON/CommKBResponseJSON.o: CommBasicObjectsJSON/CommKBResponseJS
 
 # target to build an object file
 CommBasicObjectsJSON/CommKBResponseJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommKBResponseJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommKBResponseJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommKBResponseJSON.cc.o
 
 CommBasicObjectsJSON/CommKBResponseJSON.i: CommBasicObjectsJSON/CommKBResponseJSON.cc.i
@@ -1185,7 +1185,7 @@ CommBasicObjectsJSON/CommKBResponseJSON.i: CommBasicObjectsJSON/CommKBResponseJS
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommKBResponseJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommKBResponseJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommKBResponseJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommKBResponseJSON.cc.i
 
 CommBasicObjectsJSON/CommKBResponseJSON.s: CommBasicObjectsJSON/CommKBResponseJSON.cc.s
@@ -1194,7 +1194,7 @@ CommBasicObjectsJSON/CommKBResponseJSON.s: CommBasicObjectsJSON/CommKBResponseJS
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommKBResponseJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommKBResponseJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommKBResponseJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommKBResponseJSON.cc.s
 
 CommBasicObjectsJSON/CommLaserSafetyEventParamJSON.o: CommBasicObjectsJSON/CommLaserSafetyEventParamJSON.cc.o
@@ -1203,7 +1203,7 @@ CommBasicObjectsJSON/CommLaserSafetyEventParamJSON.o: CommBasicObjectsJSON/CommL
 
 # target to build an object file
 CommBasicObjectsJSON/CommLaserSafetyEventParamJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommLaserSafetyEventParamJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommLaserSafetyEventParamJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommLaserSafetyEventParamJSON.cc.o
 
 CommBasicObjectsJSON/CommLaserSafetyEventParamJSON.i: CommBasicObjectsJSON/CommLaserSafetyEventParamJSON.cc.i
@@ -1212,7 +1212,7 @@ CommBasicObjectsJSON/CommLaserSafetyEventParamJSON.i: CommBasicObjectsJSON/CommL
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommLaserSafetyEventParamJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommLaserSafetyEventParamJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommLaserSafetyEventParamJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommLaserSafetyEventParamJSON.cc.i
 
 CommBasicObjectsJSON/CommLaserSafetyEventParamJSON.s: CommBasicObjectsJSON/CommLaserSafetyEventParamJSON.cc.s
@@ -1221,7 +1221,7 @@ CommBasicObjectsJSON/CommLaserSafetyEventParamJSON.s: CommBasicObjectsJSON/CommL
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommLaserSafetyEventParamJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommLaserSafetyEventParamJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommLaserSafetyEventParamJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommLaserSafetyEventParamJSON.cc.s
 
 CommBasicObjectsJSON/CommLaserSafetyEventStateJSON.o: CommBasicObjectsJSON/CommLaserSafetyEventStateJSON.cc.o
@@ -1230,7 +1230,7 @@ CommBasicObjectsJSON/CommLaserSafetyEventStateJSON.o: CommBasicObjectsJSON/CommL
 
 # target to build an object file
 CommBasicObjectsJSON/CommLaserSafetyEventStateJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommLaserSafetyEventStateJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommLaserSafetyEventStateJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommLaserSafetyEventStateJSON.cc.o
 
 CommBasicObjectsJSON/CommLaserSafetyEventStateJSON.i: CommBasicObjectsJSON/CommLaserSafetyEventStateJSON.cc.i
@@ -1239,7 +1239,7 @@ CommBasicObjectsJSON/CommLaserSafetyEventStateJSON.i: CommBasicObjectsJSON/CommL
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommLaserSafetyEventStateJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommLaserSafetyEventStateJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommLaserSafetyEventStateJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommLaserSafetyEventStateJSON.cc.i
 
 CommBasicObjectsJSON/CommLaserSafetyEventStateJSON.s: CommBasicObjectsJSON/CommLaserSafetyEventStateJSON.cc.s
@@ -1248,7 +1248,7 @@ CommBasicObjectsJSON/CommLaserSafetyEventStateJSON.s: CommBasicObjectsJSON/CommL
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommLaserSafetyEventStateJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommLaserSafetyEventStateJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommLaserSafetyEventStateJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommLaserSafetyEventStateJSON.cc.s
 
 CommBasicObjectsJSON/CommLaserSafetyFieldJSON.o: CommBasicObjectsJSON/CommLaserSafetyFieldJSON.cc.o
@@ -1257,7 +1257,7 @@ CommBasicObjectsJSON/CommLaserSafetyFieldJSON.o: CommBasicObjectsJSON/CommLaserS
 
 # target to build an object file
 CommBasicObjectsJSON/CommLaserSafetyFieldJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommLaserSafetyFieldJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommLaserSafetyFieldJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommLaserSafetyFieldJSON.cc.o
 
 CommBasicObjectsJSON/CommLaserSafetyFieldJSON.i: CommBasicObjectsJSON/CommLaserSafetyFieldJSON.cc.i
@@ -1266,7 +1266,7 @@ CommBasicObjectsJSON/CommLaserSafetyFieldJSON.i: CommBasicObjectsJSON/CommLaserS
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommLaserSafetyFieldJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommLaserSafetyFieldJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommLaserSafetyFieldJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommLaserSafetyFieldJSON.cc.i
 
 CommBasicObjectsJSON/CommLaserSafetyFieldJSON.s: CommBasicObjectsJSON/CommLaserSafetyFieldJSON.cc.s
@@ -1275,7 +1275,7 @@ CommBasicObjectsJSON/CommLaserSafetyFieldJSON.s: CommBasicObjectsJSON/CommLaserS
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommLaserSafetyFieldJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommLaserSafetyFieldJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommLaserSafetyFieldJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommLaserSafetyFieldJSON.cc.s
 
 CommBasicObjectsJSON/CommLaserScanJSON.o: CommBasicObjectsJSON/CommLaserScanJSON.cc.o
@@ -1284,7 +1284,7 @@ CommBasicObjectsJSON/CommLaserScanJSON.o: CommBasicObjectsJSON/CommLaserScanJSON
 
 # target to build an object file
 CommBasicObjectsJSON/CommLaserScanJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommLaserScanJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommLaserScanJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommLaserScanJSON.cc.o
 
 CommBasicObjectsJSON/CommLaserScanJSON.i: CommBasicObjectsJSON/CommLaserScanJSON.cc.i
@@ -1293,7 +1293,7 @@ CommBasicObjectsJSON/CommLaserScanJSON.i: CommBasicObjectsJSON/CommLaserScanJSON
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommLaserScanJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommLaserScanJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommLaserScanJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommLaserScanJSON.cc.i
 
 CommBasicObjectsJSON/CommLaserScanJSON.s: CommBasicObjectsJSON/CommLaserScanJSON.cc.s
@@ -1302,7 +1302,7 @@ CommBasicObjectsJSON/CommLaserScanJSON.s: CommBasicObjectsJSON/CommLaserScanJSON
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommLaserScanJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommLaserScanJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommLaserScanJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommLaserScanJSON.cc.s
 
 CommBasicObjectsJSON/CommMobileIRScanJSON.o: CommBasicObjectsJSON/CommMobileIRScanJSON.cc.o
@@ -1311,7 +1311,7 @@ CommBasicObjectsJSON/CommMobileIRScanJSON.o: CommBasicObjectsJSON/CommMobileIRSc
 
 # target to build an object file
 CommBasicObjectsJSON/CommMobileIRScanJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommMobileIRScanJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommMobileIRScanJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommMobileIRScanJSON.cc.o
 
 CommBasicObjectsJSON/CommMobileIRScanJSON.i: CommBasicObjectsJSON/CommMobileIRScanJSON.cc.i
@@ -1320,7 +1320,7 @@ CommBasicObjectsJSON/CommMobileIRScanJSON.i: CommBasicObjectsJSON/CommMobileIRSc
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommMobileIRScanJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommMobileIRScanJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommMobileIRScanJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommMobileIRScanJSON.cc.i
 
 CommBasicObjectsJSON/CommMobileIRScanJSON.s: CommBasicObjectsJSON/CommMobileIRScanJSON.cc.s
@@ -1329,7 +1329,7 @@ CommBasicObjectsJSON/CommMobileIRScanJSON.s: CommBasicObjectsJSON/CommMobileIRSc
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommMobileIRScanJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommMobileIRScanJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommMobileIRScanJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommMobileIRScanJSON.cc.s
 
 CommBasicObjectsJSON/CommMobileLaserScanJSON.o: CommBasicObjectsJSON/CommMobileLaserScanJSON.cc.o
@@ -1338,7 +1338,7 @@ CommBasicObjectsJSON/CommMobileLaserScanJSON.o: CommBasicObjectsJSON/CommMobileL
 
 # target to build an object file
 CommBasicObjectsJSON/CommMobileLaserScanJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommMobileLaserScanJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommMobileLaserScanJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommMobileLaserScanJSON.cc.o
 
 CommBasicObjectsJSON/CommMobileLaserScanJSON.i: CommBasicObjectsJSON/CommMobileLaserScanJSON.cc.i
@@ -1347,7 +1347,7 @@ CommBasicObjectsJSON/CommMobileLaserScanJSON.i: CommBasicObjectsJSON/CommMobileL
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommMobileLaserScanJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommMobileLaserScanJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommMobileLaserScanJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommMobileLaserScanJSON.cc.i
 
 CommBasicObjectsJSON/CommMobileLaserScanJSON.s: CommBasicObjectsJSON/CommMobileLaserScanJSON.cc.s
@@ -1356,7 +1356,7 @@ CommBasicObjectsJSON/CommMobileLaserScanJSON.s: CommBasicObjectsJSON/CommMobileL
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommMobileLaserScanJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommMobileLaserScanJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommMobileLaserScanJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommMobileLaserScanJSON.cc.s
 
 CommBasicObjectsJSON/CommMobileUltrasonicScanJSON.o: CommBasicObjectsJSON/CommMobileUltrasonicScanJSON.cc.o
@@ -1365,7 +1365,7 @@ CommBasicObjectsJSON/CommMobileUltrasonicScanJSON.o: CommBasicObjectsJSON/CommMo
 
 # target to build an object file
 CommBasicObjectsJSON/CommMobileUltrasonicScanJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommMobileUltrasonicScanJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommMobileUltrasonicScanJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommMobileUltrasonicScanJSON.cc.o
 
 CommBasicObjectsJSON/CommMobileUltrasonicScanJSON.i: CommBasicObjectsJSON/CommMobileUltrasonicScanJSON.cc.i
@@ -1374,7 +1374,7 @@ CommBasicObjectsJSON/CommMobileUltrasonicScanJSON.i: CommBasicObjectsJSON/CommMo
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommMobileUltrasonicScanJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommMobileUltrasonicScanJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommMobileUltrasonicScanJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommMobileUltrasonicScanJSON.cc.i
 
 CommBasicObjectsJSON/CommMobileUltrasonicScanJSON.s: CommBasicObjectsJSON/CommMobileUltrasonicScanJSON.cc.s
@@ -1383,7 +1383,7 @@ CommBasicObjectsJSON/CommMobileUltrasonicScanJSON.s: CommBasicObjectsJSON/CommMo
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommMobileUltrasonicScanJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommMobileUltrasonicScanJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommMobileUltrasonicScanJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommMobileUltrasonicScanJSON.cc.s
 
 CommBasicObjectsJSON/CommNavigationVelocityJSON.o: CommBasicObjectsJSON/CommNavigationVelocityJSON.cc.o
@@ -1392,7 +1392,7 @@ CommBasicObjectsJSON/CommNavigationVelocityJSON.o: CommBasicObjectsJSON/CommNavi
 
 # target to build an object file
 CommBasicObjectsJSON/CommNavigationVelocityJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommNavigationVelocityJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommNavigationVelocityJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommNavigationVelocityJSON.cc.o
 
 CommBasicObjectsJSON/CommNavigationVelocityJSON.i: CommBasicObjectsJSON/CommNavigationVelocityJSON.cc.i
@@ -1401,7 +1401,7 @@ CommBasicObjectsJSON/CommNavigationVelocityJSON.i: CommBasicObjectsJSON/CommNavi
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommNavigationVelocityJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommNavigationVelocityJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommNavigationVelocityJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommNavigationVelocityJSON.cc.i
 
 CommBasicObjectsJSON/CommNavigationVelocityJSON.s: CommBasicObjectsJSON/CommNavigationVelocityJSON.cc.s
@@ -1410,7 +1410,7 @@ CommBasicObjectsJSON/CommNavigationVelocityJSON.s: CommBasicObjectsJSON/CommNavi
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommNavigationVelocityJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommNavigationVelocityJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommNavigationVelocityJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommNavigationVelocityJSON.cc.s
 
 CommBasicObjectsJSON/CommOrientation3dJSON.o: CommBasicObjectsJSON/CommOrientation3dJSON.cc.o
@@ -1419,7 +1419,7 @@ CommBasicObjectsJSON/CommOrientation3dJSON.o: CommBasicObjectsJSON/CommOrientati
 
 # target to build an object file
 CommBasicObjectsJSON/CommOrientation3dJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommOrientation3dJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommOrientation3dJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommOrientation3dJSON.cc.o
 
 CommBasicObjectsJSON/CommOrientation3dJSON.i: CommBasicObjectsJSON/CommOrientation3dJSON.cc.i
@@ -1428,7 +1428,7 @@ CommBasicObjectsJSON/CommOrientation3dJSON.i: CommBasicObjectsJSON/CommOrientati
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommOrientation3dJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommOrientation3dJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommOrientation3dJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommOrientation3dJSON.cc.i
 
 CommBasicObjectsJSON/CommOrientation3dJSON.s: CommBasicObjectsJSON/CommOrientation3dJSON.cc.s
@@ -1437,7 +1437,7 @@ CommBasicObjectsJSON/CommOrientation3dJSON.s: CommBasicObjectsJSON/CommOrientati
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommOrientation3dJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommOrientation3dJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommOrientation3dJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommOrientation3dJSON.cc.s
 
 CommBasicObjectsJSON/CommPose3dJSON.o: CommBasicObjectsJSON/CommPose3dJSON.cc.o
@@ -1446,7 +1446,7 @@ CommBasicObjectsJSON/CommPose3dJSON.o: CommBasicObjectsJSON/CommPose3dJSON.cc.o
 
 # target to build an object file
 CommBasicObjectsJSON/CommPose3dJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommPose3dJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommPose3dJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommPose3dJSON.cc.o
 
 CommBasicObjectsJSON/CommPose3dJSON.i: CommBasicObjectsJSON/CommPose3dJSON.cc.i
@@ -1455,7 +1455,7 @@ CommBasicObjectsJSON/CommPose3dJSON.i: CommBasicObjectsJSON/CommPose3dJSON.cc.i
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommPose3dJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommPose3dJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommPose3dJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommPose3dJSON.cc.i
 
 CommBasicObjectsJSON/CommPose3dJSON.s: CommBasicObjectsJSON/CommPose3dJSON.cc.s
@@ -1464,7 +1464,7 @@ CommBasicObjectsJSON/CommPose3dJSON.s: CommBasicObjectsJSON/CommPose3dJSON.cc.s
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommPose3dJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommPose3dJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommPose3dJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommPose3dJSON.cc.s
 
 CommBasicObjectsJSON/CommPose3dWithCovarianceJSON.o: CommBasicObjectsJSON/CommPose3dWithCovarianceJSON.cc.o
@@ -1473,7 +1473,7 @@ CommBasicObjectsJSON/CommPose3dWithCovarianceJSON.o: CommBasicObjectsJSON/CommPo
 
 # target to build an object file
 CommBasicObjectsJSON/CommPose3dWithCovarianceJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommPose3dWithCovarianceJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommPose3dWithCovarianceJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommPose3dWithCovarianceJSON.cc.o
 
 CommBasicObjectsJSON/CommPose3dWithCovarianceJSON.i: CommBasicObjectsJSON/CommPose3dWithCovarianceJSON.cc.i
@@ -1482,7 +1482,7 @@ CommBasicObjectsJSON/CommPose3dWithCovarianceJSON.i: CommBasicObjectsJSON/CommPo
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommPose3dWithCovarianceJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommPose3dWithCovarianceJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommPose3dWithCovarianceJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommPose3dWithCovarianceJSON.cc.i
 
 CommBasicObjectsJSON/CommPose3dWithCovarianceJSON.s: CommBasicObjectsJSON/CommPose3dWithCovarianceJSON.cc.s
@@ -1491,7 +1491,7 @@ CommBasicObjectsJSON/CommPose3dWithCovarianceJSON.s: CommBasicObjectsJSON/CommPo
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommPose3dWithCovarianceJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommPose3dWithCovarianceJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommPose3dWithCovarianceJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommPose3dWithCovarianceJSON.cc.s
 
 CommBasicObjectsJSON/CommPosition3dJSON.o: CommBasicObjectsJSON/CommPosition3dJSON.cc.o
@@ -1500,7 +1500,7 @@ CommBasicObjectsJSON/CommPosition3dJSON.o: CommBasicObjectsJSON/CommPosition3dJS
 
 # target to build an object file
 CommBasicObjectsJSON/CommPosition3dJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommPosition3dJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommPosition3dJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommPosition3dJSON.cc.o
 
 CommBasicObjectsJSON/CommPosition3dJSON.i: CommBasicObjectsJSON/CommPosition3dJSON.cc.i
@@ -1509,7 +1509,7 @@ CommBasicObjectsJSON/CommPosition3dJSON.i: CommBasicObjectsJSON/CommPosition3dJS
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommPosition3dJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommPosition3dJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommPosition3dJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommPosition3dJSON.cc.i
 
 CommBasicObjectsJSON/CommPosition3dJSON.s: CommBasicObjectsJSON/CommPosition3dJSON.cc.s
@@ -1518,7 +1518,7 @@ CommBasicObjectsJSON/CommPosition3dJSON.s: CommBasicObjectsJSON/CommPosition3dJS
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommPosition3dJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommPosition3dJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommPosition3dJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommPosition3dJSON.cc.s
 
 CommBasicObjectsJSON/CommPosition3dWithCovarianceJSON.o: CommBasicObjectsJSON/CommPosition3dWithCovarianceJSON.cc.o
@@ -1527,7 +1527,7 @@ CommBasicObjectsJSON/CommPosition3dWithCovarianceJSON.o: CommBasicObjectsJSON/Co
 
 # target to build an object file
 CommBasicObjectsJSON/CommPosition3dWithCovarianceJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommPosition3dWithCovarianceJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommPosition3dWithCovarianceJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommPosition3dWithCovarianceJSON.cc.o
 
 CommBasicObjectsJSON/CommPosition3dWithCovarianceJSON.i: CommBasicObjectsJSON/CommPosition3dWithCovarianceJSON.cc.i
@@ -1536,7 +1536,7 @@ CommBasicObjectsJSON/CommPosition3dWithCovarianceJSON.i: CommBasicObjectsJSON/Co
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommPosition3dWithCovarianceJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommPosition3dWithCovarianceJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommPosition3dWithCovarianceJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommPosition3dWithCovarianceJSON.cc.i
 
 CommBasicObjectsJSON/CommPosition3dWithCovarianceJSON.s: CommBasicObjectsJSON/CommPosition3dWithCovarianceJSON.cc.s
@@ -1545,7 +1545,7 @@ CommBasicObjectsJSON/CommPosition3dWithCovarianceJSON.s: CommBasicObjectsJSON/Co
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommPosition3dWithCovarianceJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommPosition3dWithCovarianceJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommPosition3dWithCovarianceJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommPosition3dWithCovarianceJSON.cc.s
 
 CommBasicObjectsJSON/CommPropertySetJSON.o: CommBasicObjectsJSON/CommPropertySetJSON.cc.o
@@ -1554,7 +1554,7 @@ CommBasicObjectsJSON/CommPropertySetJSON.o: CommBasicObjectsJSON/CommPropertySet
 
 # target to build an object file
 CommBasicObjectsJSON/CommPropertySetJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommPropertySetJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommPropertySetJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommPropertySetJSON.cc.o
 
 CommBasicObjectsJSON/CommPropertySetJSON.i: CommBasicObjectsJSON/CommPropertySetJSON.cc.i
@@ -1563,7 +1563,7 @@ CommBasicObjectsJSON/CommPropertySetJSON.i: CommBasicObjectsJSON/CommPropertySet
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommPropertySetJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommPropertySetJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommPropertySetJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommPropertySetJSON.cc.i
 
 CommBasicObjectsJSON/CommPropertySetJSON.s: CommBasicObjectsJSON/CommPropertySetJSON.cc.s
@@ -1572,7 +1572,7 @@ CommBasicObjectsJSON/CommPropertySetJSON.s: CommBasicObjectsJSON/CommPropertySet
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommPropertySetJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommPropertySetJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommPropertySetJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommPropertySetJSON.cc.s
 
 CommBasicObjectsJSON/CommSkillMsgJSON.o: CommBasicObjectsJSON/CommSkillMsgJSON.cc.o
@@ -1581,7 +1581,7 @@ CommBasicObjectsJSON/CommSkillMsgJSON.o: CommBasicObjectsJSON/CommSkillMsgJSON.c
 
 # target to build an object file
 CommBasicObjectsJSON/CommSkillMsgJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommSkillMsgJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommSkillMsgJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommSkillMsgJSON.cc.o
 
 CommBasicObjectsJSON/CommSkillMsgJSON.i: CommBasicObjectsJSON/CommSkillMsgJSON.cc.i
@@ -1590,7 +1590,7 @@ CommBasicObjectsJSON/CommSkillMsgJSON.i: CommBasicObjectsJSON/CommSkillMsgJSON.c
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommSkillMsgJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommSkillMsgJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommSkillMsgJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommSkillMsgJSON.cc.i
 
 CommBasicObjectsJSON/CommSkillMsgJSON.s: CommBasicObjectsJSON/CommSkillMsgJSON.cc.s
@@ -1599,7 +1599,7 @@ CommBasicObjectsJSON/CommSkillMsgJSON.s: CommBasicObjectsJSON/CommSkillMsgJSON.c
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommSkillMsgJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommSkillMsgJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommSkillMsgJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommSkillMsgJSON.cc.s
 
 CommBasicObjectsJSON/CommTCLMessageJSON.o: CommBasicObjectsJSON/CommTCLMessageJSON.cc.o
@@ -1608,7 +1608,7 @@ CommBasicObjectsJSON/CommTCLMessageJSON.o: CommBasicObjectsJSON/CommTCLMessageJS
 
 # target to build an object file
 CommBasicObjectsJSON/CommTCLMessageJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommTCLMessageJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommTCLMessageJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommTCLMessageJSON.cc.o
 
 CommBasicObjectsJSON/CommTCLMessageJSON.i: CommBasicObjectsJSON/CommTCLMessageJSON.cc.i
@@ -1617,7 +1617,7 @@ CommBasicObjectsJSON/CommTCLMessageJSON.i: CommBasicObjectsJSON/CommTCLMessageJS
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommTCLMessageJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommTCLMessageJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommTCLMessageJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommTCLMessageJSON.cc.i
 
 CommBasicObjectsJSON/CommTCLMessageJSON.s: CommBasicObjectsJSON/CommTCLMessageJSON.cc.s
@@ -1626,7 +1626,7 @@ CommBasicObjectsJSON/CommTCLMessageJSON.s: CommBasicObjectsJSON/CommTCLMessageJS
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommTCLMessageJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommTCLMessageJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommTCLMessageJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommTCLMessageJSON.cc.s
 
 CommBasicObjectsJSON/CommTaskEventStateJSON.o: CommBasicObjectsJSON/CommTaskEventStateJSON.cc.o
@@ -1635,7 +1635,7 @@ CommBasicObjectsJSON/CommTaskEventStateJSON.o: CommBasicObjectsJSON/CommTaskEven
 
 # target to build an object file
 CommBasicObjectsJSON/CommTaskEventStateJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommTaskEventStateJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommTaskEventStateJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommTaskEventStateJSON.cc.o
 
 CommBasicObjectsJSON/CommTaskEventStateJSON.i: CommBasicObjectsJSON/CommTaskEventStateJSON.cc.i
@@ -1644,7 +1644,7 @@ CommBasicObjectsJSON/CommTaskEventStateJSON.i: CommBasicObjectsJSON/CommTaskEven
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommTaskEventStateJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommTaskEventStateJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommTaskEventStateJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommTaskEventStateJSON.cc.i
 
 CommBasicObjectsJSON/CommTaskEventStateJSON.s: CommBasicObjectsJSON/CommTaskEventStateJSON.cc.s
@@ -1653,7 +1653,7 @@ CommBasicObjectsJSON/CommTaskEventStateJSON.s: CommBasicObjectsJSON/CommTaskEven
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommTaskEventStateJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommTaskEventStateJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommTaskEventStateJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommTaskEventStateJSON.cc.s
 
 CommBasicObjectsJSON/CommTaskMessageJSON.o: CommBasicObjectsJSON/CommTaskMessageJSON.cc.o
@@ -1662,7 +1662,7 @@ CommBasicObjectsJSON/CommTaskMessageJSON.o: CommBasicObjectsJSON/CommTaskMessage
 
 # target to build an object file
 CommBasicObjectsJSON/CommTaskMessageJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommTaskMessageJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommTaskMessageJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommTaskMessageJSON.cc.o
 
 CommBasicObjectsJSON/CommTaskMessageJSON.i: CommBasicObjectsJSON/CommTaskMessageJSON.cc.i
@@ -1671,7 +1671,7 @@ CommBasicObjectsJSON/CommTaskMessageJSON.i: CommBasicObjectsJSON/CommTaskMessage
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommTaskMessageJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommTaskMessageJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommTaskMessageJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommTaskMessageJSON.cc.i
 
 CommBasicObjectsJSON/CommTaskMessageJSON.s: CommBasicObjectsJSON/CommTaskMessageJSON.cc.s
@@ -1680,7 +1680,7 @@ CommBasicObjectsJSON/CommTaskMessageJSON.s: CommBasicObjectsJSON/CommTaskMessage
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommTaskMessageJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommTaskMessageJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommTaskMessageJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommTaskMessageJSON.cc.s
 
 CommBasicObjectsJSON/CommTimeStampJSON.o: CommBasicObjectsJSON/CommTimeStampJSON.cc.o
@@ -1689,7 +1689,7 @@ CommBasicObjectsJSON/CommTimeStampJSON.o: CommBasicObjectsJSON/CommTimeStampJSON
 
 # target to build an object file
 CommBasicObjectsJSON/CommTimeStampJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommTimeStampJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommTimeStampJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommTimeStampJSON.cc.o
 
 CommBasicObjectsJSON/CommTimeStampJSON.i: CommBasicObjectsJSON/CommTimeStampJSON.cc.i
@@ -1698,7 +1698,7 @@ CommBasicObjectsJSON/CommTimeStampJSON.i: CommBasicObjectsJSON/CommTimeStampJSON
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommTimeStampJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommTimeStampJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommTimeStampJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommTimeStampJSON.cc.i
 
 CommBasicObjectsJSON/CommTimeStampJSON.s: CommBasicObjectsJSON/CommTimeStampJSON.cc.s
@@ -1707,7 +1707,7 @@ CommBasicObjectsJSON/CommTimeStampJSON.s: CommBasicObjectsJSON/CommTimeStampJSON
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommTimeStampJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommTimeStampJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommTimeStampJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommTimeStampJSON.cc.s
 
 CommBasicObjectsJSON/CommTrafficLightsJSON.o: CommBasicObjectsJSON/CommTrafficLightsJSON.cc.o
@@ -1716,7 +1716,7 @@ CommBasicObjectsJSON/CommTrafficLightsJSON.o: CommBasicObjectsJSON/CommTrafficLi
 
 # target to build an object file
 CommBasicObjectsJSON/CommTrafficLightsJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommTrafficLightsJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommTrafficLightsJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommTrafficLightsJSON.cc.o
 
 CommBasicObjectsJSON/CommTrafficLightsJSON.i: CommBasicObjectsJSON/CommTrafficLightsJSON.cc.i
@@ -1725,7 +1725,7 @@ CommBasicObjectsJSON/CommTrafficLightsJSON.i: CommBasicObjectsJSON/CommTrafficLi
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommTrafficLightsJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommTrafficLightsJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommTrafficLightsJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommTrafficLightsJSON.cc.i
 
 CommBasicObjectsJSON/CommTrafficLightsJSON.s: CommBasicObjectsJSON/CommTrafficLightsJSON.cc.s
@@ -1734,7 +1734,7 @@ CommBasicObjectsJSON/CommTrafficLightsJSON.s: CommBasicObjectsJSON/CommTrafficLi
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommTrafficLightsJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommTrafficLightsJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommTrafficLightsJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommTrafficLightsJSON.cc.s
 
 CommBasicObjectsJSON/CommUltrasonicScanJSON.o: CommBasicObjectsJSON/CommUltrasonicScanJSON.cc.o
@@ -1743,7 +1743,7 @@ CommBasicObjectsJSON/CommUltrasonicScanJSON.o: CommBasicObjectsJSON/CommUltrason
 
 # target to build an object file
 CommBasicObjectsJSON/CommUltrasonicScanJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommUltrasonicScanJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommUltrasonicScanJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommUltrasonicScanJSON.cc.o
 
 CommBasicObjectsJSON/CommUltrasonicScanJSON.i: CommBasicObjectsJSON/CommUltrasonicScanJSON.cc.i
@@ -1752,7 +1752,7 @@ CommBasicObjectsJSON/CommUltrasonicScanJSON.i: CommBasicObjectsJSON/CommUltrason
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommUltrasonicScanJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommUltrasonicScanJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommUltrasonicScanJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommUltrasonicScanJSON.cc.i
 
 CommBasicObjectsJSON/CommUltrasonicScanJSON.s: CommBasicObjectsJSON/CommUltrasonicScanJSON.cc.s
@@ -1761,7 +1761,7 @@ CommBasicObjectsJSON/CommUltrasonicScanJSON.s: CommBasicObjectsJSON/CommUltrason
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommUltrasonicScanJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommUltrasonicScanJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommUltrasonicScanJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommUltrasonicScanJSON.cc.s
 
 CommBasicObjectsJSON/CommVoidJSON.o: CommBasicObjectsJSON/CommVoidJSON.cc.o
@@ -1770,7 +1770,7 @@ CommBasicObjectsJSON/CommVoidJSON.o: CommBasicObjectsJSON/CommVoidJSON.cc.o
 
 # target to build an object file
 CommBasicObjectsJSON/CommVoidJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommVoidJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommVoidJSON.cc.o
 .PHONY : CommBasicObjectsJSON/CommVoidJSON.cc.o
 
 CommBasicObjectsJSON/CommVoidJSON.i: CommBasicObjectsJSON/CommVoidJSON.cc.i
@@ -1779,7 +1779,7 @@ CommBasicObjectsJSON/CommVoidJSON.i: CommBasicObjectsJSON/CommVoidJSON.cc.i
 
 # target to preprocess a source file
 CommBasicObjectsJSON/CommVoidJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommVoidJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommVoidJSON.cc.i
 .PHONY : CommBasicObjectsJSON/CommVoidJSON.cc.i
 
 CommBasicObjectsJSON/CommVoidJSON.s: CommBasicObjectsJSON/CommVoidJSON.cc.s
@@ -1788,7 +1788,7 @@ CommBasicObjectsJSON/CommVoidJSON.s: CommBasicObjectsJSON/CommVoidJSON.cc.s
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/CommVoidJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommVoidJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/CommVoidJSON.cc.s
 .PHONY : CommBasicObjectsJSON/CommVoidJSON.cc.s
 
 CommBasicObjectsJSON/LaserScan6DPoseJSON.o: CommBasicObjectsJSON/LaserScan6DPoseJSON.cc.o
@@ -1797,7 +1797,7 @@ CommBasicObjectsJSON/LaserScan6DPoseJSON.o: CommBasicObjectsJSON/LaserScan6DPose
 
 # target to build an object file
 CommBasicObjectsJSON/LaserScan6DPoseJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/LaserScan6DPoseJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/LaserScan6DPoseJSON.cc.o
 .PHONY : CommBasicObjectsJSON/LaserScan6DPoseJSON.cc.o
 
 CommBasicObjectsJSON/LaserScan6DPoseJSON.i: CommBasicObjectsJSON/LaserScan6DPoseJSON.cc.i
@@ -1806,7 +1806,7 @@ CommBasicObjectsJSON/LaserScan6DPoseJSON.i: CommBasicObjectsJSON/LaserScan6DPose
 
 # target to preprocess a source file
 CommBasicObjectsJSON/LaserScan6DPoseJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/LaserScan6DPoseJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/LaserScan6DPoseJSON.cc.i
 .PHONY : CommBasicObjectsJSON/LaserScan6DPoseJSON.cc.i
 
 CommBasicObjectsJSON/LaserScan6DPoseJSON.s: CommBasicObjectsJSON/LaserScan6DPoseJSON.cc.s
@@ -1815,7 +1815,7 @@ CommBasicObjectsJSON/LaserScan6DPoseJSON.s: CommBasicObjectsJSON/LaserScan6DPose
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/LaserScan6DPoseJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/LaserScan6DPoseJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/LaserScan6DPoseJSON.cc.s
 .PHONY : CommBasicObjectsJSON/LaserScan6DPoseJSON.cc.s
 
 CommBasicObjectsJSON/LaserScanPointJSON.o: CommBasicObjectsJSON/LaserScanPointJSON.cc.o
@@ -1824,7 +1824,7 @@ CommBasicObjectsJSON/LaserScanPointJSON.o: CommBasicObjectsJSON/LaserScanPointJS
 
 # target to build an object file
 CommBasicObjectsJSON/LaserScanPointJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/LaserScanPointJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/LaserScanPointJSON.cc.o
 .PHONY : CommBasicObjectsJSON/LaserScanPointJSON.cc.o
 
 CommBasicObjectsJSON/LaserScanPointJSON.i: CommBasicObjectsJSON/LaserScanPointJSON.cc.i
@@ -1833,7 +1833,7 @@ CommBasicObjectsJSON/LaserScanPointJSON.i: CommBasicObjectsJSON/LaserScanPointJS
 
 # target to preprocess a source file
 CommBasicObjectsJSON/LaserScanPointJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/LaserScanPointJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/LaserScanPointJSON.cc.i
 .PHONY : CommBasicObjectsJSON/LaserScanPointJSON.cc.i
 
 CommBasicObjectsJSON/LaserScanPointJSON.s: CommBasicObjectsJSON/LaserScanPointJSON.cc.s
@@ -1842,7 +1842,7 @@ CommBasicObjectsJSON/LaserScanPointJSON.s: CommBasicObjectsJSON/LaserScanPointJS
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/LaserScanPointJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/LaserScanPointJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/LaserScanPointJSON.cc.s
 .PHONY : CommBasicObjectsJSON/LaserScanPointJSON.cc.s
 
 CommBasicObjectsJSON/PropertyItemEntryJSON.o: CommBasicObjectsJSON/PropertyItemEntryJSON.cc.o
@@ -1851,7 +1851,7 @@ CommBasicObjectsJSON/PropertyItemEntryJSON.o: CommBasicObjectsJSON/PropertyItemE
 
 # target to build an object file
 CommBasicObjectsJSON/PropertyItemEntryJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/PropertyItemEntryJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/PropertyItemEntryJSON.cc.o
 .PHONY : CommBasicObjectsJSON/PropertyItemEntryJSON.cc.o
 
 CommBasicObjectsJSON/PropertyItemEntryJSON.i: CommBasicObjectsJSON/PropertyItemEntryJSON.cc.i
@@ -1860,7 +1860,7 @@ CommBasicObjectsJSON/PropertyItemEntryJSON.i: CommBasicObjectsJSON/PropertyItemE
 
 # target to preprocess a source file
 CommBasicObjectsJSON/PropertyItemEntryJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/PropertyItemEntryJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/PropertyItemEntryJSON.cc.i
 .PHONY : CommBasicObjectsJSON/PropertyItemEntryJSON.cc.i
 
 CommBasicObjectsJSON/PropertyItemEntryJSON.s: CommBasicObjectsJSON/PropertyItemEntryJSON.cc.s
@@ -1869,7 +1869,7 @@ CommBasicObjectsJSON/PropertyItemEntryJSON.s: CommBasicObjectsJSON/PropertyItemE
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/PropertyItemEntryJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/PropertyItemEntryJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/PropertyItemEntryJSON.cc.s
 .PHONY : CommBasicObjectsJSON/PropertyItemEntryJSON.cc.s
 
 CommBasicObjectsJSON/PropertySetEntryJSON.o: CommBasicObjectsJSON/PropertySetEntryJSON.cc.o
@@ -1878,7 +1878,7 @@ CommBasicObjectsJSON/PropertySetEntryJSON.o: CommBasicObjectsJSON/PropertySetEnt
 
 # target to build an object file
 CommBasicObjectsJSON/PropertySetEntryJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/PropertySetEntryJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/PropertySetEntryJSON.cc.o
 .PHONY : CommBasicObjectsJSON/PropertySetEntryJSON.cc.o
 
 CommBasicObjectsJSON/PropertySetEntryJSON.i: CommBasicObjectsJSON/PropertySetEntryJSON.cc.i
@@ -1887,7 +1887,7 @@ CommBasicObjectsJSON/PropertySetEntryJSON.i: CommBasicObjectsJSON/PropertySetEnt
 
 # target to preprocess a source file
 CommBasicObjectsJSON/PropertySetEntryJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/PropertySetEntryJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/PropertySetEntryJSON.cc.i
 .PHONY : CommBasicObjectsJSON/PropertySetEntryJSON.cc.i
 
 CommBasicObjectsJSON/PropertySetEntryJSON.s: CommBasicObjectsJSON/PropertySetEntryJSON.cc.s
@@ -1896,7 +1896,7 @@ CommBasicObjectsJSON/PropertySetEntryJSON.s: CommBasicObjectsJSON/PropertySetEnt
 
 # target to generate assembly for a file
 CommBasicObjectsJSON/PropertySetEntryJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/PropertySetEntryJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommBasicObjectsJSON.dir/build.make toolify/CMakeFiles/CommBasicObjectsJSON.dir/CommBasicObjectsJSON/PropertySetEntryJSON.cc.s
 .PHONY : CommBasicObjectsJSON/PropertySetEntryJSON.cc.s
 
 # Help Target
@@ -2115,6 +2115,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

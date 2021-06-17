@@ -94,16 +94,16 @@ roboticMiddleware ACE_SmartSoft
 serviceName EnforcementReport_Push
 roboticMiddleware ACE_SmartSoft
 
-[Enforcement_QueryReply]
-serviceName Enforcement_QueryReply
+[Enforcement_QueryResponder]
+serviceName Enforcement_QueryResponder
 roboticMiddleware ACE_SmartSoft
 
 [Event_Creator]
 serviceName Event_Creator
 roboticMiddleware ACE_SmartSoft
 
-[Report_QueryReply]
-serviceName Report_QueryReply
+[Report_QueryResponder]
+serviceName Report_QueryResponder
 roboticMiddleware ACE_SmartSoft
 
 [TrafficLightsServiceOut]
@@ -114,6 +114,7 @@ roboticMiddleware ACE_SmartSoft
 # client port parameter
 
 [EnforcementInstruction_Push]
+initialConnect false
 serverName unknown
 serviceName unknown
 wiringName EnforcementInstruction_Push
@@ -137,6 +138,7 @@ interval 1
 roboticMiddleware ACE_SmartSoft
 
 [Event_Listener]
+initialConnect false
 serverName unknown
 serviceName unknown
 wiringName Event_Listener

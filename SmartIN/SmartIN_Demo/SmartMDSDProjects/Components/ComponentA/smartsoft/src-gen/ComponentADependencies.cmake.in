@@ -16,6 +16,6 @@
 
 # other CommunicationObject-dependencies are added here (if there are any)
 LIST(APPEND ComponentA_DEPENDENCIES CommBasicObjects)
-LIST(APPEND ComponentA_DEPENDENCIES SmartInstitutions_ServiceRepository)
+LIST(APPEND ComponentA_DEPENDENCIES SmartInstitutionsServiceRepository)
 
 LIST(REMOVE_DUPLICATES ComponentA_DEPENDENCIES)

@@ -97,7 +97,7 @@ void EventManagerCore::updateAllCommObjects()
 // this method is meant to be used in derived classes
 Smart::StatusCode EventManagerCore::event_CreatorPut(CommBasicObjects::CommTaskEventState &eventState)
 {
-	Smart::StatusCode result = COMP->event_Creator->put(eventState);
+	Smart::StatusCode result = COMP->event_CreatorWrapper->put(eventState);
 	if(useLogging == true) {
 		//FIXME: use logging
 		//Smart::LOGGER->log(pushLoggingId+1, getCurrentUpdateCount(), getPreviousCommObjId());

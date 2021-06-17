@@ -4,34 +4,34 @@ Activity EventManager
 	{
 		InputPortLink Event_Listener { oversamplingOk undersamplingOk }
 	}
-	InputPort Event_Listener implements SmartInstitutions_ServiceRepository.SmartIN_Event {
+	InputPort Event_Listener implements SmartInstitutionsServiceRepository.SmartIN_Event {
 	}
-	OutputPort Event_Creator implements SmartInstitutions_ServiceRepository.SmartIN_Event realizedBy EventManager {
+	OutputPort Event_Creator implements SmartInstitutionsServiceRepository.SmartIN_Event realizedBy EventManager {
 	}
-	AnswerPort Report_QueryReply implements SmartInstitutions_ServiceRepository.SmartIN_Enforcement_Report_Query {
+	AnswerPort Report_QueryResponder implements SmartInstitutionsServiceRepository.SmartIN_Enforcement_Report_Query {
 	}
-	RequestHandler Report_Query_Handler triggeredFrom Report_QueryReply {
+	RequestHandler Report_Query_Handler triggeredFrom Report_QueryResponder {
 	}
 	Activity ComplianceManager
 	{
 		InputPortLink EnforcementInstruction_Push { oversamplingOk undersamplingOk }
 		InputPortLink EnforcementInstruction_Send { oversamplingOk undersamplingOk }
 	}
-	AnswerPort Enforcement_QueryReply implements SmartInstitutions_ServiceRepository.SmartIN_Enforcement_Query {
+	AnswerPort Enforcement_QueryResponder implements SmartInstitutionsServiceRepository.SmartIN_Enforcement_Query {
 	}
-	RequestHandler Enforcement_Query_Handler triggeredFrom Enforcement_QueryReply {
+	RequestHandler Enforcement_Query_Handler triggeredFrom Enforcement_QueryResponder {
 	}
-	OutputPort EnforcementReport_Push implements SmartInstitutions_ServiceRepository.SmartIN_EnforcementReportPackage_Push realizedBy ComplianceManager {
+	OutputPort EnforcementReport_Push implements SmartInstitutionsServiceRepository.SmartIN_EnforcementReportPackage_Push realizedBy ComplianceManager {
 	}
-	OutputPort EnforcementReply_Push implements SmartInstitutions_ServiceRepository.SmartIN_EnforcementReplyPackage_Push realizedBy ComplianceManager {
+	OutputPort EnforcementReply_Push implements SmartInstitutionsServiceRepository.SmartIN_EnforcementReplyPackage_Push realizedBy ComplianceManager {
 	}
-	InputPort EnforcementInstruction_Push implements SmartInstitutions_ServiceRepository.SmartIN_EnforcementInstructionPackage_Push {
+	InputPort EnforcementInstruction_Push implements SmartInstitutionsServiceRepository.SmartIN_EnforcementInstructionPackage_Push {
 	}
-	InputPort EnforcementInstruction_Send implements SmartInstitutions_ServiceRepository.SmartIN_EnforcementInstructionPackage_Send {
+	InputPort EnforcementInstruction_Send implements SmartInstitutionsServiceRepository.SmartIN_EnforcementInstructionPackage_Send {
 	}
-	OutputPort EnforcementReport_Send implements SmartInstitutions_ServiceRepository.SmartIN_EnforcementReportPackage_Send realizedBy ComplianceManager {
+	OutputPort EnforcementReport_Send implements SmartInstitutionsServiceRepository.SmartIN_EnforcementReportPackage_Send realizedBy ComplianceManager {
 	}
-	OutputPort EnforcementReply_Send implements SmartInstitutions_ServiceRepository.SmartIN_EnforcementReplyPackage_Send realizedBy ComplianceManager {
+	OutputPort EnforcementReply_Send implements SmartInstitutionsServiceRepository.SmartIN_EnforcementReplyPackage_Send realizedBy ComplianceManager {
 	}
 	Activity ComponentActivity
 	{

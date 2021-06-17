@@ -21,7 +21,7 @@
 
 namespace CommBasicObjectsIDL
 {
-	const char * const REPO_HASH = "ba8e49c4865051516858c545b206b1b0";
+	const char * const REPO_HASH = "c7ea2c2b63bbd1bcc6d94df9a2dd38ff";
 	typedef std::list<std::string> HashList;
 };
 

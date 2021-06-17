@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft
+CMAKE_SOURCE_DIR = /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build
+CMAKE_BINARY_DIR = /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/CMakeFiles /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/SLAMCoordinationService/CMakeFiles/progress.marks
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 SLAMCoordinationService/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/CMakeFiles 0
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/CMakeFiles /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/SLAMCoordinationService/CMakeFiles/progress.marks
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 SLAMCoordinationService/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 SLAMCoordinationService/clean
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 SLAMCoordinationService/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 SLAMCoordinationService/preinstall
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 SLAMCoordinationService/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 SLAMCoordinationService/preinstall
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 SLAMCoordinationService/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/rule:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/rule
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/rule
 .PHONY : SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ SLAMCoordinationService: SLAMCoordinationService/CMakeFiles/SLAMCoordinationServ
 
 # fast build rule for target.
 SLAMCoordinationService/fast:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/build.make SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/build
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/build.make SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/build
 .PHONY : SLAMCoordinationService/fast
 
 SLAMCoordinationService.o: SLAMCoordinationService.cc.o
@@ -177,7 +177,7 @@ SLAMCoordinationService.o: SLAMCoordinationService.cc.o
 
 # target to build an object file
 SLAMCoordinationService.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/build.make SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/SLAMCoordinationService.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/build.make SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/SLAMCoordinationService.cc.o
 .PHONY : SLAMCoordinationService.cc.o
 
 SLAMCoordinationService.i: SLAMCoordinationService.cc.i
@@ -186,7 +186,7 @@ SLAMCoordinationService.i: SLAMCoordinationService.cc.i
 
 # target to preprocess a source file
 SLAMCoordinationService.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/build.make SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/SLAMCoordinationService.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/build.make SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/SLAMCoordinationService.cc.i
 .PHONY : SLAMCoordinationService.cc.i
 
 SLAMCoordinationService.s: SLAMCoordinationService.cc.s
@@ -195,7 +195,7 @@ SLAMCoordinationService.s: SLAMCoordinationService.cc.s
 
 # target to generate assembly for a file
 SLAMCoordinationService.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/build.make SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/SLAMCoordinationService.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/build.make SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/SLAMCoordinationService.cc.s
 .PHONY : SLAMCoordinationService.cc.s
 
 SLAMCoordinationServiceCore.o: SLAMCoordinationServiceCore.cc.o
@@ -204,7 +204,7 @@ SLAMCoordinationServiceCore.o: SLAMCoordinationServiceCore.cc.o
 
 # target to build an object file
 SLAMCoordinationServiceCore.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/build.make SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/SLAMCoordinationServiceCore.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/build.make SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/SLAMCoordinationServiceCore.cc.o
 .PHONY : SLAMCoordinationServiceCore.cc.o
 
 SLAMCoordinationServiceCore.i: SLAMCoordinationServiceCore.cc.i
@@ -213,7 +213,7 @@ SLAMCoordinationServiceCore.i: SLAMCoordinationServiceCore.cc.i
 
 # target to preprocess a source file
 SLAMCoordinationServiceCore.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/build.make SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/SLAMCoordinationServiceCore.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/build.make SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/SLAMCoordinationServiceCore.cc.i
 .PHONY : SLAMCoordinationServiceCore.cc.i
 
 SLAMCoordinationServiceCore.s: SLAMCoordinationServiceCore.cc.s
@@ -222,7 +222,7 @@ SLAMCoordinationServiceCore.s: SLAMCoordinationServiceCore.cc.s
 
 # target to generate assembly for a file
 SLAMCoordinationServiceCore.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/build.make SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/SLAMCoordinationServiceCore.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/build.make SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/SLAMCoordinationServiceCore.cc.s
 .PHONY : SLAMCoordinationServiceCore.cc.s
 
 SLAMCoordinationServiceRunTimeInterface.o: SLAMCoordinationServiceRunTimeInterface.cc.o
@@ -231,7 +231,7 @@ SLAMCoordinationServiceRunTimeInterface.o: SLAMCoordinationServiceRunTimeInterfa
 
 # target to build an object file
 SLAMCoordinationServiceRunTimeInterface.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/build.make SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/SLAMCoordinationServiceRunTimeInterface.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/build.make SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/SLAMCoordinationServiceRunTimeInterface.cc.o
 .PHONY : SLAMCoordinationServiceRunTimeInterface.cc.o
 
 SLAMCoordinationServiceRunTimeInterface.i: SLAMCoordinationServiceRunTimeInterface.cc.i
@@ -240,7 +240,7 @@ SLAMCoordinationServiceRunTimeInterface.i: SLAMCoordinationServiceRunTimeInterfa
 
 # target to preprocess a source file
 SLAMCoordinationServiceRunTimeInterface.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/build.make SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/SLAMCoordinationServiceRunTimeInterface.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/build.make SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/SLAMCoordinationServiceRunTimeInterface.cc.i
 .PHONY : SLAMCoordinationServiceRunTimeInterface.cc.i
 
 SLAMCoordinationServiceRunTimeInterface.s: SLAMCoordinationServiceRunTimeInterface.cc.s
@@ -249,7 +249,7 @@ SLAMCoordinationServiceRunTimeInterface.s: SLAMCoordinationServiceRunTimeInterfa
 
 # target to generate assembly for a file
 SLAMCoordinationServiceRunTimeInterface.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/build.make SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/SLAMCoordinationServiceRunTimeInterface.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/build.make SLAMCoordinationService/CMakeFiles/SLAMCoordinationService.dir/SLAMCoordinationServiceRunTimeInterface.cc.s
 .PHONY : SLAMCoordinationServiceRunTimeInterface.cc.s
 
 # Help Target
@@ -285,6 +285,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

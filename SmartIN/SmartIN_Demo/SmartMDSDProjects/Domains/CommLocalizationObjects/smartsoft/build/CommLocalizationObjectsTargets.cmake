@@ -45,14 +45,14 @@ unset(_expectedTargets)
 add_library(CommLocalizationObjects SHARED IMPORTED)
 
 set_target_properties(CommLocalizationObjects PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build;/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/src;/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/src-gen"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build;/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/src;/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/src-gen"
   INTERFACE_LINK_LIBRARIES "SmartXml;CommBasicObjects;ACE"
 )
 
 # Import target "CommLocalizationObjects" for configuration "Debug"
 set_property(TARGET CommLocalizationObjects APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(CommLocalizationObjects PROPERTIES
-  IMPORTED_LOCATION_DEBUG "/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/libCommLocalizationObjects.so.1.0.0"
+  IMPORTED_LOCATION_DEBUG "/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/libCommLocalizationObjects.so.1.0.0"
   IMPORTED_SONAME_DEBUG "libCommLocalizationObjects.so.1"
   )
 

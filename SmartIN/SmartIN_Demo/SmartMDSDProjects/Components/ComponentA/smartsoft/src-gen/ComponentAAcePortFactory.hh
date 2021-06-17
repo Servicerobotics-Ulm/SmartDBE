@@ -34,17 +34,17 @@ public:
 	virtual void initialize(ComponentA *component, int argc, char* argv[]) override;
 	virtual int onStartup() override;
 
-	virtual Smart::IPushClientPattern<SmartInstitutions_ServiceRepository::EnforcementInstructionPackage> * createEnforcementInstruction_Push() override;
-	virtual Smart::ISendClientPattern<SmartInstitutions_ServiceRepository::EnforcementReplyPackage> * createEnforcementReply_Send() override;
-	virtual Smart::ISendClientPattern<SmartInstitutions_ServiceRepository::EnforcementReportPackage> * createEnforcementReport_Send() override;
-	virtual Smart::IEventClientPattern<SmartInstitutions_ServiceRepository::SmartIN_Command, SmartInstitutions_ServiceRepository::SmartIN_EventType> * createEvent_Listener() override;
+	virtual Smart::IPushClientPattern<SmartInstitutionsServiceRepository::EnforcementInstructionPackage> * createEnforcementInstruction_Push() override;
+	virtual Smart::ISendClientPattern<SmartInstitutionsServiceRepository::EnforcementReplyPackage> * createEnforcementReply_Send() override;
+	virtual Smart::ISendClientPattern<SmartInstitutionsServiceRepository::EnforcementReportPackage> * createEnforcementReport_Send() override;
+	virtual Smart::IEventClientPattern<SmartInstitutionsServiceRepository::SmartIN_Command, SmartInstitutionsServiceRepository::SmartIN_EventType> * createEvent_Listener() override;
 	
-	virtual Smart::ISendServerPattern<SmartInstitutions_ServiceRepository::EnforcementInstructionPackage> * createEnforcementInstruction_Send(const std::string &serviceName) override;
-	virtual Smart::IPushServerPattern<SmartInstitutions_ServiceRepository::EnforcementReplyPackage> * createEnforcementReply_Push(const std::string &serviceName) override;
-	virtual Smart::IPushServerPattern<SmartInstitutions_ServiceRepository::EnforcementReportPackage> * createEnforcementReport_Push(const std::string &serviceName) override;
-	virtual Smart::IQueryServerPattern<SmartInstitutions_ServiceRepository::EnforcementInstructionPackage, SmartInstitutions_ServiceRepository::EnforcementReplyPackage> * createEnforcement_QueryReply(const std::string &serviceName) override;
-	virtual Smart::IEventServerPattern<SmartInstitutions_ServiceRepository::SmartIN_Command, SmartInstitutions_ServiceRepository::SmartIN_EventType, CommBasicObjects::CommTaskEventState> * createEvent_Creator(const std::string &serviceName, std::shared_ptr<Smart::IEventTestHandler<SmartInstitutions_ServiceRepository::SmartIN_Command, SmartInstitutions_ServiceRepository::SmartIN_EventType, CommBasicObjects::CommTaskEventState>> event_CreatorEventTestHandler) override;
-	virtual Smart::IQueryServerPattern<SmartInstitutions_ServiceRepository::MemberIdentifier, SmartInstitutions_ServiceRepository::EnforcementReportPackage> * createReport_QueryReply(const std::string &serviceName) override;
+	virtual Smart::ISendServerPattern<SmartInstitutionsServiceRepository::EnforcementInstructionPackage> * createEnforcementInstruction_Send(const std::string &serviceName) override;
+	virtual Smart::IPushServerPattern<SmartInstitutionsServiceRepository::EnforcementReplyPackage> * createEnforcementReply_Push(const std::string &serviceName) override;
+	virtual Smart::IPushServerPattern<SmartInstitutionsServiceRepository::EnforcementReportPackage> * createEnforcementReport_Push(const std::string &serviceName) override;
+	virtual Smart::IQueryServerPattern<SmartInstitutionsServiceRepository::EnforcementInstructionPackage, SmartInstitutionsServiceRepository::EnforcementReplyPackage> * createEnforcement_QueryResponder(const std::string &serviceName) override;
+	virtual Smart::IEventServerPattern<SmartInstitutionsServiceRepository::SmartIN_Command, SmartInstitutionsServiceRepository::SmartIN_EventType, CommBasicObjects::CommTaskEventState> * createEvent_Creator(const std::string &serviceName, std::shared_ptr<Smart::IEventTestHandler<SmartInstitutionsServiceRepository::SmartIN_Command, SmartInstitutionsServiceRepository::SmartIN_EventType, CommBasicObjects::CommTaskEventState>> event_CreatorEventTestHandler) override;
+	virtual Smart::IQueryServerPattern<SmartInstitutionsServiceRepository::MemberIdentifier, SmartInstitutionsServiceRepository::EnforcementReportPackage> * createReport_QueryResponder(const std::string &serviceName) override;
 	virtual Smart::IPushServerPattern<CommBasicObjects::CommTrafficLights> * createTrafficLightsServiceOut(const std::string &serviceName) override;
 	
 	// get a pointer to the internal component implementation

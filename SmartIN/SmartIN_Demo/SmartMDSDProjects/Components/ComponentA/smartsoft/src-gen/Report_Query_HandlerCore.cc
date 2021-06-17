@@ -19,11 +19,15 @@
 // include observers
 
 Report_Query_HandlerCore::Report_Query_HandlerCore(IQueryServer* server)
-:	Smart::IInputHandler<std::pair<Smart::QueryIdPtr,SmartInstitutions_ServiceRepository::MemberIdentifier>>(server)
+:	Smart::IInputHandler<std::pair<Smart::QueryIdPtr,SmartInstitutionsServiceRepository::MemberIdentifier>>(server)
 ,	server(server)
 {
-	
 }
+
+Report_Query_HandlerCore::~Report_Query_HandlerCore()
+{
+}
+
 
 void Report_Query_HandlerCore::updateAllCommObjects()
 {

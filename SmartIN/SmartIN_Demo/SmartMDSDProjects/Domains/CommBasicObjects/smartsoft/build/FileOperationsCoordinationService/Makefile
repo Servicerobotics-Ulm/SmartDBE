@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft
+CMAKE_SOURCE_DIR = /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build
+CMAKE_BINARY_DIR = /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/FileOperationsCoordinationService/CMakeFiles/progress.marks
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 FileOperationsCoordinationService/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles 0
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/FileOperationsCoordinationService/CMakeFiles/progress.marks
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 FileOperationsCoordinationService/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 FileOperationsCoordinationService/clean
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 FileOperationsCoordinationService/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 FileOperationsCoordinationService/preinstall
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 FileOperationsCoordinationService/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 FileOperationsCoordinationService/preinstall
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 FileOperationsCoordinationService/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/rule:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/rule
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/rule
 .PHONY : FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ FileOperationsCoordinationService: FileOperationsCoordinationService/CMakeFiles/
 
 # fast build rule for target.
 FileOperationsCoordinationService/fast:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/build.make FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/build
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/build.make FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/build
 .PHONY : FileOperationsCoordinationService/fast
 
 FileOperationsCoordinationService.o: FileOperationsCoordinationService.cc.o
@@ -177,7 +177,7 @@ FileOperationsCoordinationService.o: FileOperationsCoordinationService.cc.o
 
 # target to build an object file
 FileOperationsCoordinationService.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/build.make FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/FileOperationsCoordinationService.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/build.make FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/FileOperationsCoordinationService.cc.o
 .PHONY : FileOperationsCoordinationService.cc.o
 
 FileOperationsCoordinationService.i: FileOperationsCoordinationService.cc.i
@@ -186,7 +186,7 @@ FileOperationsCoordinationService.i: FileOperationsCoordinationService.cc.i
 
 # target to preprocess a source file
 FileOperationsCoordinationService.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/build.make FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/FileOperationsCoordinationService.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/build.make FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/FileOperationsCoordinationService.cc.i
 .PHONY : FileOperationsCoordinationService.cc.i
 
 FileOperationsCoordinationService.s: FileOperationsCoordinationService.cc.s
@@ -195,7 +195,7 @@ FileOperationsCoordinationService.s: FileOperationsCoordinationService.cc.s
 
 # target to generate assembly for a file
 FileOperationsCoordinationService.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/build.make FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/FileOperationsCoordinationService.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/build.make FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/FileOperationsCoordinationService.cc.s
 .PHONY : FileOperationsCoordinationService.cc.s
 
 FileOperationsCoordinationServiceCore.o: FileOperationsCoordinationServiceCore.cc.o
@@ -204,7 +204,7 @@ FileOperationsCoordinationServiceCore.o: FileOperationsCoordinationServiceCore.c
 
 # target to build an object file
 FileOperationsCoordinationServiceCore.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/build.make FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/FileOperationsCoordinationServiceCore.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/build.make FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/FileOperationsCoordinationServiceCore.cc.o
 .PHONY : FileOperationsCoordinationServiceCore.cc.o
 
 FileOperationsCoordinationServiceCore.i: FileOperationsCoordinationServiceCore.cc.i
@@ -213,7 +213,7 @@ FileOperationsCoordinationServiceCore.i: FileOperationsCoordinationServiceCore.c
 
 # target to preprocess a source file
 FileOperationsCoordinationServiceCore.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/build.make FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/FileOperationsCoordinationServiceCore.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/build.make FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/FileOperationsCoordinationServiceCore.cc.i
 .PHONY : FileOperationsCoordinationServiceCore.cc.i
 
 FileOperationsCoordinationServiceCore.s: FileOperationsCoordinationServiceCore.cc.s
@@ -222,7 +222,7 @@ FileOperationsCoordinationServiceCore.s: FileOperationsCoordinationServiceCore.c
 
 # target to generate assembly for a file
 FileOperationsCoordinationServiceCore.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/build.make FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/FileOperationsCoordinationServiceCore.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/build.make FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/FileOperationsCoordinationServiceCore.cc.s
 .PHONY : FileOperationsCoordinationServiceCore.cc.s
 
 FileOperationsCoordinationServiceFileEventEventHandlerCore.o: FileOperationsCoordinationServiceFileEventEventHandlerCore.cc.o
@@ -231,7 +231,7 @@ FileOperationsCoordinationServiceFileEventEventHandlerCore.o: FileOperationsCoor
 
 # target to build an object file
 FileOperationsCoordinationServiceFileEventEventHandlerCore.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/build.make FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/FileOperationsCoordinationServiceFileEventEventHandlerCore.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/build.make FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/FileOperationsCoordinationServiceFileEventEventHandlerCore.cc.o
 .PHONY : FileOperationsCoordinationServiceFileEventEventHandlerCore.cc.o
 
 FileOperationsCoordinationServiceFileEventEventHandlerCore.i: FileOperationsCoordinationServiceFileEventEventHandlerCore.cc.i
@@ -240,7 +240,7 @@ FileOperationsCoordinationServiceFileEventEventHandlerCore.i: FileOperationsCoor
 
 # target to preprocess a source file
 FileOperationsCoordinationServiceFileEventEventHandlerCore.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/build.make FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/FileOperationsCoordinationServiceFileEventEventHandlerCore.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/build.make FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/FileOperationsCoordinationServiceFileEventEventHandlerCore.cc.i
 .PHONY : FileOperationsCoordinationServiceFileEventEventHandlerCore.cc.i
 
 FileOperationsCoordinationServiceFileEventEventHandlerCore.s: FileOperationsCoordinationServiceFileEventEventHandlerCore.cc.s
@@ -249,7 +249,7 @@ FileOperationsCoordinationServiceFileEventEventHandlerCore.s: FileOperationsCoor
 
 # target to generate assembly for a file
 FileOperationsCoordinationServiceFileEventEventHandlerCore.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/build.make FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/FileOperationsCoordinationServiceFileEventEventHandlerCore.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/build.make FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/FileOperationsCoordinationServiceFileEventEventHandlerCore.cc.s
 .PHONY : FileOperationsCoordinationServiceFileEventEventHandlerCore.cc.s
 
 FileOperationsCoordinationServiceRunTimeInterface.o: FileOperationsCoordinationServiceRunTimeInterface.cc.o
@@ -258,7 +258,7 @@ FileOperationsCoordinationServiceRunTimeInterface.o: FileOperationsCoordinationS
 
 # target to build an object file
 FileOperationsCoordinationServiceRunTimeInterface.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/build.make FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/FileOperationsCoordinationServiceRunTimeInterface.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/build.make FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/FileOperationsCoordinationServiceRunTimeInterface.cc.o
 .PHONY : FileOperationsCoordinationServiceRunTimeInterface.cc.o
 
 FileOperationsCoordinationServiceRunTimeInterface.i: FileOperationsCoordinationServiceRunTimeInterface.cc.i
@@ -267,7 +267,7 @@ FileOperationsCoordinationServiceRunTimeInterface.i: FileOperationsCoordinationS
 
 # target to preprocess a source file
 FileOperationsCoordinationServiceRunTimeInterface.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/build.make FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/FileOperationsCoordinationServiceRunTimeInterface.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/build.make FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/FileOperationsCoordinationServiceRunTimeInterface.cc.i
 .PHONY : FileOperationsCoordinationServiceRunTimeInterface.cc.i
 
 FileOperationsCoordinationServiceRunTimeInterface.s: FileOperationsCoordinationServiceRunTimeInterface.cc.s
@@ -276,35 +276,35 @@ FileOperationsCoordinationServiceRunTimeInterface.s: FileOperationsCoordinationS
 
 # target to generate assembly for a file
 FileOperationsCoordinationServiceRunTimeInterface.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/build.make FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/FileOperationsCoordinationServiceRunTimeInterface.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/build.make FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/FileOperationsCoordinationServiceRunTimeInterface.cc.s
 .PHONY : FileOperationsCoordinationServiceRunTimeInterface.cc.s
 
-home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/FileOperationsCoordinationService/FileOperationsCoordinationServiceFileEventEventHandler.o: home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/FileOperationsCoordinationService/FileOperationsCoordinationServiceFileEventEventHandler.cc.o
+home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/FileOperationsCoordinationService/FileOperationsCoordinationServiceFileEventEventHandler.o: home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/FileOperationsCoordinationService/FileOperationsCoordinationServiceFileEventEventHandler.cc.o
 
-.PHONY : home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/FileOperationsCoordinationService/FileOperationsCoordinationServiceFileEventEventHandler.o
+.PHONY : home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/FileOperationsCoordinationService/FileOperationsCoordinationServiceFileEventEventHandler.o
 
 # target to build an object file
-home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/FileOperationsCoordinationService/FileOperationsCoordinationServiceFileEventEventHandler.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/build.make FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/FileOperationsCoordinationService/FileOperationsCoordinationServiceFileEventEventHandler.cc.o
-.PHONY : home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/FileOperationsCoordinationService/FileOperationsCoordinationServiceFileEventEventHandler.cc.o
+home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/FileOperationsCoordinationService/FileOperationsCoordinationServiceFileEventEventHandler.cc.o:
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/build.make FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/FileOperationsCoordinationService/FileOperationsCoordinationServiceFileEventEventHandler.cc.o
+.PHONY : home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/FileOperationsCoordinationService/FileOperationsCoordinationServiceFileEventEventHandler.cc.o
 
-home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/FileOperationsCoordinationService/FileOperationsCoordinationServiceFileEventEventHandler.i: home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/FileOperationsCoordinationService/FileOperationsCoordinationServiceFileEventEventHandler.cc.i
+home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/FileOperationsCoordinationService/FileOperationsCoordinationServiceFileEventEventHandler.i: home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/FileOperationsCoordinationService/FileOperationsCoordinationServiceFileEventEventHandler.cc.i
 
-.PHONY : home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/FileOperationsCoordinationService/FileOperationsCoordinationServiceFileEventEventHandler.i
+.PHONY : home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/FileOperationsCoordinationService/FileOperationsCoordinationServiceFileEventEventHandler.i
 
 # target to preprocess a source file
-home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/FileOperationsCoordinationService/FileOperationsCoordinationServiceFileEventEventHandler.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/build.make FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/FileOperationsCoordinationService/FileOperationsCoordinationServiceFileEventEventHandler.cc.i
-.PHONY : home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/FileOperationsCoordinationService/FileOperationsCoordinationServiceFileEventEventHandler.cc.i
+home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/FileOperationsCoordinationService/FileOperationsCoordinationServiceFileEventEventHandler.cc.i:
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/build.make FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/FileOperationsCoordinationService/FileOperationsCoordinationServiceFileEventEventHandler.cc.i
+.PHONY : home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/FileOperationsCoordinationService/FileOperationsCoordinationServiceFileEventEventHandler.cc.i
 
-home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/FileOperationsCoordinationService/FileOperationsCoordinationServiceFileEventEventHandler.s: home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/FileOperationsCoordinationService/FileOperationsCoordinationServiceFileEventEventHandler.cc.s
+home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/FileOperationsCoordinationService/FileOperationsCoordinationServiceFileEventEventHandler.s: home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/FileOperationsCoordinationService/FileOperationsCoordinationServiceFileEventEventHandler.cc.s
 
-.PHONY : home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/FileOperationsCoordinationService/FileOperationsCoordinationServiceFileEventEventHandler.s
+.PHONY : home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/FileOperationsCoordinationService/FileOperationsCoordinationServiceFileEventEventHandler.s
 
 # target to generate assembly for a file
-home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/FileOperationsCoordinationService/FileOperationsCoordinationServiceFileEventEventHandler.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/build.make FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/FileOperationsCoordinationService/FileOperationsCoordinationServiceFileEventEventHandler.cc.s
-.PHONY : home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/FileOperationsCoordinationService/FileOperationsCoordinationServiceFileEventEventHandler.cc.s
+home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/FileOperationsCoordinationService/FileOperationsCoordinationServiceFileEventEventHandler.cc.s:
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/build.make FileOperationsCoordinationService/CMakeFiles/FileOperationsCoordinationService.dir/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/FileOperationsCoordinationService/FileOperationsCoordinationServiceFileEventEventHandler.cc.s
+.PHONY : home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/FileOperationsCoordinationService/FileOperationsCoordinationServiceFileEventEventHandler.cc.s
 
 # Help Target
 help:
@@ -331,9 +331,9 @@ help:
 	@echo "... FileOperationsCoordinationServiceRunTimeInterface.o"
 	@echo "... FileOperationsCoordinationServiceRunTimeInterface.i"
 	@echo "... FileOperationsCoordinationServiceRunTimeInterface.s"
-	@echo "... home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/FileOperationsCoordinationService/FileOperationsCoordinationServiceFileEventEventHandler.o"
-	@echo "... home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/FileOperationsCoordinationService/FileOperationsCoordinationServiceFileEventEventHandler.i"
-	@echo "... home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/coordination/src/FileOperationsCoordinationService/FileOperationsCoordinationServiceFileEventEventHandler.s"
+	@echo "... home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/FileOperationsCoordinationService/FileOperationsCoordinationServiceFileEventEventHandler.o"
+	@echo "... home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/FileOperationsCoordinationService/FileOperationsCoordinationServiceFileEventEventHandler.i"
+	@echo "... home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/coordination/src/FileOperationsCoordinationService/FileOperationsCoordinationServiceFileEventEventHandler.s"
 .PHONY : help
 
 
@@ -345,6 +345,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

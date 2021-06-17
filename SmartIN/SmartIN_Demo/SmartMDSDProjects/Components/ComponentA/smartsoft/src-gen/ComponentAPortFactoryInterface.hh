@@ -22,18 +22,18 @@
 #include <CommBasicObjects/CommTaskEventStateACE.hh>
 #include <CommBasicObjects/CommTrafficLights.hh>
 #include <CommBasicObjects/CommTrafficLightsACE.hh>
-#include <SmartInstitutions_ServiceRepository/EnforcementInstructionPackage.hh>
-#include <SmartInstitutions_ServiceRepository/EnforcementInstructionPackageACE.hh>
-#include <SmartInstitutions_ServiceRepository/EnforcementReplyPackage.hh>
-#include <SmartInstitutions_ServiceRepository/EnforcementReplyPackageACE.hh>
-#include <SmartInstitutions_ServiceRepository/EnforcementReportPackage.hh>
-#include <SmartInstitutions_ServiceRepository/EnforcementReportPackageACE.hh>
-#include <SmartInstitutions_ServiceRepository/MemberIdentifier.hh>
-#include <SmartInstitutions_ServiceRepository/MemberIdentifierACE.hh>
-#include <SmartInstitutions_ServiceRepository/SmartIN_Command.hh>
-#include <SmartInstitutions_ServiceRepository/SmartIN_CommandACE.hh>
-#include <SmartInstitutions_ServiceRepository/SmartIN_EventType.hh>
-#include <SmartInstitutions_ServiceRepository/SmartIN_EventTypeACE.hh>
+#include <SmartInstitutionsServiceRepository/EnforcementInstructionPackage.hh>
+#include <SmartInstitutionsServiceRepository/EnforcementInstructionPackageACE.hh>
+#include <SmartInstitutionsServiceRepository/EnforcementReplyPackage.hh>
+#include <SmartInstitutionsServiceRepository/EnforcementReplyPackageACE.hh>
+#include <SmartInstitutionsServiceRepository/EnforcementReportPackage.hh>
+#include <SmartInstitutionsServiceRepository/EnforcementReportPackageACE.hh>
+#include <SmartInstitutionsServiceRepository/MemberIdentifier.hh>
+#include <SmartInstitutionsServiceRepository/MemberIdentifierACE.hh>
+#include <SmartInstitutionsServiceRepository/SmartIN_Command.hh>
+#include <SmartInstitutionsServiceRepository/SmartIN_CommandACE.hh>
+#include <SmartInstitutionsServiceRepository/SmartIN_EventType.hh>
+#include <SmartInstitutionsServiceRepository/SmartIN_EventTypeACE.hh>
 
 #include <chrono>
 
@@ -51,17 +51,17 @@ public:
 	virtual void initialize(ComponentA *component, int argc, char* argv[]) = 0;
 	virtual int onStartup() = 0;
 
-	virtual Smart::IPushClientPattern<SmartInstitutions_ServiceRepository::EnforcementInstructionPackage> * createEnforcementInstruction_Push() = 0;
-	virtual Smart::ISendClientPattern<SmartInstitutions_ServiceRepository::EnforcementReplyPackage> * createEnforcementReply_Send() = 0;
-	virtual Smart::ISendClientPattern<SmartInstitutions_ServiceRepository::EnforcementReportPackage> * createEnforcementReport_Send() = 0;
-	virtual Smart::IEventClientPattern<SmartInstitutions_ServiceRepository::SmartIN_Command, SmartInstitutions_ServiceRepository::SmartIN_EventType> * createEvent_Listener() = 0;
+	virtual Smart::IPushClientPattern<SmartInstitutionsServiceRepository::EnforcementInstructionPackage> * createEnforcementInstruction_Push() = 0;
+	virtual Smart::ISendClientPattern<SmartInstitutionsServiceRepository::EnforcementReplyPackage> * createEnforcementReply_Send() = 0;
+	virtual Smart::ISendClientPattern<SmartInstitutionsServiceRepository::EnforcementReportPackage> * createEnforcementReport_Send() = 0;
+	virtual Smart::IEventClientPattern<SmartInstitutionsServiceRepository::SmartIN_Command, SmartInstitutionsServiceRepository::SmartIN_EventType> * createEvent_Listener() = 0;
 	
-	virtual Smart::ISendServerPattern<SmartInstitutions_ServiceRepository::EnforcementInstructionPackage> * createEnforcementInstruction_Send(const std::string &serviceName) = 0;
-	virtual Smart::IPushServerPattern<SmartInstitutions_ServiceRepository::EnforcementReplyPackage> * createEnforcementReply_Push(const std::string &serviceName) = 0;
-	virtual Smart::IPushServerPattern<SmartInstitutions_ServiceRepository::EnforcementReportPackage> * createEnforcementReport_Push(const std::string &serviceName) = 0;
-	virtual Smart::IQueryServerPattern<SmartInstitutions_ServiceRepository::EnforcementInstructionPackage, SmartInstitutions_ServiceRepository::EnforcementReplyPackage> * createEnforcement_QueryReply(const std::string &serviceName) = 0;
-	virtual Smart::IEventServerPattern<SmartInstitutions_ServiceRepository::SmartIN_Command, SmartInstitutions_ServiceRepository::SmartIN_EventType, CommBasicObjects::CommTaskEventState> * createEvent_Creator(const std::string &serviceName, std::shared_ptr<Smart::IEventTestHandler<SmartInstitutions_ServiceRepository::SmartIN_Command, SmartInstitutions_ServiceRepository::SmartIN_EventType, CommBasicObjects::CommTaskEventState>> event_CreatorEventTestHandler) = 0;
-	virtual Smart::IQueryServerPattern<SmartInstitutions_ServiceRepository::MemberIdentifier, SmartInstitutions_ServiceRepository::EnforcementReportPackage> * createReport_QueryReply(const std::string &serviceName) = 0;
+	virtual Smart::ISendServerPattern<SmartInstitutionsServiceRepository::EnforcementInstructionPackage> * createEnforcementInstruction_Send(const std::string &serviceName) = 0;
+	virtual Smart::IPushServerPattern<SmartInstitutionsServiceRepository::EnforcementReplyPackage> * createEnforcementReply_Push(const std::string &serviceName) = 0;
+	virtual Smart::IPushServerPattern<SmartInstitutionsServiceRepository::EnforcementReportPackage> * createEnforcementReport_Push(const std::string &serviceName) = 0;
+	virtual Smart::IQueryServerPattern<SmartInstitutionsServiceRepository::EnforcementInstructionPackage, SmartInstitutionsServiceRepository::EnforcementReplyPackage> * createEnforcement_QueryResponder(const std::string &serviceName) = 0;
+	virtual Smart::IEventServerPattern<SmartInstitutionsServiceRepository::SmartIN_Command, SmartInstitutionsServiceRepository::SmartIN_EventType, CommBasicObjects::CommTaskEventState> * createEvent_Creator(const std::string &serviceName, std::shared_ptr<Smart::IEventTestHandler<SmartInstitutionsServiceRepository::SmartIN_Command, SmartInstitutionsServiceRepository::SmartIN_EventType, CommBasicObjects::CommTaskEventState>> event_CreatorEventTestHandler) = 0;
+	virtual Smart::IQueryServerPattern<SmartInstitutionsServiceRepository::MemberIdentifier, SmartInstitutionsServiceRepository::EnforcementReportPackage> * createReport_QueryResponder(const std::string &serviceName) = 0;
 	virtual Smart::IPushServerPattern<CommBasicObjects::CommTrafficLights> * createTrafficLightsServiceOut(const std::string &serviceName) = 0;
 
 	virtual int onShutdown(const std::chrono::steady_clock::duration &timeoutTime=std::chrono::seconds(2)) = 0;

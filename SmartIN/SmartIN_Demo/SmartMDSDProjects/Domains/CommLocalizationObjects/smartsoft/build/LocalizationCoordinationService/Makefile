@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft
+CMAKE_SOURCE_DIR = /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build
+CMAKE_BINARY_DIR = /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/CMakeFiles /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/LocalizationCoordinationService/CMakeFiles/progress.marks
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 LocalizationCoordinationService/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/CMakeFiles 0
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/CMakeFiles /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/LocalizationCoordinationService/CMakeFiles/progress.marks
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 LocalizationCoordinationService/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 LocalizationCoordinationService/clean
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 LocalizationCoordinationService/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 LocalizationCoordinationService/preinstall
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 LocalizationCoordinationService/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 LocalizationCoordinationService/preinstall
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 LocalizationCoordinationService/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/rule:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/rule
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/rule
 .PHONY : LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ LocalizationCoordinationService: LocalizationCoordinationService/CMakeFiles/Loca
 
 # fast build rule for target.
 LocalizationCoordinationService/fast:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/build.make LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/build
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/build.make LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/build
 .PHONY : LocalizationCoordinationService/fast
 
 LocalizationCoordinationService.o: LocalizationCoordinationService.cc.o
@@ -177,7 +177,7 @@ LocalizationCoordinationService.o: LocalizationCoordinationService.cc.o
 
 # target to build an object file
 LocalizationCoordinationService.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/build.make LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/LocalizationCoordinationService.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/build.make LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/LocalizationCoordinationService.cc.o
 .PHONY : LocalizationCoordinationService.cc.o
 
 LocalizationCoordinationService.i: LocalizationCoordinationService.cc.i
@@ -186,7 +186,7 @@ LocalizationCoordinationService.i: LocalizationCoordinationService.cc.i
 
 # target to preprocess a source file
 LocalizationCoordinationService.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/build.make LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/LocalizationCoordinationService.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/build.make LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/LocalizationCoordinationService.cc.i
 .PHONY : LocalizationCoordinationService.cc.i
 
 LocalizationCoordinationService.s: LocalizationCoordinationService.cc.s
@@ -195,7 +195,7 @@ LocalizationCoordinationService.s: LocalizationCoordinationService.cc.s
 
 # target to generate assembly for a file
 LocalizationCoordinationService.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/build.make LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/LocalizationCoordinationService.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/build.make LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/LocalizationCoordinationService.cc.s
 .PHONY : LocalizationCoordinationService.cc.s
 
 LocalizationCoordinationServiceCore.o: LocalizationCoordinationServiceCore.cc.o
@@ -204,7 +204,7 @@ LocalizationCoordinationServiceCore.o: LocalizationCoordinationServiceCore.cc.o
 
 # target to build an object file
 LocalizationCoordinationServiceCore.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/build.make LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/LocalizationCoordinationServiceCore.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/build.make LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/LocalizationCoordinationServiceCore.cc.o
 .PHONY : LocalizationCoordinationServiceCore.cc.o
 
 LocalizationCoordinationServiceCore.i: LocalizationCoordinationServiceCore.cc.i
@@ -213,7 +213,7 @@ LocalizationCoordinationServiceCore.i: LocalizationCoordinationServiceCore.cc.i
 
 # target to preprocess a source file
 LocalizationCoordinationServiceCore.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/build.make LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/LocalizationCoordinationServiceCore.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/build.make LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/LocalizationCoordinationServiceCore.cc.i
 .PHONY : LocalizationCoordinationServiceCore.cc.i
 
 LocalizationCoordinationServiceCore.s: LocalizationCoordinationServiceCore.cc.s
@@ -222,7 +222,7 @@ LocalizationCoordinationServiceCore.s: LocalizationCoordinationServiceCore.cc.s
 
 # target to generate assembly for a file
 LocalizationCoordinationServiceCore.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/build.make LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/LocalizationCoordinationServiceCore.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/build.make LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/LocalizationCoordinationServiceCore.cc.s
 .PHONY : LocalizationCoordinationServiceCore.cc.s
 
 LocalizationCoordinationServiceLocalizationEventEventHandlerCore.o: LocalizationCoordinationServiceLocalizationEventEventHandlerCore.cc.o
@@ -231,7 +231,7 @@ LocalizationCoordinationServiceLocalizationEventEventHandlerCore.o: Localization
 
 # target to build an object file
 LocalizationCoordinationServiceLocalizationEventEventHandlerCore.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/build.make LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/LocalizationCoordinationServiceLocalizationEventEventHandlerCore.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/build.make LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/LocalizationCoordinationServiceLocalizationEventEventHandlerCore.cc.o
 .PHONY : LocalizationCoordinationServiceLocalizationEventEventHandlerCore.cc.o
 
 LocalizationCoordinationServiceLocalizationEventEventHandlerCore.i: LocalizationCoordinationServiceLocalizationEventEventHandlerCore.cc.i
@@ -240,7 +240,7 @@ LocalizationCoordinationServiceLocalizationEventEventHandlerCore.i: Localization
 
 # target to preprocess a source file
 LocalizationCoordinationServiceLocalizationEventEventHandlerCore.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/build.make LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/LocalizationCoordinationServiceLocalizationEventEventHandlerCore.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/build.make LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/LocalizationCoordinationServiceLocalizationEventEventHandlerCore.cc.i
 .PHONY : LocalizationCoordinationServiceLocalizationEventEventHandlerCore.cc.i
 
 LocalizationCoordinationServiceLocalizationEventEventHandlerCore.s: LocalizationCoordinationServiceLocalizationEventEventHandlerCore.cc.s
@@ -249,7 +249,7 @@ LocalizationCoordinationServiceLocalizationEventEventHandlerCore.s: Localization
 
 # target to generate assembly for a file
 LocalizationCoordinationServiceLocalizationEventEventHandlerCore.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/build.make LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/LocalizationCoordinationServiceLocalizationEventEventHandlerCore.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/build.make LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/LocalizationCoordinationServiceLocalizationEventEventHandlerCore.cc.s
 .PHONY : LocalizationCoordinationServiceLocalizationEventEventHandlerCore.cc.s
 
 LocalizationCoordinationServiceRunTimeInterface.o: LocalizationCoordinationServiceRunTimeInterface.cc.o
@@ -258,7 +258,7 @@ LocalizationCoordinationServiceRunTimeInterface.o: LocalizationCoordinationServi
 
 # target to build an object file
 LocalizationCoordinationServiceRunTimeInterface.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/build.make LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/LocalizationCoordinationServiceRunTimeInterface.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/build.make LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/LocalizationCoordinationServiceRunTimeInterface.cc.o
 .PHONY : LocalizationCoordinationServiceRunTimeInterface.cc.o
 
 LocalizationCoordinationServiceRunTimeInterface.i: LocalizationCoordinationServiceRunTimeInterface.cc.i
@@ -267,7 +267,7 @@ LocalizationCoordinationServiceRunTimeInterface.i: LocalizationCoordinationServi
 
 # target to preprocess a source file
 LocalizationCoordinationServiceRunTimeInterface.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/build.make LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/LocalizationCoordinationServiceRunTimeInterface.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/build.make LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/LocalizationCoordinationServiceRunTimeInterface.cc.i
 .PHONY : LocalizationCoordinationServiceRunTimeInterface.cc.i
 
 LocalizationCoordinationServiceRunTimeInterface.s: LocalizationCoordinationServiceRunTimeInterface.cc.s
@@ -276,35 +276,35 @@ LocalizationCoordinationServiceRunTimeInterface.s: LocalizationCoordinationServi
 
 # target to generate assembly for a file
 LocalizationCoordinationServiceRunTimeInterface.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/build.make LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/LocalizationCoordinationServiceRunTimeInterface.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/build.make LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/LocalizationCoordinationServiceRunTimeInterface.cc.s
 .PHONY : LocalizationCoordinationServiceRunTimeInterface.cc.s
 
-home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/coordination/src/LocalizationCoordinationService/LocalizationCoordinationServiceLocalizationEventEventHandler.o: home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/coordination/src/LocalizationCoordinationService/LocalizationCoordinationServiceLocalizationEventEventHandler.cc.o
+home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/coordination/src/LocalizationCoordinationService/LocalizationCoordinationServiceLocalizationEventEventHandler.o: home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/coordination/src/LocalizationCoordinationService/LocalizationCoordinationServiceLocalizationEventEventHandler.cc.o
 
-.PHONY : home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/coordination/src/LocalizationCoordinationService/LocalizationCoordinationServiceLocalizationEventEventHandler.o
+.PHONY : home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/coordination/src/LocalizationCoordinationService/LocalizationCoordinationServiceLocalizationEventEventHandler.o
 
 # target to build an object file
-home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/coordination/src/LocalizationCoordinationService/LocalizationCoordinationServiceLocalizationEventEventHandler.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/build.make LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/coordination/src/LocalizationCoordinationService/LocalizationCoordinationServiceLocalizationEventEventHandler.cc.o
-.PHONY : home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/coordination/src/LocalizationCoordinationService/LocalizationCoordinationServiceLocalizationEventEventHandler.cc.o
+home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/coordination/src/LocalizationCoordinationService/LocalizationCoordinationServiceLocalizationEventEventHandler.cc.o:
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/build.make LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/coordination/src/LocalizationCoordinationService/LocalizationCoordinationServiceLocalizationEventEventHandler.cc.o
+.PHONY : home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/coordination/src/LocalizationCoordinationService/LocalizationCoordinationServiceLocalizationEventEventHandler.cc.o
 
-home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/coordination/src/LocalizationCoordinationService/LocalizationCoordinationServiceLocalizationEventEventHandler.i: home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/coordination/src/LocalizationCoordinationService/LocalizationCoordinationServiceLocalizationEventEventHandler.cc.i
+home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/coordination/src/LocalizationCoordinationService/LocalizationCoordinationServiceLocalizationEventEventHandler.i: home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/coordination/src/LocalizationCoordinationService/LocalizationCoordinationServiceLocalizationEventEventHandler.cc.i
 
-.PHONY : home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/coordination/src/LocalizationCoordinationService/LocalizationCoordinationServiceLocalizationEventEventHandler.i
+.PHONY : home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/coordination/src/LocalizationCoordinationService/LocalizationCoordinationServiceLocalizationEventEventHandler.i
 
 # target to preprocess a source file
-home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/coordination/src/LocalizationCoordinationService/LocalizationCoordinationServiceLocalizationEventEventHandler.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/build.make LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/coordination/src/LocalizationCoordinationService/LocalizationCoordinationServiceLocalizationEventEventHandler.cc.i
-.PHONY : home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/coordination/src/LocalizationCoordinationService/LocalizationCoordinationServiceLocalizationEventEventHandler.cc.i
+home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/coordination/src/LocalizationCoordinationService/LocalizationCoordinationServiceLocalizationEventEventHandler.cc.i:
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/build.make LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/coordination/src/LocalizationCoordinationService/LocalizationCoordinationServiceLocalizationEventEventHandler.cc.i
+.PHONY : home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/coordination/src/LocalizationCoordinationService/LocalizationCoordinationServiceLocalizationEventEventHandler.cc.i
 
-home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/coordination/src/LocalizationCoordinationService/LocalizationCoordinationServiceLocalizationEventEventHandler.s: home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/coordination/src/LocalizationCoordinationService/LocalizationCoordinationServiceLocalizationEventEventHandler.cc.s
+home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/coordination/src/LocalizationCoordinationService/LocalizationCoordinationServiceLocalizationEventEventHandler.s: home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/coordination/src/LocalizationCoordinationService/LocalizationCoordinationServiceLocalizationEventEventHandler.cc.s
 
-.PHONY : home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/coordination/src/LocalizationCoordinationService/LocalizationCoordinationServiceLocalizationEventEventHandler.s
+.PHONY : home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/coordination/src/LocalizationCoordinationService/LocalizationCoordinationServiceLocalizationEventEventHandler.s
 
 # target to generate assembly for a file
-home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/coordination/src/LocalizationCoordinationService/LocalizationCoordinationServiceLocalizationEventEventHandler.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/build.make LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/coordination/src/LocalizationCoordinationService/LocalizationCoordinationServiceLocalizationEventEventHandler.cc.s
-.PHONY : home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/coordination/src/LocalizationCoordinationService/LocalizationCoordinationServiceLocalizationEventEventHandler.cc.s
+home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/coordination/src/LocalizationCoordinationService/LocalizationCoordinationServiceLocalizationEventEventHandler.cc.s:
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/build.make LocalizationCoordinationService/CMakeFiles/LocalizationCoordinationService.dir/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/coordination/src/LocalizationCoordinationService/LocalizationCoordinationServiceLocalizationEventEventHandler.cc.s
+.PHONY : home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/coordination/src/LocalizationCoordinationService/LocalizationCoordinationServiceLocalizationEventEventHandler.cc.s
 
 # Help Target
 help:
@@ -331,9 +331,9 @@ help:
 	@echo "... LocalizationCoordinationServiceRunTimeInterface.o"
 	@echo "... LocalizationCoordinationServiceRunTimeInterface.i"
 	@echo "... LocalizationCoordinationServiceRunTimeInterface.s"
-	@echo "... home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/coordination/src/LocalizationCoordinationService/LocalizationCoordinationServiceLocalizationEventEventHandler.o"
-	@echo "... home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/coordination/src/LocalizationCoordinationService/LocalizationCoordinationServiceLocalizationEventEventHandler.i"
-	@echo "... home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/coordination/src/LocalizationCoordinationService/LocalizationCoordinationServiceLocalizationEventEventHandler.s"
+	@echo "... home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/coordination/src/LocalizationCoordinationService/LocalizationCoordinationServiceLocalizationEventEventHandler.o"
+	@echo "... home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/coordination/src/LocalizationCoordinationService/LocalizationCoordinationServiceLocalizationEventEventHandler.i"
+	@echo "... home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/coordination/src/LocalizationCoordinationService/LocalizationCoordinationServiceLocalizationEventEventHandler.s"
 .PHONY : help
 
 
@@ -345,6 +345,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

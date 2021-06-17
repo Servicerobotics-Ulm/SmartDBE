@@ -30,6 +30,23 @@ ComplianceManager::~ComplianceManager()
 }
 
 
+void ComplianceManager::on_EnforcementInstruction_Push(const SmartInstitutionsServiceRepository::EnforcementInstructionPackage &input)
+{
+	// upcall triggered from InputPort EnforcementInstruction_Push
+	// - use a local mutex here, because this upcal is called asynchroneously from outside of this task
+	// - do not use longer blocking calls here since this upcall blocks the InputPort EnforcementInstruction_Push
+	// - if you need to implement a long-running procedure, do so within the on_execute() method and in
+	//   there, use the method enforcementInstruction_PushGetUpdate(input) to get a copy of the input object
+}
+void ComplianceManager::on_EnforcementInstruction_Send(const SmartInstitutionsServiceRepository::EnforcementInstructionPackage &input)
+{
+	// upcall triggered from InputPort EnforcementInstruction_Send
+	// - use a local mutex here, because this upcal is called asynchroneously from outside of this task
+	// - do not use longer blocking calls here since this upcall blocks the InputPort EnforcementInstruction_Send
+	// - if you need to implement a long-running procedure, do so within the on_execute() method and in
+	//   there, use the method enforcementInstruction_SendGetUpdate(input) to get a copy of the input object
+}
+
 int ComplianceManager::on_entry()
 {
 	// do initialization procedures here, which are called once, each time the task is started
@@ -44,6 +61,22 @@ int ComplianceManager::on_execute()
 	
 	// to get the incoming data, use this methods:
 	Smart::StatusCode status;
+	SmartInstitutionsServiceRepository::EnforcementInstructionPackage enforcementInstruction_PushObject;
+	status = this->enforcementInstruction_PushGetUpdate(enforcementInstruction_PushObject);
+	if(status != Smart::SMART_OK) {
+		std::cerr << status << std::endl;
+		// return 0;
+	} else {
+		std::cout << "received: " << enforcementInstruction_PushObject << std::endl;
+	}
+	SmartInstitutionsServiceRepository::EnforcementInstructionPackage enforcementInstruction_SendObject;
+	status = this->enforcementInstruction_SendGetUpdate(enforcementInstruction_SendObject);
+	if(status != Smart::SMART_OK) {
+		std::cerr << status << std::endl;
+		// return 0;
+	} else {
+		std::cout << "received: " << enforcementInstruction_SendObject << std::endl;
+	}
 
 	std::cout << "Hello from ComplianceManager " << std::endl;
 

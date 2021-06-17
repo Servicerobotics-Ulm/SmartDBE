@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft
+CMAKE_SOURCE_DIR = /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build
+CMAKE_BINARY_DIR = /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build/CMakeFiles /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build/CorridorNavigationServerCoordinationService/CMakeFiles/progress.marks
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 CorridorNavigationServerCoordinationService/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build/CMakeFiles 0
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build/CMakeFiles /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build/CorridorNavigationServerCoordinationService/CMakeFiles/progress.marks
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 CorridorNavigationServerCoordinationService/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 CorridorNavigationServerCoordinationService/clean
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 CorridorNavigationServerCoordinationService/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 CorridorNavigationServerCoordinationService/preinstall
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 CorridorNavigationServerCoordinationService/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 CorridorNavigationServerCoordinationService/preinstall
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 CorridorNavigationServerCoordinationService/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 CorridorNavigationServerCoordinationService/CMakeFiles/CorridorNavigationServerCoordinationService.dir/rule:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 CorridorNavigationServerCoordinationService/CMakeFiles/CorridorNavigationServerCoordinationService.dir/rule
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 CorridorNavigationServerCoordinationService/CMakeFiles/CorridorNavigationServerCoordinationService.dir/rule
 .PHONY : CorridorNavigationServerCoordinationService/CMakeFiles/CorridorNavigationServerCoordinationService.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ CorridorNavigationServerCoordinationService: CorridorNavigationServerCoordinatio
 
 # fast build rule for target.
 CorridorNavigationServerCoordinationService/fast:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f CorridorNavigationServerCoordinationService/CMakeFiles/CorridorNavigationServerCoordinationService.dir/build.make CorridorNavigationServerCoordinationService/CMakeFiles/CorridorNavigationServerCoordinationService.dir/build
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f CorridorNavigationServerCoordinationService/CMakeFiles/CorridorNavigationServerCoordinationService.dir/build.make CorridorNavigationServerCoordinationService/CMakeFiles/CorridorNavigationServerCoordinationService.dir/build
 .PHONY : CorridorNavigationServerCoordinationService/fast
 
 CorridorNavigationServerCoordinationService.o: CorridorNavigationServerCoordinationService.cc.o
@@ -177,7 +177,7 @@ CorridorNavigationServerCoordinationService.o: CorridorNavigationServerCoordinat
 
 # target to build an object file
 CorridorNavigationServerCoordinationService.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f CorridorNavigationServerCoordinationService/CMakeFiles/CorridorNavigationServerCoordinationService.dir/build.make CorridorNavigationServerCoordinationService/CMakeFiles/CorridorNavigationServerCoordinationService.dir/CorridorNavigationServerCoordinationService.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f CorridorNavigationServerCoordinationService/CMakeFiles/CorridorNavigationServerCoordinationService.dir/build.make CorridorNavigationServerCoordinationService/CMakeFiles/CorridorNavigationServerCoordinationService.dir/CorridorNavigationServerCoordinationService.cc.o
 .PHONY : CorridorNavigationServerCoordinationService.cc.o
 
 CorridorNavigationServerCoordinationService.i: CorridorNavigationServerCoordinationService.cc.i
@@ -186,7 +186,7 @@ CorridorNavigationServerCoordinationService.i: CorridorNavigationServerCoordinat
 
 # target to preprocess a source file
 CorridorNavigationServerCoordinationService.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f CorridorNavigationServerCoordinationService/CMakeFiles/CorridorNavigationServerCoordinationService.dir/build.make CorridorNavigationServerCoordinationService/CMakeFiles/CorridorNavigationServerCoordinationService.dir/CorridorNavigationServerCoordinationService.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f CorridorNavigationServerCoordinationService/CMakeFiles/CorridorNavigationServerCoordinationService.dir/build.make CorridorNavigationServerCoordinationService/CMakeFiles/CorridorNavigationServerCoordinationService.dir/CorridorNavigationServerCoordinationService.cc.i
 .PHONY : CorridorNavigationServerCoordinationService.cc.i
 
 CorridorNavigationServerCoordinationService.s: CorridorNavigationServerCoordinationService.cc.s
@@ -195,7 +195,7 @@ CorridorNavigationServerCoordinationService.s: CorridorNavigationServerCoordinat
 
 # target to generate assembly for a file
 CorridorNavigationServerCoordinationService.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f CorridorNavigationServerCoordinationService/CMakeFiles/CorridorNavigationServerCoordinationService.dir/build.make CorridorNavigationServerCoordinationService/CMakeFiles/CorridorNavigationServerCoordinationService.dir/CorridorNavigationServerCoordinationService.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f CorridorNavigationServerCoordinationService/CMakeFiles/CorridorNavigationServerCoordinationService.dir/build.make CorridorNavigationServerCoordinationService/CMakeFiles/CorridorNavigationServerCoordinationService.dir/CorridorNavigationServerCoordinationService.cc.s
 .PHONY : CorridorNavigationServerCoordinationService.cc.s
 
 CorridorNavigationServerCoordinationServiceCore.o: CorridorNavigationServerCoordinationServiceCore.cc.o
@@ -204,7 +204,7 @@ CorridorNavigationServerCoordinationServiceCore.o: CorridorNavigationServerCoord
 
 # target to build an object file
 CorridorNavigationServerCoordinationServiceCore.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f CorridorNavigationServerCoordinationService/CMakeFiles/CorridorNavigationServerCoordinationService.dir/build.make CorridorNavigationServerCoordinationService/CMakeFiles/CorridorNavigationServerCoordinationService.dir/CorridorNavigationServerCoordinationServiceCore.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f CorridorNavigationServerCoordinationService/CMakeFiles/CorridorNavigationServerCoordinationService.dir/build.make CorridorNavigationServerCoordinationService/CMakeFiles/CorridorNavigationServerCoordinationService.dir/CorridorNavigationServerCoordinationServiceCore.cc.o
 .PHONY : CorridorNavigationServerCoordinationServiceCore.cc.o
 
 CorridorNavigationServerCoordinationServiceCore.i: CorridorNavigationServerCoordinationServiceCore.cc.i
@@ -213,7 +213,7 @@ CorridorNavigationServerCoordinationServiceCore.i: CorridorNavigationServerCoord
 
 # target to preprocess a source file
 CorridorNavigationServerCoordinationServiceCore.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f CorridorNavigationServerCoordinationService/CMakeFiles/CorridorNavigationServerCoordinationService.dir/build.make CorridorNavigationServerCoordinationService/CMakeFiles/CorridorNavigationServerCoordinationService.dir/CorridorNavigationServerCoordinationServiceCore.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f CorridorNavigationServerCoordinationService/CMakeFiles/CorridorNavigationServerCoordinationService.dir/build.make CorridorNavigationServerCoordinationService/CMakeFiles/CorridorNavigationServerCoordinationService.dir/CorridorNavigationServerCoordinationServiceCore.cc.i
 .PHONY : CorridorNavigationServerCoordinationServiceCore.cc.i
 
 CorridorNavigationServerCoordinationServiceCore.s: CorridorNavigationServerCoordinationServiceCore.cc.s
@@ -222,7 +222,7 @@ CorridorNavigationServerCoordinationServiceCore.s: CorridorNavigationServerCoord
 
 # target to generate assembly for a file
 CorridorNavigationServerCoordinationServiceCore.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f CorridorNavigationServerCoordinationService/CMakeFiles/CorridorNavigationServerCoordinationService.dir/build.make CorridorNavigationServerCoordinationService/CMakeFiles/CorridorNavigationServerCoordinationService.dir/CorridorNavigationServerCoordinationServiceCore.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f CorridorNavigationServerCoordinationService/CMakeFiles/CorridorNavigationServerCoordinationService.dir/build.make CorridorNavigationServerCoordinationService/CMakeFiles/CorridorNavigationServerCoordinationService.dir/CorridorNavigationServerCoordinationServiceCore.cc.s
 .PHONY : CorridorNavigationServerCoordinationServiceCore.cc.s
 
 CorridorNavigationServerCoordinationServiceRunTimeInterface.o: CorridorNavigationServerCoordinationServiceRunTimeInterface.cc.o
@@ -231,7 +231,7 @@ CorridorNavigationServerCoordinationServiceRunTimeInterface.o: CorridorNavigatio
 
 # target to build an object file
 CorridorNavigationServerCoordinationServiceRunTimeInterface.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f CorridorNavigationServerCoordinationService/CMakeFiles/CorridorNavigationServerCoordinationService.dir/build.make CorridorNavigationServerCoordinationService/CMakeFiles/CorridorNavigationServerCoordinationService.dir/CorridorNavigationServerCoordinationServiceRunTimeInterface.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f CorridorNavigationServerCoordinationService/CMakeFiles/CorridorNavigationServerCoordinationService.dir/build.make CorridorNavigationServerCoordinationService/CMakeFiles/CorridorNavigationServerCoordinationService.dir/CorridorNavigationServerCoordinationServiceRunTimeInterface.cc.o
 .PHONY : CorridorNavigationServerCoordinationServiceRunTimeInterface.cc.o
 
 CorridorNavigationServerCoordinationServiceRunTimeInterface.i: CorridorNavigationServerCoordinationServiceRunTimeInterface.cc.i
@@ -240,7 +240,7 @@ CorridorNavigationServerCoordinationServiceRunTimeInterface.i: CorridorNavigatio
 
 # target to preprocess a source file
 CorridorNavigationServerCoordinationServiceRunTimeInterface.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f CorridorNavigationServerCoordinationService/CMakeFiles/CorridorNavigationServerCoordinationService.dir/build.make CorridorNavigationServerCoordinationService/CMakeFiles/CorridorNavigationServerCoordinationService.dir/CorridorNavigationServerCoordinationServiceRunTimeInterface.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f CorridorNavigationServerCoordinationService/CMakeFiles/CorridorNavigationServerCoordinationService.dir/build.make CorridorNavigationServerCoordinationService/CMakeFiles/CorridorNavigationServerCoordinationService.dir/CorridorNavigationServerCoordinationServiceRunTimeInterface.cc.i
 .PHONY : CorridorNavigationServerCoordinationServiceRunTimeInterface.cc.i
 
 CorridorNavigationServerCoordinationServiceRunTimeInterface.s: CorridorNavigationServerCoordinationServiceRunTimeInterface.cc.s
@@ -249,7 +249,7 @@ CorridorNavigationServerCoordinationServiceRunTimeInterface.s: CorridorNavigatio
 
 # target to generate assembly for a file
 CorridorNavigationServerCoordinationServiceRunTimeInterface.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(MAKE) -f CorridorNavigationServerCoordinationService/CMakeFiles/CorridorNavigationServerCoordinationService.dir/build.make CorridorNavigationServerCoordinationService/CMakeFiles/CorridorNavigationServerCoordinationService.dir/CorridorNavigationServerCoordinationServiceRunTimeInterface.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(MAKE) -f CorridorNavigationServerCoordinationService/CMakeFiles/CorridorNavigationServerCoordinationService.dir/build.make CorridorNavigationServerCoordinationService/CMakeFiles/CorridorNavigationServerCoordinationService.dir/CorridorNavigationServerCoordinationServiceRunTimeInterface.cc.s
 .PHONY : CorridorNavigationServerCoordinationServiceRunTimeInterface.cc.s
 
 # Help Target
@@ -285,6 +285,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommNavigationObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommNavigationObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

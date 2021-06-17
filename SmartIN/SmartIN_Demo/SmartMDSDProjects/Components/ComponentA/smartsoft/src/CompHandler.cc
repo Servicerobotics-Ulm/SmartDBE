@@ -20,6 +20,14 @@
 #include <iostream>
 
 // include communication objects
+#include <CommBasicObjects/CommTaskEventState.hh>
+#include <CommBasicObjects/CommTrafficLights.hh>
+#include <SmartInstitutionsServiceRepository/EnforcementInstructionPackage.hh>
+#include <SmartInstitutionsServiceRepository/EnforcementReplyPackage.hh>
+#include <SmartInstitutionsServiceRepository/EnforcementReportPackage.hh>
+#include <SmartInstitutionsServiceRepository/MemberIdentifier.hh>
+#include <SmartInstitutionsServiceRepository/SmartIN_Command.hh>
+#include <SmartInstitutionsServiceRepository/SmartIN_EventType.hh>
 
 
 void CompHandler::onStartup() 

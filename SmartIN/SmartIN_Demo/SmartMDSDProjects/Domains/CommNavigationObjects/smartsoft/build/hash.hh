@@ -21,7 +21,7 @@
 
 namespace CommNavigationObjectsIDL
 {
-	const char * const REPO_HASH = "95d4546bdac297009d16d862d29b0c4f";
+	const char * const REPO_HASH = "31bb68d283c7e8eece6f9889c3e75021";
 	typedef std::list<std::string> HashList;
 };
 

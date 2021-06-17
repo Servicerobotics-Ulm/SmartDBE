@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft
+CMAKE_SOURCE_DIR = /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build
+CMAKE_BINARY_DIR = /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/DefaultCoordinationService/CMakeFiles/progress.marks
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 DefaultCoordinationService/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/CMakeFiles 0
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/DefaultCoordinationService/CMakeFiles/progress.marks
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 DefaultCoordinationService/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 DefaultCoordinationService/clean
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 DefaultCoordinationService/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 DefaultCoordinationService/preinstall
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 DefaultCoordinationService/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 DefaultCoordinationService/preinstall
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 DefaultCoordinationService/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/rule:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/rule
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/rule
 .PHONY : DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ DefaultCoordinationService: DefaultCoordinationService/CMakeFiles/DefaultCoordin
 
 # fast build rule for target.
 DefaultCoordinationService/fast:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/build.make DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/build
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/build.make DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/build
 .PHONY : DefaultCoordinationService/fast
 
 DefaultCoordinationService.o: DefaultCoordinationService.cc.o
@@ -177,7 +177,7 @@ DefaultCoordinationService.o: DefaultCoordinationService.cc.o
 
 # target to build an object file
 DefaultCoordinationService.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/build.make DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/DefaultCoordinationService.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/build.make DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/DefaultCoordinationService.cc.o
 .PHONY : DefaultCoordinationService.cc.o
 
 DefaultCoordinationService.i: DefaultCoordinationService.cc.i
@@ -186,7 +186,7 @@ DefaultCoordinationService.i: DefaultCoordinationService.cc.i
 
 # target to preprocess a source file
 DefaultCoordinationService.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/build.make DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/DefaultCoordinationService.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/build.make DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/DefaultCoordinationService.cc.i
 .PHONY : DefaultCoordinationService.cc.i
 
 DefaultCoordinationService.s: DefaultCoordinationService.cc.s
@@ -195,7 +195,7 @@ DefaultCoordinationService.s: DefaultCoordinationService.cc.s
 
 # target to generate assembly for a file
 DefaultCoordinationService.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/build.make DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/DefaultCoordinationService.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/build.make DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/DefaultCoordinationService.cc.s
 .PHONY : DefaultCoordinationService.cc.s
 
 DefaultCoordinationServiceCore.o: DefaultCoordinationServiceCore.cc.o
@@ -204,7 +204,7 @@ DefaultCoordinationServiceCore.o: DefaultCoordinationServiceCore.cc.o
 
 # target to build an object file
 DefaultCoordinationServiceCore.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/build.make DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/DefaultCoordinationServiceCore.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/build.make DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/DefaultCoordinationServiceCore.cc.o
 .PHONY : DefaultCoordinationServiceCore.cc.o
 
 DefaultCoordinationServiceCore.i: DefaultCoordinationServiceCore.cc.i
@@ -213,7 +213,7 @@ DefaultCoordinationServiceCore.i: DefaultCoordinationServiceCore.cc.i
 
 # target to preprocess a source file
 DefaultCoordinationServiceCore.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/build.make DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/DefaultCoordinationServiceCore.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/build.make DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/DefaultCoordinationServiceCore.cc.i
 .PHONY : DefaultCoordinationServiceCore.cc.i
 
 DefaultCoordinationServiceCore.s: DefaultCoordinationServiceCore.cc.s
@@ -222,7 +222,7 @@ DefaultCoordinationServiceCore.s: DefaultCoordinationServiceCore.cc.s
 
 # target to generate assembly for a file
 DefaultCoordinationServiceCore.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/build.make DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/DefaultCoordinationServiceCore.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/build.make DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/DefaultCoordinationServiceCore.cc.s
 .PHONY : DefaultCoordinationServiceCore.cc.s
 
 DefaultCoordinationServiceRunTimeInterface.o: DefaultCoordinationServiceRunTimeInterface.cc.o
@@ -231,7 +231,7 @@ DefaultCoordinationServiceRunTimeInterface.o: DefaultCoordinationServiceRunTimeI
 
 # target to build an object file
 DefaultCoordinationServiceRunTimeInterface.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/build.make DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/DefaultCoordinationServiceRunTimeInterface.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/build.make DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/DefaultCoordinationServiceRunTimeInterface.cc.o
 .PHONY : DefaultCoordinationServiceRunTimeInterface.cc.o
 
 DefaultCoordinationServiceRunTimeInterface.i: DefaultCoordinationServiceRunTimeInterface.cc.i
@@ -240,7 +240,7 @@ DefaultCoordinationServiceRunTimeInterface.i: DefaultCoordinationServiceRunTimeI
 
 # target to preprocess a source file
 DefaultCoordinationServiceRunTimeInterface.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/build.make DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/DefaultCoordinationServiceRunTimeInterface.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/build.make DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/DefaultCoordinationServiceRunTimeInterface.cc.i
 .PHONY : DefaultCoordinationServiceRunTimeInterface.cc.i
 
 DefaultCoordinationServiceRunTimeInterface.s: DefaultCoordinationServiceRunTimeInterface.cc.s
@@ -249,7 +249,7 @@ DefaultCoordinationServiceRunTimeInterface.s: DefaultCoordinationServiceRunTimeI
 
 # target to generate assembly for a file
 DefaultCoordinationServiceRunTimeInterface.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE) -f DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/build.make DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/DefaultCoordinationServiceRunTimeInterface.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(MAKE) -f DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/build.make DefaultCoordinationService/CMakeFiles/DefaultCoordinationService.dir/DefaultCoordinationServiceRunTimeInterface.cc.s
 .PHONY : DefaultCoordinationServiceRunTimeInterface.cc.s
 
 # Help Target
@@ -285,6 +285,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

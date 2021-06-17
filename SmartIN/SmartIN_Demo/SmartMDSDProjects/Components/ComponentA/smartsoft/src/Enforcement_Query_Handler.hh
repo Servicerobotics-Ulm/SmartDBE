@@ -25,6 +25,6 @@ protected:
 public:
 	Enforcement_Query_Handler(IQueryServer *server);
 	virtual ~Enforcement_Query_Handler() = default;
-	virtual void handleQuery(const QueryId &id, const SmartInstitutions_ServiceRepository::EnforcementInstructionPackage& request);
+	virtual void handleQuery(const QueryId &id, const SmartInstitutionsServiceRepository::EnforcementInstructionPackage& request);
 };
 #endif

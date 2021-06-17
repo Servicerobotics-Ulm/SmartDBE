@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft
+CMAKE_SOURCE_DIR = /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build
+CMAKE_BINARY_DIR = /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/CMakeFiles /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/toolify/CMakeFiles/progress.marks
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 toolify/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/CMakeFiles 0
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/CMakeFiles /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/toolify/CMakeFiles/progress.marks
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 toolify/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 toolify/clean
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 toolify/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 toolify/preinstall
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 toolify/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 toolify/preinstall
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 toolify/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/rule:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/rule
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f CMakeFiles/Makefile2 toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/rule
 .PHONY : toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ CommLocalizationObjectsJSON: toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/
 
 # fast build rule for target.
 CommLocalizationObjectsJSON/fast:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build
 .PHONY : CommLocalizationObjectsJSON/fast
 
 CommLocalizationObjectsJSON/CMatrixDouble22JSON.o: CommLocalizationObjectsJSON/CMatrixDouble22JSON.cc.o
@@ -177,7 +177,7 @@ CommLocalizationObjectsJSON/CMatrixDouble22JSON.o: CommLocalizationObjectsJSON/C
 
 # target to build an object file
 CommLocalizationObjectsJSON/CMatrixDouble22JSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CMatrixDouble22JSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CMatrixDouble22JSON.cc.o
 .PHONY : CommLocalizationObjectsJSON/CMatrixDouble22JSON.cc.o
 
 CommLocalizationObjectsJSON/CMatrixDouble22JSON.i: CommLocalizationObjectsJSON/CMatrixDouble22JSON.cc.i
@@ -186,7 +186,7 @@ CommLocalizationObjectsJSON/CMatrixDouble22JSON.i: CommLocalizationObjectsJSON/C
 
 # target to preprocess a source file
 CommLocalizationObjectsJSON/CMatrixDouble22JSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CMatrixDouble22JSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CMatrixDouble22JSON.cc.i
 .PHONY : CommLocalizationObjectsJSON/CMatrixDouble22JSON.cc.i
 
 CommLocalizationObjectsJSON/CMatrixDouble22JSON.s: CommLocalizationObjectsJSON/CMatrixDouble22JSON.cc.s
@@ -195,7 +195,7 @@ CommLocalizationObjectsJSON/CMatrixDouble22JSON.s: CommLocalizationObjectsJSON/C
 
 # target to generate assembly for a file
 CommLocalizationObjectsJSON/CMatrixDouble22JSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CMatrixDouble22JSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CMatrixDouble22JSON.cc.s
 .PHONY : CommLocalizationObjectsJSON/CMatrixDouble22JSON.cc.s
 
 CommLocalizationObjectsJSON/CPose2DJSON.o: CommLocalizationObjectsJSON/CPose2DJSON.cc.o
@@ -204,7 +204,7 @@ CommLocalizationObjectsJSON/CPose2DJSON.o: CommLocalizationObjectsJSON/CPose2DJS
 
 # target to build an object file
 CommLocalizationObjectsJSON/CPose2DJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CPose2DJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CPose2DJSON.cc.o
 .PHONY : CommLocalizationObjectsJSON/CPose2DJSON.cc.o
 
 CommLocalizationObjectsJSON/CPose2DJSON.i: CommLocalizationObjectsJSON/CPose2DJSON.cc.i
@@ -213,7 +213,7 @@ CommLocalizationObjectsJSON/CPose2DJSON.i: CommLocalizationObjectsJSON/CPose2DJS
 
 # target to preprocess a source file
 CommLocalizationObjectsJSON/CPose2DJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CPose2DJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CPose2DJSON.cc.i
 .PHONY : CommLocalizationObjectsJSON/CPose2DJSON.cc.i
 
 CommLocalizationObjectsJSON/CPose2DJSON.s: CommLocalizationObjectsJSON/CPose2DJSON.cc.s
@@ -222,7 +222,7 @@ CommLocalizationObjectsJSON/CPose2DJSON.s: CommLocalizationObjectsJSON/CPose2DJS
 
 # target to generate assembly for a file
 CommLocalizationObjectsJSON/CPose2DJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CPose2DJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CPose2DJSON.cc.s
 .PHONY : CommLocalizationObjectsJSON/CPose2DJSON.cc.s
 
 CommLocalizationObjectsJSON/CommAmclHypothesisJSON.o: CommLocalizationObjectsJSON/CommAmclHypothesisJSON.cc.o
@@ -231,7 +231,7 @@ CommLocalizationObjectsJSON/CommAmclHypothesisJSON.o: CommLocalizationObjectsJSO
 
 # target to build an object file
 CommLocalizationObjectsJSON/CommAmclHypothesisJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommAmclHypothesisJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommAmclHypothesisJSON.cc.o
 .PHONY : CommLocalizationObjectsJSON/CommAmclHypothesisJSON.cc.o
 
 CommLocalizationObjectsJSON/CommAmclHypothesisJSON.i: CommLocalizationObjectsJSON/CommAmclHypothesisJSON.cc.i
@@ -240,7 +240,7 @@ CommLocalizationObjectsJSON/CommAmclHypothesisJSON.i: CommLocalizationObjectsJSO
 
 # target to preprocess a source file
 CommLocalizationObjectsJSON/CommAmclHypothesisJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommAmclHypothesisJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommAmclHypothesisJSON.cc.i
 .PHONY : CommLocalizationObjectsJSON/CommAmclHypothesisJSON.cc.i
 
 CommLocalizationObjectsJSON/CommAmclHypothesisJSON.s: CommLocalizationObjectsJSON/CommAmclHypothesisJSON.cc.s
@@ -249,7 +249,7 @@ CommLocalizationObjectsJSON/CommAmclHypothesisJSON.s: CommLocalizationObjectsJSO
 
 # target to generate assembly for a file
 CommLocalizationObjectsJSON/CommAmclHypothesisJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommAmclHypothesisJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommAmclHypothesisJSON.cc.s
 .PHONY : CommLocalizationObjectsJSON/CommAmclHypothesisJSON.cc.s
 
 CommLocalizationObjectsJSON/CommAmclParticleJSON.o: CommLocalizationObjectsJSON/CommAmclParticleJSON.cc.o
@@ -258,7 +258,7 @@ CommLocalizationObjectsJSON/CommAmclParticleJSON.o: CommLocalizationObjectsJSON/
 
 # target to build an object file
 CommLocalizationObjectsJSON/CommAmclParticleJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommAmclParticleJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommAmclParticleJSON.cc.o
 .PHONY : CommLocalizationObjectsJSON/CommAmclParticleJSON.cc.o
 
 CommLocalizationObjectsJSON/CommAmclParticleJSON.i: CommLocalizationObjectsJSON/CommAmclParticleJSON.cc.i
@@ -267,7 +267,7 @@ CommLocalizationObjectsJSON/CommAmclParticleJSON.i: CommLocalizationObjectsJSON/
 
 # target to preprocess a source file
 CommLocalizationObjectsJSON/CommAmclParticleJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommAmclParticleJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommAmclParticleJSON.cc.i
 .PHONY : CommLocalizationObjectsJSON/CommAmclParticleJSON.cc.i
 
 CommLocalizationObjectsJSON/CommAmclParticleJSON.s: CommLocalizationObjectsJSON/CommAmclParticleJSON.cc.s
@@ -276,7 +276,7 @@ CommLocalizationObjectsJSON/CommAmclParticleJSON.s: CommLocalizationObjectsJSON/
 
 # target to generate assembly for a file
 CommLocalizationObjectsJSON/CommAmclParticleJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommAmclParticleJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommAmclParticleJSON.cc.s
 .PHONY : CommLocalizationObjectsJSON/CommAmclParticleJSON.cc.s
 
 CommLocalizationObjectsJSON/CommAmclVisualizationInfoJSON.o: CommLocalizationObjectsJSON/CommAmclVisualizationInfoJSON.cc.o
@@ -285,7 +285,7 @@ CommLocalizationObjectsJSON/CommAmclVisualizationInfoJSON.o: CommLocalizationObj
 
 # target to build an object file
 CommLocalizationObjectsJSON/CommAmclVisualizationInfoJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommAmclVisualizationInfoJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommAmclVisualizationInfoJSON.cc.o
 .PHONY : CommLocalizationObjectsJSON/CommAmclVisualizationInfoJSON.cc.o
 
 CommLocalizationObjectsJSON/CommAmclVisualizationInfoJSON.i: CommLocalizationObjectsJSON/CommAmclVisualizationInfoJSON.cc.i
@@ -294,7 +294,7 @@ CommLocalizationObjectsJSON/CommAmclVisualizationInfoJSON.i: CommLocalizationObj
 
 # target to preprocess a source file
 CommLocalizationObjectsJSON/CommAmclVisualizationInfoJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommAmclVisualizationInfoJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommAmclVisualizationInfoJSON.cc.i
 .PHONY : CommLocalizationObjectsJSON/CommAmclVisualizationInfoJSON.cc.i
 
 CommLocalizationObjectsJSON/CommAmclVisualizationInfoJSON.s: CommLocalizationObjectsJSON/CommAmclVisualizationInfoJSON.cc.s
@@ -303,7 +303,7 @@ CommLocalizationObjectsJSON/CommAmclVisualizationInfoJSON.s: CommLocalizationObj
 
 # target to generate assembly for a file
 CommLocalizationObjectsJSON/CommAmclVisualizationInfoJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommAmclVisualizationInfoJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommAmclVisualizationInfoJSON.cc.s
 .PHONY : CommLocalizationObjectsJSON/CommAmclVisualizationInfoJSON.cc.s
 
 CommLocalizationObjectsJSON/CommBeaconLocalizationRawDataJSON.o: CommLocalizationObjectsJSON/CommBeaconLocalizationRawDataJSON.cc.o
@@ -312,7 +312,7 @@ CommLocalizationObjectsJSON/CommBeaconLocalizationRawDataJSON.o: CommLocalizatio
 
 # target to build an object file
 CommLocalizationObjectsJSON/CommBeaconLocalizationRawDataJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommBeaconLocalizationRawDataJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommBeaconLocalizationRawDataJSON.cc.o
 .PHONY : CommLocalizationObjectsJSON/CommBeaconLocalizationRawDataJSON.cc.o
 
 CommLocalizationObjectsJSON/CommBeaconLocalizationRawDataJSON.i: CommLocalizationObjectsJSON/CommBeaconLocalizationRawDataJSON.cc.i
@@ -321,7 +321,7 @@ CommLocalizationObjectsJSON/CommBeaconLocalizationRawDataJSON.i: CommLocalizatio
 
 # target to preprocess a source file
 CommLocalizationObjectsJSON/CommBeaconLocalizationRawDataJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommBeaconLocalizationRawDataJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommBeaconLocalizationRawDataJSON.cc.i
 .PHONY : CommLocalizationObjectsJSON/CommBeaconLocalizationRawDataJSON.cc.i
 
 CommLocalizationObjectsJSON/CommBeaconLocalizationRawDataJSON.s: CommLocalizationObjectsJSON/CommBeaconLocalizationRawDataJSON.cc.s
@@ -330,7 +330,7 @@ CommLocalizationObjectsJSON/CommBeaconLocalizationRawDataJSON.s: CommLocalizatio
 
 # target to generate assembly for a file
 CommLocalizationObjectsJSON/CommBeaconLocalizationRawDataJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommBeaconLocalizationRawDataJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommBeaconLocalizationRawDataJSON.cc.s
 .PHONY : CommLocalizationObjectsJSON/CommBeaconLocalizationRawDataJSON.cc.s
 
 CommLocalizationObjectsJSON/CommBeaconMeasurementJSON.o: CommLocalizationObjectsJSON/CommBeaconMeasurementJSON.cc.o
@@ -339,7 +339,7 @@ CommLocalizationObjectsJSON/CommBeaconMeasurementJSON.o: CommLocalizationObjects
 
 # target to build an object file
 CommLocalizationObjectsJSON/CommBeaconMeasurementJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommBeaconMeasurementJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommBeaconMeasurementJSON.cc.o
 .PHONY : CommLocalizationObjectsJSON/CommBeaconMeasurementJSON.cc.o
 
 CommLocalizationObjectsJSON/CommBeaconMeasurementJSON.i: CommLocalizationObjectsJSON/CommBeaconMeasurementJSON.cc.i
@@ -348,7 +348,7 @@ CommLocalizationObjectsJSON/CommBeaconMeasurementJSON.i: CommLocalizationObjects
 
 # target to preprocess a source file
 CommLocalizationObjectsJSON/CommBeaconMeasurementJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommBeaconMeasurementJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommBeaconMeasurementJSON.cc.i
 .PHONY : CommLocalizationObjectsJSON/CommBeaconMeasurementJSON.cc.i
 
 CommLocalizationObjectsJSON/CommBeaconMeasurementJSON.s: CommLocalizationObjectsJSON/CommBeaconMeasurementJSON.cc.s
@@ -357,7 +357,7 @@ CommLocalizationObjectsJSON/CommBeaconMeasurementJSON.s: CommLocalizationObjects
 
 # target to generate assembly for a file
 CommLocalizationObjectsJSON/CommBeaconMeasurementJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommBeaconMeasurementJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommBeaconMeasurementJSON.cc.s
 .PHONY : CommLocalizationObjectsJSON/CommBeaconMeasurementJSON.cc.s
 
 CommLocalizationObjectsJSON/CommGpsFixJSON.o: CommLocalizationObjectsJSON/CommGpsFixJSON.cc.o
@@ -366,7 +366,7 @@ CommLocalizationObjectsJSON/CommGpsFixJSON.o: CommLocalizationObjectsJSON/CommGp
 
 # target to build an object file
 CommLocalizationObjectsJSON/CommGpsFixJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommGpsFixJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommGpsFixJSON.cc.o
 .PHONY : CommLocalizationObjectsJSON/CommGpsFixJSON.cc.o
 
 CommLocalizationObjectsJSON/CommGpsFixJSON.i: CommLocalizationObjectsJSON/CommGpsFixJSON.cc.i
@@ -375,7 +375,7 @@ CommLocalizationObjectsJSON/CommGpsFixJSON.i: CommLocalizationObjectsJSON/CommGp
 
 # target to preprocess a source file
 CommLocalizationObjectsJSON/CommGpsFixJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommGpsFixJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommGpsFixJSON.cc.i
 .PHONY : CommLocalizationObjectsJSON/CommGpsFixJSON.cc.i
 
 CommLocalizationObjectsJSON/CommGpsFixJSON.s: CommLocalizationObjectsJSON/CommGpsFixJSON.cc.s
@@ -384,7 +384,7 @@ CommLocalizationObjectsJSON/CommGpsFixJSON.s: CommLocalizationObjectsJSON/CommGp
 
 # target to generate assembly for a file
 CommLocalizationObjectsJSON/CommGpsFixJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommGpsFixJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommGpsFixJSON.cc.s
 .PHONY : CommLocalizationObjectsJSON/CommGpsFixJSON.cc.s
 
 CommLocalizationObjectsJSON/CommLocalizationEventParameterJSON.o: CommLocalizationObjectsJSON/CommLocalizationEventParameterJSON.cc.o
@@ -393,7 +393,7 @@ CommLocalizationObjectsJSON/CommLocalizationEventParameterJSON.o: CommLocalizati
 
 # target to build an object file
 CommLocalizationObjectsJSON/CommLocalizationEventParameterJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommLocalizationEventParameterJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommLocalizationEventParameterJSON.cc.o
 .PHONY : CommLocalizationObjectsJSON/CommLocalizationEventParameterJSON.cc.o
 
 CommLocalizationObjectsJSON/CommLocalizationEventParameterJSON.i: CommLocalizationObjectsJSON/CommLocalizationEventParameterJSON.cc.i
@@ -402,7 +402,7 @@ CommLocalizationObjectsJSON/CommLocalizationEventParameterJSON.i: CommLocalizati
 
 # target to preprocess a source file
 CommLocalizationObjectsJSON/CommLocalizationEventParameterJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommLocalizationEventParameterJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommLocalizationEventParameterJSON.cc.i
 .PHONY : CommLocalizationObjectsJSON/CommLocalizationEventParameterJSON.cc.i
 
 CommLocalizationObjectsJSON/CommLocalizationEventParameterJSON.s: CommLocalizationObjectsJSON/CommLocalizationEventParameterJSON.cc.s
@@ -411,7 +411,7 @@ CommLocalizationObjectsJSON/CommLocalizationEventParameterJSON.s: CommLocalizati
 
 # target to generate assembly for a file
 CommLocalizationObjectsJSON/CommLocalizationEventParameterJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommLocalizationEventParameterJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommLocalizationEventParameterJSON.cc.s
 .PHONY : CommLocalizationObjectsJSON/CommLocalizationEventParameterJSON.cc.s
 
 CommLocalizationObjectsJSON/CommLocalizationEventResultJSON.o: CommLocalizationObjectsJSON/CommLocalizationEventResultJSON.cc.o
@@ -420,7 +420,7 @@ CommLocalizationObjectsJSON/CommLocalizationEventResultJSON.o: CommLocalizationO
 
 # target to build an object file
 CommLocalizationObjectsJSON/CommLocalizationEventResultJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommLocalizationEventResultJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommLocalizationEventResultJSON.cc.o
 .PHONY : CommLocalizationObjectsJSON/CommLocalizationEventResultJSON.cc.o
 
 CommLocalizationObjectsJSON/CommLocalizationEventResultJSON.i: CommLocalizationObjectsJSON/CommLocalizationEventResultJSON.cc.i
@@ -429,7 +429,7 @@ CommLocalizationObjectsJSON/CommLocalizationEventResultJSON.i: CommLocalizationO
 
 # target to preprocess a source file
 CommLocalizationObjectsJSON/CommLocalizationEventResultJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommLocalizationEventResultJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommLocalizationEventResultJSON.cc.i
 .PHONY : CommLocalizationObjectsJSON/CommLocalizationEventResultJSON.cc.i
 
 CommLocalizationObjectsJSON/CommLocalizationEventResultJSON.s: CommLocalizationObjectsJSON/CommLocalizationEventResultJSON.cc.s
@@ -438,7 +438,7 @@ CommLocalizationObjectsJSON/CommLocalizationEventResultJSON.s: CommLocalizationO
 
 # target to generate assembly for a file
 CommLocalizationObjectsJSON/CommLocalizationEventResultJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommLocalizationEventResultJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommLocalizationEventResultJSON.cc.s
 .PHONY : CommLocalizationObjectsJSON/CommLocalizationEventResultJSON.cc.s
 
 CommLocalizationObjectsJSON/CommLocalizationZoneChangeJSON.o: CommLocalizationObjectsJSON/CommLocalizationZoneChangeJSON.cc.o
@@ -447,7 +447,7 @@ CommLocalizationObjectsJSON/CommLocalizationZoneChangeJSON.o: CommLocalizationOb
 
 # target to build an object file
 CommLocalizationObjectsJSON/CommLocalizationZoneChangeJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommLocalizationZoneChangeJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommLocalizationZoneChangeJSON.cc.o
 .PHONY : CommLocalizationObjectsJSON/CommLocalizationZoneChangeJSON.cc.o
 
 CommLocalizationObjectsJSON/CommLocalizationZoneChangeJSON.i: CommLocalizationObjectsJSON/CommLocalizationZoneChangeJSON.cc.i
@@ -456,7 +456,7 @@ CommLocalizationObjectsJSON/CommLocalizationZoneChangeJSON.i: CommLocalizationOb
 
 # target to preprocess a source file
 CommLocalizationObjectsJSON/CommLocalizationZoneChangeJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommLocalizationZoneChangeJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommLocalizationZoneChangeJSON.cc.i
 .PHONY : CommLocalizationObjectsJSON/CommLocalizationZoneChangeJSON.cc.i
 
 CommLocalizationObjectsJSON/CommLocalizationZoneChangeJSON.s: CommLocalizationObjectsJSON/CommLocalizationZoneChangeJSON.cc.s
@@ -465,7 +465,7 @@ CommLocalizationObjectsJSON/CommLocalizationZoneChangeJSON.s: CommLocalizationOb
 
 # target to generate assembly for a file
 CommLocalizationObjectsJSON/CommLocalizationZoneChangeJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommLocalizationZoneChangeJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommLocalizationZoneChangeJSON.cc.s
 .PHONY : CommLocalizationObjectsJSON/CommLocalizationZoneChangeJSON.cc.s
 
 CommLocalizationObjectsJSON/CommLocalizationZoneResultJSON.o: CommLocalizationObjectsJSON/CommLocalizationZoneResultJSON.cc.o
@@ -474,7 +474,7 @@ CommLocalizationObjectsJSON/CommLocalizationZoneResultJSON.o: CommLocalizationOb
 
 # target to build an object file
 CommLocalizationObjectsJSON/CommLocalizationZoneResultJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommLocalizationZoneResultJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommLocalizationZoneResultJSON.cc.o
 .PHONY : CommLocalizationObjectsJSON/CommLocalizationZoneResultJSON.cc.o
 
 CommLocalizationObjectsJSON/CommLocalizationZoneResultJSON.i: CommLocalizationObjectsJSON/CommLocalizationZoneResultJSON.cc.i
@@ -483,7 +483,7 @@ CommLocalizationObjectsJSON/CommLocalizationZoneResultJSON.i: CommLocalizationOb
 
 # target to preprocess a source file
 CommLocalizationObjectsJSON/CommLocalizationZoneResultJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommLocalizationZoneResultJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommLocalizationZoneResultJSON.cc.i
 .PHONY : CommLocalizationObjectsJSON/CommLocalizationZoneResultJSON.cc.i
 
 CommLocalizationObjectsJSON/CommLocalizationZoneResultJSON.s: CommLocalizationObjectsJSON/CommLocalizationZoneResultJSON.cc.s
@@ -492,7 +492,7 @@ CommLocalizationObjectsJSON/CommLocalizationZoneResultJSON.s: CommLocalizationOb
 
 # target to generate assembly for a file
 CommLocalizationObjectsJSON/CommLocalizationZoneResultJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommLocalizationZoneResultJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommLocalizationZoneResultJSON.cc.s
 .PHONY : CommLocalizationObjectsJSON/CommLocalizationZoneResultJSON.cc.s
 
 CommLocalizationObjectsJSON/CommViewpointLocationsJSON.o: CommLocalizationObjectsJSON/CommViewpointLocationsJSON.cc.o
@@ -501,7 +501,7 @@ CommLocalizationObjectsJSON/CommViewpointLocationsJSON.o: CommLocalizationObject
 
 # target to build an object file
 CommLocalizationObjectsJSON/CommViewpointLocationsJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommViewpointLocationsJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommViewpointLocationsJSON.cc.o
 .PHONY : CommLocalizationObjectsJSON/CommViewpointLocationsJSON.cc.o
 
 CommLocalizationObjectsJSON/CommViewpointLocationsJSON.i: CommLocalizationObjectsJSON/CommViewpointLocationsJSON.cc.i
@@ -510,7 +510,7 @@ CommLocalizationObjectsJSON/CommViewpointLocationsJSON.i: CommLocalizationObject
 
 # target to preprocess a source file
 CommLocalizationObjectsJSON/CommViewpointLocationsJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommViewpointLocationsJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommViewpointLocationsJSON.cc.i
 .PHONY : CommLocalizationObjectsJSON/CommViewpointLocationsJSON.cc.i
 
 CommLocalizationObjectsJSON/CommViewpointLocationsJSON.s: CommLocalizationObjectsJSON/CommViewpointLocationsJSON.cc.s
@@ -519,7 +519,7 @@ CommLocalizationObjectsJSON/CommViewpointLocationsJSON.s: CommLocalizationObject
 
 # target to generate assembly for a file
 CommLocalizationObjectsJSON/CommViewpointLocationsJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommViewpointLocationsJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommViewpointLocationsJSON.cc.s
 .PHONY : CommLocalizationObjectsJSON/CommViewpointLocationsJSON.cc.s
 
 CommLocalizationObjectsJSON/CommVisualLocalizationFeatureJSON.o: CommLocalizationObjectsJSON/CommVisualLocalizationFeatureJSON.cc.o
@@ -528,7 +528,7 @@ CommLocalizationObjectsJSON/CommVisualLocalizationFeatureJSON.o: CommLocalizatio
 
 # target to build an object file
 CommLocalizationObjectsJSON/CommVisualLocalizationFeatureJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommVisualLocalizationFeatureJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommVisualLocalizationFeatureJSON.cc.o
 .PHONY : CommLocalizationObjectsJSON/CommVisualLocalizationFeatureJSON.cc.o
 
 CommLocalizationObjectsJSON/CommVisualLocalizationFeatureJSON.i: CommLocalizationObjectsJSON/CommVisualLocalizationFeatureJSON.cc.i
@@ -537,7 +537,7 @@ CommLocalizationObjectsJSON/CommVisualLocalizationFeatureJSON.i: CommLocalizatio
 
 # target to preprocess a source file
 CommLocalizationObjectsJSON/CommVisualLocalizationFeatureJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommVisualLocalizationFeatureJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommVisualLocalizationFeatureJSON.cc.i
 .PHONY : CommLocalizationObjectsJSON/CommVisualLocalizationFeatureJSON.cc.i
 
 CommLocalizationObjectsJSON/CommVisualLocalizationFeatureJSON.s: CommLocalizationObjectsJSON/CommVisualLocalizationFeatureJSON.cc.s
@@ -546,7 +546,7 @@ CommLocalizationObjectsJSON/CommVisualLocalizationFeatureJSON.s: CommLocalizatio
 
 # target to generate assembly for a file
 CommLocalizationObjectsJSON/CommVisualLocalizationFeatureJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommVisualLocalizationFeatureJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommVisualLocalizationFeatureJSON.cc.s
 .PHONY : CommLocalizationObjectsJSON/CommVisualLocalizationFeatureJSON.cc.s
 
 CommLocalizationObjectsJSON/CommVisualLocalizationFeatureMapJSON.o: CommLocalizationObjectsJSON/CommVisualLocalizationFeatureMapJSON.cc.o
@@ -555,7 +555,7 @@ CommLocalizationObjectsJSON/CommVisualLocalizationFeatureMapJSON.o: CommLocaliza
 
 # target to build an object file
 CommLocalizationObjectsJSON/CommVisualLocalizationFeatureMapJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommVisualLocalizationFeatureMapJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommVisualLocalizationFeatureMapJSON.cc.o
 .PHONY : CommLocalizationObjectsJSON/CommVisualLocalizationFeatureMapJSON.cc.o
 
 CommLocalizationObjectsJSON/CommVisualLocalizationFeatureMapJSON.i: CommLocalizationObjectsJSON/CommVisualLocalizationFeatureMapJSON.cc.i
@@ -564,7 +564,7 @@ CommLocalizationObjectsJSON/CommVisualLocalizationFeatureMapJSON.i: CommLocaliza
 
 # target to preprocess a source file
 CommLocalizationObjectsJSON/CommVisualLocalizationFeatureMapJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommVisualLocalizationFeatureMapJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommVisualLocalizationFeatureMapJSON.cc.i
 .PHONY : CommLocalizationObjectsJSON/CommVisualLocalizationFeatureMapJSON.cc.i
 
 CommLocalizationObjectsJSON/CommVisualLocalizationFeatureMapJSON.s: CommLocalizationObjectsJSON/CommVisualLocalizationFeatureMapJSON.cc.s
@@ -573,7 +573,7 @@ CommLocalizationObjectsJSON/CommVisualLocalizationFeatureMapJSON.s: CommLocaliza
 
 # target to generate assembly for a file
 CommLocalizationObjectsJSON/CommVisualLocalizationFeatureMapJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommVisualLocalizationFeatureMapJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/CommVisualLocalizationFeatureMapJSON.cc.s
 .PHONY : CommLocalizationObjectsJSON/CommVisualLocalizationFeatureMapJSON.cc.s
 
 CommLocalizationObjectsJSON/LocalizationEventStateJSON.o: CommLocalizationObjectsJSON/LocalizationEventStateJSON.cc.o
@@ -582,7 +582,7 @@ CommLocalizationObjectsJSON/LocalizationEventStateJSON.o: CommLocalizationObject
 
 # target to build an object file
 CommLocalizationObjectsJSON/LocalizationEventStateJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/LocalizationEventStateJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/LocalizationEventStateJSON.cc.o
 .PHONY : CommLocalizationObjectsJSON/LocalizationEventStateJSON.cc.o
 
 CommLocalizationObjectsJSON/LocalizationEventStateJSON.i: CommLocalizationObjectsJSON/LocalizationEventStateJSON.cc.i
@@ -591,7 +591,7 @@ CommLocalizationObjectsJSON/LocalizationEventStateJSON.i: CommLocalizationObject
 
 # target to preprocess a source file
 CommLocalizationObjectsJSON/LocalizationEventStateJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/LocalizationEventStateJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/LocalizationEventStateJSON.cc.i
 .PHONY : CommLocalizationObjectsJSON/LocalizationEventStateJSON.cc.i
 
 CommLocalizationObjectsJSON/LocalizationEventStateJSON.s: CommLocalizationObjectsJSON/LocalizationEventStateJSON.cc.s
@@ -600,7 +600,7 @@ CommLocalizationObjectsJSON/LocalizationEventStateJSON.s: CommLocalizationObject
 
 # target to generate assembly for a file
 CommLocalizationObjectsJSON/LocalizationEventStateJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/LocalizationEventStateJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/LocalizationEventStateJSON.cc.s
 .PHONY : CommLocalizationObjectsJSON/LocalizationEventStateJSON.cc.s
 
 CommLocalizationObjectsJSON/ViewpointLocationJSON.o: CommLocalizationObjectsJSON/ViewpointLocationJSON.cc.o
@@ -609,7 +609,7 @@ CommLocalizationObjectsJSON/ViewpointLocationJSON.o: CommLocalizationObjectsJSON
 
 # target to build an object file
 CommLocalizationObjectsJSON/ViewpointLocationJSON.cc.o:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/ViewpointLocationJSON.cc.o
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/ViewpointLocationJSON.cc.o
 .PHONY : CommLocalizationObjectsJSON/ViewpointLocationJSON.cc.o
 
 CommLocalizationObjectsJSON/ViewpointLocationJSON.i: CommLocalizationObjectsJSON/ViewpointLocationJSON.cc.i
@@ -618,7 +618,7 @@ CommLocalizationObjectsJSON/ViewpointLocationJSON.i: CommLocalizationObjectsJSON
 
 # target to preprocess a source file
 CommLocalizationObjectsJSON/ViewpointLocationJSON.cc.i:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/ViewpointLocationJSON.cc.i
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/ViewpointLocationJSON.cc.i
 .PHONY : CommLocalizationObjectsJSON/ViewpointLocationJSON.cc.i
 
 CommLocalizationObjectsJSON/ViewpointLocationJSON.s: CommLocalizationObjectsJSON/ViewpointLocationJSON.cc.s
@@ -627,7 +627,7 @@ CommLocalizationObjectsJSON/ViewpointLocationJSON.s: CommLocalizationObjectsJSON
 
 # target to generate assembly for a file
 CommLocalizationObjectsJSON/ViewpointLocationJSON.cc.s:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/ViewpointLocationJSON.cc.s
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(MAKE) -f toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/build.make toolify/CMakeFiles/CommLocalizationObjectsJSON.dir/CommLocalizationObjectsJSON/ViewpointLocationJSON.cc.s
 .PHONY : CommLocalizationObjectsJSON/ViewpointLocationJSON.cc.s
 
 # Help Target
@@ -705,6 +705,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -19,11 +19,15 @@
 // include observers
 
 Enforcement_Query_HandlerCore::Enforcement_Query_HandlerCore(IQueryServer* server)
-:	Smart::IInputHandler<std::pair<Smart::QueryIdPtr,SmartInstitutions_ServiceRepository::EnforcementInstructionPackage>>(server)
+:	Smart::IInputHandler<std::pair<Smart::QueryIdPtr,SmartInstitutionsServiceRepository::EnforcementInstructionPackage>>(server)
 ,	server(server)
 {
-	
 }
+
+Enforcement_Query_HandlerCore::~Enforcement_Query_HandlerCore()
+{
+}
+
 
 void Enforcement_Query_HandlerCore::updateAllCommObjects()
 {

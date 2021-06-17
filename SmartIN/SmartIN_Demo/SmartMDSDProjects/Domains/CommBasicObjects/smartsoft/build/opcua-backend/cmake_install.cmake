@@ -1,4 +1,4 @@
-# Install script for directory: /home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/opcua-backend/src-gen
+# Install script for directory: /home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/opcua-backend/src-gen
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -18,8 +18,9 @@
 		
 #include "aceSmartSoft.hh"
 
-#include <SmartInstitutions_ServiceRepository/EnforcementReportPackage.hh>
-#include <SmartInstitutions_ServiceRepository/MemberIdentifier.hh>
+
+#include <SmartInstitutionsServiceRepository/EnforcementReportPackage.hh>
+#include <SmartInstitutionsServiceRepository/MemberIdentifier.hh>
 
 // include the input interfaces (if any)
 
@@ -27,13 +28,14 @@
 #include <Report_Query_HandlerObserverInterface.hh>
 
 class Report_Query_HandlerCore 
-:	public Smart::IInputHandler<std::pair<Smart::QueryIdPtr,SmartInstitutions_ServiceRepository::MemberIdentifier>>
+:	public Smart::IInputHandler<std::pair<Smart::QueryIdPtr,SmartInstitutionsServiceRepository::MemberIdentifier>>
 ,	public Smart::TaskTriggerSubject
 {
 private:
-virtual void handle_input(const std::pair<Smart::QueryIdPtr,SmartInstitutions_ServiceRepository::MemberIdentifier> &input) override {
-	this->handleQuery(input.first, input.second);
-}
+	// inputs are directly propagated to the implementation (passive handler)
+	virtual void handle_input(const std::pair<Smart::QueryIdPtr,SmartInstitutionsServiceRepository::MemberIdentifier> &input) override {
+		this->handleQuery(input.first, input.second);
+	}
 
 
 	virtual void updateAllCommObjects();
@@ -53,14 +55,14 @@ public:
 protected:
 	
 public:
-	using IQueryServer = Smart::IQueryServerPattern<SmartInstitutions_ServiceRepository::MemberIdentifier, SmartInstitutions_ServiceRepository::EnforcementReportPackage>;
+	using IQueryServer = Smart::IQueryServerPattern<SmartInstitutionsServiceRepository::MemberIdentifier, SmartInstitutionsServiceRepository::EnforcementReportPackage>;
 	using QueryId = Smart::QueryIdPtr;
 	Report_Query_HandlerCore(IQueryServer *server);
-	virtual ~Report_Query_HandlerCore() = default;
+	virtual ~Report_Query_HandlerCore();
 	
 protected:
 	IQueryServer *server;
 	//this user-method has to be implemented in derived classes
-	virtual void handleQuery(const QueryId &id, const SmartInstitutions_ServiceRepository::MemberIdentifier& request) = 0;
+	virtual void handleQuery(const QueryId &id, const SmartInstitutionsServiceRepository::MemberIdentifier& request) = 0;
 };
 #endif

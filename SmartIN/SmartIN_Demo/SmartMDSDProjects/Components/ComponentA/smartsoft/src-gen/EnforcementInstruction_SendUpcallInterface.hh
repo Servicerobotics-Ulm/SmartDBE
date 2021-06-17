@@ -16,13 +16,13 @@
 #ifndef _ENFORCEMENTINSTRUCTION_SEND_UPCALL_INTERFACE_HH
 #define _ENFORCEMENTINSTRUCTION_SEND_UPCALL_INTERFACE_HH
 
-#include "SmartInstitutions_ServiceRepository/EnforcementInstructionPackage.hh"
+#include "SmartInstitutionsServiceRepository/EnforcementInstructionPackage.hh"
 
 class EnforcementInstruction_SendUpcallInterface {
 public:
 	virtual ~EnforcementInstruction_SendUpcallInterface() {  }
 
-	virtual void on_EnforcementInstruction_Send(const SmartInstitutions_ServiceRepository::EnforcementInstructionPackage &input) = 0;
+	virtual void on_EnforcementInstruction_Send(const SmartInstitutionsServiceRepository::EnforcementInstructionPackage &input) = 0;
 };
 
 #endif

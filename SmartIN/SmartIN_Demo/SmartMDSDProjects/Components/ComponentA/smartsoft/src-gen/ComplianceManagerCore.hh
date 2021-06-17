@@ -23,10 +23,10 @@
 #include "EnforcementInstruction_SendUpcallInterface.hh"
 
 // include communication-objects for output ports
-#include <SmartInstitutions_ServiceRepository/EnforcementReplyPackage.hh>
-#include <SmartInstitutions_ServiceRepository/EnforcementReplyPackage.hh>
-#include <SmartInstitutions_ServiceRepository/EnforcementReportPackage.hh>
-#include <SmartInstitutions_ServiceRepository/EnforcementReportPackage.hh>
+#include <SmartInstitutionsServiceRepository/EnforcementReplyPackage.hh>
+#include <SmartInstitutionsServiceRepository/EnforcementReplyPackage.hh>
+#include <SmartInstitutionsServiceRepository/EnforcementReportPackage.hh>
+#include <SmartInstitutionsServiceRepository/EnforcementReportPackage.hh>
 
 // include all interaction-observer interfaces
 #include <ComplianceManagerObserverInterface.hh>
@@ -45,9 +45,9 @@ private:
 	unsigned int currentUpdateCount;
 	
 	Smart::StatusCode enforcementInstruction_PushStatus;
-	SmartInstitutions_ServiceRepository::EnforcementInstructionPackage enforcementInstruction_PushObject;
+	SmartInstitutionsServiceRepository::EnforcementInstructionPackage enforcementInstruction_PushObject;
 	Smart::StatusCode enforcementInstruction_SendStatus;
-	SmartInstitutions_ServiceRepository::EnforcementInstructionPackage enforcementInstruction_SendObject;
+	SmartInstitutionsServiceRepository::EnforcementInstructionPackage enforcementInstruction_SendObject;
 	
 	
 protected:
@@ -61,24 +61,24 @@ protected:
 	
 	
 	// overload and implement this method in derived classes to immediately get all incoming updates from EnforcementInstruction_Push (as soon as they arrive)
-	virtual void on_EnforcementInstruction_Push(const SmartInstitutions_ServiceRepository::EnforcementInstructionPackage &input) {
+	virtual void on_EnforcementInstruction_Push(const SmartInstitutionsServiceRepository::EnforcementInstructionPackage &input) {
 		// no-op
 	}
 	
 	// this method can be safely used from the thread in derived classes
-	inline Smart::StatusCode enforcementInstruction_PushGetUpdate(SmartInstitutions_ServiceRepository::EnforcementInstructionPackage &enforcementInstruction_PushObject) const
+	inline Smart::StatusCode enforcementInstruction_PushGetUpdate(SmartInstitutionsServiceRepository::EnforcementInstructionPackage &enforcementInstruction_PushObject) const
 	{
 		// copy local object buffer and return the last status code
 		enforcementInstruction_PushObject = this->enforcementInstruction_PushObject;
 		return enforcementInstruction_PushStatus;
 	}
 	// overload and implement this method in derived classes to immediately get all incoming updates from EnforcementInstruction_Send (as soon as they arrive)
-	virtual void on_EnforcementInstruction_Send(const SmartInstitutions_ServiceRepository::EnforcementInstructionPackage &input) {
+	virtual void on_EnforcementInstruction_Send(const SmartInstitutionsServiceRepository::EnforcementInstructionPackage &input) {
 		// no-op
 	}
 	
 	// this method can be safely used from the thread in derived classes
-	inline Smart::StatusCode enforcementInstruction_SendGetUpdate(SmartInstitutions_ServiceRepository::EnforcementInstructionPackage &enforcementInstruction_SendObject) const
+	inline Smart::StatusCode enforcementInstruction_SendGetUpdate(SmartInstitutionsServiceRepository::EnforcementInstructionPackage &enforcementInstruction_SendObject) const
 	{
 		// copy local object buffer and return the last status code
 		enforcementInstruction_SendObject = this->enforcementInstruction_SendObject;
@@ -86,13 +86,13 @@ protected:
 	}
 	
 	// this method is meant to be used in derived classes
-	Smart::StatusCode enforcementReply_PushPut(SmartInstitutions_ServiceRepository::EnforcementReplyPackage &enforcementReply_PushDataObject);
+	Smart::StatusCode enforcementReply_PushPut(SmartInstitutionsServiceRepository::EnforcementReplyPackage &enforcementReply_PushDataObject);
 	// this method is meant to be used in derived classes
-	Smart::StatusCode enforcementReply_SendPut(SmartInstitutions_ServiceRepository::EnforcementReplyPackage &enforcementReply_SendDataObject);
+	Smart::StatusCode enforcementReply_SendPut(SmartInstitutionsServiceRepository::EnforcementReplyPackage &enforcementReply_SendDataObject);
 	// this method is meant to be used in derived classes
-	Smart::StatusCode enforcementReport_PushPut(SmartInstitutions_ServiceRepository::EnforcementReportPackage &enforcementReport_PushDataObject);
+	Smart::StatusCode enforcementReport_PushPut(SmartInstitutionsServiceRepository::EnforcementReportPackage &enforcementReport_PushDataObject);
 	// this method is meant to be used in derived classes
-	Smart::StatusCode enforcementReport_SendPut(SmartInstitutions_ServiceRepository::EnforcementReportPackage &enforcementReport_SendDataObject);
+	Smart::StatusCode enforcementReport_SendPut(SmartInstitutionsServiceRepository::EnforcementReportPackage &enforcementReport_SendDataObject);
 	
 	
 /**

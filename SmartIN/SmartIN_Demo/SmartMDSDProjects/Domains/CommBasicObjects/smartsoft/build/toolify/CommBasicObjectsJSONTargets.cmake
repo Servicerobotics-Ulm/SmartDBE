@@ -45,14 +45,14 @@ unset(_expectedTargets)
 add_library(CommBasicObjectsJSON SHARED IMPORTED)
 
 set_target_properties(CommBasicObjectsJSON PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/toolify/src-gen"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/toolify/src-gen"
   INTERFACE_LINK_LIBRARIES "CommBasicObjects;nlohmann_json::nlohmann_json"
 )
 
 # Import target "CommBasicObjectsJSON" for configuration "Debug"
 set_property(TARGET CommBasicObjectsJSON APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(CommBasicObjectsJSON PROPERTIES
-  IMPORTED_LOCATION_DEBUG "/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/toolify/libCommBasicObjectsJSON.so.1.0"
+  IMPORTED_LOCATION_DEBUG "/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommBasicObjects/smartsoft/build/toolify/libCommBasicObjectsJSON.so.1.0"
   IMPORTED_SONAME_DEBUG "libCommBasicObjectsJSON.so.1"
   )
 

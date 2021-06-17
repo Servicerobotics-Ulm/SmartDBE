@@ -39,27 +39,36 @@ ComponentA::ComponentA()
 	enforcementInstruction_Push = NULL;
 	enforcementInstruction_PushInputTaskTrigger = NULL;
 	enforcementInstruction_PushUpcallManager = NULL;
+	enforcementInstruction_PushInputCollector = NULL;
 	enforcementInstruction_Send = NULL;
 	enforcementInstruction_SendInputTaskTrigger = NULL;
 	enforcementInstruction_SendUpcallManager = NULL;
+	enforcementInstruction_SendInputCollector = NULL;
 	enforcementReply_Push = NULL;
+	enforcementReply_PushWrapper = NULL;
 	enforcementReply_Send = NULL;
+	enforcementReply_SendWrapper = NULL;
 	enforcementReport_Push = NULL;
+	enforcementReport_PushWrapper = NULL;
 	enforcementReport_Send = NULL;
-	enforcement_QueryReply = NULL;
-	enforcement_QueryReplyInputTaskTrigger = NULL;
+	enforcementReport_SendWrapper = NULL;
+	enforcement_QueryResponder = NULL;
+	enforcement_QueryResponderInputTaskTrigger = NULL;
 	enforcement_Query_Handler = NULL;
 	eventManager = NULL;
 	eventManagerTrigger = NULL;
 	event_Creator = NULL;
+	event_CreatorWrapper = NULL;
 	event_CreatorEventTestHandler = nullptr; 
 	event_Listener = NULL;
 	event_ListenerInputTaskTrigger = NULL;
 	event_ListenerUpcallManager = NULL;
-	report_QueryReply = NULL;
-	report_QueryReplyInputTaskTrigger = NULL;
+	event_ListenerInputCollector = NULL;
+	report_QueryResponder = NULL;
+	report_QueryResponderInputTaskTrigger = NULL;
 	report_Query_Handler = NULL;
 	trafficLightsServiceOut = NULL;
+	trafficLightsServiceOutWrapper = NULL;
 	stateChangeHandler = NULL;
 	stateSlave = NULL;
 	wiringSlave = NULL;
@@ -76,14 +85,15 @@ ComponentA::ComponentA()
 	connections.enforcementReply_Push.roboticMiddleware = "ACE_SmartSoft";
 	connections.enforcementReport_Push.serviceName = "EnforcementReport_Push";
 	connections.enforcementReport_Push.roboticMiddleware = "ACE_SmartSoft";
-	connections.enforcement_QueryReply.serviceName = "Enforcement_QueryReply";
-	connections.enforcement_QueryReply.roboticMiddleware = "ACE_SmartSoft";
+	connections.enforcement_QueryResponder.serviceName = "Enforcement_QueryResponder";
+	connections.enforcement_QueryResponder.roboticMiddleware = "ACE_SmartSoft";
 	connections.event_Creator.serviceName = "Event_Creator";
 	connections.event_Creator.roboticMiddleware = "ACE_SmartSoft";
-	connections.report_QueryReply.serviceName = "Report_QueryReply";
-	connections.report_QueryReply.roboticMiddleware = "ACE_SmartSoft";
+	connections.report_QueryResponder.serviceName = "Report_QueryResponder";
+	connections.report_QueryResponder.roboticMiddleware = "ACE_SmartSoft";
 	connections.trafficLightsServiceOut.serviceName = "TrafficLightsServiceOut";
 	connections.trafficLightsServiceOut.roboticMiddleware = "ACE_SmartSoft";
+	connections.enforcementInstruction_Push.initialConnect = false;
 	connections.enforcementInstruction_Push.wiringName = "EnforcementInstruction_Push";
 	connections.enforcementInstruction_Push.serverName = "unknown";
 	connections.enforcementInstruction_Push.serviceName = "unknown";
@@ -101,6 +111,7 @@ ComponentA::ComponentA()
 	connections.enforcementReport_Send.serviceName = "unknown";
 	connections.enforcementReport_Send.interval = 1;
 	connections.enforcementReport_Send.roboticMiddleware = "ACE_SmartSoft";
+	connections.event_Listener.initialConnect = false;
 	connections.event_Listener.wiringName = "Event_Listener";
 	connections.event_Listener.serverName = "unknown";
 	connections.event_Listener.serviceName = "unknown";
@@ -124,8 +135,6 @@ ComponentA::ComponentA()
 	connections.eventManager.scheduler = "DEFAULT";
 	connections.eventManager.priority = -1;
 	connections.eventManager.cpuAffinity = -1;
-	
-	// initialize members of PlainOpcUaComponentAExtension
 	
 }
 
@@ -160,6 +169,9 @@ void ComponentA::setStartupFinished() {
 Smart::StatusCode ComponentA::connectEnforcementInstruction_Push(const std::string &serverName, const std::string &serviceName) {
 	Smart::StatusCode status;
 	
+	if(connections.enforcementInstruction_Push.initialConnect == false) {
+		return Smart::SMART_OK;
+	}
 	std::cout << "connecting to: " << serverName << "; " << serviceName << std::endl;
 	status = enforcementInstruction_Push->connect(serverName, serviceName);
 	while(status != Smart::SMART_OK)
@@ -206,6 +218,9 @@ Smart::StatusCode ComponentA::connectEnforcementReport_Send(const std::string &s
 Smart::StatusCode ComponentA::connectEvent_Listener(const std::string &serverName, const std::string &serviceName) {
 	Smart::StatusCode status;
 	
+	if(connections.event_Listener.initialConnect == false) {
+		return Smart::SMART_OK;
+	}
 	std::cout << "connecting to: " << serverName << "; " << serviceName << std::endl;
 	status = event_Listener->connect(serverName, serviceName);
 	while(status != Smart::SMART_OK)
@@ -310,8 +325,6 @@ void ComponentA::init(int argc, char *argv[])
 		loadParameter(argc, argv);
 		
 		
-		// initializations of PlainOpcUaComponentAExtension
-		
 		
 		// initialize all registered port-factories
 		for(auto portFactory = portFactoryRegistry.begin(); portFactory != portFactoryRegistry.end(); portFactory++) 
@@ -349,34 +362,43 @@ void ComponentA::init(int argc, char *argv[])
 		// TODO: set minCycleTime from Ini-file
 		enforcementInstruction_Send = portFactoryRegistry[connections.enforcementInstruction_Send.roboticMiddleware]->createEnforcementInstruction_Send(connections.enforcementInstruction_Send.serviceName);
 		enforcementReply_Push = portFactoryRegistry[connections.enforcementReply_Push.roboticMiddleware]->createEnforcementReply_Push(connections.enforcementReply_Push.serviceName);
+		enforcementReply_PushWrapper = new EnforcementReply_PushWrapper(enforcementReply_Push);
 		enforcementReport_Push = portFactoryRegistry[connections.enforcementReport_Push.roboticMiddleware]->createEnforcementReport_Push(connections.enforcementReport_Push.serviceName);
-		enforcement_QueryReply = portFactoryRegistry[connections.enforcement_QueryReply.roboticMiddleware]->createEnforcement_QueryReply(connections.enforcement_QueryReply.serviceName);
-		enforcement_QueryReplyInputTaskTrigger = new Smart::QueryServerTaskTrigger<SmartInstitutions_ServiceRepository::EnforcementInstructionPackage, SmartInstitutions_ServiceRepository::EnforcementReplyPackage>(enforcement_QueryReply);
+		enforcementReport_PushWrapper = new EnforcementReport_PushWrapper(enforcementReport_Push);
+		enforcement_QueryResponder = portFactoryRegistry[connections.enforcement_QueryResponder.roboticMiddleware]->createEnforcement_QueryResponder(connections.enforcement_QueryResponder.serviceName);
+		enforcement_QueryResponderInputTaskTrigger = new Smart::QueryServerTaskTrigger<SmartInstitutionsServiceRepository::EnforcementInstructionPackage, SmartInstitutionsServiceRepository::EnforcementReplyPackage>(enforcement_QueryResponder);
 		event_CreatorEventTestHandler = std::make_shared<Event_CreatorEventTestHandler>();
 		event_Creator = portFactoryRegistry[connections.event_Creator.roboticMiddleware]->createEvent_Creator(connections.event_Creator.serviceName, event_CreatorEventTestHandler);
-		report_QueryReply = portFactoryRegistry[connections.report_QueryReply.roboticMiddleware]->createReport_QueryReply(connections.report_QueryReply.serviceName);
-		report_QueryReplyInputTaskTrigger = new Smart::QueryServerTaskTrigger<SmartInstitutions_ServiceRepository::MemberIdentifier, SmartInstitutions_ServiceRepository::EnforcementReportPackage>(report_QueryReply);
+		event_CreatorWrapper = new Event_CreatorWrapper(event_Creator);
+		report_QueryResponder = portFactoryRegistry[connections.report_QueryResponder.roboticMiddleware]->createReport_QueryResponder(connections.report_QueryResponder.serviceName);
+		report_QueryResponderInputTaskTrigger = new Smart::QueryServerTaskTrigger<SmartInstitutionsServiceRepository::MemberIdentifier, SmartInstitutionsServiceRepository::EnforcementReportPackage>(report_QueryResponder);
 		trafficLightsServiceOut = portFactoryRegistry[connections.trafficLightsServiceOut.roboticMiddleware]->createTrafficLightsServiceOut(connections.trafficLightsServiceOut.serviceName);
+		trafficLightsServiceOutWrapper = new TrafficLightsServiceOutWrapper(trafficLightsServiceOut);
 		
 		// create client ports
 		enforcementInstruction_Push = portFactoryRegistry[connections.enforcementInstruction_Push.roboticMiddleware]->createEnforcementInstruction_Push();
 		enforcementReply_Send = portFactoryRegistry[connections.enforcementReply_Send.roboticMiddleware]->createEnforcementReply_Send();
+		enforcementReply_SendWrapper = new EnforcementReply_SendWrapper(enforcementReply_Send);
 		enforcementReport_Send = portFactoryRegistry[connections.enforcementReport_Send.roboticMiddleware]->createEnforcementReport_Send();
+		enforcementReport_SendWrapper = new EnforcementReport_SendWrapper(enforcementReport_Send);
 		event_Listener = portFactoryRegistry[connections.event_Listener.roboticMiddleware]->createEvent_Listener();
 		
 		// create InputTaskTriggers and UpcallManagers
-		enforcementInstruction_PushInputTaskTrigger = new Smart::InputTaskTrigger<SmartInstitutions_ServiceRepository::EnforcementInstructionPackage>(enforcementInstruction_Push);
-		enforcementInstruction_PushUpcallManager = new EnforcementInstruction_PushUpcallManager(enforcementInstruction_Push);
-		enforcementInstruction_SendInputTaskTrigger = new Smart::InputTaskTrigger<SmartInstitutions_ServiceRepository::EnforcementInstructionPackage>(enforcementInstruction_Send);
-		enforcementInstruction_SendUpcallManager = new EnforcementInstruction_SendUpcallManager(enforcementInstruction_Send);
-		event_ListenerInputTaskTrigger = new Smart::InputTaskTrigger<Smart::EventInputType<SmartInstitutions_ServiceRepository::SmartIN_EventType>>(event_Listener);
-		event_ListenerUpcallManager = new Event_ListenerUpcallManager(event_Listener);
+		enforcementInstruction_PushInputCollector = new EnforcementInstruction_PushInputCollector(enforcementInstruction_Push);
+		enforcementInstruction_PushInputTaskTrigger = new Smart::InputTaskTrigger<SmartInstitutionsServiceRepository::EnforcementInstructionPackage>(enforcementInstruction_PushInputCollector);
+		enforcementInstruction_PushUpcallManager = new EnforcementInstruction_PushUpcallManager(enforcementInstruction_PushInputCollector);
+		enforcementInstruction_SendInputCollector = new EnforcementInstruction_SendInputCollector(enforcementInstruction_Send);
+		enforcementInstruction_SendInputTaskTrigger = new Smart::InputTaskTrigger<SmartInstitutionsServiceRepository::EnforcementInstructionPackage>(enforcementInstruction_SendInputCollector);
+		enforcementInstruction_SendUpcallManager = new EnforcementInstruction_SendUpcallManager(enforcementInstruction_SendInputCollector);
+		event_ListenerInputCollector = new Event_ListenerInputCollector(event_Listener);
+		event_ListenerInputTaskTrigger = new Smart::InputTaskTrigger<Smart::EventInputType<SmartInstitutionsServiceRepository::SmartIN_EventType>>(event_ListenerInputCollector);
+		event_ListenerUpcallManager = new Event_ListenerUpcallManager(event_ListenerInputCollector);
 		
 		// create input-handler
 		
 		// create request-handlers
-		enforcement_Query_Handler = new Enforcement_Query_Handler(enforcement_QueryReply);
-		report_Query_Handler = new Report_Query_Handler(report_QueryReply);
+		enforcement_Query_Handler = new Enforcement_Query_Handler(enforcement_QueryResponder);
+		report_Query_Handler = new Report_Query_Handler(report_QueryResponder);
 		
 		// create state pattern
 		stateChangeHandler = new SmartStateChangeHandler();
@@ -391,19 +413,19 @@ void ComponentA::init(int argc, char *argv[])
 		// add client port to wiring slave
 		if(connections.enforcementInstruction_Push.roboticMiddleware == "ACE_SmartSoft") {
 			//FIXME: this must also work with other implementations
-			dynamic_cast<SmartACE::PushClient<SmartInstitutions_ServiceRepository::EnforcementInstructionPackage>*>(enforcementInstruction_Push)->add(wiringSlave, connections.enforcementInstruction_Push.wiringName);
+			dynamic_cast<SmartACE::PushClient<SmartInstitutionsServiceRepository::EnforcementInstructionPackage>*>(enforcementInstruction_Push)->add(wiringSlave, connections.enforcementInstruction_Push.wiringName);
 		}
 		if(connections.enforcementReply_Send.roboticMiddleware == "ACE_SmartSoft") {
 			//FIXME: this must also work with other implementations
-			dynamic_cast<SmartACE::SendClient<SmartInstitutions_ServiceRepository::EnforcementReplyPackage>*>(enforcementReply_Send)->add(wiringSlave, connections.enforcementReply_Send.wiringName);
+			dynamic_cast<SmartACE::SendClient<SmartInstitutionsServiceRepository::EnforcementReplyPackage>*>(enforcementReply_Send)->add(wiringSlave, connections.enforcementReply_Send.wiringName);
 		}
 		if(connections.enforcementReport_Send.roboticMiddleware == "ACE_SmartSoft") {
 			//FIXME: this must also work with other implementations
-			dynamic_cast<SmartACE::SendClient<SmartInstitutions_ServiceRepository::EnforcementReportPackage>*>(enforcementReport_Send)->add(wiringSlave, connections.enforcementReport_Send.wiringName);
+			dynamic_cast<SmartACE::SendClient<SmartInstitutionsServiceRepository::EnforcementReportPackage>*>(enforcementReport_Send)->add(wiringSlave, connections.enforcementReport_Send.wiringName);
 		}
 		if(connections.event_Listener.roboticMiddleware == "ACE_SmartSoft") {
 			//FIXME: this must also work with other implementations
-			dynamic_cast<SmartACE::EventClient<SmartInstitutions_ServiceRepository::SmartIN_Command, SmartInstitutions_ServiceRepository::SmartIN_EventType>*>(event_Listener)->add(wiringSlave, connections.event_Listener.wiringName);
+			dynamic_cast<SmartACE::EventClient<SmartInstitutionsServiceRepository::SmartIN_Command, SmartInstitutionsServiceRepository::SmartIN_EventType>*>(event_Listener)->add(wiringSlave, connections.event_Listener.wiringName);
 		}
 		
 		
@@ -573,26 +595,35 @@ void ComponentA::fini()
 	// destroy InputTaskTriggers and UpcallManagers
 	delete enforcementInstruction_PushInputTaskTrigger;
 	delete enforcementInstruction_PushUpcallManager;
+	delete enforcementInstruction_PushInputCollector;
 	delete enforcementInstruction_SendInputTaskTrigger;
 	delete enforcementInstruction_SendUpcallManager;
+	delete enforcementInstruction_SendInputCollector;
 	delete event_ListenerInputTaskTrigger;
 	delete event_ListenerUpcallManager;
+	delete event_ListenerInputCollector;
 
 	// destroy client ports
 	delete enforcementInstruction_Push;
+	delete enforcementReply_SendWrapper;
 	delete enforcementReply_Send;
+	delete enforcementReport_SendWrapper;
 	delete enforcementReport_Send;
 	delete event_Listener;
 
 	// destroy server ports
 	delete enforcementInstruction_Send;
+	delete enforcementReply_PushWrapper;
 	delete enforcementReply_Push;
+	delete enforcementReport_PushWrapper;
 	delete enforcementReport_Push;
-	delete enforcement_QueryReply;
-	delete enforcement_QueryReplyInputTaskTrigger;
+	delete enforcement_QueryResponder;
+	delete enforcement_QueryResponderInputTaskTrigger;
+	delete event_CreatorWrapper;
 	delete event_Creator;
-	delete report_QueryReply;
-	delete report_QueryReplyInputTaskTrigger;
+	delete report_QueryResponder;
+	delete report_QueryResponderInputTaskTrigger;
+	delete trafficLightsServiceOutWrapper;
 	delete trafficLightsServiceOut;
 	// destroy event-test handlers (if needed)
 	event_CreatorEventTestHandler;
@@ -620,8 +651,6 @@ void ComponentA::fini()
 	{
 		portFactory->second->destroy();
 	}
-	
-	// destruction of PlainOpcUaComponentAExtension
 	
 }
 
@@ -696,6 +725,7 @@ void ComponentA::loadParameter(int argc, char *argv[])
 		}
 		
 		// load parameters for client EnforcementInstruction_Push
+		parameter.getBoolean("EnforcementInstruction_Push", "initialConnect", connections.enforcementInstruction_Push.initialConnect);
 		parameter.getString("EnforcementInstruction_Push", "serviceName", connections.enforcementInstruction_Push.serviceName);
 		parameter.getString("EnforcementInstruction_Push", "serverName", connections.enforcementInstruction_Push.serverName);
 		parameter.getString("EnforcementInstruction_Push", "wiringName", connections.enforcementInstruction_Push.wiringName);
@@ -720,6 +750,7 @@ void ComponentA::loadParameter(int argc, char *argv[])
 			parameter.getString("EnforcementReport_Send", "roboticMiddleware", connections.enforcementReport_Send.roboticMiddleware);
 		}
 		// load parameters for client Event_Listener
+		parameter.getBoolean("Event_Listener", "initialConnect", connections.event_Listener.initialConnect);
 		parameter.getString("Event_Listener", "serviceName", connections.event_Listener.serviceName);
 		parameter.getString("Event_Listener", "serverName", connections.event_Listener.serverName);
 		parameter.getString("Event_Listener", "wiringName", connections.event_Listener.wiringName);
@@ -742,20 +773,20 @@ void ComponentA::loadParameter(int argc, char *argv[])
 		if(parameter.checkIfParameterExists("EnforcementReport_Push", "roboticMiddleware")) {
 			parameter.getString("EnforcementReport_Push", "roboticMiddleware", connections.enforcementReport_Push.roboticMiddleware);
 		}
-		// load parameters for server Enforcement_QueryReply
-		parameter.getString("Enforcement_QueryReply", "serviceName", connections.enforcement_QueryReply.serviceName);
-		if(parameter.checkIfParameterExists("Enforcement_QueryReply", "roboticMiddleware")) {
-			parameter.getString("Enforcement_QueryReply", "roboticMiddleware", connections.enforcement_QueryReply.roboticMiddleware);
+		// load parameters for server Enforcement_QueryResponder
+		parameter.getString("Enforcement_QueryResponder", "serviceName", connections.enforcement_QueryResponder.serviceName);
+		if(parameter.checkIfParameterExists("Enforcement_QueryResponder", "roboticMiddleware")) {
+			parameter.getString("Enforcement_QueryResponder", "roboticMiddleware", connections.enforcement_QueryResponder.roboticMiddleware);
 		}
 		// load parameters for server Event_Creator
 		parameter.getString("Event_Creator", "serviceName", connections.event_Creator.serviceName);
 		if(parameter.checkIfParameterExists("Event_Creator", "roboticMiddleware")) {
 			parameter.getString("Event_Creator", "roboticMiddleware", connections.event_Creator.roboticMiddleware);
 		}
-		// load parameters for server Report_QueryReply
-		parameter.getString("Report_QueryReply", "serviceName", connections.report_QueryReply.serviceName);
-		if(parameter.checkIfParameterExists("Report_QueryReply", "roboticMiddleware")) {
-			parameter.getString("Report_QueryReply", "roboticMiddleware", connections.report_QueryReply.roboticMiddleware);
+		// load parameters for server Report_QueryResponder
+		parameter.getString("Report_QueryResponder", "serviceName", connections.report_QueryResponder.serviceName);
+		if(parameter.checkIfParameterExists("Report_QueryResponder", "roboticMiddleware")) {
+			parameter.getString("Report_QueryResponder", "roboticMiddleware", connections.report_QueryResponder.roboticMiddleware);
 		}
 		// load parameters for server TrafficLightsServiceOut
 		parameter.getString("TrafficLightsServiceOut", "serviceName", connections.trafficLightsServiceOut.serviceName);
@@ -820,8 +851,6 @@ void ComponentA::loadParameter(int argc, char *argv[])
 		if(parameter.checkIfParameterExists("EventManager", "cpuAffinity")) {
 			parameter.getInteger("EventManager", "cpuAffinity", connections.eventManager.cpuAffinity);
 		}
-		
-		// load parameters for PlainOpcUaComponentAExtension
 		
 		
 		// load parameters for all registered component-extensions

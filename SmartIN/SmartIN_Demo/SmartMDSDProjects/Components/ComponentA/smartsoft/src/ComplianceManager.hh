@@ -22,6 +22,8 @@
 class ComplianceManager  : public ComplianceManagerCore
 {
 private:
+	virtual void on_EnforcementInstruction_Push(const SmartInstitutionsServiceRepository::EnforcementInstructionPackage &input);
+	virtual void on_EnforcementInstruction_Send(const SmartInstitutionsServiceRepository::EnforcementInstructionPackage &input);
 public:
 	ComplianceManager(SmartACE::SmartComponent *comp);
 	virtual ~ComplianceManager();

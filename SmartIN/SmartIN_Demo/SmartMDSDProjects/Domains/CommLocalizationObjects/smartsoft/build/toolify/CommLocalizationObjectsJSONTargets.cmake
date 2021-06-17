@@ -45,14 +45,14 @@ unset(_expectedTargets)
 add_library(CommLocalizationObjectsJSON SHARED IMPORTED)
 
 set_target_properties(CommLocalizationObjectsJSON PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/toolify/src-gen"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/toolify/src-gen"
   INTERFACE_LINK_LIBRARIES "CommLocalizationObjects;nlohmann_json::nlohmann_json;CommBasicObjectsJSON"
 )
 
 # Import target "CommLocalizationObjectsJSON" for configuration "Debug"
 set_property(TARGET CommLocalizationObjectsJSON APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(CommLocalizationObjectsJSON PROPERTIES
-  IMPORTED_LOCATION_DEBUG "/home/smartsoft/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommLocalizationObjects/smartsoft/build/toolify/libCommLocalizationObjectsJSON.so.1.0"
+  IMPORTED_LOCATION_DEBUG "/home/smartsoft/SOFTWARE/SmartDBE/SmartIN/SmartIN_Demo/SmartMDSDProjects/Domains/CommLocalizationObjects/smartsoft/build/toolify/libCommLocalizationObjectsJSON.so.1.0"
   IMPORTED_SONAME_DEBUG "libCommLocalizationObjectsJSON.so.1"
   )
 
