@@ -1,6 +1,5 @@
 ComponentDefinition SmartJoystickServer {
-	CoordinationSlavePort CoordinationPort implements CommBasicObjects.DefaultCoordinationService { }
-	
+	CoordinationSlavePort CoordinationPort implements CommBasicObjects.DefaultCoordinationService { }	
 	Activity JoystickTask
 	{
 		ActivationConstraints {
@@ -12,6 +11,5 @@ ComponentDefinition SmartJoystickServer {
 	OutputPort JoystickServcieOut implements CommBasicObjects.JoystickService realizedBy JoystickTask {
 		SupportedMiddleware default ACE_SmartSoft
 	}
-
 	ComponentParameters SmartJoystickServerParameters slave CoordinationPort;
 }

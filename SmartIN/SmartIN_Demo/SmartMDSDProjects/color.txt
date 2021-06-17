@@ -1,0 +1,3 @@
+White for Components
+#E8E8F8 for SmartIN Components/Activities
+#0000FF for SmartIN Connectors

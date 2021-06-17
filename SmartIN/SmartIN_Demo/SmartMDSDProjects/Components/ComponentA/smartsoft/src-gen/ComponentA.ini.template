@@ -82,6 +82,10 @@ maxActFreqHz 0.0
 ##########################
 # server port parameter
 
+[BaseStateServiceOut]
+serviceName BaseStateServiceOut
+roboticMiddleware ACE_SmartSoft
+
 [EnforcementInstruction_Send]
 serviceName EnforcementInstruction_Send
 roboticMiddleware ACE_SmartSoft
@@ -104,10 +108,6 @@ roboticMiddleware ACE_SmartSoft
 
 [Report_QueryResponder]
 serviceName Report_QueryResponder
-roboticMiddleware ACE_SmartSoft
-
-[TrafficLightsServiceOut]
-serviceName TrafficLightsServiceOut
 roboticMiddleware ACE_SmartSoft
 
 ##########################

@@ -1,0 +1,26 @@
+ComponentDefinition SmartINJoystickNavigation {
+	CoordinationSlavePort CoordinationPort implements CommBasicObjects.DefaultCoordinationService {
+		
+	}
+	
+	InputPort JoystickServiceIn implements CommBasicObjects.JoystickService {
+	}
+
+	Activity JoystickNavTask
+	{
+		InputPortLink JoystickServiceIn { oversamplingOk undersamplingOk }
+		DefaultTrigger InputPortTrigger JoystickServiceIn;
+	}
+	OutputPort NavVelServiceOut implements CommNavigationObjects.NavigationVelocityService realizedBy JoystickNavTask { 
+	}
+
+	ComponentParameters SmartINJoystickNavigationParameters slave CoordinationPort;
+	Activity ComplianceManager
+	{
+		InputPortLink EnforcementInstruction_Push { oversamplingOk undersamplingOk }
+	}
+	InputPort EnforcementInstruction_Push implements SmartInstitutionsServiceRepository.SmartIN_EnforcementInstructionPackage_Push {
+	}
+	OutputPort EnforcementReply_Send implements SmartInstitutionsServiceRepository.SmartIN_EnforcementReplyPackage_Send realizedBy ComplianceManager {
+	}
+}

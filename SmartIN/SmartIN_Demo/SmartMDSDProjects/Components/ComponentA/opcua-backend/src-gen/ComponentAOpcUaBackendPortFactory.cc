@@ -29,8 +29,8 @@
 #include <SeRoNetSDK/SeRoNet/OPCUA/Server/QueryServer.hpp>
 
 // include referenced CommunicationObject SeRoNetSDK self description implementations
+#include "CommBasicObjectsOpcUa/CommBaseStateOpcUa.hh"
 #include "CommBasicObjectsOpcUa/CommTaskEventStateOpcUa.hh"
-#include "CommBasicObjectsOpcUa/CommTrafficLightsOpcUa.hh"
 #include "SmartInstitutionsServiceRepositoryOpcUa/EnforcementInstructionPackageOpcUa.hh"
 #include "SmartInstitutionsServiceRepositoryOpcUa/EnforcementReplyPackageOpcUa.hh"
 #include "SmartInstitutionsServiceRepositoryOpcUa/EnforcementReportPackageOpcUa.hh"
@@ -85,6 +85,11 @@ Smart::IEventClientPattern<SmartInstitutionsServiceRepository::SmartIN_Command, 
 }
 
 
+Smart::IPushServerPattern<CommBasicObjects::CommBaseState> * ComponentAOpcUaBackendPortFactory::createBaseStateServiceOut(const std::string &serviceName)
+{
+	return new SeRoNet::OPCUA::Server::PushServer<CommBasicObjects::CommBaseState>(componentImpl, serviceName);
+}
+
 Smart::ISendServerPattern<SmartInstitutionsServiceRepository::EnforcementInstructionPackage> * ComponentAOpcUaBackendPortFactory::createEnforcementInstruction_Send(const std::string &serviceName)
 {
 	return new SeRoNet::OPCUA::Server::SendServer<SmartInstitutionsServiceRepository::EnforcementInstructionPackage>(componentImpl, serviceName);
@@ -113,11 +118,6 @@ Smart::IEventServerPattern<SmartInstitutionsServiceRepository::SmartIN_Command, 
 Smart::IQueryServerPattern<SmartInstitutionsServiceRepository::MemberIdentifier, SmartInstitutionsServiceRepository::EnforcementReportPackage> * ComponentAOpcUaBackendPortFactory::createReport_QueryResponder(const std::string &serviceName)
 {
 	return new SeRoNet::OPCUA::Server::QueryServer<SmartInstitutionsServiceRepository::MemberIdentifier, SmartInstitutionsServiceRepository::EnforcementReportPackage>(componentImpl, serviceName);
-}
-
-Smart::IPushServerPattern<CommBasicObjects::CommTrafficLights> * ComponentAOpcUaBackendPortFactory::createTrafficLightsServiceOut(const std::string &serviceName)
-{
-	return new SeRoNet::OPCUA::Server::PushServer<CommBasicObjects::CommTrafficLights>(componentImpl, serviceName);
 }
 
 

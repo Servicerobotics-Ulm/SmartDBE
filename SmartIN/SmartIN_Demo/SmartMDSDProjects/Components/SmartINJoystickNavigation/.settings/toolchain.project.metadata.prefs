@@ -1,0 +1,12 @@
+SmartINJoystickNavigation/BaseURI/value/0=http\://www.servicerobotik-ulm.de
+SmartINJoystickNavigation/HardwareRequirement/value/5=none
+SmartINJoystickNavigation/HardwareRequirement/value/6=none
+SmartINJoystickNavigation/Homepage/value/3=http\://servicerobotik-ulm.de/components
+SmartINJoystickNavigation/Homepage/value/4=http\://servicerobotik-ulm.de/components
+SmartINJoystickNavigation/MarketName/value/2=Transform Joystick to Navigation Commands
+SmartINJoystickNavigation/Purpose/value/4=Navigation
+SmartINJoystickNavigation/Purpose/value/5=Navigation
+SmartINJoystickNavigation/ShortDescription/value/1=The SmartINJoystickNavigation component takes joystick input commands (CommJoystick) and translates them to v/omega navigation commands (CommNavigationVelocity).
+SmartINJoystickNavigation/Supplier/value/2=Servicerobotik Ulm
+SmartINJoystickNavigation/Supplier/value/3=Servicerobotik Ulm
+eclipse.preferences.version=1

@@ -1,0 +1,7 @@
+components/83247d84-b50b-49c1-8633-fd10cd1deaff/latest/SmartINJoystickServer/SafetyOfficer
+components/83247d84-b50b-49c1-8633-fd10cd1deaff/latest/SmartINJoystickServer/RobotOperator
+components/87daf603-232e-4634-8a83-e23ba788323f/latest/SmartINJoystickManager/SJMan
+components/5955fd4c-67e8-4494-b99b-629b81f00f7a/latest/SmartINJoystickNavigation/SJNav
+components/ce94c4fc-8506-46c8-9411-f8b5050d52bc/latest/ComponentWebots/WebotsLink
+components//latest/ComponentWebotsMobileRobot/Robotino
+components/71333834-53b2-47c1-9943-bcb6afe740a6/latest/EnforcerCat1/Enforcer

@@ -1,0 +1,5 @@
+{
+	"id" : "SmartINJoystickServer",
+	"type" : "Component",
+	"dependprojects" : [  "CommBasicObjects" , "SmartInstitutionsServiceRepository"  ]
+}

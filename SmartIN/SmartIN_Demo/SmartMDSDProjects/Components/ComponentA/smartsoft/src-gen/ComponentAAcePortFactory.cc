@@ -73,6 +73,11 @@ Smart::IEventClientPattern<SmartInstitutionsServiceRepository::SmartIN_Command, 
 }
 
 
+Smart::IPushServerPattern<CommBasicObjects::CommBaseState> * ComponentAAcePortFactory::createBaseStateServiceOut(const std::string &serviceName)
+{
+	return new SmartACE::PushServer<CommBasicObjects::CommBaseState>(componentImpl, serviceName);
+}
+
 Smart::ISendServerPattern<SmartInstitutionsServiceRepository::EnforcementInstructionPackage> * ComponentAAcePortFactory::createEnforcementInstruction_Send(const std::string &serviceName)
 {
 	return new SmartACE::SendServer<SmartInstitutionsServiceRepository::EnforcementInstructionPackage>(componentImpl, serviceName);
@@ -101,11 +106,6 @@ Smart::IEventServerPattern<SmartInstitutionsServiceRepository::SmartIN_Command, 
 Smart::IQueryServerPattern<SmartInstitutionsServiceRepository::MemberIdentifier, SmartInstitutionsServiceRepository::EnforcementReportPackage> * ComponentAAcePortFactory::createReport_QueryResponder(const std::string &serviceName)
 {
 	return new SmartACE::QueryServer<SmartInstitutionsServiceRepository::MemberIdentifier, SmartInstitutionsServiceRepository::EnforcementReportPackage>(componentImpl, serviceName);
-}
-
-Smart::IPushServerPattern<CommBasicObjects::CommTrafficLights> * ComponentAAcePortFactory::createTrafficLightsServiceOut(const std::string &serviceName)
-{
-	return new SmartACE::PushServer<CommBasicObjects::CommTrafficLights>(componentImpl, serviceName);
 }
 
 

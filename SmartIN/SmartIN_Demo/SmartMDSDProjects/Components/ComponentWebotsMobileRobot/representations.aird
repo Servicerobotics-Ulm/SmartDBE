@@ -55,7 +55,7 @@
     <semanticResources>platform:/plugin/org.eclipse.smartmdsd.xtext.base.stateMachine/componentLifecycle/ComponentLifecycle.automaton</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_tYvsYNOpEei_nIljlYip5w">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.smartmdsd.sirius.component.design/description/component.odesign#//@ownedViewpoints[name='ComponentDefinitionViewpoint']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_tY4PR9OpEei_nIljlYip5w" name="ComponentWebotsMobileRobot" repPath="#_tY4PQNOpEei_nIljlYip5w" changeId="5df68f9e-957a-455b-ab04-23fe5ba4f492">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_tY4PR9OpEei_nIljlYip5w" name="ComponentWebotsMobileRobot" repPath="#_tY4PQNOpEei_nIljlYip5w" changeId="1b37c3be-1379-4c90-ad2d-705d90cbd145">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.smartmdsd.sirius.component.design/description/component.odesign#//@ownedViewpoints[name='ComponentDefinitionViewpoint']/@ownedRepresentations[name='ComponentDefinitionDiagram']"/>
         <target xmi:type="componentDefinition:ComponentDefModel" href="model/ComponentWebotsMobileRobot.component#/"/>
       </ownedRepresentationDescriptors>
@@ -442,7 +442,9 @@
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_tY4PRdOpEei_nIljlYip5w" labelSize="10" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,245,181">
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_tY4PRdOpEei_nIljlYip5w" labelSize="10" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <customFeatures>backgroundColor</customFeatures>
+        <customFeatures>foregroundColor</customFeatures>
         <labelFormat>bold</labelFormat>
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.smartmdsd.sirius.component.design/description/component.odesign#//@ownedViewpoints[name='ComponentDefinitionViewpoint']/@ownedRepresentations[name='ComponentDefinitionDiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@style"/>
       </ownedStyle>
@@ -541,7 +543,7 @@
           <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.smartmdsd.sirius.component.design/description/component.odesign#//@ownedViewpoints[name='ComponentDefinitionViewpoint']/@ownedRepresentations[name='ComponentDefinitionDiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='ComponentModesContainer']/@subContainerMappings[name='PrivateOperationModeContainer']"/>
         </ownedDiagramElements>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_lkP656j6EeufAqjefJGQ1g" name="CoordinationPort" tooltipText="ComponentParameters" outgoingEdges="_lkoVZaj6EeufAqjefJGQ1g">
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_lkP656j6EeufAqjefJGQ1g" name="ComponentParameters" tooltipText="ComponentParameters" outgoingEdges="_lkoVZaj6EeufAqjefJGQ1g">
         <target xmi:type="componentParameter:ComponentParametersRef" href="model/ComponentWebotsMobileRobot.component#//@component/@elements.10"/>
         <semanticElements xmi:type="componentParameter:ComponentParametersRef" href="model/ComponentWebotsMobileRobot.component#//@component/@elements.10"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>

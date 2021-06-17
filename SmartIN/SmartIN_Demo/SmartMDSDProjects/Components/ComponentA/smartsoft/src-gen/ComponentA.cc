@@ -32,6 +32,8 @@ ComponentA::ComponentA()
 	std::cout << "constructor of ComponentA\n";
 	
 	// set all pointer members to NULL
+	baseStateServiceOut = NULL;
+	baseStateServiceOutWrapper = NULL;
 	complianceManager = NULL;
 	complianceManagerTrigger = NULL;
 	componentActivity = NULL;
@@ -67,8 +69,6 @@ ComponentA::ComponentA()
 	report_QueryResponder = NULL;
 	report_QueryResponderInputTaskTrigger = NULL;
 	report_Query_Handler = NULL;
-	trafficLightsServiceOut = NULL;
-	trafficLightsServiceOutWrapper = NULL;
 	stateChangeHandler = NULL;
 	stateSlave = NULL;
 	wiringSlave = NULL;
@@ -79,6 +79,8 @@ ComponentA::ComponentA()
 	connections.component.defaultScheduler = "DEFAULT";
 	connections.component.useLogger = false;
 	
+	connections.baseStateServiceOut.serviceName = "BaseStateServiceOut";
+	connections.baseStateServiceOut.roboticMiddleware = "ACE_SmartSoft";
 	connections.enforcementInstruction_Send.serviceName = "EnforcementInstruction_Send";
 	connections.enforcementInstruction_Send.roboticMiddleware = "ACE_SmartSoft";
 	connections.enforcementReply_Push.serviceName = "EnforcementReply_Push";
@@ -91,8 +93,6 @@ ComponentA::ComponentA()
 	connections.event_Creator.roboticMiddleware = "ACE_SmartSoft";
 	connections.report_QueryResponder.serviceName = "Report_QueryResponder";
 	connections.report_QueryResponder.roboticMiddleware = "ACE_SmartSoft";
-	connections.trafficLightsServiceOut.serviceName = "TrafficLightsServiceOut";
-	connections.trafficLightsServiceOut.roboticMiddleware = "ACE_SmartSoft";
 	connections.enforcementInstruction_Push.initialConnect = false;
 	connections.enforcementInstruction_Push.wiringName = "EnforcementInstruction_Push";
 	connections.enforcementInstruction_Push.serverName = "unknown";
@@ -360,6 +360,8 @@ void ComponentA::init(int argc, char *argv[])
 		
 		// create server ports
 		// TODO: set minCycleTime from Ini-file
+		baseStateServiceOut = portFactoryRegistry[connections.baseStateServiceOut.roboticMiddleware]->createBaseStateServiceOut(connections.baseStateServiceOut.serviceName);
+		baseStateServiceOutWrapper = new BaseStateServiceOutWrapper(baseStateServiceOut);
 		enforcementInstruction_Send = portFactoryRegistry[connections.enforcementInstruction_Send.roboticMiddleware]->createEnforcementInstruction_Send(connections.enforcementInstruction_Send.serviceName);
 		enforcementReply_Push = portFactoryRegistry[connections.enforcementReply_Push.roboticMiddleware]->createEnforcementReply_Push(connections.enforcementReply_Push.serviceName);
 		enforcementReply_PushWrapper = new EnforcementReply_PushWrapper(enforcementReply_Push);
@@ -372,8 +374,6 @@ void ComponentA::init(int argc, char *argv[])
 		event_CreatorWrapper = new Event_CreatorWrapper(event_Creator);
 		report_QueryResponder = portFactoryRegistry[connections.report_QueryResponder.roboticMiddleware]->createReport_QueryResponder(connections.report_QueryResponder.serviceName);
 		report_QueryResponderInputTaskTrigger = new Smart::QueryServerTaskTrigger<SmartInstitutionsServiceRepository::MemberIdentifier, SmartInstitutionsServiceRepository::EnforcementReportPackage>(report_QueryResponder);
-		trafficLightsServiceOut = portFactoryRegistry[connections.trafficLightsServiceOut.roboticMiddleware]->createTrafficLightsServiceOut(connections.trafficLightsServiceOut.serviceName);
-		trafficLightsServiceOutWrapper = new TrafficLightsServiceOutWrapper(trafficLightsServiceOut);
 		
 		// create client ports
 		enforcementInstruction_Push = portFactoryRegistry[connections.enforcementInstruction_Push.roboticMiddleware]->createEnforcementInstruction_Push();
@@ -612,6 +612,8 @@ void ComponentA::fini()
 	delete event_Listener;
 
 	// destroy server ports
+	delete baseStateServiceOutWrapper;
+	delete baseStateServiceOut;
 	delete enforcementInstruction_Send;
 	delete enforcementReply_PushWrapper;
 	delete enforcementReply_Push;
@@ -623,8 +625,6 @@ void ComponentA::fini()
 	delete event_Creator;
 	delete report_QueryResponder;
 	delete report_QueryResponderInputTaskTrigger;
-	delete trafficLightsServiceOutWrapper;
-	delete trafficLightsServiceOut;
 	// destroy event-test handlers (if needed)
 	event_CreatorEventTestHandler;
 	
@@ -758,6 +758,11 @@ void ComponentA::loadParameter(int argc, char *argv[])
 			parameter.getString("Event_Listener", "roboticMiddleware", connections.event_Listener.roboticMiddleware);
 		}
 		
+		// load parameters for server BaseStateServiceOut
+		parameter.getString("BaseStateServiceOut", "serviceName", connections.baseStateServiceOut.serviceName);
+		if(parameter.checkIfParameterExists("BaseStateServiceOut", "roboticMiddleware")) {
+			parameter.getString("BaseStateServiceOut", "roboticMiddleware", connections.baseStateServiceOut.roboticMiddleware);
+		}
 		// load parameters for server EnforcementInstruction_Send
 		parameter.getString("EnforcementInstruction_Send", "serviceName", connections.enforcementInstruction_Send.serviceName);
 		if(parameter.checkIfParameterExists("EnforcementInstruction_Send", "roboticMiddleware")) {
@@ -787,11 +792,6 @@ void ComponentA::loadParameter(int argc, char *argv[])
 		parameter.getString("Report_QueryResponder", "serviceName", connections.report_QueryResponder.serviceName);
 		if(parameter.checkIfParameterExists("Report_QueryResponder", "roboticMiddleware")) {
 			parameter.getString("Report_QueryResponder", "roboticMiddleware", connections.report_QueryResponder.roboticMiddleware);
-		}
-		// load parameters for server TrafficLightsServiceOut
-		parameter.getString("TrafficLightsServiceOut", "serviceName", connections.trafficLightsServiceOut.serviceName);
-		if(parameter.checkIfParameterExists("TrafficLightsServiceOut", "roboticMiddleware")) {
-			parameter.getString("TrafficLightsServiceOut", "roboticMiddleware", connections.trafficLightsServiceOut.roboticMiddleware);
 		}
 		
 		// load parameters for task ComplianceManager

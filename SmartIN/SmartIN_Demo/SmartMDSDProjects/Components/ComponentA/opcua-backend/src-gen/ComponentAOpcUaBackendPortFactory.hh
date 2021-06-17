@@ -50,13 +50,13 @@ public:
 	virtual Smart::ISendClientPattern<SmartInstitutionsServiceRepository::EnforcementReportPackage> * createEnforcementReport_Send() override;
 	virtual Smart::IEventClientPattern<SmartInstitutionsServiceRepository::SmartIN_Command, SmartInstitutionsServiceRepository::SmartIN_EventType> * createEvent_Listener() override;
 	
+	virtual Smart::IPushServerPattern<CommBasicObjects::CommBaseState> * createBaseStateServiceOut(const std::string &serviceName) override;
 	virtual Smart::ISendServerPattern<SmartInstitutionsServiceRepository::EnforcementInstructionPackage> * createEnforcementInstruction_Send(const std::string &serviceName) override;
 	virtual Smart::IPushServerPattern<SmartInstitutionsServiceRepository::EnforcementReplyPackage> * createEnforcementReply_Push(const std::string &serviceName) override;
 	virtual Smart::IPushServerPattern<SmartInstitutionsServiceRepository::EnforcementReportPackage> * createEnforcementReport_Push(const std::string &serviceName) override;
 	virtual Smart::IQueryServerPattern<SmartInstitutionsServiceRepository::EnforcementInstructionPackage, SmartInstitutionsServiceRepository::EnforcementReplyPackage> * createEnforcement_QueryResponder(const std::string &serviceName) override;
 	virtual Smart::IEventServerPattern<SmartInstitutionsServiceRepository::SmartIN_Command, SmartInstitutionsServiceRepository::SmartIN_EventType, CommBasicObjects::CommTaskEventState> * createEvent_Creator(const std::string &serviceName, std::shared_ptr<Smart::IEventTestHandler<SmartInstitutionsServiceRepository::SmartIN_Command, SmartInstitutionsServiceRepository::SmartIN_EventType, CommBasicObjects::CommTaskEventState>> event_CreatorEventTestHandler) override;
 	virtual Smart::IQueryServerPattern<SmartInstitutionsServiceRepository::MemberIdentifier, SmartInstitutionsServiceRepository::EnforcementReportPackage> * createReport_QueryResponder(const std::string &serviceName) override;
-	virtual Smart::IPushServerPattern<CommBasicObjects::CommTrafficLights> * createTrafficLightsServiceOut(const std::string &serviceName) override;
 	
 	virtual int onShutdown(const std::chrono::steady_clock::duration &timeoutTime=std::chrono::seconds(2)) override;
 	virtual void destroy() override;

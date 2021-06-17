@@ -92,9 +92,9 @@ void ComponentActivityCore::updateAllCommObjects()
 
 
 // this method is meant to be used in derived classes
-Smart::StatusCode ComponentActivityCore::trafficLightsServiceOutPut(CommBasicObjects::CommTrafficLights &trafficLightsServiceOutDataObject)
+Smart::StatusCode ComponentActivityCore::baseStateServiceOutPut(CommBasicObjects::CommBaseState &baseStateServiceOutDataObject)
 {
-	Smart::StatusCode result = COMP->trafficLightsServiceOutWrapper->put(trafficLightsServiceOutDataObject);
+	Smart::StatusCode result = COMP->baseStateServiceOutWrapper->put(baseStateServiceOutDataObject);
 	if(useLogging == true) {
 		//FIXME: use logging
 		//Smart::LOGGER->log(pushLoggingId+1, getCurrentUpdateCount(), getPreviousCommObjId());

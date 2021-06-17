@@ -15,31 +15,31 @@
 //--------------------------------------------------------------------------
 
 // include wrapper header
-#include "TrafficLightsServiceOutWrapper.hh"
+#include "NavVelServiceOutWrapper.hh"
 
 // include component's main class
-#include "ComponentA.hh"
+#include "SmartINJoystickNavigation.hh"
 
 // other extensin includes
 
-TrafficLightsServiceOutWrapper::TrafficLightsServiceOutWrapper(Smart::IPushServerPattern<CommBasicObjects::CommTrafficLights> *trafficLightsServiceOut) {
-	this->trafficLightsServiceOut = trafficLightsServiceOut;
+NavVelServiceOutWrapper::NavVelServiceOutWrapper(Smart::ISendClientPattern<CommBasicObjects::CommNavigationVelocity> *navVelServiceOut) {
+	this->navVelServiceOut = navVelServiceOut;
 	update_status = Smart::SMART_NODATA;
 }
 
-TrafficLightsServiceOutWrapper::~TrafficLightsServiceOutWrapper() {
+NavVelServiceOutWrapper::~NavVelServiceOutWrapper() {
 }
 
 
-Smart::StatusCode TrafficLightsServiceOutWrapper::put(CommBasicObjects::CommTrafficLights &trafficLightsServiceOutDataObject) {
+Smart::StatusCode NavVelServiceOutWrapper::send(CommBasicObjects::CommNavigationVelocity &navVelServiceOutDataObject) {
 	std::unique_lock<std::mutex> lock(update_mutex);
-	updateData = trafficLightsServiceOutDataObject;
-	update_status = trafficLightsServiceOut->put(trafficLightsServiceOutDataObject);
+	updateData = navVelServiceOutDataObject;
+	update_status = navVelServiceOut->send(navVelServiceOutDataObject);
 	return update_status;
 }
 
-Smart::StatusCode TrafficLightsServiceOutWrapper::getLatestUpdate(CommBasicObjects::CommTrafficLights &trafficLightsServiceOutDataObject) {
+Smart::StatusCode NavVelServiceOutWrapper::getLatestUpdate(CommBasicObjects::CommNavigationVelocity &navVelServiceOutDataObject) {
 	std::unique_lock<std::mutex> lock(update_mutex);
-	trafficLightsServiceOutDataObject = updateData;
+	navVelServiceOutDataObject = updateData;
 	return update_status;
 }

@@ -1,6 +1,5 @@
 ServiceDefRepository SmartInstitutionsServiceRepository version 1 . 0
-{
-	// Query Services Definitions
+{	// Query Services Definitions
 	RequestAnswerServiceDefinition SmartIN_Enforcement_Query {
 		QueryPattern <
 			RequestType = SmartInstitutionsServiceRepository.EnforcementInstructionPackage

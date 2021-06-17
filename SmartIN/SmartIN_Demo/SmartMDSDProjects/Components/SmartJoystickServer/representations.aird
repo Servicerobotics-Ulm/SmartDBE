@@ -16,7 +16,7 @@
     <semanticResources>platform:/plugin/org.eclipse.smartmdsd.xtext.base.stateMachine/componentLifecycle/ComponentLifecycle.automaton</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_T8N64Ll2EeexIcw9OXs-2Q">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.smartmdsd.sirius.component.design/description/component.odesign#//@ownedViewpoints[name='ComponentDefinitionViewpoint']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_T_FosLl2EeexIcw9OXs-2Q" name="SmartJoystickServer" repPath="#_T-aTQLl2EeexIcw9OXs-2Q" changeId="f304abbd-2ae4-4d67-a9d3-45e3269508b2">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_T_FosLl2EeexIcw9OXs-2Q" name="SmartJoystickServer" repPath="#_T-aTQLl2EeexIcw9OXs-2Q" changeId="b098b3cc-7ff1-438b-b022-725c131de925">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.smartmdsd.sirius.component.design/description/component.odesign#//@ownedViewpoints[name='ComponentDefinitionViewpoint']/@ownedRepresentations[name='ComponentDefinitionDiagram']"/>
         <target xmi:type="componentDefinition:ComponentDefModel" href="model/SmartJoystickServer.component#/"/>
       </ownedRepresentationDescriptors>
@@ -174,7 +174,9 @@
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="__e4FEItMEeiwN8sGfb9BPQ" labelSize="10" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,245,181">
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="__e4FEItMEeiwN8sGfb9BPQ" labelSize="10" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <customFeatures>backgroundColor</customFeatures>
+        <customFeatures>foregroundColor</customFeatures>
         <labelFormat>bold</labelFormat>
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.smartmdsd.sirius.component.design/description/component.odesign#//@ownedViewpoints[name='ComponentDefinitionViewpoint']/@ownedRepresentations[name='ComponentDefinitionDiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@style"/>
       </ownedStyle>

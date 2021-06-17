@@ -79,8 +79,8 @@ t3:ComponentA a robmosys:ComponentDefinition;
 	t1:requiredService t3:ComponentA_EnforcementReport_Send;
 	# ComponentPort EnforcementReply_Send
 	t1:requiredService t3:ComponentA_EnforcementReply_Send;
-	# ComponentPort TrafficLightsServiceOut
-	t1:providedService t3:ComponentA_TrafficLightsServiceOut;
+	# ComponentPort BaseStateServiceOut
+	t1:providedService t3:ComponentA_BaseStateServiceOut;
 .
 
 # a service definition usage. Here: provided service
@@ -185,10 +185,10 @@ t3:ComponentA_EnforcementReply_Send
 
 # a service definition usage. Here: provided service
 # see https://robmosys.eu/wiki/modeling:metamodels:component
-t3:ComponentA_TrafficLightsServiceOut 
-	rdf:type CommBasicObjects:TrafficLightsService ;
+t3:ComponentA_BaseStateServiceOut 
+	rdf:type CommBasicObjects:BaseStateService ;
 	# name of this service definition as from the model
-	rdfs:label "TrafficLightsServiceOut";
+	rdfs:label "BaseStateServiceOut";
 
 
 .

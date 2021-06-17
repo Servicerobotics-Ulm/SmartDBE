@@ -1,0 +1,5 @@
+{
+	"id" : "EnforcerCat1",
+	"type" : "Component",
+	"dependprojects" : [  "SmartInstitutionsServiceRepository"  ]
+}

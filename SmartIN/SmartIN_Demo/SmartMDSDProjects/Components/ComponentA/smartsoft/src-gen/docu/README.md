@@ -86,7 +86,7 @@
 *Documentation:*
 
 
-### TrafficLightsServiceOut
+### BaseStateServiceOut
 
 *Documentation:*
 

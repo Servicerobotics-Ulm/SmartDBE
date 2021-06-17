@@ -36,6 +36,7 @@ Activity EventManager
 	Activity ComponentActivity
 	{
 	}
-	OutputPort TrafficLightsServiceOut implements CommBasicObjects.TrafficLightsService realizedBy ComponentActivity {
+
+	OutputPort BaseStateServiceOut implements CommBasicObjects.BaseStateService realizedBy ComponentActivity {
 	}
 }

@@ -35,10 +35,10 @@ class ComponentAExtension;
 
 
 // include communication objects
+#include <CommBasicObjects/CommBaseState.hh>
+#include <CommBasicObjects/CommBaseStateACE.hh>
 #include <CommBasicObjects/CommTaskEventState.hh>
 #include <CommBasicObjects/CommTaskEventStateACE.hh>
-#include <CommBasicObjects/CommTrafficLights.hh>
-#include <CommBasicObjects/CommTrafficLightsACE.hh>
 #include <SmartInstitutionsServiceRepository/EnforcementInstructionPackage.hh>
 #include <SmartInstitutionsServiceRepository/EnforcementInstructionPackageACE.hh>
 #include <SmartInstitutionsServiceRepository/EnforcementReplyPackage.hh>
@@ -74,7 +74,7 @@ class ComponentAExtension;
 #include "EnforcementReply_PushWrapper.hh"
 #include "EnforcementReport_SendWrapper.hh"
 #include "EnforcementReply_SendWrapper.hh"
-#include "TrafficLightsServiceOutWrapper.hh"
+#include "BaseStateServiceOutWrapper.hh"
 
 // include handler
 #include "CompHandler.hh"
@@ -144,6 +144,8 @@ public:
 	// define input-handler
 	
 	// define output-ports
+	Smart::IPushServerPattern<CommBasicObjects::CommBaseState> *baseStateServiceOut;
+	BaseStateServiceOutWrapper *baseStateServiceOutWrapper;
 	Smart::IPushServerPattern<SmartInstitutionsServiceRepository::EnforcementReplyPackage> *enforcementReply_Push;
 	EnforcementReply_PushWrapper *enforcementReply_PushWrapper;
 	Smart::ISendClientPattern<SmartInstitutionsServiceRepository::EnforcementReplyPackage> *enforcementReply_Send;
@@ -155,8 +157,6 @@ public:
 	Smart::IEventServerPattern<SmartInstitutionsServiceRepository::SmartIN_Command, SmartInstitutionsServiceRepository::SmartIN_EventType, CommBasicObjects::CommTaskEventState> *event_Creator;
 	Event_CreatorWrapper *event_CreatorWrapper;
 	std::shared_ptr<Smart::IEventTestHandler<SmartInstitutionsServiceRepository::SmartIN_Command, SmartInstitutionsServiceRepository::SmartIN_EventType, CommBasicObjects::CommTaskEventState>> event_CreatorEventTestHandler;
-	Smart::IPushServerPattern<CommBasicObjects::CommTrafficLights> *trafficLightsServiceOut;
-	TrafficLightsServiceOutWrapper *trafficLightsServiceOutWrapper;
 	
 	// define answer-ports
 	Smart::IQueryServerPattern<SmartInstitutionsServiceRepository::EnforcementInstructionPackage, SmartInstitutionsServiceRepository::EnforcementReplyPackage> *enforcement_QueryResponder;
@@ -300,6 +300,10 @@ public:
 		//--- upcall parameter ---
 		
 		//--- server port parameter ---
+		struct BaseStateServiceOut_struct {
+				std::string serviceName;
+				std::string roboticMiddleware;
+		} baseStateServiceOut;
 		struct EnforcementInstruction_Send_struct {
 				std::string serviceName;
 				std::string roboticMiddleware;
@@ -324,10 +328,6 @@ public:
 				std::string serviceName;
 				std::string roboticMiddleware;
 		} report_QueryResponder;
-		struct TrafficLightsServiceOut_struct {
-				std::string serviceName;
-				std::string roboticMiddleware;
-		} trafficLightsServiceOut;
 	
 		//--- client port parameter ---
 		struct EnforcementInstruction_Push_struct {

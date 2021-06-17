@@ -1,0 +1,18 @@
+ComponentDefinition SmartINJoystickServer {
+	CoordinationSlavePort CoordinationPort implements CommBasicObjects.DefaultCoordinationService { }
+	
+	Activity JoystickTask
+	{
+		ActivationConstraints {
+				configurable = false
+				minActFreq = 1.0 Hz
+				maxActFreq = 50.0 Hz
+		}
+	}
+	OutputPort JoystickServcieOut implements CommBasicObjects.JoystickService realizedBy JoystickTask {
+		SupportedMiddleware default ACE_SmartSoft
+	}
+	ComponentParameters SmartINJoystickServerParameters slave CoordinationPort;
+	Activity ComplianceManager	{	}
+	OutputPort EnforcementReport_Send implements SmartInstitutionsServiceRepository.SmartIN_EnforcementReportPackage_Send realizedBy ComplianceManager {	}
+}

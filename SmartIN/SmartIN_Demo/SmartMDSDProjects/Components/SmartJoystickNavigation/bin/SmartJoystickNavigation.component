@@ -1,18 +1,11 @@
 ComponentDefinition SmartJoystickNavigation {
-	CoordinationSlavePort CoordinationPort implements CommBasicObjects.DefaultCoordinationService {
-		
-	}
-	
-	InputPort JoystickServiceIn implements CommBasicObjects.JoystickService {
-	}
-
+	CoordinationSlavePort CoordinationPort implements CommBasicObjects.DefaultCoordinationService {	}	
+	InputPort JoystickServiceIn implements CommBasicObjects.JoystickService {	}
 	Activity JoystickNavTask
 	{
 		InputPortLink JoystickServiceIn { oversamplingOk undersamplingOk }
 		DefaultTrigger InputPortTrigger JoystickServiceIn;
 	}
-	OutputPort NavVelServiceOut implements CommNavigationObjects.NavigationVelocityService realizedBy JoystickNavTask { 
-	}
-
+	OutputPort NavVelServiceOut implements CommNavigationObjects.NavigationVelocityService realizedBy JoystickNavTask {	}
 	ComponentParameters SmartJoystickNavigationParameters slave CoordinationPort;
 }

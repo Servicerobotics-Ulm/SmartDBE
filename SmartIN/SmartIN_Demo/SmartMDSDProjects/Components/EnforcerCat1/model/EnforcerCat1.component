@@ -1,0 +1,19 @@
+ComponentDefinition EnforcerCat1 logo "/EnforcerCat1/model/logo.png"
+{
+	InputPort EnforcementReport_Send implements SmartInstitutionsServiceRepository.SmartIN_EnforcementReportPackage_Send {
+	} 
+	RequestPort Report_QueryRequester implements SmartInstitutionsServiceRepository.SmartIN_Enforcement_Report_Query {
+	}
+	Activity EnforcementManager
+	{ 
+		RequestPortLink Report_QueryRequester
+		InputPortLink EnforcementReport_Send { oversamplingOk undersamplingOk }
+		InputPortLink EnforcementReply_Send { oversamplingOk undersamplingOk }
+	}
+	OutputPort EnforcementInstruction_Push implements SmartInstitutionsServiceRepository.SmartIN_EnforcementInstructionPackage_Push realizedBy EnforcementManager {
+	}
+	OutputPort EnforcementInstruction_Send implements SmartInstitutionsServiceRepository.SmartIN_EnforcementInstructionPackage_Send realizedBy EnforcementManager {
+	}
+	InputPort EnforcementReply_Send implements SmartInstitutionsServiceRepository.SmartIN_EnforcementReplyPackage_Send {
+	}
+}

@@ -21,7 +21,7 @@
 // include upcall interface
 
 // include communication-objects for output ports
-#include <CommBasicObjects/CommTrafficLights.hh>
+#include <CommBasicObjects/CommBaseState.hh>
 
 // include all interaction-observer interfaces
 #include <ComponentActivityObserverInterface.hh>
@@ -51,7 +51,7 @@ protected:
 	
 	
 	// this method is meant to be used in derived classes
-	Smart::StatusCode trafficLightsServiceOutPut(CommBasicObjects::CommTrafficLights &trafficLightsServiceOutDataObject);
+	Smart::StatusCode baseStateServiceOutPut(CommBasicObjects::CommBaseState &baseStateServiceOutDataObject);
 	
 	
 /**

@@ -1,0 +1,59 @@
+SystemComponentArchitecture SmartINSystemMultiMoveRobotino
+{
+	ComponentInstance SafetyOfficer instantiates SmartINJoystickServer
+	{
+		RequiredService EnforcementReport_Send
+		ProvidedService JoystickServcieOut
+	}
+	ComponentInstance RobotOperator instantiates SmartINJoystickServer
+	{
+		RequiredService EnforcementReport_Send
+		ProvidedService JoystickServcieOut
+	}
+	ComponentInstance SJMan instantiates SmartINJoystickManager
+	{
+		RequiredService JoystickServiceIn_1
+		RequiredService JoystickServiceIn_2
+		RequiredService JoystickServiceIn_3
+		RequiredService JoystickServiceIn_4
+		RequiredService JoystickServiceIn_5
+		ProvidedService JoystickServiceOut
+		ProvidedService Report_QueryResponder
+	}
+	ComponentInstance SJNav instantiates SmartINJoystickNavigation
+	{
+		RequiredService JoystickServiceIn
+		RequiredService NavVelServiceOut
+		RequiredService EnforcementReply_Send
+		RequiredService EnforcementInstruction_Push 
+	}
+	ComponentInstance WebotsLink instantiates ComponentWebots
+	{
+	}
+	ComponentInstance Robotino instantiates ComponentWebotsMobileRobot
+	{
+		RequiredService LocalizationEventServiceIn
+		ProvidedService BaseStateServiceOut
+		ProvidedService NavigationVelocityServiceIn
+		ProvidedService LocalizationUpdateServiceIn
+		ProvidedService BaseStateQueryServiceAnsw
+	}
+	ComponentInstance Enforcer instantiates EnforcerCat1
+	{
+		RequiredService EnforcementInstruction_Send
+		RequiredService Report_QueryRequester
+		ProvidedService EnforcementInstruction_Push
+		ProvidedService EnforcementReport_Send
+		ProvidedService EnforcementReply_Send
+	}
+
+	Connection SJNav.JoystickServiceIn -> SJMan.JoystickServiceOut
+	Connection SJNav.NavVelServiceOut -> Robotino.NavigationVelocityServiceIn
+	Connection SJMan.JoystickServiceIn_2 -> RobotOperator.JoystickServcieOut
+	Connection SafetyOfficer.EnforcementReport_Send -> Enforcer.EnforcementReport_Send
+	Connection RobotOperator.EnforcementReport_Send -> Enforcer.EnforcementReport_Send
+	Connection SJMan.JoystickServiceIn_1 -> SafetyOfficer.JoystickServcieOut
+	Connection Enforcer.Report_QueryRequester -> SJMan.Report_QueryResponder
+	Connection SJNav.EnforcementReply_Send -> Enforcer.EnforcementReply_Send
+	Connection SJNav.EnforcementInstruction_Push -> Enforcer.EnforcementInstruction_Push
+}

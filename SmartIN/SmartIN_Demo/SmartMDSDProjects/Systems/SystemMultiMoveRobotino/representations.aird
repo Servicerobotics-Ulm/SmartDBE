@@ -32,9 +32,10 @@
     <semanticResources>platform:/resource/ComponentWebots/model/ComponentWebots.component</semanticResources>
     <semanticResources>platform:/resource/SmartJoystickNavigation/model/SmartJoystickNavigation.componentParameters</semanticResources>
     <semanticResources>platform:/resource/SmartJoystickNavigation/model/SmartJoystickNavigation.component</semanticResources>
+    <semanticResources>platform:/resource/SmartJoystickManager/model/SmartJoystickManager.component</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_BdnxYM9OEeueYuhnsaNqNQ">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.smartmdsd.sirius.system.componentArchitecture.design/description/componentArchitecture.odesign#//@ownedViewpoints[name='SystemArchitectureViewpoint']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_BgdC8M9OEeueYuhnsaNqNQ" name="SystemMultiMoveRobotinoComponentArchitecture" repPath="#_BgW8UM9OEeueYuhnsaNqNQ" changeId="51edddd4-3e7f-48a7-a10f-008344c9106a">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_BgdC8M9OEeueYuhnsaNqNQ" name="SystemMultiMoveRobotinoComponentArchitecture" repPath="#_BgW8UM9OEeueYuhnsaNqNQ" changeId="dbf16201-debe-425a-a908-24751693936c">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.smartmdsd.sirius.system.componentArchitecture.design/description/componentArchitecture.odesign#//@ownedViewpoints[name='SystemArchitectureViewpoint']/@ownedRepresentations[name='SystemArchitectureDiagram']"/>
         <target xmi:type="componentArchitecture:SystemComponentArchitecture" href="model/SystemMultiMoveRobotino.componentArch#SystemMultiMoveRobotino"/>
       </ownedRepresentationDescriptors>
@@ -363,7 +364,9 @@
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_MqerYM9OEeueYuhnsaNqNQ" labelSize="10" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,245,181">
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_MqerYM9OEeueYuhnsaNqNQ" labelSize="10" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <customFeatures>backgroundColor</customFeatures>
+        <customFeatures>foregroundColor</customFeatures>
         <labelFormat>bold</labelFormat>
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.smartmdsd.sirius.system.componentArchitecture.design/description/componentArchitecture.odesign#//@ownedViewpoints[name='SystemArchitectureViewpoint']/@ownedRepresentations[name='SystemArchitectureDiagram']/@defaultLayer/@containerMappings[name='ComponentInstanceContainer']/@style"/>
       </ownedStyle>
@@ -386,7 +389,9 @@
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_YydJ0M9OEeueYuhnsaNqNQ" labelSize="10" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,245,181">
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_YydJ0M9OEeueYuhnsaNqNQ" labelSize="10" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <customFeatures>backgroundColor</customFeatures>
+        <customFeatures>foregroundColor</customFeatures>
         <labelFormat>bold</labelFormat>
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.smartmdsd.sirius.system.componentArchitecture.design/description/componentArchitecture.odesign#//@ownedViewpoints[name='SystemArchitectureViewpoint']/@ownedRepresentations[name='SystemArchitectureDiagram']/@defaultLayer/@containerMappings[name='ComponentInstanceContainer']/@style"/>
       </ownedStyle>
@@ -464,7 +469,9 @@
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_iLcScM9OEeueYuhnsaNqNQ" labelSize="10" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,245,181">
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_iLcScM9OEeueYuhnsaNqNQ" labelSize="10" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <customFeatures>backgroundColor</customFeatures>
+        <customFeatures>foregroundColor</customFeatures>
         <labelFormat>bold</labelFormat>
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.smartmdsd.sirius.system.componentArchitecture.design/description/componentArchitecture.odesign#//@ownedViewpoints[name='SystemArchitectureViewpoint']/@ownedRepresentations[name='SystemArchitectureDiagram']/@defaultLayer/@containerMappings[name='ComponentInstanceContainer']/@style"/>
       </ownedStyle>
@@ -507,7 +514,9 @@
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_LNescM9PEeueYuhnsaNqNQ" labelSize="10" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,245,181">
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_LNescM9PEeueYuhnsaNqNQ" labelSize="10" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <customFeatures>backgroundColor</customFeatures>
+        <customFeatures>foregroundColor</customFeatures>
         <labelFormat>bold</labelFormat>
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.smartmdsd.sirius.system.componentArchitecture.design/description/componentArchitecture.odesign#//@ownedViewpoints[name='SystemArchitectureViewpoint']/@ownedRepresentations[name='SystemArchitectureDiagram']/@defaultLayer/@containerMappings[name='ComponentInstanceContainer']/@style"/>
       </ownedStyle>
@@ -528,7 +537,9 @@
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_bYCvMM9SEeueYuhnsaNqNQ" labelSize="10" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,245,181">
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_bYCvMM9SEeueYuhnsaNqNQ" labelSize="10" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <customFeatures>backgroundColor</customFeatures>
+        <customFeatures>foregroundColor</customFeatures>
         <labelFormat>bold</labelFormat>
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.smartmdsd.sirius.system.componentArchitecture.design/description/componentArchitecture.odesign#//@ownedViewpoints[name='SystemArchitectureViewpoint']/@ownedRepresentations[name='SystemArchitectureDiagram']/@defaultLayer/@containerMappings[name='ComponentInstanceContainer']/@style"/>
       </ownedStyle>
@@ -595,7 +606,9 @@
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_dNAFsM9SEeueYuhnsaNqNQ" labelSize="10" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,245,181">
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_dNAFsM9SEeueYuhnsaNqNQ" labelSize="10" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <customFeatures>backgroundColor</customFeatures>
+        <customFeatures>foregroundColor</customFeatures>
         <labelFormat>bold</labelFormat>
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.smartmdsd.sirius.system.componentArchitecture.design/description/componentArchitecture.odesign#//@ownedViewpoints[name='SystemArchitectureViewpoint']/@ownedRepresentations[name='SystemArchitectureDiagram']/@defaultLayer/@containerMappings[name='ComponentInstanceContainer']/@style"/>
       </ownedStyle>

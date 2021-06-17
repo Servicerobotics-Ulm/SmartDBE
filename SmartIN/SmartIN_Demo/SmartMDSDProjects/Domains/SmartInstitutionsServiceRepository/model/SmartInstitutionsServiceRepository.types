@@ -7,29 +7,25 @@ CommObjectsRepository SmartInstitutionsServiceRepository version 1 . 0
 		id 	: UInt64
 		name: String 
 		type: String
-	}
-	
+	}	
 	Enumeration InstitutionCategory {
 		SINGLE_MEMBER_INSTITUTE
 		PAIR_INSTITUTE
 		STATIC_MULTI_INSTITUTE
 		DYNAMIC_MULTI_INSTITUTE
-	}
-	
+	}	
 	Enumeration InstitutionType {
 		TYPE0_USER_DEFINED
 		TYPE1
 		TYPE2
 		TYPE3
 		TYPE4				
-	}
-	
+	}	
 	Enumeration InstitutionPhase {		
 		FORMATION
 		FOUNDATION
 		FULFILMENT
 	}
-
 	Enumeration EnforcementInstruction {
 		START
 		PAUSE
@@ -42,13 +38,11 @@ CommObjectsRepository SmartInstitutionsServiceRepository version 1 . 0
 		NOTICE
 		EJECTED
 		CUSTOM				
-	}
-	
+	}	
 	CommObject InstitutionIdentifier	{
 		id 	: UInt64
 		name: String
-	}
-	
+	}	
 	CommObject InstitutionStatus	{
 		institute	: InstitutionIdentifier
 		category	: InstitutionCategory
@@ -58,13 +52,11 @@ CommObjectsRepository SmartInstitutionsServiceRepository version 1 . 0
 		phase		: InstitutionPhase
 		signed_at	: CommTimeStamp
 		signed_by	: MemberIdentifier
-	}
-		
+	}		
 	CommObject PackageIdentifier	{
 		id			:	UInt64
 		timestampe	: CommTimeStamp		
-	}
-		
+	}		
 	CommObject EnforcementInstructionPackage {
 		id			: PackageIdentifier
 		to	 		: MemberIdentifier[*]
@@ -72,8 +64,7 @@ CommObjectsRepository SmartInstitutionsServiceRepository version 1 . 0
 		context		: InstitutionStatus
 		instruction	: EnforcementInstruction
 		ifCustom	: String
-	}
-	
+	}	
 	CommObject EnforcementReplyPackage {
 		id			: PackageIdentifier
 		replyingto	: PackageIdentifier
@@ -81,39 +72,33 @@ CommObjectsRepository SmartInstitutionsServiceRepository version 1 . 0
 		from 		: MemberIdentifier		
 		context		: InstitutionStatus
 		reply		: String
-	}
-	
+	}	
 	CommObject EnforcementReportPackage {
 		id		: PackageIdentifier
 		to	 	: MemberIdentifier[*]
 		from 	: MemberIdentifier	
 		report	: InstitutionStatus
 		text	: String
-	}
-	
+	}	
 	CommObject SmartIN_Command {
 		msg			: CommBasicObjects.CommTaskMessage
 		commandID	: UInt64
 		command		: String
-	}
-	
+	}	
 	Enumeration SmartINPackageTypeEnums {
 		EnforcementInstructionPackage
 		EnforcementReplyPackage
 		EnforcementReportPackage
-	}
-	
+	}	
 	CommObject SmartIN_EventType {
 		type	: SmartINPackageTypeEnums
-	}
-	
+	}	
 	CommObject SmartIN_EventMessage	{
 		usetype	: SmartINPackageTypeEnums
 		ifEnforcementInstructionPackage	: EnforcementInstructionPackage
 		ifEnforcementReplyPackage		: EnforcementReplyPackage 
 		ifEnforcementReportPackage		: EnforcementReportPackage
-	}
-	
+	}	
 	CommObject SmartIN_EventStateType {
 		targets	: MemberIdentifier[*] 
 		message	: SmartIN_EventMessage

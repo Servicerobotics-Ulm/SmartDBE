@@ -1,0 +1,19 @@
+DeploymentModel SmartINSystemMultiMoveRobotino using ComponentArchitecture SmartINSystemMultiMoveRobotino
+{
+	TargetPlatformReference LocalhostTarget using SmartINSystemMultiMoveRobotino.LocalhostTarget
+	{
+		UploadDirectory "/tmp"
+		NetworkInterface localhost
+	}
+	NamingService
+	{
+		deploy-to LocalhostTarget 
+	}
+	ComponentArtefact SafetyOfficer deploy-to LocalhostTarget
+	ComponentArtefact RobotOperator deploy-to LocalhostTarget
+	ComponentArtefact SJMan deploy-to LocalhostTarget
+	ComponentArtefact SJNav deploy-to LocalhostTarget
+	ComponentArtefact Robotino deploy-to LocalhostTarget
+	ComponentArtefact WebotsLink deploy-to LocalhostTarget
+	ComponentArtefact Enforcer deploy-to LocalhostTarget
+}
