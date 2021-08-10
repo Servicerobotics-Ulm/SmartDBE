@@ -8,7 +8,7 @@ A. Copy and run "downloadSmartMDSD.sh" at a directory of choice to install Eclip
 
 B. Create a directory "$HOME/SOFTWARE/smartsoft"
 
-C. Copy Folder "SmartTSbox" to "$HOME/SOFTWARE/smartsoft"
+C. Copy Folder "SmartTSbox" and "SmartAASbox" to "$HOME/SOFTWARE/smartsoft"
 
 D. On Eclipse Install:
 
@@ -23,4 +23,6 @@ D. On Eclipse Install:
 [5] SmartDG
 
 [6] SmartTS
+
+[7] SmartAAS
 
