@@ -20,9 +20,7 @@ D. On Eclipse Install:
 
 [4] EclipseLink JPA Support
 
-[5] SmartDG
+[5] SmartDG or SmartTS or SmartAAS
 
-[6] SmartTS
-
-[7] SmartAAS
+In case of install issues, restart the eclipse and try again.
 
