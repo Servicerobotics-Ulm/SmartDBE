@@ -1,0 +1,1230 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<aas:aasenv xmlns:aas="http://www.admin-shell.io/aas/2/0" xmlns:IEC61360="http://www.admin-shell.io/IEC61360/2/0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.admin-shell.io/aas/2/0 AAS.xsd http://www.admin-shell.io/IEC61360/2/0 IEC61360.xsd">
+    <aas:assetAdministrationShells>
+        <aas:assetAdministrationShell>
+            <aas:idShort>DemoAAS</aas:idShort>
+            <aas:identification idType="IRI">www.examle.com/ids/aas/Demo</aas:identification>
+            <aas:administration>
+                <aas:version>0.1</aas:version>
+                <aas:revision>1</aas:revision>
+            </aas:administration>
+            <aas:assetRef>
+                <aas:keys>
+                    <aas:key idType="IRI" local="true" type="Asset">www.examle.com/ids/asset/Demo</aas:key>
+                </aas:keys>
+            </aas:assetRef>
+            <aas:submodelRefs>
+                <aas:submodelRef>
+                    <aas:keys>
+                        <aas:key idType="Custom" local="true" type="Submodel">TargetPlatformModelSubmodel</aas:key>
+                    </aas:keys>
+                </aas:submodelRef>
+                <aas:submodelRef>
+                    <aas:keys>
+                        <aas:key idType="Custom" local="true" type="Submodel">SystemComponentArchitectureSubmodel</aas:key>
+                    </aas:keys>
+                </aas:submodelRef>
+                <aas:submodelRef>
+                    <aas:keys>
+                        <aas:key idType="Custom" local="true" type="Submodel">DeploymentModelSubmodel</aas:key>
+                    </aas:keys>
+                </aas:submodelRef>
+                <aas:submodelRef>
+                    <aas:keys>
+                        <aas:key idType="Custom" local="true" type="Submodel">SystemParameterModelSubmodel</aas:key>
+                    </aas:keys>
+                </aas:submodelRef>
+                <aas:submodelRef>
+                    <aas:keys>
+                        <aas:key idType="Custom" local="true" type="Submodel">SmartAAS_Commands</aas:key>
+                    </aas:keys>
+                </aas:submodelRef>
+            </aas:submodelRefs>
+            <aas:views/>
+            <aas:conceptDictionaries/>
+        </aas:assetAdministrationShell>
+    </aas:assetAdministrationShells>
+    <aas:assets>
+        <aas:asset>
+            <aas:idShort>Demo</aas:idShort>
+            <aas:identification idType="IRI">www.examle.com/ids/asset/Demo</aas:identification>
+            <aas:kind>Type</aas:kind>
+        </aas:asset>
+    </aas:assets>
+    <aas:submodels>
+        <aas:submodel>
+            <aas:idShort>SmartAAS_Commands</aas:idShort>
+            <aas:parent>
+                <aas:keys>
+                    <aas:key idType="IRI" local="true" type="AssetAdministrationShell">www.examle.com/ids/aas/Demo</aas:key>
+                </aas:keys>
+            </aas:parent>
+            <aas:identification idType="Custom">SmartAAS_Commands</aas:identification>
+            <aas:kind>Instance</aas:kind>
+            <aas:submodelElements>
+                <aas:submodelElement>
+                    <aas:submodelElementCollection>
+                        <aas:idShort>CommandINPUTSockets</aas:idShort>
+                        <aas:description>
+                            <aas:langString lang=""/>
+                        </aas:description>
+                        <aas:parent>
+                            <aas:keys>
+                                <aas:key idType="Custom" local="true" type="Submodel">SmartAAS_Commands</aas:key>
+                            </aas:keys>
+                        </aas:parent>
+                        <aas:kind>Instance</aas:kind>
+                        <aas:semanticId>
+                            <aas:keys>
+                                <aas:key idType="Custom" local="true" type="ConceptDescription">NoConceptDescription</aas:key>
+                            </aas:keys>
+                        </aas:semanticId>
+                        <aas:allowDuplicates>true</aas:allowDuplicates>
+                        <aas:ordered>true</aas:ordered>
+                        <aas:value>
+                            <aas:submodelElement>
+                                <aas:submodelElementCollection>
+                                    <aas:idShort>AnotherCommandINPUTSocket</aas:idShort>
+                                    <aas:description>
+                                        <aas:langString lang=""/>
+                                    </aas:description>
+                                    <aas:parent>
+                                        <aas:keys>
+                                            <aas:key idType="Custom" local="true" type="Submodel">SmartAAS_Commands</aas:key>
+                                            <aas:key idType="IdShort" local="true" type="SubmodelElementCollection">CommandINPUTSockets</aas:key>
+                                        </aas:keys>
+                                    </aas:parent>
+                                    <aas:kind>Instance</aas:kind>
+                                    <aas:semanticId>
+                                        <aas:keys>
+                                            <aas:key idType="Custom" local="true" type="ConceptDescription">NoConceptDescription</aas:key>
+                                        </aas:keys>
+                                    </aas:semanticId>
+                                    <aas:allowDuplicates>true</aas:allowDuplicates>
+                                    <aas:ordered>true</aas:ordered>
+                                    <aas:value>
+                                        <aas:submodelElement>
+                                            <aas:property>
+                                                <aas:idShort>SemanticId</aas:idShort>
+                                                <aas:description>
+                                                    <aas:langString lang=""/>
+                                                </aas:description>
+                                                <aas:parent>
+                                                    <aas:keys>
+                                                        <aas:key idType="Custom" local="true" type="Submodel">SmartAAS_Commands</aas:key>
+                                                        <aas:key idType="IdShort" local="true" type="SubmodelElementCollection">CommandINPUTSockets</aas:key>
+                                                        <aas:key idType="IdShort" local="true" type="SubmodelElementCollection">AnotherCommandINPUTSocket</aas:key>
+                                                    </aas:keys>
+                                                </aas:parent>
+                                                <aas:kind>Instance</aas:kind>
+                                                <aas:semanticId>
+                                                    <aas:keys>
+                                                        <aas:key idType="Custom" local="true" type="ConceptDescription">NoConceptDescription</aas:key>
+                                                    </aas:keys>
+                                                </aas:semanticId>
+                                                <aas:value>SID</aas:value>
+                                                <aas:valueType>string</aas:valueType>
+                                            </aas:property>
+                                        </aas:submodelElement>
+                                        <aas:submodelElement>
+                                            <aas:submodelElementCollection>
+                                                <aas:idShort>CommandText</aas:idShort>
+                                                <aas:description>
+                                                    <aas:langString lang=""/>
+                                                </aas:description>
+                                                <aas:parent>
+                                                    <aas:keys>
+                                                        <aas:key idType="Custom" local="true" type="Submodel">SmartAAS_Commands</aas:key>
+                                                        <aas:key idType="IdShort" local="true" type="SubmodelElementCollection">CommandINPUTSockets</aas:key>
+                                                        <aas:key idType="IdShort" local="true" type="SubmodelElementCollection">AnotherCommandINPUTSocket</aas:key>
+                                                    </aas:keys>
+                                                </aas:parent>
+                                                <aas:kind>Instance</aas:kind>
+                                                <aas:semanticId>
+                                                    <aas:keys>
+                                                        <aas:key idType="Custom" local="true" type="ConceptDescription">NoConceptDescription</aas:key>
+                                                    </aas:keys>
+                                                </aas:semanticId>
+                                                <aas:allowDuplicates>true</aas:allowDuplicates>
+                                                <aas:ordered>true</aas:ordered>
+                                                <aas:value>
+                                                    <aas:submodelElement>
+                                                        <aas:property>
+                                                            <aas:idShort>CommandText</aas:idShort>
+                                                            <aas:description>
+                                                                <aas:langString lang=""/>
+                                                            </aas:description>
+                                                            <aas:parent>
+                                                                <aas:keys>
+                                                                    <aas:key idType="IdShort" local="true" type="SubmodelElementCollection">CommandText</aas:key>
+                                                                </aas:keys>
+                                                            </aas:parent>
+                                                            <aas:kind>Instance</aas:kind>
+                                                            <aas:semanticId>
+                                                                <aas:keys>
+                                                                    <aas:key idType="Custom" local="true" type="ConceptDescription">NoConceptDescription</aas:key>
+                                                                </aas:keys>
+                                                            </aas:semanticId>
+                                                            <aas:value>CommandText</aas:value>
+                                                            <aas:valueType>string</aas:valueType>
+                                                        </aas:property>
+                                                    </aas:submodelElement>
+                                                    <aas:submodelElement>
+                                                        <aas:property>
+                                                            <aas:idShort>CommandText_SemanticId</aas:idShort>
+                                                            <aas:description>
+                                                                <aas:langString lang=""/>
+                                                            </aas:description>
+                                                            <aas:parent>
+                                                                <aas:keys>
+                                                                    <aas:key idType="IdShort" local="true" type="SubmodelElementCollection">CommandText</aas:key>
+                                                                </aas:keys>
+                                                            </aas:parent>
+                                                            <aas:kind>Instance</aas:kind>
+                                                            <aas:semanticId>
+                                                                <aas:keys>
+                                                                    <aas:key idType="Custom" local="true" type="ConceptDescription">NoConceptDescription</aas:key>
+                                                                </aas:keys>
+                                                            </aas:semanticId>
+                                                            <aas:value>SID</aas:value>
+                                                            <aas:valueType>string</aas:valueType>
+                                                        </aas:property>
+                                                    </aas:submodelElement>
+                                                </aas:value>
+                                            </aas:submodelElementCollection>
+                                        </aas:submodelElement>
+                                    </aas:value>
+                                </aas:submodelElementCollection>
+                            </aas:submodelElement>
+                            <aas:submodelElement>
+                                <aas:submodelElementCollection>
+                                    <aas:idShort>AASSysDefaultCommandINPUTSocket</aas:idShort>
+                                    <aas:description>
+                                        <aas:langString lang=""/>
+                                    </aas:description>
+                                    <aas:parent>
+                                        <aas:keys>
+                                            <aas:key idType="Custom" local="true" type="Submodel">SmartAAS_Commands</aas:key>
+                                            <aas:key idType="IdShort" local="true" type="SubmodelElementCollection">CommandINPUTSockets</aas:key>
+                                        </aas:keys>
+                                    </aas:parent>
+                                    <aas:kind>Instance</aas:kind>
+                                    <aas:semanticId>
+                                        <aas:keys>
+                                            <aas:key idType="Custom" local="true" type="ConceptDescription">NoConceptDescription</aas:key>
+                                        </aas:keys>
+                                    </aas:semanticId>
+                                    <aas:allowDuplicates>true</aas:allowDuplicates>
+                                    <aas:ordered>true</aas:ordered>
+                                    <aas:value>
+                                        <aas:submodelElement>
+                                            <aas:property>
+                                                <aas:idShort>SemanticId</aas:idShort>
+                                                <aas:description>
+                                                    <aas:langString lang=""/>
+                                                </aas:description>
+                                                <aas:parent>
+                                                    <aas:keys>
+                                                        <aas:key idType="Custom" local="true" type="Submodel">SmartAAS_Commands</aas:key>
+                                                        <aas:key idType="IdShort" local="true" type="SubmodelElementCollection">CommandINPUTSockets</aas:key>
+                                                        <aas:key idType="IdShort" local="true" type="SubmodelElementCollection">AASSysDefaultCommandINPUTSocket</aas:key>
+                                                    </aas:keys>
+                                                </aas:parent>
+                                                <aas:kind>Instance</aas:kind>
+                                                <aas:semanticId>
+                                                    <aas:keys>
+                                                        <aas:key idType="Custom" local="true" type="ConceptDescription">NoConceptDescription</aas:key>
+                                                    </aas:keys>
+                                                </aas:semanticId>
+                                                <aas:value>SID</aas:value>
+                                                <aas:valueType>string</aas:valueType>
+                                            </aas:property>
+                                        </aas:submodelElement>
+                                        <aas:submodelElement>
+                                            <aas:submodelElementCollection>
+                                                <aas:idShort>CommandText</aas:idShort>
+                                                <aas:description>
+                                                    <aas:langString lang=""/>
+                                                </aas:description>
+                                                <aas:parent>
+                                                    <aas:keys>
+                                                        <aas:key idType="Custom" local="true" type="Submodel">SmartAAS_Commands</aas:key>
+                                                        <aas:key idType="IdShort" local="true" type="SubmodelElementCollection">CommandINPUTSockets</aas:key>
+                                                        <aas:key idType="IdShort" local="true" type="SubmodelElementCollection">AASSysDefaultCommandINPUTSocket</aas:key>
+                                                    </aas:keys>
+                                                </aas:parent>
+                                                <aas:kind>Instance</aas:kind>
+                                                <aas:semanticId>
+                                                    <aas:keys>
+                                                        <aas:key idType="Custom" local="true" type="ConceptDescription">NoConceptDescription</aas:key>
+                                                    </aas:keys>
+                                                </aas:semanticId>
+                                                <aas:allowDuplicates>true</aas:allowDuplicates>
+                                                <aas:ordered>true</aas:ordered>
+                                                <aas:value>
+                                                    <aas:submodelElement>
+                                                        <aas:property>
+                                                            <aas:idShort>CommandText</aas:idShort>
+                                                            <aas:description>
+                                                                <aas:langString lang=""/>
+                                                            </aas:description>
+                                                            <aas:parent>
+                                                                <aas:keys>
+                                                                    <aas:key idType="IdShort" local="true" type="SubmodelElementCollection">CommandText</aas:key>
+                                                                </aas:keys>
+                                                            </aas:parent>
+                                                            <aas:kind>Instance</aas:kind>
+                                                            <aas:semanticId>
+                                                                <aas:keys>
+                                                                    <aas:key idType="Custom" local="true" type="ConceptDescription">NoConceptDescription</aas:key>
+                                                                </aas:keys>
+                                                            </aas:semanticId>
+                                                            <aas:value>CommandText</aas:value>
+                                                            <aas:valueType>string</aas:valueType>
+                                                        </aas:property>
+                                                    </aas:submodelElement>
+                                                    <aas:submodelElement>
+                                                        <aas:property>
+                                                            <aas:idShort>CommandText_SemanticId</aas:idShort>
+                                                            <aas:description>
+                                                                <aas:langString lang=""/>
+                                                            </aas:description>
+                                                            <aas:parent>
+                                                                <aas:keys>
+                                                                    <aas:key idType="IdShort" local="true" type="SubmodelElementCollection">CommandText</aas:key>
+                                                                </aas:keys>
+                                                            </aas:parent>
+                                                            <aas:kind>Instance</aas:kind>
+                                                            <aas:semanticId>
+                                                                <aas:keys>
+                                                                    <aas:key idType="Custom" local="true" type="ConceptDescription">NoConceptDescription</aas:key>
+                                                                </aas:keys>
+                                                            </aas:semanticId>
+                                                            <aas:value>SID</aas:value>
+                                                            <aas:valueType>string</aas:valueType>
+                                                        </aas:property>
+                                                    </aas:submodelElement>
+                                                </aas:value>
+                                            </aas:submodelElementCollection>
+                                        </aas:submodelElement>
+                                    </aas:value>
+                                </aas:submodelElementCollection>
+                            </aas:submodelElement>
+                        </aas:value>
+                    </aas:submodelElementCollection>
+                </aas:submodelElement>
+            </aas:submodelElements>
+        </aas:submodel>
+        <aas:submodel>
+            <aas:idShort>SystemComponentArchitecture</aas:idShort>
+            <aas:parent>
+                <aas:keys>
+                    <aas:key idType="IRI" local="true" type="AssetAdministrationShell">www.examle.com/ids/aas/Demo</aas:key>
+                </aas:keys>
+            </aas:parent>
+            <aas:identification idType="Custom">SystemComponentArchitectureSubmodel</aas:identification>
+            <aas:kind>Instance</aas:kind>
+            <aas:submodelElements>
+                <aas:submodelElement>
+                    <aas:submodelElementCollection>
+                        <aas:idShort>Connections</aas:idShort>
+                        <aas:description>
+                            <aas:langString lang=""/>
+                        </aas:description>
+                        <aas:parent>
+                            <aas:keys>
+                                <aas:key idType="Custom" local="true" type="Submodel">SystemComponentArchitectureSubmodel</aas:key>
+                            </aas:keys>
+                        </aas:parent>
+                        <aas:kind>Instance</aas:kind>
+                        <aas:semanticId>
+                            <aas:keys>
+                                <aas:key idType="Custom" local="true" type="ConceptDescription">NoConceptDescription</aas:key>
+                            </aas:keys>
+                        </aas:semanticId>
+                        <aas:allowDuplicates>true</aas:allowDuplicates>
+                        <aas:ordered>true</aas:ordered>
+                        <aas:value>
+                            <aas:submodelElement>
+                                <aas:submodelElementCollection>
+                                    <aas:idShort>D2.DGBasicLinkIn</aas:idShort>
+                                    <aas:description>
+                                        <aas:langString lang=""/>
+                                    </aas:description>
+                                    <aas:parent>
+                                        <aas:keys>
+                                            <aas:key idType="Custom" local="true" type="Submodel">SystemComponentArchitectureSubmodel</aas:key>
+                                            <aas:key idType="IdShort" local="true" type="SubmodelElementCollection">Connections</aas:key>
+                                        </aas:keys>
+                                    </aas:parent>
+                                    <aas:kind>Instance</aas:kind>
+                                    <aas:semanticId>
+                                        <aas:keys>
+                                            <aas:key idType="Custom" local="true" type="ConceptDescription">NoConceptDescription</aas:key>
+                                        </aas:keys>
+                                    </aas:semanticId>
+                                    <aas:allowDuplicates>true</aas:allowDuplicates>
+                                    <aas:ordered>true</aas:ordered>
+                                    <aas:value>
+                                        <aas:submodelElement>
+                                            <aas:submodelElementCollection>
+                                                <aas:idShort>D1.DGBasicLinkOut</aas:idShort>
+                                                <aas:description>
+                                                    <aas:langString lang=""/>
+                                                </aas:description>
+                                                <aas:parent>
+                                                    <aas:keys>
+                                                        <aas:key idType="IdShort" local="true" type="SubmodelElementCollection">D2.DGBasicLinkIn</aas:key>
+                                                    </aas:keys>
+                                                </aas:parent>
+                                                <aas:kind>Instance</aas:kind>
+                                                <aas:semanticId>
+                                                    <aas:keys>
+                                                        <aas:key idType="Custom" local="true" type="ConceptDescription">NoConceptDescription</aas:key>
+                                                    </aas:keys>
+                                                </aas:semanticId>
+                                                <aas:allowDuplicates>true</aas:allowDuplicates>
+                                                <aas:ordered>true</aas:ordered>
+                                                <aas:value/>
+                                            </aas:submodelElementCollection>
+                                        </aas:submodelElement>
+                                    </aas:value>
+                                </aas:submodelElementCollection>
+                            </aas:submodelElement>
+                            <aas:submodelElement>
+                                <aas:submodelElementCollection>
+                                    <aas:idShort>D1.DGBasicLinkIn</aas:idShort>
+                                    <aas:description>
+                                        <aas:langString lang=""/>
+                                    </aas:description>
+                                    <aas:parent>
+                                        <aas:keys>
+                                            <aas:key idType="Custom" local="true" type="Submodel">SystemComponentArchitectureSubmodel</aas:key>
+                                            <aas:key idType="IdShort" local="true" type="SubmodelElementCollection">Connections</aas:key>
+                                        </aas:keys>
+                                    </aas:parent>
+                                    <aas:kind>Instance</aas:kind>
+                                    <aas:semanticId>
+                                        <aas:keys>
+                                            <aas:key idType="Custom" local="true" type="ConceptDescription">NoConceptDescription</aas:key>
+                                        </aas:keys>
+                                    </aas:semanticId>
+                                    <aas:allowDuplicates>true</aas:allowDuplicates>
+                                    <aas:ordered>true</aas:ordered>
+                                    <aas:value>
+                                        <aas:submodelElement>
+                                            <aas:submodelElementCollection>
+                                                <aas:idShort>D2.DGBasicLinkOut</aas:idShort>
+                                                <aas:description>
+                                                    <aas:langString lang=""/>
+                                                </aas:description>
+                                                <aas:parent>
+                                                    <aas:keys>
+                                                        <aas:key idType="IdShort" local="true" type="SubmodelElementCollection">D1.DGBasicLinkIn</aas:key>
+                                                    </aas:keys>
+                                                </aas:parent>
+                                                <aas:kind>Instance</aas:kind>
+                                                <aas:semanticId>
+                                                    <aas:keys>
+                                                        <aas:key idType="Custom" local="true" type="ConceptDescription">NoConceptDescription</aas:key>
+                                                    </aas:keys>
+                                                </aas:semanticId>
+                                                <aas:allowDuplicates>true</aas:allowDuplicates>
+                                                <aas:ordered>true</aas:ordered>
+                                                <aas:value/>
+                                            </aas:submodelElementCollection>
+                                        </aas:submodelElement>
+                                    </aas:value>
+                                </aas:submodelElementCollection>
+                            </aas:submodelElement>
+                        </aas:value>
+                    </aas:submodelElementCollection>
+                </aas:submodelElement>
+                <aas:submodelElement>
+                    <aas:submodelElementCollection>
+                        <aas:idShort>BehaviorTaskRefs</aas:idShort>
+                        <aas:description>
+                            <aas:langString lang=""/>
+                        </aas:description>
+                        <aas:parent>
+                            <aas:keys>
+                                <aas:key idType="Custom" local="true" type="Submodel">SystemComponentArchitectureSubmodel</aas:key>
+                            </aas:keys>
+                        </aas:parent>
+                        <aas:kind>Instance</aas:kind>
+                        <aas:semanticId>
+                            <aas:keys>
+                                <aas:key idType="Custom" local="true" type="ConceptDescription">NoConceptDescription</aas:key>
+                            </aas:keys>
+                        </aas:semanticId>
+                        <aas:allowDuplicates>true</aas:allowDuplicates>
+                        <aas:ordered>true</aas:ordered>
+                        <aas:value/>
+                    </aas:submodelElementCollection>
+                </aas:submodelElement>
+                <aas:submodelElement>
+                    <aas:submodelElementCollection>
+                        <aas:idShort>ComponentInstances</aas:idShort>
+                        <aas:description>
+                            <aas:langString lang=""/>
+                        </aas:description>
+                        <aas:parent>
+                            <aas:keys>
+                                <aas:key idType="Custom" local="true" type="Submodel">SystemComponentArchitectureSubmodel</aas:key>
+                            </aas:keys>
+                        </aas:parent>
+                        <aas:kind>Instance</aas:kind>
+                        <aas:semanticId>
+                            <aas:keys>
+                                <aas:key idType="Custom" local="true" type="ConceptDescription">NoConceptDescription</aas:key>
+                            </aas:keys>
+                        </aas:semanticId>
+                        <aas:allowDuplicates>true</aas:allowDuplicates>
+                        <aas:ordered>true</aas:ordered>
+                        <aas:value>
+                            <aas:submodelElement>
+                                <aas:submodelElementCollection>
+                                    <aas:idShort>D1</aas:idShort>
+                                    <aas:description>
+                                        <aas:langString lang=""/>
+                                    </aas:description>
+                                    <aas:parent>
+                                        <aas:keys>
+                                            <aas:key idType="Custom" local="true" type="Submodel">SystemComponentArchitectureSubmodel</aas:key>
+                                            <aas:key idType="IdShort" local="true" type="SubmodelElementCollection">ComponentInstances</aas:key>
+                                        </aas:keys>
+                                    </aas:parent>
+                                    <aas:kind>Instance</aas:kind>
+                                    <aas:semanticId>
+                                        <aas:keys>
+                                            <aas:key idType="Custom" local="true" type="ConceptDescription">NoConceptDescription</aas:key>
+                                        </aas:keys>
+                                    </aas:semanticId>
+                                    <aas:allowDuplicates>true</aas:allowDuplicates>
+                                    <aas:ordered>true</aas:ordered>
+                                    <aas:value>
+                                        <aas:submodelElement>
+                                            <aas:submodelElementCollection>
+                                                <aas:idShort>ProvidedServices</aas:idShort>
+                                                <aas:description>
+                                                    <aas:langString lang=""/>
+                                                </aas:description>
+                                                <aas:parent>
+                                                    <aas:keys>
+                                                        <aas:key idType="IdShort" local="true" type="SubmodelElementCollection">D1</aas:key>
+                                                    </aas:keys>
+                                                </aas:parent>
+                                                <aas:kind>Instance</aas:kind>
+                                                <aas:semanticId>
+                                                    <aas:keys>
+                                                        <aas:key idType="Custom" local="true" type="ConceptDescription">NoConceptDescription</aas:key>
+                                                    </aas:keys>
+                                                </aas:semanticId>
+                                                <aas:allowDuplicates>true</aas:allowDuplicates>
+                                                <aas:ordered>true</aas:ordered>
+                                                <aas:value>
+                                                    <aas:submodelElement>
+                                                        <aas:property>
+                                                            <aas:idShort>DGBasicLinkOut</aas:idShort>
+                                                            <aas:description>
+                                                                <aas:langString lang=""/>
+                                                            </aas:description>
+                                                            <aas:parent>
+                                                                <aas:keys>
+                                                                    <aas:key idType="IdShort" local="true" type="SubmodelElementCollection">ProvidedServices</aas:key>
+                                                                </aas:keys>
+                                                            </aas:parent>
+                                                            <aas:kind>Instance</aas:kind>
+                                                            <aas:semanticId>
+                                                                <aas:keys>
+                                                                    <aas:key idType="Custom" local="true" type="ConceptDescription">NoConceptDescription</aas:key>
+                                                                </aas:keys>
+                                                            </aas:semanticId>
+                                                            <aas:valueType>string</aas:valueType>
+                                                        </aas:property>
+                                                    </aas:submodelElement>
+                                                </aas:value>
+                                            </aas:submodelElementCollection>
+                                        </aas:submodelElement>
+                                        <aas:submodelElement>
+                                            <aas:submodelElementCollection>
+                                                <aas:idShort>RequiredServices</aas:idShort>
+                                                <aas:description>
+                                                    <aas:langString lang=""/>
+                                                </aas:description>
+                                                <aas:parent>
+                                                    <aas:keys>
+                                                        <aas:key idType="IdShort" local="true" type="SubmodelElementCollection">D1</aas:key>
+                                                    </aas:keys>
+                                                </aas:parent>
+                                                <aas:kind>Instance</aas:kind>
+                                                <aas:semanticId>
+                                                    <aas:keys>
+                                                        <aas:key idType="Custom" local="true" type="ConceptDescription">NoConceptDescription</aas:key>
+                                                    </aas:keys>
+                                                </aas:semanticId>
+                                                <aas:allowDuplicates>true</aas:allowDuplicates>
+                                                <aas:ordered>true</aas:ordered>
+                                                <aas:value>
+                                                    <aas:submodelElement>
+                                                        <aas:property>
+                                                            <aas:idShort>DGBasicLinkIn</aas:idShort>
+                                                            <aas:description>
+                                                                <aas:langString lang=""/>
+                                                            </aas:description>
+                                                            <aas:parent>
+                                                                <aas:keys>
+                                                                    <aas:key idType="IdShort" local="true" type="SubmodelElementCollection">RequiredServices</aas:key>
+                                                                </aas:keys>
+                                                            </aas:parent>
+                                                            <aas:kind>Instance</aas:kind>
+                                                            <aas:semanticId>
+                                                                <aas:keys>
+                                                                    <aas:key idType="Custom" local="true" type="ConceptDescription">NoConceptDescription</aas:key>
+                                                                </aas:keys>
+                                                            </aas:semanticId>
+                                                            <aas:valueType>string</aas:valueType>
+                                                        </aas:property>
+                                                    </aas:submodelElement>
+                                                </aas:value>
+                                            </aas:submodelElementCollection>
+                                        </aas:submodelElement>
+                                    </aas:value>
+                                </aas:submodelElementCollection>
+                            </aas:submodelElement>
+                            <aas:submodelElement>
+                                <aas:submodelElementCollection>
+                                    <aas:idShort>D2</aas:idShort>
+                                    <aas:description>
+                                        <aas:langString lang=""/>
+                                    </aas:description>
+                                    <aas:parent>
+                                        <aas:keys>
+                                            <aas:key idType="Custom" local="true" type="Submodel">SystemComponentArchitectureSubmodel</aas:key>
+                                            <aas:key idType="IdShort" local="true" type="SubmodelElementCollection">ComponentInstances</aas:key>
+                                        </aas:keys>
+                                    </aas:parent>
+                                    <aas:kind>Instance</aas:kind>
+                                    <aas:semanticId>
+                                        <aas:keys>
+                                            <aas:key idType="Custom" local="true" type="ConceptDescription">NoConceptDescription</aas:key>
+                                        </aas:keys>
+                                    </aas:semanticId>
+                                    <aas:allowDuplicates>true</aas:allowDuplicates>
+                                    <aas:ordered>true</aas:ordered>
+                                    <aas:value>
+                                        <aas:submodelElement>
+                                            <aas:submodelElementCollection>
+                                                <aas:idShort>ProvidedServices</aas:idShort>
+                                                <aas:description>
+                                                    <aas:langString lang=""/>
+                                                </aas:description>
+                                                <aas:parent>
+                                                    <aas:keys>
+                                                        <aas:key idType="IdShort" local="true" type="SubmodelElementCollection">D2</aas:key>
+                                                    </aas:keys>
+                                                </aas:parent>
+                                                <aas:kind>Instance</aas:kind>
+                                                <aas:semanticId>
+                                                    <aas:keys>
+                                                        <aas:key idType="Custom" local="true" type="ConceptDescription">NoConceptDescription</aas:key>
+                                                    </aas:keys>
+                                                </aas:semanticId>
+                                                <aas:allowDuplicates>true</aas:allowDuplicates>
+                                                <aas:ordered>true</aas:ordered>
+                                                <aas:value>
+                                                    <aas:submodelElement>
+                                                        <aas:property>
+                                                            <aas:idShort>DGBasicLinkOut</aas:idShort>
+                                                            <aas:description>
+                                                                <aas:langString lang=""/>
+                                                            </aas:description>
+                                                            <aas:parent>
+                                                                <aas:keys>
+                                                                    <aas:key idType="IdShort" local="true" type="SubmodelElementCollection">ProvidedServices</aas:key>
+                                                                </aas:keys>
+                                                            </aas:parent>
+                                                            <aas:kind>Instance</aas:kind>
+                                                            <aas:semanticId>
+                                                                <aas:keys>
+                                                                    <aas:key idType="Custom" local="true" type="ConceptDescription">NoConceptDescription</aas:key>
+                                                                </aas:keys>
+                                                            </aas:semanticId>
+                                                            <aas:valueType>string</aas:valueType>
+                                                        </aas:property>
+                                                    </aas:submodelElement>
+                                                </aas:value>
+                                            </aas:submodelElementCollection>
+                                        </aas:submodelElement>
+                                        <aas:submodelElement>
+                                            <aas:submodelElementCollection>
+                                                <aas:idShort>RequiredServices</aas:idShort>
+                                                <aas:description>
+                                                    <aas:langString lang=""/>
+                                                </aas:description>
+                                                <aas:parent>
+                                                    <aas:keys>
+                                                        <aas:key idType="IdShort" local="true" type="SubmodelElementCollection">D2</aas:key>
+                                                    </aas:keys>
+                                                </aas:parent>
+                                                <aas:kind>Instance</aas:kind>
+                                                <aas:semanticId>
+                                                    <aas:keys>
+                                                        <aas:key idType="Custom" local="true" type="ConceptDescription">NoConceptDescription</aas:key>
+                                                    </aas:keys>
+                                                </aas:semanticId>
+                                                <aas:allowDuplicates>true</aas:allowDuplicates>
+                                                <aas:ordered>true</aas:ordered>
+                                                <aas:value>
+                                                    <aas:submodelElement>
+                                                        <aas:property>
+                                                            <aas:idShort>DGBasicLinkIn</aas:idShort>
+                                                            <aas:description>
+                                                                <aas:langString lang=""/>
+                                                            </aas:description>
+                                                            <aas:parent>
+                                                                <aas:keys>
+                                                                    <aas:key idType="IdShort" local="true" type="SubmodelElementCollection">RequiredServices</aas:key>
+                                                                </aas:keys>
+                                                            </aas:parent>
+                                                            <aas:kind>Instance</aas:kind>
+                                                            <aas:semanticId>
+                                                                <aas:keys>
+                                                                    <aas:key idType="Custom" local="true" type="ConceptDescription">NoConceptDescription</aas:key>
+                                                                </aas:keys>
+                                                            </aas:semanticId>
+                                                            <aas:valueType>string</aas:valueType>
+                                                        </aas:property>
+                                                    </aas:submodelElement>
+                                                </aas:value>
+                                            </aas:submodelElementCollection>
+                                        </aas:submodelElement>
+                                    </aas:value>
+                                </aas:submodelElementCollection>
+                            </aas:submodelElement>
+                        </aas:value>
+                    </aas:submodelElementCollection>
+                </aas:submodelElement>
+                <aas:submodelElement>
+                    <aas:property>
+                        <aas:idShort>Name</aas:idShort>
+                        <aas:description>
+                            <aas:langString lang=""/>
+                        </aas:description>
+                        <aas:parent>
+                            <aas:keys>
+                                <aas:key idType="Custom" local="true" type="Submodel">SystemComponentArchitectureSubmodel</aas:key>
+                            </aas:keys>
+                        </aas:parent>
+                        <aas:kind>Instance</aas:kind>
+                        <aas:semanticId>
+                            <aas:keys>
+                                <aas:key idType="Custom" local="true" type="ConceptDescription">NoConceptDescription</aas:key>
+                            </aas:keys>
+                        </aas:semanticId>
+                        <aas:value>AASSys</aas:value>
+                        <aas:valueType>string</aas:valueType>
+                    </aas:property>
+                </aas:submodelElement>
+            </aas:submodelElements>
+        </aas:submodel>
+        <aas:submodel>
+            <aas:idShort>TargetPlatformModel</aas:idShort>
+            <aas:parent>
+                <aas:keys>
+                    <aas:key idType="IRI" local="true" type="AssetAdministrationShell">www.examle.com/ids/aas/Demo</aas:key>
+                </aas:keys>
+            </aas:parent>
+            <aas:identification idType="Custom">TargetPlatformModelSubmodel</aas:identification>
+            <aas:kind>Instance</aas:kind>
+            <aas:submodelElements>
+                <aas:submodelElement>
+                    <aas:submodelElementCollection>
+                        <aas:idShort>TargetPlatformDefinitions</aas:idShort>
+                        <aas:description>
+                            <aas:langString lang=""/>
+                        </aas:description>
+                        <aas:parent>
+                            <aas:keys>
+                                <aas:key idType="Custom" local="true" type="Submodel">TargetPlatformModelSubmodel</aas:key>
+                            </aas:keys>
+                        </aas:parent>
+                        <aas:kind>Instance</aas:kind>
+                        <aas:semanticId>
+                            <aas:keys>
+                                <aas:key idType="Custom" local="true" type="ConceptDescription">NoConceptDescription</aas:key>
+                            </aas:keys>
+                        </aas:semanticId>
+                        <aas:allowDuplicates>true</aas:allowDuplicates>
+                        <aas:ordered>true</aas:ordered>
+                        <aas:value>
+                            <aas:submodelElement>
+                                <aas:submodelElementCollection>
+                                    <aas:idShort>LocalhostTarget</aas:idShort>
+                                    <aas:description>
+                                        <aas:langString lang=""/>
+                                    </aas:description>
+                                    <aas:parent>
+                                        <aas:keys>
+                                            <aas:key idType="Custom" local="true" type="Submodel">TargetPlatformModelSubmodel</aas:key>
+                                            <aas:key idType="IdShort" local="true" type="SubmodelElementCollection">TargetPlatformDefinitions</aas:key>
+                                        </aas:keys>
+                                    </aas:parent>
+                                    <aas:kind>Instance</aas:kind>
+                                    <aas:semanticId>
+                                        <aas:keys>
+                                            <aas:key idType="Custom" local="true" type="ConceptDescription">NoConceptDescription</aas:key>
+                                        </aas:keys>
+                                    </aas:semanticId>
+                                    <aas:allowDuplicates>true</aas:allowDuplicates>
+                                    <aas:ordered>true</aas:ordered>
+                                    <aas:value>
+                                        <aas:submodelElement>
+                                            <aas:submodelElementCollection>
+                                                <aas:idShort>LoginAccounts</aas:idShort>
+                                                <aas:description>
+                                                    <aas:langString lang=""/>
+                                                </aas:description>
+                                                <aas:parent>
+                                                    <aas:keys>
+                                                        <aas:key idType="IdShort" local="true" type="SubmodelElementCollection">LocalhostTarget</aas:key>
+                                                    </aas:keys>
+                                                </aas:parent>
+                                                <aas:kind>Instance</aas:kind>
+                                                <aas:semanticId>
+                                                    <aas:keys>
+                                                        <aas:key idType="Custom" local="true" type="ConceptDescription">NoConceptDescription</aas:key>
+                                                    </aas:keys>
+                                                </aas:semanticId>
+                                                <aas:allowDuplicates>true</aas:allowDuplicates>
+                                                <aas:ordered>true</aas:ordered>
+                                                <aas:value/>
+                                            </aas:submodelElementCollection>
+                                        </aas:submodelElement>
+                                        <aas:submodelElement>
+                                            <aas:submodelElementCollection>
+                                                <aas:idShort>TargetMiddlewares</aas:idShort>
+                                                <aas:description>
+                                                    <aas:langString lang=""/>
+                                                </aas:description>
+                                                <aas:parent>
+                                                    <aas:keys>
+                                                        <aas:key idType="IdShort" local="true" type="SubmodelElementCollection">LocalhostTarget</aas:key>
+                                                    </aas:keys>
+                                                </aas:parent>
+                                                <aas:kind>Instance</aas:kind>
+                                                <aas:semanticId>
+                                                    <aas:keys>
+                                                        <aas:key idType="Custom" local="true" type="ConceptDescription">NoConceptDescription</aas:key>
+                                                    </aas:keys>
+                                                </aas:semanticId>
+                                                <aas:allowDuplicates>true</aas:allowDuplicates>
+                                                <aas:ordered>true</aas:ordered>
+                                                <aas:value/>
+                                            </aas:submodelElementCollection>
+                                        </aas:submodelElement>
+                                        <aas:submodelElement>
+                                            <aas:submodelElementCollection>
+                                                <aas:idShort>CPUs</aas:idShort>
+                                                <aas:description>
+                                                    <aas:langString lang=""/>
+                                                </aas:description>
+                                                <aas:parent>
+                                                    <aas:keys>
+                                                        <aas:key idType="IdShort" local="true" type="SubmodelElementCollection">LocalhostTarget</aas:key>
+                                                    </aas:keys>
+                                                </aas:parent>
+                                                <aas:kind>Instance</aas:kind>
+                                                <aas:semanticId>
+                                                    <aas:keys>
+                                                        <aas:key idType="Custom" local="true" type="ConceptDescription">NoConceptDescription</aas:key>
+                                                    </aas:keys>
+                                                </aas:semanticId>
+                                                <aas:allowDuplicates>true</aas:allowDuplicates>
+                                                <aas:ordered>true</aas:ordered>
+                                                <aas:value/>
+                                            </aas:submodelElementCollection>
+                                        </aas:submodelElement>
+                                        <aas:submodelElement>
+                                            <aas:submodelElementCollection>
+                                                <aas:idShort>NetworkInterfaces</aas:idShort>
+                                                <aas:description>
+                                                    <aas:langString lang=""/>
+                                                </aas:description>
+                                                <aas:parent>
+                                                    <aas:keys>
+                                                        <aas:key idType="IdShort" local="true" type="SubmodelElementCollection">LocalhostTarget</aas:key>
+                                                    </aas:keys>
+                                                </aas:parent>
+                                                <aas:kind>Instance</aas:kind>
+                                                <aas:semanticId>
+                                                    <aas:keys>
+                                                        <aas:key idType="Custom" local="true" type="ConceptDescription">NoConceptDescription</aas:key>
+                                                    </aas:keys>
+                                                </aas:semanticId>
+                                                <aas:allowDuplicates>true</aas:allowDuplicates>
+                                                <aas:ordered>true</aas:ordered>
+                                                <aas:value>
+                                                    <aas:submodelElement>
+                                                        <aas:submodelElementCollection>
+                                                            <aas:idShort>localhost</aas:idShort>
+                                                            <aas:description>
+                                                                <aas:langString lang=""/>
+                                                            </aas:description>
+                                                            <aas:parent>
+                                                                <aas:keys>
+                                                                    <aas:key idType="IdShort" local="true" type="SubmodelElementCollection">LocalhostTarget</aas:key>
+                                                                    <aas:key idType="IdShort" local="true" type="SubmodelElementCollection">NetworkInterfaces</aas:key>
+                                                                </aas:keys>
+                                                            </aas:parent>
+                                                            <aas:kind>Instance</aas:kind>
+                                                            <aas:semanticId>
+                                                                <aas:keys>
+                                                                    <aas:key idType="Custom" local="true" type="ConceptDescription">NoConceptDescription</aas:key>
+                                                                </aas:keys>
+                                                            </aas:semanticId>
+                                                            <aas:allowDuplicates>true</aas:allowDuplicates>
+                                                            <aas:ordered>true</aas:ordered>
+                                                            <aas:value>
+                                                                <aas:submodelElement>
+                                                                    <aas:property>
+                                                                        <aas:idShort>HostAddress</aas:idShort>
+                                                                        <aas:description>
+                                                                            <aas:langString lang=""/>
+                                                                        </aas:description>
+                                                                        <aas:parent>
+                                                                            <aas:keys>
+                                                                                <aas:key idType="IdShort" local="true" type="SubmodelElementCollection">localhost</aas:key>
+                                                                            </aas:keys>
+                                                                        </aas:parent>
+                                                                        <aas:kind>Instance</aas:kind>
+                                                                        <aas:semanticId>
+                                                                            <aas:keys>
+                                                                                <aas:key idType="Custom" local="true" type="ConceptDescription">NoConceptDescription</aas:key>
+                                                                            </aas:keys>
+                                                                        </aas:semanticId>
+                                                                        <aas:value>"127.0.0.1"</aas:value>
+                                                                        <aas:valueType>string</aas:valueType>
+                                                                    </aas:property>
+                                                                </aas:submodelElement>
+                                                            </aas:value>
+                                                        </aas:submodelElementCollection>
+                                                    </aas:submodelElement>
+                                                </aas:value>
+                                            </aas:submodelElementCollection>
+                                        </aas:submodelElement>
+                                    </aas:value>
+                                </aas:submodelElementCollection>
+                            </aas:submodelElement>
+                        </aas:value>
+                    </aas:submodelElementCollection>
+                </aas:submodelElement>
+                <aas:submodelElement>
+                    <aas:submodelElementCollection>
+                        <aas:idShort>NetworkConnections</aas:idShort>
+                        <aas:description>
+                            <aas:langString lang=""/>
+                        </aas:description>
+                        <aas:parent>
+                            <aas:keys>
+                                <aas:key idType="Custom" local="true" type="Submodel">TargetPlatformModelSubmodel</aas:key>
+                            </aas:keys>
+                        </aas:parent>
+                        <aas:kind>Instance</aas:kind>
+                        <aas:semanticId>
+                            <aas:keys>
+                                <aas:key idType="Custom" local="true" type="ConceptDescription">NoConceptDescription</aas:key>
+                            </aas:keys>
+                        </aas:semanticId>
+                        <aas:allowDuplicates>true</aas:allowDuplicates>
+                        <aas:ordered>true</aas:ordered>
+                        <aas:value/>
+                    </aas:submodelElementCollection>
+                </aas:submodelElement>
+                <aas:submodelElement>
+                    <aas:property>
+                        <aas:idShort>Name</aas:idShort>
+                        <aas:description>
+                            <aas:langString lang=""/>
+                        </aas:description>
+                        <aas:parent>
+                            <aas:keys>
+                                <aas:key idType="Custom" local="true" type="Submodel">TargetPlatformModelSubmodel</aas:key>
+                            </aas:keys>
+                        </aas:parent>
+                        <aas:kind>Instance</aas:kind>
+                        <aas:semanticId>
+                            <aas:keys>
+                                <aas:key idType="Custom" local="true" type="ConceptDescription">NoConceptDescription</aas:key>
+                            </aas:keys>
+                        </aas:semanticId>
+                        <aas:value>AASSys</aas:value>
+                        <aas:valueType>string</aas:valueType>
+                    </aas:property>
+                </aas:submodelElement>
+            </aas:submodelElements>
+        </aas:submodel>
+        <aas:submodel>
+            <aas:idShort>DeploymentModel</aas:idShort>
+            <aas:parent>
+                <aas:keys>
+                    <aas:key idType="IRI" local="true" type="AssetAdministrationShell">www.examle.com/ids/aas/Demo</aas:key>
+                </aas:keys>
+            </aas:parent>
+            <aas:identification idType="Custom">DeploymentModelSubmodel</aas:identification>
+            <aas:kind>Instance</aas:kind>
+            <aas:submodelElements>
+                <aas:submodelElement>
+                    <aas:submodelElementCollection>
+                        <aas:idShort>TargetPlatformReferences</aas:idShort>
+                        <aas:description>
+                            <aas:langString lang=""/>
+                        </aas:description>
+                        <aas:parent>
+                            <aas:keys>
+                                <aas:key idType="Custom" local="true" type="Submodel">DeploymentModelSubmodel</aas:key>
+                            </aas:keys>
+                        </aas:parent>
+                        <aas:kind>Instance</aas:kind>
+                        <aas:semanticId>
+                            <aas:keys>
+                                <aas:key idType="Custom" local="true" type="ConceptDescription">NoConceptDescription</aas:key>
+                            </aas:keys>
+                        </aas:semanticId>
+                        <aas:allowDuplicates>true</aas:allowDuplicates>
+                        <aas:ordered>true</aas:ordered>
+                        <aas:value/>
+                    </aas:submodelElementCollection>
+                </aas:submodelElement>
+                <aas:submodelElement>
+                    <aas:property>
+                        <aas:idShort>using</aas:idShort>
+                        <aas:description>
+                            <aas:langString lang=""/>
+                        </aas:description>
+                        <aas:parent>
+                            <aas:keys>
+                                <aas:key idType="Custom" local="true" type="Submodel">DeploymentModelSubmodel</aas:key>
+                            </aas:keys>
+                        </aas:parent>
+                        <aas:kind>Instance</aas:kind>
+                        <aas:semanticId>
+                            <aas:keys>
+                                <aas:key idType="Custom" local="true" type="ConceptDescription">NoConceptDescription</aas:key>
+                            </aas:keys>
+                        </aas:semanticId>
+                        <aas:value>ComponentArchitectureAASSys</aas:value>
+                        <aas:valueType>string</aas:valueType>
+                    </aas:property>
+                </aas:submodelElement>
+                <aas:submodelElement>
+                    <aas:submodelElementCollection>
+                        <aas:idShort>NamingServices</aas:idShort>
+                        <aas:description>
+                            <aas:langString lang=""/>
+                        </aas:description>
+                        <aas:parent>
+                            <aas:keys>
+                                <aas:key idType="Custom" local="true" type="Submodel">DeploymentModelSubmodel</aas:key>
+                            </aas:keys>
+                        </aas:parent>
+                        <aas:kind>Instance</aas:kind>
+                        <aas:semanticId>
+                            <aas:keys>
+                                <aas:key idType="Custom" local="true" type="ConceptDescription">NoConceptDescription</aas:key>
+                            </aas:keys>
+                        </aas:semanticId>
+                        <aas:allowDuplicates>true</aas:allowDuplicates>
+                        <aas:ordered>true</aas:ordered>
+                        <aas:value/>
+                    </aas:submodelElementCollection>
+                </aas:submodelElement>
+                <aas:submodelElement>
+                    <aas:submodelElementCollection>
+                        <aas:idShort>Imports</aas:idShort>
+                        <aas:description>
+                            <aas:langString lang=""/>
+                        </aas:description>
+                        <aas:parent>
+                            <aas:keys>
+                                <aas:key idType="Custom" local="true" type="Submodel">DeploymentModelSubmodel</aas:key>
+                            </aas:keys>
+                        </aas:parent>
+                        <aas:kind>Instance</aas:kind>
+                        <aas:semanticId>
+                            <aas:keys>
+                                <aas:key idType="Custom" local="true" type="ConceptDescription">NoConceptDescription</aas:key>
+                            </aas:keys>
+                        </aas:semanticId>
+                        <aas:allowDuplicates>true</aas:allowDuplicates>
+                        <aas:ordered>true</aas:ordered>
+                        <aas:value/>
+                    </aas:submodelElementCollection>
+                </aas:submodelElement>
+                <aas:submodelElement>
+                    <aas:submodelElementCollection>
+                        <aas:idShort>ComponentArtefacts</aas:idShort>
+                        <aas:description>
+                            <aas:langString lang=""/>
+                        </aas:description>
+                        <aas:parent>
+                            <aas:keys>
+                                <aas:key idType="Custom" local="true" type="Submodel">DeploymentModelSubmodel</aas:key>
+                            </aas:keys>
+                        </aas:parent>
+                        <aas:kind>Instance</aas:kind>
+                        <aas:semanticId>
+                            <aas:keys>
+                                <aas:key idType="Custom" local="true" type="ConceptDescription">NoConceptDescription</aas:key>
+                            </aas:keys>
+                        </aas:semanticId>
+                        <aas:allowDuplicates>true</aas:allowDuplicates>
+                        <aas:ordered>true</aas:ordered>
+                        <aas:value/>
+                    </aas:submodelElementCollection>
+                </aas:submodelElement>
+                <aas:submodelElement>
+                    <aas:property>
+                        <aas:idShort>Name</aas:idShort>
+                        <aas:description>
+                            <aas:langString lang=""/>
+                        </aas:description>
+                        <aas:parent>
+                            <aas:keys>
+                                <aas:key idType="Custom" local="true" type="Submodel">DeploymentModelSubmodel</aas:key>
+                            </aas:keys>
+                        </aas:parent>
+                        <aas:kind>Instance</aas:kind>
+                        <aas:semanticId>
+                            <aas:keys>
+                                <aas:key idType="Custom" local="true" type="ConceptDescription">NoConceptDescription</aas:key>
+                            </aas:keys>
+                        </aas:semanticId>
+                        <aas:value>AASSys</aas:value>
+                        <aas:valueType>string</aas:valueType>
+                    </aas:property>
+                </aas:submodelElement>
+            </aas:submodelElements>
+        </aas:submodel>
+        <aas:submodel>
+            <aas:idShort>SystemParameterModel</aas:idShort>
+            <aas:parent>
+                <aas:keys>
+                    <aas:key idType="IRI" local="true" type="AssetAdministrationShell">www.examle.com/ids/aas/Demo</aas:key>
+                </aas:keys>
+            </aas:parent>
+            <aas:identification idType="Custom">SystemParameterModelSubmodel</aas:identification>
+            <aas:kind>Instance</aas:kind>
+            <aas:submodelElements>
+                <aas:submodelElement>
+                    <aas:submodelElementCollection>
+                        <aas:idShort>CompomentParameterInstances</aas:idShort>
+                        <aas:description>
+                            <aas:langString lang=""/>
+                        </aas:description>
+                        <aas:parent>
+                            <aas:keys>
+                                <aas:key idType="Custom" local="true" type="Submodel">SystemParameterModelSubmodel</aas:key>
+                            </aas:keys>
+                        </aas:parent>
+                        <aas:kind>Instance</aas:kind>
+                        <aas:semanticId>
+                            <aas:keys>
+                                <aas:key idType="Custom" local="true" type="ConceptDescription">NoConceptDescription</aas:key>
+                            </aas:keys>
+                        </aas:semanticId>
+                        <aas:allowDuplicates>true</aas:allowDuplicates>
+                        <aas:ordered>true</aas:ordered>
+                        <aas:value/>
+                    </aas:submodelElementCollection>
+                </aas:submodelElement>
+                <aas:submodelElement>
+                    <aas:property>
+                        <aas:idShort>extendsSystem</aas:idShort>
+                        <aas:description>
+                            <aas:langString lang=""/>
+                        </aas:description>
+                        <aas:parent>
+                            <aas:keys>
+                                <aas:key idType="Custom" local="true" type="Submodel">SystemParameterModelSubmodel</aas:key>
+                            </aas:keys>
+                        </aas:parent>
+                        <aas:kind>Instance</aas:kind>
+                        <aas:semanticId>
+                            <aas:keys>
+                                <aas:key idType="Custom" local="true" type="ConceptDescription">NoConceptDescription</aas:key>
+                            </aas:keys>
+                        </aas:semanticId>
+                        <aas:value>AASSys</aas:value>
+                        <aas:valueType>string</aas:valueType>
+                    </aas:property>
+                </aas:submodelElement>
+                <aas:submodelElement>
+                    <aas:property>
+                        <aas:idShort>Name</aas:idShort>
+                        <aas:description>
+                            <aas:langString lang=""/>
+                        </aas:description>
+                        <aas:parent>
+                            <aas:keys>
+                                <aas:key idType="Custom" local="true" type="Submodel">SystemParameterModelSubmodel</aas:key>
+                            </aas:keys>
+                        </aas:parent>
+                        <aas:kind>Instance</aas:kind>
+                        <aas:semanticId>
+                            <aas:keys>
+                                <aas:key idType="Custom" local="true" type="ConceptDescription">NoConceptDescription</aas:key>
+                            </aas:keys>
+                        </aas:semanticId>
+                        <aas:value>AASSys</aas:value>
+                        <aas:valueType>string</aas:valueType>
+                    </aas:property>
+                </aas:submodelElement>
+            </aas:submodelElements>
+        </aas:submodel>
+    </aas:submodels>
+    <aas:conceptDescriptions>
+        <aas:conceptDescription>
+            <aas:idShort>EmptyCD</aas:idShort>
+            <aas:identification idType="Custom">NoConceptDescription</aas:identification>
+            <aas:embeddedDataSpecification>
+                <aas:dataSpecificationContent>
+                    <aas:dataSpecificationIEC61360/>
+                </aas:dataSpecificationContent>
+                <aas:dataSpecification>
+                    <aas:keys>
+                        <aas:key idType="IRI" local="false" type="GlobalReference">www.admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360</aas:key>
+                    </aas:keys>
+                </aas:dataSpecification>
+            </aas:embeddedDataSpecification>
+            <aas:isCaseOf>
+                <aas:keys/>
+            </aas:isCaseOf>
+        </aas:conceptDescription>
+        <aas:conceptDescription>
+            <aas:idShort>BaseURI</aas:idShort>
+            <aas:identification idType="IRI">www.servicerobotik-ulm.de/ids/ConceptDescription/BaseURI</aas:identification>
+            <aas:embeddedDataSpecification>
+                <aas:dataSpecificationContent>
+                    <aas:dataSpecificationIEC61360>
+                        <IEC61360:preferredName>
+                            <IEC61360:langString lang="EN">URI of the developer</IEC61360:langString>
+                        </IEC61360:preferredName>
+                        <IEC61360:dataType>STRING</IEC61360:dataType>
+                        <IEC61360:definition>
+                            <IEC61360:langString lang="EN">This is the URI of the developer.</IEC61360:langString>
+                        </IEC61360:definition>
+                    </aas:dataSpecificationIEC61360>
+                </aas:dataSpecificationContent>
+                <aas:dataSpecification>
+                    <aas:keys>
+                        <aas:key idType="IRI" local="false" type="GlobalReference">www.admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360</aas:key>
+                    </aas:keys>
+                </aas:dataSpecification>
+            </aas:embeddedDataSpecification>
+            <aas:isCaseOf>
+                <aas:keys/>
+            </aas:isCaseOf>
+        </aas:conceptDescription>
+    </aas:conceptDescriptions>
+</aas:aasenv>
