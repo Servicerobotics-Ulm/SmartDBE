@@ -10,7 +10,8 @@ B. Create a directory "$HOME/SOFTWARE/smartsoft"
 
 C. Copy Folder "SmartTSbox" and "SmartAASbox" to "$HOME/SOFTWARE/smartsoft"
 
-D. On Eclipse Install:
+D. On Eclipse Install: 
+(Help: https://github.com/Servicerobotics-Ulm/SmartDG-Tutorials/tree/main/02_01_Installing_SmartDG_DSLs_On_Eclipse#install-dependencies)
 
 [1] Sirius Integration with Xtext
 
@@ -20,7 +21,10 @@ D. On Eclipse Install:
 
 [4] EclipseLink JPA Support
 
-[5] SmartDG or SmartTS or SmartAAS
+[5] SmartDG or SmartTS or SmartAAS	(local repository)
+(Help: https://github.com/Servicerobotics-Ulm/SmartDG-Tutorials/blob/main/02_01_Installing_SmartDG_DSLs_On_Eclipse/README.md#install-smartdg-dsl-on-the-newly-installed-eclipse-with-smartmdsd-plugins)
 
 In case of install issues, restart the eclipse and try again.
+
+Note: Project sources will be made available to the community in near future.
 
