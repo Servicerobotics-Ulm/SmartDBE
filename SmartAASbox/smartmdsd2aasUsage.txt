@@ -1,0 +1,22 @@
+
+## Display Valid input sets:
+java -jar smartmdsd2aas.jar
+
+## Generate an AASXML model with the default contents
+java -jar smartmdsd2aas.jar DEFAULT ./DEF.xml
+
+## Convert SmartSMS model to an AASXML model
+java -jar smartmdsd2aas.jar SMS2XML ./SystemWebotsLarryNavigation.aas_sms
+
+## Display AAS structure from an existing AASXML model
+java -jar smartmdsd2aas.jar DISPLAY ./DEF.xml
+java -jar smartmdsd2aas.jar DISPLAY ./SystemWebotsLarryNavigationAAS.xml
+
+## Populate a AAS Server from an existing AASXML model
+java -jar smartmdsd2aas.jar RUN ./DEF.xml
+java -jar smartmdsd2aas.jar RUN ./SystemWebotsLarryNavigationAAS.xml
+java -jar smartmdsd2aas.jar RUN ./SystemWebotsLarryNavigationAAS.xml 4000
+java -jar smartmdsd2aas.jar RUN ./SystemWebotsLarryNavigationAAS.xml 6868 4500
+java -jar smartmdsd2aas.jar RUN ./SystemWebotsLarryNavigationAAS.xml 4000 6868 4500
+java -jar smartmdsd2aas.jar RUN ./SystemWebotsLarryNavigationAAS.xml 4000 6868 4500 true
+
