@@ -1,0 +1,273 @@
+{
+	"info": {
+		"_postman_id": "537e1c9a-d431-41bc-a804-5784d0d76001",
+		"name": "SmartAASDemo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ManageServer STOP_SERVER",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"requestId\" : \"1\",\n\"inputArguments\": [\n    {\n      \"value\": {\n           \"idShort\": \"CommandId\",\n           \"valueType\": \"string\",\n           \"value\": \"STOP_SERVER\",\n           \"modelType\": {\n               \"name\": \"Property\"\n           }\n      }\n    }\n  ],\n    \"timeout\" : 5000\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4001/aasOPServer/smartmdsd.aas.submodel.operations/submodel/submodelElements/ManageServer/invoke",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"aasOPServer",
+						"smartmdsd.aas.submodel.operations",
+						"submodel",
+						"submodelElements",
+						"ManageServer",
+						"invoke"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ManageServer VERBOS_ON",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"requestId\" : \"1\",\n\"inputArguments\": [\n    {\n      \"value\": {\n           \"idShort\": \"CommandId\",\n           \"valueType\": \"string\",\n           \"value\": \"VERBOS_ON\",\n           \"modelType\": {\n               \"name\": \"Property\"\n           }\n      }\n    }\n  ],\n    \"timeout\" : 5000\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4001/aasOPServer/smartmdsd.aas.submodel.operations/submodel/submodelElements/ManageServer/invoke",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"aasOPServer",
+						"smartmdsd.aas.submodel.operations",
+						"submodel",
+						"submodelElements",
+						"ManageServer",
+						"invoke"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ManageServer VERBOS_OFF",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"requestId\" : \"1\",\n\"inputArguments\": [\n    {\n      \"value\": {\n           \"idShort\": \"CommandId\",\n           \"valueType\": \"string\",\n           \"value\": \"VERBOS_OFF\",\n           \"modelType\": {\n               \"name\": \"Property\"\n           }\n      }\n    }\n  ],\n    \"timeout\" : 5000\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4001/aasOPServer/smartmdsd.aas.submodel.operations/submodel/submodelElements/ManageServer/invoke",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"aasOPServer",
+						"smartmdsd.aas.submodel.operations",
+						"submodel",
+						"submodelElements",
+						"ManageServer",
+						"invoke"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ManageServer CLEAR_INPUT_BUFFER",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"requestId\" : \"1\",\n\"inputArguments\": [\n    {\n      \"value\": {\n           \"idShort\": \"CommandId\",\n           \"valueType\": \"string\",\n           \"value\": \"CLEAR_INPUT_BUFFER\",\n           \"modelType\": {\n               \"name\": \"Property\"\n           }\n      }\n    }\n  ],\n    \"timeout\" : 5000\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4001/aasOPServer/smartmdsd.aas.submodel.operations/submodel/submodelElements/ManageServer/invoke",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"aasOPServer",
+						"smartmdsd.aas.submodel.operations",
+						"submodel",
+						"submodelElements",
+						"ManageServer",
+						"invoke"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PushCapability",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n\"requestId\" : \"1\",\n\n\"inputArguments\": [\n\n    {\n\n      \"value\": {\n\n           \"idShort\": \"Command\",\n\n           \"valueType\": \"string\",\n\n           \"value\": \"CapName_||_In2_||_In3\",\n\n           \"modelType\": {\n\n               \"name\": \"Property\"\n\n           }\n\n      }\n\n    }\n\n  ],\n\n    \"timeout\" : 5000\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4001/aasOPServer/smartmdsd.aas.submodel.operations/submodel/submodelElements/PushCapability/invoke",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"aasOPServer",
+						"smartmdsd.aas.submodel.operations",
+						"submodel",
+						"submodelElements",
+						"PushCapability",
+						"invoke"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteCapability",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n\"requestId\" : \"1\",\n\n\"inputArguments\": [\n\n    {\n\n      \"value\": {\n\n           \"idShort\": \"Command\",\n\n           \"valueType\": \"string\",\n\n           \"value\": \"MyInput\",\n\n           \"modelType\": {\n\n               \"name\": \"Property\"\n\n           }\n\n      }\n\n    }\n\n  ],\n\n    \"timeout\" : 5000\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4001/aasOPServer/smartmdsd.aas.submodel.operations/submodel/submodelElements/DeleteCapability/invoke",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"aasOPServer",
+						"smartmdsd.aas.submodel.operations",
+						"submodel",
+						"submodelElements",
+						"DeleteCapability",
+						"invoke"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetStatusCapability",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n\"requestId\" : \"1\",\n\n\"inputArguments\": [\n\n    {\n\n      \"value\": {\n\n           \"idShort\": \"CommandId\",\n\n           \"valueType\": \"string\",\n\n           \"value\": \"20174827268579\",\n\n           \"modelType\": {\n\n               \"name\": \"Property\"\n\n           }\n\n      }\n\n    }\n\n  ],\n\n    \"timeout\" : 5000\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4001/aasOPServer/smartmdsd.aas.submodel.operations/submodel/submodelElements/GetStatusCapability/invoke",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"aasOPServer",
+						"smartmdsd.aas.submodel.operations",
+						"submodel",
+						"submodelElements",
+						"GetStatusCapability",
+						"invoke"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetOutputCapability",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n\"requestId\" : \"1\",\n\n\"inputArguments\": [\n\n    {\n\n      \"value\": {\n\n           \"idShort\": \"CommandId\",\n\n           \"valueType\": \"string\",\n\n           \"value\": \"16833689181225\",\n\n           \"modelType\": {\n\n               \"name\": \"Property\"\n\n           }\n\n      }\n\n    }\n\n  ],\n\n    \"timeout\" : 5000\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4001/aasOPServer/smartmdsd.aas.submodel.operations/submodel/submodelElements/GetOutputCapability/invoke",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"aasOPServer",
+						"smartmdsd.aas.submodel.operations",
+						"submodel",
+						"submodelElements",
+						"GetOutputCapability",
+						"invoke"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
