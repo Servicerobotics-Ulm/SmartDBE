@@ -1,0 +1,9 @@
+RequestAnswerServiceDefinition Service: [NavigationTopologyMapQuery] Pattern: QueryPattern {
+RequestType    :CommBasicObjects.CommVoid
+|——    : <> {
+| }
+
+AnswerType     :CommNavigationObjects.CommNavigationTopologyMap
+|——    : <> {
+| }
+}

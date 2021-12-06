@@ -1,0 +1,4 @@
+|  |——CommObject    : <CommNavigationTimeRequest> {
+|  |  |——UInt32     : <startPose>
+|  |  |——UInt32     : <goalPose>
+|  | }

@@ -1,0 +1,30 @@
+|  |——CommObject    : <CommBaseState> {
+|  |  |——[Local]CommTimeStamp    : <timeStamp> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]CommBasePose    : <basePose> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]CommBasePose    : <baseOdomPose> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]CommBaseVelocity    : <baseVelocity> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]CommBaseVelocity    : <baseOdomVelocity> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]CommBatteryLevel    : <batteryState> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]CommBumperState    : <baseBumperState> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }

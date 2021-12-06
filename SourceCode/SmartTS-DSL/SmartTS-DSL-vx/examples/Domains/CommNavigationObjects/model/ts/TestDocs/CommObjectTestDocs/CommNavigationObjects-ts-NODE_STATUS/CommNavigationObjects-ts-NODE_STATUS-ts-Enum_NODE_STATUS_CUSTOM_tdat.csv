@@ -1,0 +1,11 @@
+TestEntityName,CommNavigationObjects-ts-NODE_STATUS-ts-Enum_NODE_STATUS
+0,OCCUPIED
+1,AVAILABLE
+2,OK
+<<IS ENUM>>
+
+<<TS_DATA>
+0,<<WIKI>,Test for identifier OCCUPIED,<WIKI>>
+1,<<WIKI>,Test for identifier AVAILABLE,<WIKI>>
+2,<<WIKI>,Test for identifier OK,<WIKI>>
+<TS_DATA>>

@@ -1,0 +1,9 @@
+|  |——CommObject    : <Coordinate3DPlus> {
+|  |  |——Double     : <x>
+|  |  |——Double     : <y>
+|  |  |——Double     : <z>
+|  |  |——[Imported]CommBasicObjects.CommPosition3dWithCovariance    : <plus> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }

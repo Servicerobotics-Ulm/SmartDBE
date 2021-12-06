@@ -1,0 +1,5 @@
+JoiningServiceDefinition Service: [TaskSend] Pattern: SendPattern {
+DataType       :CommBasicObjects.CommTaskMessage
+|——    : <> {
+| }
+}

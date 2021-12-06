@@ -1,0 +1,13 @@
+ForkingServiceDefinition Service: [RobotBlockedEventService] Pattern: EventPattern {
+EventType      :CommNavigationObjects.CommCdlRobotBlockedEventResult
+|——    : <> {
+| }
+
+ActivationType :CommNavigationObjects.CommCdlRobotBlockedEventParameter
+|——    : <> {
+| }
+
+EventStateType :CommNavigationObjects.CommCdlRobotBlockedState
+|——    : <> {
+| }
+}

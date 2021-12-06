@@ -1,0 +1,8 @@
+|  |——CommObject    : <CommFileMetaData> {
+|  |  |——String     : <filename>
+|  |  |——UInt32     : <filesize>
+|  |  |——[Local]FileType    : <filetype> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }

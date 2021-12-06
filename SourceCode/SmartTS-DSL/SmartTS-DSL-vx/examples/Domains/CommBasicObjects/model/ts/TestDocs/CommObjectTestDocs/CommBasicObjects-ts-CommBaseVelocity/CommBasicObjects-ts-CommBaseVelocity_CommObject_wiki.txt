@@ -1,0 +1,12 @@
+|  |——CommObject    : <CommBaseVelocity> {
+|  |  |——Double     : <vX>
+|  |  |——Double     : <vY>
+|  |  |——Double     : <vZ>
+|  |  |——Double     : <wX>
+|  |  |——Double     : <wY>
+|  |  |——Double     : <wZ>
+|  |  |——[Local]CommTimeStamp    : <timeStamp> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }

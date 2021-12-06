@@ -1,0 +1,18 @@
+|  |——CommObject    : <CommLaserScan> {
+|  |  |——Boolean     : <is_valid>
+|  |  |——[Local]CommTimeStamp    : <time> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——UInt64     : <update_count>
+|  |  |——Double     : <start_angle>
+|  |  |——Double     : <resolution>
+|  |  |——UInt16     : <distance_min>
+|  |  |——UInt16     : <distance_max>
+|  |  |——UInt16     : <length_unit>
+|  |  |——[Local]LaserScanPoint    : <scan_points>[2147483647] {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——UInt16     : <max_scan_points>
+|  | }

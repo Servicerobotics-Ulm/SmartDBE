@@ -1,0 +1,2883 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServiceRepositoryTestSetContainer>
+   <ServiceRepositoryName>DomainTSDemo</ServiceRepositoryName>
+   <CommObjectTestSets>
+      <TestEntityName>DomainTSDemo-ts-BasicBoolean-ts-Boolean-ts-boolValue</TestEntityName>
+      <TestSetFileName>DomainTSDemo-ts-BasicBoolean-ts-Boolean-ts-boolValue_DEFAULT_tset.csv</TestSetFileName>
+      <TestDataFileName>DomainTSDemo-ts-BasicBoolean-ts-Boolean-ts-boolValue_DEFAULT_tdat.csv</TestDataFileName>
+      <isDefault>true</isDefault>
+      <isCustom>false</isCustom>
+      <isCustomX>false</isCustomX>
+      <isImport>false</isImport>
+      <ImportSourceRepository>Not Available</ImportSourceRepository>
+      <isLocal>true</isLocal>
+      <isEnum>false</isEnum>
+      <isPrimitive>true</isPrimitive>
+      <isNonPrimitive>false</isNonPrimitive>
+      <isArray>false</isArray>
+      <isNonPrimitiveArray>false</isNonPrimitiveArray>
+      <ZeroSizeArrayError>false</ZeroSizeArrayError>
+      <isInvalid>false</isInvalid>
+      <LogString>Test Data -Compile-> Test Set | DomainTSDemo-ts-BasicBoolean-ts-Boolean-ts-boolValue_DEFAULT_tdat.csv | isDefault isLocal isPrimitive | isValid </LogString>
+      <NotAvailableIdentifier>Not Available</NotAvailableIdentifier>
+      <CommObjectInfo>|  |——CommObject    : &lt;BasicBoolean> {
+|  |  |——Boolean     : &lt;boolValue>
+|  | }
+</CommObjectInfo>
+      <AttributeInfo>|  |  |——Boolean     : &lt;boolValue>
+</AttributeInfo>
+      <TestData>TestEntityName,DomainTSDemo-ts-BasicBoolean-ts-Boolean-ts-boolValue
+&lt;&lt;IS PRIMITIVE>>
+&lt;&lt;IS LOCAL>>
+
+&lt;&lt;TS_DATA>
+true
+false
+false
+true
+&lt;TS_DATA>>
+</TestData>
+      <TestSet>true</TestSet>
+      <TestSet>false</TestSet>
+      <TestSet>false</TestSet>
+      <TestSet>true</TestSet>
+      <verbosCompileDefault>false</verbosCompileDefault>
+      <verbosCompile>false</verbosCompile>
+   </CommObjectTestSets>
+   <CommObjectTestSets>
+      <TestEntityName>DomainTSDemo-ts-BasicBoolean-ts-Boolean-ts-boolValue</TestEntityName>
+      <TestSetFileName>DomainTSDemo-ts-BasicBoolean-ts-Boolean-ts-boolValue_CUSTOM_tset.csv</TestSetFileName>
+      <TestDataFileName>DomainTSDemo-ts-BasicBoolean-ts-Boolean-ts-boolValue_CUSTOM_tdat.csv</TestDataFileName>
+      <isDefault>false</isDefault>
+      <isCustom>true</isCustom>
+      <isCustomX>false</isCustomX>
+      <isImport>false</isImport>
+      <ImportSourceRepository>Not Available</ImportSourceRepository>
+      <isLocal>true</isLocal>
+      <isEnum>false</isEnum>
+      <isPrimitive>true</isPrimitive>
+      <isNonPrimitive>false</isNonPrimitive>
+      <isArray>false</isArray>
+      <isNonPrimitiveArray>false</isNonPrimitiveArray>
+      <ZeroSizeArrayError>false</ZeroSizeArrayError>
+      <isInvalid>false</isInvalid>
+      <LogString>Test Data -Compile-> Test Set | DomainTSDemo-ts-BasicBoolean-ts-Boolean-ts-boolValue_CUSTOM_tdat.csv | isCustom isLocal isPrimitive | isValid </LogString>
+      <NotAvailableIdentifier>Not Available</NotAvailableIdentifier>
+      <CommObjectInfo>|  |——CommObject    : &lt;BasicBoolean> {
+|  |  |——Boolean     : &lt;boolValue>
+|  | }
+</CommObjectInfo>
+      <AttributeInfo>|  |  |——Boolean     : &lt;boolValue>
+</AttributeInfo>
+      <TestData>TestEntityName,DomainTSDemo-ts-BasicBoolean-ts-Boolean-ts-boolValue
+&lt;&lt;IS PRIMITIVE>>
+&lt;&lt;IS LOCAL>>
+
+&lt;&lt;TS_DATA>
+true
+false
+false
+true
+&lt;TS_DATA>>
+</TestData>
+      <TestSet>true</TestSet>
+      <TestSet>false</TestSet>
+      <TestSet>false</TestSet>
+      <TestSet>true</TestSet>
+      <verbosCompileDefault>false</verbosCompileDefault>
+      <verbosCompile>false</verbosCompile>
+   </CommObjectTestSets>
+   <CommObjectTestSets>
+      <TestEntityName>DomainTSDemo-ts-BasicTime-ts-UInt8-ts-hour</TestEntityName>
+      <TestSetFileName>DomainTSDemo-ts-BasicTime-ts-UInt8-ts-hour_DEFAULT_tset.csv</TestSetFileName>
+      <TestDataFileName>DomainTSDemo-ts-BasicTime-ts-UInt8-ts-hour_DEFAULT_tdat.csv</TestDataFileName>
+      <isDefault>true</isDefault>
+      <isCustom>false</isCustom>
+      <isCustomX>false</isCustomX>
+      <isImport>false</isImport>
+      <ImportSourceRepository>Not Available</ImportSourceRepository>
+      <isLocal>true</isLocal>
+      <isEnum>false</isEnum>
+      <isPrimitive>true</isPrimitive>
+      <isNonPrimitive>false</isNonPrimitive>
+      <isArray>false</isArray>
+      <isNonPrimitiveArray>false</isNonPrimitiveArray>
+      <ZeroSizeArrayError>false</ZeroSizeArrayError>
+      <isInvalid>false</isInvalid>
+      <LogString>Test Data -Compile-> Test Set | DomainTSDemo-ts-BasicTime-ts-UInt8-ts-hour_DEFAULT_tdat.csv | isDefault isLocal isPrimitive | isValid </LogString>
+      <NotAvailableIdentifier>Not Available</NotAvailableIdentifier>
+      <CommObjectInfo>|  |——CommObject    : &lt;BasicTime> {
+|  |  |——UInt8     : &lt;hour>
+|  |  |——UInt8     : &lt;minute>
+|  |  |——UInt8     : &lt;second>
+|  | }
+</CommObjectInfo>
+      <AttributeInfo>|  |  |——UInt8     : &lt;hour>
+</AttributeInfo>
+      <TestData>TestEntityName,DomainTSDemo-ts-BasicTime-ts-UInt8-ts-hour
+&lt;&lt;IS PRIMITIVE>>
+&lt;&lt;IS LOCAL>>
+
+&lt;&lt;TS_DATA>
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+&lt;TS_DATA>>
+</TestData>
+      <TestSet>0</TestSet>
+      <TestSet>1</TestSet>
+      <TestSet>2</TestSet>
+      <TestSet>3</TestSet>
+      <TestSet>4</TestSet>
+      <TestSet>5</TestSet>
+      <TestSet>6</TestSet>
+      <TestSet>7</TestSet>
+      <TestSet>8</TestSet>
+      <TestSet>9</TestSet>
+      <verbosCompileDefault>false</verbosCompileDefault>
+      <verbosCompile>false</verbosCompile>
+   </CommObjectTestSets>
+   <CommObjectTestSets>
+      <TestEntityName>DomainTSDemo-ts-BasicTime-ts-UInt8-ts-hour</TestEntityName>
+      <TestSetFileName>DomainTSDemo-ts-BasicTime-ts-UInt8-ts-hour_CUSTOM_tset.csv</TestSetFileName>
+      <TestDataFileName>DomainTSDemo-ts-BasicTime-ts-UInt8-ts-hour_CUSTOM_tdat.csv</TestDataFileName>
+      <isDefault>false</isDefault>
+      <isCustom>true</isCustom>
+      <isCustomX>false</isCustomX>
+      <isImport>false</isImport>
+      <ImportSourceRepository>Not Available</ImportSourceRepository>
+      <isLocal>true</isLocal>
+      <isEnum>false</isEnum>
+      <isPrimitive>true</isPrimitive>
+      <isNonPrimitive>false</isNonPrimitive>
+      <isArray>false</isArray>
+      <isNonPrimitiveArray>false</isNonPrimitiveArray>
+      <ZeroSizeArrayError>false</ZeroSizeArrayError>
+      <isInvalid>false</isInvalid>
+      <LogString>Test Data -Compile-> Test Set | DomainTSDemo-ts-BasicTime-ts-UInt8-ts-hour_CUSTOM_tdat.csv | isCustom isLocal isPrimitive | isValid </LogString>
+      <NotAvailableIdentifier>Not Available</NotAvailableIdentifier>
+      <CommObjectInfo>|  |——CommObject    : &lt;BasicTime> {
+|  |  |——UInt8     : &lt;hour>
+|  |  |——UInt8     : &lt;minute>
+|  |  |——UInt8     : &lt;second>
+|  | }
+</CommObjectInfo>
+      <AttributeInfo>|  |  |——UInt8     : &lt;hour>
+</AttributeInfo>
+      <TestData>TestEntityName,DomainTSDemo-ts-BasicTime-ts-UInt8-ts-hour
+&lt;&lt;IS PRIMITIVE>>
+&lt;&lt;IS LOCAL>>
+
+&lt;&lt;TS_DATA>
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+&lt;TS_DATA>>
+</TestData>
+      <TestSet>0</TestSet>
+      <TestSet>1</TestSet>
+      <TestSet>2</TestSet>
+      <TestSet>3</TestSet>
+      <TestSet>4</TestSet>
+      <TestSet>5</TestSet>
+      <TestSet>6</TestSet>
+      <TestSet>7</TestSet>
+      <TestSet>8</TestSet>
+      <TestSet>9</TestSet>
+      <verbosCompileDefault>false</verbosCompileDefault>
+      <verbosCompile>false</verbosCompile>
+   </CommObjectTestSets>
+   <CommObjectTestSets>
+      <TestEntityName>DomainTSDemo-ts-BasicTime-ts-UInt8-ts-minute</TestEntityName>
+      <TestSetFileName>DomainTSDemo-ts-BasicTime-ts-UInt8-ts-minute_DEFAULT_tset.csv</TestSetFileName>
+      <TestDataFileName>DomainTSDemo-ts-BasicTime-ts-UInt8-ts-minute_DEFAULT_tdat.csv</TestDataFileName>
+      <isDefault>true</isDefault>
+      <isCustom>false</isCustom>
+      <isCustomX>false</isCustomX>
+      <isImport>false</isImport>
+      <ImportSourceRepository>Not Available</ImportSourceRepository>
+      <isLocal>true</isLocal>
+      <isEnum>false</isEnum>
+      <isPrimitive>true</isPrimitive>
+      <isNonPrimitive>false</isNonPrimitive>
+      <isArray>false</isArray>
+      <isNonPrimitiveArray>false</isNonPrimitiveArray>
+      <ZeroSizeArrayError>false</ZeroSizeArrayError>
+      <isInvalid>false</isInvalid>
+      <LogString>Test Data -Compile-> Test Set | DomainTSDemo-ts-BasicTime-ts-UInt8-ts-minute_DEFAULT_tdat.csv | isDefault isLocal isPrimitive | isValid </LogString>
+      <NotAvailableIdentifier>Not Available</NotAvailableIdentifier>
+      <CommObjectInfo>|  |——CommObject    : &lt;BasicTime> {
+|  |  |——UInt8     : &lt;hour>
+|  |  |——UInt8     : &lt;minute>
+|  |  |——UInt8     : &lt;second>
+|  | }
+</CommObjectInfo>
+      <AttributeInfo>|  |  |——UInt8     : &lt;minute>
+</AttributeInfo>
+      <TestData>TestEntityName,DomainTSDemo-ts-BasicTime-ts-UInt8-ts-minute
+&lt;&lt;IS PRIMITIVE>>
+&lt;&lt;IS LOCAL>>
+
+&lt;&lt;TS_DATA>
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+&lt;TS_DATA>>
+</TestData>
+      <TestSet>0</TestSet>
+      <TestSet>1</TestSet>
+      <TestSet>2</TestSet>
+      <TestSet>3</TestSet>
+      <TestSet>4</TestSet>
+      <TestSet>5</TestSet>
+      <TestSet>6</TestSet>
+      <TestSet>7</TestSet>
+      <TestSet>8</TestSet>
+      <TestSet>9</TestSet>
+      <verbosCompileDefault>false</verbosCompileDefault>
+      <verbosCompile>false</verbosCompile>
+   </CommObjectTestSets>
+   <CommObjectTestSets>
+      <TestEntityName>DomainTSDemo-ts-BasicTime-ts-UInt8-ts-minute</TestEntityName>
+      <TestSetFileName>DomainTSDemo-ts-BasicTime-ts-UInt8-ts-minute_CUSTOM_tset.csv</TestSetFileName>
+      <TestDataFileName>DomainTSDemo-ts-BasicTime-ts-UInt8-ts-minute_CUSTOM_tdat.csv</TestDataFileName>
+      <isDefault>false</isDefault>
+      <isCustom>true</isCustom>
+      <isCustomX>false</isCustomX>
+      <isImport>false</isImport>
+      <ImportSourceRepository>Not Available</ImportSourceRepository>
+      <isLocal>true</isLocal>
+      <isEnum>false</isEnum>
+      <isPrimitive>true</isPrimitive>
+      <isNonPrimitive>false</isNonPrimitive>
+      <isArray>false</isArray>
+      <isNonPrimitiveArray>false</isNonPrimitiveArray>
+      <ZeroSizeArrayError>false</ZeroSizeArrayError>
+      <isInvalid>false</isInvalid>
+      <LogString>Test Data -Compile-> Test Set | DomainTSDemo-ts-BasicTime-ts-UInt8-ts-minute_CUSTOM_tdat.csv | isCustom isLocal isPrimitive | isValid </LogString>
+      <NotAvailableIdentifier>Not Available</NotAvailableIdentifier>
+      <CommObjectInfo>|  |——CommObject    : &lt;BasicTime> {
+|  |  |——UInt8     : &lt;hour>
+|  |  |——UInt8     : &lt;minute>
+|  |  |——UInt8     : &lt;second>
+|  | }
+</CommObjectInfo>
+      <AttributeInfo>|  |  |——UInt8     : &lt;minute>
+</AttributeInfo>
+      <TestData>TestEntityName,DomainTSDemo-ts-BasicTime-ts-UInt8-ts-minute
+&lt;&lt;IS PRIMITIVE>>
+&lt;&lt;IS LOCAL>>
+
+&lt;&lt;TS_DATA>
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+&lt;TS_DATA>>
+</TestData>
+      <TestSet>0</TestSet>
+      <TestSet>1</TestSet>
+      <TestSet>2</TestSet>
+      <TestSet>3</TestSet>
+      <TestSet>4</TestSet>
+      <TestSet>5</TestSet>
+      <TestSet>6</TestSet>
+      <TestSet>7</TestSet>
+      <TestSet>8</TestSet>
+      <TestSet>9</TestSet>
+      <verbosCompileDefault>false</verbosCompileDefault>
+      <verbosCompile>false</verbosCompile>
+   </CommObjectTestSets>
+   <CommObjectTestSets>
+      <TestEntityName>DomainTSDemo-ts-BasicTime-ts-UInt8-ts-second</TestEntityName>
+      <TestSetFileName>DomainTSDemo-ts-BasicTime-ts-UInt8-ts-second_DEFAULT_tset.csv</TestSetFileName>
+      <TestDataFileName>DomainTSDemo-ts-BasicTime-ts-UInt8-ts-second_DEFAULT_tdat.csv</TestDataFileName>
+      <isDefault>true</isDefault>
+      <isCustom>false</isCustom>
+      <isCustomX>false</isCustomX>
+      <isImport>false</isImport>
+      <ImportSourceRepository>Not Available</ImportSourceRepository>
+      <isLocal>true</isLocal>
+      <isEnum>false</isEnum>
+      <isPrimitive>true</isPrimitive>
+      <isNonPrimitive>false</isNonPrimitive>
+      <isArray>false</isArray>
+      <isNonPrimitiveArray>false</isNonPrimitiveArray>
+      <ZeroSizeArrayError>false</ZeroSizeArrayError>
+      <isInvalid>false</isInvalid>
+      <LogString>Test Data -Compile-> Test Set | DomainTSDemo-ts-BasicTime-ts-UInt8-ts-second_DEFAULT_tdat.csv | isDefault isLocal isPrimitive | isValid </LogString>
+      <NotAvailableIdentifier>Not Available</NotAvailableIdentifier>
+      <CommObjectInfo>|  |——CommObject    : &lt;BasicTime> {
+|  |  |——UInt8     : &lt;hour>
+|  |  |——UInt8     : &lt;minute>
+|  |  |——UInt8     : &lt;second>
+|  | }
+</CommObjectInfo>
+      <AttributeInfo>|  |  |——UInt8     : &lt;second>
+</AttributeInfo>
+      <TestData>TestEntityName,DomainTSDemo-ts-BasicTime-ts-UInt8-ts-second
+&lt;&lt;IS PRIMITIVE>>
+&lt;&lt;IS LOCAL>>
+
+&lt;&lt;TS_DATA>
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+&lt;TS_DATA>>
+</TestData>
+      <TestSet>0</TestSet>
+      <TestSet>1</TestSet>
+      <TestSet>2</TestSet>
+      <TestSet>3</TestSet>
+      <TestSet>4</TestSet>
+      <TestSet>5</TestSet>
+      <TestSet>6</TestSet>
+      <TestSet>7</TestSet>
+      <TestSet>8</TestSet>
+      <TestSet>9</TestSet>
+      <verbosCompileDefault>false</verbosCompileDefault>
+      <verbosCompile>false</verbosCompile>
+   </CommObjectTestSets>
+   <CommObjectTestSets>
+      <TestEntityName>DomainTSDemo-ts-BasicTime-ts-UInt8-ts-second</TestEntityName>
+      <TestSetFileName>DomainTSDemo-ts-BasicTime-ts-UInt8-ts-second_CUSTOM_tset.csv</TestSetFileName>
+      <TestDataFileName>DomainTSDemo-ts-BasicTime-ts-UInt8-ts-second_CUSTOM_tdat.csv</TestDataFileName>
+      <isDefault>false</isDefault>
+      <isCustom>true</isCustom>
+      <isCustomX>false</isCustomX>
+      <isImport>false</isImport>
+      <ImportSourceRepository>Not Available</ImportSourceRepository>
+      <isLocal>true</isLocal>
+      <isEnum>false</isEnum>
+      <isPrimitive>true</isPrimitive>
+      <isNonPrimitive>false</isNonPrimitive>
+      <isArray>false</isArray>
+      <isNonPrimitiveArray>false</isNonPrimitiveArray>
+      <ZeroSizeArrayError>false</ZeroSizeArrayError>
+      <isInvalid>false</isInvalid>
+      <LogString>Test Data -Compile-> Test Set | DomainTSDemo-ts-BasicTime-ts-UInt8-ts-second_CUSTOM_tdat.csv | isCustom isLocal isPrimitive | isValid </LogString>
+      <NotAvailableIdentifier>Not Available</NotAvailableIdentifier>
+      <CommObjectInfo>|  |——CommObject    : &lt;BasicTime> {
+|  |  |——UInt8     : &lt;hour>
+|  |  |——UInt8     : &lt;minute>
+|  |  |——UInt8     : &lt;second>
+|  | }
+</CommObjectInfo>
+      <AttributeInfo>|  |  |——UInt8     : &lt;second>
+</AttributeInfo>
+      <TestData>TestEntityName,DomainTSDemo-ts-BasicTime-ts-UInt8-ts-second
+&lt;&lt;IS PRIMITIVE>>
+&lt;&lt;IS LOCAL>>
+
+&lt;&lt;TS_DATA>
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+&lt;TS_DATA>>
+</TestData>
+      <TestSet>0</TestSet>
+      <TestSet>1</TestSet>
+      <TestSet>2</TestSet>
+      <TestSet>3</TestSet>
+      <TestSet>4</TestSet>
+      <TestSet>5</TestSet>
+      <TestSet>6</TestSet>
+      <TestSet>7</TestSet>
+      <TestSet>8</TestSet>
+      <TestSet>9</TestSet>
+      <verbosCompileDefault>false</verbosCompileDefault>
+      <verbosCompile>false</verbosCompile>
+   </CommObjectTestSets>
+   <CommObjectTestSets>
+      <TestEntityName>DomainTSDemo-ts-TimeObject-ts-BasicTime-ts-basic</TestEntityName>
+      <TestSetFileName>DomainTSDemo-ts-TimeObject-ts-BasicTime-ts-basic_DEFAULT_tset.csv</TestSetFileName>
+      <TestDataFileName>DomainTSDemo-ts-TimeObject-ts-BasicTime-ts-basic_DEFAULT_tdat.csv</TestDataFileName>
+      <isDefault>true</isDefault>
+      <isCustom>false</isCustom>
+      <isCustomX>false</isCustomX>
+      <isImport>false</isImport>
+      <ImportSourceRepository>Not Available</ImportSourceRepository>
+      <isLocal>true</isLocal>
+      <isEnum>false</isEnum>
+      <isPrimitive>false</isPrimitive>
+      <isNonPrimitive>true</isNonPrimitive>
+      <isArray>false</isArray>
+      <isNonPrimitiveArray>false</isNonPrimitiveArray>
+      <ZeroSizeArrayError>false</ZeroSizeArrayError>
+      <isInvalid>false</isInvalid>
+      <LogString>Test Data -Compile-> Test Set | DomainTSDemo-ts-TimeObject-ts-BasicTime-ts-basic_DEFAULT_tdat.csv | isDefault isLocal isNonPrimitive | isValid </LogString>
+      <NotAvailableIdentifier>Not Available</NotAvailableIdentifier>
+      <CommObjectInfo>|  |——CommObject    : &lt;TimeObject> {
+|  |  |——[Local]BasicTime    : &lt;basic> {
+|  |  |  |——    : &lt;> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Imported]CommBasicObjects.CommTimeStamp    : &lt;compound> {
+|  |  |  |——    : &lt;> {
+|  |  |  | }
+|  |  | }
+|  | }
+</CommObjectInfo>
+      <AttributeInfo>|  |  |——[Local]BasicTime    : &lt;basic> {
+|  |  |  |——    : &lt;> {
+|  |  |  | }
+|  |  | }
+</AttributeInfo>
+      <TestData>TestEntityName,DomainTSDemo-ts-TimeObject-ts-BasicTime-ts-basic
+&lt;&lt;IS NON PRIMITIVE>>
+&lt;&lt;IS LOCAL>>
+
+&lt;&lt;TS_DATA>
+&lt;&lt;IS LOCAL>>,&lt;&lt;WIKI>,Local,&lt;WIKI>>
+&lt;TS_DATA>>
+</TestData>
+      <verbosCompileDefault>false</verbosCompileDefault>
+      <verbosCompile>false</verbosCompile>
+   </CommObjectTestSets>
+   <CommObjectTestSets>
+      <TestEntityName>DomainTSDemo-ts-TimeObject-ts-BasicTime-ts-basic</TestEntityName>
+      <TestSetFileName>DomainTSDemo-ts-TimeObject-ts-BasicTime-ts-basic_CUSTOM_tset.csv</TestSetFileName>
+      <TestDataFileName>DomainTSDemo-ts-TimeObject-ts-BasicTime-ts-basic_CUSTOM_tdat.csv</TestDataFileName>
+      <isDefault>false</isDefault>
+      <isCustom>true</isCustom>
+      <isCustomX>false</isCustomX>
+      <isImport>false</isImport>
+      <ImportSourceRepository>Not Available</ImportSourceRepository>
+      <isLocal>true</isLocal>
+      <isEnum>false</isEnum>
+      <isPrimitive>false</isPrimitive>
+      <isNonPrimitive>true</isNonPrimitive>
+      <isArray>false</isArray>
+      <isNonPrimitiveArray>false</isNonPrimitiveArray>
+      <ZeroSizeArrayError>false</ZeroSizeArrayError>
+      <isInvalid>false</isInvalid>
+      <LogString>Test Data -Compile-> Test Set | DomainTSDemo-ts-TimeObject-ts-BasicTime-ts-basic_CUSTOM_tdat.csv | isCustom isLocal isNonPrimitive | isValid </LogString>
+      <NotAvailableIdentifier>Not Available</NotAvailableIdentifier>
+      <CommObjectInfo>|  |——CommObject    : &lt;TimeObject> {
+|  |  |——[Local]BasicTime    : &lt;basic> {
+|  |  |  |——    : &lt;> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Imported]CommBasicObjects.CommTimeStamp    : &lt;compound> {
+|  |  |  |——    : &lt;> {
+|  |  |  | }
+|  |  | }
+|  | }
+</CommObjectInfo>
+      <AttributeInfo>|  |  |——[Local]BasicTime    : &lt;basic> {
+|  |  |  |——    : &lt;> {
+|  |  |  | }
+|  |  | }
+</AttributeInfo>
+      <TestData>TestEntityName,DomainTSDemo-ts-TimeObject-ts-BasicTime-ts-basic
+&lt;&lt;IS NON PRIMITIVE>>
+&lt;&lt;IS LOCAL>>
+
+&lt;&lt;TS_DATA>
+&lt;&lt;IS LOCAL>>,&lt;&lt;WIKI>,Local,&lt;WIKI>>
+&lt;TS_DATA>>
+</TestData>
+      <verbosCompileDefault>false</verbosCompileDefault>
+      <verbosCompile>false</verbosCompile>
+   </CommObjectTestSets>
+   <CommObjectTestSets>
+      <TestEntityName>Imported_DomainTSDemo-ts-TimeObject-ts-CommBasicObjects.CommTimeStamp-ts-compound</TestEntityName>
+      <TestSetFileName>Imported_DomainTSDemo-ts-TimeObject-ts-CommBasicObjects.CommTimeStamp-ts-compound_DEFAULT_tset.csv</TestSetFileName>
+      <TestDataFileName>Imported_ImportSource-ts-TimeObject-ts-CommBasicObjects.CommTimeStamp-ts-compound_DEFAULT_tdat.csv</TestDataFileName>
+      <isDefault>true</isDefault>
+      <isCustom>false</isCustom>
+      <isCustomX>false</isCustomX>
+      <isImport>true</isImport>
+      <ImportSourceRepository>ImportSource</ImportSourceRepository>
+      <isLocal>false</isLocal>
+      <isEnum>false</isEnum>
+      <isPrimitive>false</isPrimitive>
+      <isNonPrimitive>true</isNonPrimitive>
+      <isArray>false</isArray>
+      <isNonPrimitiveArray>false</isNonPrimitiveArray>
+      <ZeroSizeArrayError>false</ZeroSizeArrayError>
+      <isInvalid>false</isInvalid>
+      <LogString>Test Data -Compile-> Test Set | Imported_ImportSource-ts-TimeObject-ts-CommBasicObjects.CommTimeStamp-ts-compound_DEFAULT_tdat.csv | isDefault isImport [ImportSource] isNonPrimitive | isValid </LogString>
+      <NotAvailableIdentifier>Not Available</NotAvailableIdentifier>
+      <CommObjectInfo>|  |——CommObject    : &lt;TimeObject> {
+|  |  |——[Local]BasicTime    : &lt;basic> {
+|  |  |  |——    : &lt;> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Imported]CommBasicObjects.CommTimeStamp    : &lt;compound> {
+|  |  |  |——    : &lt;> {
+|  |  |  | }
+|  |  | }
+|  | }
+</CommObjectInfo>
+      <AttributeInfo>|  |  |——[Imported]CommBasicObjects.CommTimeStamp    : &lt;compound> {
+|  |  |  |——    : &lt;> {
+|  |  |  | }
+|  |  | }
+</AttributeInfo>
+      <TestData>TestEntityName,Imported_DomainTSDemo-ts-TimeObject-ts-CommBasicObjects.CommTimeStamp-ts-compound
+&lt;&lt;IS NON PRIMITIVE>>
+&lt;&lt;IS IMPORT>>
+
+&lt;&lt;TS_DATA>
+&lt;&lt;IS IMPORT>>,&lt;&lt;WIKI>,Imported,&lt;WIKI>>
+&lt;TS_DATA>>
+</TestData>
+      <verbosCompileDefault>false</verbosCompileDefault>
+      <verbosCompile>false</verbosCompile>
+   </CommObjectTestSets>
+   <CommObjectTestSets>
+      <TestEntityName>Imported_DomainTSDemo-ts-TimeObject-ts-CommBasicObjects.CommTimeStamp-ts-compound</TestEntityName>
+      <TestSetFileName>Imported_DomainTSDemo-ts-TimeObject-ts-CommBasicObjects.CommTimeStamp-ts-compound_CUSTOM_tset.csv</TestSetFileName>
+      <TestDataFileName>Imported_ImportSource-ts-TimeObject-ts-CommBasicObjects.CommTimeStamp-ts-compound_CUSTOM_tdat.csv</TestDataFileName>
+      <isDefault>false</isDefault>
+      <isCustom>true</isCustom>
+      <isCustomX>false</isCustomX>
+      <isImport>true</isImport>
+      <ImportSourceRepository>ImportSource</ImportSourceRepository>
+      <isLocal>false</isLocal>
+      <isEnum>false</isEnum>
+      <isPrimitive>false</isPrimitive>
+      <isNonPrimitive>true</isNonPrimitive>
+      <isArray>false</isArray>
+      <isNonPrimitiveArray>false</isNonPrimitiveArray>
+      <ZeroSizeArrayError>false</ZeroSizeArrayError>
+      <isInvalid>false</isInvalid>
+      <LogString>Test Data -Compile-> Test Set | Imported_ImportSource-ts-TimeObject-ts-CommBasicObjects.CommTimeStamp-ts-compound_CUSTOM_tdat.csv | isCustom isImport [ImportSource] isNonPrimitive | isValid </LogString>
+      <NotAvailableIdentifier>Not Available</NotAvailableIdentifier>
+      <CommObjectInfo>|  |——CommObject    : &lt;TimeObject> {
+|  |  |——[Local]BasicTime    : &lt;basic> {
+|  |  |  |——    : &lt;> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Imported]CommBasicObjects.CommTimeStamp    : &lt;compound> {
+|  |  |  |——    : &lt;> {
+|  |  |  | }
+|  |  | }
+|  | }
+</CommObjectInfo>
+      <AttributeInfo>|  |  |——[Imported]CommBasicObjects.CommTimeStamp    : &lt;compound> {
+|  |  |  |——    : &lt;> {
+|  |  |  | }
+|  |  | }
+</AttributeInfo>
+      <TestData>TestEntityName,Imported_DomainTSDemo-ts-TimeObject-ts-CommBasicObjects.CommTimeStamp-ts-compound
+&lt;&lt;IS NON PRIMITIVE>>
+&lt;&lt;IS IMPORT>>
+
+&lt;&lt;TS_DATA>
+&lt;&lt;IS IMPORT>>,&lt;&lt;WIKI>,Imported,&lt;WIKI>>
+&lt;TS_DATA>>
+</TestData>
+      <verbosCompileDefault>false</verbosCompileDefault>
+      <verbosCompile>false</verbosCompile>
+   </CommObjectTestSets>
+   <CommObjectTestSets>
+      <TestEntityName>DomainTSDemo-ts-Coordinate2D-ts-Double-ts-x</TestEntityName>
+      <TestSetFileName>DomainTSDemo-ts-Coordinate2D-ts-Double-ts-x_DEFAULT_tset.csv</TestSetFileName>
+      <TestDataFileName>DomainTSDemo-ts-Coordinate2D-ts-Double-ts-x_DEFAULT_tdat.csv</TestDataFileName>
+      <isDefault>true</isDefault>
+      <isCustom>false</isCustom>
+      <isCustomX>false</isCustomX>
+      <isImport>false</isImport>
+      <ImportSourceRepository>Not Available</ImportSourceRepository>
+      <isLocal>true</isLocal>
+      <isEnum>false</isEnum>
+      <isPrimitive>true</isPrimitive>
+      <isNonPrimitive>false</isNonPrimitive>
+      <isArray>false</isArray>
+      <isNonPrimitiveArray>false</isNonPrimitiveArray>
+      <ZeroSizeArrayError>false</ZeroSizeArrayError>
+      <isInvalid>false</isInvalid>
+      <LogString>Test Data -Compile-> Test Set | DomainTSDemo-ts-Coordinate2D-ts-Double-ts-x_DEFAULT_tdat.csv | isDefault isLocal isPrimitive | isValid </LogString>
+      <NotAvailableIdentifier>Not Available</NotAvailableIdentifier>
+      <CommObjectInfo>|  |——CommObject    : &lt;Coordinate2D> {
+|  |  |——Double     : &lt;x>
+|  |  |——Double     : &lt;y>
+|  | }
+</CommObjectInfo>
+      <AttributeInfo>|  |  |——Double     : &lt;x>
+</AttributeInfo>
+      <TestData>TestEntityName,DomainTSDemo-ts-Coordinate2D-ts-Double-ts-x
+&lt;&lt;IS PRIMITIVE>>
+&lt;&lt;IS LOCAL>>
+
+&lt;&lt;TS_DATA>
+9.1
+-9.2
+8.3
+-8.4
+7.5
+-7.6
+6.7
+-6.8
+5.9
+0
+-1.0
+1.1
+-2.2
+2.3
+-3.4
+3.5
+-4.6
+4.7
+-5.8
+&lt;TS_DATA>>
+</TestData>
+      <TestSet>9.1</TestSet>
+      <TestSet>-9.2</TestSet>
+      <TestSet>8.3</TestSet>
+      <TestSet>-8.4</TestSet>
+      <TestSet>7.5</TestSet>
+      <TestSet>-7.6</TestSet>
+      <TestSet>6.7</TestSet>
+      <TestSet>-6.8</TestSet>
+      <TestSet>5.9</TestSet>
+      <TestSet>0</TestSet>
+      <TestSet>-1.0</TestSet>
+      <TestSet>1.1</TestSet>
+      <TestSet>-2.2</TestSet>
+      <TestSet>2.3</TestSet>
+      <TestSet>-3.4</TestSet>
+      <TestSet>3.5</TestSet>
+      <TestSet>-4.6</TestSet>
+      <TestSet>4.7</TestSet>
+      <TestSet>-5.8</TestSet>
+      <verbosCompileDefault>false</verbosCompileDefault>
+      <verbosCompile>false</verbosCompile>
+   </CommObjectTestSets>
+   <CommObjectTestSets>
+      <TestEntityName>DomainTSDemo-ts-Coordinate2D-ts-Double-ts-x</TestEntityName>
+      <TestSetFileName>DomainTSDemo-ts-Coordinate2D-ts-Double-ts-x_CUSTOM_tset.csv</TestSetFileName>
+      <TestDataFileName>DomainTSDemo-ts-Coordinate2D-ts-Double-ts-x_CUSTOM_tdat.csv</TestDataFileName>
+      <isDefault>false</isDefault>
+      <isCustom>true</isCustom>
+      <isCustomX>false</isCustomX>
+      <isImport>false</isImport>
+      <ImportSourceRepository>Not Available</ImportSourceRepository>
+      <isLocal>true</isLocal>
+      <isEnum>false</isEnum>
+      <isPrimitive>true</isPrimitive>
+      <isNonPrimitive>false</isNonPrimitive>
+      <isArray>false</isArray>
+      <isNonPrimitiveArray>false</isNonPrimitiveArray>
+      <ZeroSizeArrayError>false</ZeroSizeArrayError>
+      <isInvalid>false</isInvalid>
+      <LogString>Test Data -Compile-> Test Set | DomainTSDemo-ts-Coordinate2D-ts-Double-ts-x_CUSTOM_tdat.csv | isCustom isLocal isPrimitive | isValid </LogString>
+      <NotAvailableIdentifier>Not Available</NotAvailableIdentifier>
+      <CommObjectInfo>|  |——CommObject    : &lt;Coordinate2D> {
+|  |  |——Double     : &lt;x>
+|  |  |——Double     : &lt;y>
+|  | }
+</CommObjectInfo>
+      <AttributeInfo>|  |  |——Double     : &lt;x>
+</AttributeInfo>
+      <TestData>TestEntityName,DomainTSDemo-ts-Coordinate2D-ts-Double-ts-x
+&lt;&lt;IS PRIMITIVE>>
+&lt;&lt;IS LOCAL>>
+
+&lt;&lt;TS_DATA>
+9.1
+-9.2
+8.3
+-8.4
+7.5
+-7.6
+6.7
+-6.8
+5.9
+0
+-1.0
+1.1
+-2.2
+2.3
+-3.4
+3.5
+-4.6
+4.7
+-5.8
+&lt;TS_DATA>>
+</TestData>
+      <TestSet>9.1</TestSet>
+      <TestSet>-9.2</TestSet>
+      <TestSet>8.3</TestSet>
+      <TestSet>-8.4</TestSet>
+      <TestSet>7.5</TestSet>
+      <TestSet>-7.6</TestSet>
+      <TestSet>6.7</TestSet>
+      <TestSet>-6.8</TestSet>
+      <TestSet>5.9</TestSet>
+      <TestSet>0</TestSet>
+      <TestSet>-1.0</TestSet>
+      <TestSet>1.1</TestSet>
+      <TestSet>-2.2</TestSet>
+      <TestSet>2.3</TestSet>
+      <TestSet>-3.4</TestSet>
+      <TestSet>3.5</TestSet>
+      <TestSet>-4.6</TestSet>
+      <TestSet>4.7</TestSet>
+      <TestSet>-5.8</TestSet>
+      <verbosCompileDefault>false</verbosCompileDefault>
+      <verbosCompile>false</verbosCompile>
+   </CommObjectTestSets>
+   <CommObjectTestSets>
+      <TestEntityName>DomainTSDemo-ts-Coordinate2D-ts-Double-ts-y</TestEntityName>
+      <TestSetFileName>DomainTSDemo-ts-Coordinate2D-ts-Double-ts-y_DEFAULT_tset.csv</TestSetFileName>
+      <TestDataFileName>DomainTSDemo-ts-Coordinate2D-ts-Double-ts-y_DEFAULT_tdat.csv</TestDataFileName>
+      <isDefault>true</isDefault>
+      <isCustom>false</isCustom>
+      <isCustomX>false</isCustomX>
+      <isImport>false</isImport>
+      <ImportSourceRepository>Not Available</ImportSourceRepository>
+      <isLocal>true</isLocal>
+      <isEnum>false</isEnum>
+      <isPrimitive>true</isPrimitive>
+      <isNonPrimitive>false</isNonPrimitive>
+      <isArray>false</isArray>
+      <isNonPrimitiveArray>false</isNonPrimitiveArray>
+      <ZeroSizeArrayError>false</ZeroSizeArrayError>
+      <isInvalid>false</isInvalid>
+      <LogString>Test Data -Compile-> Test Set | DomainTSDemo-ts-Coordinate2D-ts-Double-ts-y_DEFAULT_tdat.csv | isDefault isLocal isPrimitive | isValid </LogString>
+      <NotAvailableIdentifier>Not Available</NotAvailableIdentifier>
+      <CommObjectInfo>|  |——CommObject    : &lt;Coordinate2D> {
+|  |  |——Double     : &lt;x>
+|  |  |——Double     : &lt;y>
+|  | }
+</CommObjectInfo>
+      <AttributeInfo>|  |  |——Double     : &lt;y>
+</AttributeInfo>
+      <TestData>TestEntityName,DomainTSDemo-ts-Coordinate2D-ts-Double-ts-y
+&lt;&lt;IS PRIMITIVE>>
+&lt;&lt;IS LOCAL>>
+
+&lt;&lt;TS_DATA>
+9.1
+-9.2
+8.3
+-8.4
+7.5
+-7.6
+6.7
+-6.8
+5.9
+0
+-1.0
+1.1
+-2.2
+2.3
+-3.4
+3.5
+-4.6
+4.7
+-5.8
+&lt;TS_DATA>>
+</TestData>
+      <TestSet>9.1</TestSet>
+      <TestSet>-9.2</TestSet>
+      <TestSet>8.3</TestSet>
+      <TestSet>-8.4</TestSet>
+      <TestSet>7.5</TestSet>
+      <TestSet>-7.6</TestSet>
+      <TestSet>6.7</TestSet>
+      <TestSet>-6.8</TestSet>
+      <TestSet>5.9</TestSet>
+      <TestSet>0</TestSet>
+      <TestSet>-1.0</TestSet>
+      <TestSet>1.1</TestSet>
+      <TestSet>-2.2</TestSet>
+      <TestSet>2.3</TestSet>
+      <TestSet>-3.4</TestSet>
+      <TestSet>3.5</TestSet>
+      <TestSet>-4.6</TestSet>
+      <TestSet>4.7</TestSet>
+      <TestSet>-5.8</TestSet>
+      <verbosCompileDefault>false</verbosCompileDefault>
+      <verbosCompile>false</verbosCompile>
+   </CommObjectTestSets>
+   <CommObjectTestSets>
+      <TestEntityName>DomainTSDemo-ts-Coordinate2D-ts-Double-ts-y</TestEntityName>
+      <TestSetFileName>DomainTSDemo-ts-Coordinate2D-ts-Double-ts-y_CUSTOM_tset.csv</TestSetFileName>
+      <TestDataFileName>DomainTSDemo-ts-Coordinate2D-ts-Double-ts-y_CUSTOM_tdat.csv</TestDataFileName>
+      <isDefault>false</isDefault>
+      <isCustom>true</isCustom>
+      <isCustomX>false</isCustomX>
+      <isImport>false</isImport>
+      <ImportSourceRepository>Not Available</ImportSourceRepository>
+      <isLocal>true</isLocal>
+      <isEnum>false</isEnum>
+      <isPrimitive>true</isPrimitive>
+      <isNonPrimitive>false</isNonPrimitive>
+      <isArray>false</isArray>
+      <isNonPrimitiveArray>false</isNonPrimitiveArray>
+      <ZeroSizeArrayError>false</ZeroSizeArrayError>
+      <isInvalid>false</isInvalid>
+      <LogString>Test Data -Compile-> Test Set | DomainTSDemo-ts-Coordinate2D-ts-Double-ts-y_CUSTOM_tdat.csv | isCustom isLocal isPrimitive | isValid </LogString>
+      <NotAvailableIdentifier>Not Available</NotAvailableIdentifier>
+      <CommObjectInfo>|  |——CommObject    : &lt;Coordinate2D> {
+|  |  |——Double     : &lt;x>
+|  |  |——Double     : &lt;y>
+|  | }
+</CommObjectInfo>
+      <AttributeInfo>|  |  |——Double     : &lt;y>
+</AttributeInfo>
+      <TestData>TestEntityName,DomainTSDemo-ts-Coordinate2D-ts-Double-ts-y
+&lt;&lt;IS PRIMITIVE>>
+&lt;&lt;IS LOCAL>>
+
+&lt;&lt;TS_DATA>
+9.1
+-9.2
+8.3
+-8.4
+7.5
+-7.6
+6.7
+-6.8
+5.9
+0
+-1.0
+1.1
+-2.2
+2.3
+-3.4
+3.5
+-4.6
+4.7
+-5.8
+&lt;TS_DATA>>
+</TestData>
+      <TestSet>9.1</TestSet>
+      <TestSet>-9.2</TestSet>
+      <TestSet>8.3</TestSet>
+      <TestSet>-8.4</TestSet>
+      <TestSet>7.5</TestSet>
+      <TestSet>-7.6</TestSet>
+      <TestSet>6.7</TestSet>
+      <TestSet>-6.8</TestSet>
+      <TestSet>5.9</TestSet>
+      <TestSet>0</TestSet>
+      <TestSet>-1.0</TestSet>
+      <TestSet>1.1</TestSet>
+      <TestSet>-2.2</TestSet>
+      <TestSet>2.3</TestSet>
+      <TestSet>-3.4</TestSet>
+      <TestSet>3.5</TestSet>
+      <TestSet>-4.6</TestSet>
+      <TestSet>4.7</TestSet>
+      <TestSet>-5.8</TestSet>
+      <verbosCompileDefault>false</verbosCompileDefault>
+      <verbosCompile>false</verbosCompile>
+   </CommObjectTestSets>
+   <CommObjectTestSets>
+      <TestEntityName>DomainTSDemo-ts-Coordinate3D-ts-Double-ts-x</TestEntityName>
+      <TestSetFileName>DomainTSDemo-ts-Coordinate3D-ts-Double-ts-x_DEFAULT_tset.csv</TestSetFileName>
+      <TestDataFileName>DomainTSDemo-ts-Coordinate3D-ts-Double-ts-x_DEFAULT_tdat.csv</TestDataFileName>
+      <isDefault>true</isDefault>
+      <isCustom>false</isCustom>
+      <isCustomX>false</isCustomX>
+      <isImport>false</isImport>
+      <ImportSourceRepository>Not Available</ImportSourceRepository>
+      <isLocal>true</isLocal>
+      <isEnum>false</isEnum>
+      <isPrimitive>true</isPrimitive>
+      <isNonPrimitive>false</isNonPrimitive>
+      <isArray>false</isArray>
+      <isNonPrimitiveArray>false</isNonPrimitiveArray>
+      <ZeroSizeArrayError>false</ZeroSizeArrayError>
+      <isInvalid>false</isInvalid>
+      <LogString>Test Data -Compile-> Test Set | DomainTSDemo-ts-Coordinate3D-ts-Double-ts-x_DEFAULT_tdat.csv | isDefault isLocal isPrimitive | isValid </LogString>
+      <NotAvailableIdentifier>Not Available</NotAvailableIdentifier>
+      <CommObjectInfo>|  |——CommObject    : &lt;Coordinate3D> {
+|  |  |——Double     : &lt;x>
+|  |  |——Double     : &lt;y>
+|  |  |——Double     : &lt;z>
+|  | }
+</CommObjectInfo>
+      <AttributeInfo>|  |  |——Double     : &lt;x>
+</AttributeInfo>
+      <TestData>TestEntityName,DomainTSDemo-ts-Coordinate3D-ts-Double-ts-x
+&lt;&lt;IS PRIMITIVE>>
+&lt;&lt;IS LOCAL>>
+
+&lt;&lt;TS_DATA>
+9.1
+-9.2
+8.3
+-8.4
+7.5
+-7.6
+6.7
+-6.8
+5.9
+0
+-1.0
+1.1
+-2.2
+2.3
+-3.4
+3.5
+-4.6
+4.7
+-5.8
+&lt;TS_DATA>>
+</TestData>
+      <TestSet>9.1</TestSet>
+      <TestSet>-9.2</TestSet>
+      <TestSet>8.3</TestSet>
+      <TestSet>-8.4</TestSet>
+      <TestSet>7.5</TestSet>
+      <TestSet>-7.6</TestSet>
+      <TestSet>6.7</TestSet>
+      <TestSet>-6.8</TestSet>
+      <TestSet>5.9</TestSet>
+      <TestSet>0</TestSet>
+      <TestSet>-1.0</TestSet>
+      <TestSet>1.1</TestSet>
+      <TestSet>-2.2</TestSet>
+      <TestSet>2.3</TestSet>
+      <TestSet>-3.4</TestSet>
+      <TestSet>3.5</TestSet>
+      <TestSet>-4.6</TestSet>
+      <TestSet>4.7</TestSet>
+      <TestSet>-5.8</TestSet>
+      <verbosCompileDefault>false</verbosCompileDefault>
+      <verbosCompile>false</verbosCompile>
+   </CommObjectTestSets>
+   <CommObjectTestSets>
+      <TestEntityName>DomainTSDemo-ts-Coordinate3D-ts-Double-ts-x</TestEntityName>
+      <TestSetFileName>DomainTSDemo-ts-Coordinate3D-ts-Double-ts-x_CUSTOM_tset.csv</TestSetFileName>
+      <TestDataFileName>DomainTSDemo-ts-Coordinate3D-ts-Double-ts-x_CUSTOM_tdat.csv</TestDataFileName>
+      <isDefault>false</isDefault>
+      <isCustom>true</isCustom>
+      <isCustomX>false</isCustomX>
+      <isImport>false</isImport>
+      <ImportSourceRepository>Not Available</ImportSourceRepository>
+      <isLocal>true</isLocal>
+      <isEnum>false</isEnum>
+      <isPrimitive>true</isPrimitive>
+      <isNonPrimitive>false</isNonPrimitive>
+      <isArray>false</isArray>
+      <isNonPrimitiveArray>false</isNonPrimitiveArray>
+      <ZeroSizeArrayError>false</ZeroSizeArrayError>
+      <isInvalid>false</isInvalid>
+      <LogString>Test Data -Compile-> Test Set | DomainTSDemo-ts-Coordinate3D-ts-Double-ts-x_CUSTOM_tdat.csv | isCustom isLocal isPrimitive | isValid </LogString>
+      <NotAvailableIdentifier>Not Available</NotAvailableIdentifier>
+      <CommObjectInfo>|  |——CommObject    : &lt;Coordinate3D> {
+|  |  |——Double     : &lt;x>
+|  |  |——Double     : &lt;y>
+|  |  |——Double     : &lt;z>
+|  | }
+</CommObjectInfo>
+      <AttributeInfo>|  |  |——Double     : &lt;x>
+</AttributeInfo>
+      <TestData>TestEntityName,DomainTSDemo-ts-Coordinate3D-ts-Double-ts-x
+&lt;&lt;IS PRIMITIVE>>
+&lt;&lt;IS LOCAL>>
+
+&lt;&lt;TS_DATA>
+9.1
+-9.2
+8.3
+-8.4
+7.5
+-7.6
+6.7
+-6.8
+5.9
+0
+-1.0
+1.1
+-2.2
+2.3
+-3.4
+3.5
+-4.6
+4.7
+-5.8
+&lt;TS_DATA>>
+</TestData>
+      <TestSet>9.1</TestSet>
+      <TestSet>-9.2</TestSet>
+      <TestSet>8.3</TestSet>
+      <TestSet>-8.4</TestSet>
+      <TestSet>7.5</TestSet>
+      <TestSet>-7.6</TestSet>
+      <TestSet>6.7</TestSet>
+      <TestSet>-6.8</TestSet>
+      <TestSet>5.9</TestSet>
+      <TestSet>0</TestSet>
+      <TestSet>-1.0</TestSet>
+      <TestSet>1.1</TestSet>
+      <TestSet>-2.2</TestSet>
+      <TestSet>2.3</TestSet>
+      <TestSet>-3.4</TestSet>
+      <TestSet>3.5</TestSet>
+      <TestSet>-4.6</TestSet>
+      <TestSet>4.7</TestSet>
+      <TestSet>-5.8</TestSet>
+      <verbosCompileDefault>false</verbosCompileDefault>
+      <verbosCompile>false</verbosCompile>
+   </CommObjectTestSets>
+   <CommObjectTestSets>
+      <TestEntityName>DomainTSDemo-ts-Coordinate3D-ts-Double-ts-y</TestEntityName>
+      <TestSetFileName>DomainTSDemo-ts-Coordinate3D-ts-Double-ts-y_DEFAULT_tset.csv</TestSetFileName>
+      <TestDataFileName>DomainTSDemo-ts-Coordinate3D-ts-Double-ts-y_DEFAULT_tdat.csv</TestDataFileName>
+      <isDefault>true</isDefault>
+      <isCustom>false</isCustom>
+      <isCustomX>false</isCustomX>
+      <isImport>false</isImport>
+      <ImportSourceRepository>Not Available</ImportSourceRepository>
+      <isLocal>true</isLocal>
+      <isEnum>false</isEnum>
+      <isPrimitive>true</isPrimitive>
+      <isNonPrimitive>false</isNonPrimitive>
+      <isArray>false</isArray>
+      <isNonPrimitiveArray>false</isNonPrimitiveArray>
+      <ZeroSizeArrayError>false</ZeroSizeArrayError>
+      <isInvalid>false</isInvalid>
+      <LogString>Test Data -Compile-> Test Set | DomainTSDemo-ts-Coordinate3D-ts-Double-ts-y_DEFAULT_tdat.csv | isDefault isLocal isPrimitive | isValid </LogString>
+      <NotAvailableIdentifier>Not Available</NotAvailableIdentifier>
+      <CommObjectInfo>|  |——CommObject    : &lt;Coordinate3D> {
+|  |  |——Double     : &lt;x>
+|  |  |——Double     : &lt;y>
+|  |  |——Double     : &lt;z>
+|  | }
+</CommObjectInfo>
+      <AttributeInfo>|  |  |——Double     : &lt;y>
+</AttributeInfo>
+      <TestData>TestEntityName,DomainTSDemo-ts-Coordinate3D-ts-Double-ts-y
+&lt;&lt;IS PRIMITIVE>>
+&lt;&lt;IS LOCAL>>
+
+&lt;&lt;TS_DATA>
+9.1
+-9.2
+8.3
+-8.4
+7.5
+-7.6
+6.7
+-6.8
+5.9
+0
+-1.0
+1.1
+-2.2
+2.3
+-3.4
+3.5
+-4.6
+4.7
+-5.8
+&lt;TS_DATA>>
+</TestData>
+      <TestSet>9.1</TestSet>
+      <TestSet>-9.2</TestSet>
+      <TestSet>8.3</TestSet>
+      <TestSet>-8.4</TestSet>
+      <TestSet>7.5</TestSet>
+      <TestSet>-7.6</TestSet>
+      <TestSet>6.7</TestSet>
+      <TestSet>-6.8</TestSet>
+      <TestSet>5.9</TestSet>
+      <TestSet>0</TestSet>
+      <TestSet>-1.0</TestSet>
+      <TestSet>1.1</TestSet>
+      <TestSet>-2.2</TestSet>
+      <TestSet>2.3</TestSet>
+      <TestSet>-3.4</TestSet>
+      <TestSet>3.5</TestSet>
+      <TestSet>-4.6</TestSet>
+      <TestSet>4.7</TestSet>
+      <TestSet>-5.8</TestSet>
+      <verbosCompileDefault>false</verbosCompileDefault>
+      <verbosCompile>false</verbosCompile>
+   </CommObjectTestSets>
+   <CommObjectTestSets>
+      <TestEntityName>DomainTSDemo-ts-Coordinate3D-ts-Double-ts-y</TestEntityName>
+      <TestSetFileName>DomainTSDemo-ts-Coordinate3D-ts-Double-ts-y_CUSTOM_tset.csv</TestSetFileName>
+      <TestDataFileName>DomainTSDemo-ts-Coordinate3D-ts-Double-ts-y_CUSTOM_tdat.csv</TestDataFileName>
+      <isDefault>false</isDefault>
+      <isCustom>true</isCustom>
+      <isCustomX>false</isCustomX>
+      <isImport>false</isImport>
+      <ImportSourceRepository>Not Available</ImportSourceRepository>
+      <isLocal>true</isLocal>
+      <isEnum>false</isEnum>
+      <isPrimitive>true</isPrimitive>
+      <isNonPrimitive>false</isNonPrimitive>
+      <isArray>false</isArray>
+      <isNonPrimitiveArray>false</isNonPrimitiveArray>
+      <ZeroSizeArrayError>false</ZeroSizeArrayError>
+      <isInvalid>false</isInvalid>
+      <LogString>Test Data -Compile-> Test Set | DomainTSDemo-ts-Coordinate3D-ts-Double-ts-y_CUSTOM_tdat.csv | isCustom isLocal isPrimitive | isValid </LogString>
+      <NotAvailableIdentifier>Not Available</NotAvailableIdentifier>
+      <CommObjectInfo>|  |——CommObject    : &lt;Coordinate3D> {
+|  |  |——Double     : &lt;x>
+|  |  |——Double     : &lt;y>
+|  |  |——Double     : &lt;z>
+|  | }
+</CommObjectInfo>
+      <AttributeInfo>|  |  |——Double     : &lt;y>
+</AttributeInfo>
+      <TestData>TestEntityName,DomainTSDemo-ts-Coordinate3D-ts-Double-ts-y
+&lt;&lt;IS PRIMITIVE>>
+&lt;&lt;IS LOCAL>>
+
+&lt;&lt;TS_DATA>
+9.1
+-9.2
+8.3
+-8.4
+7.5
+-7.6
+6.7
+-6.8
+5.9
+0
+-1.0
+1.1
+-2.2
+2.3
+-3.4
+3.5
+-4.6
+4.7
+-5.8
+&lt;TS_DATA>>
+</TestData>
+      <TestSet>9.1</TestSet>
+      <TestSet>-9.2</TestSet>
+      <TestSet>8.3</TestSet>
+      <TestSet>-8.4</TestSet>
+      <TestSet>7.5</TestSet>
+      <TestSet>-7.6</TestSet>
+      <TestSet>6.7</TestSet>
+      <TestSet>-6.8</TestSet>
+      <TestSet>5.9</TestSet>
+      <TestSet>0</TestSet>
+      <TestSet>-1.0</TestSet>
+      <TestSet>1.1</TestSet>
+      <TestSet>-2.2</TestSet>
+      <TestSet>2.3</TestSet>
+      <TestSet>-3.4</TestSet>
+      <TestSet>3.5</TestSet>
+      <TestSet>-4.6</TestSet>
+      <TestSet>4.7</TestSet>
+      <TestSet>-5.8</TestSet>
+      <verbosCompileDefault>false</verbosCompileDefault>
+      <verbosCompile>false</verbosCompile>
+   </CommObjectTestSets>
+   <CommObjectTestSets>
+      <TestEntityName>DomainTSDemo-ts-Coordinate3D-ts-Double-ts-z</TestEntityName>
+      <TestSetFileName>DomainTSDemo-ts-Coordinate3D-ts-Double-ts-z_DEFAULT_tset.csv</TestSetFileName>
+      <TestDataFileName>DomainTSDemo-ts-Coordinate3D-ts-Double-ts-z_DEFAULT_tdat.csv</TestDataFileName>
+      <isDefault>true</isDefault>
+      <isCustom>false</isCustom>
+      <isCustomX>false</isCustomX>
+      <isImport>false</isImport>
+      <ImportSourceRepository>Not Available</ImportSourceRepository>
+      <isLocal>true</isLocal>
+      <isEnum>false</isEnum>
+      <isPrimitive>true</isPrimitive>
+      <isNonPrimitive>false</isNonPrimitive>
+      <isArray>false</isArray>
+      <isNonPrimitiveArray>false</isNonPrimitiveArray>
+      <ZeroSizeArrayError>false</ZeroSizeArrayError>
+      <isInvalid>false</isInvalid>
+      <LogString>Test Data -Compile-> Test Set | DomainTSDemo-ts-Coordinate3D-ts-Double-ts-z_DEFAULT_tdat.csv | isDefault isLocal isPrimitive | isValid </LogString>
+      <NotAvailableIdentifier>Not Available</NotAvailableIdentifier>
+      <CommObjectInfo>|  |——CommObject    : &lt;Coordinate3D> {
+|  |  |——Double     : &lt;x>
+|  |  |——Double     : &lt;y>
+|  |  |——Double     : &lt;z>
+|  | }
+</CommObjectInfo>
+      <AttributeInfo>|  |  |——Double     : &lt;z>
+</AttributeInfo>
+      <TestData>TestEntityName,DomainTSDemo-ts-Coordinate3D-ts-Double-ts-z
+&lt;&lt;IS PRIMITIVE>>
+&lt;&lt;IS LOCAL>>
+
+&lt;&lt;TS_DATA>
+9.1
+-9.2
+8.3
+-8.4
+7.5
+-7.6
+6.7
+-6.8
+5.9
+0
+-1.0
+1.1
+-2.2
+2.3
+-3.4
+3.5
+-4.6
+4.7
+-5.8
+&lt;TS_DATA>>
+</TestData>
+      <TestSet>9.1</TestSet>
+      <TestSet>-9.2</TestSet>
+      <TestSet>8.3</TestSet>
+      <TestSet>-8.4</TestSet>
+      <TestSet>7.5</TestSet>
+      <TestSet>-7.6</TestSet>
+      <TestSet>6.7</TestSet>
+      <TestSet>-6.8</TestSet>
+      <TestSet>5.9</TestSet>
+      <TestSet>0</TestSet>
+      <TestSet>-1.0</TestSet>
+      <TestSet>1.1</TestSet>
+      <TestSet>-2.2</TestSet>
+      <TestSet>2.3</TestSet>
+      <TestSet>-3.4</TestSet>
+      <TestSet>3.5</TestSet>
+      <TestSet>-4.6</TestSet>
+      <TestSet>4.7</TestSet>
+      <TestSet>-5.8</TestSet>
+      <verbosCompileDefault>false</verbosCompileDefault>
+      <verbosCompile>false</verbosCompile>
+   </CommObjectTestSets>
+   <CommObjectTestSets>
+      <TestEntityName>DomainTSDemo-ts-Coordinate3D-ts-Double-ts-z</TestEntityName>
+      <TestSetFileName>DomainTSDemo-ts-Coordinate3D-ts-Double-ts-z_CUSTOM_tset.csv</TestSetFileName>
+      <TestDataFileName>DomainTSDemo-ts-Coordinate3D-ts-Double-ts-z_CUSTOM_tdat.csv</TestDataFileName>
+      <isDefault>false</isDefault>
+      <isCustom>true</isCustom>
+      <isCustomX>false</isCustomX>
+      <isImport>false</isImport>
+      <ImportSourceRepository>Not Available</ImportSourceRepository>
+      <isLocal>true</isLocal>
+      <isEnum>false</isEnum>
+      <isPrimitive>true</isPrimitive>
+      <isNonPrimitive>false</isNonPrimitive>
+      <isArray>false</isArray>
+      <isNonPrimitiveArray>false</isNonPrimitiveArray>
+      <ZeroSizeArrayError>false</ZeroSizeArrayError>
+      <isInvalid>false</isInvalid>
+      <LogString>Test Data -Compile-> Test Set | DomainTSDemo-ts-Coordinate3D-ts-Double-ts-z_CUSTOM_tdat.csv | isCustom isLocal isPrimitive | isValid </LogString>
+      <NotAvailableIdentifier>Not Available</NotAvailableIdentifier>
+      <CommObjectInfo>|  |——CommObject    : &lt;Coordinate3D> {
+|  |  |——Double     : &lt;x>
+|  |  |——Double     : &lt;y>
+|  |  |——Double     : &lt;z>
+|  | }
+</CommObjectInfo>
+      <AttributeInfo>|  |  |——Double     : &lt;z>
+</AttributeInfo>
+      <TestData>TestEntityName,DomainTSDemo-ts-Coordinate3D-ts-Double-ts-z
+&lt;&lt;IS PRIMITIVE>>
+&lt;&lt;IS LOCAL>>
+
+&lt;&lt;TS_DATA>
+9.1
+-9.2
+8.3
+-8.4
+7.5
+-7.6
+6.7
+-6.8
+5.9
+0
+-1.0
+1.1
+-2.2
+2.3
+-3.4
+3.5
+-4.6
+4.7
+-5.8
+&lt;TS_DATA>>
+</TestData>
+      <TestSet>9.1</TestSet>
+      <TestSet>-9.2</TestSet>
+      <TestSet>8.3</TestSet>
+      <TestSet>-8.4</TestSet>
+      <TestSet>7.5</TestSet>
+      <TestSet>-7.6</TestSet>
+      <TestSet>6.7</TestSet>
+      <TestSet>-6.8</TestSet>
+      <TestSet>5.9</TestSet>
+      <TestSet>0</TestSet>
+      <TestSet>-1.0</TestSet>
+      <TestSet>1.1</TestSet>
+      <TestSet>-2.2</TestSet>
+      <TestSet>2.3</TestSet>
+      <TestSet>-3.4</TestSet>
+      <TestSet>3.5</TestSet>
+      <TestSet>-4.6</TestSet>
+      <TestSet>4.7</TestSet>
+      <TestSet>-5.8</TestSet>
+      <verbosCompileDefault>false</verbosCompileDefault>
+      <verbosCompile>false</verbosCompile>
+   </CommObjectTestSets>
+   <CommObjectTestSets>
+      <TestEntityName>DomainTSDemo-ts-Coordinate3DPlus-ts-Double-ts-x</TestEntityName>
+      <TestSetFileName>DomainTSDemo-ts-Coordinate3DPlus-ts-Double-ts-x_DEFAULT_tset.csv</TestSetFileName>
+      <TestDataFileName>DomainTSDemo-ts-Coordinate3DPlus-ts-Double-ts-x_DEFAULT_tdat.csv</TestDataFileName>
+      <isDefault>true</isDefault>
+      <isCustom>false</isCustom>
+      <isCustomX>false</isCustomX>
+      <isImport>false</isImport>
+      <ImportSourceRepository>Not Available</ImportSourceRepository>
+      <isLocal>true</isLocal>
+      <isEnum>false</isEnum>
+      <isPrimitive>true</isPrimitive>
+      <isNonPrimitive>false</isNonPrimitive>
+      <isArray>false</isArray>
+      <isNonPrimitiveArray>false</isNonPrimitiveArray>
+      <ZeroSizeArrayError>false</ZeroSizeArrayError>
+      <isInvalid>false</isInvalid>
+      <LogString>Test Data -Compile-> Test Set | DomainTSDemo-ts-Coordinate3DPlus-ts-Double-ts-x_DEFAULT_tdat.csv | isDefault isLocal isPrimitive | isValid </LogString>
+      <NotAvailableIdentifier>Not Available</NotAvailableIdentifier>
+      <CommObjectInfo>|  |——CommObject    : &lt;Coordinate3DPlus> {
+|  |  |——Double     : &lt;x>
+|  |  |——Double     : &lt;y>
+|  |  |——Double     : &lt;z>
+|  |  |——[Imported]CommBasicObjects.CommPosition3dWithCovariance    : &lt;plus> {
+|  |  |  |——    : &lt;> {
+|  |  |  | }
+|  |  | }
+|  | }
+</CommObjectInfo>
+      <AttributeInfo>|  |  |——Double     : &lt;x>
+</AttributeInfo>
+      <TestData>TestEntityName,DomainTSDemo-ts-Coordinate3DPlus-ts-Double-ts-x
+&lt;&lt;IS PRIMITIVE>>
+&lt;&lt;IS LOCAL>>
+
+&lt;&lt;TS_DATA>
+9.1
+-9.2
+8.3
+-8.4
+7.5
+-7.6
+6.7
+-6.8
+5.9
+0
+-1.0
+1.1
+-2.2
+2.3
+-3.4
+3.5
+-4.6
+4.7
+-5.8
+&lt;TS_DATA>>
+</TestData>
+      <TestSet>9.1</TestSet>
+      <TestSet>-9.2</TestSet>
+      <TestSet>8.3</TestSet>
+      <TestSet>-8.4</TestSet>
+      <TestSet>7.5</TestSet>
+      <TestSet>-7.6</TestSet>
+      <TestSet>6.7</TestSet>
+      <TestSet>-6.8</TestSet>
+      <TestSet>5.9</TestSet>
+      <TestSet>0</TestSet>
+      <TestSet>-1.0</TestSet>
+      <TestSet>1.1</TestSet>
+      <TestSet>-2.2</TestSet>
+      <TestSet>2.3</TestSet>
+      <TestSet>-3.4</TestSet>
+      <TestSet>3.5</TestSet>
+      <TestSet>-4.6</TestSet>
+      <TestSet>4.7</TestSet>
+      <TestSet>-5.8</TestSet>
+      <verbosCompileDefault>false</verbosCompileDefault>
+      <verbosCompile>false</verbosCompile>
+   </CommObjectTestSets>
+   <CommObjectTestSets>
+      <TestEntityName>DomainTSDemo-ts-Coordinate3DPlus-ts-Double-ts-x</TestEntityName>
+      <TestSetFileName>DomainTSDemo-ts-Coordinate3DPlus-ts-Double-ts-x_CUSTOM_tset.csv</TestSetFileName>
+      <TestDataFileName>DomainTSDemo-ts-Coordinate3DPlus-ts-Double-ts-x_CUSTOM_tdat.csv</TestDataFileName>
+      <isDefault>false</isDefault>
+      <isCustom>true</isCustom>
+      <isCustomX>false</isCustomX>
+      <isImport>false</isImport>
+      <ImportSourceRepository>Not Available</ImportSourceRepository>
+      <isLocal>true</isLocal>
+      <isEnum>false</isEnum>
+      <isPrimitive>true</isPrimitive>
+      <isNonPrimitive>false</isNonPrimitive>
+      <isArray>false</isArray>
+      <isNonPrimitiveArray>false</isNonPrimitiveArray>
+      <ZeroSizeArrayError>false</ZeroSizeArrayError>
+      <isInvalid>false</isInvalid>
+      <LogString>Test Data -Compile-> Test Set | DomainTSDemo-ts-Coordinate3DPlus-ts-Double-ts-x_CUSTOM_tdat.csv | isCustom isLocal isPrimitive | isValid </LogString>
+      <NotAvailableIdentifier>Not Available</NotAvailableIdentifier>
+      <CommObjectInfo>|  |——CommObject    : &lt;Coordinate3DPlus> {
+|  |  |——Double     : &lt;x>
+|  |  |——Double     : &lt;y>
+|  |  |——Double     : &lt;z>
+|  |  |——[Imported]CommBasicObjects.CommPosition3dWithCovariance    : &lt;plus> {
+|  |  |  |——    : &lt;> {
+|  |  |  | }
+|  |  | }
+|  | }
+</CommObjectInfo>
+      <AttributeInfo>|  |  |——Double     : &lt;x>
+</AttributeInfo>
+      <TestData>TestEntityName,DomainTSDemo-ts-Coordinate3DPlus-ts-Double-ts-x
+&lt;&lt;IS PRIMITIVE>>
+&lt;&lt;IS LOCAL>>
+
+&lt;&lt;TS_DATA>
+9.1
+-9.2
+8.3
+-8.4
+7.5
+-7.6
+6.7
+-6.8
+5.9
+0
+-1.0
+1.1
+-2.2
+2.3
+-3.4
+3.5
+-4.6
+4.7
+-5.8
+&lt;TS_DATA>>
+</TestData>
+      <TestSet>9.1</TestSet>
+      <TestSet>-9.2</TestSet>
+      <TestSet>8.3</TestSet>
+      <TestSet>-8.4</TestSet>
+      <TestSet>7.5</TestSet>
+      <TestSet>-7.6</TestSet>
+      <TestSet>6.7</TestSet>
+      <TestSet>-6.8</TestSet>
+      <TestSet>5.9</TestSet>
+      <TestSet>0</TestSet>
+      <TestSet>-1.0</TestSet>
+      <TestSet>1.1</TestSet>
+      <TestSet>-2.2</TestSet>
+      <TestSet>2.3</TestSet>
+      <TestSet>-3.4</TestSet>
+      <TestSet>3.5</TestSet>
+      <TestSet>-4.6</TestSet>
+      <TestSet>4.7</TestSet>
+      <TestSet>-5.8</TestSet>
+      <verbosCompileDefault>false</verbosCompileDefault>
+      <verbosCompile>false</verbosCompile>
+   </CommObjectTestSets>
+   <CommObjectTestSets>
+      <TestEntityName>DomainTSDemo-ts-Coordinate3DPlus-ts-Double-ts-y</TestEntityName>
+      <TestSetFileName>DomainTSDemo-ts-Coordinate3DPlus-ts-Double-ts-y_DEFAULT_tset.csv</TestSetFileName>
+      <TestDataFileName>DomainTSDemo-ts-Coordinate3DPlus-ts-Double-ts-y_DEFAULT_tdat.csv</TestDataFileName>
+      <isDefault>true</isDefault>
+      <isCustom>false</isCustom>
+      <isCustomX>false</isCustomX>
+      <isImport>false</isImport>
+      <ImportSourceRepository>Not Available</ImportSourceRepository>
+      <isLocal>true</isLocal>
+      <isEnum>false</isEnum>
+      <isPrimitive>true</isPrimitive>
+      <isNonPrimitive>false</isNonPrimitive>
+      <isArray>false</isArray>
+      <isNonPrimitiveArray>false</isNonPrimitiveArray>
+      <ZeroSizeArrayError>false</ZeroSizeArrayError>
+      <isInvalid>false</isInvalid>
+      <LogString>Test Data -Compile-> Test Set | DomainTSDemo-ts-Coordinate3DPlus-ts-Double-ts-y_DEFAULT_tdat.csv | isDefault isLocal isPrimitive | isValid </LogString>
+      <NotAvailableIdentifier>Not Available</NotAvailableIdentifier>
+      <CommObjectInfo>|  |——CommObject    : &lt;Coordinate3DPlus> {
+|  |  |——Double     : &lt;x>
+|  |  |——Double     : &lt;y>
+|  |  |——Double     : &lt;z>
+|  |  |——[Imported]CommBasicObjects.CommPosition3dWithCovariance    : &lt;plus> {
+|  |  |  |——    : &lt;> {
+|  |  |  | }
+|  |  | }
+|  | }
+</CommObjectInfo>
+      <AttributeInfo>|  |  |——Double     : &lt;y>
+</AttributeInfo>
+      <TestData>TestEntityName,DomainTSDemo-ts-Coordinate3DPlus-ts-Double-ts-y
+&lt;&lt;IS PRIMITIVE>>
+&lt;&lt;IS LOCAL>>
+
+&lt;&lt;TS_DATA>
+9.1
+-9.2
+8.3
+-8.4
+7.5
+-7.6
+6.7
+-6.8
+5.9
+0
+-1.0
+1.1
+-2.2
+2.3
+-3.4
+3.5
+-4.6
+4.7
+-5.8
+&lt;TS_DATA>>
+</TestData>
+      <TestSet>9.1</TestSet>
+      <TestSet>-9.2</TestSet>
+      <TestSet>8.3</TestSet>
+      <TestSet>-8.4</TestSet>
+      <TestSet>7.5</TestSet>
+      <TestSet>-7.6</TestSet>
+      <TestSet>6.7</TestSet>
+      <TestSet>-6.8</TestSet>
+      <TestSet>5.9</TestSet>
+      <TestSet>0</TestSet>
+      <TestSet>-1.0</TestSet>
+      <TestSet>1.1</TestSet>
+      <TestSet>-2.2</TestSet>
+      <TestSet>2.3</TestSet>
+      <TestSet>-3.4</TestSet>
+      <TestSet>3.5</TestSet>
+      <TestSet>-4.6</TestSet>
+      <TestSet>4.7</TestSet>
+      <TestSet>-5.8</TestSet>
+      <verbosCompileDefault>false</verbosCompileDefault>
+      <verbosCompile>false</verbosCompile>
+   </CommObjectTestSets>
+   <CommObjectTestSets>
+      <TestEntityName>DomainTSDemo-ts-Coordinate3DPlus-ts-Double-ts-y</TestEntityName>
+      <TestSetFileName>DomainTSDemo-ts-Coordinate3DPlus-ts-Double-ts-y_CUSTOM_tset.csv</TestSetFileName>
+      <TestDataFileName>DomainTSDemo-ts-Coordinate3DPlus-ts-Double-ts-y_CUSTOM_tdat.csv</TestDataFileName>
+      <isDefault>false</isDefault>
+      <isCustom>true</isCustom>
+      <isCustomX>false</isCustomX>
+      <isImport>false</isImport>
+      <ImportSourceRepository>Not Available</ImportSourceRepository>
+      <isLocal>true</isLocal>
+      <isEnum>false</isEnum>
+      <isPrimitive>true</isPrimitive>
+      <isNonPrimitive>false</isNonPrimitive>
+      <isArray>false</isArray>
+      <isNonPrimitiveArray>false</isNonPrimitiveArray>
+      <ZeroSizeArrayError>false</ZeroSizeArrayError>
+      <isInvalid>false</isInvalid>
+      <LogString>Test Data -Compile-> Test Set | DomainTSDemo-ts-Coordinate3DPlus-ts-Double-ts-y_CUSTOM_tdat.csv | isCustom isLocal isPrimitive | isValid </LogString>
+      <NotAvailableIdentifier>Not Available</NotAvailableIdentifier>
+      <CommObjectInfo>|  |——CommObject    : &lt;Coordinate3DPlus> {
+|  |  |——Double     : &lt;x>
+|  |  |——Double     : &lt;y>
+|  |  |——Double     : &lt;z>
+|  |  |——[Imported]CommBasicObjects.CommPosition3dWithCovariance    : &lt;plus> {
+|  |  |  |——    : &lt;> {
+|  |  |  | }
+|  |  | }
+|  | }
+</CommObjectInfo>
+      <AttributeInfo>|  |  |——Double     : &lt;y>
+</AttributeInfo>
+      <TestData>TestEntityName,DomainTSDemo-ts-Coordinate3DPlus-ts-Double-ts-y
+&lt;&lt;IS PRIMITIVE>>
+&lt;&lt;IS LOCAL>>
+
+&lt;&lt;TS_DATA>
+9.1
+-9.2
+8.3
+-8.4
+7.5
+-7.6
+6.7
+-6.8
+5.9
+0
+-1.0
+1.1
+-2.2
+2.3
+-3.4
+3.5
+-4.6
+4.7
+-5.8
+&lt;TS_DATA>>
+</TestData>
+      <TestSet>9.1</TestSet>
+      <TestSet>-9.2</TestSet>
+      <TestSet>8.3</TestSet>
+      <TestSet>-8.4</TestSet>
+      <TestSet>7.5</TestSet>
+      <TestSet>-7.6</TestSet>
+      <TestSet>6.7</TestSet>
+      <TestSet>-6.8</TestSet>
+      <TestSet>5.9</TestSet>
+      <TestSet>0</TestSet>
+      <TestSet>-1.0</TestSet>
+      <TestSet>1.1</TestSet>
+      <TestSet>-2.2</TestSet>
+      <TestSet>2.3</TestSet>
+      <TestSet>-3.4</TestSet>
+      <TestSet>3.5</TestSet>
+      <TestSet>-4.6</TestSet>
+      <TestSet>4.7</TestSet>
+      <TestSet>-5.8</TestSet>
+      <verbosCompileDefault>false</verbosCompileDefault>
+      <verbosCompile>false</verbosCompile>
+   </CommObjectTestSets>
+   <CommObjectTestSets>
+      <TestEntityName>DomainTSDemo-ts-Coordinate3DPlus-ts-Double-ts-z</TestEntityName>
+      <TestSetFileName>DomainTSDemo-ts-Coordinate3DPlus-ts-Double-ts-z_DEFAULT_tset.csv</TestSetFileName>
+      <TestDataFileName>DomainTSDemo-ts-Coordinate3DPlus-ts-Double-ts-z_DEFAULT_tdat.csv</TestDataFileName>
+      <isDefault>true</isDefault>
+      <isCustom>false</isCustom>
+      <isCustomX>false</isCustomX>
+      <isImport>false</isImport>
+      <ImportSourceRepository>Not Available</ImportSourceRepository>
+      <isLocal>true</isLocal>
+      <isEnum>false</isEnum>
+      <isPrimitive>true</isPrimitive>
+      <isNonPrimitive>false</isNonPrimitive>
+      <isArray>false</isArray>
+      <isNonPrimitiveArray>false</isNonPrimitiveArray>
+      <ZeroSizeArrayError>false</ZeroSizeArrayError>
+      <isInvalid>false</isInvalid>
+      <LogString>Test Data -Compile-> Test Set | DomainTSDemo-ts-Coordinate3DPlus-ts-Double-ts-z_DEFAULT_tdat.csv | isDefault isLocal isPrimitive | isValid </LogString>
+      <NotAvailableIdentifier>Not Available</NotAvailableIdentifier>
+      <CommObjectInfo>|  |——CommObject    : &lt;Coordinate3DPlus> {
+|  |  |——Double     : &lt;x>
+|  |  |——Double     : &lt;y>
+|  |  |——Double     : &lt;z>
+|  |  |——[Imported]CommBasicObjects.CommPosition3dWithCovariance    : &lt;plus> {
+|  |  |  |——    : &lt;> {
+|  |  |  | }
+|  |  | }
+|  | }
+</CommObjectInfo>
+      <AttributeInfo>|  |  |——Double     : &lt;z>
+</AttributeInfo>
+      <TestData>TestEntityName,DomainTSDemo-ts-Coordinate3DPlus-ts-Double-ts-z
+&lt;&lt;IS PRIMITIVE>>
+&lt;&lt;IS LOCAL>>
+
+&lt;&lt;TS_DATA>
+9.1
+-9.2
+8.3
+-8.4
+7.5
+-7.6
+6.7
+-6.8
+5.9
+0
+-1.0
+1.1
+-2.2
+2.3
+-3.4
+3.5
+-4.6
+4.7
+-5.8
+&lt;TS_DATA>>
+</TestData>
+      <TestSet>9.1</TestSet>
+      <TestSet>-9.2</TestSet>
+      <TestSet>8.3</TestSet>
+      <TestSet>-8.4</TestSet>
+      <TestSet>7.5</TestSet>
+      <TestSet>-7.6</TestSet>
+      <TestSet>6.7</TestSet>
+      <TestSet>-6.8</TestSet>
+      <TestSet>5.9</TestSet>
+      <TestSet>0</TestSet>
+      <TestSet>-1.0</TestSet>
+      <TestSet>1.1</TestSet>
+      <TestSet>-2.2</TestSet>
+      <TestSet>2.3</TestSet>
+      <TestSet>-3.4</TestSet>
+      <TestSet>3.5</TestSet>
+      <TestSet>-4.6</TestSet>
+      <TestSet>4.7</TestSet>
+      <TestSet>-5.8</TestSet>
+      <verbosCompileDefault>false</verbosCompileDefault>
+      <verbosCompile>false</verbosCompile>
+   </CommObjectTestSets>
+   <CommObjectTestSets>
+      <TestEntityName>DomainTSDemo-ts-Coordinate3DPlus-ts-Double-ts-z</TestEntityName>
+      <TestSetFileName>DomainTSDemo-ts-Coordinate3DPlus-ts-Double-ts-z_CUSTOM_tset.csv</TestSetFileName>
+      <TestDataFileName>DomainTSDemo-ts-Coordinate3DPlus-ts-Double-ts-z_CUSTOM_tdat.csv</TestDataFileName>
+      <isDefault>false</isDefault>
+      <isCustom>true</isCustom>
+      <isCustomX>false</isCustomX>
+      <isImport>false</isImport>
+      <ImportSourceRepository>Not Available</ImportSourceRepository>
+      <isLocal>true</isLocal>
+      <isEnum>false</isEnum>
+      <isPrimitive>true</isPrimitive>
+      <isNonPrimitive>false</isNonPrimitive>
+      <isArray>false</isArray>
+      <isNonPrimitiveArray>false</isNonPrimitiveArray>
+      <ZeroSizeArrayError>false</ZeroSizeArrayError>
+      <isInvalid>false</isInvalid>
+      <LogString>Test Data -Compile-> Test Set | DomainTSDemo-ts-Coordinate3DPlus-ts-Double-ts-z_CUSTOM_tdat.csv | isCustom isLocal isPrimitive | isValid </LogString>
+      <NotAvailableIdentifier>Not Available</NotAvailableIdentifier>
+      <CommObjectInfo>|  |——CommObject    : &lt;Coordinate3DPlus> {
+|  |  |——Double     : &lt;x>
+|  |  |——Double     : &lt;y>
+|  |  |——Double     : &lt;z>
+|  |  |——[Imported]CommBasicObjects.CommPosition3dWithCovariance    : &lt;plus> {
+|  |  |  |——    : &lt;> {
+|  |  |  | }
+|  |  | }
+|  | }
+</CommObjectInfo>
+      <AttributeInfo>|  |  |——Double     : &lt;z>
+</AttributeInfo>
+      <TestData>TestEntityName,DomainTSDemo-ts-Coordinate3DPlus-ts-Double-ts-z
+&lt;&lt;IS PRIMITIVE>>
+&lt;&lt;IS LOCAL>>
+
+&lt;&lt;TS_DATA>
+9.1
+-9.2
+8.3
+-8.4
+7.5
+-7.6
+6.7
+-6.8
+5.9
+0
+-1.0
+1.1
+-2.2
+2.3
+-3.4
+3.5
+-4.6
+4.7
+-5.8
+&lt;TS_DATA>>
+</TestData>
+      <TestSet>9.1</TestSet>
+      <TestSet>-9.2</TestSet>
+      <TestSet>8.3</TestSet>
+      <TestSet>-8.4</TestSet>
+      <TestSet>7.5</TestSet>
+      <TestSet>-7.6</TestSet>
+      <TestSet>6.7</TestSet>
+      <TestSet>-6.8</TestSet>
+      <TestSet>5.9</TestSet>
+      <TestSet>0</TestSet>
+      <TestSet>-1.0</TestSet>
+      <TestSet>1.1</TestSet>
+      <TestSet>-2.2</TestSet>
+      <TestSet>2.3</TestSet>
+      <TestSet>-3.4</TestSet>
+      <TestSet>3.5</TestSet>
+      <TestSet>-4.6</TestSet>
+      <TestSet>4.7</TestSet>
+      <TestSet>-5.8</TestSet>
+      <verbosCompileDefault>false</verbosCompileDefault>
+      <verbosCompile>false</verbosCompile>
+   </CommObjectTestSets>
+   <CommObjectTestSets>
+      <TestEntityName>Imported_DomainTSDemo-ts-Coordinate3DPlus-ts-CommBasicObjects.CommPosition3dWithCovariance-ts-plus</TestEntityName>
+      <TestSetFileName>Imported_DomainTSDemo-ts-Coordinate3DPlus-ts-CommBasicObjects.CommPosition3dWithCovariance-ts-plus_DEFAULT_tset.csv</TestSetFileName>
+      <TestDataFileName>Imported_ImportSource-ts-Coordinate3DPlus-ts-CommBasicObjects.CommPosition3dWithCovariance-ts-plus_DEFAULT_tdat.csv</TestDataFileName>
+      <isDefault>true</isDefault>
+      <isCustom>false</isCustom>
+      <isCustomX>false</isCustomX>
+      <isImport>true</isImport>
+      <ImportSourceRepository>ImportSource</ImportSourceRepository>
+      <isLocal>false</isLocal>
+      <isEnum>false</isEnum>
+      <isPrimitive>false</isPrimitive>
+      <isNonPrimitive>true</isNonPrimitive>
+      <isArray>false</isArray>
+      <isNonPrimitiveArray>false</isNonPrimitiveArray>
+      <ZeroSizeArrayError>false</ZeroSizeArrayError>
+      <isInvalid>false</isInvalid>
+      <LogString>Test Data -Compile-> Test Set | Imported_ImportSource-ts-Coordinate3DPlus-ts-CommBasicObjects.CommPosition3dWithCovariance-ts-plus_DEFAULT_tdat.csv | isDefault isImport [ImportSource] isNonPrimitive | isValid </LogString>
+      <NotAvailableIdentifier>Not Available</NotAvailableIdentifier>
+      <CommObjectInfo>|  |——CommObject    : &lt;Coordinate3DPlus> {
+|  |  |——Double     : &lt;x>
+|  |  |——Double     : &lt;y>
+|  |  |——Double     : &lt;z>
+|  |  |——[Imported]CommBasicObjects.CommPosition3dWithCovariance    : &lt;plus> {
+|  |  |  |——    : &lt;> {
+|  |  |  | }
+|  |  | }
+|  | }
+</CommObjectInfo>
+      <AttributeInfo>|  |  |——[Imported]CommBasicObjects.CommPosition3dWithCovariance    : &lt;plus> {
+|  |  |  |——    : &lt;> {
+|  |  |  | }
+|  |  | }
+</AttributeInfo>
+      <TestData>TestEntityName,Imported_DomainTSDemo-ts-Coordinate3DPlus-ts-CommBasicObjects.CommPosition3dWithCovariance-ts-plus
+&lt;&lt;IS NON PRIMITIVE>>
+&lt;&lt;IS IMPORT>>
+
+&lt;&lt;TS_DATA>
+&lt;&lt;IS IMPORT>>,&lt;&lt;WIKI>,Imported,&lt;WIKI>>
+&lt;TS_DATA>>
+</TestData>
+      <verbosCompileDefault>false</verbosCompileDefault>
+      <verbosCompile>false</verbosCompile>
+   </CommObjectTestSets>
+   <CommObjectTestSets>
+      <TestEntityName>Imported_DomainTSDemo-ts-Coordinate3DPlus-ts-CommBasicObjects.CommPosition3dWithCovariance-ts-plus</TestEntityName>
+      <TestSetFileName>Imported_DomainTSDemo-ts-Coordinate3DPlus-ts-CommBasicObjects.CommPosition3dWithCovariance-ts-plus_CUSTOM_tset.csv</TestSetFileName>
+      <TestDataFileName>Imported_ImportSource-ts-Coordinate3DPlus-ts-CommBasicObjects.CommPosition3dWithCovariance-ts-plus_CUSTOM_tdat.csv</TestDataFileName>
+      <isDefault>false</isDefault>
+      <isCustom>true</isCustom>
+      <isCustomX>false</isCustomX>
+      <isImport>true</isImport>
+      <ImportSourceRepository>ImportSource</ImportSourceRepository>
+      <isLocal>false</isLocal>
+      <isEnum>false</isEnum>
+      <isPrimitive>false</isPrimitive>
+      <isNonPrimitive>true</isNonPrimitive>
+      <isArray>false</isArray>
+      <isNonPrimitiveArray>false</isNonPrimitiveArray>
+      <ZeroSizeArrayError>false</ZeroSizeArrayError>
+      <isInvalid>false</isInvalid>
+      <LogString>Test Data -Compile-> Test Set | Imported_ImportSource-ts-Coordinate3DPlus-ts-CommBasicObjects.CommPosition3dWithCovariance-ts-plus_CUSTOM_tdat.csv | isCustom isImport [ImportSource] isNonPrimitive | isValid </LogString>
+      <NotAvailableIdentifier>Not Available</NotAvailableIdentifier>
+      <CommObjectInfo>|  |——CommObject    : &lt;Coordinate3DPlus> {
+|  |  |——Double     : &lt;x>
+|  |  |——Double     : &lt;y>
+|  |  |——Double     : &lt;z>
+|  |  |——[Imported]CommBasicObjects.CommPosition3dWithCovariance    : &lt;plus> {
+|  |  |  |——    : &lt;> {
+|  |  |  | }
+|  |  | }
+|  | }
+</CommObjectInfo>
+      <AttributeInfo>|  |  |——[Imported]CommBasicObjects.CommPosition3dWithCovariance    : &lt;plus> {
+|  |  |  |——    : &lt;> {
+|  |  |  | }
+|  |  | }
+</AttributeInfo>
+      <TestData>TestEntityName,Imported_DomainTSDemo-ts-Coordinate3DPlus-ts-CommBasicObjects.CommPosition3dWithCovariance-ts-plus
+&lt;&lt;IS NON PRIMITIVE>>
+&lt;&lt;IS IMPORT>>
+
+&lt;&lt;TS_DATA>
+&lt;&lt;IS IMPORT>>,&lt;&lt;WIKI>,Imported,&lt;WIKI>>
+&lt;TS_DATA>>
+</TestData>
+      <verbosCompileDefault>false</verbosCompileDefault>
+      <verbosCompile>false</verbosCompile>
+   </CommObjectTestSets>
+   <CommObjectTestSets>
+      <TestEntityName>DomainTSDemo-ts-NestedImport-ts-Coordinate3D-ts-a</TestEntityName>
+      <TestSetFileName>DomainTSDemo-ts-NestedImport-ts-Coordinate3D-ts-a_DEFAULT_tset.csv</TestSetFileName>
+      <TestDataFileName>DomainTSDemo-ts-NestedImport-ts-Coordinate3D-ts-a_DEFAULT_tdat.csv</TestDataFileName>
+      <isDefault>true</isDefault>
+      <isCustom>false</isCustom>
+      <isCustomX>false</isCustomX>
+      <isImport>false</isImport>
+      <ImportSourceRepository>Not Available</ImportSourceRepository>
+      <isLocal>true</isLocal>
+      <isEnum>false</isEnum>
+      <isPrimitive>false</isPrimitive>
+      <isNonPrimitive>true</isNonPrimitive>
+      <isArray>false</isArray>
+      <isNonPrimitiveArray>false</isNonPrimitiveArray>
+      <ZeroSizeArrayError>false</ZeroSizeArrayError>
+      <isInvalid>false</isInvalid>
+      <LogString>Test Data -Compile-> Test Set | DomainTSDemo-ts-NestedImport-ts-Coordinate3D-ts-a_DEFAULT_tdat.csv | isDefault isLocal isNonPrimitive | isValid </LogString>
+      <NotAvailableIdentifier>Not Available</NotAvailableIdentifier>
+      <CommObjectInfo>|  |——CommObject    : &lt;NestedImport> {
+|  |  |——[Local]Coordinate3D    : &lt;a> {
+|  |  |  |——    : &lt;> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]Coordinate3DPlus    : &lt;aa> {
+|  |  |  |——    : &lt;> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Imported]CommNavigationObjects.CommClosestNodeRequest    : &lt;aaa> {
+|  |  |  |——    : &lt;> {
+|  |  |  | }
+|  |  | }
+|  | }
+</CommObjectInfo>
+      <AttributeInfo>|  |  |——[Local]Coordinate3D    : &lt;a> {
+|  |  |  |——    : &lt;> {
+|  |  |  | }
+|  |  | }
+</AttributeInfo>
+      <TestData>TestEntityName,DomainTSDemo-ts-NestedImport-ts-Coordinate3D-ts-a
+&lt;&lt;IS NON PRIMITIVE>>
+&lt;&lt;IS LOCAL>>
+
+&lt;&lt;TS_DATA>
+&lt;&lt;IS LOCAL>>,&lt;&lt;WIKI>,Local,&lt;WIKI>>
+&lt;TS_DATA>>
+</TestData>
+      <verbosCompileDefault>false</verbosCompileDefault>
+      <verbosCompile>false</verbosCompile>
+   </CommObjectTestSets>
+   <CommObjectTestSets>
+      <TestEntityName>DomainTSDemo-ts-NestedImport-ts-Coordinate3D-ts-a</TestEntityName>
+      <TestSetFileName>DomainTSDemo-ts-NestedImport-ts-Coordinate3D-ts-a_CUSTOM_tset.csv</TestSetFileName>
+      <TestDataFileName>DomainTSDemo-ts-NestedImport-ts-Coordinate3D-ts-a_CUSTOM_tdat.csv</TestDataFileName>
+      <isDefault>false</isDefault>
+      <isCustom>true</isCustom>
+      <isCustomX>false</isCustomX>
+      <isImport>false</isImport>
+      <ImportSourceRepository>Not Available</ImportSourceRepository>
+      <isLocal>true</isLocal>
+      <isEnum>false</isEnum>
+      <isPrimitive>false</isPrimitive>
+      <isNonPrimitive>true</isNonPrimitive>
+      <isArray>false</isArray>
+      <isNonPrimitiveArray>false</isNonPrimitiveArray>
+      <ZeroSizeArrayError>false</ZeroSizeArrayError>
+      <isInvalid>false</isInvalid>
+      <LogString>Test Data -Compile-> Test Set | DomainTSDemo-ts-NestedImport-ts-Coordinate3D-ts-a_CUSTOM_tdat.csv | isCustom isLocal isNonPrimitive | isValid </LogString>
+      <NotAvailableIdentifier>Not Available</NotAvailableIdentifier>
+      <CommObjectInfo>|  |——CommObject    : &lt;NestedImport> {
+|  |  |——[Local]Coordinate3D    : &lt;a> {
+|  |  |  |——    : &lt;> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]Coordinate3DPlus    : &lt;aa> {
+|  |  |  |——    : &lt;> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Imported]CommNavigationObjects.CommClosestNodeRequest    : &lt;aaa> {
+|  |  |  |——    : &lt;> {
+|  |  |  | }
+|  |  | }
+|  | }
+</CommObjectInfo>
+      <AttributeInfo>|  |  |——[Local]Coordinate3D    : &lt;a> {
+|  |  |  |——    : &lt;> {
+|  |  |  | }
+|  |  | }
+</AttributeInfo>
+      <TestData>TestEntityName,DomainTSDemo-ts-NestedImport-ts-Coordinate3D-ts-a
+&lt;&lt;IS NON PRIMITIVE>>
+&lt;&lt;IS LOCAL>>
+
+&lt;&lt;TS_DATA>
+&lt;&lt;IS LOCAL>>,&lt;&lt;WIKI>,Local,&lt;WIKI>>
+&lt;TS_DATA>>
+</TestData>
+      <verbosCompileDefault>false</verbosCompileDefault>
+      <verbosCompile>false</verbosCompile>
+   </CommObjectTestSets>
+   <CommObjectTestSets>
+      <TestEntityName>DomainTSDemo-ts-NestedImport-ts-Coordinate3DPlus-ts-aa</TestEntityName>
+      <TestSetFileName>DomainTSDemo-ts-NestedImport-ts-Coordinate3DPlus-ts-aa_DEFAULT_tset.csv</TestSetFileName>
+      <TestDataFileName>DomainTSDemo-ts-NestedImport-ts-Coordinate3DPlus-ts-aa_DEFAULT_tdat.csv</TestDataFileName>
+      <isDefault>true</isDefault>
+      <isCustom>false</isCustom>
+      <isCustomX>false</isCustomX>
+      <isImport>false</isImport>
+      <ImportSourceRepository>Not Available</ImportSourceRepository>
+      <isLocal>true</isLocal>
+      <isEnum>false</isEnum>
+      <isPrimitive>false</isPrimitive>
+      <isNonPrimitive>true</isNonPrimitive>
+      <isArray>false</isArray>
+      <isNonPrimitiveArray>false</isNonPrimitiveArray>
+      <ZeroSizeArrayError>false</ZeroSizeArrayError>
+      <isInvalid>false</isInvalid>
+      <LogString>Test Data -Compile-> Test Set | DomainTSDemo-ts-NestedImport-ts-Coordinate3DPlus-ts-aa_DEFAULT_tdat.csv | isDefault isLocal isNonPrimitive | isValid </LogString>
+      <NotAvailableIdentifier>Not Available</NotAvailableIdentifier>
+      <CommObjectInfo>|  |——CommObject    : &lt;NestedImport> {
+|  |  |——[Local]Coordinate3D    : &lt;a> {
+|  |  |  |——    : &lt;> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]Coordinate3DPlus    : &lt;aa> {
+|  |  |  |——    : &lt;> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Imported]CommNavigationObjects.CommClosestNodeRequest    : &lt;aaa> {
+|  |  |  |——    : &lt;> {
+|  |  |  | }
+|  |  | }
+|  | }
+</CommObjectInfo>
+      <AttributeInfo>|  |  |——[Local]Coordinate3DPlus    : &lt;aa> {
+|  |  |  |——    : &lt;> {
+|  |  |  | }
+|  |  | }
+</AttributeInfo>
+      <TestData>TestEntityName,DomainTSDemo-ts-NestedImport-ts-Coordinate3DPlus-ts-aa
+&lt;&lt;IS NON PRIMITIVE>>
+&lt;&lt;IS LOCAL>>
+
+&lt;&lt;TS_DATA>
+&lt;&lt;IS LOCAL>>,&lt;&lt;WIKI>,Local,&lt;WIKI>>
+&lt;TS_DATA>>
+</TestData>
+      <verbosCompileDefault>false</verbosCompileDefault>
+      <verbosCompile>false</verbosCompile>
+   </CommObjectTestSets>
+   <CommObjectTestSets>
+      <TestEntityName>DomainTSDemo-ts-NestedImport-ts-Coordinate3DPlus-ts-aa</TestEntityName>
+      <TestSetFileName>DomainTSDemo-ts-NestedImport-ts-Coordinate3DPlus-ts-aa_CUSTOM_tset.csv</TestSetFileName>
+      <TestDataFileName>DomainTSDemo-ts-NestedImport-ts-Coordinate3DPlus-ts-aa_CUSTOM_tdat.csv</TestDataFileName>
+      <isDefault>false</isDefault>
+      <isCustom>true</isCustom>
+      <isCustomX>false</isCustomX>
+      <isImport>false</isImport>
+      <ImportSourceRepository>Not Available</ImportSourceRepository>
+      <isLocal>true</isLocal>
+      <isEnum>false</isEnum>
+      <isPrimitive>false</isPrimitive>
+      <isNonPrimitive>true</isNonPrimitive>
+      <isArray>false</isArray>
+      <isNonPrimitiveArray>false</isNonPrimitiveArray>
+      <ZeroSizeArrayError>false</ZeroSizeArrayError>
+      <isInvalid>false</isInvalid>
+      <LogString>Test Data -Compile-> Test Set | DomainTSDemo-ts-NestedImport-ts-Coordinate3DPlus-ts-aa_CUSTOM_tdat.csv | isCustom isLocal isNonPrimitive | isValid </LogString>
+      <NotAvailableIdentifier>Not Available</NotAvailableIdentifier>
+      <CommObjectInfo>|  |——CommObject    : &lt;NestedImport> {
+|  |  |——[Local]Coordinate3D    : &lt;a> {
+|  |  |  |——    : &lt;> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]Coordinate3DPlus    : &lt;aa> {
+|  |  |  |——    : &lt;> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Imported]CommNavigationObjects.CommClosestNodeRequest    : &lt;aaa> {
+|  |  |  |——    : &lt;> {
+|  |  |  | }
+|  |  | }
+|  | }
+</CommObjectInfo>
+      <AttributeInfo>|  |  |——[Local]Coordinate3DPlus    : &lt;aa> {
+|  |  |  |——    : &lt;> {
+|  |  |  | }
+|  |  | }
+</AttributeInfo>
+      <TestData>TestEntityName,DomainTSDemo-ts-NestedImport-ts-Coordinate3DPlus-ts-aa
+&lt;&lt;IS NON PRIMITIVE>>
+&lt;&lt;IS LOCAL>>
+
+&lt;&lt;TS_DATA>
+&lt;&lt;IS LOCAL>>,&lt;&lt;WIKI>,Local,&lt;WIKI>>
+&lt;TS_DATA>>
+</TestData>
+      <verbosCompileDefault>false</verbosCompileDefault>
+      <verbosCompile>false</verbosCompile>
+   </CommObjectTestSets>
+   <CommObjectTestSets>
+      <TestEntityName>Imported_DomainTSDemo-ts-NestedImport-ts-CommNavigationObjects.CommClosestNodeRequest-ts-aaa</TestEntityName>
+      <TestSetFileName>Imported_DomainTSDemo-ts-NestedImport-ts-CommNavigationObjects.CommClosestNodeRequest-ts-aaa_DEFAULT_tset.csv</TestSetFileName>
+      <TestDataFileName>Imported_ImportSource-ts-NestedImport-ts-CommNavigationObjects.CommClosestNodeRequest-ts-aaa_DEFAULT_tdat.csv</TestDataFileName>
+      <isDefault>true</isDefault>
+      <isCustom>false</isCustom>
+      <isCustomX>false</isCustomX>
+      <isImport>true</isImport>
+      <ImportSourceRepository>ImportSource</ImportSourceRepository>
+      <isLocal>false</isLocal>
+      <isEnum>false</isEnum>
+      <isPrimitive>false</isPrimitive>
+      <isNonPrimitive>true</isNonPrimitive>
+      <isArray>false</isArray>
+      <isNonPrimitiveArray>false</isNonPrimitiveArray>
+      <ZeroSizeArrayError>false</ZeroSizeArrayError>
+      <isInvalid>false</isInvalid>
+      <LogString>Test Data -Compile-> Test Set | Imported_ImportSource-ts-NestedImport-ts-CommNavigationObjects.CommClosestNodeRequest-ts-aaa_DEFAULT_tdat.csv | isDefault isImport [ImportSource] isNonPrimitive | isValid </LogString>
+      <NotAvailableIdentifier>Not Available</NotAvailableIdentifier>
+      <CommObjectInfo>|  |——CommObject    : &lt;NestedImport> {
+|  |  |——[Local]Coordinate3D    : &lt;a> {
+|  |  |  |——    : &lt;> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]Coordinate3DPlus    : &lt;aa> {
+|  |  |  |——    : &lt;> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Imported]CommNavigationObjects.CommClosestNodeRequest    : &lt;aaa> {
+|  |  |  |——    : &lt;> {
+|  |  |  | }
+|  |  | }
+|  | }
+</CommObjectInfo>
+      <AttributeInfo>|  |  |——[Imported]CommNavigationObjects.CommClosestNodeRequest    : &lt;aaa> {
+|  |  |  |——    : &lt;> {
+|  |  |  | }
+|  |  | }
+</AttributeInfo>
+      <TestData>TestEntityName,Imported_DomainTSDemo-ts-NestedImport-ts-CommNavigationObjects.CommClosestNodeRequest-ts-aaa
+&lt;&lt;IS NON PRIMITIVE>>
+&lt;&lt;IS IMPORT>>
+
+&lt;&lt;TS_DATA>
+&lt;&lt;IS IMPORT>>,&lt;&lt;WIKI>,Imported,&lt;WIKI>>
+&lt;TS_DATA>>
+</TestData>
+      <verbosCompileDefault>false</verbosCompileDefault>
+      <verbosCompile>false</verbosCompile>
+   </CommObjectTestSets>
+   <CommObjectTestSets>
+      <TestEntityName>Imported_DomainTSDemo-ts-NestedImport-ts-CommNavigationObjects.CommClosestNodeRequest-ts-aaa</TestEntityName>
+      <TestSetFileName>Imported_DomainTSDemo-ts-NestedImport-ts-CommNavigationObjects.CommClosestNodeRequest-ts-aaa_CUSTOM_tset.csv</TestSetFileName>
+      <TestDataFileName>Imported_ImportSource-ts-NestedImport-ts-CommNavigationObjects.CommClosestNodeRequest-ts-aaa_CUSTOM_tdat.csv</TestDataFileName>
+      <isDefault>false</isDefault>
+      <isCustom>true</isCustom>
+      <isCustomX>false</isCustomX>
+      <isImport>true</isImport>
+      <ImportSourceRepository>ImportSource</ImportSourceRepository>
+      <isLocal>false</isLocal>
+      <isEnum>false</isEnum>
+      <isPrimitive>false</isPrimitive>
+      <isNonPrimitive>true</isNonPrimitive>
+      <isArray>false</isArray>
+      <isNonPrimitiveArray>false</isNonPrimitiveArray>
+      <ZeroSizeArrayError>false</ZeroSizeArrayError>
+      <isInvalid>false</isInvalid>
+      <LogString>Test Data -Compile-> Test Set | Imported_ImportSource-ts-NestedImport-ts-CommNavigationObjects.CommClosestNodeRequest-ts-aaa_CUSTOM_tdat.csv | isCustom isImport [ImportSource] isNonPrimitive | isValid </LogString>
+      <NotAvailableIdentifier>Not Available</NotAvailableIdentifier>
+      <CommObjectInfo>|  |——CommObject    : &lt;NestedImport> {
+|  |  |——[Local]Coordinate3D    : &lt;a> {
+|  |  |  |——    : &lt;> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]Coordinate3DPlus    : &lt;aa> {
+|  |  |  |——    : &lt;> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Imported]CommNavigationObjects.CommClosestNodeRequest    : &lt;aaa> {
+|  |  |  |——    : &lt;> {
+|  |  |  | }
+|  |  | }
+|  | }
+</CommObjectInfo>
+      <AttributeInfo>|  |  |——[Imported]CommNavigationObjects.CommClosestNodeRequest    : &lt;aaa> {
+|  |  |  |——    : &lt;> {
+|  |  |  | }
+|  |  | }
+</AttributeInfo>
+      <TestData>TestEntityName,Imported_DomainTSDemo-ts-NestedImport-ts-CommNavigationObjects.CommClosestNodeRequest-ts-aaa
+&lt;&lt;IS NON PRIMITIVE>>
+&lt;&lt;IS IMPORT>>
+
+&lt;&lt;TS_DATA>
+&lt;&lt;IS IMPORT>>,&lt;&lt;WIKI>,Imported,&lt;WIKI>>
+&lt;TS_DATA>>
+</TestData>
+      <verbosCompileDefault>false</verbosCompileDefault>
+      <verbosCompile>false</verbosCompile>
+   </CommObjectTestSets>
+   <ServiceTestSets>
+      <TestEntityName>DomainTSDemo-ts-PushCoordinate3D</TestEntityName>
+      <TestSetFileName>DomainTSDemo-ts-PushCoordinate3D_tset.csv</TestSetFileName>
+      <TestDataFileName>DomainTSDemo-ts-PushCoordinate3D_tdat.csv</TestDataFileName>
+      <ServiceName>PushCoordinate3D</ServiceName>
+      <ServiceType>ForkingServiceDefinition</ServiceType>
+      <PatternType>PushPattern</PatternType>
+      <CommObjectList>DataType</CommObjectList>
+      <OneOfTheCurrentlyHandledServicePattern>true</OneOfTheCurrentlyHandledServicePattern>
+      <isInvalid>false</isInvalid>
+      <LogString>Test Data -Compile-> Test Set | DomainTSDemo-ts-PushCoordinate3D_tdat.csv | | IS-OneOfTheCurrentlyHandledServicePattern | isValid </LogString>
+      <NotAvailableIdentifier>Not Available</NotAvailableIdentifier>
+      <ServiceInfo>ForkingServiceDefinition Service: [PushCoordinate3D] Pattern: PushPattern {
+DataType       :DomainTSDemo.Coordinate3D
+|——    : &lt;> {
+| }
+}
+</ServiceInfo>
+      <TestData>TestEntityName,DomainTSDemo-ts-PushCoordinate3D
+Service Name,PushCoordinate3D
+Service Type,ForkingServiceDefinition
+Service Pattern,PushPattern
+IS-OneOfTheCurrentlyHandledServicePattern,true
+
+&lt;&lt;TS_DATA>,&lt;&lt;DataType>>
+DomainTSDemo,Coordinate3D,TS_BUILDER_PERMUTE,DEFAULT,DS_ON
+DomainTSDemo,Coordinate3D,TS_BUILDER_ONCE,CUSTOM,DS_ON
+&lt;TS_DATA>>
+
+
+
+
+&lt;&lt;WIKI>User can add a new seed (e.g. CUSTOMX) in any of the test data sets.&lt;WIKI>>
+</TestData>
+      <TestSetSeed>
+         <LinkedTo>DataType</LinkedTo>
+         <ServiceRepo>DomainTSDemo</ServiceRepo>
+         <CommObject>Coordinate3D</CommObject>
+         <TestSetBuilder>TS_BUILDER_PERMUTE</TestSetBuilder>
+         <SetName>DEFAULT</SetName>
+         <Switch>DS_ON</Switch>
+         <isSwitchedOn>true</isSwitchedOn>
+      </TestSetSeed>
+      <TestSetSeed>
+         <LinkedTo>DataType</LinkedTo>
+         <ServiceRepo>DomainTSDemo</ServiceRepo>
+         <CommObject>Coordinate3D</CommObject>
+         <TestSetBuilder>TS_BUILDER_ONCE</TestSetBuilder>
+         <SetName>CUSTOM</SetName>
+         <Switch>DS_ON</Switch>
+         <isSwitchedOn>true</isSwitchedOn>
+      </TestSetSeed>
+      <TestSet>
+         <entry>
+            <key>DataType--TSet--CUSTOM</key>
+            <value>CUSTOM-Set-DataType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-x 9.1 -9.2 8.3 -8.4 7.5 -7.6 6.7 -6.8 5.9 0 -1.0 1.1 -2.2 2.3 -3.4 3.5 -4.6 4.7 -5.8</value>
+            <value>CUSTOM-Set-DataType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-y 9.1 -9.2 8.3 -8.4 7.5 -7.6 6.7 -6.8 5.9 0 -1.0 1.1 -2.2 2.3 -3.4 3.5 -4.6 4.7 -5.8</value>
+            <value>CUSTOM-Set-DataType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-z 9.1 -9.2 8.3 -8.4 7.5 -7.6 6.7 -6.8 5.9 0 -1.0 1.1 -2.2 2.3 -3.4 3.5 -4.6 4.7 -5.8</value>
+         </entry>
+         <entry>
+            <key>DataType--TSet--DEFAULT</key>
+            <value>DEFAULT-Set-DataType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-x 9.1 -9.2 8.3 -8.4 7.5 -7.6 6.7 -6.8 5.9 0 -1.0 1.1 -2.2 2.3 -3.4 3.5 -4.6 4.7 -5.8</value>
+            <value>DEFAULT-Set-DataType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-y 9.1 -9.2 8.3 -8.4 7.5 -7.6 6.7 -6.8 5.9 0 -1.0 1.1 -2.2 2.3 -3.4 3.5 -4.6 4.7 -5.8</value>
+            <value>DEFAULT-Set-DataType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-z 9.1 -9.2 8.3 -8.4 7.5 -7.6 6.7 -6.8 5.9 0 -1.0 1.1 -2.2 2.3 -3.4 3.5 -4.6 4.7 -5.8</value>
+         </entry>
+      </TestSet>
+      <TestSetHeader>
+         <entry>
+            <key>DataType--TSet--CUSTOM</key>
+            <value>CUSTOM-Set-DataType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-x</value>
+            <value>CUSTOM-Set-DataType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-y</value>
+            <value>CUSTOM-Set-DataType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-z</value>
+         </entry>
+         <entry>
+            <key>DataType--TSet--DEFAULT</key>
+            <value>DEFAULT-Set-DataType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-x</value>
+            <value>DEFAULT-Set-DataType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-y</value>
+            <value>DEFAULT-Set-DataType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-z</value>
+         </entry>
+      </TestSetHeader>
+      <verbosCompileDefault>false</verbosCompileDefault>
+      <verbosCompile>false</verbosCompile>
+   </ServiceTestSets>
+   <ServiceTestSets>
+      <TestEntityName>DomainTSDemo-ts-SendCoordinate2D</TestEntityName>
+      <TestSetFileName>DomainTSDemo-ts-SendCoordinate2D_tset.csv</TestSetFileName>
+      <TestDataFileName>DomainTSDemo-ts-SendCoordinate2D_tdat.csv</TestDataFileName>
+      <ServiceName>SendCoordinate2D</ServiceName>
+      <ServiceType>JoiningServiceDefinition</ServiceType>
+      <PatternType>SendPattern</PatternType>
+      <CommObjectList>DataType</CommObjectList>
+      <OneOfTheCurrentlyHandledServicePattern>true</OneOfTheCurrentlyHandledServicePattern>
+      <isInvalid>false</isInvalid>
+      <LogString>Test Data -Compile-> Test Set | DomainTSDemo-ts-SendCoordinate2D_tdat.csv | | IS-OneOfTheCurrentlyHandledServicePattern | isValid </LogString>
+      <NotAvailableIdentifier>Not Available</NotAvailableIdentifier>
+      <ServiceInfo>JoiningServiceDefinition Service: [SendCoordinate2D] Pattern: SendPattern {
+DataType       :DomainTSDemo.Coordinate2D
+|——    : &lt;> {
+| }
+}
+</ServiceInfo>
+      <TestData>TestEntityName,DomainTSDemo-ts-SendCoordinate2D
+Service Name,SendCoordinate2D
+Service Type,JoiningServiceDefinition
+Service Pattern,SendPattern
+IS-OneOfTheCurrentlyHandledServicePattern,true
+
+&lt;&lt;TS_DATA>,&lt;&lt;DataType>>
+DomainTSDemo,Coordinate2D,TS_BUILDER_PERMUTE,DEFAULT,DS_ON
+DomainTSDemo,Coordinate2D,TS_BUILDER_ONCE,CUSTOM,DS_ON
+&lt;TS_DATA>>
+
+
+
+
+&lt;&lt;WIKI>User can add a new seed (e.g. CUSTOMX) in any of the test data sets.&lt;WIKI>>
+</TestData>
+      <TestSetSeed>
+         <LinkedTo>DataType</LinkedTo>
+         <ServiceRepo>DomainTSDemo</ServiceRepo>
+         <CommObject>Coordinate2D</CommObject>
+         <TestSetBuilder>TS_BUILDER_PERMUTE</TestSetBuilder>
+         <SetName>DEFAULT</SetName>
+         <Switch>DS_ON</Switch>
+         <isSwitchedOn>true</isSwitchedOn>
+      </TestSetSeed>
+      <TestSetSeed>
+         <LinkedTo>DataType</LinkedTo>
+         <ServiceRepo>DomainTSDemo</ServiceRepo>
+         <CommObject>Coordinate2D</CommObject>
+         <TestSetBuilder>TS_BUILDER_ONCE</TestSetBuilder>
+         <SetName>CUSTOM</SetName>
+         <Switch>DS_ON</Switch>
+         <isSwitchedOn>true</isSwitchedOn>
+      </TestSetSeed>
+      <TestSet>
+         <entry>
+            <key>DataType--TSet--CUSTOM</key>
+            <value>CUSTOM-Set-DataType-Dot-DomainTSDemo-Dot-Coordinate2D-Dot-Double-Dot-x 9.1 -9.2 8.3 -8.4 7.5 -7.6 6.7 -6.8 5.9 0 -1.0 1.1 -2.2 2.3 -3.4 3.5 -4.6 4.7 -5.8</value>
+            <value>CUSTOM-Set-DataType-Dot-DomainTSDemo-Dot-Coordinate2D-Dot-Double-Dot-y 9.1 -9.2 8.3 -8.4 7.5 -7.6 6.7 -6.8 5.9 0 -1.0 1.1 -2.2 2.3 -3.4 3.5 -4.6 4.7 -5.8</value>
+         </entry>
+         <entry>
+            <key>DataType--TSet--DEFAULT</key>
+            <value>DEFAULT-Set-DataType-Dot-DomainTSDemo-Dot-Coordinate2D-Dot-Double-Dot-x 9.1 -9.2 8.3 -8.4 7.5 -7.6 6.7 -6.8 5.9 0 -1.0 1.1 -2.2 2.3 -3.4 3.5 -4.6 4.7 -5.8</value>
+            <value>DEFAULT-Set-DataType-Dot-DomainTSDemo-Dot-Coordinate2D-Dot-Double-Dot-y 9.1 -9.2 8.3 -8.4 7.5 -7.6 6.7 -6.8 5.9 0 -1.0 1.1 -2.2 2.3 -3.4 3.5 -4.6 4.7 -5.8</value>
+         </entry>
+      </TestSet>
+      <TestSetHeader>
+         <entry>
+            <key>DataType--TSet--CUSTOM</key>
+            <value>CUSTOM-Set-DataType-Dot-DomainTSDemo-Dot-Coordinate2D-Dot-Double-Dot-x</value>
+            <value>CUSTOM-Set-DataType-Dot-DomainTSDemo-Dot-Coordinate2D-Dot-Double-Dot-y</value>
+         </entry>
+         <entry>
+            <key>DataType--TSet--DEFAULT</key>
+            <value>DEFAULT-Set-DataType-Dot-DomainTSDemo-Dot-Coordinate2D-Dot-Double-Dot-x</value>
+            <value>DEFAULT-Set-DataType-Dot-DomainTSDemo-Dot-Coordinate2D-Dot-Double-Dot-y</value>
+         </entry>
+      </TestSetHeader>
+      <verbosCompileDefault>false</verbosCompileDefault>
+      <verbosCompile>false</verbosCompile>
+   </ServiceTestSets>
+   <ServiceTestSets>
+      <TestEntityName>DomainTSDemo-ts-QueryValidCoordinate2D</TestEntityName>
+      <TestSetFileName>DomainTSDemo-ts-QueryValidCoordinate2D_tset.csv</TestSetFileName>
+      <TestDataFileName>DomainTSDemo-ts-QueryValidCoordinate2D_tdat.csv</TestDataFileName>
+      <ServiceName>QueryValidCoordinate2D</ServiceName>
+      <ServiceType>RequestAnswerServiceDefinition</ServiceType>
+      <PatternType>QueryPattern</PatternType>
+      <CommObjectList>RequestType</CommObjectList>
+      <CommObjectList>AnswerType</CommObjectList>
+      <OneOfTheCurrentlyHandledServicePattern>true</OneOfTheCurrentlyHandledServicePattern>
+      <isInvalid>false</isInvalid>
+      <LogString>Test Data -Compile-> Test Set | DomainTSDemo-ts-QueryValidCoordinate2D_tdat.csv | | IS-OneOfTheCurrentlyHandledServicePattern | isValid </LogString>
+      <NotAvailableIdentifier>Not Available</NotAvailableIdentifier>
+      <ServiceInfo>RequestAnswerServiceDefinition Service: [QueryValidCoordinate2D] Pattern: QueryPattern {
+RequestType    :DomainTSDemo.Coordinate2D
+|——    : &lt;> {
+| }
+
+AnswerType     :DomainTSDemo.BasicBoolean
+|——    : &lt;> {
+| }
+}
+</ServiceInfo>
+      <TestData>TestEntityName,DomainTSDemo-ts-QueryValidCoordinate2D
+Service Name,QueryValidCoordinate2D
+Service Type,RequestAnswerServiceDefinition
+Service Pattern,QueryPattern
+IS-OneOfTheCurrentlyHandledServicePattern,true
+
+&lt;&lt;TS_DATA>,&lt;&lt;RequestType>>
+DomainTSDemo,Coordinate2D,TS_BUILDER_PERMUTE,DEFAULT,DS_ON
+DomainTSDemo,Coordinate2D,TS_BUILDER_ONCE,CUSTOM,DS_ON
+&lt;TS_DATA>>
+
+&lt;&lt;TS_DATA>,&lt;&lt;AnswerType>>
+DomainTSDemo,BasicBoolean,TS_BUILDER_PERMUTE,DEFAULT,DS_ON
+DomainTSDemo,BasicBoolean,TS_BUILDER_ONCE,CUSTOM,DS_ON
+&lt;TS_DATA>>
+
+
+
+
+&lt;&lt;WIKI>User can add a new seed (e.g. CUSTOMX) in any of the test data sets.&lt;WIKI>>
+</TestData>
+      <TestSetSeed>
+         <LinkedTo>RequestType</LinkedTo>
+         <ServiceRepo>DomainTSDemo</ServiceRepo>
+         <CommObject>Coordinate2D</CommObject>
+         <TestSetBuilder>TS_BUILDER_PERMUTE</TestSetBuilder>
+         <SetName>DEFAULT</SetName>
+         <Switch>DS_ON</Switch>
+         <isSwitchedOn>true</isSwitchedOn>
+      </TestSetSeed>
+      <TestSetSeed>
+         <LinkedTo>RequestType</LinkedTo>
+         <ServiceRepo>DomainTSDemo</ServiceRepo>
+         <CommObject>Coordinate2D</CommObject>
+         <TestSetBuilder>TS_BUILDER_ONCE</TestSetBuilder>
+         <SetName>CUSTOM</SetName>
+         <Switch>DS_ON</Switch>
+         <isSwitchedOn>true</isSwitchedOn>
+      </TestSetSeed>
+      <TestSetSeed>
+         <LinkedTo>AnswerType</LinkedTo>
+         <ServiceRepo>DomainTSDemo</ServiceRepo>
+         <CommObject>BasicBoolean</CommObject>
+         <TestSetBuilder>TS_BUILDER_PERMUTE</TestSetBuilder>
+         <SetName>DEFAULT</SetName>
+         <Switch>DS_ON</Switch>
+         <isSwitchedOn>true</isSwitchedOn>
+      </TestSetSeed>
+      <TestSetSeed>
+         <LinkedTo>AnswerType</LinkedTo>
+         <ServiceRepo>DomainTSDemo</ServiceRepo>
+         <CommObject>BasicBoolean</CommObject>
+         <TestSetBuilder>TS_BUILDER_ONCE</TestSetBuilder>
+         <SetName>CUSTOM</SetName>
+         <Switch>DS_ON</Switch>
+         <isSwitchedOn>true</isSwitchedOn>
+      </TestSetSeed>
+      <TestSet>
+         <entry>
+            <key>RequestType--TSet--CUSTOM</key>
+            <value>CUSTOM-Set-RequestType-Dot-DomainTSDemo-Dot-Coordinate2D-Dot-Double-Dot-x 9.1 -9.2 8.3 -8.4 7.5 -7.6 6.7 -6.8 5.9 0 -1.0 1.1 -2.2 2.3 -3.4 3.5 -4.6 4.7 -5.8</value>
+            <value>CUSTOM-Set-RequestType-Dot-DomainTSDemo-Dot-Coordinate2D-Dot-Double-Dot-y 9.1 -9.2 8.3 -8.4 7.5 -7.6 6.7 -6.8 5.9 0 -1.0 1.1 -2.2 2.3 -3.4 3.5 -4.6 4.7 -5.8</value>
+         </entry>
+         <entry>
+            <key>RequestType--TSet--DEFAULT</key>
+            <value>DEFAULT-Set-RequestType-Dot-DomainTSDemo-Dot-Coordinate2D-Dot-Double-Dot-x 9.1 -9.2 8.3 -8.4 7.5 -7.6 6.7 -6.8 5.9 0 -1.0 1.1 -2.2 2.3 -3.4 3.5 -4.6 4.7 -5.8</value>
+            <value>DEFAULT-Set-RequestType-Dot-DomainTSDemo-Dot-Coordinate2D-Dot-Double-Dot-y 9.1 -9.2 8.3 -8.4 7.5 -7.6 6.7 -6.8 5.9 0 -1.0 1.1 -2.2 2.3 -3.4 3.5 -4.6 4.7 -5.8</value>
+         </entry>
+         <entry>
+            <key>AnswerType--TSet--CUSTOM</key>
+            <value>CUSTOM-Set-AnswerType-Dot-DomainTSDemo-Dot-BasicBoolean-Dot-Boolean-Dot-boolValue true false false true</value>
+         </entry>
+         <entry>
+            <key>AnswerType--TSet--DEFAULT</key>
+            <value>DEFAULT-Set-AnswerType-Dot-DomainTSDemo-Dot-BasicBoolean-Dot-Boolean-Dot-boolValue true false false true</value>
+         </entry>
+      </TestSet>
+      <TestSetHeader>
+         <entry>
+            <key>RequestType--TSet--CUSTOM</key>
+            <value>CUSTOM-Set-RequestType-Dot-DomainTSDemo-Dot-Coordinate2D-Dot-Double-Dot-x</value>
+            <value>CUSTOM-Set-RequestType-Dot-DomainTSDemo-Dot-Coordinate2D-Dot-Double-Dot-y</value>
+         </entry>
+         <entry>
+            <key>RequestType--TSet--DEFAULT</key>
+            <value>DEFAULT-Set-RequestType-Dot-DomainTSDemo-Dot-Coordinate2D-Dot-Double-Dot-x</value>
+            <value>DEFAULT-Set-RequestType-Dot-DomainTSDemo-Dot-Coordinate2D-Dot-Double-Dot-y</value>
+         </entry>
+         <entry>
+            <key>AnswerType--TSet--CUSTOM</key>
+            <value>CUSTOM-Set-AnswerType-Dot-DomainTSDemo-Dot-BasicBoolean-Dot-Boolean-Dot-boolValue</value>
+         </entry>
+         <entry>
+            <key>AnswerType--TSet--DEFAULT</key>
+            <value>DEFAULT-Set-AnswerType-Dot-DomainTSDemo-Dot-BasicBoolean-Dot-Boolean-Dot-boolValue</value>
+         </entry>
+      </TestSetHeader>
+      <verbosCompileDefault>false</verbosCompileDefault>
+      <verbosCompile>false</verbosCompile>
+   </ServiceTestSets>
+   <ServiceTestSets>
+      <TestEntityName>DomainTSDemo-ts-QueryValidCoordinate3D</TestEntityName>
+      <TestSetFileName>DomainTSDemo-ts-QueryValidCoordinate3D_tset.csv</TestSetFileName>
+      <TestDataFileName>DomainTSDemo-ts-QueryValidCoordinate3D_tdat.csv</TestDataFileName>
+      <ServiceName>QueryValidCoordinate3D</ServiceName>
+      <ServiceType>RequestAnswerServiceDefinition</ServiceType>
+      <PatternType>QueryPattern</PatternType>
+      <CommObjectList>RequestType</CommObjectList>
+      <CommObjectList>AnswerType</CommObjectList>
+      <OneOfTheCurrentlyHandledServicePattern>true</OneOfTheCurrentlyHandledServicePattern>
+      <isInvalid>false</isInvalid>
+      <LogString>Test Data -Compile-> Test Set | DomainTSDemo-ts-QueryValidCoordinate3D_tdat.csv | | IS-OneOfTheCurrentlyHandledServicePattern | isValid </LogString>
+      <NotAvailableIdentifier>Not Available</NotAvailableIdentifier>
+      <ServiceInfo>RequestAnswerServiceDefinition Service: [QueryValidCoordinate3D] Pattern: QueryPattern {
+RequestType    :DomainTSDemo.Coordinate3D
+|——    : &lt;> {
+| }
+
+AnswerType     :DomainTSDemo.BasicBoolean
+|——    : &lt;> {
+| }
+}
+</ServiceInfo>
+      <TestData>TestEntityName,DomainTSDemo-ts-QueryValidCoordinate3D
+Service Name,QueryValidCoordinate3D
+Service Type,RequestAnswerServiceDefinition
+Service Pattern,QueryPattern
+IS-OneOfTheCurrentlyHandledServicePattern,true
+
+&lt;&lt;TS_DATA>,&lt;&lt;RequestType>>
+DomainTSDemo,Coordinate3D,TS_BUILDER_PERMUTE,DEFAULT,DS_ON
+DomainTSDemo,Coordinate3D,TS_BUILDER_ONCE,CUSTOM,DS_ON
+&lt;TS_DATA>>
+
+&lt;&lt;TS_DATA>,&lt;&lt;AnswerType>>
+DomainTSDemo,BasicBoolean,TS_BUILDER_PERMUTE,DEFAULT,DS_ON
+DomainTSDemo,BasicBoolean,TS_BUILDER_ONCE,CUSTOM,DS_ON
+&lt;TS_DATA>>
+
+
+
+
+&lt;&lt;WIKI>User can add a new seed (e.g. CUSTOMX) in any of the test data sets.&lt;WIKI>>
+</TestData>
+      <TestSetSeed>
+         <LinkedTo>RequestType</LinkedTo>
+         <ServiceRepo>DomainTSDemo</ServiceRepo>
+         <CommObject>Coordinate3D</CommObject>
+         <TestSetBuilder>TS_BUILDER_PERMUTE</TestSetBuilder>
+         <SetName>DEFAULT</SetName>
+         <Switch>DS_ON</Switch>
+         <isSwitchedOn>true</isSwitchedOn>
+      </TestSetSeed>
+      <TestSetSeed>
+         <LinkedTo>RequestType</LinkedTo>
+         <ServiceRepo>DomainTSDemo</ServiceRepo>
+         <CommObject>Coordinate3D</CommObject>
+         <TestSetBuilder>TS_BUILDER_ONCE</TestSetBuilder>
+         <SetName>CUSTOM</SetName>
+         <Switch>DS_ON</Switch>
+         <isSwitchedOn>true</isSwitchedOn>
+      </TestSetSeed>
+      <TestSetSeed>
+         <LinkedTo>AnswerType</LinkedTo>
+         <ServiceRepo>DomainTSDemo</ServiceRepo>
+         <CommObject>BasicBoolean</CommObject>
+         <TestSetBuilder>TS_BUILDER_PERMUTE</TestSetBuilder>
+         <SetName>DEFAULT</SetName>
+         <Switch>DS_ON</Switch>
+         <isSwitchedOn>true</isSwitchedOn>
+      </TestSetSeed>
+      <TestSetSeed>
+         <LinkedTo>AnswerType</LinkedTo>
+         <ServiceRepo>DomainTSDemo</ServiceRepo>
+         <CommObject>BasicBoolean</CommObject>
+         <TestSetBuilder>TS_BUILDER_ONCE</TestSetBuilder>
+         <SetName>CUSTOM</SetName>
+         <Switch>DS_ON</Switch>
+         <isSwitchedOn>true</isSwitchedOn>
+      </TestSetSeed>
+      <TestSet>
+         <entry>
+            <key>RequestType--TSet--CUSTOM</key>
+            <value>CUSTOM-Set-RequestType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-x 9.1 -9.2 8.3 -8.4 7.5 -7.6 6.7 -6.8 5.9 0 -1.0 1.1 -2.2 2.3 -3.4 3.5 -4.6 4.7 -5.8</value>
+            <value>CUSTOM-Set-RequestType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-y 9.1 -9.2 8.3 -8.4 7.5 -7.6 6.7 -6.8 5.9 0 -1.0 1.1 -2.2 2.3 -3.4 3.5 -4.6 4.7 -5.8</value>
+            <value>CUSTOM-Set-RequestType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-z 9.1 -9.2 8.3 -8.4 7.5 -7.6 6.7 -6.8 5.9 0 -1.0 1.1 -2.2 2.3 -3.4 3.5 -4.6 4.7 -5.8</value>
+         </entry>
+         <entry>
+            <key>RequestType--TSet--DEFAULT</key>
+            <value>DEFAULT-Set-RequestType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-x 9.1 -9.2 8.3 -8.4 7.5 -7.6 6.7 -6.8 5.9 0 -1.0 1.1 -2.2 2.3 -3.4 3.5 -4.6 4.7 -5.8</value>
+            <value>DEFAULT-Set-RequestType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-y 9.1 -9.2 8.3 -8.4 7.5 -7.6 6.7 -6.8 5.9 0 -1.0 1.1 -2.2 2.3 -3.4 3.5 -4.6 4.7 -5.8</value>
+            <value>DEFAULT-Set-RequestType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-z 9.1 -9.2 8.3 -8.4 7.5 -7.6 6.7 -6.8 5.9 0 -1.0 1.1 -2.2 2.3 -3.4 3.5 -4.6 4.7 -5.8</value>
+         </entry>
+         <entry>
+            <key>AnswerType--TSet--CUSTOM</key>
+            <value>CUSTOM-Set-AnswerType-Dot-DomainTSDemo-Dot-BasicBoolean-Dot-Boolean-Dot-boolValue true false false true</value>
+         </entry>
+         <entry>
+            <key>AnswerType--TSet--DEFAULT</key>
+            <value>DEFAULT-Set-AnswerType-Dot-DomainTSDemo-Dot-BasicBoolean-Dot-Boolean-Dot-boolValue true false false true</value>
+         </entry>
+      </TestSet>
+      <TestSetHeader>
+         <entry>
+            <key>RequestType--TSet--CUSTOM</key>
+            <value>CUSTOM-Set-RequestType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-x</value>
+            <value>CUSTOM-Set-RequestType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-y</value>
+            <value>CUSTOM-Set-RequestType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-z</value>
+         </entry>
+         <entry>
+            <key>RequestType--TSet--DEFAULT</key>
+            <value>DEFAULT-Set-RequestType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-x</value>
+            <value>DEFAULT-Set-RequestType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-y</value>
+            <value>DEFAULT-Set-RequestType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-z</value>
+         </entry>
+         <entry>
+            <key>AnswerType--TSet--CUSTOM</key>
+            <value>CUSTOM-Set-AnswerType-Dot-DomainTSDemo-Dot-BasicBoolean-Dot-Boolean-Dot-boolValue</value>
+         </entry>
+         <entry>
+            <key>AnswerType--TSet--DEFAULT</key>
+            <value>DEFAULT-Set-AnswerType-Dot-DomainTSDemo-Dot-BasicBoolean-Dot-Boolean-Dot-boolValue</value>
+         </entry>
+      </TestSetHeader>
+      <verbosCompileDefault>false</verbosCompileDefault>
+      <verbosCompile>false</verbosCompile>
+   </ServiceTestSets>
+   <ServiceTestSets>
+      <TestEntityName>DomainTSDemo-ts-NewCoordinate3DEvent3D</TestEntityName>
+      <TestSetFileName>DomainTSDemo-ts-NewCoordinate3DEvent3D_tset.csv</TestSetFileName>
+      <TestDataFileName>DomainTSDemo-ts-NewCoordinate3DEvent3D_tdat.csv</TestDataFileName>
+      <ServiceName>NewCoordinate3DEvent3D</ServiceName>
+      <ServiceType>ForkingServiceDefinition</ServiceType>
+      <PatternType>EventPattern</PatternType>
+      <CommObjectList>ActivationType</CommObjectList>
+      <CommObjectList>EventType</CommObjectList>
+      <CommObjectList>EventStateType</CommObjectList>
+      <OneOfTheCurrentlyHandledServicePattern>true</OneOfTheCurrentlyHandledServicePattern>
+      <isInvalid>false</isInvalid>
+      <LogString>Test Data -Compile-> Test Set | DomainTSDemo-ts-NewCoordinate3DEvent3D_tdat.csv | | IS-OneOfTheCurrentlyHandledServicePattern | isValid </LogString>
+      <NotAvailableIdentifier>Not Available</NotAvailableIdentifier>
+      <ServiceInfo>ForkingServiceDefinition Service: [NewCoordinate3DEvent3D] Pattern: EventPattern {
+EventType      :DomainTSDemo.Coordinate3D
+|——    : &lt;> {
+| }
+
+ActivationType :DomainTSDemo.BasicBoolean
+|——    : &lt;> {
+| }
+
+EventStateType :DomainTSDemo.BasicBoolean
+|——    : &lt;> {
+| }
+}
+</ServiceInfo>
+      <TestData>TestEntityName,DomainTSDemo-ts-NewCoordinate3DEvent3D
+Service Name,NewCoordinate3DEvent3D
+Service Type,ForkingServiceDefinition
+Service Pattern,EventPattern
+IS-OneOfTheCurrentlyHandledServicePattern,true
+
+&lt;&lt;TS_DATA>,&lt;&lt;EventType>>
+DomainTSDemo,Coordinate3D,TS_BUILDER_PERMUTE,DEFAULT,DS_ON
+DomainTSDemo,Coordinate3D,TS_BUILDER_ONCE,CUSTOM,DS_ON
+&lt;TS_DATA>>
+
+&lt;&lt;TS_DATA>,&lt;&lt;ActivationType>>
+DomainTSDemo,BasicBoolean,TS_BUILDER_PERMUTE,DEFAULT,DS_ON
+DomainTSDemo,BasicBoolean,TS_BUILDER_ONCE,CUSTOM,DS_ON
+&lt;TS_DATA>>
+
+&lt;&lt;TS_DATA>,&lt;&lt;EventStateType>>
+DomainTSDemo,BasicBoolean,TS_BUILDER_PERMUTE,DEFAULT,DS_ON
+DomainTSDemo,BasicBoolean,TS_BUILDER_ONCE,CUSTOM,DS_ON
+&lt;TS_DATA>>
+
+
+
+
+&lt;&lt;WIKI>User can add a new seed (e.g. CUSTOMX) in any of the test data sets.&lt;WIKI>>
+</TestData>
+      <TestSetSeed>
+         <LinkedTo>ActivationType</LinkedTo>
+         <ServiceRepo>DomainTSDemo</ServiceRepo>
+         <CommObject>BasicBoolean</CommObject>
+         <TestSetBuilder>TS_BUILDER_PERMUTE</TestSetBuilder>
+         <SetName>DEFAULT</SetName>
+         <Switch>DS_ON</Switch>
+         <isSwitchedOn>true</isSwitchedOn>
+      </TestSetSeed>
+      <TestSetSeed>
+         <LinkedTo>ActivationType</LinkedTo>
+         <ServiceRepo>DomainTSDemo</ServiceRepo>
+         <CommObject>BasicBoolean</CommObject>
+         <TestSetBuilder>TS_BUILDER_ONCE</TestSetBuilder>
+         <SetName>CUSTOM</SetName>
+         <Switch>DS_ON</Switch>
+         <isSwitchedOn>true</isSwitchedOn>
+      </TestSetSeed>
+      <TestSetSeed>
+         <LinkedTo>EventType</LinkedTo>
+         <ServiceRepo>DomainTSDemo</ServiceRepo>
+         <CommObject>Coordinate3D</CommObject>
+         <TestSetBuilder>TS_BUILDER_PERMUTE</TestSetBuilder>
+         <SetName>DEFAULT</SetName>
+         <Switch>DS_ON</Switch>
+         <isSwitchedOn>true</isSwitchedOn>
+      </TestSetSeed>
+      <TestSetSeed>
+         <LinkedTo>EventType</LinkedTo>
+         <ServiceRepo>DomainTSDemo</ServiceRepo>
+         <CommObject>Coordinate3D</CommObject>
+         <TestSetBuilder>TS_BUILDER_ONCE</TestSetBuilder>
+         <SetName>CUSTOM</SetName>
+         <Switch>DS_ON</Switch>
+         <isSwitchedOn>true</isSwitchedOn>
+      </TestSetSeed>
+      <TestSetSeed>
+         <LinkedTo>EventStateType</LinkedTo>
+         <ServiceRepo>DomainTSDemo</ServiceRepo>
+         <CommObject>BasicBoolean</CommObject>
+         <TestSetBuilder>TS_BUILDER_PERMUTE</TestSetBuilder>
+         <SetName>DEFAULT</SetName>
+         <Switch>DS_ON</Switch>
+         <isSwitchedOn>true</isSwitchedOn>
+      </TestSetSeed>
+      <TestSetSeed>
+         <LinkedTo>EventStateType</LinkedTo>
+         <ServiceRepo>DomainTSDemo</ServiceRepo>
+         <CommObject>BasicBoolean</CommObject>
+         <TestSetBuilder>TS_BUILDER_ONCE</TestSetBuilder>
+         <SetName>CUSTOM</SetName>
+         <Switch>DS_ON</Switch>
+         <isSwitchedOn>true</isSwitchedOn>
+      </TestSetSeed>
+      <TestSet>
+         <entry>
+            <key>ActivationType--TSet--DEFAULT</key>
+            <value>DEFAULT-Set-ActivationType-Dot-DomainTSDemo-Dot-BasicBoolean-Dot-Boolean-Dot-boolValue true false false true</value>
+         </entry>
+         <entry>
+            <key>EventType--TSet--CUSTOM</key>
+            <value>CUSTOM-Set-EventType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-x 9.1 -9.2 8.3 -8.4 7.5 -7.6 6.7 -6.8 5.9 0 -1.0 1.1 -2.2 2.3 -3.4 3.5 -4.6 4.7 -5.8</value>
+            <value>CUSTOM-Set-EventType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-y 9.1 -9.2 8.3 -8.4 7.5 -7.6 6.7 -6.8 5.9 0 -1.0 1.1 -2.2 2.3 -3.4 3.5 -4.6 4.7 -5.8</value>
+            <value>CUSTOM-Set-EventType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-z 9.1 -9.2 8.3 -8.4 7.5 -7.6 6.7 -6.8 5.9 0 -1.0 1.1 -2.2 2.3 -3.4 3.5 -4.6 4.7 -5.8</value>
+         </entry>
+         <entry>
+            <key>EventStateType--TSet--CUSTOM</key>
+            <value>CUSTOM-Set-EventStateType-Dot-DomainTSDemo-Dot-BasicBoolean-Dot-Boolean-Dot-boolValue true false false true</value>
+         </entry>
+         <entry>
+            <key>EventType--TSet--DEFAULT</key>
+            <value>DEFAULT-Set-EventType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-x 9.1 -9.2 8.3 -8.4 7.5 -7.6 6.7 -6.8 5.9 0 -1.0 1.1 -2.2 2.3 -3.4 3.5 -4.6 4.7 -5.8</value>
+            <value>DEFAULT-Set-EventType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-y 9.1 -9.2 8.3 -8.4 7.5 -7.6 6.7 -6.8 5.9 0 -1.0 1.1 -2.2 2.3 -3.4 3.5 -4.6 4.7 -5.8</value>
+            <value>DEFAULT-Set-EventType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-z 9.1 -9.2 8.3 -8.4 7.5 -7.6 6.7 -6.8 5.9 0 -1.0 1.1 -2.2 2.3 -3.4 3.5 -4.6 4.7 -5.8</value>
+         </entry>
+         <entry>
+            <key>ActivationType--TSet--CUSTOM</key>
+            <value>CUSTOM-Set-ActivationType-Dot-DomainTSDemo-Dot-BasicBoolean-Dot-Boolean-Dot-boolValue true false false true</value>
+         </entry>
+         <entry>
+            <key>EventStateType--TSet--DEFAULT</key>
+            <value>DEFAULT-Set-EventStateType-Dot-DomainTSDemo-Dot-BasicBoolean-Dot-Boolean-Dot-boolValue true false false true</value>
+         </entry>
+      </TestSet>
+      <TestSetHeader>
+         <entry>
+            <key>ActivationType--TSet--DEFAULT</key>
+            <value>DEFAULT-Set-ActivationType-Dot-DomainTSDemo-Dot-BasicBoolean-Dot-Boolean-Dot-boolValue</value>
+         </entry>
+         <entry>
+            <key>EventType--TSet--CUSTOM</key>
+            <value>CUSTOM-Set-EventType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-x</value>
+            <value>CUSTOM-Set-EventType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-y</value>
+            <value>CUSTOM-Set-EventType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-z</value>
+         </entry>
+         <entry>
+            <key>EventStateType--TSet--CUSTOM</key>
+            <value>CUSTOM-Set-EventStateType-Dot-DomainTSDemo-Dot-BasicBoolean-Dot-Boolean-Dot-boolValue</value>
+         </entry>
+         <entry>
+            <key>EventType--TSet--DEFAULT</key>
+            <value>DEFAULT-Set-EventType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-x</value>
+            <value>DEFAULT-Set-EventType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-y</value>
+            <value>DEFAULT-Set-EventType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-z</value>
+         </entry>
+         <entry>
+            <key>ActivationType--TSet--CUSTOM</key>
+            <value>CUSTOM-Set-ActivationType-Dot-DomainTSDemo-Dot-BasicBoolean-Dot-Boolean-Dot-boolValue</value>
+         </entry>
+         <entry>
+            <key>EventStateType--TSet--DEFAULT</key>
+            <value>DEFAULT-Set-EventStateType-Dot-DomainTSDemo-Dot-BasicBoolean-Dot-Boolean-Dot-boolValue</value>
+         </entry>
+      </TestSetHeader>
+      <verbosCompileDefault>false</verbosCompileDefault>
+      <verbosCompile>false</verbosCompile>
+   </ServiceTestSets>
+   <LogString></LogString>
+   <errorVarcase>false</errorVarcase>
+   <LogVarcase>DataType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-z-->CUSTOM-Set-DataType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-z [ NoTouch ] 
+DataType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-z-->CUSTOM-Set-DataType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-z [ NoTouch ] 
+DataType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-x-->CUSTOM-Set-DataType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-x [ NoTouch ] 
+DataType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-x-->CUSTOM-Set-DataType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-x [ NoTouch ] 
+DataType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-y-->CUSTOM-Set-DataType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-y [ NoTouch ] 
+DataType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-y-->CUSTOM-Set-DataType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-y [ NoTouch ] 
+DataType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-z-->DEFAULT-Set-DataType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-z [ NoTouch ] 
+DataType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-z-->DEFAULT-Set-DataType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-z [ NoTouch ] 
+DataType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-x-->DEFAULT-Set-DataType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-x [ NoTouch ] 
+DataType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-x-->DEFAULT-Set-DataType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-x [ NoTouch ] 
+DataType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-y-->DEFAULT-Set-DataType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-y [ NoTouch ] 
+DataType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-y-->DEFAULT-Set-DataType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-y [ NoTouch ] 
+DataType-Dot-DomainTSDemo-Dot-Coordinate2D-Dot-Double-Dot-x-->CUSTOM-Set-DataType-Dot-DomainTSDemo-Dot-Coordinate2D-Dot-Double-Dot-x [ NoTouch ] 
+DataType-Dot-DomainTSDemo-Dot-Coordinate2D-Dot-Double-Dot-x-->CUSTOM-Set-DataType-Dot-DomainTSDemo-Dot-Coordinate2D-Dot-Double-Dot-x [ NoTouch ] 
+DataType-Dot-DomainTSDemo-Dot-Coordinate2D-Dot-Double-Dot-y-->CUSTOM-Set-DataType-Dot-DomainTSDemo-Dot-Coordinate2D-Dot-Double-Dot-y [ NoTouch ] 
+DataType-Dot-DomainTSDemo-Dot-Coordinate2D-Dot-Double-Dot-y-->CUSTOM-Set-DataType-Dot-DomainTSDemo-Dot-Coordinate2D-Dot-Double-Dot-y [ NoTouch ] 
+DataType-Dot-DomainTSDemo-Dot-Coordinate2D-Dot-Double-Dot-x-->DEFAULT-Set-DataType-Dot-DomainTSDemo-Dot-Coordinate2D-Dot-Double-Dot-x [ NoTouch ] 
+DataType-Dot-DomainTSDemo-Dot-Coordinate2D-Dot-Double-Dot-x-->DEFAULT-Set-DataType-Dot-DomainTSDemo-Dot-Coordinate2D-Dot-Double-Dot-x [ NoTouch ] 
+DataType-Dot-DomainTSDemo-Dot-Coordinate2D-Dot-Double-Dot-y-->DEFAULT-Set-DataType-Dot-DomainTSDemo-Dot-Coordinate2D-Dot-Double-Dot-y [ NoTouch ] 
+DataType-Dot-DomainTSDemo-Dot-Coordinate2D-Dot-Double-Dot-y-->DEFAULT-Set-DataType-Dot-DomainTSDemo-Dot-Coordinate2D-Dot-Double-Dot-y [ NoTouch ] 
+RequestType-Dot-DomainTSDemo-Dot-Coordinate2D-Dot-Double-Dot-y-->CUSTOM-Set-RequestType-Dot-DomainTSDemo-Dot-Coordinate2D-Dot-Double-Dot-y [ NoTouch ] 
+RequestType-Dot-DomainTSDemo-Dot-Coordinate2D-Dot-Double-Dot-y-->CUSTOM-Set-RequestType-Dot-DomainTSDemo-Dot-Coordinate2D-Dot-Double-Dot-y [ NoTouch ] 
+RequestType-Dot-DomainTSDemo-Dot-Coordinate2D-Dot-Double-Dot-x-->CUSTOM-Set-RequestType-Dot-DomainTSDemo-Dot-Coordinate2D-Dot-Double-Dot-x [ NoTouch ] 
+RequestType-Dot-DomainTSDemo-Dot-Coordinate2D-Dot-Double-Dot-x-->CUSTOM-Set-RequestType-Dot-DomainTSDemo-Dot-Coordinate2D-Dot-Double-Dot-x [ NoTouch ] 
+RequestType-Dot-DomainTSDemo-Dot-Coordinate2D-Dot-Double-Dot-y-->DEFAULT-Set-RequestType-Dot-DomainTSDemo-Dot-Coordinate2D-Dot-Double-Dot-y [ NoTouch ] 
+RequestType-Dot-DomainTSDemo-Dot-Coordinate2D-Dot-Double-Dot-y-->DEFAULT-Set-RequestType-Dot-DomainTSDemo-Dot-Coordinate2D-Dot-Double-Dot-y [ NoTouch ] 
+RequestType-Dot-DomainTSDemo-Dot-Coordinate2D-Dot-Double-Dot-x-->DEFAULT-Set-RequestType-Dot-DomainTSDemo-Dot-Coordinate2D-Dot-Double-Dot-x [ NoTouch ] 
+RequestType-Dot-DomainTSDemo-Dot-Coordinate2D-Dot-Double-Dot-x-->DEFAULT-Set-RequestType-Dot-DomainTSDemo-Dot-Coordinate2D-Dot-Double-Dot-x [ NoTouch ] 
+AnswerType-Dot-DomainTSDemo-Dot-BasicBoolean-Dot-Boolean-Dot-boolValue-->CUSTOM-Set-AnswerType-Dot-DomainTSDemo-Dot-BasicBoolean-Dot-Boolean-Dot-boolValue [ NoTouch ] 
+AnswerType-Dot-DomainTSDemo-Dot-BasicBoolean-Dot-Boolean-Dot-boolValue-->CUSTOM-Set-AnswerType-Dot-DomainTSDemo-Dot-BasicBoolean-Dot-Boolean-Dot-boolValue [ NoTouch ] 
+AnswerType-Dot-DomainTSDemo-Dot-BasicBoolean-Dot-Boolean-Dot-boolValue-->DEFAULT-Set-AnswerType-Dot-DomainTSDemo-Dot-BasicBoolean-Dot-Boolean-Dot-boolValue [ NoTouch ] 
+AnswerType-Dot-DomainTSDemo-Dot-BasicBoolean-Dot-Boolean-Dot-boolValue-->DEFAULT-Set-AnswerType-Dot-DomainTSDemo-Dot-BasicBoolean-Dot-Boolean-Dot-boolValue [ NoTouch ] 
+RequestType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-x-->CUSTOM-Set-RequestType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-x [ NoTouch ] 
+RequestType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-x-->CUSTOM-Set-RequestType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-x [ NoTouch ] 
+RequestType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-y-->CUSTOM-Set-RequestType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-y [ NoTouch ] 
+RequestType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-y-->CUSTOM-Set-RequestType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-y [ NoTouch ] 
+RequestType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-z-->CUSTOM-Set-RequestType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-z [ NoTouch ] 
+RequestType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-z-->CUSTOM-Set-RequestType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-z [ NoTouch ] 
+RequestType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-x-->DEFAULT-Set-RequestType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-x [ NoTouch ] 
+RequestType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-x-->DEFAULT-Set-RequestType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-x [ NoTouch ] 
+RequestType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-y-->DEFAULT-Set-RequestType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-y [ NoTouch ] 
+RequestType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-y-->DEFAULT-Set-RequestType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-y [ NoTouch ] 
+RequestType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-z-->DEFAULT-Set-RequestType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-z [ NoTouch ] 
+RequestType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-z-->DEFAULT-Set-RequestType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-z [ NoTouch ] 
+AnswerType-Dot-DomainTSDemo-Dot-BasicBoolean-Dot-Boolean-Dot-boolValue-->CUSTOM-Set-AnswerType-Dot-DomainTSDemo-Dot-BasicBoolean-Dot-Boolean-Dot-boolValue [ NoTouch ] 
+AnswerType-Dot-DomainTSDemo-Dot-BasicBoolean-Dot-Boolean-Dot-boolValue-->CUSTOM-Set-AnswerType-Dot-DomainTSDemo-Dot-BasicBoolean-Dot-Boolean-Dot-boolValue [ NoTouch ] 
+AnswerType-Dot-DomainTSDemo-Dot-BasicBoolean-Dot-Boolean-Dot-boolValue-->DEFAULT-Set-AnswerType-Dot-DomainTSDemo-Dot-BasicBoolean-Dot-Boolean-Dot-boolValue [ NoTouch ] 
+AnswerType-Dot-DomainTSDemo-Dot-BasicBoolean-Dot-Boolean-Dot-boolValue-->DEFAULT-Set-AnswerType-Dot-DomainTSDemo-Dot-BasicBoolean-Dot-Boolean-Dot-boolValue [ NoTouch ] 
+ActivationType-Dot-DomainTSDemo-Dot-BasicBoolean-Dot-Boolean-Dot-boolValue-->DEFAULT-Set-ActivationType-Dot-DomainTSDemo-Dot-BasicBoolean-Dot-Boolean-Dot-boolValue [ NoTouch ] 
+ActivationType-Dot-DomainTSDemo-Dot-BasicBoolean-Dot-Boolean-Dot-boolValue-->DEFAULT-Set-ActivationType-Dot-DomainTSDemo-Dot-BasicBoolean-Dot-Boolean-Dot-boolValue [ NoTouch ] 
+EventType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-x-->CUSTOM-Set-EventType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-x [ NoTouch ] 
+EventType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-x-->CUSTOM-Set-EventType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-x [ NoTouch ] 
+EventType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-y-->CUSTOM-Set-EventType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-y [ NoTouch ] 
+EventType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-y-->CUSTOM-Set-EventType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-y [ NoTouch ] 
+EventType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-z-->CUSTOM-Set-EventType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-z [ NoTouch ] 
+EventType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-z-->CUSTOM-Set-EventType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-z [ NoTouch ] 
+EventStateType-Dot-DomainTSDemo-Dot-BasicBoolean-Dot-Boolean-Dot-boolValue-->CUSTOM-Set-EventStateType-Dot-DomainTSDemo-Dot-BasicBoolean-Dot-Boolean-Dot-boolValue [ NoTouch ] 
+EventStateType-Dot-DomainTSDemo-Dot-BasicBoolean-Dot-Boolean-Dot-boolValue-->CUSTOM-Set-EventStateType-Dot-DomainTSDemo-Dot-BasicBoolean-Dot-Boolean-Dot-boolValue [ NoTouch ] 
+EventType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-x-->DEFAULT-Set-EventType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-x [ NoTouch ] 
+EventType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-x-->DEFAULT-Set-EventType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-x [ NoTouch ] 
+EventType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-y-->DEFAULT-Set-EventType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-y [ NoTouch ] 
+EventType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-y-->DEFAULT-Set-EventType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-y [ NoTouch ] 
+EventType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-z-->DEFAULT-Set-EventType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-z [ NoTouch ] 
+EventType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-z-->DEFAULT-Set-EventType-Dot-DomainTSDemo-Dot-Coordinate3D-Dot-Double-Dot-z [ NoTouch ] 
+ActivationType-Dot-DomainTSDemo-Dot-BasicBoolean-Dot-Boolean-Dot-boolValue-->CUSTOM-Set-ActivationType-Dot-DomainTSDemo-Dot-BasicBoolean-Dot-Boolean-Dot-boolValue [ NoTouch ] 
+ActivationType-Dot-DomainTSDemo-Dot-BasicBoolean-Dot-Boolean-Dot-boolValue-->CUSTOM-Set-ActivationType-Dot-DomainTSDemo-Dot-BasicBoolean-Dot-Boolean-Dot-boolValue [ NoTouch ] 
+EventStateType-Dot-DomainTSDemo-Dot-BasicBoolean-Dot-Boolean-Dot-boolValue-->DEFAULT-Set-EventStateType-Dot-DomainTSDemo-Dot-BasicBoolean-Dot-Boolean-Dot-boolValue [ NoTouch ] 
+EventStateType-Dot-DomainTSDemo-Dot-BasicBoolean-Dot-Boolean-Dot-boolValue-->DEFAULT-Set-EventStateType-Dot-DomainTSDemo-Dot-BasicBoolean-Dot-Boolean-Dot-boolValue [ NoTouch ] 
+</LogVarcase>
+   <ErrorLogVarcase></ErrorLogVarcase>
+   <verbosTestSetBuilderDefault>false</verbosTestSetBuilderDefault>
+   <verbosTestSetBuilder>false</verbosTestSetBuilder>
+</ServiceRepositoryTestSetContainer>

@@ -1,0 +1,5 @@
+|  |——Enumeration   : <NavigationPartType> {
+|  |  |——0 : GRID_BASED_FREE_NAV
+|  |  |——1 : CORRIDOR_BASED_COORDINATED_NAV
+|  |  |——2 : GRID_BASED_COORDINATED_NAV
+|  | }

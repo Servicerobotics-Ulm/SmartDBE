@@ -1,0 +1,5 @@
+|  |——CommObject    : <CommNavigationVelocity> {
+|  |  |——Double     : <vX>
+|  |  |——Double     : <vY>
+|  |  |——Double     : <omega>
+|  | }

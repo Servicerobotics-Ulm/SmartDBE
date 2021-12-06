@@ -1,0 +1,19 @@
+TestEntityName,CommNavigationObjects-ts-DockingEventType-ts-Enum_DockingEventType
+0,DOCKING_UNKNOWN
+1,DOCKING_DONE
+2,DOCKING_NOT_DONE
+3,DOCKING_ERROR
+4,UN_DOCKING_NOT_DONE
+5,UN_DOCKING_DONE
+6,UN_DOCKING_ERROR
+<<IS ENUM>>
+
+<<TS_DATA>
+0,<<WIKI>,Test for identifier DOCKING_UNKNOWN,<WIKI>>
+1,<<WIKI>,Test for identifier DOCKING_DONE,<WIKI>>
+2,<<WIKI>,Test for identifier DOCKING_NOT_DONE,<WIKI>>
+3,<<WIKI>,Test for identifier DOCKING_ERROR,<WIKI>>
+4,<<WIKI>,Test for identifier UN_DOCKING_NOT_DONE,<WIKI>>
+5,<<WIKI>,Test for identifier UN_DOCKING_DONE,<WIKI>>
+6,<<WIKI>,Test for identifier UN_DOCKING_ERROR,<WIKI>>
+<TS_DATA>>

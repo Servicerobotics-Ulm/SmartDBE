@@ -1,0 +1,9 @@
+RequestAnswerServiceDefinition Service: [NavigationTimeRequest] Pattern: QueryPattern {
+RequestType    :CommNavigationObjects.CommNavigationTimeRequest
+|——    : <> {
+| }
+
+AnswerType     :CommNavigationObjects.CommNavigationTimeResponse
+|——    : <> {
+| }
+}

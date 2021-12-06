@@ -1,0 +1,10 @@
+|  |——CommObject    : <CommDevicePoseState> {
+|  |  |——[Local]CommBaseState    : <stateBase> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]CommPose3d    : <devicePose> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }

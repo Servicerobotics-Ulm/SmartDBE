@@ -1,0 +1,14 @@
+|  |——CommObject    : <NestedImport> {
+|  |  |——[Local]Coordinate3D    : <a> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]Coordinate3DPlus    : <aa> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Imported]CommNavigationObjects.CommClosestNodeRequest    : <aaa> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }

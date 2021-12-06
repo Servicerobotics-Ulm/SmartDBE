@@ -1,0 +1,1 @@
+CoordinationServiceDefinition Service: [WebInterfaceCoordinationService] Pattern: NotAssigned { Not One Of The Currently Handled Service Patterns }

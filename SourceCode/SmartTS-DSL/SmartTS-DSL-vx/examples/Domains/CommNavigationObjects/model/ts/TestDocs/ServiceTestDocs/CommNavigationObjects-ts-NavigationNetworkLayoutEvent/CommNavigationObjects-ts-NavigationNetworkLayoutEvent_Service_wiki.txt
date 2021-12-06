@@ -1,0 +1,13 @@
+ForkingServiceDefinition Service: [NavigationNetworkLayoutEvent] Pattern: EventPattern {
+EventType      :CommNavigationObjects.CommCorridorNetworkLayout
+|——    : <> {
+| }
+
+ActivationType :CommBasicObjects.CommVoid
+|——    : <> {
+| }
+
+EventStateType :CommNavigationObjects.CommCorridorNetworkLayout
+|——    : <> {
+| }
+}

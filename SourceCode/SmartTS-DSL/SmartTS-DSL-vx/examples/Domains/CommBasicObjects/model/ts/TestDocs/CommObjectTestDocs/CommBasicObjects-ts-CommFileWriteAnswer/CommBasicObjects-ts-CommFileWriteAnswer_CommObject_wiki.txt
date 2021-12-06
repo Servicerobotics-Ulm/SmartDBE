@@ -1,0 +1,3 @@
+|  |——CommObject    : <CommFileWriteAnswer> {
+|  |  |——Boolean     : <success>
+|  | }

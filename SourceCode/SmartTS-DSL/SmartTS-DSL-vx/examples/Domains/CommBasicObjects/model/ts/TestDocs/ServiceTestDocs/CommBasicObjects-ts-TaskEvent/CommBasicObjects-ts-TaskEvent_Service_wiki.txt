@@ -1,0 +1,13 @@
+ForkingServiceDefinition Service: [TaskEvent] Pattern: EventPattern {
+EventType      :CommBasicObjects.CommTaskMessage
+|——    : <> {
+| }
+
+ActivationType :CommBasicObjects.CommTaskMessage
+|——    : <> {
+| }
+
+EventStateType :CommBasicObjects.CommTaskEventState
+|——    : <> {
+| }
+}

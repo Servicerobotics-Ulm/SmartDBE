@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            categoryId="org.SmartTS.ui.commands"
+            name="Form Import Test Set"
+            id="org.SmartTS.DSL.formImportTestSet.commands.FormImportTestSet">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.handlers">
+      <handler
+            class="org.smartts.dsl.formimporttestset.handlers.FormImportTestSetHandler"
+            commandId="org.SmartTS.DSL.formImportTestSet.commands.FormImportTestSet">
+      </handler>
+   </extension>
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            locationURI="toolbar:org.eclipse.ui.main.toolbar?after=additions">
+         <toolbar
+               id="org.SmartTS.DSL.formImportTestSet.toolbars.Main">
+            <command
+                  commandId="org.SmartTS.DSL.formImportTestSet.commands.FormImportTestSet"
+                  icon="icons/SmartTSicon_ImportData.png"
+                  label="Import Data Set"
+                  tooltip="Import Test Set">
+            </command>
+         </toolbar>
+      </menuContribution>
+   </extension>
+
+</plugin>

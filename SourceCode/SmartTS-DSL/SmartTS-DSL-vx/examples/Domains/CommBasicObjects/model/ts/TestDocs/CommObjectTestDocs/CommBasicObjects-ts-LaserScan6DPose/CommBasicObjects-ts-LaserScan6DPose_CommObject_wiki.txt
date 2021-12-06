@@ -1,0 +1,10 @@
+|  |——CommObject    : <LaserScan6DPose> {
+|  |  |——[Local]CommLaserScan    : <laser_scan> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]CommPose3d    : <sensor_pose> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }

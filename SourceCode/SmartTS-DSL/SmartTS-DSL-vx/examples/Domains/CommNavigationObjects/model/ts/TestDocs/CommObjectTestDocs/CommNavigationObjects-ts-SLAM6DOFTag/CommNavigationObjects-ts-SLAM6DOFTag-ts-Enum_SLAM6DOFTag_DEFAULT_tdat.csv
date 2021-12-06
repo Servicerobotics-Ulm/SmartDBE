@@ -1,0 +1,11 @@
+TestEntityName,CommNavigationObjects-ts-SLAM6DOFTag-ts-Enum_SLAM6DOFTag
+0,INITALPOSE_6DOF
+1,SLAM_MODE
+2,POSETRACKING_MODE
+<<IS ENUM>>
+
+<<TS_DATA>
+0,<<WIKI>,Test for identifier INITALPOSE_6DOF,<WIKI>>
+1,<<WIKI>,Test for identifier SLAM_MODE,<WIKI>>
+2,<<WIKI>,Test for identifier POSETRACKING_MODE,<WIKI>>
+<TS_DATA>>

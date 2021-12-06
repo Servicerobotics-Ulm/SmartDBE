@@ -1,0 +1,13 @@
+ForkingServiceDefinition Service: [CorridorNavigationGoalEvent] Pattern: EventPattern {
+EventType      :CommNavigationObjects.CommCorridorNavigationGoalEventResult
+|——    : <> {
+| }
+
+ActivationType :CommNavigationObjects.CommCorridorNavigationGoalEventParameter
+|——    : <> {
+| }
+
+EventStateType :CommNavigationObjects.CommCorridorNavigationGoalEventState
+|——    : <> {
+| }
+}

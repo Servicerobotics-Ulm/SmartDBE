@@ -1,0 +1,13 @@
+|  |——CommObject    : <CommCorridorNavigationGoal> {
+|  |  |——Int32     : <goalID>
+|  |  |——[Local]CommNavigationPaths    : <paths> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——Double     : <goalX>
+|  |  |——Double     : <goalY>
+|  |  |——Int32     : <goal_id>
+|  |  |——Double     : <startX>
+|  |  |——Double     : <startY>
+|  |  |——Int32     : <start_id>
+|  | }

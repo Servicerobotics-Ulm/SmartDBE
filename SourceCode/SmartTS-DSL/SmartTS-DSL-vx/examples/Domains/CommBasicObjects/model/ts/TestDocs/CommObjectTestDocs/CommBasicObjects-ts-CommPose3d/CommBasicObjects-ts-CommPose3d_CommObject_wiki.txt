@@ -1,0 +1,10 @@
+|  |——CommObject    : <CommPose3d> {
+|  |  |——[Local]CommPosition3d    : <position> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]CommOrientation3d    : <orientation> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }

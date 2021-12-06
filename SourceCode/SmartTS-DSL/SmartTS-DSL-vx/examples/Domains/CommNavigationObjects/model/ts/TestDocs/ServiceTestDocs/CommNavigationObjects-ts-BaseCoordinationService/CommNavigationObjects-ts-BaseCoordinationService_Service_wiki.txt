@@ -1,0 +1,1 @@
+CoordinationServiceDefinition Service: [BaseCoordinationService] Pattern: NotAssigned { Not One Of The Currently Handled Service Patterns }

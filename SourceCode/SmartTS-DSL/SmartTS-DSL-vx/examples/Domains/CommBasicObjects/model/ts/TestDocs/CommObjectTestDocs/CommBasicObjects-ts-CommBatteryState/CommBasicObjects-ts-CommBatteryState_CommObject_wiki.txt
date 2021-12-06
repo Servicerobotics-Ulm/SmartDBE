@@ -1,0 +1,3 @@
+|  |——CommObject    : <CommBatteryState> {
+|  |  |——Double     : <chargeValue>
+|  | }

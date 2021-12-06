@@ -1,0 +1,5 @@
+|  |——Enumeration   : <FileMoverEventType> {
+|  |  |——0 : TYPE_FILE_UNKNOWN
+|  |  |——1 : TYPE_FILE_SUCCESS
+|  |  |——2 : TYPE_FILE_ERROR
+|  | }

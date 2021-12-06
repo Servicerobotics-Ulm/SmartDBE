@@ -1,0 +1,1 @@
+CoordinationServiceDefinition Service: [Seq2SeqComCoordinationService] Pattern: NotAssigned { Not One Of The Currently Handled Service Patterns }

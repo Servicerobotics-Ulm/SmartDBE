@@ -1,0 +1,13 @@
+ForkingServiceDefinition Service: [NewCoordinate3DEvent3D] Pattern: EventPattern {
+EventType      :DomainTSDemo.Coordinate3D
+|——    : <> {
+| }
+
+ActivationType :DomainTSDemo.BasicBoolean
+|——    : <> {
+| }
+
+EventStateType :DomainTSDemo.BasicBoolean
+|——    : <> {
+| }
+}

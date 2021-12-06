@@ -1,0 +1,5 @@
+ForkingServiceDefinition Service: [UltrasonicService] Pattern: PushPattern {
+DataType       :CommBasicObjects.CommMobileUltrasonicScan
+|——    : <> {
+| }
+}

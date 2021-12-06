@@ -1,0 +1,11 @@
+TestEntityName,CommBasicObjects-ts-SafetyFieldState-ts-Enum_SafetyFieldState
+0,FREE
+1,BLOCKED
+2,UNKNOWN
+<<IS ENUM>>
+
+<<TS_DATA>
+0,<<WIKI>,Test for identifier FREE,<WIKI>>
+1,<<WIKI>,Test for identifier BLOCKED,<WIKI>>
+2,<<WIKI>,Test for identifier UNKNOWN,<WIKI>>
+<TS_DATA>>

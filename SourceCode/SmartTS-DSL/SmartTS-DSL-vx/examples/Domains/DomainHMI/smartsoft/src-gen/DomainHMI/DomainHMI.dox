@@ -1,0 +1,30 @@
+/** 
+\class DomainHMI::CommTrafficLightCore
+
+Structure of Communication Object:
+- red: Boolean  = false 
+- green: Boolean  = false 
+- yellow: Boolean  = false 
+
+
+
+
+@defgroup DomainHMI
+@ingroup commObjGroup
+@{
+\page DomainHMIPage DomainHMI
+Class Reference: DomainHMI
+<hr>
+
+@section CommTrafficLight CommTrafficLight
+- red: Boolean   = false 
+- green: Boolean   = false 
+- yellow: Boolean   = false 
+
+Class Reference: DomainHMI::CommTrafficLightCore
+<hr>
+
+
+@}
+*/
+

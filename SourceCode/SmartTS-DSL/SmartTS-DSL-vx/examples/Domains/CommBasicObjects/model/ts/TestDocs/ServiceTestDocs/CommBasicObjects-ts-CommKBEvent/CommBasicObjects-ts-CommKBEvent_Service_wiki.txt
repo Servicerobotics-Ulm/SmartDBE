@@ -1,0 +1,13 @@
+ForkingServiceDefinition Service: [CommKBEvent] Pattern: EventPattern {
+EventType      :CommBasicObjects.CommKBEventResult
+|——    : <> {
+| }
+
+ActivationType :CommBasicObjects.CommKBEventParam
+|——    : <> {
+| }
+
+EventStateType :CommBasicObjects.CommVoid
+|——    : <> {
+| }
+}

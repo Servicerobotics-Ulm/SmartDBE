@@ -1,0 +1,13 @@
+TestEntityName,CommNavigationObjects-ts-NavigationNodeRequestType-ts-Enum_NavigationNodeRequestType
+0,FREENODE
+1,ACQUIRENODE
+2,FREEALLNODES
+3,FREEALLNODESBUT
+<<IS ENUM>>
+
+<<TS_DATA>
+0,<<WIKI>,Test for identifier FREENODE,<WIKI>>
+1,<<WIKI>,Test for identifier ACQUIRENODE,<WIKI>>
+2,<<WIKI>,Test for identifier FREEALLNODES,<WIKI>>
+3,<<WIKI>,Test for identifier FREEALLNODESBUT,<WIKI>>
+<TS_DATA>>

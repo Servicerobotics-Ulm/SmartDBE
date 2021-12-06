@@ -1,0 +1,17 @@
+TestEntityName,CommNavigationObjects-ts-PathNavigationEventType-ts-Enum_PathNavigationEventType
+0,GOAL_UNKNOWN
+1,START_TOO_FAR
+2,GOAL_REACHED
+3,GOAL_NOT_REACHED
+4,NO_PATH_FOUND
+5,FATAL_ERROR
+<<IS ENUM>>
+
+<<TS_DATA>
+0,<<WIKI>,Test for identifier GOAL_UNKNOWN,<WIKI>>
+1,<<WIKI>,Test for identifier START_TOO_FAR,<WIKI>>
+2,<<WIKI>,Test for identifier GOAL_REACHED,<WIKI>>
+3,<<WIKI>,Test for identifier GOAL_NOT_REACHED,<WIKI>>
+4,<<WIKI>,Test for identifier NO_PATH_FOUND,<WIKI>>
+5,<<WIKI>,Test for identifier FATAL_ERROR,<WIKI>>
+<TS_DATA>>

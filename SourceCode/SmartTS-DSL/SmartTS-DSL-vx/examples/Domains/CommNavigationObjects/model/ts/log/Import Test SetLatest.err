@@ -1,0 +1,31 @@
+SmartTS | Import Test Set | handleDomainProject | Report | XXXX Error : One or more builder errors.
+————————————————————————————————————————————————————————————————————————————————Builder Error Log
+SmartTS | 
+————————————————————————————————————————————————————————————————————————————————Builder Error Log END
+SmartTS | Import Test Set | handleDomainProject | Report | XXXX Warning : One or more warnings.
+————————————————————————————————————————————————————————————————————————————————Warning Log
+SmartTS | Import Test Set | handleDomainProject | Checking Services Test Data | CommNavigationObjects-ts-BaseCoordinationService | TestData  [Not Added]  <---!! 
+SmartTS | Test Data -Compile-> Test Set | CommNavigationObjects-ts-BaseCoordinationService_tdat.csv | XXXX  WARNING Service is NOT-OneOfTheCurrentlyHandledServicePattern
+Test Data -Compile-> Test Set | CommNavigationObjects-ts-BaseCoordinationService_tdat.csv | | XXXX NOT-OneOfTheCurrentlyHandledServicePattern | isValid 
+SmartTS | Import Test Set | handleDomainProject | Checking Services Test Data | CommNavigationObjects-ts-CdlCoordinationService | TestData  [Not Added]  <---!! 
+SmartTS | Test Data -Compile-> Test Set | CommNavigationObjects-ts-CdlCoordinationService_tdat.csv | XXXX  WARNING Service is NOT-OneOfTheCurrentlyHandledServicePattern
+Test Data -Compile-> Test Set | CommNavigationObjects-ts-CdlCoordinationService_tdat.csv | | XXXX NOT-OneOfTheCurrentlyHandledServicePattern | isValid 
+SmartTS | Import Test Set | handleDomainProject | Checking Services Test Data | CommNavigationObjects-ts-MapperCoordinationService | TestData  [Not Added]  <---!! 
+SmartTS | Test Data -Compile-> Test Set | CommNavigationObjects-ts-MapperCoordinationService_tdat.csv | XXXX  WARNING Service is NOT-OneOfTheCurrentlyHandledServicePattern
+Test Data -Compile-> Test Set | CommNavigationObjects-ts-MapperCoordinationService_tdat.csv | | XXXX NOT-OneOfTheCurrentlyHandledServicePattern | isValid 
+SmartTS | Import Test Set | handleDomainProject | Checking Services Test Data | CommNavigationObjects-ts-PlannerCoordinationService | TestData  [Not Added]  <---!! 
+SmartTS | Test Data -Compile-> Test Set | CommNavigationObjects-ts-PlannerCoordinationService_tdat.csv | XXXX  WARNING Service is NOT-OneOfTheCurrentlyHandledServicePattern
+Test Data -Compile-> Test Set | CommNavigationObjects-ts-PlannerCoordinationService_tdat.csv | | XXXX NOT-OneOfTheCurrentlyHandledServicePattern | isValid 
+SmartTS | Import Test Set | handleDomainProject | Checking Services Test Data | CommNavigationObjects-ts-RobotDockingCoordinationService | TestData  [Not Added]  <---!! 
+SmartTS | Test Data -Compile-> Test Set | CommNavigationObjects-ts-RobotDockingCoordinationService_tdat.csv | XXXX  WARNING Service is NOT-OneOfTheCurrentlyHandledServicePattern
+Test Data -Compile-> Test Set | CommNavigationObjects-ts-RobotDockingCoordinationService_tdat.csv | | XXXX NOT-OneOfTheCurrentlyHandledServicePattern | isValid 
+SmartTS | Import Test Set | handleDomainProject | Checking Services Test Data | CommNavigationObjects-ts-CorridorNavigationServerCoordinationService | TestData  [Not Added]  <---!! 
+SmartTS | Test Data -Compile-> Test Set | CommNavigationObjects-ts-CorridorNavigationServerCoordinationService_tdat.csv | XXXX  WARNING Service is NOT-OneOfTheCurrentlyHandledServicePattern
+Test Data -Compile-> Test Set | CommNavigationObjects-ts-CorridorNavigationServerCoordinationService_tdat.csv | | XXXX NOT-OneOfTheCurrentlyHandledServicePattern | isValid 
+SmartTS | Import Test Set | handleDomainProject | Checking Services Test Data | CommNavigationObjects-ts-CorridorNavigationClientCoordinationService | TestData  [Not Added]  <---!! 
+SmartTS | Test Data -Compile-> Test Set | CommNavigationObjects-ts-CorridorNavigationClientCoordinationService_tdat.csv | XXXX  WARNING Service is NOT-OneOfTheCurrentlyHandledServicePattern
+Test Data -Compile-> Test Set | CommNavigationObjects-ts-CorridorNavigationClientCoordinationService_tdat.csv | | XXXX NOT-OneOfTheCurrentlyHandledServicePattern | isValid 
+SmartTS | Import Test Set | handleDomainProject | Checking Services Test Data | CommNavigationObjects-ts-PurePursuitNavigationCoordinationService | TestData  [Not Added]  <---!! 
+SmartTS | Test Data -Compile-> Test Set | CommNavigationObjects-ts-PurePursuitNavigationCoordinationService_tdat.csv | XXXX  WARNING Service is NOT-OneOfTheCurrentlyHandledServicePattern
+Test Data -Compile-> Test Set | CommNavigationObjects-ts-PurePursuitNavigationCoordinationService_tdat.csv | | XXXX NOT-OneOfTheCurrentlyHandledServicePattern | isValid 
+————————————————————————————————————————————————————————————————————————————————Warning Log END

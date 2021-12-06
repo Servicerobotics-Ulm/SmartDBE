@@ -1,0 +1,15 @@
+TestEntityName,CommBasicObjects-ts-SequnecerHLInterfaceSend
+Service Name,SequnecerHLInterfaceSend
+Service Type,JoiningServiceDefinition
+Service Pattern,SendPattern
+IS-OneOfTheCurrentlyHandledServicePattern,true
+
+<<TS_DATA>,<<DataType>>
+CommBasicObjects,CommSkillMsg,TS_BUILDER_PERMUTE,DEFAULT,DS_ON
+CommBasicObjects,CommSkillMsg,TS_BUILDER_ONCE,CUSTOM,DS_ON
+<TS_DATA>>
+
+
+
+
+<<WIKI>User can add a new seed (e.g. CUSTOMX) in any of the test data sets.<WIKI>>

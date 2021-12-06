@@ -1,0 +1,3 @@
+|  |——CommObject    : <CommVoid> {
+|  |  |——Int32     : <dummy>
+|  | }

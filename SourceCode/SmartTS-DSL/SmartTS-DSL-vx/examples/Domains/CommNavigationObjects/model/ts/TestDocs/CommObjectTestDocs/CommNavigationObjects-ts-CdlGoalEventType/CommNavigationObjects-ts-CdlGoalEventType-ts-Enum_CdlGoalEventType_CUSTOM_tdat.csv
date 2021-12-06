@@ -1,0 +1,11 @@
+TestEntityName,CommNavigationObjects-ts-CdlGoalEventType-ts-Enum_CdlGoalEventType
+0,CDL_GOAL_UNKNOWN
+1,CDL_GOAL_REACHED
+2,CDL_GOAL_NOT_REACHED
+<<IS ENUM>>
+
+<<TS_DATA>
+0,<<WIKI>,Test for identifier CDL_GOAL_UNKNOWN,<WIKI>>
+1,<<WIKI>,Test for identifier CDL_GOAL_REACHED,<WIKI>>
+2,<<WIKI>,Test for identifier CDL_GOAL_NOT_REACHED,<WIKI>>
+<TS_DATA>>

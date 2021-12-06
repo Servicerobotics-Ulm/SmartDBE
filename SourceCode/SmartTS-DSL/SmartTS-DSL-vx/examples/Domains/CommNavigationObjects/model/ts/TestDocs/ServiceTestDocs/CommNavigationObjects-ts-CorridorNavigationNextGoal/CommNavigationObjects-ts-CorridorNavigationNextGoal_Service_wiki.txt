@@ -1,0 +1,5 @@
+ForkingServiceDefinition Service: [CorridorNavigationNextGoal] Pattern: PushPattern {
+DataType       :CommNavigationObjects.CommCorridorNavigationGoal
+|——    : <> {
+| }
+}

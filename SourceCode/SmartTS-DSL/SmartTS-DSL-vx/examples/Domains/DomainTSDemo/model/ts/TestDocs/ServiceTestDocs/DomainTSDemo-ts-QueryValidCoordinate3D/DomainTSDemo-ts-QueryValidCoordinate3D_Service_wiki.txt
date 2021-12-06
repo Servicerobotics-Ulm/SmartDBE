@@ -1,0 +1,9 @@
+RequestAnswerServiceDefinition Service: [QueryValidCoordinate3D] Pattern: QueryPattern {
+RequestType    :DomainTSDemo.Coordinate3D
+|——    : <> {
+| }
+
+AnswerType     :DomainTSDemo.BasicBoolean
+|——    : <> {
+| }
+}

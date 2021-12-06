@@ -1,0 +1,9 @@
+RequestAnswerServiceDefinition Service: [CorridorNavigationClosestNodeQuery] Pattern: QueryPattern {
+RequestType    :CommNavigationObjects.CommClosestNodeRequest
+|——    : <> {
+| }
+
+AnswerType     :CommNavigationObjects.CommClosestNodeAnswer
+|——    : <> {
+| }
+}

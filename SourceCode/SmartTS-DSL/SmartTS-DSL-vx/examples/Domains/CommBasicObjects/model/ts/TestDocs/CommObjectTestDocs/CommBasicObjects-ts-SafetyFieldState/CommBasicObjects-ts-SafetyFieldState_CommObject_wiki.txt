@@ -1,0 +1,5 @@
+|  |——Enumeration   : <SafetyFieldState> {
+|  |  |——0 : FREE
+|  |  |——1 : BLOCKED
+|  |  |——2 : UNKNOWN
+|  | }

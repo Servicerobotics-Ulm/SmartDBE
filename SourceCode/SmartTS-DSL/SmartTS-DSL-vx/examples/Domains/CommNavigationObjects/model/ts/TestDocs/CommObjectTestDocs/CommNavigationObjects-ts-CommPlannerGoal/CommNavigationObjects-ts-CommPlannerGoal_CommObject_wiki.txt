@@ -1,0 +1,10 @@
+|  |——CommObject    : <CommPlannerGoal> {
+|  |  |——Int32     : <id>
+|  |  |——Int32     : <flag>
+|  |  |——Double     : <xWayPoint>
+|  |  |——Double     : <yWayPoint>
+|  |  |——Double     : <hWayPoint>
+|  |  |——Double     : <xGoalPoint>
+|  |  |——Double     : <yGoalPoint>
+|  |  |——Double     : <hGoalPoint>
+|  | }

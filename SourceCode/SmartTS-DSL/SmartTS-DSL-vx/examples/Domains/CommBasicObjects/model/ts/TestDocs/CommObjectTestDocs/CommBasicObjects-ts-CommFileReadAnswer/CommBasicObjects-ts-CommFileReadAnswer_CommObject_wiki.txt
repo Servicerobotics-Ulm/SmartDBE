@@ -1,0 +1,7 @@
+|  |——CommObject    : <CommFileReadAnswer> {
+|  |  |——Boolean     : <success>
+|  |  |——[Local]CommDataFiles    : <file> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }

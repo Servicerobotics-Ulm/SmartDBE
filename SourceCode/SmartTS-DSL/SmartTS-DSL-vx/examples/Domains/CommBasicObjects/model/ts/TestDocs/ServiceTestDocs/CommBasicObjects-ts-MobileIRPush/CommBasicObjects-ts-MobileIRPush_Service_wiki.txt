@@ -1,0 +1,5 @@
+ForkingServiceDefinition Service: [MobileIRPush] Pattern: PushPattern {
+DataType       :CommBasicObjects.CommMobileIRScan
+|——    : <> {
+| }
+}

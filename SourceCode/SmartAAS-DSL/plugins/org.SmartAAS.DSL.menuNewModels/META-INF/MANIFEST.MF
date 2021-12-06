@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: org.SmartAAS.DSL.menuNewModels
+Bundle-SymbolicName: org.SmartAAS.DSL.menuNewModels;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.smartaas.dsl.menunewmodels.Activator
+Bundle-Vendor: Servicerobotics Ulm, Germany
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.SmartAAS.DSL.Tools
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: org.SmartAAS.DSL.menuNewModels
+Bundle-ActivationPolicy: lazy
+Import-Package: org.eclipse.core.resources,
+ org.smartdbe.common.console,
+ org.smartdbe.common.define,
+ org.smartdbe.common.smartmdsdwrapper,
+ org.smartdbe.common.smartmdsdwrapper.resourcemanager,
+ org.xtext.smartaas.command.generator,
+ org.xtext.smartaas.nameplate.generator,
+ org.xtext.smartaas.sms.generator,
+ org.xtext.smartaas.technicaldata.generator

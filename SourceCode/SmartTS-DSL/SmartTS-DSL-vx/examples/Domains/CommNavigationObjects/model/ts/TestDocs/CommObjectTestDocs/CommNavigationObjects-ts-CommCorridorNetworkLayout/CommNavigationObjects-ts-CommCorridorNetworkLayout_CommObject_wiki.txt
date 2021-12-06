@@ -1,0 +1,10 @@
+|  |——CommObject    : <CommCorridorNetworkLayout> {
+|  |  |——[Local]CommCorridorNetworkStatus    : <networkStatus> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Imported]CommDataFile    : <layoutFile> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }

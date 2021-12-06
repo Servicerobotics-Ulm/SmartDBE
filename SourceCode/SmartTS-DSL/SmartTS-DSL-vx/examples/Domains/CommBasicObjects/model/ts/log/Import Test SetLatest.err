@@ -1,0 +1,40 @@
+SmartTS | Import Test Set | handleDomainProject | Report | XXXX Error : One or more builder errors.
+————————————————————————————————————————————————————————————————————————————————Builder Error Log
+SmartTS | 
+————————————————————————————————————————————————————————————————————————————————Builder Error Log END
+SmartTS | Import Test Set | handleDomainProject | Report | XXXX Warning : One or more warnings.
+————————————————————————————————————————————————————————————————————————————————Warning Log
+SmartTS | Import Test Set | handleDomainProject | Checking Services Test Data | CommBasicObjects-ts-DefaultCoordinationService | TestData  [Not Added]  <---!! 
+SmartTS | Test Data -Compile-> Test Set | CommBasicObjects-ts-DefaultCoordinationService_tdat.csv | XXXX  WARNING Service is NOT-OneOfTheCurrentlyHandledServicePattern
+Test Data -Compile-> Test Set | CommBasicObjects-ts-DefaultCoordinationService_tdat.csv | | XXXX NOT-OneOfTheCurrentlyHandledServicePattern | isValid 
+SmartTS | Import Test Set | handleDomainProject | Checking Services Test Data | CommBasicObjects-ts-WebInterfaceCoordinationService | TestData  [Not Added]  <---!! 
+SmartTS | Test Data -Compile-> Test Set | CommBasicObjects-ts-WebInterfaceCoordinationService_tdat.csv | XXXX  WARNING Service is NOT-OneOfTheCurrentlyHandledServicePattern
+Test Data -Compile-> Test Set | CommBasicObjects-ts-WebInterfaceCoordinationService_tdat.csv | | XXXX NOT-OneOfTheCurrentlyHandledServicePattern | isValid 
+SmartTS | Import Test Set | handleDomainProject | Checking Services Test Data | CommBasicObjects-ts-KBCoordinationService | TestData  [Not Added]  <---!! 
+SmartTS | Test Data -Compile-> Test Set | CommBasicObjects-ts-KBCoordinationService_tdat.csv | XXXX  WARNING Service is NOT-OneOfTheCurrentlyHandledServicePattern
+Test Data -Compile-> Test Set | CommBasicObjects-ts-KBCoordinationService_tdat.csv | | XXXX NOT-OneOfTheCurrentlyHandledServicePattern | isValid 
+SmartTS | Import Test Set | handleDomainProject | Checking Services Test Data | CommBasicObjects-ts-LaserFromRGBDCoordinationService | TestData  [Not Added]  <---!! 
+SmartTS | Test Data -Compile-> Test Set | CommBasicObjects-ts-LaserFromRGBDCoordinationService_tdat.csv | XXXX  WARNING Service is NOT-OneOfTheCurrentlyHandledServicePattern
+Test Data -Compile-> Test Set | CommBasicObjects-ts-LaserFromRGBDCoordinationService_tdat.csv | | XXXX NOT-OneOfTheCurrentlyHandledServicePattern | isValid 
+SmartTS | Import Test Set | handleDomainProject | Checking Services Test Data | CommBasicObjects-ts-VisualizationCoordinationService | TestData  [Not Added]  <---!! 
+SmartTS | Test Data -Compile-> Test Set | CommBasicObjects-ts-VisualizationCoordinationService_tdat.csv | XXXX  WARNING Service is NOT-OneOfTheCurrentlyHandledServicePattern
+Test Data -Compile-> Test Set | CommBasicObjects-ts-VisualizationCoordinationService_tdat.csv | | XXXX NOT-OneOfTheCurrentlyHandledServicePattern | isValid 
+SmartTS | Import Test Set | handleDomainProject | Checking Services Test Data | CommBasicObjects-ts-SequencerHLCoordinationServer | TestData  [Not Added]  <---!! 
+SmartTS | Test Data -Compile-> Test Set | CommBasicObjects-ts-SequencerHLCoordinationServer_tdat.csv | XXXX  WARNING Service is NOT-OneOfTheCurrentlyHandledServicePattern
+Test Data -Compile-> Test Set | CommBasicObjects-ts-SequencerHLCoordinationServer_tdat.csv | | XXXX NOT-OneOfTheCurrentlyHandledServicePattern | isValid 
+SmartTS | Import Test Set | handleDomainProject | Checking Services Test Data | CommBasicObjects-ts-IRComponentCoordinationService | TestData  [Not Added]  <---!! 
+SmartTS | Test Data -Compile-> Test Set | CommBasicObjects-ts-IRComponentCoordinationService_tdat.csv | XXXX  WARNING Service is NOT-OneOfTheCurrentlyHandledServicePattern
+Test Data -Compile-> Test Set | CommBasicObjects-ts-IRComponentCoordinationService_tdat.csv | | XXXX NOT-OneOfTheCurrentlyHandledServicePattern | isValid 
+SmartTS | Import Test Set | handleDomainProject | Checking Services Test Data | CommBasicObjects-ts-Seq2SeqComCoordinationService | TestData  [Not Added]  <---!! 
+SmartTS | Test Data -Compile-> Test Set | CommBasicObjects-ts-Seq2SeqComCoordinationService_tdat.csv | XXXX  WARNING Service is NOT-OneOfTheCurrentlyHandledServicePattern
+Test Data -Compile-> Test Set | CommBasicObjects-ts-Seq2SeqComCoordinationService_tdat.csv | | XXXX NOT-OneOfTheCurrentlyHandledServicePattern | isValid 
+SmartTS | Import Test Set | handleDomainProject | Checking Services Test Data | CommBasicObjects-ts-FileOperationsCoordinationService | TestData  [Not Added]  <---!! 
+SmartTS | Test Data -Compile-> Test Set | CommBasicObjects-ts-FileOperationsCoordinationService_tdat.csv | XXXX  WARNING Service is NOT-OneOfTheCurrentlyHandledServicePattern
+Test Data -Compile-> Test Set | CommBasicObjects-ts-FileOperationsCoordinationService_tdat.csv | | XXXX NOT-OneOfTheCurrentlyHandledServicePattern | isValid 
+SmartTS | Import Test Set | handleDomainProject | Checking Services Test Data | CommBasicObjects-ts-IOQueryCoordinationService | TestData  [Not Added]  <---!! 
+SmartTS | Test Data -Compile-> Test Set | CommBasicObjects-ts-IOQueryCoordinationService_tdat.csv | XXXX  WARNING Service is NOT-OneOfTheCurrentlyHandledServicePattern
+Test Data -Compile-> Test Set | CommBasicObjects-ts-IOQueryCoordinationService_tdat.csv | | XXXX NOT-OneOfTheCurrentlyHandledServicePattern | isValid 
+SmartTS | Import Test Set | handleDomainProject | Checking Services Test Data | CommBasicObjects-ts-LaserSafetyCoordinationService | TestData  [Not Added]  <---!! 
+SmartTS | Test Data -Compile-> Test Set | CommBasicObjects-ts-LaserSafetyCoordinationService_tdat.csv | XXXX  WARNING Service is NOT-OneOfTheCurrentlyHandledServicePattern
+Test Data -Compile-> Test Set | CommBasicObjects-ts-LaserSafetyCoordinationService_tdat.csv | | XXXX NOT-OneOfTheCurrentlyHandledServicePattern | isValid 
+————————————————————————————————————————————————————————————————————————————————Warning Log END

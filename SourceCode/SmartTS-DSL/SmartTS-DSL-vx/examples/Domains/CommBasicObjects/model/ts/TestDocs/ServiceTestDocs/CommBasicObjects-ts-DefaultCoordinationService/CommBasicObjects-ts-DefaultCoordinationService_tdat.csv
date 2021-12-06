@@ -1,0 +1,13 @@
+TestEntityName,CommBasicObjects-ts-DefaultCoordinationService
+Service Name,DefaultCoordinationService
+Service Type,CoordinationServiceDefinition
+Service Pattern,NotAssigned
+IS-OneOfTheCurrentlyHandledServicePattern,false
+
+<<TS_DATA>,<<ERROR_NO_DATA_FOUND>>
+ERROR_NO_DATA_FOUND<TS_DATA>>
+
+
+
+
+<<WIKI>User can add a new seed (e.g. CUSTOMX) in any of the test data sets.<WIKI>>

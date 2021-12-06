@@ -1,0 +1,5 @@
+|  |——Enumeration   : <SLAM6DOFTag> {
+|  |  |——0 : INITALPOSE_6DOF
+|  |  |——1 : SLAM_MODE
+|  |  |——2 : POSETRACKING_MODE
+|  | }

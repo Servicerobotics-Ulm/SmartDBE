@@ -1,0 +1,6 @@
+|  |——CommObject    : <CommCorridorNavigationGoalEventParameter> {
+|  |  |——[Local]PathNavigationEventType    : <oldState> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }

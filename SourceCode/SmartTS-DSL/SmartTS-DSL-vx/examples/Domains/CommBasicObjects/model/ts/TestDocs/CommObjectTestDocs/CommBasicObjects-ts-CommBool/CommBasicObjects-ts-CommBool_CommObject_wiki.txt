@@ -1,0 +1,3 @@
+|  |——CommObject    : <CommBool> {
+|  |  |——Boolean     : <boolValue>
+|  | }

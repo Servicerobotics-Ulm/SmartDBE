@@ -1,0 +1,11 @@
+TestEntityName,CommBasicObjects-ts-FileMoverEventType-ts-Enum_FileMoverEventType
+0,TYPE_FILE_UNKNOWN
+1,TYPE_FILE_SUCCESS
+2,TYPE_FILE_ERROR
+<<IS ENUM>>
+
+<<TS_DATA>
+0,<<WIKI>,Test for identifier TYPE_FILE_UNKNOWN,<WIKI>>
+1,<<WIKI>,Test for identifier TYPE_FILE_SUCCESS,<WIKI>>
+2,<<WIKI>,Test for identifier TYPE_FILE_ERROR,<WIKI>>
+<TS_DATA>>

@@ -1,0 +1,28 @@
+ServiceDefRepository DomainTSDemo version 1 . 0
+{
+	ForkingServiceDefinition PushCoordinate3D {
+		PushPattern <DataType=DomainTSDemo.Coordinate3D>
+	}	
+	JoiningServiceDefinition SendCoordinate2D{
+		SendPattern <DataType = DomainTSDemo.Coordinate2D> 
+	}	
+	RequestAnswerServiceDefinition QueryValidCoordinate2D {
+		QueryPattern < 
+			RequestType = DomainTSDemo.Coordinate2D 
+			AnswerType = DomainTSDemo.BasicBoolean 
+		>
+	}	
+	RequestAnswerServiceDefinition QueryValidCoordinate3D {
+		QueryPattern < 
+			RequestType = DomainTSDemo.Coordinate3D 
+			AnswerType = DomainTSDemo.BasicBoolean 
+		>
+	}	
+	ForkingServiceDefinition NewCoordinate3DEvent3D {
+		EventPattern < 
+			ActivationType = 	DomainTSDemo.BasicBoolean
+			EventType = 		DomainTSDemo.Coordinate3D
+			EventStateType = 	DomainTSDemo.BasicBoolean
+		>
+	}
+}

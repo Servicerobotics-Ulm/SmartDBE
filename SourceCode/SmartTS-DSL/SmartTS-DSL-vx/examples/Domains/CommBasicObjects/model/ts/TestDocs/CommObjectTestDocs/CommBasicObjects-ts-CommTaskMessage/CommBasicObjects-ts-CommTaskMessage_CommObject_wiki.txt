@@ -1,0 +1,3 @@
+|  |——CommObject    : <CommTaskMessage> {
+|  |  |——String     : <msg>
+|  | }

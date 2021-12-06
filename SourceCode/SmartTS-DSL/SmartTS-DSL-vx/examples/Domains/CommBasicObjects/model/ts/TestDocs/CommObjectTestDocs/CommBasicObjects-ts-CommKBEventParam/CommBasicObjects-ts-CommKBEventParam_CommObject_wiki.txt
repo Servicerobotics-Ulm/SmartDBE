@@ -1,0 +1,5 @@
+|  |——CommObject    : <CommKBEventParam> {
+|  |  |——String     : <query>
+|  |  |——String     : <latestState>
+|  |  |——String     : <formatingClause>
+|  | }

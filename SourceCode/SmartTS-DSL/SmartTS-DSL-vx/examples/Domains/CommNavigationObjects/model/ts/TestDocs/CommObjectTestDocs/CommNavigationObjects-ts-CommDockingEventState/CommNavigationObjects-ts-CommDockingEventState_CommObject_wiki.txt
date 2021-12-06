@@ -1,0 +1,6 @@
+|  |——CommObject    : <CommDockingEventState> {
+|  |  |——[Local]DockingEventType    : <newState> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }

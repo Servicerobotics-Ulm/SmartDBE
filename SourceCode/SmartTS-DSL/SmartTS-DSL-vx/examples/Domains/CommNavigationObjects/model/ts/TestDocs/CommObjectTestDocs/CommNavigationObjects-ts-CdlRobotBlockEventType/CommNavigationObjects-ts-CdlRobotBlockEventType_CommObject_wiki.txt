@@ -1,0 +1,7 @@
+|  |——Enumeration   : <CdlRobotBlockEventType> {
+|  |  |——0 : CDL_ROBOT_UNKNOWN
+|  |  |——1 : CDL_ROBOT_BLOCKED
+|  |  |——2 : CDL_ROBOT_NOT_BLOCKED
+|  |  |——3 : CDL_ROBOT_BLOCKED_PATH
+|  |  |——4 : CDL_ROBOT_UNBLOCKED_PATH
+|  | }

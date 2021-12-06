@@ -1,0 +1,4 @@
+|  |——CommObject    : <Coordinate2D> {
+|  |  |——Double     : <x>
+|  |  |——Double     : <y>
+|  | }

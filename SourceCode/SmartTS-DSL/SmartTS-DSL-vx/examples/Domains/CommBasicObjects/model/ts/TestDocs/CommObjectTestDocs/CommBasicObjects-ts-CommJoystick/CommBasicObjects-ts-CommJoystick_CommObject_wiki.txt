@@ -1,0 +1,7 @@
+|  |——CommObject    : <CommJoystick> {
+|  |  |——Int16     : <xpos>
+|  |  |——Int16     : <ypos>
+|  |  |——Int16     : <x2pos>
+|  |  |——Int16     : <y2pos>
+|  |  |——UInt16     : <buttons>
+|  | }

@@ -1,0 +1,6 @@
+|  |——CommObject    : <CommBumperState> {
+|  |  |——[Local]BumperStateType    : <bumperState> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }

@@ -1,0 +1,3 @@
+|  |——Enumeration   : <NavigationConnectonType> {
+|  |  |——0 : VIA_LOCATION
+|  | }

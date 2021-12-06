@@ -1,0 +1,5 @@
+ForkingServiceDefinition Service: [PushCoordinate3D] Pattern: PushPattern {
+DataType       :DomainTSDemo.Coordinate3D
+|——    : <> {
+| }
+}

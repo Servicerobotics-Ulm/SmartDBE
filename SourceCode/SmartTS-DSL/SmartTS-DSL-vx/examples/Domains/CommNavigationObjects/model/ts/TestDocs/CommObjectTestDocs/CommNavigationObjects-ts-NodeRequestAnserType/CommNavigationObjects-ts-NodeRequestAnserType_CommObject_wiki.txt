@@ -1,0 +1,6 @@
+|  |——Enumeration   : <NodeRequestAnserType> {
+|  |  |——0 : STATE_UNKNOWN
+|  |  |——1 : SUCCESS
+|  |  |——2 : FAIL
+|  |  |——3 : ERROR_NONODE
+|  | }

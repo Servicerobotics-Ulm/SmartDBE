@@ -1,0 +1,10 @@
+|  |——CommObject    : <CommLaserSafetyField> {
+|  |  |——[Local]SafetyFieldState    : <protectiveState> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]SafetyFieldState    : <warningState> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }

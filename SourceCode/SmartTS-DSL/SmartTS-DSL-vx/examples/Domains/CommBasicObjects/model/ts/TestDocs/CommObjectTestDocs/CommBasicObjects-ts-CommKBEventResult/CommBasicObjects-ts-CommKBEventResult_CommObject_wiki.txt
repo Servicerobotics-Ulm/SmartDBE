@@ -1,0 +1,4 @@
+|  |——CommObject    : <CommKBEventResult> {
+|  |  |——String     : <result>
+|  |  |——String     : <formatedResult>
+|  | }

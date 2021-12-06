@@ -1,0 +1,5 @@
+ForkingServiceDefinition Service: [JoystickService] Pattern: PushPattern {
+DataType       :CommBasicObjects.CommJoystick
+|——    : <> {
+| }
+}

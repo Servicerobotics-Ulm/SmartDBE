@@ -1,0 +1,16 @@
+|  |——CommObject    : <CommIMUData> {
+|  |  |——UInt16     : <timestamp>
+|  |  |——Double     : <temperature>
+|  |  |——Double     : <accelerometer_x>
+|  |  |——Double     : <accelerometer_y>
+|  |  |——Double     : <accelerometer_z>
+|  |  |——Double     : <gyroscope_x>
+|  |  |——Double     : <gyroscope_y>
+|  |  |——Double     : <gyroscope_z>
+|  |  |——Double     : <magnetometer_x>
+|  |  |——Double     : <magnetometer_y>
+|  |  |——Double     : <magnetometer_z>
+|  |  |——Double     : <roll>
+|  |  |——Double     : <pitch>
+|  |  |——Double     : <yaw>
+|  | }

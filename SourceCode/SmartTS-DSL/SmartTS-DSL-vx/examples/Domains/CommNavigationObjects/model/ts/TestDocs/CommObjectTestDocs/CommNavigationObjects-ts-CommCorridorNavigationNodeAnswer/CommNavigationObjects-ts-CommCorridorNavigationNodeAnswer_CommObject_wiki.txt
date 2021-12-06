@@ -1,0 +1,7 @@
+|  |——CommObject    : <CommCorridorNavigationNodeAnswer> {
+|  |  |——[Local]CommCorridorNode    : <nodesList>[2147483647] {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——Boolean     : <success>
+|  | }

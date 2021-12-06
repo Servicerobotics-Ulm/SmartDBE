@@ -1,0 +1,9 @@
+RequestAnswerServiceDefinition Service: [CommKBQuery] Pattern: QueryPattern {
+RequestType    :CommBasicObjects.CommKBRequest
+|——    : <> {
+| }
+
+AnswerType     :CommBasicObjects.CommKBResponse
+|——    : <> {
+| }
+}

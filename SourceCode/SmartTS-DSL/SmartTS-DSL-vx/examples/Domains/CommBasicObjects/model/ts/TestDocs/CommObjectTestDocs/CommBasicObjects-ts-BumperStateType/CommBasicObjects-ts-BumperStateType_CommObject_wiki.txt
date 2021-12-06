@@ -1,0 +1,5 @@
+|  |——Enumeration   : <BumperStateType> {
+|  |  |——0 : BUMPER_NOT_SUPPORTED
+|  |  |——1 : BUMPER_NOT_PRESSED
+|  |  |——2 : BUMPER_PRESSED
+|  | }

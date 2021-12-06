@@ -1,0 +1,9 @@
+RequestAnswerServiceDefinition Service: [BaseStateQueryService] Pattern: QueryPattern {
+RequestType    :CommBasicObjects.CommVoid
+|——    : <> {
+| }
+
+AnswerType     :CommBasicObjects.CommBaseState
+|——    : <> {
+| }
+}

@@ -1,0 +1,20 @@
+TestEntityName,CommNavigationObjects-ts-NavigationNetworkPoseRequest
+Service Name,NavigationNetworkPoseRequest
+Service Type,RequestAnswerServiceDefinition
+Service Pattern,QueryPattern
+IS-OneOfTheCurrentlyHandledServicePattern,true
+
+<<TS_DATA>,<<RequestType>>
+CommNavigationObjects,CommCorridorNavigationPoseRequest,TS_BUILDER_PERMUTE,DEFAULT,DS_ON
+CommNavigationObjects,CommCorridorNavigationPoseRequest,TS_BUILDER_ONCE,CUSTOM,DS_ON
+<TS_DATA>>
+
+<<TS_DATA>,<<AnswerType>>
+CommNavigationObjects,CommCorridorNavigationPoseAnswer,TS_BUILDER_PERMUTE,DEFAULT,DS_ON
+CommNavigationObjects,CommCorridorNavigationPoseAnswer,TS_BUILDER_ONCE,CUSTOM,DS_ON
+<TS_DATA>>
+
+
+
+
+<<WIKI>User can add a new seed (e.g. CUSTOMX) in any of the test data sets.<WIKI>>

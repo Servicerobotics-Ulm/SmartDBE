@@ -1,0 +1,4 @@
+|  |——CommObject    : <PropertySetEntry> {
+|  |  |——String     : <key>
+|  |  |——UInt32     : <parent>
+|  | }

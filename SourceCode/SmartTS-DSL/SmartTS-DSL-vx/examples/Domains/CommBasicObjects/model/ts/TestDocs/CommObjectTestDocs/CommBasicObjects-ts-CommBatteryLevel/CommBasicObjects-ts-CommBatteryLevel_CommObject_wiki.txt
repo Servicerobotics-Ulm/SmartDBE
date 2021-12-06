@@ -1,0 +1,14 @@
+|  |——CommObject    : <CommBatteryLevel> {
+|  |  |——Double     : <potential>
+|  |  |——Int32     : <chargeLevel>
+|  |  |——[Local]CommTimeStamp    : <lifeTime> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]CommTimeStamp    : <timeStamp> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——Double     : <current>
+|  |  |——Boolean     : <externalPower>
+|  | }

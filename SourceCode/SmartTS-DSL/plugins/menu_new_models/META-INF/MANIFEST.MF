@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: org.SmartTS.DSL.menuNewModels
+Bundle-SymbolicName: org.SmartTS.DSL.menuNewModels;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.smartts.ui.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.ui.console,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources,
+ org.SmartTS.DSL.Console,
+ org.SmartDBE.Common.SmartMDSDWrapper
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: org.SmartDG.ui
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: Servicerobotics Ulm, Germany
+Import-Package: org.eclipse.smartmdsd.ecore.component.componentDefinition,
+ org.smartdbe.common.define,
+ org.smartdbe.common.smartmdsdwrapper

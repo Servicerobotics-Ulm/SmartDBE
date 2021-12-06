@@ -1,0 +1,11 @@
+TestEntityName,CommBasicObjects-ts-CommDigitalInputEventState-ts-Boolean-ts-digitalInputValues-ts-VecVar
+<<IS PRIMITIVE>>
+<<IS ARRAY>>
+<<IS LOCAL>>
+
+<<TS_DATA>
+true
+false,false
+false,true,true
+true,true,false,false
+<TS_DATA>>

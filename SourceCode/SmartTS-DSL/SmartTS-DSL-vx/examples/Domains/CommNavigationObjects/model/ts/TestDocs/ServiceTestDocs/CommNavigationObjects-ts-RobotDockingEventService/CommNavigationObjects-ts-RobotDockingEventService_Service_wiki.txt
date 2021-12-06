@@ -1,0 +1,13 @@
+ForkingServiceDefinition Service: [RobotDockingEventService] Pattern: EventPattern {
+EventType      :CommNavigationObjects.CommDockingEventResult
+|——    : <> {
+| }
+
+ActivationType :CommNavigationObjects.CommDockingEventParameter
+|——    : <> {
+| }
+
+EventStateType :CommNavigationObjects.CommDockingEventState
+|——    : <> {
+| }
+}

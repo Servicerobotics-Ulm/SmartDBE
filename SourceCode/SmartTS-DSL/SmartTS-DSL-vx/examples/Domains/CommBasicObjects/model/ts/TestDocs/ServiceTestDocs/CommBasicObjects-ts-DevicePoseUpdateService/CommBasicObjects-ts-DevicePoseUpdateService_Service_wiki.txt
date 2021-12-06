@@ -1,0 +1,5 @@
+ForkingServiceDefinition Service: [DevicePoseUpdateService] Pattern: PushPattern {
+DataType       :CommBasicObjects.CommDevicePoseState
+|——    : <> {
+| }
+}

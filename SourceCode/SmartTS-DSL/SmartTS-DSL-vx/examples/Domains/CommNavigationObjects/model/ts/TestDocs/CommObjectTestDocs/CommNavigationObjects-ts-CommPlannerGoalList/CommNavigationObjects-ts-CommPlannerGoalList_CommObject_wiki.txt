@@ -1,0 +1,9 @@
+|  |——CommObject    : <CommPlannerGoalList> {
+|  |  |——Int32     : <id>
+|  |  |——Int32     : <flag>
+|  |  |——Double     : <goalXvector>[2147483647]
+|  |  |——Double     : <goalYvector>[2147483647]
+|  |  |——Double     : <nodeObstacleVector>[2147483647]
+|  |  |——Double     : <finalGoalX>
+|  |  |——Double     : <finalGoalY>
+|  | }

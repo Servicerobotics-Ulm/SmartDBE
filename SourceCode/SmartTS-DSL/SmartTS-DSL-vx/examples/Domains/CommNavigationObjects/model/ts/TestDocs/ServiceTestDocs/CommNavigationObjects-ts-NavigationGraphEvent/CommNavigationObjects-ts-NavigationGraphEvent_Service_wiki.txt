@@ -1,0 +1,13 @@
+ForkingServiceDefinition Service: [NavigationGraphEvent] Pattern: EventPattern {
+EventType      :CommNavigationObjects.CommNavigationGraph
+|——    : <> {
+| }
+
+ActivationType :CommBasicObjects.CommVoid
+|——    : <> {
+| }
+
+EventStateType :CommNavigationObjects.CommNavigationGraph
+|——    : <> {
+| }
+}

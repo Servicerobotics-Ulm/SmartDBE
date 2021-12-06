@@ -1,0 +1,4 @@
+|  |——Enumeration   : <EDGE_TYPE> {
+|  |  |——0 : NORMAL_EDGE
+|  |  |——1 : DELETE_EDGE
+|  | }

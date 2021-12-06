@@ -1,0 +1,5 @@
+ForkingServiceDefinition Service: [BaseStateService] Pattern: PushPattern {
+DataType       :CommBasicObjects.CommBaseState
+|——    : <> {
+| }
+}

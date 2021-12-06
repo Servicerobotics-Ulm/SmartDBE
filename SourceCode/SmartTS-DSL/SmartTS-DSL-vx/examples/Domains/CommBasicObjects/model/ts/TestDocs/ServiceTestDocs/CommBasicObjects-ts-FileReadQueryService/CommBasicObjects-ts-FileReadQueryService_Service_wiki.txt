@@ -1,0 +1,9 @@
+RequestAnswerServiceDefinition Service: [FileReadQueryService] Pattern: QueryPattern {
+RequestType    :CommBasicObjects.CommFileReadRequest
+|——    : <> {
+| }
+
+AnswerType     :CommBasicObjects.CommFileReadAnswer
+|——    : <> {
+| }
+}

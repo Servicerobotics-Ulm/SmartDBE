@@ -1,0 +1,9 @@
+TestEntityName,CommBasicObjects-ts-FileType-ts-Enum_FileType
+0,FILE_REGULAR
+1,FILE_DIRECTORY
+<<IS ENUM>>
+
+<<TS_DATA>
+0,<<WIKI>,Test for identifier FILE_REGULAR,<WIKI>>
+1,<<WIKI>,Test for identifier FILE_DIRECTORY,<WIKI>>
+<TS_DATA>>

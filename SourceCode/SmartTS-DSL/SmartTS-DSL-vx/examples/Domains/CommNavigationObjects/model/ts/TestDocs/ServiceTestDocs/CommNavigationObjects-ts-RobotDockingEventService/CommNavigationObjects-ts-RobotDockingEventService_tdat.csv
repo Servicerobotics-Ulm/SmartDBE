@@ -1,0 +1,25 @@
+TestEntityName,CommNavigationObjects-ts-RobotDockingEventService
+Service Name,RobotDockingEventService
+Service Type,ForkingServiceDefinition
+Service Pattern,EventPattern
+IS-OneOfTheCurrentlyHandledServicePattern,true
+
+<<TS_DATA>,<<EventType>>
+CommNavigationObjects,CommDockingEventResult,TS_BUILDER_PERMUTE,DEFAULT,DS_ON
+CommNavigationObjects,CommDockingEventResult,TS_BUILDER_ONCE,CUSTOM,DS_ON
+<TS_DATA>>
+
+<<TS_DATA>,<<ActivationType>>
+CommNavigationObjects,CommDockingEventParameter,TS_BUILDER_PERMUTE,DEFAULT,DS_ON
+CommNavigationObjects,CommDockingEventParameter,TS_BUILDER_ONCE,CUSTOM,DS_ON
+<TS_DATA>>
+
+<<TS_DATA>,<<EventStateType>>
+CommNavigationObjects,CommDockingEventState,TS_BUILDER_PERMUTE,DEFAULT,DS_ON
+CommNavigationObjects,CommDockingEventState,TS_BUILDER_ONCE,CUSTOM,DS_ON
+<TS_DATA>>
+
+
+
+
+<<WIKI>User can add a new seed (e.g. CUSTOMX) in any of the test data sets.<WIKI>>

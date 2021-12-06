@@ -1,0 +1,20 @@
+TestEntityName,CommNavigationObjects-ts-NavigationNetworkPathRequest
+Service Name,NavigationNetworkPathRequest
+Service Type,RequestAnswerServiceDefinition
+Service Pattern,QueryPattern
+IS-OneOfTheCurrentlyHandledServicePattern,true
+
+<<TS_DATA>,<<RequestType>>
+CommNavigationObjects,CommCorridorNavigationPathRequest,TS_BUILDER_PERMUTE,DEFAULT,DS_ON
+CommNavigationObjects,CommCorridorNavigationPathRequest,TS_BUILDER_ONCE,CUSTOM,DS_ON
+<TS_DATA>>
+
+<<TS_DATA>,<<AnswerType>>
+CommNavigationObjects,CommCorridorNavigationPathAnswer,TS_BUILDER_PERMUTE,DEFAULT,DS_ON
+CommNavigationObjects,CommCorridorNavigationPathAnswer,TS_BUILDER_ONCE,CUSTOM,DS_ON
+<TS_DATA>>
+
+
+
+
+<<WIKI>User can add a new seed (e.g. CUSTOMX) in any of the test data sets.<WIKI>>

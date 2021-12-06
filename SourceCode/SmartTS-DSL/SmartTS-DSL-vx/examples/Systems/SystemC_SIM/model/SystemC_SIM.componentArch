@@ -1,0 +1,28 @@
+SystemComponentArchitecture SystemC_SIM
+{
+ComponentInstance A instantiates ComponentA
+	{
+		ProvidedService Push_Coordinate3D_Output_Port
+		ProvidedService Query_ValidCoordinate2D_Answer_Port
+	}
+	ComponentInstance B instantiates ComponentB
+	{
+		RequiredService Query_ValidCoordinate2D_Request_Port
+		ProvidedService Send_Coordinate2D_Input_Port
+	}
+	ComponentInstance C_SIM instantiates ComponentC_TS
+	{
+		RequiredService Push_Coordinate3D_Input_Port_sim
+		RequiredService Send_Coordinate2D_Output_Port_sim
+		RequiredService Query_ValidCoordinate2D_Answer_Port_ts
+		RequiredService Query_ValidCoordinate2D_Request_Port_sim
+		ProvidedService Push_Coordinate3D_Input_Port_ts
+		ProvidedService Send_Coordinate2D_Output_Port_ts
+		ProvidedService Query_ValidCoordinate2D_Answer_Port_sim
+		ProvidedService Query_ValidCoordinate2D_Request_Port_ts
+	}
+	Connection C_SIM.Push_Coordinate3D_Input_Port_sim -> A.Push_Coordinate3D_Output_Port
+	Connection C_SIM.Query_ValidCoordinate2D_Request_Port_sim -> A.Query_ValidCoordinate2D_Answer_Port
+	Connection C_SIM.Send_Coordinate2D_Output_Port_sim -> B.Send_Coordinate2D_Input_Port
+	Connection B.Query_ValidCoordinate2D_Request_Port -> C_SIM.Query_ValidCoordinate2D_Answer_Port_sim
+}

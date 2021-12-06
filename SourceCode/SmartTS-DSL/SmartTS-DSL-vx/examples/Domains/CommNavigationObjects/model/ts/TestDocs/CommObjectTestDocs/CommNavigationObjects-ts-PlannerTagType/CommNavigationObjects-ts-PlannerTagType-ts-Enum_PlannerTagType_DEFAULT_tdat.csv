@@ -1,0 +1,13 @@
+TestEntityName,CommNavigationObjects-ts-PlannerTagType-ts-Enum_PlannerTagType
+0,PLANNER_DELETE_GOAL
+1,PLANNER_SET_DESTINATION_LINE
+2,PLANNER_SET_DESTINATION_CIRCLE
+3,PLANNER_ID
+<<IS ENUM>>
+
+<<TS_DATA>
+0,<<WIKI>,Test for identifier PLANNER_DELETE_GOAL,<WIKI>>
+1,<<WIKI>,Test for identifier PLANNER_SET_DESTINATION_LINE,<WIKI>>
+2,<<WIKI>,Test for identifier PLANNER_SET_DESTINATION_CIRCLE,<WIKI>>
+3,<<WIKI>,Test for identifier PLANNER_ID,<WIKI>>
+<TS_DATA>>

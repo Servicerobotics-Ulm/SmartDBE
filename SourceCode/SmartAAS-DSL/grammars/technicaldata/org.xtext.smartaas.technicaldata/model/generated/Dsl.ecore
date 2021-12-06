@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="dsl" nsURI="http://www.xtext.org/smartaas/technicaldata/Dsl"
+    nsPrefix="dsl">
+  <eClassifiers xsi:type="ecore:EClass" name="Model">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="technicaldata" upperBound="-1"
+        eType="#//TechnicaldataSubmodel" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TechnicaldataSubmodel">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="GeneralInformation" eType="#//SubmodelElementCollectionGeneralInformation"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ProductClassifications"
+        eType="#//SubmodelElementCollectionProductClassifications" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="TechnicalProperties" eType="#//SubmodelElementCollectionTechnicalProperties"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="FurtherInformation" eType="#//SubmodelElementCollectionFurtherInformation"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SubmodelElementCollectionGeneralInformation">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ManufacturerName" eType="#//PropertyManufacturerName"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ManufacturerLogo" eType="#//FileManufacturerLogo"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ManufacturerProductDesignation"
+        eType="#//MultiLanguagePropertyManufacturerProductDesignation" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ManufacturerPartNumber"
+        eType="#//PropertyManufacturerPartNumber" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ManufacturerOrderCode"
+        eType="#//PropertyManufacturerOrderCode" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ProductImage" upperBound="-1"
+        eType="#//FileProductImage" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PropertyManufacturerName">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="FileManufacturerLogo">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MultiLanguagePropertyManufacturerProductDesignation">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PropertyManufacturerPartNumber">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PropertyManufacturerOrderCode">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="FileProductImage">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SubmodelElementCollectionProductClassifications">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ProductClassificationItem"
+        upperBound="-1" eType="#//SubmodelElementCollectionProductClassificationItem"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SubmodelElementCollectionProductClassificationItem">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ProductClassificationSystem"
+        eType="#//PropertyProductClassificationSystem" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ClassificationSystemVersion"
+        eType="#//PropertyClassificationSystemVersion" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ProductClassId" eType="#//PropertyProductClassId"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PropertyProductClassificationSystem">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PropertyClassificationSystemVersion">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PropertyProductClassId">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SubmodelElementCollectionTechnicalProperties">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Arbitrary" upperBound="-1"
+        eType="#//SubmodelElementArbitrary" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Section" upperBound="-1"
+        eType="#//SubmodelElementCollectionSection" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SubSection" upperBound="-1"
+        eType="#//SubmodelElementCollectionSubSection" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SubmodelElementArbitrary">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SubmodelElementCollectionSection">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Arbitrary" upperBound="-1"
+        eType="#//SubmodelElementArbitrary" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SubSection" upperBound="-1"
+        eType="#//SubmodelElementCollectionSubSection" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SubmodelElementCollectionSubSection">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Arbitrary" upperBound="-1"
+        eType="#//SubmodelElementArbitrary" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SubSection" upperBound="-1"
+        eType="#//SubmodelElementCollectionSubSection" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SubmodelElementCollectionFurtherInformation">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="TextStatement" upperBound="-1"
+        eType="#//MultiLanguagePropertyTextStatement" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ValidDate" eType="#//PropertyValidDate"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MultiLanguagePropertyTextStatement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PropertyValidDate">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SID">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="II" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+</ecore:EPackage>

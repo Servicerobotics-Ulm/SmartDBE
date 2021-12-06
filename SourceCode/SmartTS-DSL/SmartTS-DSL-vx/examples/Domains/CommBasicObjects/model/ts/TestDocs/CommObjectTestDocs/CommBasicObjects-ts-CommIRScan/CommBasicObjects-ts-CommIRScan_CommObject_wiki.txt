@@ -1,0 +1,14 @@
+|  |——CommObject    : <CommIRScan> {
+|  |  |——Double     : <distance_min>
+|  |  |——Double     : <distance_max>
+|  |  |——[Local]CommPose3d    : <poses3D>[2147483647] {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——Double     : <distances>[2147483647]
+|  |  |——[Local]CommTimeStamp    : <timeStamp> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——Double     : <raw_readings>[2147483647]
+|  | }

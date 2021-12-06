@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.SmartAAS.DSL.feature"
+      label="SmartAAS"
+      version="2.0.0.qualifier"
+      provider-name="Servicerobotics Ulm, Germany">
+
+   <description url="http://www.servicerobotik-ulm.de/">
+      Asset Administration Shell (AAS) extensions for SmartMDSD Toolchain
+   </description>
+
+   <copyright url="http://www.servicerobotik-ulm.de/">
+      2021 Technische Hochschule Ulm, Servicerobotics Ulm, Germany.
+   </copyright>
+
+   <license url="https://opensource.org/licenses/BSD-3-Clause">
+      Copyright (c) 2021, Servicerobotics Ulm
+All rights reserved.
+
+[BSD 3-Clause License]
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &amp;amp;quot;AS IS&amp;amp;quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.xtext.smartaas.command"/>
+      <import plugin="org.xtext.smartaas.nameplate"/>
+      <import plugin="org.xtext.smartaas.technicaldata"/>
+      <import plugin="org.eclipse.ui.console"/>
+      <import plugin="org.eclipse.jface.text"/>
+      <import plugin="org.eclipse.ui.editors"/>
+      <import plugin="org.eclipse.xtext"/>
+      <import plugin="org.eclipse.smartmdsd.ecore.component.componentDefinition"/>
+      <import plugin="org.eclipse.smartmdsd.ecore.component.componentDependencyGraphExtension"/>
+      <import plugin="org.eclipse.smartmdsd.xtext.component.componentDefinition.ui"/>
+      <import plugin="org.eclipse.smartmdsd.ecore.system.componentArchitecture"/>
+      <import plugin="org.eclipse.smartmdsd.xtext.system.componentArchitecture"/>
+      <import plugin="org.eclipse.smartmdsd.xtext.system.componentArchitecture.ui"/>
+      <import plugin="org.eclipse.smartmdsd.xtext.service.serviceDefinition"/>
+      <import plugin="org.eclipse.smartmdsd.xtext.service.serviceDefinition.ui"/>
+      <import plugin="com.google.guava"/>
+      <import plugin="org.eclipse.xtext.xbase.lib"/>
+      <import plugin="org.eclipse.xtend.lib"/>
+      <import plugin="org.eclipse.xtend.lib.macro"/>
+      <import plugin="javax.activation"/>
+      <import plugin="javax.xml.bind"/>
+      <import plugin="org.eclipse.smartmdsd.ecore.component.coordinationExtension" version="3.6.0" match="greaterOrEqual"/>
+      <import plugin="org.apache.commons.io"/>
+      <import plugin="org.apache.log4j"/>
+   </requires>
+
+   <plugin
+         id="org.SmartAAS.DSL.menuNewModels"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.SmartDBE.Common.Console"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.SmartDBE.Common.Define"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.SmartDBE.Common.SmartMDSDWrapper"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.xtext.smartaas.command"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.xtext.smartaas.command.ide"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.xtext.smartaas.command.tests"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.xtext.smartaas.command.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.xtext.smartaas.command.ui.tests"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.xtext.smartaas.nameplate"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.xtext.smartaas.nameplate.ide"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.xtext.smartaas.nameplate.tests"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.xtext.smartaas.nameplate.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.xtext.smartaas.nameplate.ui.tests"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.xtext.smartaas.technicaldata"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.xtext.smartaas.technicaldata.ide"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.xtext.smartaas.technicaldata.tests"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.xtext.smartaas.technicaldata.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.xtext.smartaas.technicaldata.ui.tests"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.SmartAAS.DSL.Tools"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.xtext.smartaas.sms"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.xtext.smartaas.sms.ide"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.xtext.smartaas.sms.tests"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.xtext.smartaas.sms.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.xtext.smartaas.sms.ui.tests"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

@@ -1,0 +1,7 @@
+|  |——Enumeration   : <BaseTagType> {
+|  |  |——0 : SIGNAL_STATE_IDLE
+|  |  |——1 : SIGNAL_STATE_ERROR
+|  |  |——2 : SIGNAL_STATE_BUSY
+|  |  |——3 : SIGNAL_STATE_LOCALIZATION_ERROR
+|  |  |——4 : SIGNAL_STATE_SAFETY_FIELD
+|  | }

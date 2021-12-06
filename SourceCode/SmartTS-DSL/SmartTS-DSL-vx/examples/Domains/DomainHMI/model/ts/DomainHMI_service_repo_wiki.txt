@@ -1,0 +1,12 @@
+ServiceDefRepository DomainHMI[
+JoiningServiceDefinition Service: [TrafficLightService] Pattern: SendPattern {
+DataType       :DomainHMI.CommTrafficLight
+|——    : <> {
+| }
+}
+|  |——CommObject    : <CommTrafficLight> {
+|  |  |——Boolean     : <red>
+|  |  |——Boolean     : <green>
+|  |  |——Boolean     : <yellow>
+|  | }
+]

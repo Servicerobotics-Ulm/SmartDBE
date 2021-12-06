@@ -1,0 +1,5 @@
+|  |——CommObject    : <BasicTime> {
+|  |  |——UInt8     : <hour>
+|  |  |——UInt8     : <minute>
+|  |  |——UInt8     : <second>
+|  | }

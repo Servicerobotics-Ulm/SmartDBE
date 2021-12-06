@@ -1,0 +1,5 @@
+JoiningServiceDefinition Service: [LocalizationUpdateService] Pattern: SendPattern {
+DataType       :CommBasicObjects.CommBasePositionUpdate
+|——    : <> {
+| }
+}

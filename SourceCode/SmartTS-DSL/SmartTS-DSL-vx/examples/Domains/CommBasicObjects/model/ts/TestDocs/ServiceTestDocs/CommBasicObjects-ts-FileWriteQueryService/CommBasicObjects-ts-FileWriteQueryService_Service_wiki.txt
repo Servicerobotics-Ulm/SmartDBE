@@ -1,0 +1,9 @@
+RequestAnswerServiceDefinition Service: [FileWriteQueryService] Pattern: QueryPattern {
+RequestType    :CommBasicObjects.CommFileWriteRequest
+|——    : <> {
+| }
+
+AnswerType     :CommBasicObjects.CommFileWriteAnswer
+|——    : <> {
+| }
+}

@@ -1,0 +1,11 @@
+|  |——CommObject    : <CommNavigationTopologyMap> {
+|  |  |——Boolean     : <isValid>
+|  |  |——[Local]CommNavigationTopologyPart    : <vertices>[2147483647] {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]CommNavigationTopologyConnection    : <edges>[2147483647] {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }

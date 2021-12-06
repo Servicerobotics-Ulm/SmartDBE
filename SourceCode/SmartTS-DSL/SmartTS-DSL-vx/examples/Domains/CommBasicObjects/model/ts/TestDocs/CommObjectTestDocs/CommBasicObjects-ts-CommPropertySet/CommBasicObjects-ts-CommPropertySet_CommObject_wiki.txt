@@ -1,0 +1,10 @@
+|  |——CommObject    : <CommPropertySet> {
+|  |  |——[Local]PropertySetEntry    : <sets>[2147483647] {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]PropertyItemEntry    : <items>[2147483647] {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }

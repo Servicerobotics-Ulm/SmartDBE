@@ -1,0 +1,5 @@
+3.0.0
+
+Downloaded from : https://www.eclipse.org/downloads/download.php?file=/rt/eclipselink/releases/3.0.0/eclipselink-3.0.0.v20201208-87e9d1437d.zip&mirror_id=96
+
+On: Jan 12 2020

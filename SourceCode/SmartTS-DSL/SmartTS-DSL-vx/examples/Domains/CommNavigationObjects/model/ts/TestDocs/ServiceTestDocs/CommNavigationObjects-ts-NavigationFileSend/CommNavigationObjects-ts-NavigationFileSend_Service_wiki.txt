@@ -1,0 +1,5 @@
+JoiningServiceDefinition Service: [NavigationFileSend] Pattern: SendPattern {
+DataType       :CommBasicObjects.CommDataFile
+|——    : <> {
+| }
+}

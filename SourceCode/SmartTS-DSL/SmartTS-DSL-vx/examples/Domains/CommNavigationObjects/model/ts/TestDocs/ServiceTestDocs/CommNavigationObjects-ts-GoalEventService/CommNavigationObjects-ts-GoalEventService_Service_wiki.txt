@@ -1,0 +1,13 @@
+ForkingServiceDefinition Service: [GoalEventService] Pattern: EventPattern {
+EventType      :CommNavigationObjects.CommCdlGoalEventResult
+|——    : <> {
+| }
+
+ActivationType :CommNavigationObjects.CommCdlGoalEventParameter
+|——    : <> {
+| }
+
+EventStateType :CommNavigationObjects.CdlGoalEventState
+|——    : <> {
+| }
+}

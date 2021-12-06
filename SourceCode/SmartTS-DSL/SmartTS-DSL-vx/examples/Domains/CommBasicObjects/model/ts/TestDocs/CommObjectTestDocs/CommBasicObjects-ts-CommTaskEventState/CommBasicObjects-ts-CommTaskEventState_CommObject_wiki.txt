@@ -1,0 +1,7 @@
+|  |——CommObject    : <CommTaskEventState> {
+|  |  |——String     : <robotTarget>
+|  |  |——[Local]CommTaskMessage    : <job> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }

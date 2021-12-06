@@ -1,0 +1,5 @@
+JoiningServiceDefinition Service: [TrafficLightService] Pattern: SendPattern {
+DataType       :DomainHMI.CommTrafficLight
+|——    : <> {
+| }
+}

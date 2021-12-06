@@ -1,0 +1,13 @@
+ForkingServiceDefinition Service: [CorridorNavigationPoseRequestEvent] Pattern: EventPattern {
+EventType      :CommNavigationObjects.CommCorridorNavigationPoseRequestEventResult
+|——    : <> {
+| }
+
+ActivationType :CommNavigationObjects.CommCorridorNavigationPoseRequestEventParameter
+|——    : <> {
+| }
+
+EventStateType :CommNavigationObjects.CommCorridorNavigationPoseRequestEventState
+|——    : <> {
+| }
+}

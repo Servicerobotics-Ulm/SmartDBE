@@ -1,0 +1,4 @@
+|  |——CommObject    : <CommCorridorNavigationPathRequest> {
+|  |  |——UInt32     : <startPose>
+|  |  |——UInt32     : <goalPose>
+|  | }

@@ -1,0 +1,6 @@
+|  |——Enumeration   : <PlannerTagType> {
+|  |  |——0 : PLANNER_DELETE_GOAL
+|  |  |——1 : PLANNER_SET_DESTINATION_LINE
+|  |  |——2 : PLANNER_SET_DESTINATION_CIRCLE
+|  |  |——3 : PLANNER_ID
+|  | }

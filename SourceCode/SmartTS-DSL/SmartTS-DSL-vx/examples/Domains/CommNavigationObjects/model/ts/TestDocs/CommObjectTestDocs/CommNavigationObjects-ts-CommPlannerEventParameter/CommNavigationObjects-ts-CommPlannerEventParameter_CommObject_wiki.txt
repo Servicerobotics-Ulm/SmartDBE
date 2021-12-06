@@ -1,0 +1,6 @@
+|  |——CommObject    : <CommPlannerEventParameter> {
+|  |  |——[Local]PlannerEventType    : <oldState> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }

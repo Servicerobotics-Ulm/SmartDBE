@@ -1,0 +1,196 @@
+//================================================================
+//
+//  Copyright (c) 2021 Technische Hochschule Ulm, Servicerobotics Ulm, Germany
+//
+//        Servicerobotik Ulm 
+//        Christian Schlegel
+//        Ulm University of Applied Sciences
+//        Prittwitzstr. 10
+//        89075 Ulm
+//        Germany
+//
+//	  http://www.servicerobotik-ulm.de/
+//
+//  This file is part of the Asset Administration Shell (SmartAAS) extension 
+//  for SmartMDSD Toolchain.
+//
+//  Author:
+//		Vineet Nagrath
+//  Contributors:
+//		Vineet Nagrath
+//		Shaik Nayabrasul
+//		Timo Blender
+//		Jannik Rhode
+//		Christian Schlegel
+//
+//  Licence:
+//
+//  BSD 3-Clause License
+//  
+//  Copyright (c) 2021, Servicerobotics Ulm
+//  All rights reserved.
+//  
+//  Redistribution and use in source and binary forms, with or without
+//  modification, are permitted provided that the following conditions are met:
+//  
+//  * Redistributions of source code must retain the above copyright notice, this
+//    list of conditions and the following disclaimer.
+//  
+//  * Redistributions in binary form must reproduce the above copyright notice,
+//    this list of conditions and the following disclaimer in the documentation
+//    and/or other materials provided with the distribution.
+//  
+//  * Neither the name of the copyright holder nor the names of its
+//    contributors may be used to endorse or promote products derived from
+//    this software without specific prior written permission.
+//  
+//  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+//  AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+//  IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+//  DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+//  FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+//  DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+//  SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+//  CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+//  OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+//  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+//
+//  https://opensource.org/licenses/BSD-3-Clause
+//
+//================================================================
+grammar org.xtext.smartaas.technicaldata.Dsl with org.eclipse.xtext.common.Terminals
+
+generate dsl "http://www.xtext.org/smartaas/technicaldata/Dsl"
+
+Model:
+	technicaldata+=TechnicaldataSubmodel;
+
+	//	cardinalities:
+//	exactly one (the default, no operator)
+//	zero or one (operator ?)
+//	zero or more (operator *)
+//	one or more (operator +)
+
+
+//	TechnicalData						: Submodel
+//	GeneralInformation					: SubmodelElementCollection [1]
+//	ProductClassifications				: SubmodelElementCollection [0..1]
+//	TechnicalProperties					: SubmodelElementCollection [1]
+//	FurtherInformation					: SubmodelElementCollection [0..1]
+TechnicaldataSubmodel:
+	'AAS' '::' 'TechnicalData' name=STRING '[[' SemanticId=SID ']]'
+	'{'
+	GeneralInformation=SubmodelElementCollectionGeneralInformation ";"
+	(ProductClassifications=SubmodelElementCollectionProductClassifications ";")?
+	TechnicalProperties=SubmodelElementCollectionTechnicalProperties ";"
+	(FurtherInformation=SubmodelElementCollectionFurtherInformation ";")?
+	'}';
+
+	//	GeneralInformation					: SubmodelElementCollection
+//	ManufacturerName					: String [1]
+//	ManufacturerLogo					: String [0..1] //Path
+//	ManufacturerProductDesignation		: String [1]
+//	ManufacturerPartNumber				: String [1]
+//	ManufacturerOrderCode				: String [1]
+//	ProductImage						: String [0..*] //Path
+SubmodelElementCollectionGeneralInformation:
+	'GeneralInformation' ':' name=STRING '[[' SemanticId=SID ']]'
+	'{'
+	ManufacturerName=PropertyManufacturerName ";"
+	(ManufacturerLogo=FileManufacturerLogo ";")?
+	ManufacturerProductDesignation=MultiLanguagePropertyManufacturerProductDesignation ";"
+	ManufacturerPartNumber=PropertyManufacturerPartNumber ";"
+	ManufacturerOrderCode=PropertyManufacturerOrderCode ";"
+	(ProductImage+=FileProductImage ";")*
+	'}';
+
+PropertyManufacturerName:
+	'ManufacturerName' ':' name=STRING '[[' SemanticId=SID ']]';
+
+FileManufacturerLogo:
+	'ManufacturerLogo' ':' name=STRING '[[' SemanticId=SID ']]';
+
+MultiLanguagePropertyManufacturerProductDesignation:
+	'ManufacturerProductDesignation' ':' name=STRING '[[' SemanticId=SID ']]';
+
+PropertyManufacturerPartNumber:
+	'ManufacturerPartNumber' ':' name=STRING '[[' SemanticId=SID ']]';
+
+PropertyManufacturerOrderCode:
+	'ManufacturerOrderCode' ':' name=STRING '[[' SemanticId=SID ']]';
+
+FileProductImage:
+	'ProductImage' ':' name=STRING '[[' SemanticId=SID ']]';
+
+	//	ProductClassifications					: SubmodelElementCollection
+//	ProductClassificationItem				: SubmodelElementCollection	[0..*]
+SubmodelElementCollectionProductClassifications:
+	'ProductClassifications' ':' name=STRING '[[' SemanticId=SID ']]'
+	'{'
+	(ProductClassificationItem+=SubmodelElementCollectionProductClassificationItem ";")*
+	'}';
+
+SubmodelElementCollectionProductClassificationItem:
+	'ProductClassificationItem' ':' name=STRING '[[' SemanticId=SID ']]'
+	'{'
+	ProductClassificationSystem=PropertyProductClassificationSystem ";"
+	(ClassificationSystemVersion=PropertyClassificationSystemVersion ";")?
+	ProductClassId=PropertyProductClassId ";"
+	'}';
+
+PropertyProductClassificationSystem:
+	'ProductClassificationSystem' ':' name=STRING '[[' SemanticId=SID ']]';
+
+PropertyClassificationSystemVersion:
+	'ClassificationSystemVersion' ':' name=STRING '[[' SemanticId=SID ']]';
+
+PropertyProductClassId:
+	'ProductClassId' ':' name=STRING '[[' SemanticId=SID ']]';
+
+	//	TechnicalProperties						: SubmodelElementCollection
+//	Arbitary								: SubmodelElement [0..*]
+//	Section									: SubmodelElementCollection [0..*]
+//	SubSection								: SubmodelElementCollection [0..*]
+SubmodelElementCollectionTechnicalProperties:
+	'TechnicalProperties' ':' name=STRING '[[' SemanticId=SID ']]'
+	'{'
+	(Arbitrary+=SubmodelElementArbitrary ";")*
+	(Section+=SubmodelElementCollectionSection ";")*
+	(SubSection+=SubmodelElementCollectionSubSection ";")*
+	'}';
+
+SubmodelElementArbitrary:
+	'Arbitrary' ':' name=STRING '[[' SemanticId=SID ']]';
+
+SubmodelElementCollectionSection:
+	'Section' ':' name=STRING '[[' SemanticId=SID ']]'
+	"{"
+	(Arbitrary+=SubmodelElementArbitrary ";")*
+	(SubSection+=SubmodelElementCollectionSubSection ";")*
+	"}";
+
+SubmodelElementCollectionSubSection:
+	'SubSection' ':' name=STRING '[[' SemanticId=SID ']]'
+	"{"
+	(Arbitrary+=SubmodelElementArbitrary ";")*
+	(SubSection+=SubmodelElementCollectionSubSection ";")*
+	"}";
+
+	//	FurtherInformation						: SubmodelElementCollection
+//	TextStatement							: String [0..*]		
+//	ValidDate								: String [1] // Date
+SubmodelElementCollectionFurtherInformation:
+	'FurtherInformation' ':' name=STRING '[[' SemanticId=SID ']]'
+	'{'
+	(TextStatement+=MultiLanguagePropertyTextStatement ";")*
+	ValidDate=PropertyValidDate ";"
+	'}';
+
+MultiLanguagePropertyTextStatement:
+	'TextStatement' ':' name=STRING '[[' SemanticId=SID ']]';
+
+PropertyValidDate:
+	'ValidDate' ':' name=STRING '[[' SemanticId=SID ']]';
+
+SID:
+	'SemanticId' ':' name=STRING '|' II=STRING;

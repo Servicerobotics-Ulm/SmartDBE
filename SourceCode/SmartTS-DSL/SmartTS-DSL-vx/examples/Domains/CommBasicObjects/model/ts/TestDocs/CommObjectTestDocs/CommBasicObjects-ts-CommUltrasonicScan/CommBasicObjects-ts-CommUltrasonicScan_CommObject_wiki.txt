@@ -1,0 +1,11 @@
+|  |——CommObject    : <CommUltrasonicScan> {
+|  |  |——[Local]CommTimeStamp    : <timeStamp> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]CommPose3d    : <scanPoints>[2147483647] {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——Double     : <intensities>[2147483647]
+|  | }

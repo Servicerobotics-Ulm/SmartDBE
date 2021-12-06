@@ -1,0 +1,9 @@
+TestEntityName,CommNavigationObjects-ts-EDGE_TYPE-ts-Enum_EDGE_TYPE
+0,NORMAL_EDGE
+1,DELETE_EDGE
+<<IS ENUM>>
+
+<<TS_DATA>
+0,<<WIKI>,Test for identifier NORMAL_EDGE,<WIKI>>
+1,<<WIKI>,Test for identifier DELETE_EDGE,<WIKI>>
+<TS_DATA>>

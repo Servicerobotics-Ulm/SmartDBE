@@ -1,0 +1,13 @@
+ForkingServiceDefinition Service: [CorridorNavigationPathChangeEvent] Pattern: EventPattern {
+EventType      :CommNavigationObjects.CommNavigationPaths
+|——    : <> {
+| }
+
+ActivationType :CommBasicObjects.CommVoid
+|——    : <> {
+| }
+
+EventStateType :CommNavigationObjects.CommNavigationPaths
+|——    : <> {
+| }
+}

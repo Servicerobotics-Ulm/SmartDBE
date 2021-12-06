@@ -1,0 +1,35 @@
+CommObjectsRepository DomainTSDemo version 1 . 0
+{
+	CommObject BasicBoolean {
+		boolValue: Boolean
+	}
+	CommObject BasicTime {
+		hour: UInt8 = 0
+		minute: UInt8 = 0
+		second: UInt8 = 0
+	}
+	CommObject TimeObject {
+		basic: BasicTime
+		compound: CommBasicObjects.CommTimeStamp
+	}
+	CommObject Coordinate2D {
+		x: Double = 0.0
+		y: Double = 0.0
+	}
+	CommObject Coordinate3D {
+		x: Double = 0.0
+		y: Double = 0.0
+		z: Double = 0.0
+	}
+	CommObject Coordinate3DPlus {
+		x: Double = 0.0
+		y: Double = 0.0
+		z: Double = 0.0
+		plus: CommBasicObjects.CommPosition3dWithCovariance
+	}
+	CommObject NestedImport {
+		a : Coordinate3D
+		aa : Coordinate3DPlus
+		aaa : CommNavigationObjects.CommClosestNodeRequest
+	}
+}

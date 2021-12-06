@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Plus
+Bundle-SymbolicName: org.SmartTS.DSL.plus;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.smartts.dsl.plus.Activator
+Bundle-Vendor: Servicerobotics Ulm, Germany
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.SmartTS.DSL.Console
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: org.SmartTS.DSL.plus
+Bundle-ActivationPolicy: lazy
+Import-Package: org.eclipse.core.resources,
+ org.eclipse.smartmdsd.ecore.component.componentDefinition,
+ org.smartdbe.common.define,
+ org.smartdbe.common.smartmdsdwrapper,
+ org.smartdbe.common.smartmdsdwrapper.resourcemanager

@@ -1,0 +1,13 @@
+ForkingServiceDefinition Service: [NavigationNetworkStatusEvent] Pattern: EventPattern {
+EventType      :CommNavigationObjects.CommCorridorNetworkStatus
+|——    : <> {
+| }
+
+ActivationType :CommBasicObjects.CommVoid
+|——    : <> {
+| }
+
+EventStateType :CommNavigationObjects.CommCorridorNetworkStatus
+|——    : <> {
+| }
+}

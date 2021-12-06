@@ -1,0 +1,13 @@
+ForkingServiceDefinition Service: [BatteryEventService] Pattern: EventPattern {
+EventType      :CommBasicObjects.CommBatteryEvent
+|——    : <> {
+| }
+
+ActivationType :CommBasicObjects.CommBatteryParameter
+|——    : <> {
+| }
+
+EventStateType :CommBasicObjects.CommBatteryState
+|——    : <> {
+| }
+}

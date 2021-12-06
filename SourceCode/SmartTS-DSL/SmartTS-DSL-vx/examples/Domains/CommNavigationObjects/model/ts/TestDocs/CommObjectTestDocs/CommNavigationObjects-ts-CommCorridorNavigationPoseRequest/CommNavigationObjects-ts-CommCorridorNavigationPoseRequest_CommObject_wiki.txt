@@ -1,0 +1,8 @@
+|  |——CommObject    : <CommCorridorNavigationPoseRequest> {
+|  |  |——[Local]NavigationNodeRequestType    : <requesttype> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——UInt32     : <pose>
+|  |  |——String     : <robotID>
+|  | }

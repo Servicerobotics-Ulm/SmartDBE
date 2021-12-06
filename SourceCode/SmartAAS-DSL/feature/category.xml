@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature id="org.SmartAAS.DSL.feature">
+      <category name="SmartAAS"/>
+   </feature>
+   <category-def name="SmartAAS" label="SmartAAS"/>
+</site>

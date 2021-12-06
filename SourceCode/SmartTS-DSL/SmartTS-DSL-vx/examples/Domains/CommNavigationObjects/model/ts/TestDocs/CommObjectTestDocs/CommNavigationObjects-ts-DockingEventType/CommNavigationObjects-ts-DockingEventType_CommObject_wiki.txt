@@ -1,0 +1,9 @@
+|  |——Enumeration   : <DockingEventType> {
+|  |  |——0 : DOCKING_UNKNOWN
+|  |  |——1 : DOCKING_DONE
+|  |  |——2 : DOCKING_NOT_DONE
+|  |  |——3 : DOCKING_ERROR
+|  |  |——4 : UN_DOCKING_NOT_DONE
+|  |  |——5 : UN_DOCKING_DONE
+|  |  |——6 : UN_DOCKING_ERROR
+|  | }

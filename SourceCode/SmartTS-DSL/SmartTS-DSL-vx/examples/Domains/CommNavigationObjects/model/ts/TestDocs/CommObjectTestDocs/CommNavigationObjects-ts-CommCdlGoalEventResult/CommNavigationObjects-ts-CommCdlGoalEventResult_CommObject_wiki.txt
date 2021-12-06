@@ -1,0 +1,6 @@
+|  |——CommObject    : <CommCdlGoalEventResult> {
+|  |  |——[Local]CdlGoalEventType    : <state> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }

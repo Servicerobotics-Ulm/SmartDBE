@@ -1,0 +1,3 @@
+|  |——Enumeration   : <OctomapTagType> {
+|  |  |——0 : RESET
+|  | }

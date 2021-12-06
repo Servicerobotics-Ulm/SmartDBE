@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: SmartTSConsole
+Bundle-SymbolicName: org.SmartTS.DSL.Console;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.smartts.dsl.console.Activator
+Bundle-Vendor: Servicerobotics Ulm, Germany
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.SmartDBE.Common.Console,
+ org.eclipse.ui.console
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: org.SmartTS.DSL.Console
+Bundle-ActivationPolicy: lazy
+Export-Package: org.smartts.dsl.console
+Import-Package: org.eclipse.core.resources

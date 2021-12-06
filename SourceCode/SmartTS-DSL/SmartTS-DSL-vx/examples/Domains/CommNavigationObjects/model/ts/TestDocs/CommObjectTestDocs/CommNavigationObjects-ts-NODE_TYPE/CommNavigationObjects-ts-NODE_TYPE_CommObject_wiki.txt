@@ -1,0 +1,6 @@
+|  |——Enumeration   : <NODE_TYPE> {
+|  |  |——0 : NORMAL
+|  |  |——1 : CROSS
+|  |  |——2 : WAIT
+|  |  |——3 : NEWCROSS
+|  | }

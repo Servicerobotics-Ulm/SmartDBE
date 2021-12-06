@@ -1,0 +1,5 @@
+ForkingServiceDefinition Service: [CommIOForkingService] Pattern: PushPattern {
+DataType       :CommBasicObjects.CommIOValues
+|——    : <> {
+| }
+}

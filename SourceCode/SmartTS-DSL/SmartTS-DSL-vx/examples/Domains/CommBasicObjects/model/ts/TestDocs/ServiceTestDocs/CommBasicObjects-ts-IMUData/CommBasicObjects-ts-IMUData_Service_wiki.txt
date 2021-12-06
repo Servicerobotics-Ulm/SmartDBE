@@ -1,0 +1,5 @@
+ForkingServiceDefinition Service: [IMUData] Pattern: PushPattern {
+DataType       :CommBasicObjects.CommIMUData
+|——    : <> {
+| }
+}

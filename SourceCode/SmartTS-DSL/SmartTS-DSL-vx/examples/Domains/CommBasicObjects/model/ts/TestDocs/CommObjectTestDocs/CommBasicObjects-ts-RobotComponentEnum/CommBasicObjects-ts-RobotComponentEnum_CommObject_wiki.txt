@@ -1,0 +1,5 @@
+|  |——Enumeration   : <RobotComponentEnum> {
+|  |  |——0 : ROBOT_BASE_COMPONENT
+|  |  |——1 : ROBOT_STEER_COMPONENT
+|  |  |——2 : ROBOT_TURRET_COMPONENT
+|  | }

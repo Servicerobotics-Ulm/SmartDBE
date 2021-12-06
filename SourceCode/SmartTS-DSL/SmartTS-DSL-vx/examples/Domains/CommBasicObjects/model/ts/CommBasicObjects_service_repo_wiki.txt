@@ -1,0 +1,785 @@
+ServiceDefRepository CommBasicObjects[
+ForkingServiceDefinition Service: [LaserService] Pattern: PushPattern {
+DataType       :CommBasicObjects.CommMobileLaserScan
+|——    : <> {
+| }
+}
+RequestAnswerServiceDefinition Service: [LaserQueryService] Pattern: QueryPattern {
+RequestType    :CommBasicObjects.CommVoid
+|——    : <> {
+| }
+
+AnswerType     :CommBasicObjects.CommMobileLaserScan
+|——    : <> {
+| }
+}
+ForkingServiceDefinition Service: [TrafficLightsService] Pattern: PushPattern {
+DataType       :CommBasicObjects.CommTrafficLights
+|——    : <> {
+| }
+}
+ForkingServiceDefinition Service: [JoystickService] Pattern: PushPattern {
+DataType       :CommBasicObjects.CommJoystick
+|——    : <> {
+| }
+}
+ForkingServiceDefinition Service: [BaseStateService] Pattern: PushPattern {
+DataType       :CommBasicObjects.CommBaseState
+|——    : <> {
+| }
+}
+RequestAnswerServiceDefinition Service: [BaseStateQueryService] Pattern: QueryPattern {
+RequestType    :CommBasicObjects.CommVoid
+|——    : <> {
+| }
+
+AnswerType     :CommBasicObjects.CommBaseState
+|——    : <> {
+| }
+}
+RequestAnswerServiceDefinition Service: [DevicePoseStateQueryService] Pattern: QueryPattern {
+RequestType    :CommBasicObjects.CommVoid
+|——    : <> {
+| }
+
+AnswerType     :CommBasicObjects.CommDevicePoseState
+|——    : <> {
+| }
+}
+ForkingServiceDefinition Service: [DevicePoseUpdateService] Pattern: PushPattern {
+DataType       :CommBasicObjects.CommDevicePoseState
+|——    : <> {
+| }
+}
+CoordinationServiceDefinition Service: [DefaultCoordinationService] Pattern: NotAssigned { Not One Of The Currently Handled Service Patterns }
+CoordinationServiceDefinition Service: [WebInterfaceCoordinationService] Pattern: NotAssigned { Not One Of The Currently Handled Service Patterns }
+ForkingServiceDefinition Service: [IMUData] Pattern: PushPattern {
+DataType       :CommBasicObjects.CommIMUData
+|——    : <> {
+| }
+}
+ForkingServiceDefinition Service: [BumperEventService] Pattern: EventPattern {
+EventType      :CommBasicObjects.CommBumperEventResult
+|——    : <> {
+| }
+
+ActivationType :CommBasicObjects.CommBumperEventParameter
+|——    : <> {
+| }
+
+EventStateType :CommBasicObjects.CommBumperEventState
+|——    : <> {
+| }
+}
+ForkingServiceDefinition Service: [BatteryEventService] Pattern: EventPattern {
+EventType      :CommBasicObjects.CommBatteryEvent
+|——    : <> {
+| }
+
+ActivationType :CommBasicObjects.CommBatteryParameter
+|——    : <> {
+| }
+
+EventStateType :CommBasicObjects.CommBatteryState
+|——    : <> {
+| }
+}
+ForkingServiceDefinition Service: [LaserSafetyEventService] Pattern: EventPattern {
+EventType      :CommBasicObjects.CommLaserSafetyField
+|——    : <> {
+| }
+
+ActivationType :CommBasicObjects.CommLaserSafetyEventParam
+|——    : <> {
+| }
+
+EventStateType :CommBasicObjects.CommLaserSafetyEventState
+|——    : <> {
+| }
+}
+RequestAnswerServiceDefinition Service: [FileReadQueryService] Pattern: QueryPattern {
+RequestType    :CommBasicObjects.CommFileReadRequest
+|——    : <> {
+| }
+
+AnswerType     :CommBasicObjects.CommFileReadAnswer
+|——    : <> {
+| }
+}
+RequestAnswerServiceDefinition Service: [FileWriteQueryService] Pattern: QueryPattern {
+RequestType    :CommBasicObjects.CommFileWriteRequest
+|——    : <> {
+| }
+
+AnswerType     :CommBasicObjects.CommFileWriteAnswer
+|——    : <> {
+| }
+}
+ForkingServiceDefinition Service: [FileMoveEventService] Pattern: EventPattern {
+EventType      :CommBasicObjects.CommFileMoverEventResult
+|——    : <> {
+| }
+
+ActivationType :CommBasicObjects.CommFileMoverEventParameter
+|——    : <> {
+| }
+
+EventStateType :CommBasicObjects.CommFileMoverEventState
+|——    : <> {
+| }
+}
+CoordinationServiceDefinition Service: [KBCoordinationService] Pattern: NotAssigned { Not One Of The Currently Handled Service Patterns }
+ForkingServiceDefinition Service: [CommKBEvent] Pattern: EventPattern {
+EventType      :CommBasicObjects.CommKBEventResult
+|——    : <> {
+| }
+
+ActivationType :CommBasicObjects.CommKBEventParam
+|——    : <> {
+| }
+
+EventStateType :CommBasicObjects.CommVoid
+|——    : <> {
+| }
+}
+RequestAnswerServiceDefinition Service: [CommKBQuery] Pattern: QueryPattern {
+RequestType    :CommBasicObjects.CommKBRequest
+|——    : <> {
+| }
+
+AnswerType     :CommBasicObjects.CommKBResponse
+|——    : <> {
+| }
+}
+ForkingServiceDefinition Service: [TaskEvent] Pattern: EventPattern {
+EventType      :CommBasicObjects.CommTaskMessage
+|——    : <> {
+| }
+
+ActivationType :CommBasicObjects.CommTaskMessage
+|——    : <> {
+| }
+
+EventStateType :CommBasicObjects.CommTaskEventState
+|——    : <> {
+| }
+}
+JoiningServiceDefinition Service: [TaskSend] Pattern: SendPattern {
+DataType       :CommBasicObjects.CommTaskMessage
+|——    : <> {
+| }
+}
+ForkingServiceDefinition Service: [TaskResult] Pattern: PushPattern {
+DataType       :CommBasicObjects.CommTaskMessage
+|——    : <> {
+| }
+}
+ForkingServiceDefinition Service: [MobileIRPush] Pattern: PushPattern {
+DataType       :CommBasicObjects.CommMobileIRScan
+|——    : <> {
+| }
+}
+ForkingServiceDefinition Service: [SequnecerHLInterfaceEvent] Pattern: EventPattern {
+EventType      :CommBasicObjects.CommSkillMsg
+|——    : <> {
+| }
+
+ActivationType :CommBasicObjects.CommSkillMsg
+|——    : <> {
+| }
+
+EventStateType :CommBasicObjects.CommSkillMsg
+|——    : <> {
+| }
+}
+JoiningServiceDefinition Service: [SequnecerHLInterfaceSend] Pattern: SendPattern {
+DataType       :CommBasicObjects.CommSkillMsg
+|——    : <> {
+| }
+}
+CoordinationServiceDefinition Service: [LaserFromRGBDCoordinationService] Pattern: NotAssigned { Not One Of The Currently Handled Service Patterns }
+CoordinationServiceDefinition Service: [VisualizationCoordinationService] Pattern: NotAssigned { Not One Of The Currently Handled Service Patterns }
+ForkingServiceDefinition Service: [UltrasonicService] Pattern: PushPattern {
+DataType       :CommBasicObjects.CommMobileUltrasonicScan
+|——    : <> {
+| }
+}
+CoordinationServiceDefinition Service: [SequencerHLCoordinationServer] Pattern: NotAssigned { Not One Of The Currently Handled Service Patterns }
+RequestAnswerServiceDefinition Service: [CommIOValuesQueryService] Pattern: QueryPattern {
+RequestType    :CommBasicObjects.CommIOValues
+|——    : <> {
+| }
+
+AnswerType     :CommBasicObjects.CommIOValues
+|——    : <> {
+| }
+}
+ForkingServiceDefinition Service: [CommIOForkingService] Pattern: PushPattern {
+DataType       :CommBasicObjects.CommIOValues
+|——    : <> {
+| }
+}
+ForkingServiceDefinition Service: [CommDigitalInputEvent] Pattern: EventPattern {
+EventType      :CommBasicObjects.CommDigitalInputEventResult
+|——    : <> {
+| }
+
+ActivationType :CommBasicObjects.CommDigitalInputEventParameter
+|——    : <> {
+| }
+
+EventStateType :CommBasicObjects.CommDigitalInputEventState
+|——    : <> {
+| }
+}
+CoordinationServiceDefinition Service: [IRComponentCoordinationService] Pattern: NotAssigned { Not One Of The Currently Handled Service Patterns }
+CoordinationServiceDefinition Service: [Seq2SeqComCoordinationService] Pattern: NotAssigned { Not One Of The Currently Handled Service Patterns }
+CoordinationServiceDefinition Service: [FileOperationsCoordinationService] Pattern: NotAssigned { Not One Of The Currently Handled Service Patterns }
+CoordinationServiceDefinition Service: [IOQueryCoordinationService] Pattern: NotAssigned { Not One Of The Currently Handled Service Patterns }
+CoordinationServiceDefinition Service: [LaserSafetyCoordinationService] Pattern: NotAssigned { Not One Of The Currently Handled Service Patterns }
+|  |——CommObject    : <CommVoid> {
+|  |  |——Int32     : <dummy>
+|  | }
+|  |——CommObject    : <CommBool> {
+|  |  |——Boolean     : <boolValue>
+|  | }
+|  |——CommObject    : <CommTimeStamp> {
+|  |  |——UInt32     : <sec>
+|  |  |——UInt32     : <usec>
+|  | }
+|  |——CommObject    : <CommPosition3d> {
+|  |  |——Double     : <x>
+|  |  |——Double     : <y>
+|  |  |——Double     : <z>
+|  | }
+|  |——CommObject    : <CommPosition3dWithCovariance> {
+|  |  |——[Local]CommPosition3d    : <position> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——Double     : <covMatrix>[9]
+|  | }
+|  |——CommObject    : <CommOrientation3d> {
+|  |  |——Double     : <azimuth>
+|  |  |——Double     : <elevation>
+|  |  |——Double     : <roll>
+|  | }
+|  |——CommObject    : <CommPose3d> {
+|  |  |——[Local]CommPosition3d    : <position> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]CommOrientation3d    : <orientation> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——CommObject    : <CommPose3dWithCovariance> {
+|  |  |——[Local]CommPose3d    : <pose> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——Double     : <covMatrix>[36]
+|  | }
+|  |——CommObject    : <CommDirection3d> {
+|  |  |——Double     : <azimuth>
+|  |  |——Double     : <elevation>
+|  | }
+|  |——CommObject    : <CommDevicePoseState> {
+|  |  |——[Local]CommBaseState    : <stateBase> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]CommPose3d    : <devicePose> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——CommObject    : <CommBaseState> {
+|  |  |——[Local]CommTimeStamp    : <timeStamp> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]CommBasePose    : <basePose> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]CommBasePose    : <baseOdomPose> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]CommBaseVelocity    : <baseVelocity> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]CommBaseVelocity    : <baseOdomVelocity> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]CommBatteryLevel    : <batteryState> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]CommBumperState    : <baseBumperState> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——CommObject    : <CommBasePose> {
+|  |  |——Boolean     : <covInvalid>
+|  |  |——Double     : <covMatrix>[9]
+|  |  |——UInt32     : <updateCount>
+|  |  |——[Local]CommPose3d    : <pose3D> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]CommTimeStamp    : <timeStamp> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——CommObject    : <CommBaseVelocity> {
+|  |  |——Double     : <vX>
+|  |  |——Double     : <vY>
+|  |  |——Double     : <vZ>
+|  |  |——Double     : <wX>
+|  |  |——Double     : <wY>
+|  |  |——Double     : <wZ>
+|  |  |——[Local]CommTimeStamp    : <timeStamp> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——CommObject    : <CommNavigationVelocity> {
+|  |  |——Double     : <vX>
+|  |  |——Double     : <vY>
+|  |  |——Double     : <omega>
+|  | }
+|  |——CommObject    : <CommBatteryLevel> {
+|  |  |——Double     : <potential>
+|  |  |——Int32     : <chargeLevel>
+|  |  |——[Local]CommTimeStamp    : <lifeTime> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]CommTimeStamp    : <timeStamp> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——Double     : <current>
+|  |  |——Boolean     : <externalPower>
+|  | }
+|  |——CommObject    : <CommBasePositionUpdate> {
+|  |  |——[Local]CommTimeStamp    : <timeStamp> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]CommBasePose    : <pose> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]CommBasePose    : <correctedPose> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]CommBaseVelocity    : <velocity> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]CommBaseVelocity    : <correctedVelocity> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——Enumeration   : <RobotComponentEnum> {
+|  |  |——0 : ROBOT_BASE_COMPONENT
+|  |  |——1 : ROBOT_STEER_COMPONENT
+|  |  |——2 : ROBOT_TURRET_COMPONENT
+|  | }
+|  |——CommObject    : <CommBumperState> {
+|  |  |——[Local]BumperStateType    : <bumperState> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——Enumeration   : <BumperStateType> {
+|  |  |——0 : BUMPER_NOT_SUPPORTED
+|  |  |——1 : BUMPER_NOT_PRESSED
+|  |  |——2 : BUMPER_PRESSED
+|  | }
+|  |——Enumeration   : <BumperEventType> {
+|  |  |——0 : BUMPER_UNKNOWN
+|  |  |——1 : BUMPER_NOT_PRESSED
+|  |  |——2 : BUMPER_PRESSED
+|  | }
+|  |——CommObject    : <CommBumperEventParameter> {
+|  |  |——[Local]BumperEventType    : <oldState> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——CommObject    : <CommBumperEventResult> {
+|  |  |——[Local]BumperEventType    : <state> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——CommObject    : <CommBumperEventState> {
+|  |  |——[Local]BumperEventType    : <newState> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——CommObject    : <CommBatteryParameter> {
+|  |  |——Double     : <upperThreshold>
+|  |  |——Double     : <lowerThreshold>
+|  |  |——[Local]ComparisonState    : <desiredState> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]ComparisonState    : <currentState> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——Enumeration   : <ComparisonState> {
+|  |  |——0 : UNKNOWN
+|  |  |——1 : GREATER
+|  |  |——2 : LOWER
+|  |  |——3 : INBETWEEN
+|  | }
+|  |——CommObject    : <CommBatteryState> {
+|  |  |——Double     : <chargeValue>
+|  | }
+|  |——CommObject    : <CommBatteryEvent> {
+|  |  |——Double     : <chargeValue>
+|  |  |——[Local]ComparisonState    : <state> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——CommObject    : <CommMobileLaserScan> {
+|  |  |——[Local]CommBaseState    : <base_state> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]LaserScan6DPose    : <laser_scan_pose> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]CommPose3d    : <laser_world_pose> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——CommObject    : <CommLaserScan> {
+|  |  |——Boolean     : <is_valid>
+|  |  |——[Local]CommTimeStamp    : <time> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——UInt64     : <update_count>
+|  |  |——Double     : <start_angle>
+|  |  |——Double     : <resolution>
+|  |  |——UInt16     : <distance_min>
+|  |  |——UInt16     : <distance_max>
+|  |  |——UInt16     : <length_unit>
+|  |  |——[Local]LaserScanPoint    : <scan_points>[2147483647] {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——UInt16     : <max_scan_points>
+|  | }
+|  |——CommObject    : <LaserScanPoint> {
+|  |  |——UInt16     : <index>
+|  |  |——UInt16     : <distance>
+|  |  |——UInt8     : <intensity>
+|  | }
+|  |——CommObject    : <LaserScan6DPose> {
+|  |  |——[Local]CommLaserScan    : <laser_scan> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]CommPose3d    : <sensor_pose> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——CommObject    : <CommPropertySet> {
+|  |  |——[Local]PropertySetEntry    : <sets>[2147483647] {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]PropertyItemEntry    : <items>[2147483647] {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——CommObject    : <PropertySetEntry> {
+|  |  |——String     : <key>
+|  |  |——UInt32     : <parent>
+|  | }
+|  |——CommObject    : <PropertyItemEntry> {
+|  |  |——String     : <key>
+|  |  |——String     : <value>
+|  |  |——UInt32     : <parent>
+|  | }
+|  |——CommObject    : <CommTCLMessage> {
+|  |  |——String     : <lisp>
+|  | }
+|  |——CommObject    : <CommTaskMessage> {
+|  |  |——String     : <msg>
+|  | }
+|  |——CommObject    : <CommTaskEventState> {
+|  |  |——String     : <robotTarget>
+|  |  |——[Local]CommTaskMessage    : <job> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——CommObject    : <CommJoystick> {
+|  |  |——Int16     : <xpos>
+|  |  |——Int16     : <ypos>
+|  |  |——Int16     : <x2pos>
+|  |  |——Int16     : <y2pos>
+|  |  |——UInt16     : <buttons>
+|  | }
+|  |——CommObject    : <CommIMUData> {
+|  |  |——UInt16     : <timestamp>
+|  |  |——Double     : <temperature>
+|  |  |——Double     : <accelerometer_x>
+|  |  |——Double     : <accelerometer_y>
+|  |  |——Double     : <accelerometer_z>
+|  |  |——Double     : <gyroscope_x>
+|  |  |——Double     : <gyroscope_y>
+|  |  |——Double     : <gyroscope_z>
+|  |  |——Double     : <magnetometer_x>
+|  |  |——Double     : <magnetometer_y>
+|  |  |——Double     : <magnetometer_z>
+|  |  |——Double     : <roll>
+|  |  |——Double     : <pitch>
+|  |  |——Double     : <yaw>
+|  | }
+|  |——CommObject    : <CommMobileIRScan> {
+|  |  |——Boolean     : <is_valid>
+|  |  |——[Local]CommBaseState    : <baseState> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]CommIRScan    : <irScan> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——CommObject    : <CommIRScan> {
+|  |  |——Double     : <distance_min>
+|  |  |——Double     : <distance_max>
+|  |  |——[Local]CommPose3d    : <poses3D>[2147483647] {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——Double     : <distances>[2147483647]
+|  |  |——[Local]CommTimeStamp    : <timeStamp> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——Double     : <raw_readings>[2147483647]
+|  | }
+|  |——CommObject    : <CommMobileUltrasonicScan> {
+|  |  |——[Local]CommBaseState    : <baseState> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]CommUltrasonicScan    : <usScan> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——CommObject    : <CommUltrasonicScan> {
+|  |  |——[Local]CommTimeStamp    : <timeStamp> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]CommPose3d    : <scanPoints>[2147483647] {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——Double     : <intensities>[2147483647]
+|  | }
+|  |——CommObject    : <CommLaserSafetyField> {
+|  |  |——[Local]SafetyFieldState    : <protectiveState> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]SafetyFieldState    : <warningState> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——CommObject    : <CommLaserSafetyEventState> {
+|  |  |——[Local]SafetyFieldState    : <protectiveState> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]SafetyFieldState    : <warningState> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——CommObject    : <CommLaserSafetyEventParam> {
+|  |  |——[Local]SafetyFieldState    : <protectiveState> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]SafetyFieldState    : <warningState> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——Enumeration   : <SafetyFieldState> {
+|  |  |——0 : FREE
+|  |  |——1 : BLOCKED
+|  |  |——2 : UNKNOWN
+|  | }
+|  |——Enumeration   : <BaseTagType> {
+|  |  |——0 : SIGNAL_STATE_IDLE
+|  |  |——1 : SIGNAL_STATE_ERROR
+|  |  |——2 : SIGNAL_STATE_BUSY
+|  |  |——3 : SIGNAL_STATE_LOCALIZATION_ERROR
+|  |  |——4 : SIGNAL_STATE_SAFETY_FIELD
+|  | }
+|  |——CommObject    : <CommDataFile> {
+|  |  |——String     : <filename>
+|  |  |——UInt32     : <filesize>
+|  |  |——[Local]CommTimeStamp    : <timestamp> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——Int8     : <data>[2147483647]
+|  |  |——Boolean     : <valid>
+|  | }
+|  |——Enumeration   : <FileType> {
+|  |  |——0 : FILE_REGULAR
+|  |  |——1 : FILE_DIRECTORY
+|  | }
+|  |——CommObject    : <CommFileMetaData> {
+|  |  |——String     : <filename>
+|  |  |——UInt32     : <filesize>
+|  |  |——[Local]FileType    : <filetype> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——CommObject    : <CommDataFiles> {
+|  |  |——[Local]CommFileMetaData    : <fileMetaData>[2147483647] {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]CommTimeStamp    : <timestamp> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——Int8     : <datastream>[2147483647]
+|  |  |——Boolean     : <commpression>
+|  |  |——String     : <baseFileName>
+|  |  |——Boolean     : <isSingleFile>
+|  |  |——Boolean     : <valid>
+|  | }
+|  |——CommObject    : <CommFileReadRequest> {
+|  |  |——String     : <filename>
+|  |  |——Boolean     : <compressFile>
+|  | }
+|  |——CommObject    : <CommFileReadAnswer> {
+|  |  |——Boolean     : <success>
+|  |  |——[Local]CommDataFiles    : <file> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——CommObject    : <CommFileWriteRequest> {
+|  |  |——[Local]CommDataFiles    : <file> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——String     : <filename>
+|  | }
+|  |——CommObject    : <CommFileWriteAnswer> {
+|  |  |——Boolean     : <success>
+|  | }
+|  |——Enumeration   : <FileMoverEventType> {
+|  |  |——0 : TYPE_FILE_UNKNOWN
+|  |  |——1 : TYPE_FILE_SUCCESS
+|  |  |——2 : TYPE_FILE_ERROR
+|  | }
+|  |——CommObject    : <CommFileMoverEventResult> {
+|  |  |——[Local]FileMoverEventType    : <state> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——CommObject    : <CommFileMoverEventParameter> {
+|  |  |——[Local]FileMoverEventType    : <oldState> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——CommObject    : <CommFileMoverEventState> {
+|  |  |——[Local]FileMoverEventType    : <newState> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——CommObject    : <CommKBEventResult> {
+|  |  |——String     : <result>
+|  |  |——String     : <formatedResult>
+|  | }
+|  |——CommObject    : <CommKBEventParam> {
+|  |  |——String     : <query>
+|  |  |——String     : <latestState>
+|  |  |——String     : <formatingClause>
+|  | }
+|  |——CommObject    : <CommKBRequest> {
+|  |  |——String     : <request>
+|  | }
+|  |——CommObject    : <CommKBResponse> {
+|  |  |——String     : <response>
+|  | }
+|  |——CommObject    : <CommSkillMsg> {
+|  |  |——String     : <msg>
+|  | }
+|  |——CommObject    : <CommTrafficLights> {
+|  |  |——Boolean     : <red>
+|  |  |——Boolean     : <yellow>
+|  |  |——Boolean     : <green>
+|  | }
+|  |——CommObject    : <CommAnalogOutputRequest> {
+|  |  |——UInt32     : <outputNumber>
+|  |  |——Double     : <outputValue>
+|  | }
+|  |——CommObject    : <CommDigitalOutputRequest> {
+|  |  |——UInt32     : <outputNumber>
+|  |  |——Boolean     : <outputValue>
+|  | }
+|  |——CommObject    : <CommIOValues> {
+|  |  |——Float     : <analogInputValues>[2147483647]
+|  |  |——Boolean     : <digitalInputValues>[2147483647]
+|  |  |——[Local]CommAnalogOutputRequest    : <analogOutputValues>[2147483647] {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]CommDigitalOutputRequest    : <digitalOutputValues>[2147483647] {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——CommObject    : <CommDigitalInputEventResult> {
+|  |  |——Boolean     : <digitalInputValues>[2147483647]
+|  | }
+|  |——CommObject    : <CommDigitalInputEventState> {
+|  |  |——Boolean     : <digitalInputValues>[2147483647]
+|  | }
+|  |——CommObject    : <CommDigitalInputEventParameter> {
+|  |  |——UInt32     : <digitalInputValuesNumber>
+|  |  |——Boolean     : <digitalInputValue>
+|  | }
+]

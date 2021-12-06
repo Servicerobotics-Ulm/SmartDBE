@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="dsl" nsURI="http://www.xtext.org/smartaas/nameplate/Dsl" nsPrefix="dsl">
+  <eClassifiers xsi:type="ecore:EClass" name="Model">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="nameplate" upperBound="-1"
+        eType="#//NameplateSubmodel" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="NameplateSubmodel">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ManufacturerName" eType="#//MultiLanguagePropertyManufacturerName"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ManufacturerProductDesignation"
+        eType="#//MultiLanguagePropertyManufacturerProductDesignation" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Address" eType="#//AddressSubmodelElementCollection"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ManufacturerProductFamily"
+        eType="#//MultiLanguagePropertyManufacturerProductFamily" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SerialNumber" eType="#//MultiLanguagePropertySerialNumber"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="YearOfConstruction" eType="#//MultiLanguagePropertyYearOfConstruction"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Markings" eType="#//SubmodelElementCollectionMarkings"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="AssetSpecificProperties"
+        eType="#//SubmodelElementCollectionAssetSpecificProperties" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MultiLanguagePropertyManufacturerName">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MultiLanguagePropertyManufacturerProductDesignation">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MultiLanguagePropertyManufacturerProductFamily">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MultiLanguagePropertySerialNumber">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MultiLanguagePropertyYearOfConstruction">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AddressSubmodelElementCollection">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Department" eType="#//MultiLanguagePropertyDepartment"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Street" eType="#//MultiLanguagePropertyStreet"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Zipcode" eType="#//MultiLanguagePropertyZipcode"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="POBox" eType="#//MultiLanguagePropertyPOBox"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ZipCodeOfPOBox" eType="#//MultiLanguagePropertyZipCodeOfPOBox"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="CityTown" eType="#//MultiLanguagePropertyCityTown"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="StateCounty" eType="#//MultiLanguagePropertyStateCounty"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="NationalCode" eType="#//MultiLanguagePropertyNationalCode"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="VATNumber" eType="#//MultiLanguagePropertyVATNumber"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="AddressRemarks" eType="#//MultiLanguagePropertyAddressRemarks"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="AddressOfAdditionalLink"
+        eType="#//MultiLanguagePropertyAddressOfAdditionalLink" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Phone" upperBound="-1"
+        eType="#//PhoneSubmodelElementCollection" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Fax" upperBound="-1" eType="#//FaxSubmodelElementCollection"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Email" upperBound="-1"
+        eType="#//EmailSubmodelElementCollection" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MultiLanguagePropertyDepartment">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MultiLanguagePropertyStreet">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MultiLanguagePropertyZipcode">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MultiLanguagePropertyPOBox">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MultiLanguagePropertyZipCodeOfPOBox">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MultiLanguagePropertyCityTown">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MultiLanguagePropertyStateCounty">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MultiLanguagePropertyNationalCode">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MultiLanguagePropertyVATNumber">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MultiLanguagePropertyAddressRemarks">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MultiLanguagePropertyAddressOfAdditionalLink">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PhoneSubmodelElementCollection">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="TelephoneNumber" eType="#//MultiLanguagePropertyTelephoneNumber"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="TypeOfTelephone" eType="#//PropertyTypeOfTelephone"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MultiLanguagePropertyTelephoneNumber">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PropertyTypeOfTelephone">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="FaxSubmodelElementCollection">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="FaxNumber" eType="#//MultiLanguagePropertyFax"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="TypeOfFaxNumber" eType="#//PropertyTypeOfFaxNumber"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MultiLanguagePropertyFax">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PropertyTypeOfFaxNumber">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="EmailSubmodelElementCollection">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="EmailAddress" eType="#//PropertyEmailAddress"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="TypeOfEmailAddress" eType="#//PropertyTypeOfEmailAddress"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="PublicKey" eType="#//MultiLanguagePropertyPublicKey"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="TypeOfPublickKey" eType="#//MultiLanguagePropertyTypeOfPublickKey"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PropertyEmailAddress">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PropertyTypeOfEmailAddress">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MultiLanguagePropertyPublicKey">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MultiLanguagePropertyTypeOfPublickKey">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SubmodelElementCollectionMarkings">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Marking" upperBound="-1"
+        eType="#//SubmodelElementCollectionMarking" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SubmodelElementCollectionMarking">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="MarkingName" eType="#//PropertyMarkingName"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="MarkingFile" eType="#//FileMarkingFile"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="MarkingAdditionalText"
+        upperBound="-1" eType="#//PropertyMarkingAdditionalText" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PropertyMarkingName">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="FileMarkingFile">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PropertyMarkingAdditionalText">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SubmodelElementCollectionAssetSpecificProperties">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="GuidelineSpecificProperties"
+        upperBound="-1" eType="#//SubmodelElementCollectionGuidelineSpecificProperties"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SubmodelElementCollectionGuidelineSpecificProperties">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="GuidelineForConformityDeclaration"
+        eType="#//PropertyGuidelineForConformityDeclaration" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Arbitrary" upperBound="-1"
+        eType="#//PropertyArbitrary" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PropertyGuidelineForConformityDeclaration">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PropertyArbitrary">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SemanticId" eType="#//SID"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SID">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="II" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+</ecore:EPackage>

@@ -1,0 +1,10 @@
+TestEntityName,DomainHMI-ts-CommTrafficLight-ts-Boolean-ts-red
+<<IS PRIMITIVE>>
+<<IS LOCAL>>
+
+<<TS_DATA>
+true
+false
+false
+true
+<TS_DATA>>

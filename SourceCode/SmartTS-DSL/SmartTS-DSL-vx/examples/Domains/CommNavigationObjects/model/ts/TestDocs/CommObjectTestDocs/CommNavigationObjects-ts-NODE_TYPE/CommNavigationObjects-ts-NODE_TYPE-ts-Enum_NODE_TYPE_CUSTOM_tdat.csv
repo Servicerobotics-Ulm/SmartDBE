@@ -1,0 +1,13 @@
+TestEntityName,CommNavigationObjects-ts-NODE_TYPE-ts-Enum_NODE_TYPE
+0,NORMAL
+1,CROSS
+2,WAIT
+3,NEWCROSS
+<<IS ENUM>>
+
+<<TS_DATA>
+0,<<WIKI>,Test for identifier NORMAL,<WIKI>>
+1,<<WIKI>,Test for identifier CROSS,<WIKI>>
+2,<<WIKI>,Test for identifier WAIT,<WIKI>>
+3,<<WIKI>,Test for identifier NEWCROSS,<WIKI>>
+<TS_DATA>>

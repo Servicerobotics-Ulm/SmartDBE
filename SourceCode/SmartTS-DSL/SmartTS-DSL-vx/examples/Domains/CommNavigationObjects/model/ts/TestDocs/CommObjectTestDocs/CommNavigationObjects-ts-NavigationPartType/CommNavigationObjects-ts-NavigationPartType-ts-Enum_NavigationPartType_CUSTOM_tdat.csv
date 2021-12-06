@@ -1,0 +1,11 @@
+TestEntityName,CommNavigationObjects-ts-NavigationPartType-ts-Enum_NavigationPartType
+0,GRID_BASED_FREE_NAV
+1,CORRIDOR_BASED_COORDINATED_NAV
+2,GRID_BASED_COORDINATED_NAV
+<<IS ENUM>>
+
+<<TS_DATA>
+0,<<WIKI>,Test for identifier GRID_BASED_FREE_NAV,<WIKI>>
+1,<<WIKI>,Test for identifier CORRIDOR_BASED_COORDINATED_NAV,<WIKI>>
+2,<<WIKI>,Test for identifier GRID_BASED_COORDINATED_NAV,<WIKI>>
+<TS_DATA>>

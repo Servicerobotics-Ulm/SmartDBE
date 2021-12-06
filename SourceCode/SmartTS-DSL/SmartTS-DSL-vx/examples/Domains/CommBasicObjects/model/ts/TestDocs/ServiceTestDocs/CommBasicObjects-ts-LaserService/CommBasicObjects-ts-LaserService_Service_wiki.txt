@@ -1,0 +1,5 @@
+ForkingServiceDefinition Service: [LaserService] Pattern: PushPattern {
+DataType       :CommBasicObjects.CommMobileLaserScan
+|——    : <> {
+| }
+}

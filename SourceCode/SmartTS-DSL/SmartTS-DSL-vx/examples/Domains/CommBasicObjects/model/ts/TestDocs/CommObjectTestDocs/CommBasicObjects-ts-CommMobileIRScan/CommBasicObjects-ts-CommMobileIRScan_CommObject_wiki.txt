@@ -1,0 +1,11 @@
+|  |——CommObject    : <CommMobileIRScan> {
+|  |  |——Boolean     : <is_valid>
+|  |  |——[Local]CommBaseState    : <baseState> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]CommIRScan    : <irScan> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }

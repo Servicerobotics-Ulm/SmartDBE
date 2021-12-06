@@ -1,0 +1,13 @@
+ForkingServiceDefinition Service: [CommDigitalInputEvent] Pattern: EventPattern {
+EventType      :CommBasicObjects.CommDigitalInputEventResult
+|——    : <> {
+| }
+
+ActivationType :CommBasicObjects.CommDigitalInputEventParameter
+|——    : <> {
+| }
+
+EventStateType :CommBasicObjects.CommDigitalInputEventState
+|——    : <> {
+| }
+}

@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServiceRepositoryTestSetContainer>
+   <ServiceRepositoryName>DomainHMI</ServiceRepositoryName>
+   <CommObjectTestSets>
+      <TestEntityName>DomainHMI-ts-CommTrafficLight-ts-Boolean-ts-red</TestEntityName>
+      <TestSetFileName>DomainHMI-ts-CommTrafficLight-ts-Boolean-ts-red_DEFAULT_tset.csv</TestSetFileName>
+      <TestDataFileName>DomainHMI-ts-CommTrafficLight-ts-Boolean-ts-red_DEFAULT_tdat.csv</TestDataFileName>
+      <isDefault>true</isDefault>
+      <isCustom>false</isCustom>
+      <isCustomX>false</isCustomX>
+      <isImport>false</isImport>
+      <ImportSourceRepository>Not Available</ImportSourceRepository>
+      <isLocal>true</isLocal>
+      <isEnum>false</isEnum>
+      <isPrimitive>true</isPrimitive>
+      <isNonPrimitive>false</isNonPrimitive>
+      <isArray>false</isArray>
+      <isNonPrimitiveArray>false</isNonPrimitiveArray>
+      <ZeroSizeArrayError>false</ZeroSizeArrayError>
+      <isInvalid>false</isInvalid>
+      <LogString>Test Data -Compile-> Test Set | DomainHMI-ts-CommTrafficLight-ts-Boolean-ts-red_DEFAULT_tdat.csv | isDefault isLocal isPrimitive | isValid </LogString>
+      <NotAvailableIdentifier>Not Available</NotAvailableIdentifier>
+      <CommObjectInfo>|  |——CommObject    : &lt;CommTrafficLight> {
+|  |  |——Boolean     : &lt;red>
+|  |  |——Boolean     : &lt;green>
+|  |  |——Boolean     : &lt;yellow>
+|  | }
+</CommObjectInfo>
+      <AttributeInfo>|  |  |——Boolean     : &lt;red>
+</AttributeInfo>
+      <TestData>TestEntityName,DomainHMI-ts-CommTrafficLight-ts-Boolean-ts-red
+&lt;&lt;IS PRIMITIVE>>
+&lt;&lt;IS LOCAL>>
+
+&lt;&lt;TS_DATA>
+true
+false
+false
+true
+&lt;TS_DATA>>
+</TestData>
+      <TestSet>true</TestSet>
+      <TestSet>false</TestSet>
+      <TestSet>false</TestSet>
+      <TestSet>true</TestSet>
+      <verbosCompileDefault>false</verbosCompileDefault>
+      <verbosCompile>false</verbosCompile>
+   </CommObjectTestSets>
+   <CommObjectTestSets>
+      <TestEntityName>DomainHMI-ts-CommTrafficLight-ts-Boolean-ts-red</TestEntityName>
+      <TestSetFileName>DomainHMI-ts-CommTrafficLight-ts-Boolean-ts-red_CUSTOM_tset.csv</TestSetFileName>
+      <TestDataFileName>DomainHMI-ts-CommTrafficLight-ts-Boolean-ts-red_CUSTOM_tdat.csv</TestDataFileName>
+      <isDefault>false</isDefault>
+      <isCustom>true</isCustom>
+      <isCustomX>false</isCustomX>
+      <isImport>false</isImport>
+      <ImportSourceRepository>Not Available</ImportSourceRepository>
+      <isLocal>true</isLocal>
+      <isEnum>false</isEnum>
+      <isPrimitive>true</isPrimitive>
+      <isNonPrimitive>false</isNonPrimitive>
+      <isArray>false</isArray>
+      <isNonPrimitiveArray>false</isNonPrimitiveArray>
+      <ZeroSizeArrayError>false</ZeroSizeArrayError>
+      <isInvalid>false</isInvalid>
+      <LogString>Test Data -Compile-> Test Set | DomainHMI-ts-CommTrafficLight-ts-Boolean-ts-red_CUSTOM_tdat.csv | isCustom isLocal isPrimitive | isValid </LogString>
+      <NotAvailableIdentifier>Not Available</NotAvailableIdentifier>
+      <CommObjectInfo>|  |——CommObject    : &lt;CommTrafficLight> {
+|  |  |——Boolean     : &lt;red>
+|  |  |——Boolean     : &lt;green>
+|  |  |——Boolean     : &lt;yellow>
+|  | }
+</CommObjectInfo>
+      <AttributeInfo>|  |  |——Boolean     : &lt;red>
+</AttributeInfo>
+      <TestData>TestEntityName,DomainHMI-ts-CommTrafficLight-ts-Boolean-ts-red
+&lt;&lt;IS PRIMITIVE>>
+&lt;&lt;IS LOCAL>>
+
+&lt;&lt;TS_DATA>
+true
+false
+false
+true
+&lt;TS_DATA>>
+</TestData>
+      <TestSet>true</TestSet>
+      <TestSet>false</TestSet>
+      <TestSet>false</TestSet>
+      <TestSet>true</TestSet>
+      <verbosCompileDefault>false</verbosCompileDefault>
+      <verbosCompile>false</verbosCompile>
+   </CommObjectTestSets>
+   <CommObjectTestSets>
+      <TestEntityName>DomainHMI-ts-CommTrafficLight-ts-Boolean-ts-green</TestEntityName>
+      <TestSetFileName>DomainHMI-ts-CommTrafficLight-ts-Boolean-ts-green_DEFAULT_tset.csv</TestSetFileName>
+      <TestDataFileName>DomainHMI-ts-CommTrafficLight-ts-Boolean-ts-green_DEFAULT_tdat.csv</TestDataFileName>
+      <isDefault>true</isDefault>
+      <isCustom>false</isCustom>
+      <isCustomX>false</isCustomX>
+      <isImport>false</isImport>
+      <ImportSourceRepository>Not Available</ImportSourceRepository>
+      <isLocal>true</isLocal>
+      <isEnum>false</isEnum>
+      <isPrimitive>true</isPrimitive>
+      <isNonPrimitive>false</isNonPrimitive>
+      <isArray>false</isArray>
+      <isNonPrimitiveArray>false</isNonPrimitiveArray>
+      <ZeroSizeArrayError>false</ZeroSizeArrayError>
+      <isInvalid>false</isInvalid>
+      <LogString>Test Data -Compile-> Test Set | DomainHMI-ts-CommTrafficLight-ts-Boolean-ts-green_DEFAULT_tdat.csv | isDefault isLocal isPrimitive | isValid </LogString>
+      <NotAvailableIdentifier>Not Available</NotAvailableIdentifier>
+      <CommObjectInfo>|  |——CommObject    : &lt;CommTrafficLight> {
+|  |  |——Boolean     : &lt;red>
+|  |  |——Boolean     : &lt;green>
+|  |  |——Boolean     : &lt;yellow>
+|  | }
+</CommObjectInfo>
+      <AttributeInfo>|  |  |——Boolean     : &lt;green>
+</AttributeInfo>
+      <TestData>TestEntityName,DomainHMI-ts-CommTrafficLight-ts-Boolean-ts-green
+&lt;&lt;IS PRIMITIVE>>
+&lt;&lt;IS LOCAL>>
+
+&lt;&lt;TS_DATA>
+true
+false
+false
+true
+&lt;TS_DATA>>
+</TestData>
+      <TestSet>true</TestSet>
+      <TestSet>false</TestSet>
+      <TestSet>false</TestSet>
+      <TestSet>true</TestSet>
+      <verbosCompileDefault>false</verbosCompileDefault>
+      <verbosCompile>false</verbosCompile>
+   </CommObjectTestSets>
+   <CommObjectTestSets>
+      <TestEntityName>DomainHMI-ts-CommTrafficLight-ts-Boolean-ts-green</TestEntityName>
+      <TestSetFileName>DomainHMI-ts-CommTrafficLight-ts-Boolean-ts-green_CUSTOM_tset.csv</TestSetFileName>
+      <TestDataFileName>DomainHMI-ts-CommTrafficLight-ts-Boolean-ts-green_CUSTOM_tdat.csv</TestDataFileName>
+      <isDefault>false</isDefault>
+      <isCustom>true</isCustom>
+      <isCustomX>false</isCustomX>
+      <isImport>false</isImport>
+      <ImportSourceRepository>Not Available</ImportSourceRepository>
+      <isLocal>true</isLocal>
+      <isEnum>false</isEnum>
+      <isPrimitive>true</isPrimitive>
+      <isNonPrimitive>false</isNonPrimitive>
+      <isArray>false</isArray>
+      <isNonPrimitiveArray>false</isNonPrimitiveArray>
+      <ZeroSizeArrayError>false</ZeroSizeArrayError>
+      <isInvalid>false</isInvalid>
+      <LogString>Test Data -Compile-> Test Set | DomainHMI-ts-CommTrafficLight-ts-Boolean-ts-green_CUSTOM_tdat.csv | isCustom isLocal isPrimitive | isValid </LogString>
+      <NotAvailableIdentifier>Not Available</NotAvailableIdentifier>
+      <CommObjectInfo>|  |——CommObject    : &lt;CommTrafficLight> {
+|  |  |——Boolean     : &lt;red>
+|  |  |——Boolean     : &lt;green>
+|  |  |——Boolean     : &lt;yellow>
+|  | }
+</CommObjectInfo>
+      <AttributeInfo>|  |  |——Boolean     : &lt;green>
+</AttributeInfo>
+      <TestData>TestEntityName,DomainHMI-ts-CommTrafficLight-ts-Boolean-ts-green
+&lt;&lt;IS PRIMITIVE>>
+&lt;&lt;IS LOCAL>>
+
+&lt;&lt;TS_DATA>
+true
+false
+false
+true
+&lt;TS_DATA>>
+</TestData>
+      <TestSet>true</TestSet>
+      <TestSet>false</TestSet>
+      <TestSet>false</TestSet>
+      <TestSet>true</TestSet>
+      <verbosCompileDefault>false</verbosCompileDefault>
+      <verbosCompile>false</verbosCompile>
+   </CommObjectTestSets>
+   <CommObjectTestSets>
+      <TestEntityName>DomainHMI-ts-CommTrafficLight-ts-Boolean-ts-yellow</TestEntityName>
+      <TestSetFileName>DomainHMI-ts-CommTrafficLight-ts-Boolean-ts-yellow_DEFAULT_tset.csv</TestSetFileName>
+      <TestDataFileName>DomainHMI-ts-CommTrafficLight-ts-Boolean-ts-yellow_DEFAULT_tdat.csv</TestDataFileName>
+      <isDefault>true</isDefault>
+      <isCustom>false</isCustom>
+      <isCustomX>false</isCustomX>
+      <isImport>false</isImport>
+      <ImportSourceRepository>Not Available</ImportSourceRepository>
+      <isLocal>true</isLocal>
+      <isEnum>false</isEnum>
+      <isPrimitive>true</isPrimitive>
+      <isNonPrimitive>false</isNonPrimitive>
+      <isArray>false</isArray>
+      <isNonPrimitiveArray>false</isNonPrimitiveArray>
+      <ZeroSizeArrayError>false</ZeroSizeArrayError>
+      <isInvalid>false</isInvalid>
+      <LogString>Test Data -Compile-> Test Set | DomainHMI-ts-CommTrafficLight-ts-Boolean-ts-yellow_DEFAULT_tdat.csv | isDefault isLocal isPrimitive | isValid </LogString>
+      <NotAvailableIdentifier>Not Available</NotAvailableIdentifier>
+      <CommObjectInfo>|  |——CommObject    : &lt;CommTrafficLight> {
+|  |  |——Boolean     : &lt;red>
+|  |  |——Boolean     : &lt;green>
+|  |  |——Boolean     : &lt;yellow>
+|  | }
+</CommObjectInfo>
+      <AttributeInfo>|  |  |——Boolean     : &lt;yellow>
+</AttributeInfo>
+      <TestData>TestEntityName,DomainHMI-ts-CommTrafficLight-ts-Boolean-ts-yellow
+&lt;&lt;IS PRIMITIVE>>
+&lt;&lt;IS LOCAL>>
+
+&lt;&lt;TS_DATA>
+true
+false
+false
+true
+&lt;TS_DATA>>
+</TestData>
+      <TestSet>true</TestSet>
+      <TestSet>false</TestSet>
+      <TestSet>false</TestSet>
+      <TestSet>true</TestSet>
+      <verbosCompileDefault>false</verbosCompileDefault>
+      <verbosCompile>false</verbosCompile>
+   </CommObjectTestSets>
+   <CommObjectTestSets>
+      <TestEntityName>DomainHMI-ts-CommTrafficLight-ts-Boolean-ts-yellow</TestEntityName>
+      <TestSetFileName>DomainHMI-ts-CommTrafficLight-ts-Boolean-ts-yellow_CUSTOM_tset.csv</TestSetFileName>
+      <TestDataFileName>DomainHMI-ts-CommTrafficLight-ts-Boolean-ts-yellow_CUSTOM_tdat.csv</TestDataFileName>
+      <isDefault>false</isDefault>
+      <isCustom>true</isCustom>
+      <isCustomX>false</isCustomX>
+      <isImport>false</isImport>
+      <ImportSourceRepository>Not Available</ImportSourceRepository>
+      <isLocal>true</isLocal>
+      <isEnum>false</isEnum>
+      <isPrimitive>true</isPrimitive>
+      <isNonPrimitive>false</isNonPrimitive>
+      <isArray>false</isArray>
+      <isNonPrimitiveArray>false</isNonPrimitiveArray>
+      <ZeroSizeArrayError>false</ZeroSizeArrayError>
+      <isInvalid>false</isInvalid>
+      <LogString>Test Data -Compile-> Test Set | DomainHMI-ts-CommTrafficLight-ts-Boolean-ts-yellow_CUSTOM_tdat.csv | isCustom isLocal isPrimitive | isValid </LogString>
+      <NotAvailableIdentifier>Not Available</NotAvailableIdentifier>
+      <CommObjectInfo>|  |——CommObject    : &lt;CommTrafficLight> {
+|  |  |——Boolean     : &lt;red>
+|  |  |——Boolean     : &lt;green>
+|  |  |——Boolean     : &lt;yellow>
+|  | }
+</CommObjectInfo>
+      <AttributeInfo>|  |  |——Boolean     : &lt;yellow>
+</AttributeInfo>
+      <TestData>TestEntityName,DomainHMI-ts-CommTrafficLight-ts-Boolean-ts-yellow
+&lt;&lt;IS PRIMITIVE>>
+&lt;&lt;IS LOCAL>>
+
+&lt;&lt;TS_DATA>
+true
+false
+false
+true
+&lt;TS_DATA>>
+</TestData>
+      <TestSet>true</TestSet>
+      <TestSet>false</TestSet>
+      <TestSet>false</TestSet>
+      <TestSet>true</TestSet>
+      <verbosCompileDefault>false</verbosCompileDefault>
+      <verbosCompile>false</verbosCompile>
+   </CommObjectTestSets>
+   <ServiceTestSets>
+      <TestEntityName>DomainHMI-ts-TrafficLightService</TestEntityName>
+      <TestSetFileName>DomainHMI-ts-TrafficLightService_tset.csv</TestSetFileName>
+      <TestDataFileName>DomainHMI-ts-TrafficLightService_tdat.csv</TestDataFileName>
+      <ServiceName>TrafficLightService</ServiceName>
+      <ServiceType>JoiningServiceDefinition</ServiceType>
+      <PatternType>SendPattern</PatternType>
+      <CommObjectList>DataType</CommObjectList>
+      <OneOfTheCurrentlyHandledServicePattern>true</OneOfTheCurrentlyHandledServicePattern>
+      <isInvalid>false</isInvalid>
+      <LogString>Test Data -Compile-> Test Set | DomainHMI-ts-TrafficLightService_tdat.csv | | IS-OneOfTheCurrentlyHandledServicePattern | isValid </LogString>
+      <NotAvailableIdentifier>Not Available</NotAvailableIdentifier>
+      <ServiceInfo>JoiningServiceDefinition Service: [TrafficLightService] Pattern: SendPattern {
+DataType       :DomainHMI.CommTrafficLight
+|——    : &lt;> {
+| }
+}
+</ServiceInfo>
+      <TestData>TestEntityName,DomainHMI-ts-TrafficLightService
+Service Name,TrafficLightService
+Service Type,JoiningServiceDefinition
+Service Pattern,SendPattern
+IS-OneOfTheCurrentlyHandledServicePattern,true
+
+&lt;&lt;TS_DATA>,&lt;&lt;DataType>>
+DomainHMI,CommTrafficLight,TS_BUILDER_PERMUTE,DEFAULT,DS_ON
+DomainHMI,CommTrafficLight,TS_BUILDER_ONCE,CUSTOM,DS_ON
+&lt;TS_DATA>>
+
+
+
+
+&lt;&lt;WIKI>User can add a new seed (e.g. CUSTOMX) in any of the test data sets.&lt;WIKI>>
+</TestData>
+      <TestSetSeed>
+         <LinkedTo>DataType</LinkedTo>
+         <ServiceRepo>DomainHMI</ServiceRepo>
+         <CommObject>CommTrafficLight</CommObject>
+         <TestSetBuilder>TS_BUILDER_PERMUTE</TestSetBuilder>
+         <SetName>DEFAULT</SetName>
+         <Switch>DS_ON</Switch>
+         <isSwitchedOn>true</isSwitchedOn>
+      </TestSetSeed>
+      <TestSetSeed>
+         <LinkedTo>DataType</LinkedTo>
+         <ServiceRepo>DomainHMI</ServiceRepo>
+         <CommObject>CommTrafficLight</CommObject>
+         <TestSetBuilder>TS_BUILDER_ONCE</TestSetBuilder>
+         <SetName>CUSTOM</SetName>
+         <Switch>DS_ON</Switch>
+         <isSwitchedOn>true</isSwitchedOn>
+      </TestSetSeed>
+      <TestSet>
+         <entry>
+            <key>DataType--TSet--CUSTOM</key>
+            <value>CUSTOM-Set-DataType-Dot-DomainHMI-Dot-CommTrafficLight-Dot-Boolean-Dot-green true false false true</value>
+            <value>CUSTOM-Set-DataType-Dot-DomainHMI-Dot-CommTrafficLight-Dot-Boolean-Dot-red true false false true</value>
+            <value>CUSTOM-Set-DataType-Dot-DomainHMI-Dot-CommTrafficLight-Dot-Boolean-Dot-yellow true false false true</value>
+         </entry>
+         <entry>
+            <key>DataType--TSet--DEFAULT</key>
+            <value>DEFAULT-Set-DataType-Dot-DomainHMI-Dot-CommTrafficLight-Dot-Boolean-Dot-green true false false true</value>
+            <value>DEFAULT-Set-DataType-Dot-DomainHMI-Dot-CommTrafficLight-Dot-Boolean-Dot-red true false false true</value>
+            <value>DEFAULT-Set-DataType-Dot-DomainHMI-Dot-CommTrafficLight-Dot-Boolean-Dot-yellow true false false true</value>
+         </entry>
+      </TestSet>
+      <TestSetHeader>
+         <entry>
+            <key>DataType--TSet--CUSTOM</key>
+            <value>CUSTOM-Set-DataType-Dot-DomainHMI-Dot-CommTrafficLight-Dot-Boolean-Dot-green</value>
+            <value>CUSTOM-Set-DataType-Dot-DomainHMI-Dot-CommTrafficLight-Dot-Boolean-Dot-red</value>
+            <value>CUSTOM-Set-DataType-Dot-DomainHMI-Dot-CommTrafficLight-Dot-Boolean-Dot-yellow</value>
+         </entry>
+         <entry>
+            <key>DataType--TSet--DEFAULT</key>
+            <value>DEFAULT-Set-DataType-Dot-DomainHMI-Dot-CommTrafficLight-Dot-Boolean-Dot-green</value>
+            <value>DEFAULT-Set-DataType-Dot-DomainHMI-Dot-CommTrafficLight-Dot-Boolean-Dot-red</value>
+            <value>DEFAULT-Set-DataType-Dot-DomainHMI-Dot-CommTrafficLight-Dot-Boolean-Dot-yellow</value>
+         </entry>
+      </TestSetHeader>
+      <verbosCompileDefault>false</verbosCompileDefault>
+      <verbosCompile>false</verbosCompile>
+   </ServiceTestSets>
+   <LogString></LogString>
+   <errorVarcase>false</errorVarcase>
+   <LogVarcase>DataType-Dot-DomainHMI-Dot-CommTrafficLight-Dot-Boolean-Dot-yellow-->CUSTOM-Set-DataType-Dot-DomainHMI-Dot-CommTrafficLight-Dot-Boolean-Dot-yellow [ NoTouch ] 
+DataType-Dot-DomainHMI-Dot-CommTrafficLight-Dot-Boolean-Dot-yellow-->CUSTOM-Set-DataType-Dot-DomainHMI-Dot-CommTrafficLight-Dot-Boolean-Dot-yellow [ NoTouch ] 
+DataType-Dot-DomainHMI-Dot-CommTrafficLight-Dot-Boolean-Dot-red-->CUSTOM-Set-DataType-Dot-DomainHMI-Dot-CommTrafficLight-Dot-Boolean-Dot-red [ NoTouch ] 
+DataType-Dot-DomainHMI-Dot-CommTrafficLight-Dot-Boolean-Dot-red-->CUSTOM-Set-DataType-Dot-DomainHMI-Dot-CommTrafficLight-Dot-Boolean-Dot-red [ NoTouch ] 
+DataType-Dot-DomainHMI-Dot-CommTrafficLight-Dot-Boolean-Dot-green-->CUSTOM-Set-DataType-Dot-DomainHMI-Dot-CommTrafficLight-Dot-Boolean-Dot-green [ NoTouch ] 
+DataType-Dot-DomainHMI-Dot-CommTrafficLight-Dot-Boolean-Dot-green-->CUSTOM-Set-DataType-Dot-DomainHMI-Dot-CommTrafficLight-Dot-Boolean-Dot-green [ NoTouch ] 
+DataType-Dot-DomainHMI-Dot-CommTrafficLight-Dot-Boolean-Dot-yellow-->DEFAULT-Set-DataType-Dot-DomainHMI-Dot-CommTrafficLight-Dot-Boolean-Dot-yellow [ NoTouch ] 
+DataType-Dot-DomainHMI-Dot-CommTrafficLight-Dot-Boolean-Dot-yellow-->DEFAULT-Set-DataType-Dot-DomainHMI-Dot-CommTrafficLight-Dot-Boolean-Dot-yellow [ NoTouch ] 
+DataType-Dot-DomainHMI-Dot-CommTrafficLight-Dot-Boolean-Dot-red-->DEFAULT-Set-DataType-Dot-DomainHMI-Dot-CommTrafficLight-Dot-Boolean-Dot-red [ NoTouch ] 
+DataType-Dot-DomainHMI-Dot-CommTrafficLight-Dot-Boolean-Dot-red-->DEFAULT-Set-DataType-Dot-DomainHMI-Dot-CommTrafficLight-Dot-Boolean-Dot-red [ NoTouch ] 
+DataType-Dot-DomainHMI-Dot-CommTrafficLight-Dot-Boolean-Dot-green-->DEFAULT-Set-DataType-Dot-DomainHMI-Dot-CommTrafficLight-Dot-Boolean-Dot-green [ NoTouch ] 
+DataType-Dot-DomainHMI-Dot-CommTrafficLight-Dot-Boolean-Dot-green-->DEFAULT-Set-DataType-Dot-DomainHMI-Dot-CommTrafficLight-Dot-Boolean-Dot-green [ NoTouch ] 
+</LogVarcase>
+   <ErrorLogVarcase></ErrorLogVarcase>
+   <verbosTestSetBuilderDefault>false</verbosTestSetBuilderDefault>
+   <verbosTestSetBuilder>false</verbosTestSetBuilder>
+</ServiceRepositoryTestSetContainer>

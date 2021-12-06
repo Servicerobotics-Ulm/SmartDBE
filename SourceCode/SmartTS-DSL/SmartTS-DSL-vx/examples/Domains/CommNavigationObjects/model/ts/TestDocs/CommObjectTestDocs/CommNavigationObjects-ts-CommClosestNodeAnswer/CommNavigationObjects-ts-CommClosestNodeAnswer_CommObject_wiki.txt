@@ -1,0 +1,9 @@
+|  |——CommObject    : <CommClosestNodeAnswer> {
+|  |  |——Int32     : <node_id>
+|  |  |——[Imported]CommPosition3d    : <position> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——Double     : <distance>
+|  |  |——Boolean     : <valid>
+|  | }

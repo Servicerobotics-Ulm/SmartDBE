@@ -1,0 +1,13 @@
+ForkingServiceDefinition Service: [PlannerEventService] Pattern: EventPattern {
+EventType      :CommNavigationObjects.CommPlannerEventResult
+|——    : <> {
+| }
+
+ActivationType :CommNavigationObjects.CommPlannerEventParameter
+|——    : <> {
+| }
+
+EventStateType :CommNavigationObjects.PlannerEventState
+|——    : <> {
+| }
+}

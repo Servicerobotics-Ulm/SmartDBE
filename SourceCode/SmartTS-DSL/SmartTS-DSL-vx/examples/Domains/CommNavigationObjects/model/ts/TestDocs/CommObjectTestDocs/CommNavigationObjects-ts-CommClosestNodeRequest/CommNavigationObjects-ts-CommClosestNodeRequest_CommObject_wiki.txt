@@ -1,0 +1,6 @@
+|  |——CommObject    : <CommClosestNodeRequest> {
+|  |  |——[Imported]CommPosition3d    : <position> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }

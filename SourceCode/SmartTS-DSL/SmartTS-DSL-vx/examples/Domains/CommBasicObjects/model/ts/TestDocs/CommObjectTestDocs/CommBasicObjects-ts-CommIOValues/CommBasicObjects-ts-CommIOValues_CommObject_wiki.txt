@@ -1,0 +1,12 @@
+|  |——CommObject    : <CommIOValues> {
+|  |  |——Float     : <analogInputValues>[2147483647]
+|  |  |——Boolean     : <digitalInputValues>[2147483647]
+|  |  |——[Local]CommAnalogOutputRequest    : <analogOutputValues>[2147483647] {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]CommDigitalOutputRequest    : <digitalOutputValues>[2147483647] {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }

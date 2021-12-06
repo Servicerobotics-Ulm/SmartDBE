@@ -1,0 +1,11 @@
+TestEntityName,CommBasicObjects-ts-BumperStateType-ts-Enum_BumperStateType
+0,BUMPER_NOT_SUPPORTED
+1,BUMPER_NOT_PRESSED
+2,BUMPER_PRESSED
+<<IS ENUM>>
+
+<<TS_DATA>
+0,<<WIKI>,Test for identifier BUMPER_NOT_SUPPORTED,<WIKI>>
+1,<<WIKI>,Test for identifier BUMPER_NOT_PRESSED,<WIKI>>
+2,<<WIKI>,Test for identifier BUMPER_PRESSED,<WIKI>>
+<TS_DATA>>

@@ -1,0 +1,6 @@
+|  |——CommObject    : <CommCorridorNavigationPoseRequestEventState> {
+|  |  |——[Local]NodeRequestAnserType    : <newState> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }

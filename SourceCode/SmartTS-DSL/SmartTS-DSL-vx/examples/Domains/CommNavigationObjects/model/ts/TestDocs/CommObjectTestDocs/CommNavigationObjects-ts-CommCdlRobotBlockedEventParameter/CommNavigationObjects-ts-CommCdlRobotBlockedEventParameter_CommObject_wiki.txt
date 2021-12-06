@@ -1,0 +1,6 @@
+|  |——CommObject    : <CommCdlRobotBlockedEventParameter> {
+|  |  |——[Local]CdlRobotBlockEventType    : <oldState> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }

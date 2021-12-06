@@ -1,0 +1,9 @@
+|  |——CommObject    : <CommNavigationTopologyConnection> {
+|  |  |——[Local]NavigationConnectonType    : <type> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——UInt32     : <locationId>
+|  |  |——UInt32     : <fromPart>
+|  |  |——UInt32     : <toPart>
+|  | }

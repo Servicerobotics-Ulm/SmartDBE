@@ -1,0 +1,12 @@
+ComponentDefinition ComponentC logo "/ComponentC/model/logo.png"
+{
+Activity mainC
+	{	InputPortLink  Push_Coordinate3D_Input_Port { oversamplingOk undersamplingOk }	}
+	InputPort Push_Coordinate3D_Input_Port implements DomainTSDemo.PushCoordinate3D {	}
+	RequestPort Query_ValidCoordinate2D_Request_Port implements DomainTSDemo.QueryValidCoordinate2D {	}
+	OutputPort Send_Coordinate2D_Output_Port implements DomainTSDemo.SendCoordinate2D realizedBy mainC {	}
+	AnswerPort Query_ValidCoordinate2D_Answer_Port implements DomainTSDemo.QueryValidCoordinate2D {	}
+	RequestHandler QueryHandler triggeredFrom Query_ValidCoordinate2D_Answer_Port {	}
+	CoordinationSlavePort CoordinationPortC implements CommBasicObjects.DefaultCoordinationService	{	}
+}
+

@@ -1,0 +1,9 @@
+RequestAnswerServiceDefinition Service: [DevicePoseStateQueryService] Pattern: QueryPattern {
+RequestType    :CommBasicObjects.CommVoid
+|——    : <> {
+| }
+
+AnswerType     :CommBasicObjects.CommDevicePoseState
+|——    : <> {
+| }
+}

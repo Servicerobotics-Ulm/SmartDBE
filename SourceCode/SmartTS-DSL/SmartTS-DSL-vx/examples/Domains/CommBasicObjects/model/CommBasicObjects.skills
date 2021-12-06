@@ -1,0 +1,142 @@
+SkillDefinitionRepository CommBasicObjects {
+
+	CoordinationModuleDefinition KBModule { 
+	// no skills for KB, so far done via language feature		
+	}
+	
+	CoordinationModuleDefinition HLInterface {
+		
+		SkillDefinition test {
+			in {
+				param1 : String
+				param2 : String
+			}
+			out {
+				out1 : String
+			}
+			results {
+				SUCCESS value = ""
+				ERROR value = ""
+			}
+		}
+		
+		SkillDefinition test2 {
+			in {
+				param1 : String
+			}
+			results {
+				SUCCESS value = ""
+			}
+		}
+		
+		SkillDefinition test3 {
+			results {
+				SUCCESS value = ""
+			}
+		}
+		
+	}
+	
+	
+	CoordinationModuleDefinition LaserGenerationModule {
+		SkillDefinition activateLaserGenaration{
+			results {
+				SUCCESS value =""
+			}
+		}
+		
+		SkillDefinition dectivateLaserGenaration{
+			results {
+				SUCCESS value =""
+			}
+		}	
+		
+	}
+	
+	CoordinationModuleDefinition LaserModule {
+		SkillDefinition setNeutral{
+			results {
+				SUCCESS value = ""
+			}
+		}
+	}
+	
+	CoordinationModuleDefinition LaserSafetyModule {
+		SkillDefinition setNeutral{
+			results {
+				SUCCESS value = ""
+			}
+		}
+	}
+	
+	CoordinationModuleDefinition VisualizationModule {
+		SkillDefinition startVisualizationOf {
+			in {
+				type : String
+				server : String
+				service : String
+			}
+			results {
+				SUCCESS value = "OK"
+			}
+		}
+		
+		SkillDefinition stopVisualizationOf {
+			in {
+				type : String
+				server : String
+				service : String
+			}
+			results {
+				SUCCESS value = "OK"
+			}
+		}
+	}
+	
+	CoordinationModuleDefinition FileOperationsCoordinationModule {
+		SkillDefinition copyFile {
+			in {
+				fileSource : String
+				fileTarget : String
+			}
+			results {
+				SUCCESS value = ""
+				ERROR value = "COPY FILE"
+			}
+		}
+	}
+	
+	CoordinationModuleDefinition IRGenerationModule {
+		SkillDefinition activateIRServer{
+			results {
+				SUCCESS value = ""
+			}
+		}
+		SkillDefinition deactivateIRServer{
+			results {
+				SUCCESS value = ""
+			}
+		}
+		
+	}
+	
+	CoordinationModuleDefinition IOQueryModule{
+		SkillDefinition getDigitalInput{
+			out {
+				values : Boolean [*]
+			}
+			results
+			{
+				SUCCESS  value = ""
+			}
+		}
+	}
+	
+	CoordinationModuleDefinition Seq2SeqModule {
+		SkillDefinition seq2Seq {
+			results {
+				SUCCESS value = ""
+			}
+		}
+	}
+}

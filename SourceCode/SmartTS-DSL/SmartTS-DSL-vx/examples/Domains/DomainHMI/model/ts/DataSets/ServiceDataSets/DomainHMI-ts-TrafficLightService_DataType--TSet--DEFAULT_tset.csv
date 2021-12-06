@@ -1,0 +1,3 @@
+DEFAULT-Set-DataType-Dot-DomainHMI-Dot-CommTrafficLight-Dot-Boolean-Dot-green,true,false,false,true
+DEFAULT-Set-DataType-Dot-DomainHMI-Dot-CommTrafficLight-Dot-Boolean-Dot-red,true,false,false,true
+DEFAULT-Set-DataType-Dot-DomainHMI-Dot-CommTrafficLight-Dot-Boolean-Dot-yellow,true,false,false,true

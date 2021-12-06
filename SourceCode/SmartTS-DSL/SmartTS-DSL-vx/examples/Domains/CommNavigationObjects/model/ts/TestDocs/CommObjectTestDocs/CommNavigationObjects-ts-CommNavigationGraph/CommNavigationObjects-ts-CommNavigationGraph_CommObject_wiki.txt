@@ -1,0 +1,12 @@
+|  |——CommObject    : <CommNavigationGraph> {
+|  |  |——[Local]CommNavigationGraphVertex    : <vertices>[2147483647] {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]CommNavigationGraphEdge    : <edges>[2147483647] {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——Double     : <pathWidth>[2147483647]
+|  |  |——Boolean     : <valid>
+|  | }

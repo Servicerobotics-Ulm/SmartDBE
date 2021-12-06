@@ -1,0 +1,5 @@
+JoiningServiceDefinition Service: [SequnecerHLInterfaceSend] Pattern: SendPattern {
+DataType       :CommBasicObjects.CommSkillMsg
+|——    : <> {
+| }
+}

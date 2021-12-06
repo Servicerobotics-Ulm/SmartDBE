@@ -1,0 +1,9 @@
+RequestAnswerServiceDefinition Service: [CurrGridMapQueryService] Pattern: QueryPattern {
+RequestType    :CommNavigationObjects.CommGridMapRequest
+|——    : <> {
+| }
+
+AnswerType     :CommNavigationObjects.CommGridMap
+|——    : <> {
+| }
+}

@@ -1,0 +1,8 @@
+ComponentDefinition ComponentB logo "/ComponentB/model/logo.png"
+{
+Activity MainB
+	{	InputPortLink Send_Coordinate2D_Input_Port { oversamplingOk undersamplingOk }	}
+	InputPort Send_Coordinate2D_Input_Port implements DomainTSDemo.SendCoordinate2D {	}
+	RequestPort Query_ValidCoordinate2D_Request_Port implements DomainTSDemo.QueryValidCoordinate2D {	}
+	CoordinationSlavePort CoordinationPortB implements CommBasicObjects.DefaultCoordinationService	{	}
+}

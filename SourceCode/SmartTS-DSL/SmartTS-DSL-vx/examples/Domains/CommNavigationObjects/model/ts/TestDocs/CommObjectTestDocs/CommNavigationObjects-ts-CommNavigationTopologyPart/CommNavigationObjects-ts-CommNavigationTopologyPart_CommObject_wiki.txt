@@ -1,0 +1,9 @@
+|  |——CommObject    : <CommNavigationTopologyPart> {
+|  |  |——[Local]NavigationPartType    : <type> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——UInt32     : <id>
+|  |  |——String     : <name>
+|  |  |——UInt32     : <contained_location_ids>[2147483647]
+|  | }

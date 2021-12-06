@@ -1,0 +1,13 @@
+TestEntityName,CommBasicObjects-ts-ComparisonState-ts-Enum_ComparisonState
+0,UNKNOWN
+1,GREATER
+2,LOWER
+3,INBETWEEN
+<<IS ENUM>>
+
+<<TS_DATA>
+0,<<WIKI>,Test for identifier UNKNOWN,<WIKI>>
+1,<<WIKI>,Test for identifier GREATER,<WIKI>>
+2,<<WIKI>,Test for identifier LOWER,<WIKI>>
+3,<<WIKI>,Test for identifier INBETWEEN,<WIKI>>
+<TS_DATA>>

@@ -1,0 +1,7 @@
+|  |——CommObject    : <CommBatteryEvent> {
+|  |  |——Double     : <chargeValue>
+|  |  |——[Local]ComparisonState    : <state> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }

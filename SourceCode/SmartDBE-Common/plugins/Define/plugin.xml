@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            id="org.smartdbe.common.define.editors.SmartDBEDefineXMLEditor"
+            name="SmartDBEDefine XML Editor"
+            icon="icons/sample.png"
+            extensions="defxml"
+            class="org.smartdbe.common.define.editors.SmartDBEDefineXMLEditor"
+            contributorClass="org.eclipse.ui.texteditor.BasicTextEditorActionContributor">
+      </editor>
+   </extension>
+
+</plugin>

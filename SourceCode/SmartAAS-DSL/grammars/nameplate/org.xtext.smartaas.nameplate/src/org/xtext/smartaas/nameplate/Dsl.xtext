@@ -1,0 +1,284 @@
+//================================================================
+//
+//  Copyright (c) 2021 Technische Hochschule Ulm, Servicerobotics Ulm, Germany
+//
+//        Servicerobotik Ulm 
+//        Christian Schlegel
+//        Ulm University of Applied Sciences
+//        Prittwitzstr. 10
+//        89075 Ulm
+//        Germany
+//
+//	  http://www.servicerobotik-ulm.de/
+//
+//  This file is part of the Asset Administration Shell (SmartAAS) extension 
+//  for SmartMDSD Toolchain.
+//
+//  Author:
+//		Vineet Nagrath
+//  Contributors:
+//		Vineet Nagrath
+//		Shaik Nayabrasul
+//		Timo Blender
+//		Jannik Rhode
+//		Christian Schlegel
+//
+//  Licence:
+//
+//  BSD 3-Clause License
+//  
+//  Copyright (c) 2021, Servicerobotics Ulm
+//  All rights reserved.
+//  
+//  Redistribution and use in source and binary forms, with or without
+//  modification, are permitted provided that the following conditions are met:
+//  
+//  * Redistributions of source code must retain the above copyright notice, this
+//    list of conditions and the following disclaimer.
+//  
+//  * Redistributions in binary form must reproduce the above copyright notice,
+//    this list of conditions and the following disclaimer in the documentation
+//    and/or other materials provided with the distribution.
+//  
+//  * Neither the name of the copyright holder nor the names of its
+//    contributors may be used to endorse or promote products derived from
+//    this software without specific prior written permission.
+//  
+//  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+//  AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+//  IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+//  DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+//  FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+//  DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+//  SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+//  CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+//  OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+//  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+//
+//  https://opensource.org/licenses/BSD-3-Clause
+//
+//================================================================
+grammar org.xtext.smartaas.nameplate.Dsl with org.eclipse.xtext.common.Terminals
+
+generate dsl "http://www.xtext.org/smartaas/nameplate/Dsl"
+
+Model:
+	nameplate+=NameplateSubmodel;
+
+	//	cardinalities:
+//	exactly one (the default, no operator)
+//	zero or one (operator ?)
+//	zero or more (operator *)
+//	one or more (operator +)
+
+
+//	Nameplate							: Submodel
+//	ManufacturerName					: langString [1]
+//	ManufacturerProductDesignation		: langString [1]
+//	Address								: SubmodelElementCollection [1]
+//	ManufacturerProductFamily			: langString [1]
+//	SerialNumber						: String [0..1]
+//	YearOfConstruction					: String [1]
+//	Markings							: SubmodelElementCollection [0..1]
+//	AssetSpecificProperties				: SubmodelElementCollection [0..1]	
+NameplateSubmodel:
+	'AAS' '::' 'Nameplate' name=STRING '[[' SemanticId=SID ']]'
+	'{'
+	ManufacturerName=MultiLanguagePropertyManufacturerName ';'
+	ManufacturerProductDesignation=MultiLanguagePropertyManufacturerProductDesignation ';'
+	Address=AddressSubmodelElementCollection ';'
+	ManufacturerProductFamily=MultiLanguagePropertyManufacturerProductFamily ';'
+	(SerialNumber=MultiLanguagePropertySerialNumber ';')?
+	YearOfConstruction=MultiLanguagePropertyYearOfConstruction ';'
+	(Markings=SubmodelElementCollectionMarkings ';')?
+	(AssetSpecificProperties=SubmodelElementCollectionAssetSpecificProperties ';')?
+	'}';
+
+MultiLanguagePropertyManufacturerName:
+	'ManufacturerName' ':' name=STRING '[[' SemanticId=SID ']]';
+
+MultiLanguagePropertyManufacturerProductDesignation:
+	'ManufacturerProductDesignation' ':' name=STRING '[[' SemanticId=SID ']]';
+
+MultiLanguagePropertyManufacturerProductFamily:
+	'ManufacturerProductFamily' ':' name=STRING '[[' SemanticId=SID ']]';
+
+MultiLanguagePropertySerialNumber:
+	'SerialNumber' ':' name=STRING '[[' SemanticId=SID ']]';
+
+MultiLanguagePropertyYearOfConstruction:
+	'YearOfConstruction' ':' name=STRING '[[' SemanticId=SID ']]';
+
+	//	Address								: submodelElementCollection
+//	Department							: langString [0..1]
+//	Street								: langString [1]
+//	Zipcode								: langString [1]
+//	POBox								: langString [0..1]
+//	ZipCodeOfPOBox						: langString [0..1]
+//	CityTown							: langString [1]
+//	StateCounty							: langString [0..1]
+//	NationalCode						: langString [1]
+//	VATNumber							: langString [0..1]
+//	AddressRemarks						: langString [0..1]
+//	AddressOfAdditionalLink				: String [0..1]
+//	Phone{00}							: submodelElementCollection [0..*]
+//	Fax{00}								: submodelElementCollection [0..*]
+//	Email{00}							: submodelElementCollection [0..*]	
+AddressSubmodelElementCollection:
+	'Address' ':' name=STRING '[[' SemanticId=SID ']]'
+	'{'
+	(Department=MultiLanguagePropertyDepartment ';')?
+	Street=MultiLanguagePropertyStreet ';'
+	Zipcode=MultiLanguagePropertyZipcode ';'
+	(POBox=MultiLanguagePropertyPOBox ';')?
+	(ZipCodeOfPOBox=MultiLanguagePropertyZipCodeOfPOBox ';')?
+	CityTown=MultiLanguagePropertyCityTown ';'
+	(StateCounty=MultiLanguagePropertyStateCounty ';')?
+	NationalCode=MultiLanguagePropertyNationalCode ';'
+	(VATNumber=MultiLanguagePropertyVATNumber ';')?
+	(AddressRemarks=MultiLanguagePropertyAddressRemarks ';')?
+	(AddressOfAdditionalLink=MultiLanguagePropertyAddressOfAdditionalLink ';')?
+	(Phone+=PhoneSubmodelElementCollection ';')*
+	(Fax+=FaxSubmodelElementCollection ';')*
+	(Email+=EmailSubmodelElementCollection ';')*
+	'}';
+
+MultiLanguagePropertyDepartment:
+	'Department' ':' name=STRING '[[' SemanticId=SID ']]';
+
+MultiLanguagePropertyStreet:
+	'Street' ':' name=STRING '[[' SemanticId=SID ']]';
+
+MultiLanguagePropertyZipcode:
+	'Zipcode' ':' name=STRING '[[' SemanticId=SID ']]';
+
+MultiLanguagePropertyPOBox:
+	'POBox' ':' name=STRING '[[' SemanticId=SID ']]';
+
+MultiLanguagePropertyZipCodeOfPOBox:
+	'ZipCodeOfPOBox' ':' name=STRING '[[' SemanticId=SID ']]';
+
+MultiLanguagePropertyCityTown:
+	'CityTown' ':' name=STRING '[[' SemanticId=SID ']]';
+
+MultiLanguagePropertyStateCounty:
+	'StateCounty' ':' name=STRING '[[' SemanticId=SID ']]';
+
+MultiLanguagePropertyNationalCode:
+	'NationalCode' ':' name=STRING '[[' SemanticId=SID ']]';
+
+MultiLanguagePropertyVATNumber:
+	'VATNumber' ':' name=STRING '[[' SemanticId=SID ']]';
+
+MultiLanguagePropertyAddressRemarks:
+	'AddressRemarks' ':' name=STRING '[[' SemanticId=SID ']]';
+
+MultiLanguagePropertyAddressOfAdditionalLink:
+	'AddressOfAdditionalLink' ':' name=STRING '[[' SemanticId=SID ']]';
+
+	//	Phone								: submodelElementCollection
+//	TelephoneNumber						: langString [1]
+//	TypeOfTelephone						: String [0..1]
+PhoneSubmodelElementCollection:
+	'Phone' ':' name=STRING '[[' SemanticId=SID ']]'
+	'{'
+	TelephoneNumber=MultiLanguagePropertyTelephoneNumber ';'
+	(TypeOfTelephone=PropertyTypeOfTelephone ';')?
+	'}';
+
+MultiLanguagePropertyTelephoneNumber:
+	'TelephoneNumber' ':' name=STRING '[[' SemanticId=SID ']]';
+
+PropertyTypeOfTelephone:
+	'TypeOfTelephone' ':' name=STRING '[[' SemanticId=SID ']]';
+
+	//	Fax									: submodelElementCollection
+//	FaxNumber							: langString [1]
+//	TypeOfFaxNumber						: String [0..1]	
+FaxSubmodelElementCollection:
+	'Fax' ':' name=STRING '[[' SemanticId=SID ']]'
+	'{'
+	FaxNumber=MultiLanguagePropertyFax ';'
+	(TypeOfFaxNumber=PropertyTypeOfFaxNumber ';')?
+	'}';
+
+MultiLanguagePropertyFax:
+	'FaxNumber' ':' name=STRING '[[' SemanticId=SID ']]';
+
+PropertyTypeOfFaxNumber:
+	'TypeOfFaxNumber' ':' name=STRING '[[' SemanticId=SID ']]';
+
+	//	Email								: submodelElementCollection
+//	EmailAddress						: String [1]
+//	PublicKey							: langString [0..1]
+//	TypeOfEmailAddress					: String [0..1]
+//	TypeOfPublickKey					: langString [0..1]
+EmailSubmodelElementCollection:
+	'Email' ':' name=STRING '[[' SemanticId=SID ']]'
+	'{'
+	EmailAddress=PropertyEmailAddress ';'
+	(TypeOfEmailAddress=PropertyTypeOfEmailAddress ';')?
+	(PublicKey=MultiLanguagePropertyPublicKey ';'
+	(TypeOfPublickKey=MultiLanguagePropertyTypeOfPublickKey ';')?)?
+	'}';
+
+PropertyEmailAddress:
+	'EmailAddress' ':' name=STRING '[[' SemanticId=SID ']]';
+
+PropertyTypeOfEmailAddress:
+	'TypeOfEmailAddress' ':' name=STRING '[[' SemanticId=SID ']]';
+
+MultiLanguagePropertyPublicKey:
+	'PublicKey' ':' name=STRING '[[' SemanticId=SID ']]';
+
+MultiLanguagePropertyTypeOfPublickKey:
+	'TypeOfPublickKey' ':' name=STRING '[[' SemanticId=SID ']]';
+
+	//	Markings							:SubmodelElementCollection
+//	Marking{00}							: SubmodelElementCollection [1..*]
+SubmodelElementCollectionMarkings:
+	'Markings' ':' name=STRING '[[' SemanticId=SID ']]'
+	'{'
+	(Marking+=SubmodelElementCollectionMarking ';')+
+	'}';
+
+SubmodelElementCollectionMarking:
+	'Marking' ':' name=STRING '[[' SemanticId=SID ']]'
+	'{'
+	MarkingName=PropertyMarkingName ';'
+	MarkingFile=FileMarkingFile ';'
+	(MarkingAdditionalText+=PropertyMarkingAdditionalText ';')*
+	'}';
+
+PropertyMarkingName:
+	'MarkingName' ':' name=STRING '[[' SemanticId=SID ']]';
+
+FileMarkingFile:
+	'MarkingFile' ':' name=STRING '[[' SemanticId=SID ']]' // Path
+;
+
+PropertyMarkingAdditionalText:
+	'MarkingAdditionalText' ':' name=STRING '[[' SemanticId=SID ']]';
+
+	//	AssetSpecificProperties				:SubmodelElementCollection
+SubmodelElementCollectionAssetSpecificProperties:
+	'AssetSpecificProperties' ':' name=STRING '[[' SemanticId=SID ']]'
+	'{'
+	(GuidelineSpecificProperties+=SubmodelElementCollectionGuidelineSpecificProperties ';')+
+	'}';
+
+SubmodelElementCollectionGuidelineSpecificProperties:
+	'GuidelineSpecificProperties' ':' name=STRING '[[' SemanticId=SID ']]'
+	'{'
+	GuidelineForConformityDeclaration=PropertyGuidelineForConformityDeclaration ';'
+	(Arbitrary+=PropertyArbitrary ';')+
+	'}';
+
+PropertyGuidelineForConformityDeclaration:
+	'GuidelineForConformityDeclaration' ':' name=STRING '[[' SemanticId=SID ']]';
+
+PropertyArbitrary:
+	'Arbitrary' ':' name=STRING '[[' SemanticId=SID ']]';
+
+SID:
+	'SemanticId' ':' name=STRING '|' II=STRING;

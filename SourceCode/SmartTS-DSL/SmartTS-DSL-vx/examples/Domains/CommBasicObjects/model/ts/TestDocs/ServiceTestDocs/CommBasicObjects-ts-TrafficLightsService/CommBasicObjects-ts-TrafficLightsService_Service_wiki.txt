@@ -1,0 +1,5 @@
+ForkingServiceDefinition Service: [TrafficLightsService] Pattern: PushPattern {
+DataType       :CommBasicObjects.CommTrafficLights
+|——    : <> {
+| }
+}

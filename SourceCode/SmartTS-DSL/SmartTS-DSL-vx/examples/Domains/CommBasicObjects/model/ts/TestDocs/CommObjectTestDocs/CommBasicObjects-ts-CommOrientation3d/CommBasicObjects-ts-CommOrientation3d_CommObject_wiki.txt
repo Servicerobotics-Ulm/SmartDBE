@@ -1,0 +1,5 @@
+|  |——CommObject    : <CommOrientation3d> {
+|  |  |——Double     : <azimuth>
+|  |  |——Double     : <elevation>
+|  |  |——Double     : <roll>
+|  | }

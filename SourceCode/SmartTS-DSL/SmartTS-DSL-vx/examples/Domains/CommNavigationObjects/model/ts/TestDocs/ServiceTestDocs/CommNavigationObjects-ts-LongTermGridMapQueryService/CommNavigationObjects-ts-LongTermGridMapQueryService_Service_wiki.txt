@@ -1,0 +1,9 @@
+RequestAnswerServiceDefinition Service: [LongTermGridMapQueryService] Pattern: QueryPattern {
+RequestType    :CommNavigationObjects.CommGridMapRequest
+|——    : <> {
+| }
+
+AnswerType     :CommNavigationObjects.CommGridMap
+|——    : <> {
+| }
+}

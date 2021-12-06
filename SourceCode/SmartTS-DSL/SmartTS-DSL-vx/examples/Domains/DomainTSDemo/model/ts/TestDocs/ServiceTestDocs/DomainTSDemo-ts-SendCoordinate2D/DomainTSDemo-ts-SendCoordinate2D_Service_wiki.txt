@@ -1,0 +1,5 @@
+JoiningServiceDefinition Service: [SendCoordinate2D] Pattern: SendPattern {
+DataType       :DomainTSDemo.Coordinate2D
+|——    : <> {
+| }
+}

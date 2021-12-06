@@ -1,0 +1,7 @@
+|  |——CommObject    : <CommCorridorNavigationPathAnswer> {
+|  |  |——Boolean     : <valid>
+|  |  |——[Local]CommNavigationPaths    : <paths> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }

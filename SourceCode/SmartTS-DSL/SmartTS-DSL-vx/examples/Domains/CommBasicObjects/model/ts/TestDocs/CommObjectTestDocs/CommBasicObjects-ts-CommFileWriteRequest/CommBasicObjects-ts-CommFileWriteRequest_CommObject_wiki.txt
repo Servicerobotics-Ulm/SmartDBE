@@ -1,0 +1,7 @@
+|  |——CommObject    : <CommFileWriteRequest> {
+|  |  |——[Local]CommDataFiles    : <file> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——String     : <filename>
+|  | }

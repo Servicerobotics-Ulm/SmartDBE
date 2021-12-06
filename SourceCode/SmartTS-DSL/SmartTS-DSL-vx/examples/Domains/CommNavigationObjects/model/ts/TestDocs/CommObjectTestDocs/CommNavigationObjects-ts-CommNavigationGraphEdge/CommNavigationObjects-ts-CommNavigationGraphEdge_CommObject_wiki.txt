@@ -1,0 +1,11 @@
+|  |——CommObject    : <CommNavigationGraphEdge> {
+|  |  |——Int32     : <u>
+|  |  |——Int32     : <v>
+|  |  |——Int32     : <path>
+|  |  |——Int32     : <way>
+|  |  |——Double     : <gap>
+|  |  |——[Local]EDGE_TYPE    : <type> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }

@@ -1,0 +1,9 @@
+|  |——CommObject    : <CommGridMapRequest> {
+|  |  |——UInt32     : <id>
+|  |  |——Int32     : <xOffsetMM>
+|  |  |——Int32     : <yOffsetMM>
+|  |  |——UInt32     : <xSizeMM>
+|  |  |——UInt32     : <ySizeMM>
+|  |  |——Boolean     : <curLtmState>
+|  |  |——UInt32     : <curLtmThreshold>
+|  | }

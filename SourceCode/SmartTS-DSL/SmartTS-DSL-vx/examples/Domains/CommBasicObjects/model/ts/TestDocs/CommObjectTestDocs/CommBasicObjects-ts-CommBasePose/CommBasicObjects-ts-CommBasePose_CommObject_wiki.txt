@@ -1,0 +1,13 @@
+|  |——CommObject    : <CommBasePose> {
+|  |  |——Boolean     : <covInvalid>
+|  |  |——Double     : <covMatrix>[9]
+|  |  |——UInt32     : <updateCount>
+|  |  |——[Local]CommPose3d    : <pose3D> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]CommTimeStamp    : <timeStamp> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }

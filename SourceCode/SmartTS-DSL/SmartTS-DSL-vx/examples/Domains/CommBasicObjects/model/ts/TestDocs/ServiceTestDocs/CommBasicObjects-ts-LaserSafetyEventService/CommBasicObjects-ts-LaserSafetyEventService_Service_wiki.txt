@@ -1,0 +1,13 @@
+ForkingServiceDefinition Service: [LaserSafetyEventService] Pattern: EventPattern {
+EventType      :CommBasicObjects.CommLaserSafetyField
+|——    : <> {
+| }
+
+ActivationType :CommBasicObjects.CommLaserSafetyEventParam
+|——    : <> {
+| }
+
+EventStateType :CommBasicObjects.CommLaserSafetyEventState
+|——    : <> {
+| }
+}

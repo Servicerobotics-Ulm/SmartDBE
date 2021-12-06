@@ -1,0 +1,14 @@
+|  |——CommObject    : <CommMobileLaserScan> {
+|  |  |——[Local]CommBaseState    : <base_state> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]LaserScan6DPose    : <laser_scan_pose> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]CommPose3d    : <laser_world_pose> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }

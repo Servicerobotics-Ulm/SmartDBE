@@ -1,0 +1,114 @@
+//================================================================
+//
+//  Copyright (c) 2021 Technische Hochschule Ulm, Servicerobotics Ulm, Germany
+//
+//        Servicerobotik Ulm 
+//        Christian Schlegel
+//        Ulm University of Applied Sciences
+//        Prittwitzstr. 10
+//        89075 Ulm
+//        Germany
+//
+//	  http://www.servicerobotik-ulm.de/
+//
+//  This file is part of the Asset Administration Shell (SmartAAS) extension 
+//  for SmartMDSD Toolchain.
+//
+//  Author:
+//		Vineet Nagrath
+//  Contributors:
+//		Vineet Nagrath
+//		Shaik Nayabrasul
+//		Timo Blender
+//		Jannik Rhode
+//		Christian Schlegel
+//
+//  Licence:
+//
+//  BSD 3-Clause License
+//  
+//  Copyright (c) 2021, Servicerobotics Ulm
+//  All rights reserved.
+//  
+//  Redistribution and use in source and binary forms, with or without
+//  modification, are permitted provided that the following conditions are met:
+//  
+//  * Redistributions of source code must retain the above copyright notice, this
+//    list of conditions and the following disclaimer.
+//  
+//  * Redistributions in binary form must reproduce the above copyright notice,
+//    this list of conditions and the following disclaimer in the documentation
+//    and/or other materials provided with the distribution.
+//  
+//  * Neither the name of the copyright holder nor the names of its
+//    contributors may be used to endorse or promote products derived from
+//    this software without specific prior written permission.
+//  
+//  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+//  AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+//  IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+//  DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+//  FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+//  DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+//  SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+//  CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+//  OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+//  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+//
+//  https://opensource.org/licenses/BSD-3-Clause
+//
+//================================================================
+package tools;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class socketentry {
+	public Boolean isout = true;
+	public long datetimestamp = 0;
+	public String datetimestampstring = "" + datetimestamp;
+	public String msg = "";
+	public static final String spacer = "-|-";
+	public static final SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd 'at' HH:mm:ss z");
+
+	/***
+	 * @param in : true for output
+	 */
+	public socketentry(Boolean in) {
+		init("", in);
+	}
+
+	/**
+	 * @param message : String
+	 */
+	public socketentry(String message) {
+		init(message, true);
+	}
+
+	/**
+	 * @param message : String
+	 * @param in      : true for output
+	 */
+	public socketentry(String message, Boolean in) {
+		init(message, in);
+	}
+
+	/**
+	 * @param message : String
+	 * @param in      : true for output
+	 */
+	public void init(String message, Boolean in) {
+		isout = in;
+		// datetimestamp = System.currentTimeMillis(); // Less Expensive Call
+		datetimestamp = System.nanoTime(); // More Accurate Call
+		datetimestampstring = formatter.format(new Date(datetimestamp));
+		msg = datetimestamp + spacer + message;
+	}
+
+	public String toString() {
+		if (isout)
+			return "[OUT][" + datetimestampstring + "]" + msg;
+		else
+			return "[IN ][" + datetimestampstring + "]" + msg;
+	}
+}

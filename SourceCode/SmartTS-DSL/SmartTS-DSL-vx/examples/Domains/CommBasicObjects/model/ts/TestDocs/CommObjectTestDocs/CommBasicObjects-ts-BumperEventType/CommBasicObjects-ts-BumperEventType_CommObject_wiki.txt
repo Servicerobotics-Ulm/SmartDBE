@@ -1,0 +1,5 @@
+|  |——Enumeration   : <BumperEventType> {
+|  |  |——0 : BUMPER_UNKNOWN
+|  |  |——1 : BUMPER_NOT_PRESSED
+|  |  |——2 : BUMPER_PRESSED
+|  | }

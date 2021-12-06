@@ -1,0 +1,7 @@
+|  |——CommObject    : <CommPose3dWithCovariance> {
+|  |  |——[Local]CommPose3d    : <pose> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——Double     : <covMatrix>[36]
+|  | }

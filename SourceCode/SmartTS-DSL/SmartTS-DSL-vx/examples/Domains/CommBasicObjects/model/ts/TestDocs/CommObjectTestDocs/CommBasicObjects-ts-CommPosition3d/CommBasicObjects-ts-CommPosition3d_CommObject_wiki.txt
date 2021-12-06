@@ -1,0 +1,5 @@
+|  |——CommObject    : <CommPosition3d> {
+|  |  |——Double     : <x>
+|  |  |——Double     : <y>
+|  |  |——Double     : <z>
+|  | }

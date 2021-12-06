@@ -1,0 +1,17 @@
+|  |——CommObject    : <CommCorridorNode> {
+|  |  |——UInt32     : <id>
+|  |  |——Double     : <x>
+|  |  |——Double     : <y>
+|  |  |——UInt32     : <pose>
+|  |  |——UInt32     : <path>
+|  |  |——Double     : <width>
+|  |  |——[Local]NODE_TYPE    : <type> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]NODE_STATUS    : <sts> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——String     : <robotID>
+|  | }

@@ -1,0 +1,4 @@
+|  |——CommObject    : <CommDirection3d> {
+|  |  |——Double     : <azimuth>
+|  |  |——Double     : <elevation>
+|  | }

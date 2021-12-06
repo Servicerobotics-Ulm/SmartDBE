@@ -1,0 +1,12 @@
+|  |——CommObject    : <CommBatteryParameter> {
+|  |  |——Double     : <upperThreshold>
+|  |  |——Double     : <lowerThreshold>
+|  |  |——[Local]ComparisonState    : <desiredState> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]ComparisonState    : <currentState> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }

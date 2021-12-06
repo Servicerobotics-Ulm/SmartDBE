@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            id="org.smartdbe.common.smartmdsdwrapper.editors.SmartMDSDWrapperXMLEditor"
+            name="SmartMDSDWrapper XML Editor"
+            icon="icons/sample.png"
+            extensions="smartmdsdwrapxml"
+            class="org.smartdbe.common.smartmdsdwrapper.editors.SmartMDSDWrapperXMLEditor"
+            contributorClass="org.eclipse.ui.texteditor.BasicTextEditorActionContributor">
+      </editor>
+   </extension>
+
+</plugin>

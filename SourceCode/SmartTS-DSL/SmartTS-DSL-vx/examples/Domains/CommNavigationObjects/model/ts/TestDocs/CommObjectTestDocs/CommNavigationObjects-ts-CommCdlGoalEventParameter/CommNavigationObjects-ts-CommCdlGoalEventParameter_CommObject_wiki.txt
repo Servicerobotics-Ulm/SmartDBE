@@ -1,0 +1,6 @@
+|  |——CommObject    : <CommCdlGoalEventParameter> {
+|  |  |——[Local]CdlGoalEventType    : <oldState> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }

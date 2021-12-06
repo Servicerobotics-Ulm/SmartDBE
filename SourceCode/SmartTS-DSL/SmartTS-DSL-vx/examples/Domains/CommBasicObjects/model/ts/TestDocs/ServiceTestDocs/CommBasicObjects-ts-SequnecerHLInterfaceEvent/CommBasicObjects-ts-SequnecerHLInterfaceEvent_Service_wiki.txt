@@ -1,0 +1,13 @@
+ForkingServiceDefinition Service: [SequnecerHLInterfaceEvent] Pattern: EventPattern {
+EventType      :CommBasicObjects.CommSkillMsg
+|——    : <> {
+| }
+
+ActivationType :CommBasicObjects.CommSkillMsg
+|——    : <> {
+| }
+
+EventStateType :CommBasicObjects.CommSkillMsg
+|——    : <> {
+| }
+}

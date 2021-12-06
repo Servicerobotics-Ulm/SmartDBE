@@ -1,0 +1,34 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: org.xtext.smartaas.command
+Bundle-ManifestVersion: 2
+Bundle-Name: org.xtext.smartaas.command
+Bundle-Vendor: My Company
+Bundle-Version: 1.0.0.qualifier
+Bundle-SymbolicName: org.xtext.smartaas.command; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.eclipse.xtext,
+ org.eclipse.xtext.xbase,
+ org.eclipse.equinox.common;bundle-version="3.5.0",
+ org.eclipse.emf.ecore,
+ org.eclipse.xtext.xbase.lib;bundle-version="2.14.0",
+ org.eclipse.xtext.util,
+ org.eclipse.emf.common,
+ org.antlr.runtime;bundle-version="[3.2.0,3.2.1)",
+ org.SmartDBE.Common.Console;bundle-version="0.0.0",
+ org.SmartDBE.Common.SmartMDSDWrapper;bundle-version="0.0.0",
+ org.eclipse.core.resources;bundle-version="0.0.0",
+ org.xtext.smartaas.sms;bundle-version="0.0.0",
+ org.SmartDBE.Common.Define;bundle-version="0.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Export-Package: org.xtext.smartaas.command.validation,
+ org.xtext.smartaas.command.parser.antlr,
+ org.xtext.smartaas.command.dsl,
+ org.xtext.smartaas.command.serializer,
+ org.xtext.smartaas.command.scoping,
+ org.xtext.smartaas.command.dsl.util,
+ org.xtext.smartaas.command.dsl.impl,
+ org.xtext.smartaas.command.services,
+ org.xtext.smartaas.command.generator,
+ org.xtext.smartaas.command.parser.antlr.internal,
+ org.xtext.smartaas.command
+Import-Package: org.apache.log4j

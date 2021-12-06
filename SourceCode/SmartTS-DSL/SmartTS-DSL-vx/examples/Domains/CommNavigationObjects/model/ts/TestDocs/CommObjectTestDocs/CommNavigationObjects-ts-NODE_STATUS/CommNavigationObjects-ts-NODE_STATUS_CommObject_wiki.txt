@@ -1,0 +1,5 @@
+|  |——Enumeration   : <NODE_STATUS> {
+|  |  |——0 : OCCUPIED
+|  |  |——1 : AVAILABLE
+|  |  |——2 : OK
+|  | }

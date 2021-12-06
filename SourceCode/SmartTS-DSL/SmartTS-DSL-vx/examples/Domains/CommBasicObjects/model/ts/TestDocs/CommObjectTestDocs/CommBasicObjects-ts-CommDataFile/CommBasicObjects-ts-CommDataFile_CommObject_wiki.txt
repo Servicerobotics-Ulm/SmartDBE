@@ -1,0 +1,10 @@
+|  |——CommObject    : <CommDataFile> {
+|  |  |——String     : <filename>
+|  |  |——UInt32     : <filesize>
+|  |  |——[Local]CommTimeStamp    : <timestamp> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——Int8     : <data>[2147483647]
+|  |  |——Boolean     : <valid>
+|  | }

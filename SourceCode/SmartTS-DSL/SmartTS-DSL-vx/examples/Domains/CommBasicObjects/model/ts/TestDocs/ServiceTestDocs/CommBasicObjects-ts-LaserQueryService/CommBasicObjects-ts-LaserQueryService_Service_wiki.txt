@@ -1,0 +1,9 @@
+RequestAnswerServiceDefinition Service: [LaserQueryService] Pattern: QueryPattern {
+RequestType    :CommBasicObjects.CommVoid
+|——    : <> {
+| }
+
+AnswerType     :CommBasicObjects.CommMobileLaserScan
+|——    : <> {
+| }
+}

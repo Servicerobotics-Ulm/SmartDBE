@@ -1,0 +1,4 @@
+|  |——CommObject    : <CommFileReadRequest> {
+|  |  |——String     : <filename>
+|  |  |——Boolean     : <compressFile>
+|  | }

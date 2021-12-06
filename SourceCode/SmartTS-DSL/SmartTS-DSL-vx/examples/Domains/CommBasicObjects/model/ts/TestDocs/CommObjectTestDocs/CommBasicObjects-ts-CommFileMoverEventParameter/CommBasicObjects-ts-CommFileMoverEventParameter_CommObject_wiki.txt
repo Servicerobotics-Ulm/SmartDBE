@@ -1,0 +1,6 @@
+|  |——CommObject    : <CommFileMoverEventParameter> {
+|  |  |——[Local]FileMoverEventType    : <oldState> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }

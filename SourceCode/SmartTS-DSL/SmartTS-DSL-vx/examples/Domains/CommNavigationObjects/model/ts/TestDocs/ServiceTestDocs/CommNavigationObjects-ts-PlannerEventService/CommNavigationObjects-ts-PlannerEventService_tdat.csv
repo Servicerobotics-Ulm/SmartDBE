@@ -1,0 +1,25 @@
+TestEntityName,CommNavigationObjects-ts-PlannerEventService
+Service Name,PlannerEventService
+Service Type,ForkingServiceDefinition
+Service Pattern,EventPattern
+IS-OneOfTheCurrentlyHandledServicePattern,true
+
+<<TS_DATA>,<<EventType>>
+CommNavigationObjects,CommPlannerEventResult,TS_BUILDER_PERMUTE,DEFAULT,DS_ON
+CommNavigationObjects,CommPlannerEventResult,TS_BUILDER_ONCE,CUSTOM,DS_ON
+<TS_DATA>>
+
+<<TS_DATA>,<<ActivationType>>
+CommNavigationObjects,CommPlannerEventParameter,TS_BUILDER_PERMUTE,DEFAULT,DS_ON
+CommNavigationObjects,CommPlannerEventParameter,TS_BUILDER_ONCE,CUSTOM,DS_ON
+<TS_DATA>>
+
+<<TS_DATA>,<<EventStateType>>
+CommNavigationObjects,PlannerEventState,TS_BUILDER_PERMUTE,DEFAULT,DS_ON
+CommNavigationObjects,PlannerEventState,TS_BUILDER_ONCE,CUSTOM,DS_ON
+<TS_DATA>>
+
+
+
+
+<<WIKI>User can add a new seed (e.g. CUSTOMX) in any of the test data sets.<WIKI>>

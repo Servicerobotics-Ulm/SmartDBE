@@ -1,0 +1,14 @@
+|  |——Enumeration   : <PlannerEventType> {
+|  |  |——0 : PLANNER_NO_ERROR
+|  |  |——1 : PLANNER_UNKNOWN_ERROR
+|  |  |——2 : PLANNER_NO_GOAL_AVAILABLE
+|  |  |——3 : PLANNER_GOAL_OK
+|  |  |——4 : PLANNER_GOAL_NOT_MARKED
+|  |  |——5 : PLANNER_START_OCCUPIED_OBSTACLE
+|  |  |——6 : PLANNER_START_OCCUPIED_GOAL
+|  |  |——7 : PLANNER_NO_PATH
+|  |  |——8 : PLANNER_PATH_FOUND
+|  |  |——9 : PLANNER_WRONG_MAPID
+|  |  |——10 : PLANNER_INVALID_MAP
+|  |  |——11 : PLANNER_UNKNOWN
+|  | }

@@ -1,0 +1,5 @@
+|  |——CommObject    : <CommTrafficLights> {
+|  |  |——Boolean     : <red>
+|  |  |——Boolean     : <yellow>
+|  |  |——Boolean     : <green>
+|  | }

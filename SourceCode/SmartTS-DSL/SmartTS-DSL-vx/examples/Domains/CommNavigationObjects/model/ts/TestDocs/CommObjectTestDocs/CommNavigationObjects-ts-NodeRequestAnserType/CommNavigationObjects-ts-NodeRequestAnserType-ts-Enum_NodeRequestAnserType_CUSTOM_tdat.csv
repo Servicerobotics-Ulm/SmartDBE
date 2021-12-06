@@ -1,0 +1,13 @@
+TestEntityName,CommNavigationObjects-ts-NodeRequestAnserType-ts-Enum_NodeRequestAnserType
+0,STATE_UNKNOWN
+1,SUCCESS
+2,FAIL
+3,ERROR_NONODE
+<<IS ENUM>>
+
+<<TS_DATA>
+0,<<WIKI>,Test for identifier STATE_UNKNOWN,<WIKI>>
+1,<<WIKI>,Test for identifier SUCCESS,<WIKI>>
+2,<<WIKI>,Test for identifier FAIL,<WIKI>>
+3,<<WIKI>,Test for identifier ERROR_NONODE,<WIKI>>
+<TS_DATA>>

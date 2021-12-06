@@ -1,0 +1,10 @@
+|  |——CommObject    : <CommCorridorNavigationGoalEventState> {
+|  |  |——[Local]PathNavigationEventType    : <newState> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Imported]CommPosition3d    : <nextGoal> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }

@@ -1,0 +1,6 @@
+|  |——Enumeration   : <NavigationNodeRequestType> {
+|  |  |——0 : FREENODE
+|  |  |——1 : ACQUIRENODE
+|  |  |——2 : FREEALLNODES
+|  |  |——3 : FREEALLNODESBUT
+|  | }

@@ -1,0 +1,757 @@
+ServiceDefRepository CommNavigationObjects[
+JoiningServiceDefinition Service: [NavigationVelocityService] Pattern: SendPattern {
+DataType       :CommBasicObjects.CommNavigationVelocity
+|——    : <> {
+| }
+}
+JoiningServiceDefinition Service: [LocalizationUpdateService] Pattern: SendPattern {
+DataType       :CommBasicObjects.CommBasePositionUpdate
+|——    : <> {
+| }
+}
+ForkingServiceDefinition Service: [BatteryEventService] Pattern: EventPattern {
+EventType      :CommBasicObjects.CommBatteryEvent
+|——    : <> {
+| }
+
+ActivationType :CommBasicObjects.CommBatteryParameter
+|——    : <> {
+| }
+
+EventStateType :CommBasicObjects.CommBatteryState
+|——    : <> {
+| }
+}
+ForkingServiceDefinition Service: [PlannerGoalService] Pattern: PushPattern {
+DataType       :CommNavigationObjects.CommPlannerGoal
+|——    : <> {
+| }
+}
+ForkingServiceDefinition Service: [PlannerEventService] Pattern: EventPattern {
+EventType      :CommNavigationObjects.CommPlannerEventResult
+|——    : <> {
+| }
+
+ActivationType :CommNavigationObjects.CommPlannerEventParameter
+|——    : <> {
+| }
+
+EventStateType :CommNavigationObjects.PlannerEventState
+|——    : <> {
+| }
+}
+ForkingServiceDefinition Service: [CurrGridMapPushService] Pattern: PushPattern {
+DataType       :CommNavigationObjects.CommGridMap
+|——    : <> {
+| }
+}
+RequestAnswerServiceDefinition Service: [CurrGridMapQueryService] Pattern: QueryPattern {
+RequestType    :CommNavigationObjects.CommGridMapRequest
+|——    : <> {
+| }
+
+AnswerType     :CommNavigationObjects.CommGridMap
+|——    : <> {
+| }
+}
+RequestAnswerServiceDefinition Service: [LongTermGridMapQueryService] Pattern: QueryPattern {
+RequestType    :CommNavigationObjects.CommGridMapRequest
+|——    : <> {
+| }
+
+AnswerType     :CommNavigationObjects.CommGridMap
+|——    : <> {
+| }
+}
+ForkingServiceDefinition Service: [GoalEventService] Pattern: EventPattern {
+EventType      :CommNavigationObjects.CommCdlGoalEventResult
+|——    : <> {
+| }
+
+ActivationType :CommNavigationObjects.CommCdlGoalEventParameter
+|——    : <> {
+| }
+
+EventStateType :CommNavigationObjects.CdlGoalEventState
+|——    : <> {
+| }
+}
+ForkingServiceDefinition Service: [RobotBlockedEventService] Pattern: EventPattern {
+EventType      :CommNavigationObjects.CommCdlRobotBlockedEventResult
+|——    : <> {
+| }
+
+ActivationType :CommNavigationObjects.CommCdlRobotBlockedEventParameter
+|——    : <> {
+| }
+
+EventStateType :CommNavigationObjects.CommCdlRobotBlockedState
+|——    : <> {
+| }
+}
+ForkingServiceDefinition Service: [IRService] Pattern: PushPattern {
+DataType       :CommBasicObjects.CommMobileIRScan
+|——    : <> {
+| }
+}
+ForkingServiceDefinition Service: [RobotDockingEventService] Pattern: EventPattern {
+EventType      :CommNavigationObjects.CommDockingEventResult
+|——    : <> {
+| }
+
+ActivationType :CommNavigationObjects.CommDockingEventParameter
+|——    : <> {
+| }
+
+EventStateType :CommNavigationObjects.CommDockingEventState
+|——    : <> {
+| }
+}
+RequestAnswerServiceDefinition Service: [NavigationTopologyMapQuery] Pattern: QueryPattern {
+RequestType    :CommBasicObjects.CommVoid
+|——    : <> {
+| }
+
+AnswerType     :CommNavigationObjects.CommNavigationTopologyMap
+|——    : <> {
+| }
+}
+ForkingServiceDefinition Service: [NavigationNetworkStatusEvent] Pattern: EventPattern {
+EventType      :CommNavigationObjects.CommCorridorNetworkStatus
+|——    : <> {
+| }
+
+ActivationType :CommBasicObjects.CommVoid
+|——    : <> {
+| }
+
+EventStateType :CommNavigationObjects.CommCorridorNetworkStatus
+|——    : <> {
+| }
+}
+ForkingServiceDefinition Service: [NavigationNetworkLayoutEvent] Pattern: EventPattern {
+EventType      :CommNavigationObjects.CommCorridorNetworkLayout
+|——    : <> {
+| }
+
+ActivationType :CommBasicObjects.CommVoid
+|——    : <> {
+| }
+
+EventStateType :CommNavigationObjects.CommCorridorNetworkLayout
+|——    : <> {
+| }
+}
+ForkingServiceDefinition Service: [NavigationGraphEvent] Pattern: EventPattern {
+EventType      :CommNavigationObjects.CommNavigationGraph
+|——    : <> {
+| }
+
+ActivationType :CommBasicObjects.CommVoid
+|——    : <> {
+| }
+
+EventStateType :CommNavigationObjects.CommNavigationGraph
+|——    : <> {
+| }
+}
+JoiningServiceDefinition Service: [NavigationFileSend] Pattern: SendPattern {
+DataType       :CommBasicObjects.CommDataFile
+|——    : <> {
+| }
+}
+RequestAnswerServiceDefinition Service: [NavigationNetworkNodeRequest] Pattern: QueryPattern {
+RequestType    :CommNavigationObjects.CommCorridorNavigationNodeRequest
+|——    : <> {
+| }
+
+AnswerType     :CommNavigationObjects.CommCorridorNavigationNodeAnswer
+|——    : <> {
+| }
+}
+RequestAnswerServiceDefinition Service: [NavigationNetworkPoseRequest] Pattern: QueryPattern {
+RequestType    :CommNavigationObjects.CommCorridorNavigationPoseRequest
+|——    : <> {
+| }
+
+AnswerType     :CommNavigationObjects.CommCorridorNavigationPoseAnswer
+|——    : <> {
+| }
+}
+RequestAnswerServiceDefinition Service: [NavigationNetworkPathRequest] Pattern: QueryPattern {
+RequestType    :CommNavigationObjects.CommCorridorNavigationPathRequest
+|——    : <> {
+| }
+
+AnswerType     :CommNavigationObjects.CommCorridorNavigationPathAnswer
+|——    : <> {
+| }
+}
+RequestAnswerServiceDefinition Service: [NavigationTimeRequest] Pattern: QueryPattern {
+RequestType    :CommNavigationObjects.CommNavigationTimeRequest
+|——    : <> {
+| }
+
+AnswerType     :CommNavigationObjects.CommNavigationTimeResponse
+|——    : <> {
+| }
+}
+ForkingServiceDefinition Service: [CorridorNavigationNextGoal] Pattern: PushPattern {
+DataType       :CommNavigationObjects.CommCorridorNavigationGoal
+|——    : <> {
+| }
+}
+ForkingServiceDefinition Service: [CorridorNavigationPathChangeEvent] Pattern: EventPattern {
+EventType      :CommNavigationObjects.CommNavigationPaths
+|——    : <> {
+| }
+
+ActivationType :CommBasicObjects.CommVoid
+|——    : <> {
+| }
+
+EventStateType :CommNavigationObjects.CommNavigationPaths
+|——    : <> {
+| }
+}
+RequestAnswerServiceDefinition Service: [CorridorNavigationClosestNodeQuery] Pattern: QueryPattern {
+RequestType    :CommNavigationObjects.CommClosestNodeRequest
+|——    : <> {
+| }
+
+AnswerType     :CommNavigationObjects.CommClosestNodeAnswer
+|——    : <> {
+| }
+}
+ForkingServiceDefinition Service: [CorridorNavigationPoseRequestEvent] Pattern: EventPattern {
+EventType      :CommNavigationObjects.CommCorridorNavigationPoseRequestEventResult
+|——    : <> {
+| }
+
+ActivationType :CommNavigationObjects.CommCorridorNavigationPoseRequestEventParameter
+|——    : <> {
+| }
+
+EventStateType :CommNavigationObjects.CommCorridorNavigationPoseRequestEventState
+|——    : <> {
+| }
+}
+ForkingServiceDefinition Service: [CorridorNavigationGoalEvent] Pattern: EventPattern {
+EventType      :CommNavigationObjects.CommCorridorNavigationGoalEventResult
+|——    : <> {
+| }
+
+ActivationType :CommNavigationObjects.CommCorridorNavigationGoalEventParameter
+|——    : <> {
+| }
+
+EventStateType :CommNavigationObjects.CommCorridorNavigationGoalEventState
+|——    : <> {
+| }
+}
+CoordinationServiceDefinition Service: [BaseCoordinationService] Pattern: NotAssigned { Not One Of The Currently Handled Service Patterns }
+CoordinationServiceDefinition Service: [CdlCoordinationService] Pattern: NotAssigned { Not One Of The Currently Handled Service Patterns }
+CoordinationServiceDefinition Service: [MapperCoordinationService] Pattern: NotAssigned { Not One Of The Currently Handled Service Patterns }
+CoordinationServiceDefinition Service: [PlannerCoordinationService] Pattern: NotAssigned { Not One Of The Currently Handled Service Patterns }
+CoordinationServiceDefinition Service: [RobotDockingCoordinationService] Pattern: NotAssigned { Not One Of The Currently Handled Service Patterns }
+CoordinationServiceDefinition Service: [CorridorNavigationServerCoordinationService] Pattern: NotAssigned { Not One Of The Currently Handled Service Patterns }
+CoordinationServiceDefinition Service: [CorridorNavigationClientCoordinationService] Pattern: NotAssigned { Not One Of The Currently Handled Service Patterns }
+ForkingServiceDefinition Service: [PlannerGoalListService] Pattern: PushPattern {
+DataType       :CommNavigationObjects.CommPlannerGoalList
+|——    : <> {
+| }
+}
+CoordinationServiceDefinition Service: [PurePursuitNavigationCoordinationService] Pattern: NotAssigned { Not One Of The Currently Handled Service Patterns }
+|  |——CommObject    : <CommPlannerEventParameter> {
+|  |  |——[Local]PlannerEventType    : <oldState> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——CommObject    : <CommPlannerEventResult> {
+|  |  |——[Local]PlannerEventType    : <state> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——CommObject    : <CommCdlGoalEventParameter> {
+|  |  |——[Local]CdlGoalEventType    : <oldState> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——CommObject    : <CommCdlGoalEventResult> {
+|  |  |——[Local]CdlGoalEventType    : <state> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——CommObject    : <CdlGoalEventState> {
+|  |  |——[Local]CdlGoalEventType    : <newState> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——CommObject    : <CommGridMap> {
+|  |  |——UInt32     : <id>
+|  |  |——Boolean     : <is_valid>
+|  |  |——[Imported]CommTimeStamp    : <time> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——Int32     : <xOffsetMM>
+|  |  |——Int32     : <yOffsetMM>
+|  |  |——Int32     : <xOffsetCells>
+|  |  |——Int32     : <yOffsetCells>
+|  |  |——Int32     : <cellSizeMM>
+|  |  |——UInt32     : <xSizeMM>
+|  |  |——UInt32     : <ySizeMM>
+|  |  |——UInt32     : <xSizeCells>
+|  |  |——UInt32     : <ySizeCells>
+|  |  |——UInt32     : <size>
+|  |  |——UInt8     : <cell>[2147483647]
+|  | }
+|  |——CommObject    : <CommPlannerGoal> {
+|  |  |——Int32     : <id>
+|  |  |——Int32     : <flag>
+|  |  |——Double     : <xWayPoint>
+|  |  |——Double     : <yWayPoint>
+|  |  |——Double     : <hWayPoint>
+|  |  |——Double     : <xGoalPoint>
+|  |  |——Double     : <yGoalPoint>
+|  |  |——Double     : <hGoalPoint>
+|  | }
+|  |——CommObject    : <CommGridMapRequest> {
+|  |  |——UInt32     : <id>
+|  |  |——Int32     : <xOffsetMM>
+|  |  |——Int32     : <yOffsetMM>
+|  |  |——UInt32     : <xSizeMM>
+|  |  |——UInt32     : <ySizeMM>
+|  |  |——Boolean     : <curLtmState>
+|  |  |——UInt32     : <curLtmThreshold>
+|  | }
+|  |——CommObject    : <PlannerEventState> {
+|  |  |——[Local]PlannerEventType    : <newState> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——Enumeration   : <OctomapTagType> {
+|  |  |——0 : RESET
+|  | }
+|  |——Enumeration   : <CdlTagType> {
+|  |  |——0 : CDL_SET_MODE_STRATEGY
+|  |  |——1 : CDL_SET_FREE_BEHAVIOUR
+|  |  |——2 : CDL_SET_LOOKUP_TABLE
+|  |  |——3 : CDL_SET_TRANS_VELOCITY
+|  |  |——4 : CDL_SET_ROT_VELOCITY
+|  |  |——5 : CDL_SET_MODE_GOAL
+|  |  |——6 : CDL_SET_ID
+|  |  |——7 : CDL_SET_GOAL
+|  |  |——8 : CDL_SET_APPROACH_DIST
+|  |  |——9 : CDL_SAVE_CURRENT_POS
+|  |  |——10 : CDL_SET_SAFETY_CLEARENCE
+|  |  |——11 : CDL_NEUTRAL
+|  |  |——12 : CDL_REACTIVE
+|  |  |——13 : CDL_JOYSTICK
+|  |  |——14 : CDL_TURN
+|  |  |——15 : CDL_APPROACH_FLAT_SURF
+|  |  |——16 : CDL_APPROACH_HALT
+|  |  |——17 : CDL_APPROACH
+|  |  |——18 : CDL_ROTATE
+|  |  |——19 : CDL_FOLLOW
+|  |  |——20 : CDL_BACKWARD
+|  |  |——21 : CDL_ABSOLUTE
+|  |  |——22 : CDL_PLANNER
+|  |  |——23 : CDL_PERSON
+|  |  |——24 : CDL_SAVED
+|  |  |——25 : CDL_ANGLE_ABSOLUTE
+|  |  |——26 : CDL_ANGLE_RELATIVE
+|  |  |——27 : CDL_DEFAULT_LOOKUP
+|  |  |——28 : CDL_SECOND_LOOKUP
+|  |  |——29 : CDL_NO_FREE_BEHAVIOUR
+|  |  |——30 : CDL_FREE_BEHAVIOR
+|  |  |——31 : CDL_APPROACH_COVERAGE
+|  | }
+|  |——Enumeration   : <PlannerTagType> {
+|  |  |——0 : PLANNER_DELETE_GOAL
+|  |  |——1 : PLANNER_SET_DESTINATION_LINE
+|  |  |——2 : PLANNER_SET_DESTINATION_CIRCLE
+|  |  |——3 : PLANNER_ID
+|  | }
+|  |——Enumeration   : <SLAM6DOFTag> {
+|  |  |——0 : INITALPOSE_6DOF
+|  |  |——1 : SLAM_MODE
+|  |  |——2 : POSETRACKING_MODE
+|  | }
+|  |——Enumeration   : <MapperTagType> {
+|  |  |——0 : MAPPER_CUR_PARAMETER
+|  |  |——1 : MAPPER_CUR_LTM
+|  |  |——2 : MAPPER_CUR_SAVE
+|  |  |——3 : MAPPER_CUR_LOAD
+|  |  |——4 : MAPPER_CUR_LOAD_LTM
+|  |  |——5 : MAPPER_CTR_SAVE_XPM
+|  |  |——6 : MAPPER_LTM_PARAMETER
+|  |  |——7 : MAPPER_LTM_INITIALIZE
+|  |  |——8 : MAPPER_LTM_SAVE
+|  |  |——9 : MAPPER_LTM_LOAD
+|  |  |——10 : MAPPER_LTM_SAVE_XPM
+|  |  |——11 : MAPPER_LTM_SAVE_YAML_PGM
+|  |  |——12 : MAPPER_LTM_SAVE_YAML_PPM
+|  |  |——13 : MAPPER_LTM_LOAD_YAML
+|  | }
+|  |——Enumeration   : <PlannerEventType> {
+|  |  |——0 : PLANNER_NO_ERROR
+|  |  |——1 : PLANNER_UNKNOWN_ERROR
+|  |  |——2 : PLANNER_NO_GOAL_AVAILABLE
+|  |  |——3 : PLANNER_GOAL_OK
+|  |  |——4 : PLANNER_GOAL_NOT_MARKED
+|  |  |——5 : PLANNER_START_OCCUPIED_OBSTACLE
+|  |  |——6 : PLANNER_START_OCCUPIED_GOAL
+|  |  |——7 : PLANNER_NO_PATH
+|  |  |——8 : PLANNER_PATH_FOUND
+|  |  |——9 : PLANNER_WRONG_MAPID
+|  |  |——10 : PLANNER_INVALID_MAP
+|  |  |——11 : PLANNER_UNKNOWN
+|  | }
+|  |——Enumeration   : <CdlGoalEventType> {
+|  |  |——0 : CDL_GOAL_UNKNOWN
+|  |  |——1 : CDL_GOAL_REACHED
+|  |  |——2 : CDL_GOAL_NOT_REACHED
+|  | }
+|  |——Enumeration   : <CdlRobotBlockEventType> {
+|  |  |——0 : CDL_ROBOT_UNKNOWN
+|  |  |——1 : CDL_ROBOT_BLOCKED
+|  |  |——2 : CDL_ROBOT_NOT_BLOCKED
+|  |  |——3 : CDL_ROBOT_BLOCKED_PATH
+|  |  |——4 : CDL_ROBOT_UNBLOCKED_PATH
+|  | }
+|  |——CommObject    : <CommCdlRobotBlockedEventParameter> {
+|  |  |——[Local]CdlRobotBlockEventType    : <oldState> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——CommObject    : <CommCdlRobotBlockedEventResult> {
+|  |  |——[Local]CdlRobotBlockEventType    : <state> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——CommObject    : <CommCdlRobotBlockedState> {
+|  |  |——[Local]CdlRobotBlockEventType    : <newState> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——Enumeration   : <NavigationPartType> {
+|  |  |——0 : GRID_BASED_FREE_NAV
+|  |  |——1 : CORRIDOR_BASED_COORDINATED_NAV
+|  |  |——2 : GRID_BASED_COORDINATED_NAV
+|  | }
+|  |——Enumeration   : <NavigationConnectonType> {
+|  |  |——0 : VIA_LOCATION
+|  | }
+|  |——CommObject    : <CommNavigationTopologyPart> {
+|  |  |——[Local]NavigationPartType    : <type> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——UInt32     : <id>
+|  |  |——String     : <name>
+|  |  |——UInt32     : <contained_location_ids>[2147483647]
+|  | }
+|  |——CommObject    : <CommNavigationTopologyConnection> {
+|  |  |——[Local]NavigationConnectonType    : <type> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——UInt32     : <locationId>
+|  |  |——UInt32     : <fromPart>
+|  |  |——UInt32     : <toPart>
+|  | }
+|  |——CommObject    : <CommNavigationTopologyMap> {
+|  |  |——Boolean     : <isValid>
+|  |  |——[Local]CommNavigationTopologyPart    : <vertices>[2147483647] {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]CommNavigationTopologyConnection    : <edges>[2147483647] {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——Enumeration   : <DockingEventType> {
+|  |  |——0 : DOCKING_UNKNOWN
+|  |  |——1 : DOCKING_DONE
+|  |  |——2 : DOCKING_NOT_DONE
+|  |  |——3 : DOCKING_ERROR
+|  |  |——4 : UN_DOCKING_NOT_DONE
+|  |  |——5 : UN_DOCKING_DONE
+|  |  |——6 : UN_DOCKING_ERROR
+|  | }
+|  |——CommObject    : <CommDockingEventParameter> {
+|  |  |——[Local]DockingEventType    : <oldState> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——CommObject    : <CommDockingEventResult> {
+|  |  |——[Local]DockingEventType    : <state> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——CommObject    : <CommDockingEventState> {
+|  |  |——[Local]DockingEventType    : <newState> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——CommObject    : <CommNavigationTimeRequest> {
+|  |  |——UInt32     : <startPose>
+|  |  |——UInt32     : <goalPose>
+|  | }
+|  |——CommObject    : <CommNavigationTimeResponse> {
+|  |  |——[Imported]CommTimeStamp    : <estimatedDuration> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——CommObject    : <CommCorridorNode> {
+|  |  |——UInt32     : <id>
+|  |  |——Double     : <x>
+|  |  |——Double     : <y>
+|  |  |——UInt32     : <pose>
+|  |  |——UInt32     : <path>
+|  |  |——Double     : <width>
+|  |  |——[Local]NODE_TYPE    : <type> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]NODE_STATUS    : <sts> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——String     : <robotID>
+|  | }
+|  |——CommObject    : <CommCorridorNetworkStatus> {
+|  |  |——[Local]CommCorridorNode    : <nodes>[2147483647] {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——CommObject    : <CommNavigationPaths> {
+|  |  |——[Local]CommCorridorNode    : <nodes>[2147483647] {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——Double     : <pathWidth>[2147483647]
+|  |  |——String     : <robotID>
+|  | }
+|  |——Enumeration   : <NODE_TYPE> {
+|  |  |——0 : NORMAL
+|  |  |——1 : CROSS
+|  |  |——2 : WAIT
+|  |  |——3 : NEWCROSS
+|  | }
+|  |——Enumeration   : <NODE_STATUS> {
+|  |  |——0 : OCCUPIED
+|  |  |——1 : AVAILABLE
+|  |  |——2 : OK
+|  | }
+|  |——Enumeration   : <NavigationNodeRequestType> {
+|  |  |——0 : FREENODE
+|  |  |——1 : ACQUIRENODE
+|  |  |——2 : FREEALLNODES
+|  |  |——3 : FREEALLNODESBUT
+|  | }
+|  |——CommObject    : <CommCorridorNavigationNodeRequest> {
+|  |  |——[Local]NavigationNodeRequestType    : <requestType> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]CommCorridorNode    : <nodesList>[2147483647] {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——String     : <robotID>
+|  | }
+|  |——CommObject    : <CommCorridorNavigationNodeAnswer> {
+|  |  |——[Local]CommCorridorNode    : <nodesList>[2147483647] {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——Boolean     : <success>
+|  | }
+|  |——CommObject    : <CommCorridorNavigationPoseRequest> {
+|  |  |——[Local]NavigationNodeRequestType    : <requesttype> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——UInt32     : <pose>
+|  |  |——String     : <robotID>
+|  | }
+|  |——Enumeration   : <NodeRequestAnserType> {
+|  |  |——0 : STATE_UNKNOWN
+|  |  |——1 : SUCCESS
+|  |  |——2 : FAIL
+|  |  |——3 : ERROR_NONODE
+|  | }
+|  |——CommObject    : <CommCorridorNavigationPoseAnswer> {
+|  |  |——[Local]NodeRequestAnserType    : <result> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——CommObject    : <CommCorridorNavigationPoseRequestEventParameter> {
+|  |  |——[Local]NodeRequestAnserType    : <oldState> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——CommObject    : <CommCorridorNavigationPoseRequestEventResult> {
+|  |  |——[Local]NodeRequestAnserType    : <state> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——CommObject    : <CommCorridorNavigationPoseRequestEventState> {
+|  |  |——[Local]NodeRequestAnserType    : <newState> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——CommObject    : <CommCorridorNavigationPathRequest> {
+|  |  |——UInt32     : <startPose>
+|  |  |——UInt32     : <goalPose>
+|  | }
+|  |——CommObject    : <CommCorridorNavigationPathAnswer> {
+|  |  |——Boolean     : <valid>
+|  |  |——[Local]CommNavigationPaths    : <paths> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——CommObject    : <CommCorridorNetworkLayout> {
+|  |  |——[Local]CommCorridorNetworkStatus    : <networkStatus> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Imported]CommDataFile    : <layoutFile> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——CommObject    : <CommCorridorNavigationGoal> {
+|  |  |——Int32     : <goalID>
+|  |  |——[Local]CommNavigationPaths    : <paths> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——Double     : <goalX>
+|  |  |——Double     : <goalY>
+|  |  |——Int32     : <goal_id>
+|  |  |——Double     : <startX>
+|  |  |——Double     : <startY>
+|  |  |——Int32     : <start_id>
+|  | }
+|  |——CommObject    : <CommClosestNodeRequest> {
+|  |  |——[Imported]CommPosition3d    : <position> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——CommObject    : <CommClosestNodeAnswer> {
+|  |  |——Int32     : <node_id>
+|  |  |——[Imported]CommPosition3d    : <position> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——Double     : <distance>
+|  |  |——Boolean     : <valid>
+|  | }
+|  |——Enumeration   : <PathNavigationEventType> {
+|  |  |——0 : GOAL_UNKNOWN
+|  |  |——1 : START_TOO_FAR
+|  |  |——2 : GOAL_REACHED
+|  |  |——3 : GOAL_NOT_REACHED
+|  |  |——4 : NO_PATH_FOUND
+|  |  |——5 : FATAL_ERROR
+|  | }
+|  |——CommObject    : <CommCorridorNavigationGoalEventParameter> {
+|  |  |——[Local]PathNavigationEventType    : <oldState> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——CommObject    : <CommCorridorNavigationGoalEventResult> {
+|  |  |——[Local]PathNavigationEventType    : <state> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Imported]CommPosition3d    : <nextGoal> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——CommObject    : <CommCorridorNavigationGoalEventState> {
+|  |  |——[Local]PathNavigationEventType    : <newState> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Imported]CommPosition3d    : <nextGoal> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——CommObject    : <CommNavigationGraphVertex> {
+|  |  |——Double     : <x>
+|  |  |——Double     : <y>
+|  |  |——Int32     : <pose>
+|  |  |——Int32     : <path>
+|  |  |——Double     : <width>
+|  |  |——[Local]NODE_TYPE    : <type> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——Int32     : <intersec_path>[2147483647]
+|  | }
+|  |——Enumeration   : <EDGE_TYPE> {
+|  |  |——0 : NORMAL_EDGE
+|  |  |——1 : DELETE_EDGE
+|  | }
+|  |——CommObject    : <CommNavigationGraphEdge> {
+|  |  |——Int32     : <u>
+|  |  |——Int32     : <v>
+|  |  |——Int32     : <path>
+|  |  |——Int32     : <way>
+|  |  |——Double     : <gap>
+|  |  |——[Local]EDGE_TYPE    : <type> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——CommObject    : <CommNavigationGraph> {
+|  |  |——[Local]CommNavigationGraphVertex    : <vertices>[2147483647] {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]CommNavigationGraphEdge    : <edges>[2147483647] {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——Double     : <pathWidth>[2147483647]
+|  |  |——Boolean     : <valid>
+|  | }
+|  |——CommObject    : <CommPlannerGoalList> {
+|  |  |——Int32     : <id>
+|  |  |——Int32     : <flag>
+|  |  |——Double     : <goalXvector>[2147483647]
+|  |  |——Double     : <goalYvector>[2147483647]
+|  |  |——Double     : <nodeObstacleVector>[2147483647]
+|  |  |——Double     : <finalGoalX>
+|  |  |——Double     : <finalGoalY>
+|  | }
+Referenced Service Models: <CommBasicObjects>
+]

@@ -1,0 +1,25 @@
+TestEntityName,CommNavigationObjects-ts-CorridorNavigationGoalEvent
+Service Name,CorridorNavigationGoalEvent
+Service Type,ForkingServiceDefinition
+Service Pattern,EventPattern
+IS-OneOfTheCurrentlyHandledServicePattern,true
+
+<<TS_DATA>,<<EventType>>
+CommNavigationObjects,CommCorridorNavigationGoalEventResult,TS_BUILDER_PERMUTE,DEFAULT,DS_ON
+CommNavigationObjects,CommCorridorNavigationGoalEventResult,TS_BUILDER_ONCE,CUSTOM,DS_ON
+<TS_DATA>>
+
+<<TS_DATA>,<<ActivationType>>
+CommNavigationObjects,CommCorridorNavigationGoalEventParameter,TS_BUILDER_PERMUTE,DEFAULT,DS_ON
+CommNavigationObjects,CommCorridorNavigationGoalEventParameter,TS_BUILDER_ONCE,CUSTOM,DS_ON
+<TS_DATA>>
+
+<<TS_DATA>,<<EventStateType>>
+CommNavigationObjects,CommCorridorNavigationGoalEventState,TS_BUILDER_PERMUTE,DEFAULT,DS_ON
+CommNavigationObjects,CommCorridorNavigationGoalEventState,TS_BUILDER_ONCE,CUSTOM,DS_ON
+<TS_DATA>>
+
+
+
+
+<<WIKI>User can add a new seed (e.g. CUSTOMX) in any of the test data sets.<WIKI>>

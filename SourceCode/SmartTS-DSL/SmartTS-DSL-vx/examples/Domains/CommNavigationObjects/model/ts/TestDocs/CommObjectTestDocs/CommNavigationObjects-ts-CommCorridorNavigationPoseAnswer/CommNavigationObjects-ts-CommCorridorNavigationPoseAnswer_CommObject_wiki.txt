@@ -1,0 +1,6 @@
+|  |——CommObject    : <CommCorridorNavigationPoseAnswer> {
+|  |  |——[Local]NodeRequestAnserType    : <result> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }

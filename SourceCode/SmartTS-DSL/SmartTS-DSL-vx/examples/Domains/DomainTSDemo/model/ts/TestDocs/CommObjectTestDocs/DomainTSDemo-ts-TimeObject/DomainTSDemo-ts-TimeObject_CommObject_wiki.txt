@@ -1,0 +1,10 @@
+|  |——CommObject    : <TimeObject> {
+|  |  |——[Local]BasicTime    : <basic> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Imported]CommBasicObjects.CommTimeStamp    : <compound> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }

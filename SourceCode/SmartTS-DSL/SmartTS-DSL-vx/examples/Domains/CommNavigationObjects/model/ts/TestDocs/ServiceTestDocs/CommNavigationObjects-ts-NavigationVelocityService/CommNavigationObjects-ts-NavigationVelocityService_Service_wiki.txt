@@ -1,0 +1,5 @@
+JoiningServiceDefinition Service: [NavigationVelocityService] Pattern: SendPattern {
+DataType       :CommBasicObjects.CommNavigationVelocity
+|——    : <> {
+| }
+}

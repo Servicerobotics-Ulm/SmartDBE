@@ -1,0 +1,9 @@
+RequestAnswerServiceDefinition Service: [NavigationNetworkPoseRequest] Pattern: QueryPattern {
+RequestType    :CommNavigationObjects.CommCorridorNavigationPoseRequest
+|——    : <> {
+| }
+
+AnswerType     :CommNavigationObjects.CommCorridorNavigationPoseAnswer
+|——    : <> {
+| }
+}

@@ -1,0 +1,93 @@
+ServiceDefRepository DomainTSDemo[
+ForkingServiceDefinition Service: [PushCoordinate3D] Pattern: PushPattern {
+DataType       :DomainTSDemo.Coordinate3D
+|——    : <> {
+| }
+}
+JoiningServiceDefinition Service: [SendCoordinate2D] Pattern: SendPattern {
+DataType       :DomainTSDemo.Coordinate2D
+|——    : <> {
+| }
+}
+RequestAnswerServiceDefinition Service: [QueryValidCoordinate2D] Pattern: QueryPattern {
+RequestType    :DomainTSDemo.Coordinate2D
+|——    : <> {
+| }
+
+AnswerType     :DomainTSDemo.BasicBoolean
+|——    : <> {
+| }
+}
+RequestAnswerServiceDefinition Service: [QueryValidCoordinate3D] Pattern: QueryPattern {
+RequestType    :DomainTSDemo.Coordinate3D
+|——    : <> {
+| }
+
+AnswerType     :DomainTSDemo.BasicBoolean
+|——    : <> {
+| }
+}
+ForkingServiceDefinition Service: [NewCoordinate3DEvent3D] Pattern: EventPattern {
+EventType      :DomainTSDemo.Coordinate3D
+|——    : <> {
+| }
+
+ActivationType :DomainTSDemo.BasicBoolean
+|——    : <> {
+| }
+
+EventStateType :DomainTSDemo.BasicBoolean
+|——    : <> {
+| }
+}
+|  |——CommObject    : <BasicBoolean> {
+|  |  |——Boolean     : <boolValue>
+|  | }
+|  |——CommObject    : <BasicTime> {
+|  |  |——UInt8     : <hour>
+|  |  |——UInt8     : <minute>
+|  |  |——UInt8     : <second>
+|  | }
+|  |——CommObject    : <TimeObject> {
+|  |  |——[Local]BasicTime    : <basic> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Imported]CommBasicObjects.CommTimeStamp    : <compound> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——CommObject    : <Coordinate2D> {
+|  |  |——Double     : <x>
+|  |  |——Double     : <y>
+|  | }
+|  |——CommObject    : <Coordinate3D> {
+|  |  |——Double     : <x>
+|  |  |——Double     : <y>
+|  |  |——Double     : <z>
+|  | }
+|  |——CommObject    : <Coordinate3DPlus> {
+|  |  |——Double     : <x>
+|  |  |——Double     : <y>
+|  |  |——Double     : <z>
+|  |  |——[Imported]CommBasicObjects.CommPosition3dWithCovariance    : <plus> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+|  |——CommObject    : <NestedImport> {
+|  |  |——[Local]Coordinate3D    : <a> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]Coordinate3DPlus    : <aa> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Imported]CommNavigationObjects.CommClosestNodeRequest    : <aaa> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
+]

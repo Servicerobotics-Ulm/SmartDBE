@@ -1,0 +1,4 @@
+|  |——CommObject    : <CommDigitalInputEventParameter> {
+|  |  |——UInt32     : <digitalInputValuesNumber>
+|  |  |——Boolean     : <digitalInputValue>
+|  | }

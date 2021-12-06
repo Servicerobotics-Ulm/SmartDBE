@@ -1,0 +1,4 @@
+|  |——Enumeration   : <FileType> {
+|  |  |——0 : FILE_REGULAR
+|  |  |——1 : FILE_DIRECTORY
+|  | }

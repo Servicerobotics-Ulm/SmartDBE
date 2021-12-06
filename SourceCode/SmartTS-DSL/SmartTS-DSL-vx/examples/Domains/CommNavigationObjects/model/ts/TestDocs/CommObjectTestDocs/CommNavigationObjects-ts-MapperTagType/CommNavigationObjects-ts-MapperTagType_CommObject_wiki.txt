@@ -1,0 +1,16 @@
+|  |——Enumeration   : <MapperTagType> {
+|  |  |——0 : MAPPER_CUR_PARAMETER
+|  |  |——1 : MAPPER_CUR_LTM
+|  |  |——2 : MAPPER_CUR_SAVE
+|  |  |——3 : MAPPER_CUR_LOAD
+|  |  |——4 : MAPPER_CUR_LOAD_LTM
+|  |  |——5 : MAPPER_CTR_SAVE_XPM
+|  |  |——6 : MAPPER_LTM_PARAMETER
+|  |  |——7 : MAPPER_LTM_INITIALIZE
+|  |  |——8 : MAPPER_LTM_SAVE
+|  |  |——9 : MAPPER_LTM_LOAD
+|  |  |——10 : MAPPER_LTM_SAVE_XPM
+|  |  |——11 : MAPPER_LTM_SAVE_YAML_PGM
+|  |  |——12 : MAPPER_LTM_SAVE_YAML_PPM
+|  |  |——13 : MAPPER_LTM_LOAD_YAML
+|  | }

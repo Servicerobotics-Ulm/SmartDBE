@@ -1,0 +1,13 @@
+ForkingServiceDefinition Service: [BumperEventService] Pattern: EventPattern {
+EventType      :CommBasicObjects.CommBumperEventResult
+|——    : <> {
+| }
+
+ActivationType :CommBasicObjects.CommBumperEventParameter
+|——    : <> {
+| }
+
+EventStateType :CommBasicObjects.CommBumperEventState
+|——    : <> {
+| }
+}

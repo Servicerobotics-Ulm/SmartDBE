@@ -1,0 +1,20 @@
+TestEntityName,CommBasicObjects-ts-FileReadQueryService
+Service Name,FileReadQueryService
+Service Type,RequestAnswerServiceDefinition
+Service Pattern,QueryPattern
+IS-OneOfTheCurrentlyHandledServicePattern,true
+
+<<TS_DATA>,<<RequestType>>
+CommBasicObjects,CommFileReadRequest,TS_BUILDER_PERMUTE,DEFAULT,DS_ON
+CommBasicObjects,CommFileReadRequest,TS_BUILDER_ONCE,CUSTOM,DS_ON
+<TS_DATA>>
+
+<<TS_DATA>,<<AnswerType>>
+CommBasicObjects,CommFileReadAnswer,TS_BUILDER_PERMUTE,DEFAULT,DS_ON
+CommBasicObjects,CommFileReadAnswer,TS_BUILDER_ONCE,CUSTOM,DS_ON
+<TS_DATA>>
+
+
+
+
+<<WIKI>User can add a new seed (e.g. CUSTOMX) in any of the test data sets.<WIKI>>

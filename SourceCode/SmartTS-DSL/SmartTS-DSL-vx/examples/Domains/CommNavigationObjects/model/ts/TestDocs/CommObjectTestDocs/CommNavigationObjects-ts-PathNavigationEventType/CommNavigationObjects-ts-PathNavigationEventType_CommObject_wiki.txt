@@ -1,0 +1,8 @@
+|  |——Enumeration   : <PathNavigationEventType> {
+|  |  |——0 : GOAL_UNKNOWN
+|  |  |——1 : START_TOO_FAR
+|  |  |——2 : GOAL_REACHED
+|  |  |——3 : GOAL_NOT_REACHED
+|  |  |——4 : NO_PATH_FOUND
+|  |  |——5 : FATAL_ERROR
+|  | }

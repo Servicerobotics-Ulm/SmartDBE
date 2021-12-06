@@ -1,0 +1,6 @@
+|  |——CommObject    : <CommBumperEventParameter> {
+|  |  |——[Local]BumperEventType    : <oldState> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }

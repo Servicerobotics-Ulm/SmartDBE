@@ -1,0 +1,22 @@
+|  |——CommObject    : <CommBasePositionUpdate> {
+|  |  |——[Local]CommTimeStamp    : <timeStamp> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]CommBasePose    : <pose> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]CommBasePose    : <correctedPose> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]CommBaseVelocity    : <velocity> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]CommBaseVelocity    : <correctedVelocity> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }

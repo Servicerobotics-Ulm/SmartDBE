@@ -1,0 +1,11 @@
+|  |——CommObject    : <CommCorridorNavigationNodeRequest> {
+|  |  |——[Local]NavigationNodeRequestType    : <requestType> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]CommCorridorNode    : <nodesList>[2147483647] {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——String     : <robotID>
+|  | }

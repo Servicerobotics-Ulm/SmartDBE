@@ -1,0 +1,6 @@
+|  |——Enumeration   : <ComparisonState> {
+|  |  |——0 : UNKNOWN
+|  |  |——1 : GREATER
+|  |  |——2 : LOWER
+|  |  |——3 : INBETWEEN
+|  | }

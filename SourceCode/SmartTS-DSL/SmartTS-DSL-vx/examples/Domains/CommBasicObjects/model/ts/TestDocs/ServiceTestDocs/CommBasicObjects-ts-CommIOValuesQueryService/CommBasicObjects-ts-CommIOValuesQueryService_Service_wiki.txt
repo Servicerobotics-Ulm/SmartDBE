@@ -1,0 +1,9 @@
+RequestAnswerServiceDefinition Service: [CommIOValuesQueryService] Pattern: QueryPattern {
+RequestType    :CommBasicObjects.CommIOValues
+|——    : <> {
+| }
+
+AnswerType     :CommBasicObjects.CommIOValues
+|——    : <> {
+| }
+}

@@ -1,0 +1,4 @@
+|  |——CommObject    : <CommTimeStamp> {
+|  |  |——UInt32     : <sec>
+|  |  |——UInt32     : <usec>
+|  | }

@@ -1,0 +1,5 @@
+ForkingServiceDefinition Service: [CurrGridMapPushService] Pattern: PushPattern {
+DataType       :CommNavigationObjects.CommGridMap
+|——    : <> {
+| }
+}

@@ -1,0 +1,9 @@
+RequestAnswerServiceDefinition Service: [NavigationNetworkPathRequest] Pattern: QueryPattern {
+RequestType    :CommNavigationObjects.CommCorridorNavigationPathRequest
+|——    : <> {
+| }
+
+AnswerType     :CommNavigationObjects.CommCorridorNavigationPathAnswer
+|——    : <> {
+| }
+}

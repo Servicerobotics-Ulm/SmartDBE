@@ -1,0 +1,12 @@
+|  |——CommObject    : <CommNavigationGraphVertex> {
+|  |  |——Double     : <x>
+|  |  |——Double     : <y>
+|  |  |——Int32     : <pose>
+|  |  |——Int32     : <path>
+|  |  |——Double     : <width>
+|  |  |——[Local]NODE_TYPE    : <type> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——Int32     : <intersec_path>[2147483647]
+|  | }

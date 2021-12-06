@@ -1,0 +1,1 @@
+CoordinationServiceDefinition Service: [CdlCoordinationService] Pattern: NotAssigned { Not One Of The Currently Handled Service Patterns }

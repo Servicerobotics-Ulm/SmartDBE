@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            name="jar1launch"
+            id="org.SmartAAS.DSL.jar1Launch.commands.jar1Launch">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.handlers">
+      <handler
+            class="org.smartaas.dsl.jar1launch.handlers.Jar1launchHandler"
+            commandId="org.SmartAAS.DSL.jar1Launch.commands.jar1Launch">
+      </handler>
+   </extension>
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            locationURI="toolbar:org.eclipse.ui.main.toolbar?after=additions">
+         <toolbar
+               id="org.SmartAAS.DSL.jar1Launch.toolbars.Main">
+            <command
+                  commandId="org.SmartAAS.DSL.jar1Launch.commands.jar1Launch"
+                  icon="icons/SmartAASicon.png"
+                  label="Launch SmartAAS Server"
+                  tooltip="Launch SmartAAS Server">
+            </command>
+         </toolbar>
+      </menuContribution>
+   </extension>
+
+</plugin>

@@ -1,0 +1,8 @@
+ComponentDefinition ComponentA logo "/ComponentA/model/logo.png"
+{
+Activity MainA	{	}
+	OutputPort Push_Coordinate3D_Output_Port implements DomainTSDemo.PushCoordinate3D realizedBy MainA {	}
+	AnswerPort Query_ValidCoordinate2D_Answer_Port implements DomainTSDemo.QueryValidCoordinate2D {	}
+	RequestHandler QueryValidCoordinate2DAnswHandler triggeredFrom Query_ValidCoordinate2D_Answer_Port {	}
+	CoordinationSlavePort CoordinationPortA implements CommBasicObjects.DefaultCoordinationService	{	}
+}

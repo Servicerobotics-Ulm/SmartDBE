@@ -1,0 +1,25 @@
+TestEntityName,CommBasicObjects-ts-CommKBEvent
+Service Name,CommKBEvent
+Service Type,ForkingServiceDefinition
+Service Pattern,EventPattern
+IS-OneOfTheCurrentlyHandledServicePattern,true
+
+<<TS_DATA>,<<EventType>>
+CommBasicObjects,CommKBEventResult,TS_BUILDER_PERMUTE,DEFAULT,DS_ON
+CommBasicObjects,CommKBEventResult,TS_BUILDER_ONCE,CUSTOM,DS_ON
+<TS_DATA>>
+
+<<TS_DATA>,<<ActivationType>>
+CommBasicObjects,CommKBEventParam,TS_BUILDER_PERMUTE,DEFAULT,DS_ON
+CommBasicObjects,CommKBEventParam,TS_BUILDER_ONCE,CUSTOM,DS_ON
+<TS_DATA>>
+
+<<TS_DATA>,<<EventStateType>>
+CommBasicObjects,CommVoid,TS_BUILDER_PERMUTE,DEFAULT,DS_ON
+CommBasicObjects,CommVoid,TS_BUILDER_ONCE,CUSTOM,DS_ON
+<TS_DATA>>
+
+
+
+
+<<WIKI>User can add a new seed (e.g. CUSTOMX) in any of the test data sets.<WIKI>>

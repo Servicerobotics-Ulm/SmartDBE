@@ -1,0 +1,14 @@
+TaskDefinitionRepository CommNavigationObjects {
+	
+	TaskDefinition transportationTask {
+		in {
+			startStationID : String
+			goalStationID : String
+		}
+		results {
+			ERROR value = "TASK FAILED"
+			SUCCESS value = "OK"
+		}
+	}
+
+}

@@ -1,0 +1,15 @@
+|  |——CommObject    : <CommDataFiles> {
+|  |  |——[Local]CommFileMetaData    : <fileMetaData>[2147483647] {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]CommTimeStamp    : <timestamp> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——Int8     : <datastream>[2147483647]
+|  |  |——Boolean     : <commpression>
+|  |  |——String     : <baseFileName>
+|  |  |——Boolean     : <isSingleFile>
+|  |  |——Boolean     : <valid>
+|  | }

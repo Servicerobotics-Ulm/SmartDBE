@@ -1,0 +1,108 @@
+/** 
+\class DomainTSDemo::BasicBooleanCore
+
+Structure of Communication Object:
+- boolValue: Boolean 
+
+\class DomainTSDemo::BasicTimeCore
+
+Structure of Communication Object:
+- hour: UInt8  = 0 
+- minute: UInt8  = 0 
+- second: UInt8  = 0 
+
+\class DomainTSDemo::TimeObjectCore
+
+Structure of Communication Object:
+- basic: DomainTSDemo::BasicTime 
+- compound: CommBasicObjects::CommTimeStamp 
+
+\class DomainTSDemo::Coordinate2DCore
+
+Structure of Communication Object:
+- x: Double  = 0.0 
+- y: Double  = 0.0 
+
+\class DomainTSDemo::Coordinate3DCore
+
+Structure of Communication Object:
+- x: Double  = 0.0 
+- y: Double  = 0.0 
+- z: Double  = 0.0 
+
+\class DomainTSDemo::Coordinate3DPlusCore
+
+Structure of Communication Object:
+- x: Double  = 0.0 
+- y: Double  = 0.0 
+- z: Double  = 0.0 
+- plus: CommBasicObjects::CommPosition3dWithCovariance 
+
+\class DomainTSDemo::NestedImportCore
+
+Structure of Communication Object:
+- a: DomainTSDemo::Coordinate3D 
+- aa: DomainTSDemo::Coordinate3DPlus 
+- aaa: CommNavigationObjects::CommClosestNodeRequest 
+
+
+
+
+@defgroup DomainTSDemo
+@ingroup commObjGroup
+@{
+\page DomainTSDemoPage DomainTSDemo
+Class Reference: DomainTSDemo
+<hr>
+
+@section BasicBoolean BasicBoolean
+- boolValue: Boolean  
+
+Class Reference: DomainTSDemo::BasicBooleanCore
+<hr>
+@section BasicTime BasicTime
+- hour: UInt8   = 0 
+- minute: UInt8   = 0 
+- second: UInt8   = 0 
+
+Class Reference: DomainTSDemo::BasicTimeCore
+<hr>
+@section TimeObject TimeObject
+- basic: @ref BasicTime (CommObj) 
+- compound: @ref CommTimeStamp (CommObj) 
+
+Class Reference: DomainTSDemo::TimeObjectCore
+<hr>
+@section Coordinate2D Coordinate2D
+- x: Double   = 0.0 
+- y: Double   = 0.0 
+
+Class Reference: DomainTSDemo::Coordinate2DCore
+<hr>
+@section Coordinate3D Coordinate3D
+- x: Double   = 0.0 
+- y: Double   = 0.0 
+- z: Double   = 0.0 
+
+Class Reference: DomainTSDemo::Coordinate3DCore
+<hr>
+@section Coordinate3DPlus Coordinate3DPlus
+- x: Double   = 0.0 
+- y: Double   = 0.0 
+- z: Double   = 0.0 
+- plus: @ref CommPosition3dWithCovariance (CommObj) 
+
+Class Reference: DomainTSDemo::Coordinate3DPlusCore
+<hr>
+@section NestedImport NestedImport
+- a: @ref Coordinate3D (CommObj) 
+- aa: @ref Coordinate3DPlus (CommObj) 
+- aaa: @ref CommClosestNodeRequest (CommObj) 
+
+Class Reference: DomainTSDemo::NestedImportCore
+<hr>
+
+
+@}
+*/
+

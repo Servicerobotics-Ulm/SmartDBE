@@ -1,0 +1,19 @@
+|  |——CommObject    : <CommGridMap> {
+|  |  |——UInt32     : <id>
+|  |  |——Boolean     : <is_valid>
+|  |  |——[Imported]CommTimeStamp    : <time> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——Int32     : <xOffsetMM>
+|  |  |——Int32     : <yOffsetMM>
+|  |  |——Int32     : <xOffsetCells>
+|  |  |——Int32     : <yOffsetCells>
+|  |  |——Int32     : <cellSizeMM>
+|  |  |——UInt32     : <xSizeMM>
+|  |  |——UInt32     : <ySizeMM>
+|  |  |——UInt32     : <xSizeCells>
+|  |  |——UInt32     : <ySizeCells>
+|  |  |——UInt32     : <size>
+|  |  |——UInt8     : <cell>[2147483647]
+|  | }

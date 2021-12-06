@@ -1,0 +1,6 @@
+|  |——CommObject    : <CommCorridorNetworkStatus> {
+|  |  |——[Local]CommCorridorNode    : <nodes>[2147483647] {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }

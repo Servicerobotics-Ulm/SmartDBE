@@ -1,0 +1,4 @@
+|  |——CommObject    : <CommDigitalOutputRequest> {
+|  |  |——UInt32     : <outputNumber>
+|  |  |——Boolean     : <outputValue>
+|  | }

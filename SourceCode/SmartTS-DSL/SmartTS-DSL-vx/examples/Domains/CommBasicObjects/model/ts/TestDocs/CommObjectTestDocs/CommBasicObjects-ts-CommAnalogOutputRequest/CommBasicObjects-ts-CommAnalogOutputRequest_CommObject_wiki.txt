@@ -1,0 +1,4 @@
+|  |——CommObject    : <CommAnalogOutputRequest> {
+|  |  |——UInt32     : <outputNumber>
+|  |  |——Double     : <outputValue>
+|  | }

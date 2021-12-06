@@ -1,0 +1,13 @@
+ForkingServiceDefinition Service: [FileMoveEventService] Pattern: EventPattern {
+EventType      :CommBasicObjects.CommFileMoverEventResult
+|——    : <> {
+| }
+
+ActivationType :CommBasicObjects.CommFileMoverEventParameter
+|——    : <> {
+| }
+
+EventStateType :CommBasicObjects.CommFileMoverEventState
+|——    : <> {
+| }
+}

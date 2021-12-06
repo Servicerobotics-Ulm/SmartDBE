@@ -1,0 +1,5 @@
+ForkingServiceDefinition Service: [PlannerGoalListService] Pattern: PushPattern {
+DataType       :CommNavigationObjects.CommPlannerGoalList
+|——    : <> {
+| }
+}

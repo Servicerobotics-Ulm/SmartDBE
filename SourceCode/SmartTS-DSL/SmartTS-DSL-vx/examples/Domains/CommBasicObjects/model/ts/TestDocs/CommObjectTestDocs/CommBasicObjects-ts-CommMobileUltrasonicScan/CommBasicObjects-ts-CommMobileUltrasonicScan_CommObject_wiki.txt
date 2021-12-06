@@ -1,0 +1,10 @@
+|  |——CommObject    : <CommMobileUltrasonicScan> {
+|  |  |——[Local]CommBaseState    : <baseState> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  |  |——[Local]CommUltrasonicScan    : <usScan> {
+|  |  |  |——    : <> {
+|  |  |  | }
+|  |  | }
+|  | }
