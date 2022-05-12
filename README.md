@@ -21,7 +21,7 @@ OR
 ```
  
 ### [3a] SmartAAS
-:information_source: In case you have chosen Option B in step [1] above, SmartAAS comes pre-installed.
+:information_source: In case you have chosen Option A in step [1] above, SmartAAS comes pre-installed.
 
 * Copy Folder "SmartAASbox" to "$HOME/SOFTWARE/smartsoft"
 ```sh
